@@ -163,12 +163,11 @@ button:active {
 }
 
 #leftTextbox {
-       	padding: 5px 12px 0px 12px;
-       	width:180px;
+    padding: 2px 18px 2px 18px;
+    width:180px;
 	color:#000;
-    	border-top-left-radius:1000px;
-    	border-bottom-right-radius:1000px;
-	padding-left:30px;
+    border-top-left-radius:1000px;
+    border-bottom-right-radius:1000px;
 }
 .leftButton{
     	border-top-left-radius:100px;

@@ -2,7 +2,7 @@ var camera, cameraAngle, scene, renderer;
 var controls;
 
 var headerLength = 10;
-var footerLength = 40;
+var footerLength = 60;
 
 var allPages = {};
 var allPagesIndex = []; //remove this later
@@ -301,10 +301,10 @@ function init()
 function transform(sources, destinations, duration, variation, pageTweens, destroyOnComplete) 
 {
 	//TWEEN.removeAll();
-	for ( var i = 0; i < sources.length; i ++ ) 
+	for ( var i = 0; i < sources.length; i ++ )
 	{
-		var object = sources[ i ];
-		var target = destinations[ i ];
+		var object = sources[i];
+		var target = destinations[i];
 		if( pageTweens[i] != undefined )
 		{
 			TWEEN.remove(pageTweens[i][0]);
