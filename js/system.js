@@ -10,11 +10,32 @@ function headerToggle(){
 	isHeaderSet=!isHeaderSet;
 }
 // put this in 3script later
+function setEvents()
+{
+	var transformTime = 1500;
+	
+	var button = document.getElementById( 'page' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, currentPage.tweens );}, false );
+
+	var button = document.getElementById( 'sphere' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, currentPage.tweens );}, false );
+
+	var button = document.getElementById( 'helix' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, currentPage.tweens );}, false );
+
+	var button = document.getElementById( 'grid' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, currentPage.tweens );}, false );
+
+	var button = document.getElementById( 'next' );
+	button.addEventListener( 'click', function ( event ) {getNextPage();}, false );
+	
+	window.addEventListener( 'resize', onWindowResize, false );
+}
+
 var alpha=0;
-var resultTable=[];
 function VScroll(isScrollUp)
 {
-	resultTable=[];
+	var resultTable=[];
 	var maxAngle = ( currentPage.pageRect.bottom - currentPage.pageRect.top - window.innerHeight + headerLength + footerLength ) / pivot.z ;
 	//console.log(maxAngle+":::::"+alpha);
 	if ( !isScrollUp)

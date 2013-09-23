@@ -4,7 +4,8 @@ var controls;
 var headerLength = 10;
 var footerLength = 40;
 
-var allPages = [];
+var allPages = {};
+var allPagesIndex = []; //remove this later
 var currentPage;
 
 var REblock = new RegExp("^block");
@@ -18,9 +19,10 @@ pivot.z=-3000;
 
 function page( element )
 {
-	this.name = element.id;
+	this.name = element.id.substr(4);
 	this.pageElement = element;
 	this.pageRect = element.getBoundingClientRect();
+	this.pageTween;
 	this.DOMobjects = [];
 	this.targets = { page: [], sphere: [], helix: [], grid: [] };
 	this.WGLobjects = [];
@@ -33,6 +35,8 @@ function page( element )
 		getSphereTargets(this.DOMobjects, this.targets.sphere, 900);
 		getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
 		getGridTargets(this.DOMobjects, this.targets.grid);
+		loadWGLObjects(this.DOMobjects, this.WGLobjects);
+		//console.log("name = "+this.name+".");
 	}
 }
 
@@ -175,18 +179,47 @@ function getGridTargets(source, destination)
 	}
 }
 
-function getRandomTarget(object)
+function getRandomTarget(object) //always outside the view
 {
-	object.position.x = (Math.random() * 4000 + 2000) * Math.pow(-1, Math.floor(Math.random() * 100));
-	object.position.y = (Math.random() * 4000 + 2000) * Math.pow(-1, Math.floor(Math.random() * 100));
-	object.position.z = (Math.random() * 2000 + 2000) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.z = (Math.random() * 5000 + 100) * Math.pow(-1, Math.floor(Math.random() * 100));
+	var offsetY = (camera.position.z - object.position.z) * Math.tan((Math.PI/180) * cameraAngle / 2);
+	object.position.y = (Math.random() * 2000 + offsetY + window.innerHeight / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.x = (Math.random() * 2000 + offsetY * (window.innerWidth / window.innerHeight) + window.innerWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
 	object.rotation.x = Math.random() % Math.PI*2;
 	object.rotation.y = Math.random() % Math.PI*2;
 	object.rotation.z = Math.random() % Math.PI*2;
 }
 
+function loadWGLObjects(source, destination)
+{
+	var object;
+	for ( var j = 0; j < source.length; j ++ )
+	{
+		object = new THREE.CSS3DObject( source[j] );
+		getRandomTarget(object);
+		destination.push( object );
+	}
+}
+
+function unloadPage( elements )
+{
+	for ( var i = 0; i < elements.length; i++ )
+	{
+		scene.remove(elements[i]);
+	}
+}
+
+function loadPage( element )
+{
+	for ( var i = 0; i < element.WGLobjects.length; i++ )
+	{
+		scene.add(element.WGLobjects[i]);
+	}
+}
+
 function explodePage( element )
 {
+	if ( element == undefined ) return; 
 	var object;
 	var randomTargets = [];
 	for ( var i = 0; i < element.WGLobjects.length; i++ )
@@ -195,19 +228,44 @@ function explodePage( element )
 		getRandomTarget(object);
 		randomTargets.push(object);
 	}
-	transform(element.WGLobjects, randomTargets, 3000, 3000 , element.tweens);
+	transform(element.WGLobjects, randomTargets, 3000, 0, element.tweens, true);
+}
+
+function getPage(pageName)
+{
+	alpha = 0;
+	explodePage( currentPage );
+	currentPage = allPages[pageName];
+	loadPage( currentPage );
+	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500 , currentPage.tweens);
 }
 
 var curIndex = 0;
 
-function getNextPage()
+function getNextPage() //remove this later
 {
 	curIndex++;
 	alpha = 0;
-	if ( curIndex >= allPages.length ) curIndex = 0;
+	if ( curIndex >= allPagesIndex.length ) curIndex = 0;
 	explodePage( currentPage );
-	currentPage = allPages[curIndex];
-	transform(currentPage.WGLobjects, currentPage.targets.page, 3000, 3000 , currentPage.tweens);
+	currentPage = allPages[allPagesIndex[curIndex]];
+	loadPage( currentPage );
+	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500 , currentPage.tweens);
+}
+
+function initPages()
+{
+	var children = [];
+	var tempPage;
+	container = document.getElementById("container");
+	getAllChildren(container, REpage, children);
+	for ( var i = 0 ; i < children.length ; i++ )
+	{
+		tempPage = new page(children[i]);
+		tempPage.initPage();
+		allPagesIndex.push(tempPage.name);
+		allPages[tempPage.name] = tempPage;
+	}
 }
 
 function init() 
@@ -217,17 +275,19 @@ function init()
 	camera.position.z = window.innerHeight/(2*Math.tan((Math.PI/180)*(cameraAngle/2)));
 	scene = new THREE.Scene();
 
-	var object;
+	/*var object;
 	for ( var i = 0; i < allPages.length; i ++ ) 
 	{
 		for ( var j = 0; j < allPages[i].DOMobjects.length; j ++ )
 		{
 			object = new THREE.CSS3DObject( allPages[i].DOMobjects[j] );
 			getRandomTarget(object);
-			scene.add( object );
+			//scene.add( object );
 			allPages[i].WGLobjects.push( object );
 		}
-	}
+	}*/
+	
+	initPages();
 
 	renderer = new THREE.CSS3DRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight);
@@ -235,35 +295,10 @@ function init()
 	container.innerHTML="";
 	container.appendChild( renderer.domElement );
 	
-	/*
-	controls = new THREE.TrackballControls( camera, renderer.domElement );
-	controls.rotateSpeed = 0.5;
-	controls.addEventListener( 'change', render );
-	*/
-	
-	var transformTime = 1500;
-	
-	var button = document.getElementById( 'page' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, currentPage.tweens );}, false );
-
-	var button = document.getElementById( 'sphere' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, currentPage.tweens );}, false );
-
-	var button = document.getElementById( 'helix' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, currentPage.tweens );}, false );
-
-	var button = document.getElementById( 'grid' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, currentPage.tweens );}, false );
-
-	var button = document.getElementById( 'next' );
-	button.addEventListener( 'click', function ( event ) {getNextPage();}, false );
-
-	transform(currentPage.WGLobjects, currentPage.targets.page, 3000, 3000 , currentPage.tweens);
-	
-	window.addEventListener( 'resize', onWindowResize, false );
+	getPage("Home");
 }
 
-function transform(sources, destinations, duration, variation, pageTweens) 
+function transform(sources, destinations, duration, variation, pageTweens, destroyOnComplete) 
 {
 	//TWEEN.removeAll();
 	for ( var i = 0; i < sources.length; i ++ ) 
@@ -274,6 +309,7 @@ function transform(sources, destinations, duration, variation, pageTweens)
 		{
 			TWEEN.remove(pageTweens[i][0]);
 			TWEEN.remove(pageTweens[i][1]);
+			TWEEN.remove(pageTweens[i][2]);
 		}
 		var pos = new TWEEN.Tween( object.position )
 			.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
@@ -283,12 +319,38 @@ function transform(sources, destinations, duration, variation, pageTweens)
 			.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
 			.easing( TWEEN.Easing.Exponential.InOut )
 			.start();
-		pageTweens[i] = [pos, rot];
+		var dest = new TWEEN.Tween( object )
+			.to( {}, duration + variation * 2 )
+			.onComplete( function() { if (destroyOnComplete == true) scene.remove( this );})
+			.start();
+		pageTweens[i] = [pos, rot, dest];
 	}
-	new TWEEN.Tween( this )
-		.to( {}, duration * 2 )
+		new TWEEN.Tween( this )
+		.to( {}, duration + variation )
 		.onUpdate( render )
 		.start();
+		
+	/*if( pageObject.pageTween != undefined )
+	{
+		TWEEN.remove(pageObject.pageTween);
+		//console.log("Tweening removed");
+	}
+	
+	if (destroyOnComplete == true)
+	{
+		pageObject.pageTween = new TWEEN.Tween( sources )
+			.to( {}, duration + variation )
+			.onUpdate( render )
+			.onComplete( function() {for ( var i = 0; i < sources.length; i++ ){scene.remove(sources[i]);}})
+			.start();
+	}
+	else
+	{
+		pageObject.pageTween = new TWEEN.Tween( sources )
+			.to( {}, duration + variation )
+			.onUpdate( render )
+			.start();
+	}*/
 }
 
 function onWindowResize() 
@@ -302,7 +364,6 @@ function animate()
 {
 	requestAnimationFrame( animate );
 	TWEEN.update();
-	//controls.update();
 }
 
 function render() 
@@ -312,18 +373,8 @@ function render()
 
 function start() 
 {
-	var children = [];
-	var tempPage;
-	container = document.getElementById("container");
-	getAllChildren(container, REpage, children);
-	for ( var i = 0 ; i < children.length ; i++ )
-	{
-		tempPage = new page(children[i]);
-		tempPage.initPage();
-		allPages.push(tempPage);
-	}
-	currentPage = allPages[0];
 	init();
+	setEvents();
 	animate();
 }
 
