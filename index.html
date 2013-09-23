@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="js/jquery-1.10.1.min.js" ></script>
+		<script src="js/jquery.easing.1.3.js" ></script>
 		<script src="bootstrap/js/bootstrap.js" ></script>
 		<script src="js/underscore-min.js"></script>
 		<script src="js/backbone-min.js"></script>
@@ -19,7 +20,7 @@
 	</head>
 	<body>
 		<div id="container">
-			<span id = "page1">
+			<span id = "pageHome">
 				<table>
 					<tr>
 						<td rowspan="3">
@@ -42,7 +43,7 @@
 					</tr>			
 				</table>
 			</span>
-			<span id = "page2">
+			<span id = "pageFirst">
 				<table>
 					<tr>
 						<td rowspan="3">
@@ -65,7 +66,7 @@
 					</tr>			
 				</table>
 			</span>
-			<span id = "page3">
+			<span id = "pageSecond">
 				<table>
 					<tr>
 						<td rowspan="3">
@@ -139,7 +140,6 @@
 				</table>
 			</span>
 		</div>
-		<p id = "mess" ></p>
 		<div id="menu">
 			<button id="page">PAGE</button>
 			<button id="sphere">SPHERE</button>
@@ -147,16 +147,13 @@
 			<button id="grid">GRID</button>
 			<button id="next">NEXT</button>
 		</div>
-		<center>
-			<div class="header">
-				<div class="logo"></div>
-				<a class="btn btn-primary rightButton button1">Button1</a>
-				<a class="btn btn-primary leftButton button2">Blog</a><br />
-				<a class="btn btn-primary rightButton button3">Partners</a>
-				<a class="btn btn-primary leftButton button4">Button1</a><br />
-			</div>
-		</center>
-
+		<div class="header">
+			<div class="logo"><div class="ripple"></div></div>
+			<a class="btn btn-primary leftButton button1">Home</a><br />
+			<a class="btn btn-primary leftButton button2">2</a><br />
+			<a class="btn btn-primary leftButton button3">3</a><br />
+			<a class="btn btn-primary leftButton button4">4</a><br />
+		</div>
 		<div class="search">
 			<input type="text" id="leftTextbox" class="searchBox" placeholder="Search Events"/>
 		</div>
@@ -164,22 +161,5 @@
 			<span class="social"> Fb | G+ | twitter | blog</span>
 			<center>&copy; Engineer 2013 Technical team</center>
 		</div>
-
-		<script>
-/*
-publicEvents = [
-	{ name: "chemical events", info: "blah"},
-	{ name: "biz events", info: "blah-mech-blah"},
-	{ name: "mba events", info: "blah-mech-blah"},
-	{ name: "civil events", info: "blah-mech-blah"},
-	];
-
-subevents = [
-	{name: "subEvent1", info: "blah blah this is subevent"},
-	{name: "subEvent4", info: "blah blah this is subevent4"},
-];
-*/
-		</script>
-	<!--<script src="js/App.js"></script> -->
 	</body>
 </html>
