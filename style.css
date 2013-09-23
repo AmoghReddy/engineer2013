@@ -126,11 +126,10 @@ button:active {
 }
 .header .logo{
 	text-align:center;
-	width: 0px;
 	height: 0px;
 	border-style: solid;
 	border-width: 100px 100px 0 100px;
-	border-color: #007bff transparent transparent transparent;
+	border-color: #a4a4a4 transparent transparent transparent;
 }
 .btn-success{
    	-webkit-box-shadow: 0px 0px 10px green;
@@ -138,9 +137,9 @@ button:active {
    	box-shadow: 0px 0px 10px green;
 }
 .btn-primary{
-   	-webkit-box-shadow: 0px 0px 10px #0074cc;
-   	-moz-box-shadow: 0px 0px 10px  #0074cc;
-   	box-shadow: 0px 0px 10px #0074cc;
+   	-webkit-box-shadow: 0px 0px 10px #cc74cc;
+   	-moz-box-shadow: 0px 0px 10px  #cc74cc;
+   	box-shadow: 0px 0px 10px #cc74cc;
 }
 .header .button1{
 	margin-left:-180px;
