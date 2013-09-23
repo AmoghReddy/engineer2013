@@ -88,6 +88,6 @@ function system()
 	// controlling mouse
 	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
 	//console.log(camera.position);
-	$('.searchBox').typeahead({source: colors});
+	$('#searchBox').typeahead({source: colors});
 }
 window.onload=system;

@@ -107,7 +107,7 @@ button:active {
 	background-color: rgba(0,255,255,0.75);
 }
 
-.search{
+.pull-right{
 	position:fixed;
 	right:10px;
 	top:10px;
@@ -162,12 +162,12 @@ button:active {
 	margin-top:-130px;
 }
 
-#leftTextbox {
-    padding: 2px 18px 2px 18px;
-    width:180px;
+#searchBox {
+    	padding: 2px 18px 2px 18px;
+    	width:130px;
 	color:#000;
-    border-top-left-radius:1000px;
-    border-bottom-right-radius:1000px;
+    	border-top-left-radius:1000px;
+    	border-bottom-right-radius:1000px;
 }
 .leftButton{
     	border-top-left-radius:100px;
