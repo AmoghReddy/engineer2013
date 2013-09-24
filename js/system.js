@@ -9,6 +9,18 @@ function headerToggle(){
 	}
 	isHeaderSet=!isHeaderSet;
 }
+function quickNavToggle(isNavSet){
+	console.log(isNavSet);
+	if(isNavSet){
+		$(".quickNav b").stop().hide(100);
+		$(".quickNav i").fadeIn(0);
+	}
+	else{
+		$(".quickNav i").fadeOut(0);
+		$(".quickNav b").stop().show();
+	}
+	isNavSet=!isNavSet;
+}
 // put this in 3script later
 function setEvents()
 {
@@ -95,14 +107,18 @@ function extractDelta(e)
 function system()
 {
 	// in 3script.js
-	start();
 	$(".logo").click(headerToggle);
-	$("#quickNavContent").slideUp();
 	headerToggle();
+	$(".quickNav b").hide(0);
+	$(".quickNav div").hover(function(){ quickNavToggle(false); },
+	                          function(){ quickNavToggle(true); }
+				  );
+	//$(".quickNav div").mouseout(quickNavToggle);
 	//headerToggle();
 	// controlling mouse
 	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
 	//console.log(camera.position);
 	$('#searchBox').typeahead({source: colors});
+	start();
 }
 window.onload=system;

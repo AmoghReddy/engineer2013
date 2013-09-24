@@ -118,13 +118,48 @@ button:active {
 	width:100%;
 }
 .quickNav div{
+	height:20px;
+	overflow:hidden;
+	width:5%;
 	padding:10px;
 	color:#fff;
-	width:50%;
-	background:rgba(0,0,0,0.5);
+	background:rgba(100,100,100,0.5);
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px;
+	transition-property:width;
+	-moz-transition-property: width; /* Firefox 4 */
+	-webkit-transition-property:width; /* Safari and Chrome */
+	-o-transition-property:width; /* Opera */
+
+	transition-duration: 0.5s;
+	-moz-transition-duration:0.5s; /* Firefox 4 */
+	-webkit-transition-duration: 0.5s; /* Safari and Chrome */
+	-o-transition-duration: 0.5s; /* Opera */
 }
+.quickNav div:hover{
+	width:50%;
+}
+.quickNav i{
+	color:#fff;
+	padding:0px;
+}
+.quickNav b{
+	opacity:0.8;
+	cursor:pointer;
+	transition-property:opacity;
+	-moz-transition-property:opacity ; /* Firefox 4 */
+	-webkit-transition-property:opacity; /* Safari and Chrome */
+	-o-transition-property:opacity; /* Opera */
+
+	transition-duration: 0.5s;
+	-moz-transition-duration:0.5s; /* Firefox 4 */
+	-webkit-transition-duration: 0.5s; /* Safari and Chrome */
+	-o-transition-duration: 0.5s; /* Opera */
+}
+.quickNav b:hover{
+	opacity:1;
+}
+
 .header{
 	position:fixed;
 	top:0px;
