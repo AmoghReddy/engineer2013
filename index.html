@@ -236,21 +236,30 @@
 			<button id="next">NEXT</button>
 		</div>
 		<div class="header">
-			<div class="logo"><div class="ripple"></div></div>
+			<div class="logo"></div>
 			<a class="btn btn-primary leftButton button1"><i class="icon-home"></i> Home</a><br />
 			<a class="btn btn-primary leftButton button2">2</a><br />
 			<a class="btn btn-primary leftButton button3">3</a><br />
 			<a class="btn btn-primary leftButton button4">4</a><br />
-		</div>
-		<div class="pull-right">
-			<input type="text" id="searchBox" placeholder=" Search events"/>
-			<div class="btn-group">
-  			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-user"></i> <span class="caret"></span></a>
-  			<ul class="dropdown-menu">
-				<li><a>Login</a></li>
-				<li><a>Register</a></li>
-				<li><a>Logout</a></li>
-  			</ul>
+
+			<center>
+				<div class="quickNav">
+					<div id="quickNavTool"><i class=".glyphicon .glyphicon-th"></i></div>
+					<div id="quickNavContent">Content Content Content Content Content Content</div>
+				</div>
+			</center>
+			<div class="pull-right">
+				<input type="text" id="searchBox" placeholder=" Search events"/>
+				<div class="dropdown">
+  					<a class="dropdown-toggle btn" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
+  					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding-left:10px;" role="menu" aria-labelledby="dLabel">
+						<b>Suresh Alse</b><br />
+						<em>alseambusher@gmail.com</em>
+						<li class="divider"></li>
+						<li><a>Profile</a></li>
+						<li><a>Logout</a></li>
+  					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="footer">

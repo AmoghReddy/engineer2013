@@ -97,6 +97,7 @@ function system()
 	// in 3script.js
 	start();
 	$(".logo").click(headerToggle);
+	$("#quickNavContent").slideUp();
 	headerToggle();
 	//headerToggle();
 	// controlling mouse

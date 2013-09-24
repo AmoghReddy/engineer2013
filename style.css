@@ -109,16 +109,25 @@ button:active {
 
 .pull-right{
 	position:fixed;
-	right:10px;
-	top:10px;
+	top:5px;
+	right:15px;
+}
+.quickNav{
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+.quickNav div{
+	padding:10px;
+	color:#fff;
+	width:50%;
+	background:rgba(0,0,0,0.5);
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
 }
 .header{
 	position:fixed;
 	top:0px;
-	width:100%;
-	height:60px;
-	opacity:0.9;
-	color:#fff;
    	/*-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
    	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
    	box-shadow: 0px 0px 10px rgba(0,0,0,.8);*/
@@ -132,6 +141,17 @@ button:active {
 	border-style: solid;
 	border-width: 100px 100px 0 100px;
 	border-color: #a4a4a4 transparent transparent transparent;
+}
+.accountSettings{
+	margin-right:100px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.dropdown .btn{
+	background:rgba(0,0,0,0);
+}
+.dropdown li{
+	cursor:pointer;
 }
 .btn-success{
 
@@ -184,6 +204,9 @@ button:active {
 	height:12px;
 	padding: 2px 20px 5px 20px;
 }
+.btn-group a{
+	background: rgba(0,0,0,0);
+}
 
 .footer{
 	padding-top:10px;
@@ -203,110 +226,4 @@ button:active {
 	bottom:5px;
 	left:5px;
 	border: 1px solid #ffffff;
-}
-/*
-usage:
-<div class="ribbon-wrapper-green"><div class="ribbon-green">NEWS</div></div>
-*/
-.ribbon-wrapper-green {
-  width: 85px;
-  height: 88px;
-  overflow: hidden;
-  position: absolute;
-  top: -3px;
-  right: -3px;
-}
-
-.ribbon-green {
-  font: bold 15px Sans-Serif;
-  color: #333;
-  text-align: center;
-  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform:    rotate(45deg);
-  -ms-transform:     rotate(45deg);
-  -o-transform:      rotate(45deg);
-  position: relative;
-  padding: 7px 0;
-  left: -5px;
-  top: 15px;
-  width: 120px;
-  background-color: #BFDC7A;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
-  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
-  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
-  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
-  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
-  color: #6a6340;
-  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
-  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
-}
-
-.ribbon-green:before, .ribbon-green:after {
-  content: "";
-  border-top:   3px solid #6e8900;   
-  border-left:  3px solid transparent;
-  border-right: 3px solid transparent;
-  position:absolute;
-  bottom: -3px;
-}
-
-.ribbon-green:before {
-  left: 0;
-}
-.ribbon-green:after {
-  right: 0;
-}
-
-/* ripple efffect*/
-.ripple,.ripple:before,.ripple:after {
-	display:block;
-	border-radius:2px;
-	width:2px;
-	height:2px;
-	-webkit-animation:rip 10s infinite;
-	-moz-animation:rip 10s infinite;
-}
-.ripple {
-	position:absolute;
-	z-index:-1;
-	top:10px;
-	left:35px;
-}
-.ripple:before,.ripple:after {
-	content:'';
-	position:absolute;
-}
-.ripple:before {-webkit-animation-delay:.2s;-moz-animation-delay:.2s;top:5px;left:25px;}
-.ripple:after {-webkit-animation-delay:.8s;-moz-animation-delay:.8s;top:25px;left:0;}
-@-webkit-keyframes rip 
-{
-0%  {
-  box-shadow:0 0 0 0 transparent,
-  box-shadow:0 0 0 0 transparent,
-}
-5%  {
-  box-shadow:0 0 0 0 #45c2c5,
-	     0 0 0 0 rgba(255,255,255,0.5),
-}
-100% {
-  box-shadow:0 0 40px 100px #45c2c5,
-	     0 0 10px 110px transparent,
-}
-}
-@-moz-keyframes rip 
-{
-0%  {
-  box-shadow:0 0 0 0 transparent,
-	     0 0 0 0 transparent,
-}
-5%  {
-  box-shadow:0 0 0 0 #45c2c5,
-	     0 0 0 0 rgba(255,255,255,0.5),
-}
-100% {
-  box-shadow:0 0 40px 100px #45c2c5,
-	     0 0 10px 110px transparent,
-}
 }
