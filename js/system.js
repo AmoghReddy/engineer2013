@@ -17,38 +17,62 @@ function setEvents()
 	var button = document.getElementById( 'page' );
 	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, currentPage.tweens );}, false );
 
-	var button = document.getElementById( 'sphere' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, currentPage.tweens );}, false );
+	//var button = document.getElementById( 'sphere' );
+	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, currentPage.tweens );}, false );
 
-	var button = document.getElementById( 'helix' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, currentPage.tweens );}, false );
+	//var button = document.getElementById( 'helix' );
+	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, currentPage.tweens );}, false );
 
-	var button = document.getElementById( 'grid' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, currentPage.tweens );}, false );
+	//var button = document.getElementById( 'grid' );
+	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, currentPage.tweens );}, false );
 
 	var button = document.getElementById( 'next' );
 	button.addEventListener( 'click', function ( event ) {getNextPage();}, false );
 	
 	window.addEventListener( 'resize', onWindowResize, false );
+	
+	var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel"; //FF doesn't recognize mousewheel as of FF3.x
+	
+	$(window).bind(mousewheelevt, function(event) 
+	{
+		var delta = extractDelta(event);
+		if (delta <= 0) VScroll(true);
+		else VScroll(false);
+	});
 }
 
 var alpha=0;
 function VScroll(isScrollUp)
 {
 	var resultTable=[];
-	var maxAngle = ( currentPage.pageRect.bottom - currentPage.pageRect.top - window.innerHeight + headerLength + footerLength ) / pivot.z ;
-	//console.log(maxAngle+":::::"+alpha);
-	if ( !isScrollUp)
+	if ( currentPage.name.match('allCommittees') ) 
 	{
-		if (alpha - Math.PI/180 < maxAngle) return;
-		alpha-=Math.PI/180;
+		if (isScrollUp)
+		{
+			alpha-=Math.PI/180;
+		}
+		else
+		{
+			alpha+=Math.PI/180;
+		}
+		getNextRevolution(currentPage.targets.page, resultTable, alpha * 15, currentPage.zDepth);
 	}
 	else
 	{
-		if (alpha + Math.PI/180 > 0) return;
-		alpha+=Math.PI/180;
+		var maxAngle = ( currentPage.pageRect.bottom - currentPage.pageRect.top - window.innerHeight + headerLength + footerLength ) / pivot.z ;
+		//console.log(maxAngle+":::::"+alpha);
+		if (isScrollUp)
+		{
+			if (alpha - Math.PI/180 < maxAngle) return;
+			alpha-=Math.PI/180;
+		}
+		else
+		{
+			if (alpha + Math.PI/180 > 0) return;
+			alpha+=Math.PI/180;
+		}
+		getNextScroll(currentPage.targets.page, currentPage.initialPositions, resultTable, alpha);
 	}
-	getNextScroll(currentPage.targets.page, currentPage.initialPositions, resultTable, alpha);
 	transform(currentPage.WGLobjects, resultTable, 1000, 1000, currentPage.tweens);
 }
 
@@ -67,16 +91,6 @@ function extractDelta(e)
         return e.originalEvent.wheelDelta;
     }
 }
-
-var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel"; //FF doesn't recognize mousewheel as of FF3.x
-$(window).bind(mousewheelevt, function(event) 
-{
-	var delta = extractDelta(event);
-	if (delta >= 0)
-	VScroll(true);
-	else 
-	VScroll(false);
-});
 
 function system()
 {

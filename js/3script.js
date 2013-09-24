@@ -1,25 +1,29 @@
 var camera, cameraAngle, scene, renderer;
-var controls;
+var container, controls;
 
 var headerLength = 10;
 var footerLength = 60;
 
+var allForms = {};
+var allSideBars = {};
 var allPages = {};
 var allPagesIndex = []; //remove this later
+
 var currentPage;
+var currentSideBar;
+var currentForm;
 
 var REblock = new RegExp("^block");
 var REpage = new RegExp("^page");
-var container;
+var REside = new RegExp("^side");
+var REform = new RegExp("^form");
+var REcomittee = new RegExp("^comittee");
 
-var pivot = new THREE.Vector3();
-pivot.x=0;
-pivot.y=0;
-pivot.z=-3000;
+var pivot = new THREE.Vector3(0, 0, -3000);
 
-function page( element )
+function page( element, dontCenter, radiusAdjust )
 {
-	this.name = element.id.substr(4);
+	this.name;
 	this.pageElement = element;
 	this.pageRect = element.getBoundingClientRect();
 	this.pageTween;
@@ -28,15 +32,24 @@ function page( element )
 	this.WGLobjects = [];
 	this.initialPositions = [];
 	this.tweens = {};
+	this.zDepth;
 	this.initPage = function()
 	{
+		this.name = element.id.substr(4);
 		getAllChildren(this.pageElement, REblock, this.DOMobjects);
-		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement);
-		getSphereTargets(this.DOMobjects, this.targets.sphere, 900);
-		getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
-		getGridTargets(this.DOMobjects, this.targets.grid);
+		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, dontCenter, radiusAdjust);
+		//getSphereTargets(this.DOMobjects, this.targets.sphere, 900);
+		//getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
+		//getGridTargets(this.DOMobjects, this.targets.grid);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 		//console.log("name = "+this.name+".");
+	}
+	this.initComittee = function()
+	{
+		this.name = element.id;
+		getAllChildren(this.pageElement, REcomittee, this.DOMobjects);
+		getComitteeTargets2(this.DOMobjects, this.targets.page, 200, this);
+		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 	}
 }
 
@@ -83,7 +96,7 @@ function lookAwayFrom(obj, piv)
 	obj.position.z += piv.z;
 }
 
-function getPageTargets(source, destination, initPos, pageElement)
+function getPageTargets(source, destination, initPos, pageElement, dontCenter, radiusAdjust)
 {
 	var rect, object, boxleft, boxtop, boxwidth, boxheight, theta, pos;
 	var vect = new THREE.Vector3();
@@ -91,7 +104,8 @@ function getPageTargets(source, destination, initPos, pageElement)
 	var threshold = pageElement.getBoundingClientRect()
 	var topThreshold = threshold.top - headerLength;
 	var centerAdjustment = ( window.innerWidth - ( threshold.right - threshold.left ) ) / 2 ;
-	for ( var i = 0; i < source.length; i ++ ) 
+	if (dontCenter) centerAdjustment = 0;
+	for ( var i = 0; i < source.length; i ++ )
 	{
 		rect = source[i].getBoundingClientRect();
 		object = new THREE.Object3D();
@@ -106,7 +120,7 @@ function getPageTargets(source, destination, initPos, pageElement)
 		vect.x = object.position.x;
 		theta = object.position.y / vect.z;
 		object.position.y = vect.z * Math.sin(theta);
-		object.position.z = vect.z - vect.z * Math.cos(theta);
+		object.position.z = vect.z - vect.z * Math.cos(theta) + radiusAdjust;
 		lookAwayFrom(object, vect);
 		destination.push( object );
 	}
@@ -130,17 +144,57 @@ function getNextScroll(source, sourcePositions, destination, alpha)
 	}
 }
 
+function getNextRevolution(source, destination, alpha, zDepth)
+{
+	var object, theta;
+	var vector = new THREE.Vector3();
+	vector.copy( camera.position );
+	vector.z += 1500;
+	for ( var i = 0; i < source.length; i ++ )
+	{
+		object = new THREE.Object3D();
+		theta = Math.atan2( source[i].position.x, source[i].position.z - zDepth ) + alpha;
+		radius = Math.sqrt( Math.pow(source[i].position.x, 2) + Math.pow(source[i].position.z - zDepth, 2) )
+		object.position.x = radius * Math.sin(theta);
+		object.position.z = radius * Math.cos(theta) + zDepth;
+		object.position.y = source[i].position.y
+		vector.y = object.position.y;
+		object.lookAt( vector );
+		destination.push( object );
+	}
+}
+
 function getSphereTargets(source, destination, radius)
 {
 	var vector = new THREE.Vector3();
+	vector.copy( camera.position )
 	var phi, theta, object;
 	for ( var i = 0, l = source.length; i < l; i ++ ) 
 	{
 		phi = Math.acos( -1 + ( 2 * i ) / l );
 		theta = Math.sqrt( l * Math.PI ) * phi;
 		object = new THREE.Object3D();
-		object.position.x = radius * Math.cos( theta ) * Math.sin( phi );
 		object.position.y = radius * Math.sin( theta ) * Math.sin( phi );
+		object.position.x = radius * Math.cos( theta ) * Math.sin( phi );
+		object.position.z = radius * Math.cos( phi );
+		vector.copy( object.position ).multiplyScalar( 2 );
+		object.lookAt( vector );
+		destination.push( object );
+	}
+}
+
+function getHemiSphereTargets(source, destination, radius)
+{
+	var vector = new THREE.Vector3();
+	vector.copy( camera.position )
+	var phi, theta, object;
+	for ( var i = 0, l = source.length; i < l; i ++ ) 
+	{
+		phi = Math.acos( -1 + ( 2 * i ) / l );
+		theta = Math.sqrt( l * Math.PI ) * phi;
+		object = new THREE.Object3D();
+		object.position.y = radius * Math.sin( theta ) * Math.sin( phi );
+		object.position.x = radius * Math.cos( theta ) * Math.sin( phi );
 		object.position.z = radius * Math.cos( phi );
 		vector.copy( object.position ).multiplyScalar( 2 );
 		object.lookAt( vector );
@@ -155,7 +209,7 @@ function getHelixTargets(source, destination, radius)
 	for ( var i = 0, l = source.length; i < l; i ++ ) 
 	{
 		var phi = i * 0.175 + Math.PI;
-		var object = new THREE.Object3D();
+		object = new THREE.Object3D();
 		object.position.x = radius * Math.sin( phi );
 		object.position.y = - ( i * 8 ) + 450;
 		object.position.z = radius * Math.cos( phi );
@@ -175,6 +229,116 @@ function getGridTargets(source, destination)
 		object.position.x = ( ( i % 5 ) * 400 ) - 800;
 		object.position.y = ( - ( Math.floor( i / 5 ) % 5 ) * 400 ) + 800;
 		object.position.z = ( Math.floor( i / 25 ) ) * 1000 - 2000;
+		destination.push( object );
+	}
+}
+
+function getComitteeTargets(source, destination, gap, zDepth)
+{
+	var length1, length2, length3, object, theta, arc, radius1, radius2, radius3, height1, height2, height3;
+	length1 = length2 = length3 = Math.floor(source.length / 3);
+	if (source.length % 3 == 1) { length2++; }
+	else if (source.length % 3 == 2) { length1++; length3++; }
+	height1 = height2 = height3 = arc = 0;
+	for( var i = 0; i < length1; i++ )
+	{
+		var rect = source[i].getBoundingClientRect();
+		arc += (rect.right - rect.left) + gap;
+		if ((rect.bottom - rect.top) > height1) height1 = rect.bottom - rect.top;
+	}
+	radius1 = arc / (2 * Math.PI);
+	arc = 0;
+	for( var i = length1; i < length1 + length2; i++ )
+	{
+		var rect = source[i].getBoundingClientRect();
+		arc += (rect.right - rect.left) + gap;
+		if ((rect.bottom - rect.top) > height2) height2 = rect.bottom - rect.top;
+	}
+	radius2 = arc / (2 * Math.PI);
+	arc = 0;
+	for( var i = length1 + length2; i < length1 + length2 + length3; i++ )
+	{
+		var rect = source[i].getBoundingClientRect();
+		arc += (rect.right - rect.left) + gap;
+		if ((rect.bottom - rect.top) > height3) height3 = rect.bottom - rect.top;
+	}
+	radius3 = arc / (2 * Math.PI);
+	theta = 2 * Math.PI / length1;
+	for( var i = 0; i < length1; i++ )
+	{
+		object = new THREE.Object3D();
+		object.position.x = radius1 * Math.sin(i * theta);
+		object.position.y = ( height1 + height2 )/ 2;
+		object.position.z = radius1 * Math.cos(i * theta) + zDepth;
+		destination.push( object );
+	}
+	theta = 2 * Math.PI / length2;
+	for( var i = 0; i < length2; i++ )
+	{
+		object = new THREE.Object3D();
+		object.position.x = radius2 * Math.sin((Math.PI / 4) + i * theta);
+		object.position.y = 0;
+		object.position.z = radius2 * Math.cos((Math.PI / 4) + i * theta) + zDepth;
+		destination.push( object );
+	}
+	theta = 2 * Math.PI / length3;
+	for( var i = 0; i < length3; i++ )
+	{
+		object = new THREE.Object3D();
+		object.position.x = radius3 * Math.sin(i * theta);
+		object.position.y = -( height3 + height2 )/ 2;;
+		object.position.z = radius3 * Math.cos(i * theta) + zDepth;
+		destination.push( object );
+	}
+}
+
+function getComitteeTargets2(source, destination, gap, pageElement)
+{
+	var length1, length2, object, theta, arc, radius1, radius2, height1, height2;
+	var vector = new THREE.Vector3();
+	vector.copy( camera.position );
+	vector.z += 1500;
+	length1 = length2 = Math.floor(source.length / 2);
+	if (source.length % 2 == 1) { length2++; }
+	height1 = height2 = arc = 0;
+	for( var i = 0; i < length1; i++ )
+	{
+		var rect = source[i].getBoundingClientRect();
+		arc += (rect.right - rect.left) + gap;
+		if ((rect.bottom - rect.top) > height1) height1 = rect.bottom - rect.top;
+	}
+	radius1 = arc / (2 * Math.PI);
+	arc = 0;
+	for( var i = length1; i < length1 + length2; i++ )
+	{
+		var rect = source[i].getBoundingClientRect();
+		arc += (rect.right - rect.left) + gap;
+		if ((rect.bottom - rect.top) > height2) height2 = rect.bottom - rect.top;
+	}
+	radius2 = arc / (2 * Math.PI);
+	console.log("height = " + (height1 + height2));
+	var zDepth = camera.position.z - ((height1 + height2) /(2 * Math.tan((Math.PI/180)*cameraAngle / 2))) - radius2;
+	pageElement.zDepth = zDepth;
+	theta = 2 * Math.PI / length1;
+	for( var i = 0; i < length1; i++ )
+	{
+		object = new THREE.Object3D();
+		object.position.x = radius1 * Math.sin(i * theta);
+		object.position.y = ( height1 )/ 2;
+		object.position.z = radius1 * Math.cos(i * theta) + zDepth;
+		vector.y = object.position.y;
+		object.lookAt( vector );
+		destination.push( object );
+	}
+	theta = 2 * Math.PI / length2;
+	for( var i = 0; i < length2; i++ )
+	{
+		object = new THREE.Object3D();
+		object.position.x = radius2 * Math.sin((Math.PI) + i * theta);
+		object.position.y = -( height2 )/ 2;
+		object.position.z = radius2 * Math.cos((Math.PI) + i * theta) + zDepth;
+		vector.y = object.position.y;
+		object.lookAt( vector );
 		destination.push( object );
 	}
 }
@@ -211,6 +375,7 @@ function unloadPage( elements )
 
 function loadPage( element )
 {
+	if ( element == undefined ) return;
 	for ( var i = 0; i < element.WGLobjects.length; i++ )
 	{
 		scene.add(element.WGLobjects[i]);
@@ -219,7 +384,7 @@ function loadPage( element )
 
 function explodePage( element )
 {
-	if ( element == undefined ) return; 
+	if ( element == undefined ) return;
 	var object;
 	var randomTargets = [];
 	for ( var i = 0; i < element.WGLobjects.length; i++ )
@@ -235,9 +400,16 @@ function getPage(pageName)
 {
 	alpha = 0;
 	explodePage( currentPage );
+	explodePage( currentSideBar );
 	currentPage = allPages[pageName];
+	currentSideBar = allSideBars[pageName];
 	loadPage( currentPage );
 	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500 , currentPage.tweens);
+	if (currentSideBar != undefined)
+	{
+		loadPage( currentSideBar );
+		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, 2500, 2500 , currentSideBar.tweens);
+	}
 }
 
 var curIndex = 0;
@@ -245,31 +417,62 @@ var curIndex = 0;
 function getNextPage() //remove this later
 {
 	curIndex++;
-	alpha = 0;
 	if ( curIndex >= allPagesIndex.length ) curIndex = 0;
-	explodePage( currentPage );
-	currentPage = allPages[allPagesIndex[curIndex]];
-	loadPage( currentPage );
-	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500 , currentPage.tweens);
+	getPage(allPagesIndex[curIndex]);
 }
 
 function initPages()
 {
 	var children = [];
 	var tempPage;
-	container = document.getElementById("container");
 	getAllChildren(container, REpage, children);
 	for ( var i = 0 ; i < children.length ; i++ )
 	{
-		tempPage = new page(children[i]);
+		tempPage = new page(children[i], true, 0);
 		tempPage.initPage();
 		allPagesIndex.push(tempPage.name);
 		allPages[tempPage.name] = tempPage;
 	}
 }
 
+function initSideBars()
+{
+	var children = [];
+	var tempPage;
+	getAllChildren(container, REside, children);
+	for ( var i = 0 ; i < children.length ; i++ )
+	{
+		tempPage = new page(children[i], true, 0);
+		tempPage.initPage();
+		allSideBars[tempPage.name] = tempPage;
+	}
+}
+
+function initForms()
+{
+	var children = [];
+	var tempPage;
+	getAllChildren(container, REform, children);
+	for ( var i = 0 ; i < children.length ; i++ )
+	{
+		tempPage = new page(children[i], false, 300);
+		tempPage.initPage();
+		allForms[tempPage.name] = tempPage;
+	}
+}
+
+function initAllCommittees()
+{
+	var committees = document.getElementById("allCommittees");
+	var tempPage = new page(committees, false, 0);
+	tempPage.initComittee();
+	allPagesIndex.push(tempPage.name);
+	allPages[tempPage.name] = tempPage;
+}
+
 function init() 
 {
+	container = document.getElementById("container");
 	cameraAngle = 75;
 	camera = new THREE.PerspectiveCamera( cameraAngle, window.innerWidth / window.innerHeight, 1, 5000 );
 	camera.position.z = window.innerHeight/(2*Math.tan((Math.PI/180)*(cameraAngle/2)));
@@ -288,6 +491,9 @@ function init()
 	}*/
 	
 	initPages();
+	initSideBars();
+	initForms();
+	initAllCommittees();
 
 	renderer = new THREE.CSS3DRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight);
@@ -295,7 +501,8 @@ function init()
 	container.innerHTML="";
 	container.appendChild( renderer.domElement );
 	
-	getPage("Home");
+	getPage("allCommittees");
+	//getPage("Home");
 }
 
 function transform(sources, destinations, duration, variation, pageTweens, destroyOnComplete) 
@@ -313,7 +520,7 @@ function transform(sources, destinations, duration, variation, pageTweens, destr
 		}
 		var pos = new TWEEN.Tween( object.position )
 			.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
-			.easing( TWEEN.Easing.Elastic.Out )
+			.easing( TWEEN.Easing.Back.Out )
 			.start();
 		var rot = new TWEEN.Tween( object.rotation )
 			.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
@@ -357,6 +564,7 @@ function onWindowResize()
 {
 	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
+	camera.position.z = window.innerHeight/(2*Math.tan((Math.PI/180)*(cameraAngle/2)));
 	renderer.setSize( window.innerWidth, window.innerHeight );
 }
 
