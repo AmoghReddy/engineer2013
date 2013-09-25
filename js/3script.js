@@ -57,7 +57,7 @@ function page( element, dontCenter, radiusAdjust )
 	this.initHome = function()
 	{
 		this.name = element.id;
-		var depth = -50, duration = 1600;
+		var depth = -40, duration = 1200;
 		this.zDepth = depth;
 		this.DOMobjects.push(document.getElementById('engiLogo'));
 		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
