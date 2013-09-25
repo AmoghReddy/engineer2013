@@ -118,8 +118,7 @@ function system()
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },
 	                          function(){ quickNavToggle(true); }
 				  );
-	//$(".quickNav div").mouseout(quickNavToggle);
-	//headerToggle();
+	$(".dropdown input").click(function(e){e.stopPropagation();});
 	// controlling mouse
 	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
 	//console.log(camera.position);

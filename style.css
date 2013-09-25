@@ -182,24 +182,11 @@ button:active {
 	padding-left:10px;
 	padding-right:10px;
 }
-.dropdown .btn{
+.colorless{
 	background:rgba(0,0,0,0);
 }
 .dropdown li{
 	cursor:pointer;
-}
-.btn-success{
-
-   	-webkit-box-shadow: 0px 0px 10px green;
-   	-moz-box-shadow: 0px 0px 10px  green;
-   	box-shadow: 0px 0px 10px green;
-}
-.btn-primary{
-	color:#000;
-	background:#eee;
-   	-webkit-box-shadow: 0px 0px 10px #0074cc;
-   	-moz-box-shadow: 0px 0px 10px  #0074cc;
-   	box-shadow: 0px 0px 10px #0074cc;
 }
 .header .button1{
 	margin-left:190px;
@@ -219,6 +206,7 @@ button:active {
 }
 
 #searchBox {
+	margin-top:6px;
     	padding: 2px 18px 2px 18px;
     	width:130px;
 	color:#000;
