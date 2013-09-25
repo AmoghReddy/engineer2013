@@ -15,17 +15,17 @@ function setEvents()
 	var transformTime = 1500;
 	
 	var button = document.getElementById( 'page' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, currentPage.tweens );}, false );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, false, currentPage.name);}, false );
 
-	//var button = document.getElementById( 'sphere' );
-	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, currentPage.tweens );}, false );
+	/*var button = document.getElementById( 'sphere' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, false, currentPage.name);}, false );
 
-	//var button = document.getElementById( 'helix' );
-	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, currentPage.tweens );}, false );
+	var button = document.getElementById( 'helix' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, false, currentPage.name);}, false );
 
-	//var button = document.getElementById( 'grid' );
-	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, currentPage.tweens );}, false );
-
+	var button = document.getElementById( 'grid' );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, false, currentPage.name);}, false );
+	*/
 	var button = document.getElementById( 'next' );
 	button.addEventListener( 'click', function ( event ) {getNextPage();}, false );
 	
@@ -57,6 +57,10 @@ function VScroll(isScrollUp)
 		}
 		getNextRevolution(currentPage.targets.page, resultTable, alpha * 15, currentPage.zDepth);
 	}
+	else if ( currentPage.name.match('homePage') ) 
+	{
+		return;
+	}
 	else
 	{
 		var maxAngle = ( currentPage.pageRect.bottom - currentPage.pageRect.top - window.innerHeight + headerLength + footerLength ) / pivot.z ;
@@ -73,7 +77,7 @@ function VScroll(isScrollUp)
 		}
 		getNextScroll(currentPage.targets.page, currentPage.initialPositions, resultTable, alpha);
 	}
-	transform(currentPage.WGLobjects, resultTable, 1000, 1000, currentPage.tweens);
+	transform(currentPage.WGLobjects, resultTable, 1000, 1000, false, currentPage.name);
 }
 
 function extractDelta(e) 

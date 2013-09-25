@@ -8,16 +8,19 @@ var allForms = {};
 var allSideBars = {};
 var allPages = {};
 var allPagesIndex = []; //remove this later
+var allTweens = {};
 
 var currentPage;
 var currentSideBar;
 var currentForm;
+var renderTween;
 
 var REblock = new RegExp("^block");
 var REpage = new RegExp("^page");
 var REside = new RegExp("^side");
 var REform = new RegExp("^form");
 var REcomittee = new RegExp("^comittee");
+var REmenu = new RegExp("^menu");
 
 var pivot = new THREE.Vector3(0, 0, -3000);
 
@@ -31,8 +34,8 @@ function page( element, dontCenter, radiusAdjust )
 	this.targets = { page: [], sphere: [], helix: [], grid: [] };
 	this.WGLobjects = [];
 	this.initialPositions = [];
-	this.tweens = {};
 	this.zDepth;
+	this.onComplete = function() {}
 	this.initPage = function()
 	{
 		this.name = element.id.substr(4);
@@ -48,8 +51,72 @@ function page( element, dontCenter, radiusAdjust )
 	{
 		this.name = element.id;
 		getAllChildren(this.pageElement, REcomittee, this.DOMobjects);
-		getComitteeTargets2(this.DOMobjects, this.targets.page, 200, this);
+		getComitteeTargets(this.DOMobjects, this.targets.page, 200, this);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
+	}
+	this.initHome = function()
+	{
+		this.name = element.id;
+		var depth = -50, duration = 1600;
+		this.zDepth = depth;
+		this.DOMobjects.push(document.getElementById('engiLogo'));
+		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
+		getHomeTargets(this.DOMobjects, this.targets.page, depth);
+		loadWGLObjects(this.DOMobjects, this.WGLobjects);
+		this.onComplete = function()
+		{
+			TWEEN.remove(renderTween);
+			/*for (var i = 1; i < this.WGLobjects.length; i++)
+			{
+				var object = this.WGLobjects[i];
+				console.log(object);
+				var target = new THREE.Object3D();
+				target.position.x = this.targets.page[i].position.x;
+				target.position.y = this.targets.page[i].position.y;
+				target.position.z = -this.targets.page[i].position.z;
+				if( allTweens[object.id] != undefined )
+				{
+					TWEEN.remove(allTweens[object.id][0]);
+					TWEEN.remove(allTweens[object.id][1]);
+					TWEEN.remove(allTweens[object.id][2]);
+				}
+				var tempVar = 100;
+				var pos = new TWEEN.Tween( object.position )
+					.to( { x: target.position.x, y: target.position.y, z: target.position.z }, duration / 2 )
+					.easing( TWEEN.Easing.Quadratic.InOut )
+					.repeat( Infinity )
+					.yoyo( true );
+				var rot = new TWEEN.Tween( object.rotation )
+					.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, duration / 2 )
+					.easing( TWEEN.Easing.Linear.None );
+				var dest = new TWEEN.Tween( object )
+					.to( {}, duration );
+				var chain = new TWEEN.Tween( tempVar ).to( {}, (i - 1) * duration / ( this.WGLobjects.length - 1 ) )
+					.chain(pos)
+					.start();
+				allTweens[object.id] = [pos, rot, dest];
+			}*/
+			var pageName = this.name;
+			var depth = allPages[pageName].zDepth;
+			var start = { theta : 0 }, end = { theta : 2 * Math.PI };
+			this.pageTween = new TWEEN.Tween( start )
+				.to( { theta : end.theta } , duration )
+				.onUpdate( function(){
+					//console.log(this);
+					for (var i = 1; i < allPages[pageName].WGLobjects.length; i++)
+					{
+						var object = allPages[pageName].WGLobjects[i];
+						object.position.z = depth * Math.sin(((2 * Math.PI) * (i - 1) / (allPages[pageName].WGLobjects.length - 1) ) + this.theta);
+					}
+				})
+				.repeat( Infinity )
+				.start();
+			renderTween = new TWEEN.Tween( this )
+				.to( {}, duration )
+				.onUpdate( render )
+				.repeat( Infinity )
+				.start();
+		}
 	}
 }
 
@@ -183,25 +250,6 @@ function getSphereTargets(source, destination, radius)
 	}
 }
 
-function getHemiSphereTargets(source, destination, radius)
-{
-	var vector = new THREE.Vector3();
-	vector.copy( camera.position )
-	var phi, theta, object;
-	for ( var i = 0, l = source.length; i < l; i ++ ) 
-	{
-		phi = Math.acos( -1 + ( 2 * i ) / l );
-		theta = Math.sqrt( l * Math.PI ) * phi;
-		object = new THREE.Object3D();
-		object.position.y = radius * Math.sin( theta ) * Math.sin( phi );
-		object.position.x = radius * Math.cos( theta ) * Math.sin( phi );
-		object.position.z = radius * Math.cos( phi );
-		vector.copy( object.position ).multiplyScalar( 2 );
-		object.lookAt( vector );
-		destination.push( object );
-	}
-}
-
 function getHelixTargets(source, destination, radius)
 {
 	var vector = new THREE.Vector3();
@@ -233,7 +281,7 @@ function getGridTargets(source, destination)
 	}
 }
 
-function getComitteeTargets(source, destination, gap, zDepth)
+function getComitteeTargetsOld(source, destination, gap, zDepth)
 {
 	var length1, length2, length3, object, theta, arc, radius1, radius2, radius3, height1, height2, height3;
 	length1 = length2 = length3 = Math.floor(source.length / 3);
@@ -292,7 +340,7 @@ function getComitteeTargets(source, destination, gap, zDepth)
 	}
 }
 
-function getComitteeTargets2(source, destination, gap, pageElement)
+function getComitteeTargets(source, destination, gap, pageElement)
 {
 	var length1, length2, object, theta, arc, radius1, radius2, height1, height2;
 	var vector = new THREE.Vector3();
@@ -317,7 +365,7 @@ function getComitteeTargets2(source, destination, gap, pageElement)
 	}
 	radius2 = arc / (2 * Math.PI);
 	console.log("height = " + (height1 + height2));
-	var zDepth = camera.position.z - ((height1 + height2) /(2 * Math.tan((Math.PI/180)*cameraAngle / 2))) - radius2;
+	var zDepth = camera.position.z - ((height1 + height2 + headerLength + footerLength ) /(2 * Math.tan((Math.PI/180)*cameraAngle / 2))) - radius2;
 	pageElement.zDepth = zDepth;
 	theta = 2 * Math.PI / length1;
 	for( var i = 0; i < length1; i++ )
@@ -340,6 +388,31 @@ function getComitteeTargets2(source, destination, gap, pageElement)
 		vector.y = object.position.y;
 		object.lookAt( vector );
 		destination.push( object );
+	}
+}
+
+function getHomeTargets(source, destination, depth)
+{
+	var radius, maxDiag, rect, diag, theta, object;
+	maxDiag = 0;
+	for (var i = 1; i < source.length; i++ )
+	{
+		rect = source[i].getBoundingClientRect();
+		diag = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2;
+		if (diag > maxDiag) maxDiag = diag;
+	}
+	rect = source[0].getBoundingClientRect();
+	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag;
+	theta = 2 * Math.PI / (source.length - 1);
+	object = new THREE.Object3D(0, 0, 0);
+	destination.push(object);
+	for (var i = 1; i < source.length; i++ )
+	{
+		object = new THREE.Object3D();
+		object.position.x = radius * Math.cos((i - 1) * theta);
+		object.position.y = radius * Math.sin((i - 1) * theta);
+		object.position.z = depth * Math.sin(((2 * Math.PI) * (i - 1) / (source.length - 1) ));
+		destination.push(object);
 	}
 }
 
@@ -393,7 +466,7 @@ function explodePage( element )
 		getRandomTarget(object);
 		randomTargets.push(object);
 	}
-	transform(element.WGLobjects, randomTargets, 3000, 0, element.tweens, true);
+	transform(element.WGLobjects, randomTargets, 3000, 0, true, element.name);
 }
 
 function getPage(pageName)
@@ -404,11 +477,11 @@ function getPage(pageName)
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	loadPage( currentPage );
-	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500 , currentPage.tweens);
+	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500, false, currentPage.name);
 	if (currentSideBar != undefined)
 	{
 		loadPage( currentSideBar );
-		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, 2500, 2500 , currentSideBar.tweens);
+		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, 2500, 2500, false, currentPage.name);
 	}
 }
 
@@ -470,10 +543,19 @@ function initAllCommittees()
 	allPages[tempPage.name] = tempPage;
 }
 
+function initHomePage()
+{
+	var homePage = document.getElementById("homePage");
+	var tempPage = new page(homePage, false, 0);
+	tempPage.initHome();
+	allPagesIndex.push(tempPage.name);
+	allPages[tempPage.name] = tempPage;
+}
+
 function init() 
 {
 	container = document.getElementById("container");
-	cameraAngle = 75;
+	cameraAngle = 65;
 	camera = new THREE.PerspectiveCamera( cameraAngle, window.innerWidth / window.innerHeight, 1, 5000 );
 	camera.position.z = window.innerHeight/(2*Math.tan((Math.PI/180)*(cameraAngle/2)));
 	scene = new THREE.Scene();
@@ -494,6 +576,7 @@ function init()
 	initSideBars();
 	initForms();
 	initAllCommittees();
+	initHomePage();
 
 	renderer = new THREE.CSS3DRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight);
@@ -501,22 +584,24 @@ function init()
 	container.innerHTML="";
 	container.appendChild( renderer.domElement );
 	
-	getPage("allCommittees");
+	//getPage("allCommittees");
 	//getPage("Home");
+	getPage("homePage");
 }
 
-function transform(sources, destinations, duration, variation, pageTweens, destroyOnComplete) 
+function transform(sources, destinations, duration, variation, destroyOnComplete, pageName) 
 {
-	//TWEEN.removeAll();
+	TWEEN.remove(renderTween);
+	if( allPages[pageName].pageTween != undefined ) { TWEEN.remove(allPages[pageName].pageTween); }
 	for ( var i = 0; i < sources.length; i ++ )
 	{
 		var object = sources[i];
 		var target = destinations[i];
-		if( pageTweens[i] != undefined )
+		if( allTweens[object.id] != undefined )
 		{
-			TWEEN.remove(pageTweens[i][0]);
-			TWEEN.remove(pageTweens[i][1]);
-			TWEEN.remove(pageTweens[i][2]);
+			TWEEN.remove(allTweens[object.id][0]);
+			TWEEN.remove(allTweens[object.id][1]);
+			TWEEN.remove(allTweens[object.id][2]);
 		}
 		var pos = new TWEEN.Tween( object.position )
 			.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
@@ -527,14 +612,18 @@ function transform(sources, destinations, duration, variation, pageTweens, destr
 			.easing( TWEEN.Easing.Exponential.InOut )
 			.start();
 		var dest = new TWEEN.Tween( object )
-			.to( {}, duration + variation * 2 )
+			.to( {}, duration + variation )
 			.onComplete( function() { if (destroyOnComplete == true) scene.remove( this );})
 			.start();
-		pageTweens[i] = [pos, rot, dest];
+		allTweens[object.id] = [pos, rot, dest];
 	}
-		new TWEEN.Tween( this )
+	renderTween = new TWEEN.Tween( this )
 		.to( {}, duration + variation )
 		.onUpdate( render )
+		.start();
+	new TWEEN.Tween( this )
+		.to( {}, duration + variation )
+		.onComplete( function() { if (pageName != undefined ){ allPages[pageName].onComplete(); }} )
 		.start();
 		
 	/*if( pageObject.pageTween != undefined )
