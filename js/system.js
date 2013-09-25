@@ -106,6 +106,7 @@ function extractDelta(e)
 
 function system()
 {
+	start();
 	// in 3script.js
 	$(".logo").click(headerToggle);
 	headerToggle();
@@ -119,6 +120,5 @@ function system()
 	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
 	//console.log(camera.position);
 	$('#searchBox').typeahead({source: colors});
-	start();
 }
 window.onload=system;
