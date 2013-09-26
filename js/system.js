@@ -40,11 +40,19 @@ function setEvents()
 	*/
 	var button = document.getElementById( 'next' );
 	button.addEventListener( 'click', function ( event ) {getNextPage();}, false );
+
+	var button = document.getElementById( 'back' );
+	button.addEventListener( 'click', function ( event ) {getPrevPage();}, false );
+
+	var button = document.getElementById( 'button1' );
+	button.addEventListener( 'click', function ( event ) {getPage('Home');}, false );
 	
 	window.addEventListener( 'resize', onWindowResize, false );
 	
 	var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel"; //FF doesn't recognize mousewheel as of FF3.x
 	
+	console.log('the element is '+ document.getElementById('button0'));
+
 	$(window).bind(mousewheelevt, function(event) 
 	{
 		var delta = extractDelta(event);

@@ -3,6 +3,7 @@ var container, controls;
 
 var headerLength = 10;
 var footerLength = 60;
+var initialWidth = 1366;
 
 var allForms = {};
 var allSideBars = {};
@@ -31,7 +32,7 @@ function page( element, dontCenter, radiusAdjust )
 	this.pageRect = element.getBoundingClientRect();
 	this.pageTween;
 	this.DOMobjects = [];
-	this.targets = { page: [], sphere: [], helix: [], grid: [] };
+	this.targets = { page: [], sphere: [], helix: [], grid: [], initial: [] };
 	this.WGLobjects = [];
 	this.initialPositions = [];
 	this.zDepth;
@@ -97,6 +98,7 @@ function page( element, dontCenter, radiusAdjust )
 				allTweens[object.id] = [pos, rot, dest];
 			}*/
 			var pageName = this.name;
+			if( allPages[pageName].pageTween != undefined ) { TWEEN.remove(allPages[pageName].pageTween); }
 			var depth = allPages[pageName].zDepth;
 			var start = { theta : 0 }, end = { theta : 2 * Math.PI };
 			this.pageTween = new TWEEN.Tween( start )
@@ -472,16 +474,18 @@ function explodePage( element )
 function getPage(pageName)
 {
 	alpha = 0;
+	var duration = 2500, variation = 2500;
 	explodePage( currentPage );
 	explodePage( currentSideBar );
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	loadPage( currentPage );
-	transform(currentPage.WGLobjects, currentPage.targets.page, 2500, 2500, false, currentPage.name);
+	if (currentPage.name == 'homePage') variation = 0;
+	transform(currentPage.WGLobjects, currentPage.targets.page, duration, variation, false, currentPage.name);
 	if (currentSideBar != undefined)
 	{
 		loadPage( currentSideBar );
-		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, 2500, 2500, false, currentPage.name);
+		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentPage.name);
 	}
 }
 
@@ -491,6 +495,13 @@ function getNextPage() //remove this later
 {
 	curIndex++;
 	if ( curIndex >= allPagesIndex.length ) curIndex = 0;
+	getPage(allPagesIndex[curIndex]);
+}
+
+function getPrevPage() //remove this later
+{
+	curIndex--;
+	if ( curIndex < 0 ) curIndex = allPagesIndex.length - 1;
 	getPage(allPagesIndex[curIndex]);
 }
 
@@ -552,12 +563,17 @@ function initHomePage()
 	allPages[tempPage.name] = tempPage;
 }
 
+function setCameraZ()
+{
+	camera.position.z = window.innerHeight / ( 2 * Math.tan( ( Math.PI / 180 ) * ( cameraAngle / 2 ) ) ) * ( initialWidth / window.innerWidth );
+}
+
 function init() 
 {
 	container = document.getElementById("container");
 	cameraAngle = 65;
 	camera = new THREE.PerspectiveCamera( cameraAngle, window.innerWidth / window.innerHeight, 1, 5000 );
-	camera.position.z = window.innerHeight/(2*Math.tan((Math.PI/180)*(cameraAngle/2)));
+	setCameraZ();
 	scene = new THREE.Scene();
 
 	/*var object;
@@ -605,7 +621,7 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		}
 		var pos = new TWEEN.Tween( object.position )
 			.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
-			.easing( TWEEN.Easing.Back.Out )
+			.easing( TWEEN.Easing.Elastic.Out )
 			.start();
 		var rot = new TWEEN.Tween( object.rotation )
 			.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
@@ -653,7 +669,7 @@ function onWindowResize()
 {
 	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
-	camera.position.z = window.innerHeight/(2*Math.tan((Math.PI/180)*(cameraAngle/2)));
+	setCameraZ();
 	renderer.setSize( window.innerWidth, window.innerHeight );
 }
 
@@ -670,8 +686,9 @@ function render()
 
 function start() 
 {
-	init();
 	setEvents();
+	init();
+	
 	animate();
 }
 
