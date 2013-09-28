@@ -4,13 +4,21 @@ from  data import *
 block=0
 
 #images preload
-
-
+print "<div style='display:none'>"
+for logo in comitteeLogos.iterkeys():
+	print "<img src='"+comitteeLogos[logo]+"'/>"
+for i in events.iterkeys():
+	for j in events[i].iterkeys():
+		print "<img src='"+events[i][j][0]+"'/>"
+print "</div>"
 #images preload ends
+
+
+#TODO comittee page
 
 # ndividual comittees' pages
 for i in events.iterkeys():
-	print "<table>"
+	print "<table class='table'>"
 	print "<tr>"
 	print "<td>"
 # create sidebar
@@ -34,6 +42,7 @@ for i in events.iterkeys():
 		if count%3==2:
 			print "</tr>"
 		block+=1
+		count+=1
 	print "</table>"
 	print "</span>"
 # page ends
@@ -45,15 +54,15 @@ for i in events.iterkeys():
 # event page
 for i in events.iterkeys():
 	for event in events[i].iterkeys():
-		print "<span id='page"+event+"'>"
-		print "<table>"
+		print "<span id='page"+event+"'style='width:1000px;margin:0 auto;'>"
+		print "<table class='table'>"
 		print "<tr>"
 		print "<td valign='top'><span id='blockGen"+str(block)+"'><img src='"+events[i][event][0]+"'/></span></td>"
 		block+=1
 		print "<td>"
 		print "<span id='blockGen"+str(block)+"' style='width:500px;'>"
 
-		print "<h1>"+event+"</h1><hr />"
+		print "<h1>"+event.replace('_',' ')+"</h1><hr />"
 		print "<h2>Description</h2>"
 		print "<p>"+events[i][event][1]+"</p>"
 		# TODO problem statement..etc

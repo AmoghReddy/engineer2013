@@ -12,12 +12,12 @@ function headerToggle(){
 function quickNavToggle(isNavSet){
 	console.log(isNavSet);
 	if(isNavSet){
-		$(".quickNav b").stop().hide(100);
-		$(".quickNav i").fadeIn(0);
+		$(".quickNav button").hide(100);
+		$(".quickNav i").show(0);
 	}
 	else{
-		$(".quickNav i").fadeOut(0);
-		$(".quickNav b").stop().show();
+		$(".quickNav i").hide(0);
+		$(".quickNav button").show();
 	}
 	isNavSet=!isNavSet;
 }
@@ -29,21 +29,6 @@ function setEvents()
 	var button = document.getElementById( 'page' );
 	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, false, currentPage.name);}, false );
 
-	/*var button = document.getElementById( 'sphere' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.sphere, transformTime, transformTime, false, currentPage.name);}, false );
-
-	var button = document.getElementById( 'helix' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.helix, transformTime, transformTime, false, currentPage.name);}, false );
-
-	var button = document.getElementById( 'grid' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.grid, transformTime, transformTime, false, currentPage.name);}, false );
-	*/
-	var button = document.getElementById( 'next' );
-	button.addEventListener( 'click', function ( event ) {getNextPage();}, false );
-
-	var button = document.getElementById( 'back' );
-	button.addEventListener( 'click', function ( event ) {getPrevPage();}, false );
-
 	var button = document.getElementById( 'button1' );
 	button.addEventListener( 'click', function ( event ) {getPage('Home');}, false );
 	
@@ -51,8 +36,6 @@ function setEvents()
 	
 	var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel"; //FF doesn't recognize mousewheel as of FF3.x
 	
-	console.log('the element is '+ document.getElementById('button0'));
-
 	$(window).bind(mousewheelevt, function(event) 
 	{
 		var delta = extractDelta(event);
@@ -122,7 +105,7 @@ function system()
 	// in 3script.js
 	$(".logo").click(headerToggle);
 	headerToggle();
-	$(".quickNav b").hide(0);
+	$(".quickNav button").hide(0);
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },
 	                          function(){ quickNavToggle(true); }
 				  );
@@ -132,4 +115,5 @@ function system()
 	//console.log(camera.position);
 	$('#searchBox').typeahead({source: colors});
 }
+//window.onbeforeunload=function(){ return "Do  you want to go back?";}
 window.onload=system;

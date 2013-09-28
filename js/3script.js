@@ -24,6 +24,7 @@ var REcomittee = new RegExp("^comittee");
 var REmenu = new RegExp("^menu");
 
 var pivot = new THREE.Vector3(0, 0, -3000);
+var history=[];
 
 function page( element, dontCenter, radiusAdjust )
 {
@@ -487,6 +488,7 @@ function getPage(pageName)
 		loadPage( currentSideBar );
 		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentPage.name);
 	}
+	addHistory(currentPage.name);
 }
 
 var curIndex = 0;
@@ -691,7 +693,14 @@ function start()
 	
 	animate();
 }
-
+function addHistory(itemName){
+	if(history[history.length-1] != itemName)
+		history.push(itemName);
+}
+function backHistory(){
+	itemName=history.pop();
+	getPage(history[history.length-1]);
+}
 
 
 

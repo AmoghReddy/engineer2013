@@ -9,10 +9,7 @@
 		<script src="js/jquery-1.10.1.min.js"></script>
 		<script src="js/jquery.easing.1.3.js" ></script>
 		<script src="bootstrap/js/bootstrap.js" ></script>
-		<script src="js/underscore-min.js"></script>
-		<script src="js/backbone-min.js"></script>
 		<script src="js/three.min.js"></script>
-		<script src="js/routes.js"></script>
 		<script src="js/tween.min.js"></script>
 		<script src="js/CSS3DRenderer.js"></script>
 		<script src="js/3script.js"></script>
@@ -22,44 +19,36 @@
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
 				<span id = "engiLogo"><img id="engiImg" src="loading.gif"/></span>
-				<!--<span id = "menu0"><img id="mmm0" src="loading.gif"/></span>
-				<span id = "menu1"><img id="mmm1" src="loading.gif"/></span>
-				<span id = "menu2"><img id="mmm2" src="loading.gif"/></span>
-				<span id = "menu3"><img id="mmm3" src="loading.gif"/></span>
-				<span id = "menu4"><img id="mmm4" src="loading.gif"/></span>
-				<span id = "menu5"><img id="mmm5" src="loading.gif"/></span>
-				<span id = "menu6"><img id="mmm6" src="loading.gif"/></span>
-				<span id = "menu7"><img id="mmm7" src="loading.gif"/></span> -->
 				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" >EVENTS</button></span>
 				<span id = "menu1"><button id="button1">WORK SHOPS</button></span>
 				<span id = "menu2"><button id="button2">TECHNITES</button></span>
-				<span id = "menu3"><button id="button3">TECH SPEAK</button></span>
+				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" >TECH SPEAK</button></span>
 				<span id = "menu4"><button id="button4">SPONSORS</button></span>
 				<span id = "menu5"><button id="button5">ABOUT ENGI</button></span>
 				<span id = "menu6"><button id="button6">CONTACTS</button></span>
 				<span id = "menu7"><button id="button7">ACCOM</button></span>
 			</span>
 			<span id = "allCommittees">
-				<span id = "comitteeComps">
-					<img id="eve1" src="engineer.gif"/>
+				<span id = "comitteeComps" style="background:url(engineer.gif);opacity:0.8;color:#fff;width:300px;height:300px;cursor:pointer" onclick="getPage('Comps')">
+					<h1>Comps Events</h1>
 				</span>
 				<span id = "comitteeMech">
-					<img id="eve2" src="engineer.gif"/>
+					<img id="eve2" src="mech.png"/>
 				</span>
 				<span id = "comitteeTronics">
 					<img id="eve3" src="engineer.gif"/>
 				</span>
 				<span id = "comitteeChem">
-					<img id="eve4" src="engineer.gif"/>
+					<img id="eve4" src="chem.png"/>
 				</span>
 				<span id = "comitteeCivil">
-					<img id="eve5" src="engineer.gif"/>
+					<img id="eve5" src="civilmain.png"/>
 				</span>
 				<span id = "comitteeGaming">
 					<img id="eve6" src="engineer.gif"/>
 				</span>
-				<span id = "comitteeGeneral">
-					<img id="eve7" src="engineer.gif"/>
+				<span id = "comitteeGeneral" style="background:url(engineer.gif);opacity:0.8;color:#fff;width:300px;height:300px;cursor:pointer" onclick="getPage('General')">
+					<h1>General Events</h1>
 				</span>
 				<!--<span id = "comitteeOnline">
 					<img id="eve8" src="engineer.gif"/>
@@ -76,63 +65,13 @@
 				<span id = "comitteeMBA">
 					<img id="eve12" src="engineer.gif"/>
 				</span>
-				<span id = "comitteeMeta">
-					<img id="eve13" src="engineer.gif"/>
+				<span id = "comitteeMeta" style="background:url(engineer.gif);opacity:0.8;color:#fff;width:300px;height:300px;cursor:pointer" onclick="getPage('Meta')">
+					<h1> Meta Events</h1>
 				</span>
 				<span id = "comitteeMining">
 					<img id="eve14" src="engineer.gif"/>
 				</span>
 			</span>
-			<table>
-				<tr>
-					<td>
-						<span id = "sideHome">
-							<span id = "block55505" ><h1 style="font-size: 68px; margin: 5px;" > </h1></span><br/>
-							<span id = "block55505" ><h1 style="font-size: 68px; margin: 5px;" > </h1></span><br/>
-							<span id = "block55505" ><h1 style="font-size: 68px; margin: 5px;" > </h1></span><br/>
-							<span id = "block55501" ><h1 style="font-size: 68px; margin: 5px;" >C</h1></span><br/>
-							<span id = "block55502" ><h1 style="font-size: 68px; margin: 5px;" >O</h1></span><br/>
-							<span id = "block55503" ><h1 style="font-size: 68px; margin: 5px;" >M</h1></span><br/>
-							<span id = "block55504" ><h1 style="font-size: 68px; margin: 5px;" >P</h1></span><br/>
-							<span id = "block55505" ><h1 style="font-size: 68px; margin: 5px;" > </h1></span><br/>
-							<span id = "block55506" ><h1 style="font-size: 68px; margin: 5px;" >E</h1></span><br/>
-							<span id = "block55507" ><h1 style="font-size: 68px; margin: 5px;" >V</h1></span><br/>
-							<span id = "block55508" ><h1 style="font-size: 68px; margin: 5px;" >E</h1></span><br/>
-							<span id = "block55509" ><h1 style="font-size: 68px; margin: 5px;" >N</h1></span><br/>
-							<span id = "block555010" ><h1 style="font-size: 68px; margin: 5px;" >T</h1></span><br/>
-							<span id = "block555011" ><h1 style="font-size: 68px; margin: 5px;" >S</h1></span><br/>
-						</span>
-					</td>
-					<td>
-						 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-					</td>
-					<td>
-						<span id = "pageHome">
-							<table>
-								<tr>
-									<td rowspan="3">
-										<span id = "block1"><img id="img1" src="engineer.gif"/></span><br/>
-										<span id = "block2"><img id="img2" src="engineer.gif"/></span><br/>
-										<span id = "block3"><img id="img3" src="engineer.gif"/></span>
-									</td>
-									<td><span id = "block4"><img id="img4" src="engineer.gif"/></span></td>
-									<td><span id = "block5"><img id="img5" src="engineer.gif"/></span></td>
-								</tr>
-								<tr>
-									<td colspan="2">
-										<span id = "block6"><img id="img6" src="engineer.gif"/></span>
-										<span id = "block7"><img id="img7" src="engineer.gif"/></span>
-									</td>				
-								</tr>
-								<tr>
-									<td><span id = "block8"><img id="img8" src="engineer.gif"/></span></td>
-									<td><span id = "block9"><img id="img9" src="engineer.gif"/></span></td>				
-								</tr>			
-							</table>
-						</span>
-					</td>
-				</tr>
-			</table>
 			<span id = "pageNormal">
 				<table>
 					<tr>
@@ -170,97 +109,387 @@
 					</tr>
 				</table>
 			</span>
-			<span id = "pageBig">
-				<table>
-					<tr>
-						<td rowspan="3">
-							<span id = "block1110">Engineer 2013 Engineer 2013 Engineer 2013<br/>Engineer 2013 Engineer 2013 Engineer 2013<br/>Engineer 2013 Engineer 2013 Engineer 2013<br/>Engineer 2013 Engineer 2013 Engineer 2013<br/>Engineer 2013 Engineer 2013 Engineer 2013<br/>Engineer 2013 Engineer 2013 Engineer 2013<br/></span><br/>
-							<span id = "block1114">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1112">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1111">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1131">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1132">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1133">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1134">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1135">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1136">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1137">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1138">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1139">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1110">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1114">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1112">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1111">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1131">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1132">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1133">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1134">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1135">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1136">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1137">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1138">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1139">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1110">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1114">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1112">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1111">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1131">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1132">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1133">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1134">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1135">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1136">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1137">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1138">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1139">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1110">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1114">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1112">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1111">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1131">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1132">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1133">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1134">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1135">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1136">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1137">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1138">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1139">Engineer 2013 Engineer 2013 Engineer 2013</span><br/>
-							<span id = "block1130">Engineer 2013 Engineer 2013 Engineer 2013</span>
-						</td>
-						<td><span id = "block413"><img id="img413" src="engineer.gif"/></span></td>
-						<td><span id = "block513"><img id="img513" src="engineer.gif"/></span></td>				
-					</tr>
-					<tr>
-						<td colspan="2">
-							<span id = "block613"><img id="img613" src="engineer.gif"/></span>
-							<span id = "block713"><img id="img713" src="engineer.gif"/></span>					
-						</td>				
-					</tr>
-					<tr>
-						<td><span id = "block813"><img id="img813" src="engineer.gif"/></span></td>
-						<td><span id = "block913"><img id="img913" src="engineer.gif"/></span></td>				
-					</tr>			
-				</table>
-			</span>
+<div style='display:none'>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+<img src='engineer.gif'/>
+</div>
+<table class='table'>
+<tr>
+<td>
+<span id='sideComps'>
+<br /><br /><br />
+<span id='blockGen0'><h1 style='font-size: 68px; margin: 5px;'>C</h1></span><br />
+<span id='blockGen1'><h1 style='font-size: 68px; margin: 5px;'>o</h1></span><br />
+<span id='blockGen2'><h1 style='font-size: 68px; margin: 5px;'>m</h1></span><br />
+<span id='blockGen3'><h1 style='font-size: 68px; margin: 5px;'>p</h1></span><br />
+<span id='blockGen4'><h1 style='font-size: 68px; margin: 5px;'>s</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageComps'>
+<table>
+<tr>
+<td><span id='blockGen5' onclick='getPage("Inscription")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen6' onclick='getPage("ECTF_-_Capture_the_Flag")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen7' onclick='getPage("Virtual_Bounty")'><img src='engineer.gif'/></span></td>
+</tr>
+<tr>
+<td><span id='blockGen8' onclick='getPage("Kode_Kombat")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen9' onclick='getPage("Marathon")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen10' onclick='getPage("Rectify")'><img src='engineer.gif'/></span></td>
+</tr>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<table class='table'>
+<tr>
+<td>
+<span id='sideTechSpeak'>
+<br /><br /><br />
+<span id='blockGen11'><h1 style='font-size: 68px; margin: 5px;'>T</h1></span><br />
+<span id='blockGen12'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen13'><h1 style='font-size: 68px; margin: 5px;'>c</h1></span><br />
+<span id='blockGen14'><h1 style='font-size: 68px; margin: 5px;'>h</h1></span><br />
+<span id='blockGen15'><h1 style='font-size: 68px; margin: 5px;'>S</h1></span><br />
+<span id='blockGen16'><h1 style='font-size: 68px; margin: 5px;'>p</h1></span><br />
+<span id='blockGen17'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen18'><h1 style='font-size: 68px; margin: 5px;'>a</h1></span><br />
+<span id='blockGen19'><h1 style='font-size: 68px; margin: 5px;'>k</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageTechSpeak'>
+<table>
+<tr>
+<td><span id='blockGen20' onclick='getPage("Tech_Speak")'><img src='engineer.gif'/></span></td>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<table class='table'>
+<tr>
+<td>
+<span id='sideTechnites'>
+<br /><br /><br />
+<span id='blockGen21'><h1 style='font-size: 68px; margin: 5px;'>T</h1></span><br />
+<span id='blockGen22'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen23'><h1 style='font-size: 68px; margin: 5px;'>c</h1></span><br />
+<span id='blockGen24'><h1 style='font-size: 68px; margin: 5px;'>h</h1></span><br />
+<span id='blockGen25'><h1 style='font-size: 68px; margin: 5px;'>n</h1></span><br />
+<span id='blockGen26'><h1 style='font-size: 68px; margin: 5px;'>i</h1></span><br />
+<span id='blockGen27'><h1 style='font-size: 68px; margin: 5px;'>t</h1></span><br />
+<span id='blockGen28'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen29'><h1 style='font-size: 68px; margin: 5px;'>s</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageTechnites'>
+<table>
+<tr>
+<td><span id='blockGen30' onclick='getPage("TEvent2")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen31' onclick='getPage("TEvent1")'><img src='engineer.gif'/></span></td>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<table class='table'>
+<tr>
+<td>
+<span id='sideMeta'>
+<br /><br /><br />
+<span id='blockGen32'><h1 style='font-size: 68px; margin: 5px;'>M</h1></span><br />
+<span id='blockGen33'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen34'><h1 style='font-size: 68px; margin: 5px;'>t</h1></span><br />
+<span id='blockGen35'><h1 style='font-size: 68px; margin: 5px;'>a</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageMeta'>
+<table>
+<tr>
+<td><span id='blockGen36' onclick='getPage("MindBend")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen37' onclick='getPage("SEM_and_TEM_Expo")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen38' onclick='getPage("Metamorphosis")'><img src='engineer.gif'/></span></td>
+</tr>
+<tr>
+<td><span id='blockGen39' onclick='getPage("MetaMagic")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen40' onclick='getPage("SEM_Photography_Contest")'><img src='engineer.gif'/></span></td>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<span id='pageInscription'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen41'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen42' style='width:500px;'>
+<h1>Inscription</h1><hr />
+<h2>Description</h2>
+<p>Inscription is the international online programming contest of Engineer.<br />The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br /><b>Teams of 3.</b><br />Venue : Online. Mostly on CodeChef. 1 Session 3-4 hrs.<br />Last Year Participation – Around 100 teams.<br />Expected this year – Around 200 teams.</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageECTF_-_Capture_the_Flag'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen43'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen44' style='width:500px;'>
+<h1>ECTF - Capture the Flag</h1><hr />
+<h2>Description</h2>
+<p>ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with theFlag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, whileat the same time defending your own.<br /><b>Teams of 3.</b><br />Venue : Online. Both practice round and Main round.<br />Last Year Participation - Around 30 teams.<br />Expected this year – Around 50 teams.</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageVirtual_Bounty'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen45'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen46' style='width:500px;'>
+<h1>Virtual Bounty</h1><hr />
+<h2>Description</h2>
+<p>Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skillsof the participants are put to test. Using search engines, the participants need to figure out the clueswhich will take them all around the World Wide Web in order to get to the next more intriguinglevel. This is a quest for the elusive treasure buried beneath billions of web pages.<br /><b>Individual event</b><br />Venue : Online.<br />Last Year Participation - > 500.<br />Expected this year – Around 600.<br /></p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageKode_Kombat'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen47'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen48' style='width:500px;'>
+<h1>Kode Kombat</h1><hr />
+<h2>Description</h2>
+<p>Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br /><b>Teams of 2.</b><br />Venue : Online. KK server. Throughout the fest.<br />Last Year Participation - Around 10 teams.<br />Expected this year – Around 20-25 teams.</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageMarathon'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen49'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen50' style='width:500px;'>
+<h1>Marathon</h1><hr />
+<h2>Description</h2>
+<p>Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields ofcomputer science from basic programming, scripting, to operating systems and networks. ThisEngineer, Marathon is planned to be more challenging, which tests your mind with the latestdeveloping technologies in the field of Computer Science. After all, Computer Science is the fastestgrowing and the fastest changing area of Engineering.<br />Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as testhow long you can persist solving the trickiest (and most often the simplest) comp-sci problems wecan throw at you!<br /><b>Teams of 3.</b><br />Venue : 1st round in NTB Classrooms. 2nd and 3rd round in CCC<br />Last Year Participation - Around 50 teams.<br />Expected this year – Around 60-80 teams.<br /></p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageRectify'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen51'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen52' style='width:500px;'>
+<h1>Rectify</h1><hr />
+<h2>Description</h2>
+<p>It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Canyou spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you havea sharp eye and the instincts of a predator programmer then come and hunt for the errors in ourcodes. This event not only tests the mastery over and familiarity with a programming language butalso your dexterity in analyzing problems and providing logical solutions.<br /><b>Individual event</b><br />Venue : 1st round in NTB Classrooms. 2nd round in CCC<br />Last Year Participation - Around 100.<br />Expected this year – Around 200.<br /></p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTech_Speak'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen53'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen54' style='width:500px;'>
+<h1>Tech Speak</h1><hr />
+<h2>Description</h2>
+<p>TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it." - Roger Penrose</p>
+<hr/>
+<h3>Contact</h3>
+<p>Aashish Mane - +91 9945049097</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTEvent2'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen55'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen56' style='width:500px;'>
+<h1>TEvent2</h1><hr />
+<h2>Description</h2>
+<p>description1</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTEvent1'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen57'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen58' style='width:500px;'>
+<h1>TEvent1</h1><hr />
+<h2>Description</h2>
+<p>description</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageMindBend'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen59'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen60' style='width:500px;'>
+<h1>MindBend</h1><hr />
+<h2>Description</h2>
+<p>Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br />- Prelims round consisting of crossword and short questionnaire.<br />- Final round between 6 teams<br />- Expected turnout – 30 teams of 2 each<br /><br />Venue – MSH<br />Day – 24/10/2013 (Day 1)<br />Timings – 12 pm to 7 pm</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageSEM_and_TEM_Expo'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen61'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen62' style='width:500px;'>
+<h1>SEM and TEM Expo</h1><hr />
+<h2>Description</h2>
+<p>The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />- 1 hour introductory talk<br />- 1 hour demo  <br />- Expected turnout – 50 <br />- Venue – ISTE Seminar hall<br />- Day – 25/10/2013 (Day 2)<br /></p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageMetamorphosis'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen63'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen64' style='width:500px;'>
+<h1>Metamorphosis</h1><hr />
+<h2>Description</h2>
+<p>A trademark of Materials Events, this gives students an opportunity to take a crack a real-world industrial problem. Every stage of the problem forces one to think unconventionally and use every bit of information available.<br />- Abstract submission through mail<br />- Final round – Presentation by 4 teams in Department seminar hall.<br />- Expected turnout – 6 to 8 teams of 2 each<br /><br />Venue – Department Seminar Hall<br />Day – 26/10/2013 (Day 3<br />Timings – 3 pm to 6 pm</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageMetaMagic'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen65'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen66' style='width:500px;'>
+<h1>MetaMagic</h1><hr />
+<h2>Description</h2>
+<p>Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />- Expected turnout – 400+ in total<br />- Major demonstrations  – FerroFluid, Shape Memory Alloy, Superconductor<br />- Others –  Sugar bomb, Instant Ice, Mega Bubble, Elephant Toothpaste, Walking on Water,  Chemical Squid, Smoke Bomb, Dry Sand.<br />- Venue – Special Stage (SS)<br />- Session 1 on 25/10/2013 (8 am to 5 pm)<br />- Session 2 on 26/10/2013 (10 am to 3 pm)</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageSEM_Photography_Contest'style='width:1000px;margin:0 auto;'>
+<table class='table'>
+<tr>
+<td valign='top'><span id='blockGen67'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen68' style='width:500px;'>
+<h1>SEM Photography Contest</h1><hr />
+<h2>Description</h2>
+<p>The event is a photography contest. SEM images of samples having unique features are evaluated.<br />- Online photo submission with description<br />- Expected turnout – 10<br />- Venue – Department Seminar Hall<br />- Day – 27/10/2013 (Day 4)</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
 		</div>
 		<div id="menu">
-			<button id="back">BACK</button>
-			<button id="page">PAGE</button>
-			<!--<button id="sphere">SPHERE</button>
-			<button id="helix">HELIX</button>
-			<button id="grid">GRID</button>-->
-			<button id="next">NEXT</button>
+			<button id="back" onclick="backHistory();">BACK</button>
+			<button id="page">RESET</button>
 		</div>
-		<div class="header">
-			<div class="logo"></div>
+		<div class="logo"></div>
 			<a class="btn btn-primary leftButton button1"><i class="icon-home"></i> Home</a><br />
 			<a class="btn btn-primary leftButton button2">2</a><br />
 			<a class="btn btn-primary leftButton button3">3</a><br />
 			<a class="btn btn-primary leftButton button4">4</a><br />
-
-				<div class="quickNav">
-			<center>
+		<div class="header">
+				<div class="quickNav" >
+				<center>
 					<span style="width:50%">
 					<div>
 						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >EV</button>
@@ -271,8 +500,9 @@
 					<i class="icon-th"></i>
 					</div>
 					</span>
-			</center>
+				</center>
 				</div>
+
 			<div class="pull-right">
 				<span class="dropdown" id="loggedIn">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
