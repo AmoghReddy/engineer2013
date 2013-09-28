@@ -1,0 +1,161 @@
+<table>
+<tr>
+<td>
+<span id='sideComps'>
+<br /><br /><br />
+<span id='blockGen0'><h1 style='font-size: 68px; margin: 5px;'>C</h1></span><br />
+<span id='blockGen1'><h1 style='font-size: 68px; margin: 5px;'>o</h1></span><br />
+<span id='blockGen2'><h1 style='font-size: 68px; margin: 5px;'>m</h1></span><br />
+<span id='blockGen3'><h1 style='font-size: 68px; margin: 5px;'>p</h1></span><br />
+<span id='blockGen4'><h1 style='font-size: 68px; margin: 5px;'>s</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageComps'>
+<table>
+<tr>
+<td><span id='blockGen5' onclick='getPage("TEvent3")'><img src='engineer.gif'/></span></td>
+<tr>
+<td><span id='blockGen6' onclick='getPage("TEvent4")'><img src='engineer.gif'/></span></td>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+<span id='sideTechnites'>
+<br /><br /><br />
+<span id='blockGen7'><h1 style='font-size: 68px; margin: 5px;'>T</h1></span><br />
+<span id='blockGen8'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen9'><h1 style='font-size: 68px; margin: 5px;'>c</h1></span><br />
+<span id='blockGen10'><h1 style='font-size: 68px; margin: 5px;'>h</h1></span><br />
+<span id='blockGen11'><h1 style='font-size: 68px; margin: 5px;'>n</h1></span><br />
+<span id='blockGen12'><h1 style='font-size: 68px; margin: 5px;'>i</h1></span><br />
+<span id='blockGen13'><h1 style='font-size: 68px; margin: 5px;'>t</h1></span><br />
+<span id='blockGen14'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen15'><h1 style='font-size: 68px; margin: 5px;'>s</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageTechnites'>
+<table>
+<tr>
+<td><span id='blockGen16' onclick='getPage("TEvent2")'><img src='engineer.gif'/></span></td>
+<tr>
+<td><span id='blockGen17' onclick='getPage("TEvent1")'><img src='engineer.gif'/></span></td>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+<span id='sideGeneral'>
+<br /><br /><br />
+<span id='blockGen18'><h1 style='font-size: 68px; margin: 5px;'>G</h1></span><br />
+<span id='blockGen19'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen20'><h1 style='font-size: 68px; margin: 5px;'>n</h1></span><br />
+<span id='blockGen21'><h1 style='font-size: 68px; margin: 5px;'>e</h1></span><br />
+<span id='blockGen22'><h1 style='font-size: 68px; margin: 5px;'>r</h1></span><br />
+<span id='blockGen23'><h1 style='font-size: 68px; margin: 5px;'>a</h1></span><br />
+<span id='blockGen24'><h1 style='font-size: 68px; margin: 5px;'>l</h1></span><br />
+</span>
+</td>
+<td>
+<span id='pageGeneral'>
+<table>
+<tr>
+<td><span id='blockGen25' onclick='getPage("TechSpeak")'><img src='engineer.gif'/></span></td>
+</table>
+</span>
+</td>
+</tr>
+</table>
+<span id='pageTEvent3'>
+<table>
+<tr>
+<td valign='top'><span id='blockGen26'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen27' style='width:500px;'>
+<h1>TEvent3</h1><hr />
+<h2>Description</h2>
+<p>description</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTEvent4'>
+<table>
+<tr>
+<td valign='top'><span id='blockGen28'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen29' style='width:500px;'>
+<h1>TEvent4</h1><hr />
+<h2>Description</h2>
+<p>description1</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTEvent2'>
+<table>
+<tr>
+<td valign='top'><span id='blockGen30'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen31' style='width:500px;'>
+<h1>TEvent2</h1><hr />
+<h2>Description</h2>
+<p>description1</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTEvent1'>
+<table>
+<tr>
+<td valign='top'><span id='blockGen32'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen33' style='width:500px;'>
+<h1>TEvent1</h1><hr />
+<h2>Description</h2>
+<p>description</p>
+<hr/>
+<h3>Contact</h3>
+<p>contact</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
+<span id='pageTechSpeak'>
+<table>
+<tr>
+<td valign='top'><span id='blockGen34'><img src='engineer.gif'/></span></td>
+<td>
+<span id='blockGen35' style='width:500px;'>
+<h1>TechSpeak</h1><hr />
+<h2>Description</h2>
+<p>TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it." - Roger Penrose</p>
+<hr/>
+<h3>Contact</h3>
+<p>Aashish Mane - +91 9945049097</p>
+</span>
+</td>
+</tr>
+</table>
+</span>
