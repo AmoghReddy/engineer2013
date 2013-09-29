@@ -1,14 +1,3 @@
-var isHeaderSet=true;
-function headerToggle(){
-	timer=1500;
-	if(isHeaderSet){
-		$(".leftButton").each(function(e,t){$(this).animate({"margin-left":"+=-1000"},timer,"easeInOutElastic");timer+=250});
-	}
-	else{
-		$(".leftButton").each(function(e,t){$(this).animate({"margin-left":"+=+1000"},timer,"easeInOutElastic");timer+=250});
-	}
-	isHeaderSet=!isHeaderSet;
-}
 function quickNavToggle(isNavSet){
 	console.log(isNavSet);
 	if(isNavSet){
@@ -98,22 +87,48 @@ function extractDelta(e)
         return e.originalEvent.wheelDelta;
     }
 }
-
+function keybind(){
+	$(document).keydown(function(e){
+		if(e.keyCode==37 || e.keyCode==38){
+			VScroll(false);
+		}
+		else if(e.keyCode==39 || e.keyCode==40){
+			VScroll(true);
+		}
+	});
+}
+function router(){
+	pageName=window.location.hash.substr(1);
+	if(pageName) getPage(pageName);
+}
+function searchRouter(){
+	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
+	$('#searchBox').typeahead({source: colors});
+}
+function share(){
+	var input=document.getElementById("share_url");
+	input.selectionStart=0;
+	input.selectionEnd=input.value.length;
+	if(input.value.split("#")[1]=="homePage")
+		input.value=window.location.href;
+	$("#shareModal").modal("show");
+}
 function system()
 {
-	start();
 	// in 3script.js
-	$(".logo").click(headerToggle);
-	headerToggle();
+	$(".logo").click(function(){getPage("homePage");});
 	$(".quickNav button").hide(0);
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },
 	                          function(){ quickNavToggle(true); }
 				  );
 	$(".dropdown input").click(function(e){e.stopPropagation();});
-	// controlling mouse
-	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
-	//console.log(camera.position);
-	$('#searchBox').typeahead({source: colors});
+
+	start();
+	keybind();
+	router();
+	searchRouter();
+
+
 }
 //window.onbeforeunload=function(){ return "Do  you want to go back?";}
 window.onload=system;

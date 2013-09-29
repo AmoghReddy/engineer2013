@@ -7,7 +7,6 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="js/jquery-1.10.1.min.js"></script>
-		<script src="js/jquery.easing.1.3.js" ></script>
 		<script src="bootstrap/js/bootstrap.js" ></script>
 		<script src="js/three.min.js"></script>
 		<script src="js/tween.min.js"></script>
@@ -18,19 +17,19 @@
 	<body>
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
-				<span id = "engiLogo"><img id="engiImg" src="loading.gif"/></span>
+				<span id = "engiLogo"><img id="engiImg" src="loading.gif" style="width:300px;"/></span>
 				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" >EVENTS</button></span>
 				<span id = "menu1"><button id="button1">WORK SHOPS</button></span>
 				<span id = "menu2"><button id="button2">TECHNITES</button></span>
 				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" >TECH SPEAK</button></span>
 				<span id = "menu4"><button id="button4">SPONSORS</button></span>
-				<span id = "menu5"><button id="button5">ABOUT ENGI</button></span>
+				<!--<span id = "menu5"><button id="button5">ABOUT ENGI</button></span>-->
 				<span id = "menu6"><button id="button6">CONTACTS</button></span>
 				<span id = "menu7"><button id="button7">ACCOM</button></span>
 			</span>
 			<span id = "allCommittees">
-				<span id = "comitteeComps" style="background:url(engineer.gif);opacity:0.8;color:#fff;width:300px;height:300px;cursor:pointer" onclick="getPage('Comps')">
-					<h1>Comps Events</h1>
+				<span id = "comitteeComps" style="cursor:pointer" onclick="getPage('Comps')">
+					<img id="eve1" src="comp.jpg"/>
 				</span>
 				<span id = "comitteeMech">
 					<img id="eve2" src="mech.png"/>
@@ -206,7 +205,7 @@
 <table>
 <tr>
 <td><span id='blockGen30' onclick='getPage("TEvent2")'><img src='engineer.gif'/></span></td>
-<td><span id='blockGen31' onclick='getPage("TEvent1")'><img src='engineer.gif'/></span></td>
+<td><span id='blockGen31' onclick='getPage("LED_")'><img src='engineer.gif'/></span></td>
 </table>
 </span>
 </td>
@@ -239,7 +238,7 @@
 </td>
 </tr>
 </table>
-<span id='pageInscription'style='width:1000px;margin:0 auto;'>
+<span id='pageInscription' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen41'><img src='engineer.gif'/></span></td>
@@ -256,7 +255,7 @@
 </tr>
 </table>
 </span>
-<span id='pageECTF_-_Capture_the_Flag'style='width:1000px;margin:0 auto;'>
+<span id='pageECTF_-_Capture_the_Flag' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen43'><img src='engineer.gif'/></span></td>
@@ -273,7 +272,7 @@
 </tr>
 </table>
 </span>
-<span id='pageVirtual_Bounty'style='width:1000px;margin:0 auto;'>
+<span id='pageVirtual_Bounty' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen45'><img src='engineer.gif'/></span></td>
@@ -290,7 +289,7 @@
 </tr>
 </table>
 </span>
-<span id='pageKode_Kombat'style='width:1000px;margin:0 auto;'>
+<span id='pageKode_Kombat' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen47'><img src='engineer.gif'/></span></td>
@@ -307,7 +306,7 @@
 </tr>
 </table>
 </span>
-<span id='pageMarathon'style='width:1000px;margin:0 auto;'>
+<span id='pageMarathon' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen49'><img src='engineer.gif'/></span></td>
@@ -324,7 +323,7 @@
 </tr>
 </table>
 </span>
-<span id='pageRectify'style='width:1000px;margin:0 auto;'>
+<span id='pageRectify' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen51'><img src='engineer.gif'/></span></td>
@@ -341,7 +340,7 @@
 </tr>
 </table>
 </span>
-<span id='pageTech_Speak'style='width:1000px;margin:0 auto;'>
+<span id='pageTech_Speak' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen53'><img src='engineer.gif'/></span></td>
@@ -358,7 +357,7 @@
 </tr>
 </table>
 </span>
-<span id='pageTEvent2'style='width:1000px;margin:0 auto;'>
+<span id='pageTEvent2' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen55'><img src='engineer.gif'/></span></td>
@@ -375,13 +374,13 @@
 </tr>
 </table>
 </span>
-<span id='pageTEvent1'style='width:1000px;margin:0 auto;'>
+<span id='pageLED_' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen57'><img src='engineer.gif'/></span></td>
 <td>
 <span id='blockGen58' style='width:500px;'>
-<h1>TEvent1</h1><hr />
+<h1>LED </h1><hr />
 <h2>Description</h2>
 <p>description</p>
 <hr/>
@@ -392,7 +391,7 @@
 </tr>
 </table>
 </span>
-<span id='pageMindBend'style='width:1000px;margin:0 auto;'>
+<span id='pageMindBend' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen59'><img src='engineer.gif'/></span></td>
@@ -409,7 +408,7 @@
 </tr>
 </table>
 </span>
-<span id='pageSEM_and_TEM_Expo'style='width:1000px;margin:0 auto;'>
+<span id='pageSEM_and_TEM_Expo' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen61'><img src='engineer.gif'/></span></td>
@@ -426,7 +425,7 @@
 </tr>
 </table>
 </span>
-<span id='pageMetamorphosis'style='width:1000px;margin:0 auto;'>
+<span id='pageMetamorphosis' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen63'><img src='engineer.gif'/></span></td>
@@ -443,7 +442,7 @@
 </tr>
 </table>
 </span>
-<span id='pageMetaMagic'style='width:1000px;margin:0 auto;'>
+<span id='pageMetaMagic' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen65'><img src='engineer.gif'/></span></td>
@@ -460,7 +459,7 @@
 </tr>
 </table>
 </span>
-<span id='pageSEM_Photography_Contest'style='width:1000px;margin:0 auto;'>
+<span id='pageSEM_Photography_Contest' style='margin:100px;padding:50px'>
 <table class='table'>
 <tr>
 <td valign='top'><span id='blockGen67'><img src='engineer.gif'/></span></td>
@@ -483,10 +482,6 @@
 			<button id="page">RESET</button>
 		</div>
 		<div class="logo"></div>
-			<a class="btn btn-primary leftButton button1"><i class="icon-home"></i> Home</a><br />
-			<a class="btn btn-primary leftButton button2">2</a><br />
-			<a class="btn btn-primary leftButton button3">3</a><br />
-			<a class="btn btn-primary leftButton button4">4</a><br />
 		<div class="header">
 				<div class="quickNav" >
 				<center>
@@ -504,6 +499,7 @@
 				</div>
 
 			<div class="pull-right">
+				<a class="btn" onclick="share();">Share</a>
 				<span class="dropdown" id="loggedIn">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding-left:10px;" role="menu" aria-labelledby="dLabel">
@@ -535,6 +531,19 @@
 				<input type="text" id="searchBox" placeholder=" Search events"/>
 			</div>
 		</div>
+		<!-- share thingy -->
+		<div id="shareModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  			<div class="modal-header">
+    			<a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+    			<h3 id="myModalLabel">Share URL</h3>
+  			</div>
+  			<div class="modal-body">
+  				<input type="text" placeholder="URL" style="width:400px" id="share_url"/>
+  			</div>
+  			<div class="modal-footer">
+    			<a class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+  			</div>
+			</div>
 		<div class="footer">
 			<span class="social"> Fb | G+ | twitter | blog</span>
 			<center>&copy; Engineer 2013 Technical team</center>

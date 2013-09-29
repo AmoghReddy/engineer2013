@@ -59,7 +59,7 @@ function page( element, dontCenter, radiusAdjust )
 	this.initHome = function()
 	{
 		this.name = element.id;
-		var depth = -40, duration = 1200;
+		var depth = -20, duration = 1200;
 		this.zDepth = depth;
 		this.DOMobjects.push(document.getElementById('engiLogo'));
 		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
@@ -404,8 +404,11 @@ function getHomeTargets(source, destination, depth)
 		diag = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2;
 		if (diag > maxDiag) maxDiag = diag;
 	}
+	// CHANGE THE VALUE OF THIS TO CONTROL RADIUS
+	maxDiag-=100;
 	rect = source[0].getBoundingClientRect();
 	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag;
+	console.log(radius);
 	theta = 2 * Math.PI / (source.length - 1);
 	object = new THREE.Object3D(0, 0, 0);
 	destination.push(object);
@@ -489,6 +492,8 @@ function getPage(pageName)
 		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentPage.name);
 	}
 	addHistory(currentPage.name);
+	if(currentPage.name == 'homePage') $("#menu").fadeOut();
+	else $("#menu").fadeIn();
 }
 
 var curIndex = 0;
@@ -696,6 +701,7 @@ function start()
 function addHistory(itemName){
 	if(history[history.length-1] != itemName)
 		history.push(itemName);
+	document.getElementById("share_url").value=window.location.href.split("#")[0]+"#"+itemName;
 }
 function backHistory(){
 	itemName=history.pop();
