@@ -113,20 +113,18 @@ button {
 	-webkit-transition-duration: 0.5s; /* Safari and Chrome */
 	-o-transition-duration: 0.5s; /* Opera */
 
-   -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 
 
 }
 button:hover {
-	color: #000;
-	background-color: #eee;
-
-
-   -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	color: #fff;
+	background-color: #555;
+   	-webkit-box-shadow: 0px 0px 10px #000;
+   	-moz-box-shadow: 0px 0px 10px #000;
+   	box-shadow: 0px 0px 10px #000;
 }
 button:active {
 	color: #000;
@@ -279,7 +277,6 @@ button:active {
 	position:fixed;
 	bottom:5px;
 	left:5px;
-	border: 1px solid #ffffff;
 }
 
 #menu button{
@@ -288,8 +285,7 @@ button:active {
 	border-radius:30%;
 }
 img{
-
-   -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
-   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   	-webkit-box-shadow: 0px 0px 15px #000;
+   	-moz-box-shadow: 0px 0px 15px #000;
+   	box-shadow: 0px 0px 15px #000;
 }
