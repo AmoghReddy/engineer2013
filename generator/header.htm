@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="js/jquery-1.10.1.min.js"></script>
-		<script src="bootstrap/js/bootstrap.js" ></script>
+		<script src="bootstrap/js/bootstrap.min.js" ></script>
 		<script src="js/three.min.js"></script>
 		<script src="js/tween.min.js"></script>
 		<script src="js/CSS3DRenderer.js"></script>
@@ -15,6 +15,20 @@
 		<script src="js/system.js"></script>
 	</head>
 	<body>
+	<div class="loading">
+		<img src="loading.gif" />
+		<a id="loading_text">Loading....</a>
+	</div>
+	<script>
+		var data=["Assembling Gears....","Downloading LEDs....","Compiling Code....","Melting Metal....","Estimating Cost...."];
+		function loadingTextHandle(){
+			var loadingText=document.getElementById("loading_text");
+			var newData=data[Math.floor(Math.random()*1000)%data.length-1];
+			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
+			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",3000); }
+		}
+		loadingTextHandle();
+	</script>
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
 				<span id = "engiLogo"><img id="engiImg" src="loading.gif" style="width:300px;"/></span>
@@ -34,7 +48,8 @@
 				<span id = "comitteeMech">
 					<img id="eve2" src="mech.png"/>
 				</span>
-				<span id = "comitteeTronics">
+				<span id = "comitteeTronics" onclick="getPage('Eee')">
+					<h1>tronics</h1>
 					<img id="eve3" src="engineer.gif"/>
 				</span>
 				<span id = "comitteeChem">

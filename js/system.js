@@ -115,6 +115,7 @@ function share(){
 }
 function system()
 {
+	$(".loading").hide();
 	// in 3script.js
 	$(".logo").click(function(){getPage("homePage");});
 	$(".quickNav button").hide(0);

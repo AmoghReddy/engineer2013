@@ -284,8 +284,20 @@ button:active {
 	height: 50px;
 	border-radius:30%;
 }
+.loading{
+	color:#fff;
+	padding-top:200px;
+	padding-left: 100px;
+	z-index:200;
+	width:3000px;
+	height:3000px;
+	position:fixed;
+	top:0px;
+	background:#000;
+}
 img{
    	-webkit-box-shadow: 0px 0px 15px #000;
    	-moz-box-shadow: 0px 0px 15px #000;
    	box-shadow: 0px 0px 15px #000;
 }
+
