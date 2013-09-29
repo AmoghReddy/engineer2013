@@ -54,7 +54,7 @@ for i in events.iterkeys():
 # event page
 for i in events.iterkeys():
 	for event in events[i].iterkeys():
-		print "<span id='page"+event+"'style='width:1000px;margin:0 auto;'>"
+		print "<span id='page"+event+"' style='margin:100px;padding:50px'>"
 		print "<table class='table'>"
 		print "<tr>"
 		print "<td valign='top'><span id='blockGen"+str(block)+"'><img src='"+events[i][event][0]+"'/></span></td>"

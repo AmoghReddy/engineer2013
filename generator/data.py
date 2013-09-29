@@ -9,8 +9,7 @@ comitteeLogos={
 
 #each comittee
 Technites={
-#TODO include all stuffs here
-"TEvent1":["engineer.gif","description","contact"],
+"LED_":["engineer.gif","description","contact"],
 "TEvent2":["engineer.gif","description1","contact"]
 }
 
