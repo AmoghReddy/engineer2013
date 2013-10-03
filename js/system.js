@@ -131,5 +131,5 @@ function system()
 
 
 }
-window.onbeforeunload=function(){ return "Back Button wont work :P\nUse the back button at the bottom of the screen";}
+//window.onbeforeunload=function(){ return "Back Button wont work :P\nUse the back button at the bottom of the screen";}
 window.onload=system;
