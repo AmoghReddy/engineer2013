@@ -16,7 +16,7 @@ print "</div>"
 
 #TODO comittee page
 
-# ndividual comittees' pages
+# Individual comittees' pages
 for i in events.iterkeys():
 	print "<table class='table'>"
 	print "<tr>"
@@ -38,7 +38,7 @@ for i in events.iterkeys():
 	for event in events[i].iterkeys():
 		if count%3==0:
 			print "<tr>"
-		print "<td><span id='blockGen"+str(block)+"' onclick='getPage(\""+event+"\")'><img src='"+events[i][event][0]+"'/></span></td>"
+		print "<td><span id='blockGen"+str(block)+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event][0]+"'/></span></td>"
 		if count%3==2:
 			print "</tr>"
 		block+=1

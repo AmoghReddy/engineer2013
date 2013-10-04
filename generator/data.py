@@ -1,22 +1,37 @@
 # coding:utf-8
 # logo of comittee
 comitteeLogos={
-"Comps":"engineer.gif",
+"Comps":"./Icons_Final/Comps_Main.png",
 "Technites":"engineer.gif",
-"TechSpeak":"engineer.gif",
-"Meta":"engineer.gif",
-"Biz":"engineer.gif",
-"Chem":"engineer.gif",
+"TechSpeak":"./Icons_Final/Techspeak.png",
+"Meta":"./Icons_Final/Metamain.png",
+"Biz":"./Icons_Final/BIZ.png",
+"Chem":"./Icons_Final/chemmain.png",
 "Eee":"engineer.gif",
-"Mba":"engineer.gif",
-"Sce":"engineer.gif",
+"Mba":"./Icons_Final/MBA.png",
+"Sce":"./Icons_Final/Sce.png",
 "Mining":"engineer.gif"
 }
 
 #each comittee
 Technites={
-"LED_":["engineer.gif","description","contact"],
-"TEvent2":["engineer.gif","description1","contact"]
+
+"Megapixel": ["engineer.gif","Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen.","contact"],
+"Blitzkrieg": ["engineer.gif","Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility. ","contact"],
+"Dance_Dance_Revolution":["engineer.gif","Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring.","contact"],
+"Agent_Dash": ["engineer.gif","Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. ","contact"],
+"Labyrinth": ["engineer.gif","Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. ","contact"],
+"Pin_Ball": ["engineer.gif","A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. ","contact"],
+"Temple_Run": ["engineer.gif","Temple Run, an adventurous game in which the character runs in a jungle avoiding all obstacles. The character is also being chased by a demon & has to avoid being caught. We are implementing the game virtually using Kinect. If you want to experience a real thrilling chase you gotta check this out. ","contact"],
+"Contraption": ["engineer.gif","In the year 2011, Contraption was implemented on a structure that depicted the Engineer logo. In 2012, a mechanical clock was made. This year we bring it back bigger than ever.","contact"],
+"Strongman": ["engineer.gif","Strongman is an exhibitor of strength and this game is everyone’s chance at that. It consists of a tower of LEDs, lit according to how hard the player manages to whack a given spot with a hammer. As opposed to the ones used in funfair and carnivals, this game uses pressure sensors to determine the force of the blow. When all the LEDs are lit, the player wins. The game mechanics involves controlling the number of rows of LEDs lit according to the sensor measurements. ","contact"],
+"Shadow_LED": ["engineer.gif","Shadow LED is an LED panel that shows one’s shadow. When the person stands in front of it, the LEDs light up to display his/her shadow. Swing your arms, move about, walk away and it does exactly that. This event involves image processing and controlling LED arrays. ","contact"],
+"Waterfall": ["engineer.gif","Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ","contact"],
+"Decagon": ["engineer.gif","DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ","contact"],
+"Liquid_Light": ["engineer.gif","Liquid Light is made up of an RGB LED screen. It consists of various touch points. When touched, it creates an explosion of colourful patterns similar to the ripple effect from touching water. It involves detecting touch, algorithms to create patterns and controlling LED arrays. ","contact"],
+"Light_Wall": ["engineer.gif","The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ","contact"],
+"Theremin": ["engineer.gif","The Theremin is an early instrument played without touching. It consists of two antennas, one to control pitch and the other to control amplitude. Along the same lines, the Theremin implemented is modeled as a butler, with sensors for hands, depicted as vocalizing according to the user’s movements. Instead of the antennas, here, the distance of the user’s hands from the two sensors control the pitch and the amplitude. It also consists of two knobs to control mode and volume. The game mechanics involves sensing motion and using that as a basis to emit sounds. ","contact"],
+"Laser_Harp":["engineer.gif","Laser harp is an engineer’s attempt to draw analogy with the musical instrument harp. Being a high profile feature of concerts of famous musicians, here, laser beams are blocked instead of plucking strings and sound is emitted by detecting which laser was blocked using sensors. The game mechanics involve accurate alignment of the laser and sensor placed on opposite ends of the harp and producing sound of various frequencies according to the laser beam blocked. ","contact"]
 }
 
 Comps={
@@ -26,7 +41,7 @@ Venue : Online. Mostly on CodeChef. 1 Session 3-4 hrs.<br />\
 Last Year Participation – Around 100 teams.<br />\
 Expected this year – Around 200 teams.","contact"],
 
-"Kode_Kombat":["engineer.gif","Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br />\
+"Kode_Kombat":["./Icons_Final/CODE_KOMBAT.png","Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br />\
 <b>Teams of 2.</b><br />\
 Venue : Online. KK server. Throughout the fest.<br />\
 Last Year Participation - Around 10 teams.<br />\
@@ -42,7 +57,7 @@ Venue : 1st round in NTB Classrooms. 2nd round in CCC<br />\
 Last Year Participation - Around 100.<br />\
 Expected this year – Around 200.<br />","contact"],
 
-"Marathon":["engineer.gif","Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
+"Marathon":["./Icons_Final/marathon_final.png","Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
 computer science from basic programming, scripting, to operating systems and networks. This\
 Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
 developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
@@ -55,7 +70,7 @@ Venue : 1st round in NTB Classrooms. 2nd and 3rd round in CCC<br />\
 Last Year Participation - Around 50 teams.<br />\
 Expected this year – Around 60-80 teams.<br />","contact"],
 
-"ECTF_-_Capture_the_Flag":["engineer.gif","ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
+"ECTF_-_Capture_the_Flag":["./Icons_Final/ECTF.png","ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
 Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
 at the same time defending your own.<br />\
 <b>Teams of 3.</b><br />\
@@ -63,7 +78,7 @@ Venue : Online. Both practice round and Main round.<br />\
 Last Year Participation - Around 30 teams.<br />\
 Expected this year – Around 50 teams.","contact"],
 
-"Virtual_Bounty":["engineer.gif","Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
+"Virtual_Bounty":["./Icons_Final/VIRTUAL_BOUNTY2.png","Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
 of the participants are put to test. Using search engines, the participants need to figure out the clues\
 which will take them all around the World Wide Web in order to get to the next more intriguing\
 level. This is a quest for the elusive treasure buried beneath billions of web pages.<br />\
@@ -74,7 +89,7 @@ Expected this year – Around 600.<br />","contact"]
 }
 
 Meta={
-"MetaMagic":["engineer.gif","Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />\
+"MetaMagic":["./Icons_Final/MetaMagic.png","Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />\
 - Expected turnout – 400+ in total<br />\
 - Major demonstrations  – FerroFluid, Shape Memory Alloy, Superconductor<br />\
 - Others –  Sugar bomb, Instant Ice, Mega Bubble, Elephant Toothpaste, Walking on Water,  Chemical Squid, Smoke Bomb, Dry Sand.<br />\
@@ -82,7 +97,7 @@ Meta={
 - Session 1 on 25/10/2013 (8 am to 5 pm)<br />\
 - Session 2 on 26/10/2013 (10 am to 3 pm)","contact"],
 
-"MindBend":["engineer.gif","Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br />\
+"MindBend":["./Icons_Final/mindbend.png","Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br />\
 - Prelims round consisting of crossword and short questionnaire.<br />\
 - Final round between 6 teams<br />\
 - Expected turnout – 30 teams of 2 each<br /><br />\
@@ -105,7 +120,7 @@ Timings – 3 pm to 6 pm","contact"],
 - Venue – ISTE Seminar hall<br />\
 - Day – 25/10/2013 (Day 2)<br />","contact"],
 
-"SEM_Photography_Contest":["engineer.gif","The event is a photography contest. SEM images of samples having unique features are evaluated.<br />\
+"SEM_Photography_Contest":["./Icons_Final/SEMphotography.png","The event is a photography contest. SEM images of samples having unique features are evaluated.<br />\
 - Online photo submission with description<br />\
 - Expected turnout – 10<br />\
 - Venue – Department Seminar Hall<br />\
@@ -115,11 +130,11 @@ Timings – 3 pm to 6 pm","contact"],
 
 # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":["engineer.gif","TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Aashish Mane - +91 9945049097"]
+"Tech_Speak":["./Icons_Final/Techspeak.png","TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Aashish Mane - +91 9945049097"]
 }
 
 Biz={
-"Case_Study_challenge":["engineer.gif","The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":["./Icons_Final/casestudychallenge.png","The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>\
 <b>Venue:</b> MSH<br/> \
 <b>Number of Sessions:</b> 1 (Only the Final)<br/>\
@@ -132,26 +147,26 @@ The competition would be held by SCE and Biz events committee together.<br/>\
 <b>Number of Sessions:</b> 1 (Only the Final)<br/>\
 <b>Expected Participation:</b> 60-100<br/>","contact"],
 
-"Campus_Social_Innovision_Challenge":["engineer.gif","The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
+"Campus_Social_Innovision_Challenge":["./Icons_Final/campussocialinnovation.png","The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
 <b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>\
 <b>Venue:</b> MSH<br/>\
 <b>Number of Sessions:</b> 1 (Only the Final)<br/>\
 <b>Expected Participation:</b> 50-80<br/>","contact"],
 
-"Data_Analysis_Challange":["engineer.gif","This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+"Data_Analysis_Challange":["./Icons_Final/data_analysischallenge.png","This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>\
 <b>Venue:</b> MSH<br/>\
 <b>Number of Sessions:</b> 1 (Only the Final)<br/>\
 <b>Expected Participation:</b> 100-120<br/>","contact"],
 }
 Chem={
-"Chemical_Breakdown":["engineer.gif","<b>Introduction:</b><br/><br/>\
+"Chemical_Breakdown":["./Icons_Final/Chemical_Breakdown.png","<b>Introduction:</b><br/><br/>\
 'My mind,'' he said, 'rebels at stagnation. Give me problems, give me work,<br/>give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>I crave for mental exaltation. That is why I have chosen my own particular profession,<br/>or rather created it, for I am the only one in the world.'<br/> \
 <b>― Arthur Conan Doyle, The Sign of Four</b><br/><br/>\
  Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science,<br/> laboratory skills and indulge in the world of basic chemistry. Don the role of a lab<br/> geek, play with the uncanniest concoctions, prepare the fanciest potions and race<br/>against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
 Push the lizard Brain of yours to the maximum!<br/>","contact"],
 
-"Industry_Defined_Problem":["engineer.gif","<b>Introduction:</b><br/><br/>\
+"Industry_Defined_Problem":["./Icons_Final/IDP.png","<b>Introduction:</b><br/><br/>\
 Industry Defined Problem is real, applied engineering at its epitome. Aiming to<br/>bridge the gap between theory and practice by challenging engineers to come<br/>up with innovative and creative solutions to crucial real life industrial problems<br/>IDP has been serving as a platform for budding engineers to interact with experts<br/>from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
 Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge<br/>and come up with creative solutions to problems posed by the industry. In this event,<br/>a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue. . The participants are<br/>expected to come up with innovative & economically feasible solutions that can<br/>be assimilated in the company’s process.<br/><br/>\
 The previous editions had us collaborating with the likes of Mangalore Refinery <br/>and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and<br/>other esteemed companies.<br/> \
@@ -175,7 +190,7 @@ This will be followed up by an exciting event based on software.<br/> Hurry up! 
 
 Eee={
 
-"TrailBlazer":["engineer.gif","<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
+"TrailBlazer":["./Icons_Final/trailblazer.png","<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/><br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
  You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
@@ -311,7 +326,7 @@ The team with the highest amount of virtual money in their account at the end of
 Judges' decision will be final and binding in all cases.<br/>\
 ","contact"],
 
-"FoxHunt":["engineer.gif","“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/><br/>\
+"FoxHunt":["./Icons_Final/foxxhunt.png","“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/><br/>\
 Foxhunt, is a fun filled package on the lines of a traditional English activity involving<br/>tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,<br/>the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated<br/>anywhere in the campus, using a tunable radio receiver and an antenna built by them,<br/>making the event full of fun and excitement.<br/>\
 <B>EVENT FORMAT</B><BR/>\
 The event will have two phases <br/>\
@@ -366,7 +381,7 @@ The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 ","contact"],
 
-"Waltz":["engineer.gif","<b>Introduction:<br/> <br/>Goal:</b><br/>  Teams must build a wall following bot that navigates the maze in minimum possible time <br/>\
+"Waltz":["./Icons_Final/Waltz.png","<b>Introduction:<br/> <br/>Goal:</b><br/>  Teams must build a wall following bot that navigates the maze in minimum possible time <br/>\
 <b>Arena:</b><br/> 	\
 1. The arena comprises of 10cm high walls in the form of a small maze. The wall will be in white colour.<br/> \
 2. The track may contain the following elements-<br/> \
@@ -387,7 +402,7 @@ Where T is the time taken for the team to complete the maze in seconds.<br/>\
 
 Mba={
 	
-"HR_Event":["engineer.gif","<b>ROUND1 –CASE STUDY</b><br/>\
+"HR_Event":["./Icons_Final/MBA.png","<b>ROUND1 –CASE STUDY</b><br/>\
 A common case will be provided to all the teams and they will be given a time of 30 min to analyze the case<br/>and make a presentation for five minutes, teams will be selected randomly for the presentation after 30 min.<br/>This will be evaluated by judges for a score of 100 points, there will be an ELIMINATION in this round. <br/>\
 <br/><b>ROUND 2-BIDDING</b><br/>\
 In this round Hidden Bidding is done-every team will have 1 member as employee and other member as employer.<br/>Each Employee will be given 10 min to prepare his/her intro, which includes his/her self-introspection<br/>and ability to handle situation of crisis, etc. And they have to present it in front of all the employers<br/>from all the teams, employers will buy them for points. The employer who bids for higher points will<br/>win that employee as his partner for the upcoming round the maximum bidding will be for<br/>100 points.<br/>\
@@ -438,7 +453,7 @@ Presentation-max 20 min per team<br/>\
 So the event comes to end by 1:30 and results will be declared ASAP.<br/>\
 ","contact"],
 
-"Finance_Event":["engineer.gif","<b>\
+"Finance_Event":["./Icons_Final/Finance.png","<b>\
 Round 1<br/>\
 Finding the most profitable path<br/>\
 Round 2<br/>\
@@ -482,7 +497,7 @@ Venue: Main ground after inauguration<br/>\
 	
 }
 Mining={
-"Mine_Rush":["engineer.gif","A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments.<br />\
+"Mine_Rush":["./Icons_Final/Mine_Quest.png","A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments.<br />\
 Time : 09:30-12:00<br />\
 Venue : in and around mining department<br />\
 Net prize money :  Rs.5000/-","Arjun Thumbayil - arjunthumbayil@hotmail.com"],
@@ -492,7 +507,7 @@ Time : 14:00-16:00<br />\
 Venue : mining department (conference hall)<br />\
 Net prize money :  Rs.3000/-<br />","Arjun Thumbayil - arjunthumbayil@hotmail.com"],
 
-"Mine_Quest":["engineer.gif","This is a quiz event which consists of four rounds. <br />\
+"Mine_Quest":["./Icons_Final/Mine_Quest.png","This is a quiz event which consists of four rounds. <br />\
 <h3>round 1 : preliminary</h3>\
 All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br />\
 time : 09:30-10:00<br />\
