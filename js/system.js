@@ -16,7 +16,7 @@ function setEvents()
 	var transformTime = 1500;
 	
 	var button = document.getElementById( 'page' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, false, currentPage.name);}, false );
+	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, false, currentPage);}, false );
 
 	var button = document.getElementById( 'button1' );
 	button.addEventListener( 'click', function ( event ) {getPage('Home');}, false );
@@ -71,7 +71,7 @@ function VScroll(isScrollUp)
 		}
 		getNextScroll(currentPage.targets.page, currentPage.initialPositions, resultTable, alpha);
 	}
-	transform(currentPage.WGLobjects, resultTable, 1000, 1000, false, currentPage.name);
+	transform(currentPage.WGLobjects, resultTable, 1000, 1000, false, currentPage);
 }
 
 function extractDelta(e) 
