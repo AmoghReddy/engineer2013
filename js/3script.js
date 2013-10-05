@@ -22,6 +22,8 @@ var REside = new RegExp("^side");
 var REform = new RegExp("^form");
 var REcomittee = new RegExp("^comittee");
 var REmenu = new RegExp("^menu");
+var REtabgroup = new RegExp("^tabgroup");
+var REtab = new RegExp("^tab");
 
 var pivot = new THREE.Vector3(0, 0, -3000);
 var history=[];
@@ -40,6 +42,16 @@ function page( element, dontCenter, radiusAdjust )
 	this.onComplete = function() {}
 	this.initPage = function()
 	{
+		var tabStart = this.DOMobjects.length;
+		var tempArray = [];
+		getAllChildren(this.pageElement, REtabgroup, tempArray);
+		if (tempArray)
+		{
+			for (var i = 0 ; i < tempArray.length ; i++)
+			{
+								
+			}
+		}
 		this.name = element.id.substr(4);
 		getAllChildren(this.pageElement, REblock, this.DOMobjects);
 		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, dontCenter, radiusAdjust);
@@ -47,7 +59,7 @@ function page( element, dontCenter, radiusAdjust )
 		//getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
 		//getGridTargets(this.DOMobjects, this.targets.grid);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
-		//console.log("name = "+this.name+".");
+
 	}
 	this.initComittee = function()
 	{
@@ -110,7 +122,7 @@ function page( element, dontCenter, radiusAdjust )
 					{
 						var object = allPages[pageName].WGLobjects[i];
 						object.position.z = depth * Math.sin(((2 * Math.PI) * (i - 1) / (allPages[pageName].WGLobjects.length - 1) ) + this.theta);
-						
+
 					}
 				})
 				.repeat( Infinity )
@@ -172,7 +184,7 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 	var rect, object, boxleft, boxtop, boxwidth, boxheight, theta, pos;
 	var vect = new THREE.Vector3();
 	vect.copy( pivot );
-	var threshold = pageElement.getBoundingClientRect()
+	var threshold = pageElement.getBoundingClientRect();
 	var topThreshold = threshold.top - headerLength;
 	var centerAdjustment = ( initialWidth - ( threshold.right - threshold.left ) ) / 2 ;
 	if (dontCenter) centerAdjustment = 0;
@@ -428,7 +440,7 @@ function getRandomTarget(object) //always outside the view
 	object.position.z = (Math.random() * 5000 + 100) * Math.pow(-1, Math.floor(Math.random() * 100));
 	var offsetY = (camera.position.z - object.position.z) * Math.tan((Math.PI/180) * cameraAngle / 2);
 	object.position.y = (Math.random() * 2000 + offsetY + window.innerHeight / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
-	object.position.x = (Math.random() * 2000 + offsetY * (initialWidth / window.innerHeight) + initialWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.x = (Math.random() * 2000 + offsetY * (window.innerWidth / window.innerHeight) + window.innerWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
 	object.rotation.x = Math.random() % Math.PI*2;
 	object.rotation.y = Math.random() % Math.PI*2;
 	object.rotation.z = Math.random() % Math.PI*2;
@@ -490,7 +502,7 @@ function getPage(pageName)
 	if (currentSideBar != undefined)
 	{
 		loadPage( currentSideBar );
-		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentPage.name);
+		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar.name);
 	}
 	addHistory(currentPage.name);
 	if(currentPage.name == 'homePage') $("#menu").fadeOut();
@@ -610,7 +622,7 @@ function init()
 	
 	//getPage("allCommittees");
 	//getPage("Home");
-	getPage("homePage");
+	//getPage("homePage");
 }
 
 function transform(sources, destinations, duration, variation, destroyOnComplete, pageName) 

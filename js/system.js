@@ -59,13 +59,15 @@ function VScroll(isScrollUp)
 		//console.log(maxAngle+":::::"+alpha);
 		if (isScrollUp)
 		{
-			if (alpha - Math.PI/180 < maxAngle) return;
-			alpha-=Math.PI/180;
+			if (alpha == maxAngle) return;
+			if (alpha - Math.PI/180 < maxAngle) alpha = maxAngle;
+			else alpha-=Math.PI/180;
 		}
 		else
 		{
-			if (alpha + Math.PI/180 > 0) return;
-			alpha+=Math.PI/180;
+			if (alpha == 0) return ;
+			if (alpha + Math.PI/180  > 0) alpha = 0 ;
+			else alpha+=Math.PI/180;
 		}
 		getNextScroll(currentPage.targets.page, currentPage.initialPositions, resultTable, alpha);
 	}
@@ -100,6 +102,7 @@ function keybind(){
 function router(){
 	pageName=window.location.hash.substr(1);
 	if(pageName) getPage(pageName);
+	else getPage("homePage");
 }
 function searchRouter(){
 	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
