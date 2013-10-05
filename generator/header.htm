@@ -31,10 +31,10 @@
 	</script>
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
-				<span id = "engiLogo"><img id="engiImg" src="loading.gif" style="width:300px;"/></span>
+				<span id = "engiLogo"><img id="engiImg" src="./images/logo.png" style="width:300px;box-shadow: 0px 0px 0px;"/></span>
 				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" >EVENTS</button></span>
 				<span id = "menu1"><button id="button1">WORK SHOPS</button></span>
-				<span id = "menu2"><button id="button2">TECHNITES</button></span>
+				<span id = "menu2"><button id="button2" onclick = "getPage('Technites')" >TECHNITES</button></span>
 				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" >TECH SPEAK</button></span>
 				<span id = "menu4"><button id="button4">SPONSORS</button></span>
 				<!--<span id = "menu5"><button id="button5">ABOUT ENGI</button></span>-->
@@ -54,7 +54,7 @@
 					<h1>tronics</h1>
 					<img id="eve3" src="engineer.gif"/>
 				</span>
-				<span id = "comitteeChem">
+				<span id = "comitteeChem" style="cursor:pointer" onclick="getPage('Chem')">
 					<h1>Chemical</h1>
 					<img id="eve4" src="images/icons/chemmain.jpg"/>
 				</span>
@@ -71,17 +71,17 @@
 				<!--<span id = "comitteeOnline">
 					<img id="eve8" src="engineer.gif"/>
 				</span>-->
-				<span id = "comitteeSCE">
+				<span id = "comitteeSCE" style="cursor:pointer" onclick="getPage('Sce')">
 					<img id="eve9" src="images/icons/Sce.jpg"/>
 				</span>
 				<span id = "comitteeAstro">
 					<img id="eve10" src="engineer.gif"/>
 				</span>
-				<span id = "comitteeBiz">
+				<span id = "comitteeBiz" style="cursor:pointer" onclick="getPage('Biz')">
 					<h1>Biz</h1>
 					<img id="eve11" src="images/icons/BIZ.jpg"/>
 				</span>
-				<span id = "comitteeMBA">
+				<span id = "comitteeMBA" style="cursor:pointer" onclick="getPage('Mba')">
 					<h1>MBA</h1>
 					<img id="eve12" src="images/icons/MBA.jpg"/>
 				</span>
@@ -89,7 +89,7 @@
 					<h1> Metallurgy</h1>
 					<img id="eve13" src="images/icons/MetaMain.jpg"/>
 				</span>
-				<span id = "comitteeMining">
+				<span id = "comitteeMining" style="cursor:pointer" onclick="getPage('Min')">
 					<img id="eve14" src="engineer.gif"/>
 				</span>
 			</span>
