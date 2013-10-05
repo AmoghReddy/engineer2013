@@ -110,6 +110,7 @@ function page( element, dontCenter, radiusAdjust )
 					{
 						var object = allPages[pageName].WGLobjects[i];
 						object.position.z = depth * Math.sin(((2 * Math.PI) * (i - 1) / (allPages[pageName].WGLobjects.length - 1) ) + this.theta);
+						
 					}
 				})
 				.repeat( Infinity )
@@ -173,7 +174,7 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 	vect.copy( pivot );
 	var threshold = pageElement.getBoundingClientRect()
 	var topThreshold = threshold.top - headerLength;
-	var centerAdjustment = ( window.innerWidth - ( threshold.right - threshold.left ) ) / 2 ;
+	var centerAdjustment = ( initialWidth - ( threshold.right - threshold.left ) ) / 2 ;
 	if (dontCenter) centerAdjustment = 0;
 	for ( var i = 0; i < source.length; i ++ )
 	{
@@ -183,7 +184,7 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 		boxtop = rect.top - topThreshold;
 		boxwidth = rect.right-rect.left;
 		boxheight = rect.bottom-rect.top;
-		object.position.x = boxleft - (window.innerWidth/2) + boxwidth/2;
+		object.position.x = boxleft - (initialWidth/2) + boxwidth/2;
 		object.position.y = (window.innerHeight/2) - boxtop - boxheight/2;
 		pos = new position(object.position.x, object.position.y, 0);
 		initPos.push( pos );
@@ -427,7 +428,7 @@ function getRandomTarget(object) //always outside the view
 	object.position.z = (Math.random() * 5000 + 100) * Math.pow(-1, Math.floor(Math.random() * 100));
 	var offsetY = (camera.position.z - object.position.z) * Math.tan((Math.PI/180) * cameraAngle / 2);
 	object.position.y = (Math.random() * 2000 + offsetY + window.innerHeight / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
-	object.position.x = (Math.random() * 2000 + offsetY * (window.innerWidth / window.innerHeight) + window.innerWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.x = (Math.random() * 2000 + offsetY * (initialWidth / window.innerHeight) + initialWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
 	object.rotation.x = Math.random() % Math.PI*2;
 	object.rotation.y = Math.random() % Math.PI*2;
 	object.rotation.z = Math.random() % Math.PI*2;
