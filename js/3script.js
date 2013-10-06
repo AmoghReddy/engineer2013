@@ -536,6 +536,8 @@ function getPage(pageName, tabName)
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	currentTabbedPage = undefined;
+	console.log(pageName+" "+tabName);
+	// console.log()
 	if (currentPage == undefined)
 	{
 		currentTabbedPage = allTabbedPages[pageName];
