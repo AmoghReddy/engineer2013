@@ -409,7 +409,7 @@ function getComitteeTargets(source, destination, gap, pageElement)
 		if ((rect.bottom - rect.top) > height2) height2 = rect.bottom - rect.top;
 	}
 	radius2 = arc / (2 * Math.PI);
-	console.log("height = " + (height1 + height2));
+	//console.log("height = " + (height1 + height2));
 	var zDepth = camera.position.z - ((height1 + height2 + headerLength + footerLength ) /(2 * Math.tan((Math.PI/180)*cameraAngle / 2))) - radius2;
 	pageElement.zDepth = zDepth;
 	theta = 2 * Math.PI / length1;
@@ -450,7 +450,7 @@ function getHomeTargets(source, destination, depth)
 	maxDiag-=100;
 	rect = source[0].getBoundingClientRect();
 	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag;
-	console.log(radius);
+	//console.log(radius);
 	theta = 2 * Math.PI / (source.length - 1);
 	object = new THREE.Object3D(0, 0, 0);
 	destination.push(object);
@@ -536,11 +536,19 @@ function getPage(pageName, tabName)
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	currentTabbedPage = undefined;
-	if (tabName != undefined)
+	if (currentPage == undefined)
 	{
 		currentTabbedPage = allTabbedPages[pageName];
+		if (tabName == undefined)
+		{
+			for (var y in allTabbedPages[pageName])
+			{
+				tabName = y;
+				break;
+			}
+		}
 		currentPage = allTabbedPages[pageName][tabName];
-		for (x in allTabbedPages[pageName])
+		for (var x in allTabbedPages[pageName])
 		{
 			var tabPage = allTabbedPages[pageName][ x ];
 			loadPage( tabPage );
@@ -561,12 +569,9 @@ function getPage(pageName, tabName)
 		loadPage( currentSideBar );
 		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar);
 	}
-	if (tabName == undefined)
-	{ 
-		addHistory(currentPage.name);
-		if(currentPage.name == 'homePage') $("#menu").fadeOut();
-		else $("#menu").fadeIn();
-	}
+	addHistory(pageName);
+	if(pageName == 'homePage') $("#menu").fadeOut();
+	else $("#menu").fadeIn();
 }
 
 var curIndex = 0;
