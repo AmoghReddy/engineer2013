@@ -144,12 +144,13 @@ button:active {
 }
 .quickNav div{
 	overflow:hidden;
-	width:3%;
-	padding:10px;
-	height:15px;
+	width:16px;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	height:16px;
 	opacity:0.9;
 	color:#fff;
-	vertical-align: center;
 	background:rgba(0,0,0,0.3);
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px;
@@ -164,7 +165,7 @@ button:active {
 	-o-transition-duration: 0.5s; /* Opera */
 }
 .quickNav div:hover{
-	width:100%;
+	width:40%;
 	height:60px;
 }
 .quickNav i{

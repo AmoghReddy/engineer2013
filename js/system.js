@@ -1,5 +1,5 @@
 function quickNavToggle(isNavSet){
-	console.log(isNavSet);
+	//console.log(isNavSet);
 	if(isNavSet){
 		$(".quickNav button").hide(100);
 		$(".quickNav i").show(0);
@@ -90,7 +90,7 @@ function extractDelta(e)
     }
 }
 function keybind(){
-	$(document).keydown(function(e){
+	$(container).keydown(function(e){
 		if(e.keyCode==37 || e.keyCode==38){
 			VScroll(false);
 		}
@@ -104,10 +104,21 @@ function router(){
 	if(pageName) getPage(pageName);
 	else getPage("homePage");
 }
+var suggestions = [];
 function searchRouter(){
-	var colors = ["Mech Events", "Engineer", "Mathematica", "yellow", "brown", "black"];
-	$('#searchBox').typeahead({source: colors});
+	
+	for (var str in allPages)
+	{
+		suggestions.push(str.replace(/_/g,' '));
+	}
+	for (var str in allTabbedPages)
+	{
+		suggestions.push(str.replace(/_/g,' '));
+	}
+
+	$('#searchBox').typeahead({source: suggestions , updater: function(item) { getPage(item.replace(/ /g,'_')); }});
 }
+
 function share(){
 	var input=document.getElementById("share_url");
 	input.selectionStart=0;
@@ -116,22 +127,20 @@ function share(){
 		input.value=window.location.href;
 	$("#shareModal").modal("show");
 }
+
 function system()
 {
 	$(".loading").hide();
 	// in 3script.js
 	$(".logo").click(function(){getPage("homePage");});
 	$(".quickNav button").hide(0);
-	$(".quickNav div").hover(function(){ quickNavToggle(false); },
-	                          function(){ quickNavToggle(true); }
-				  );
+	$(".quickNav div").hover(function(){ quickNavToggle(false); },function(){ quickNavToggle(true); });
 	$(".dropdown input").click(function(e){e.stopPropagation();});
 
 	start();
 	keybind();
 	router();
 	searchRouter();
-
 
 }
 //window.onbeforeunload=function(){ return "Back Button wont work :P\nUse the back button at the bottom of the screen";}
