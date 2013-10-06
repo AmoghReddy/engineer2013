@@ -2,19 +2,19 @@
 # logo of comittee
 comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
-"Technites":"./Icons_Final/technites.png",
-"TechSpeak":"./Icons_Final/techspeak.png",
+"Technites":"engineer.gif",
+"TechSpeak":"./Icons_Final/Techspeak.png",
 "Meta":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
 "Chem":"./Icons_Final/chemmain.png",
-"Eee":"./Icons_Final/tronix.png",
+"Eee":"engineer.gif",
 "Mba":"./Icons_Final/MBA.png",
 "Sce":"./Icons_Final/Sce.png",
-"Mining":"./Icons_Final/mining.png",
-"Workshops": "./Icons_Final/workshop2.png",
-"Mechanical": "./Icons_Final/mech.png",
-"Astro": "./Icons_Final/astro.png",
-"Gaming":"./Icons_Final/gaming.png"
+"Mining":"engineer.gif",
+"Workshops": "engineer.gif",
+"Mechanical": "engineer.gif",
+"Astro":"ASTRO.png",
+"Gaming":"images/icons/gaming.png"
 }
 
 
@@ -54,9 +54,7 @@ Lock Teams : [X] Yes\
 Lock Speed : [X] Yes\
 Record Game : [X] Yes\
 3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs\
-"},
-
-"CounterStrike":{"image":"COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
+"},"CounterStrike":{"image":"COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
          Registration Fees: Rs. 300/- per team\
         	General \
 Competition Method : 5 vs. 5 (Team Play, 5 players per team) \
@@ -213,9 +211,9 @@ Rules</p>\
 <p>Players are allowed to remap keys before the game, and not during the course of the game.</p>\
 <p>Any use of hacks like maphack or any software or scripts which gives any unfair advantage is banned and will result in instant disqualification from the tournament.</p>\
 <p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p>\
-<p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"},
+<p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>" },
 
- "Fifa":{"image":"engineer.gif","contact":"contact","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p>\
+"Fifa": {"image":"engineer.gif","contact":"contact","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p>\
 &middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p>\
 &middot; There will be no practicing allowed. Participants are only allowed to change the necessary controls and check them.</p>\
 &middot; The total number of rounds will be decided by the participation.</p>\
@@ -225,7 +223,7 @@ Rules</p>\
 &middot; If at any time, a player intentionally disconnects/exits the game, he/she will be disqualified. In case of alt-tabbing, the admin will decide whether it was intentional or a mistake and what action must be taken with disqualification being the maximum penalty.</p>\
 &middot; Teams can be either clubs or countries according to the user's will.</p>\
 &middot; The first and second rounds will be classic 4 minute half time matches. The rest will all be 6 minute ones. Final match will be made a best of three.</p>\
-&middot; The administrator's decision will be final.</p>/"},
+&middot; The administrator's decision will be final.</p>/"}
 
 
 "NFS": {"image": "image", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br />\
@@ -248,14 +246,16 @@ Intentional disconnection will not be tolerated. Upon judgment by the referee, a
 }
 
 
+}
+
 
 Technites={
-"Megapixel": {"image": "./Icons_Final/megapixel.png","contact": "contact","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
-"Blitzkrieg": {"image": "./Icons_Final/blitzkrieg.png","contact": "contact","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
+"Megapixel": {"image": "engineer.gif","contact": "contact","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
+"Blitzkrieg": {"image": "engineer.gif","contact": "contact","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
 "Dance_Dance_Revolution":{"image": "engineer.gif","contact": "contact","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
 "Agent_Dash": {"image": "engineer.gif","contact": "contact","Description": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. "},
 "Labyrinth": {"image": "engineer.gif","contact": "contact","Description": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. "},
-"Pin_Ball": {"image": "./Icons_Final/Pinball.png","contact": "contact","Description": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. "},
+"Pin_Ball": {"image": "engineer.gif","contact": "contact","Description": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. "},
 "Temple_Run": {"image": "engineer.gif","contact": "contact","Description": "Temple Run, an adventurous game in which the character runs in a jungle avoiding all obstacles. The character is also being chased by a demon & has to avoid being caught. We are implementing the game virtually using Kinect. If you want to experience a real thrilling chase you gotta check this out. "},
 "Contraption": {"image": "engineer.gif","contact": "contact","Description": "In the year 2011, Contraption was implemented on a structure that depicted the Engineer logo. In 2012, a mechanical clock was made. This year we bring it back bigger than ever."},
 "Strongman": {"image": "engineer.gif","contact": "contact","Description": "Strongman is an exhibitor of strength and this game is everyone’s chance at that. It consists of a tower of LEDs, lit according to how hard the player manages to whack a given spot with a hammer. As opposed to the ones used in funfair and carnivals, this game uses pressure sensors to determine the force of the blow. When all the LEDs are lit, the player wins. The game mechanics involves controlling the number of rows of LEDs lit according to the sensor measurements. "},
@@ -322,8 +322,7 @@ Last Year Participation - > 500.<br />\
 Expected this year – Around 600.<br />"}
 
 }
-Astro={
-"AstroTalk":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
+Astro={"AstroTalk":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
 designed to inspire and educate.Astronomy committee presents a series of lectures from eminent scholars \
 conducting cutting edge research in their respective domains.We are proud to present the following speakers: \
 Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of Physics, Indian Institute of \
@@ -397,7 +396,7 @@ Venue – Department Seminar Hall<br />\
 Day – 26/10/2013 (Day 3<br />\
 Timings – 3 pm to 6 pm"},
 
-"SEM_and_TEM_Expo":{"image": "./Icons_Final/SEMTEMExpo.png","contact": "contact","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
+"SEM_and_TEM_Expo":{"image": "engineer.gif","contact": "contact","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
 - 1 hour introductory talk<br />\
 - 1 hour demo  <br />\
 - Expected turnout – 50 <br />\
@@ -746,8 +745,8 @@ Round 3<br/>\
 Mock IPL Bidding<br/><br/>\
 </b>\
 "},
-}
 
+}
 Sce={
 
 "The_Last_Word":{"image": "engineer.gif","contact": "contact","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
@@ -771,17 +770,19 @@ Budget:<br/>\
 Venue: Any Seminar hall (preferably in Main building) 3 hours<br/>\
 No. of Teams expected: 10 (2011)<br/>\
 "},
+
 "Sky_Lanterns":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b> Chief Guest may light sky lanterns along with students and dignitaries<br/>\
 Budget: Rs.  4000<br/>\
 Venue: Main ground after inauguration<br/>\
 "},
 
-"Green_Design_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "contact","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Green_Design_Challenge":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"},
+	
 }
 
 Mechanical={
-"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"contact","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.</p>\
-<p>&bull; The team is not permitted to compete with more than one robot.</p>","eventformat": "<p>&bull; The competition will be played on knock-out basis.</p>\
+"Event1":{"image":"engineer.gif","contact":"contact","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.</p>\
+<p>&bull; The team is not permitted to compete with more than one robot.</p>","<p>&bull; The competition will be played on knock-out basis.</p>\
 <p>&bull; The machine would be checked for its safety during registrations. In case of unsafe </p>\
 <p>robots, the teams will be allowed to modify the robot before the registrations close.</p>\
 <p>&bull; Only one person can control the robot and one person can stay near the arena for </p>\
@@ -800,15 +801,14 @@ Mechanical={
 <p>&bull; Violation of any the above rules will lead to disqualification.</p>\
 <p>&bull; Judges' decision shall be treated as final and binding on all. </p><p><a href='data/GENERALRULES.pdf'>Download</a></p>"},
 
-
-"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"contact","generalrules":"<p>&bull; The students must carry valid student ID cards of their college which they will be required to \
+"PerfectMachine":{"image":"engineer.gif","contact":"contact","generalrules":"<p>&bull; The students must carry valid student ID cards of their college which they will be required to \
 produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.</p><p>&bull; The team is not permitted to compete with more than one bot.</p><p>&bull; Teams will not be allowed to modify their bots during their trial.</p>","eventformat":"<p>&bull; Each round will be of a maximum of 15 min duration.</p><p>&bull; Fig 1 portrays the arena </p><p>&bull; Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular </p><p>container and throw them into the hoops kept at different heights </p><p>&bull; In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.</p><p>&bull; Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 </p><p>will be at the height of 25cm from the arena. </p><p>&bull; A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is </p><p>required to climb over this bridge and throw the objects in hoop 3.</p><p>&bull; Each bot will be given only one round in which they need to complete the task.</p><p>&bull; If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 </p><p>seconds) or toppled over, those teams cannot ask for restore.</p><p>&bull; The organizers reserve the right to change any or all of the above rules as they deem fit.</p><p>&bull; Violation of any the above rules will lead to disqualification.</p>\
 <p>&bull; Judges' decision shall be treated as final and binding on all.</p><p><a href='data/perfectmachineprob.pdf'>Download</a></p>"},
 
-"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"contact","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. </p>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the </p>\
+"wrightflight":{"image":"engineer.gif","contact":"contact","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. </p>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the </p>\
 <p>organizing committee won&rsquo;t be providing any.</p><p><a href='wrightflight.pdf'>Download</a></p>"},
 
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "contact", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.</p>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make </p>\
+"Proteus":{"image": "engineer.gif","contact": "contact","generalrules":"<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.</p>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make </p>\
 <p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"}
 }
 

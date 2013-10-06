@@ -2,27 +2,69 @@
 # logo of comittee
 comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
-"Technites":"./Icons_Final/technites.png",
-"TechSpeak":"./Icons_Final/techspeak.png",
+"Technites":"Icons_Final/technites.png",
+"TechSpeak":"./Icons_Final/Techspeak.png",
 "Meta":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
 "Chem":"./Icons_Final/chemmain.png",
-"Eee":"./Icons_Final/tronix.png",
+"Eee":"engineer.gif",
 "Mba":"./Icons_Final/MBA.png",
 "Sce":"./Icons_Final/Sce.png",
 "Mining":"./Icons_Final/mining.png",
-"Workshops": "./Icons_Final/workshop2.png",
-"Mechanical": "./Icons_Final/mech.png",
-"Astro": "./Icons_Final/astro.png",
+
 "Gaming":"./Icons_Final/gaming.png"
 }
 
 
 #each comittee
+Astro={"AstroTalk":{"image":"image","contact":"Mrinal Vibhav Arun </br>Phone: 9449030636","Description":"<p>In partnership with TechSpeak, Astronomy committee presents enlightening talks, </p>\
+<p>designed to inspire and educate.</p>\
+<p>Astronomy committee presents a series of lectures from eminent scholars </p>\
+<p>conducting cutting edge research in their respective domains.</p>\
+<p>We are proud to present the following speakers:</p>\
+<p>Dr Banibrata Mukhopadhyay</p>\
+<p>Currently an Associate professor, in the Department of Physics, Indian Institute of </p>\
+<p>Science, Bangalore.</p>\
+<p>His cutting edge research on black holes brought him to the limelight recently as </p>\
+<p>reflected in the following article. </p>\
+<p>http://articles.timesofindia.indiatimes.com/2013-09-21/science/</p>\
+<p>42272405_1_black-holes-mass-and-spin-iisc</p>\
+<p>He has been invited by Harvard, after his landmark discovery of the</p>\
+<p>interdependence of mass and spin.</p>\
+<p>His page for more details:</p>\
+<p>http://www.physics.iisc.ernet.in/~bm/</p>\
+<p> Dr Jayaram Narayanan Chengalur</p>\
+<p>Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. </p>\
+<p>Chengalur has been deeply involved with research on Radio Astronomy. He would be </p>\
+<p>giving a talk on the impact of engineers in the field of pure science.</p>\
+<p> We also present Video Conferences from varied speakers on physics, astrophotography </p>\
+<p>and much more.</p>\
+<p>Come. See. Rejoice.</p>\
+<p>Location: SJA</p>/","challenges":"1) STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
+those passionate in astronomy to flaunt their knowledge of the cosmos. \
+Short listed teams would face off in the final round.\
+Location:\
+First Round: Main Seminar Hall\
+Final Round: ISTE Seminar Hall\
+2) Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
+their strategy to conquer the universe.\
+This event calls upon participants who are keen to learn about strategy we \
+would have to employ to expand our forces beyond Mother Earth. The \
+settlement should have extensive plans and should not depend on Earth for \
+basic amenities. Teams are evaluated on the basis of innovation, creativity and \
+presentation skills.\
+Participants are needed to submit a thesis of less than 15 pages, explaining in \
+detail, their strategy to populate outer space. Location can be chosen anywhere \
+outside Earth, other than Moon and Mars.\
+A number of teams will be shortlisted for the final round to be held during \
+Engineer 2013.\
+Final Round: Candidates would be required to defend their thesis with \
+the help of a presentation not exceeding 15 minutes. Extra points would be \
+awarded for teams which support their arguments with relevant models using \
+appropriate software.\
+Location: ISTE Seminar Hall","exhibits":""}}
 
-Workshops={
-	"Ethical Hacking by TechDefence": {"image": "engineer.gif","contact": "contact","Description": "INTRODUCTION <br />As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"}
-}
+
 
 Gaming={"Aoe":{"image":"Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
 The administrator's decision will be final in case of any dispute.\
@@ -54,9 +96,7 @@ Lock Teams : [X] Yes\
 Lock Speed : [X] Yes\
 Record Game : [X] Yes\
 3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs\
-"},
-
-"CounterStrike":{"image":"COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
+"},"CounterStrike":{"image":"COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
          Registration Fees: Rs. 300/- per team\
         	General \
 Competition Method : 5 vs. 5 (Team Play, 5 players per team) \
@@ -213,7 +253,7 @@ Rules</p>\
 <p>Players are allowed to remap keys before the game, and not during the course of the game.</p>\
 <p>Any use of hacks like maphack or any software or scripts which gives any unfair advantage is banned and will result in instant disqualification from the tournament.</p>\
 <p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p>\
-<p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"},
+<p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"
 
  "Fifa":{"image":"engineer.gif","contact":"contact","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p>\
 &middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p>\
@@ -225,7 +265,7 @@ Rules</p>\
 &middot; If at any time, a player intentionally disconnects/exits the game, he/she will be disqualified. In case of alt-tabbing, the admin will decide whether it was intentional or a mistake and what action must be taken with disqualification being the maximum penalty.</p>\
 &middot; Teams can be either clubs or countries according to the user's will.</p>\
 &middot; The first and second rounds will be classic 4 minute half time matches. The rest will all be 6 minute ones. Final match will be made a best of three.</p>\
-&middot; The administrator's decision will be final.</p>/"},
+&middot; The administrator's decision will be final.</p>/"}
 
 
 "NFS": {"image": "image", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br />\
@@ -248,14 +288,20 @@ Intentional disconnection will not be tolerated. Upon judgment by the referee, a
 }
 
 
+}
+
+
+
+
 
 Technites={
-"Megapixel": {"image": "./Icons_Final/megapixel.png","contact": "contact","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
-"Blitzkrieg": {"image": "./Icons_Final/blitzkrieg.png","contact": "contact","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
+
+"Megapixel": {"image": "Icons_Final/megapixel.png","contact": "contact","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
+"Blitzkrieg" : {"image": "blitzkrieg.png","contact": "contact","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
 "Dance_Dance_Revolution":{"image": "engineer.gif","contact": "contact","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
 "Agent_Dash": {"image": "engineer.gif","contact": "contact","Description": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. "},
 "Labyrinth": {"image": "engineer.gif","contact": "contact","Description": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. "},
-"Pin_Ball": {"image": "./Icons_Final/Pinball.png","contact": "contact","Description": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. "},
+"Pin_Ball": {"image": "Pinball.png","contact": "contact","Description": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. "},
 "Temple_Run": {"image": "engineer.gif","contact": "contact","Description": "Temple Run, an adventurous game in which the character runs in a jungle avoiding all obstacles. The character is also being chased by a demon & has to avoid being caught. We are implementing the game virtually using Kinect. If you want to experience a real thrilling chase you gotta check this out. "},
 "Contraption": {"image": "engineer.gif","contact": "contact","Description": "In the year 2011, Contraption was implemented on a structure that depicted the Engineer logo. In 2012, a mechanical clock was made. This year we bring it back bigger than ever."},
 "Strongman": {"image": "engineer.gif","contact": "contact","Description": "Strongman is an exhibitor of strength and this game is everyone’s chance at that. It consists of a tower of LEDs, lit according to how hard the player manages to whack a given spot with a hammer. As opposed to the ones used in funfair and carnivals, this game uses pressure sensors to determine the force of the blow. When all the LEDs are lit, the player wins. The game mechanics involves controlling the number of rows of LEDs lit according to the sensor measurements. "},
@@ -322,55 +368,6 @@ Last Year Participation - > 500.<br />\
 Expected this year – Around 600.<br />"}
 
 }
-Astro={
-"AstroTalk":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
-designed to inspire and educate.Astronomy committee presents a series of lectures from eminent scholars \
-conducting cutting edge research in their respective domains.We are proud to present the following speakers: \
-Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of Physics, Indian Institute of \
-Science, Bangalore. His cutting edge research on black holes brought him to the limelight recently as \
-reflected in the following article. http://articles.timesofindia.indiatimes.com/2013-09-21/science/42272405_1_black-holes-mass-and-spin-iisc \
-He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\
-His page for more details:\
-http://www.physics.iisc.ernet.in/~bm/\
- Dr Jayaram Narayanan Chengalur\
-Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be \
-giving a talk on the impact of engineers in the field of pure science.\
- We also present Video Conferences from varied speakers on physics, astrophotography and much more.\
-Come. See. Rejoice. Location : SJA"},"StarWars":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
-those passionate in astronomy to flaunt their knowledge of the cosmos.\
-Short listed teams would face off in the final round.\
-First Round: Main Seminar Hall\
-Final Round: ISTE Seminar Hall"},
-"BeyondEarth":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
-their strategy to conquer the universe. \
-This event calls upon participants who are keen to learn about strategy we \
-would have to employ to expand our forces beyond Mother Earth. The \
-settlement should have extensive plans and should not depend on Earth for \
-basic amenities. Teams are evaluated on the basis of innovation, creativity and \
-presentation skills.\
-Participants are needed to submit a thesis of less than 15 pages, explaining in \
-detail, their strategy to populate outer space. Location can be chosen anywhere \
-outside Earth, other than Moon and Mars.\
-A number of teams will be shortlisted for the final round to be held during \
-Engineer 2013.\
-Final Round: Candidates would be required to defend their thesis with \
-the help of a presentation not exceeding 15 minutes. Extra points would be \
-awarded for teams which support their arguments with relevant models using \
-appropriate software.\
-Location: ISTE Seminar Hall"},
-"Exhibits":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":"Location: Astronomy Room, Main Building \
-Time: Dawn to Dusk\
-1) Pondus - Your Normal Force - How much would you weigh in different parts of \
-the cosmos? \
-2) Satellite Launcher - A flash tool depicting the trajectory of satellites. A gaming \
-console to learn about the movement of satellites enabling the transformation \
-of theory into visualisation.\
-3) Theatron – Compilation of the best documentaries related to physics \
-continuously screened from dawn to dusk.\
-4) Starry nights – Let us navigate through the heavens. We invite amateurs and \
-introduce them to the wonders of the night sky. Greek tales and mythology will \
-be discussed in great detail, promising the gala night to be a great delight. We \
-will enlighten star gazers of the basic topology of the night sky."}}
 
 Meta={
 "MetaMagic":{"image": "./Icons_Final/MetaMagic.png","contact": "contact","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />\
@@ -397,7 +394,7 @@ Venue – Department Seminar Hall<br />\
 Day – 26/10/2013 (Day 3<br />\
 Timings – 3 pm to 6 pm"},
 
-"SEM_and_TEM_Expo":{"image": "./Icons_Final/SEMTEMExpo.png","contact": "contact","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
+"SEM_and_TEM_Expo":{"image": "engineer.gif","contact": "contact","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
 - 1 hour introductory talk<br />\
 - 1 hour demo  <br />\
 - Expected turnout – 50 <br />\
@@ -414,7 +411,7 @@ Timings – 3 pm to 6 pm"},
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "./Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose"}
+"Tech_Speak":{"image": "./Icons_Final/Techspeak.png","contact": "contact","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Aashish Mane - +91 9945049097"]
 }
 
 Biz={
@@ -746,8 +743,8 @@ Round 3<br/>\
 Mock IPL Bidding<br/><br/>\
 </b>\
 "},
-}
 
+}
 Sce={
 
 "The_Last_Word":{"image": "engineer.gif","contact": "contact","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
@@ -771,45 +768,226 @@ Budget:<br/>\
 Venue: Any Seminar hall (preferably in Main building) 3 hours<br/>\
 No. of Teams expected: 10 (2011)<br/>\
 "},
+
 "Sky_Lanterns":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b> Chief Guest may light sky lanterns along with students and dignitaries<br/>\
 Budget: Rs.  4000<br/>\
 Venue: Main ground after inauguration<br/>\
 "},
 
-"Green_Design_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "contact","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Green_Design_Challenge":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"},
+	
 }
-
-Mechanical={
-"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"contact","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.</p>\
-<p>&bull; The team is not permitted to compete with more than one robot.</p>","eventformat": "<p>&bull; The competition will be played on knock-out basis.</p>\
-<p>&bull; The machine would be checked for its safety during registrations. In case of unsafe </p>\
-<p>robots, the teams will be allowed to modify the robot before the registrations close.</p>\
-<p>&bull; Only one person can control the robot and one person can stay near the arena for </p>\
-<p>monitoring the robot.</p>\
-<p>&bull; In case of a tie, the robots will have to battle for a time duration of 2 minutes.</p>\
-<p>&bull; Each team will have a maximum time period of 20 minutes to repair their robot after </p>\
-<p>each battle round.</p>\
-<p>&bull; The teams should make sure their wires are slack and all the wires coming out of robot </p>\
-<p>need to be tangled together.</p>\
-<p>&bull; The wires coming out of the robot should be placed in such a way that it should be safe </p>\
-<p>from any attacks on the bot and the attack mechanisms provided by the organizers. The </p>\
-<p>organizers will not be held responsible in case of any accidents to the bot because of the </p>\
-<p>attack mechanism provided.</p>\
-<p>&bull; The organizers reserve the right to change any or all of the above rules or add any rules </p>\
-<p>as they deem fit.</p>\
-<p>&bull; Violation of any the above rules will lead to disqualification.</p>\
-<p>&bull; Judges' decision shall be treated as final and binding on all. </p><p><a href='data/GENERALRULES.pdf'>Download</a></p>"},
-
-
-"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"contact","generalrules":"<p>&bull; The students must carry valid student ID cards of their college which they will be required to \
-produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.</p><p>&bull; The team is not permitted to compete with more than one bot.</p><p>&bull; Teams will not be allowed to modify their bots during their trial.</p>","eventformat":"<p>&bull; Each round will be of a maximum of 15 min duration.</p><p>&bull; Fig 1 portrays the arena </p><p>&bull; Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular </p><p>container and throw them into the hoops kept at different heights </p><p>&bull; In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.</p><p>&bull; Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 </p><p>will be at the height of 25cm from the arena. </p><p>&bull; A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is </p><p>required to climb over this bridge and throw the objects in hoop 3.</p><p>&bull; Each bot will be given only one round in which they need to complete the task.</p><p>&bull; If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 </p><p>seconds) or toppled over, those teams cannot ask for restore.</p><p>&bull; The organizers reserve the right to change any or all of the above rules as they deem fit.</p><p>&bull; Violation of any the above rules will lead to disqualification.</p>\
-<p>&bull; Judges' decision shall be treated as final and binding on all.</p><p><a href='data/perfectmachineprob.pdf'>Download</a></p>"},
-
-"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"contact","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. </p>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the </p>\
-<p>organizing committee won&rsquo;t be providing any.</p><p><a href='wrightflight.pdf'>Download</a></p>"},
-
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "contact", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.</p>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make </p>\
-<p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"}
+Mech={
+	"Event1":{"image":"engineer.gif","contact":"contact","generalrules":"Contestants will have to register online. On spot registrations can also be done.The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.A team may comprise a maximum of FIVE participants.A team can comprise of students from different colleges.\
+	The team is not permitted to compete with more than one robot.","eventformat":" The competition will be played on knock-out basis.The machine would be checked for its safety during registrations. In case of unsafe robots, the teams will be allowed to modify the robot before the registrations close.Only one person can control the robot and one person can stay near the arena for monitoring the robot.\
+	In case of a tie, the robots will have to battle for a time duration of 2 minutes.Each team will have a maximum time period of 20 minutes to repair their robot after each battle round.The teams should make sure their wires are slack and all the wires coming out of robot need to be tangled together.The wires coming out of the robot should be placed in such a way that it should be safe from any attacks on the bot and the attack mechanisms provided by the organizers.\
+	 The organizers will not be held responsible in case of any accidents to the bot because of the attack mechanism provided.The organizers reserve the right to change any or all of the above rules or add any rules as they deem fit.Violation of any the above rules will lead to disqualification.Judges decision shall be treated as final and binding on all.","eventrules":" The maximum duration of each battle would be 10 minutes except for the finals which \
+is going to be a 20 minute battle. Any team that is not ready at the time specified will be \
+disqualified from the competition and the opponent robot will be declared the winner.\
+ A robot that is deemed unsafe by the judges after the match has begun will be \
+disqualified. The match will be immediately halted and the opponent will be awarded a\
+win. If the robots fail to contact each other for 60 seconds, both the robots will be \
+eliminated. The arena will have an opening through which bots can be pushed off the arena.\
+ The robot will be declared victorious if it pushes the opponent off the arena through the\
+opening in the wall twice. In case a robot falls off the arena or toppled during the match, it can be restored back\
+to the start point by a team member, within 30 seconds, during which the opponent can move in the arena but not make contact with the other robot. Only 1 restore will be\
+allowed per team. The robot has to maintain a minimum distance of 60 cm from the opponent during its\
+restore. The robots are not allowed to cut the opponent’s control wires. Violation of this rule will\
+lead to disqualification. In case of immobility of any of the bots, both the bots will start again from their start\
+points. Pinning is allowed only in the specified pin zone and the points will be awarded only for\
+first two pinning in the match. The bots again start from their start points.","judgingcrit":"Points will be awarded by the judges to a robot only if it has a considerable impact damage on the opponent’s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)\
+ In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.\
+ No points will be awarded for immobilizing the opponent bot.\
+ Points will be awarded for the team for using the offensive mechanisms provided by the\
+organizers.","arenaspecs":" The arena will be a circular wooden board of diameter 8 ft. The arena will have 3 ft high mesh all around it except an opening through which the robots \
+can be pushed out of the arena. The arena may have one or more of the following traps:\
+ Reciprocating Platform with about 1 – 20 reciprocations per minute.\
+ Rotating Platform of about 30 – 300 rpm. Lifting Mechanisms.\
+ Sand/Gravel/ Slush Pits of dimensions 70 cm x 70 cm. Depth of the pits from the \
+arena surface are at an average of 3cm. Corrugations with a maximum radius of 10cm and pitch 20 cm.\
+ Rollers with a maximum diameter of 6 cm. Hitting Mechanisms. Heavy Oscillating Metal Balls","mobility":"All robots must have easily visible and controlled mobility in order to compete.\
+ Any machine component should not be detached (intentionally) during any point of the war.\
+ The maximum power limitation for mobility is 150 W. However there is no power limitation\
+for attack mechanism.\
+ Methods of Mobility include:\
+ Rolling (wheels, tracks or the whole robot)\
+ Walking (linear actuated legs with no rolling or cam operated motion).\
+ Shuffling(rotational cam operated legs)\
+ Jumping and hopping is not allowed\
+ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.","botspecs"," Initial dimension of the robot should not exceed 50cm x 50cm x 50cm (l x b x h).The\
+external device used to control the machine or any external tank is not included in the size \
+constraint.\
+ Weight of the robot should not exceed 20kg (Excluding remote control and control wires).\
+ If the robot uses external pneumatic / hydraulic source tank, its weight would not be \
+considered. If the robot is solely powered by onboard batteries (wireless robots), its weight would be\
+considered 0.8 times its actual weight.\
+ The bot should contain an attack mechanism. Attack mechanism should be independent of the motion of the bot i.e. it should work even if the bot is motionless. A separate check of\
+the attack mechanism will be conducted when the bot is immobile.\
+ The robot should have a small ground clearance such that the arena is not damaged at any\
+point of time. The bot which causes any damage to arena will be disqualified.","hydraulic":" Participants can use pneumatic and hydraulic weapon systems.\
+ The outlet pressure of the source/tank should not exceed 8 bars. The used pressure should be indicated by means of temporarily fitted pressure gauge or there should be a provision to\
+measure the cylinder pressure on the bot. Robots can use pressurized, non-inflammable gases/liquid to initialize their pneumatic\
+mechanisms. Teams have to bring their own cylinders. Organizers will not provide any kind of refilling.\
+ Weight of the external cylinders are not taken into account.","battery":"Both on and off board power supplies are allowed. Batteries must be sealed, immobilized-\
+electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells).\
+ The voltage between any two terminals in the robot should not exceed 25V. There is no\
+restriction on the power consumption of the bot. 230V AC power will be provided.\
+ Participants can make use of one or more DC/Stepper motors. Use of an IC engine in any form is not allowed.\
+ If the robot is wired then the wire should remain slack under all circumstances during the \
+competition. The length of the wire between controlling device & the power supply and \
+between machine & controlling device should be at least 4 meters.","weaponsystems"," The bots must have at least one kind of attack mechanism. Defensive bots like Wedge bots \
+will be disqualified. Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices,\
+spinning hammers etc. as weapons with following exceptions and limitations: Liquid projectiles.\
+ Any kind of inflammable liquid. Flame-based weapons.\
+ Electro-Magnetic Pulse. Any kind of explosive or intentionally ignited solid or potentially ignitable solid.\
+ Nets, tape, glue, or any other entanglement device or adhesives. High power magnets or electromagnets.\
+ Radio jamming, tazers, tesla coils, or any other high-voltage device. Un-tethered projectiles.\
+ Tethered projectiles in any direction with each having a maximum tether length of 1m are allowed.\
+ Spinning weapons which do not come in contact with the arena at no point of time are allowed. In no case should the arena be damaged by any bot. Violation of this rule will lead \
+to immediate disqualification.","safetyrules":" Compliance with all event rules is mandatory. It is expected that competitors stay within the \
+rules and procedures of their own accord and do not require constant policing.\
+ If you have a robot or weapon design that does not fit within the categories set forth in \
+the above said rules or is in some way ambiguous or borderline, please contact the event\
+organizers. Safe innovation is always encouraged, but surprising the event staff with your brilliant \
+exploitation of a loophole may cause your robot to be disqualified before it even competes.\
+ Each event has safety inspections. It is at the judge’s sole discretion that your robot is \
+allowed to compete. As a builder you are obligated to disclose all operating principles and\
+potential dangers to the inspection staff. Proper activation and deactivation of robots is critical. Robots must only be activated in the\
+arena, testing areas, or with express consent of the event coordinators. All weapons must have a safety cover on any sharp edges.\
+ All participants build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved.\
+ Please take care to not hurt yourself or others when building, testing and competing."},"PerfectMachine":{"image":"image","contact":"contact","generalrules":" The students must carry valid student ID cards of their college which they will be required to \
+produce at the time of registration.\
+ Contestants will have to register online. On spot registrations can also be done.\
+ A team may comprise a maximum of FIVE participants.\
+ Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.\
+ The team is not permitted to compete with more than one bot.\
+ Teams will not be allowed to modify their bots during their trial.","eventformat":"Each round will be of a maximum of 15 min duration.\
+ Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular \
+ container and throw them into the hoops kept at different heights\
+ In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.\
+ Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3\
+will be at the height of 25cm from the arena.\
+ A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is \
+required to climb over this bridge and throw the objects in hoop 3.\
+ Each bot will be given only one round in which they need to complete the task.\
+ If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 \
+seconds) or toppled over, those teams cannot ask for restore.\
+ The organizers reserve the right to change any or all of the above rules as they deem fit.\
+ Violation of any the above rules will lead to disqualification.\
+ Judges' decision shall be treated as final and binding on all.","scoring":" A task is considered as completed only if all the objects are thrown into the respective hoops in.\
+ The score given to each team at the end of their trial as follows\
+Score = ((10*h1+20*h2+40*h3) + 10*i)*(e(t+i)/10\
+Where,\
+t= Time remaining after the completion of the task\
+h1= Number of objects thrown in hoop 1(max=3)\
+h2= Number of objects thrown in hoop 2(max=3)\
+h3= Number of objects thrown in hoop 3(max=3)\
+i= Number of balls thrown in all the hoop(max=3)","specifications":"BOT SPECIFICATIONS \
+ The initial bot dimensions should not exceed 30 x 30 x 20 cm3 excluding the control device \
+dimensions. This dimension excludes the dimension of lifting mechanism\
+ The weight of the bot should not exceed 15 kgs.\
+ The bot can be controlled wirelessly or with wires.\
+ Readymade wireless remote control units may be used. In case wired control is used, the wire(s) must remain slack throughout the event. If the wires are visibly taut, the team would be immediately disqualified.\
+ Single phase external 230V AC power will be supplied. Maximum voltage between any two \
+OBJECT DIMENSION\
+Total number of objects to be thrown =9.\
+The dimension of each cube=7cm*7cm*7cm\
+The diameter of each ball= 7cm\
+The diameter of the hoop=20cm\
+dimensions. This dimension excludes the dimension of lifting mechanism \
+wires are visibly taut, the team would be immediately disqualified.\
+points on the bot must not exceed 24 V DC or 24 V AC.","mobility":"All robots must have easily visible and controlled mobility in order to compete. \
+ Any machine component should not be detached (intentionally) during any point of the event.\
+ Methods of Mobility include:\
+ Rolling (wheels, tracks or the whole robot)\
+ Walking (linear actuated legs with no rolling or cam operated motion).\
+ Shuffling(rotational cam operated legs)\
+ Jumping and hopping is not allowed\
+ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.","arenaspecs":" The dimensions of the bridge are as indicated <img src='Icons_Final/viewer.png'/> Fig 2: paths that the teams are required to use <img src='Icons_Final/viewer1.png'/>Fig 3: The dimensions of the bridge"},
+ "wrightflight":{"image":"image","contact":"contact","generalrules":"Contestants will have to register online. On spot registrations can also be done.\
+ The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.\
+ A team may comprise a maximum of FIVE participants.\
+ Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly \
+(ARF) kits is strictly prohibited.\
+ Teams should note that the place where flight testing is done is an open area; hence \
+changes in wind direction may occur. The organizing committee will not be responsible for \
+any change in weather at the time of testing.\
+ The glider has to be as per the specification mentioned below.\
+ A team is permitted to compete with more than one glider of same/different design and \
+that design can be registered only once.\
+ Any team that is not ready at the time specified will be disqualified from the competition \
+automatically. \
+ The glider will be checked for its safety before the event and would be discarded if found \
+unsafe for other participants and spectators. \
+ The organizing committee won’t be responsible for any damage done to the glider during \
+the course of the event.\
+ The teams must adhere to the spirit of healthy competition. Judges reserve the right to \
+disqualify any team indulging in misbehavior. \
+ Judges’ decision will be final and binding.","eventformat":"In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.\
+ The glider must be unpowered. The glider can be either chucked by hand or a suitable \
+mechanism can be built by the competing team for providing the initial thrust.\
+ A Hard copy of the report spanning one page has to be submitted by the teams on the day of \
+the event regarding their glider construction procedure , materials used, design aspects etc ,\
+which will be the judging criteria of your glider in case of a tie.\
+ The event shall consist of 2 rounds - one preliminary and a final round.\
+ In the preliminary round, the participants are required to chuck the glider by hand to a \
+maximum horizontal range and glide for the longest time period (Fig 1). \
+ The teams clearing the preliminary round qualify to the final round.\
+ In the final round, the teams are supposed to chuck their glider again by hand but here it is \
+tested for maneuverability. The glider is required to go through a pre designated path and then \
+maneuver across the given arena and crossing each checkpoint (Fig 2).\
+ Each team will be given THREE trials in each round and the best score from the three trials will\
+be considered for the final scoring.\
+ The teams will have to bring their own radio control equipments (if using any) and the \
+organizing committee won’t be providing any.","gliderspecs":"Maximum wingspan of the glider must be 1.5 m.\
+ Maximum weight of the glider should be less than 1kg.\
+• Any material may be used for fabrication of glider.\
+• Use of IC-engines in any form is not permitted.\
+• The initial thrust to the glider is provided by means of chucking by hand/a mechanism built by \
+the team itself only.\
+• Participants can use a maximum of 3 servo motors only for control surfaces.","arenaspecs":"The height of the building from which the participants will be launching their glider is 9 meters in and \
+flight area of 35 m X 25 m. <img src='Icons_Final/viewer2.png'/> FIG 1 (dimensions in meters) <img src='Icons_Final/viewer3.png'/> Fig 2 (dimensions in meters)\
+Arrows indicate designated flying zone","contact":"Akshay K R -(+91)9731937661\
+ Abhishek Nayak - (+91) 7795270706\
+ Abhishek Galgali - (+91) 9036745225"},"Proteus":{"generalrules":" Participants must carry valid ID cards of their respective college, which must be produced at the time of registration.\
+ Maximum number of participants per team is four.\
+ Readymade kits are not allowed.\
+ Each team is allowed to participate with not more than one bot.\
+ Judges decision will be final and binding.","eventrules":"There shall be one qualifying round.\
+ The qualifying round is to test the test the maneuverability and the water shooting \
+capacity of the bot. The top 8 will qualify for the final round.\
+ Teams will be provided with external 230V AC supply.\
+ Teams must ensure that all mechanisms employed within the bot must not destroy the \
+arena in any manner.\
+ Any modifications on the bot must be made between the trials. Provision to make \
+modifications during a trial is not permitted.","botspecs":"Bots may be wired or wireless.\
+ Controlling wires (if any) should not be taut at any point during the trial.\
+ The bot has to fit in a box of dimensions 30*30*30 cm3\
+ The width of the flume is 72cm. There are no other dimensional restrictions on the \
+width or length. Keep in mind the functional requirements of the bot.\
+ No restriction on weight of bot.\
+ The potential difference between any two points on the bot must not exceed 12V.\
+ Electrical components must be adequately insulated to prevent any complications \
+that could arise because of it coming in contact with water.","eventformat":" Round 1:\
+The bot has to start from point A and travel along the length of the tank to point B. At point B,\
+the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At \
+point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure \
+below for reference.\
+ Round 2 : The participants are supposed to aim and shoot maximum of the three targets placed at \
+gradually increasing heights at different distances. The details of the targets are shown below. \
+The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time \
+remaining is also taken into account for the scoring system. The targets have to be destroyed in \
+the following sequence- A –B - C","scoring":"Time taken in round 1 = t1\
+Time taken for destroying target 1 = t2 (seconds)\
+Time taken for destroying target 2 = t3 (seconds)\
+Time taken for destroying target 3 = t4 (seconds) \
+T4 will be calculated only after all three targets have been brought down.\
+Time remaining after all the targets have been destroyed = t5 (seconds)\
+Range of the jet in round 1 = R (cm)\
+FIRST ROUND EVALUATION:\
+Based on S1 , top eight teams are qualified for the next round and awarded points from 40 to 5 \
+(40, 35, 30 .. and so on). These points are carried forward for the final score.\
+Final Score, S = + (Points carried forward from the first round)"}
 }
 
 
@@ -871,15 +1049,12 @@ events={
 "Technites":Technites,
 "Comps":Comps,
 
-"TechSpeak": TechSpeakEvent,
+"TechSpeak":TechSpeakEvent,
 "Meta":Meta,
 "Biz":Biz,
 "Chem":Chem,
 "Eee":Eee,
 "Mba":Mba,
 "Sce":Sce,
-"Mining":Mining,
-"Mechanical": Mechanical,
-"Astro": Astro,
-"Gaming":Gaming
+"Mining":Mining
 }
