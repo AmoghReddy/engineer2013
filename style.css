@@ -140,22 +140,23 @@ button:active {
 	position:fixed;
 	top:0px;
 	width:100%;
+	vertical-align: center;
 }
 .quickNav div{
-	height:20px;
 	overflow:hidden;
-	width:5%;
+	width:3%;
 	padding:10px;
-	height:30px;
+	height:15px;
 	opacity:0.9;
 	color:#fff;
-	background:rgba(0,0,0,0.5);
+	vertical-align: center;
+	background:rgba(0,0,0,0.3);
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px;
-	transition-property:width;
-	-moz-transition-property: width; /* Firefox 4 */
-	-webkit-transition-property:width; /* Safari and Chrome */
-	-o-transition-property:width; /* Opera */
+	transition-property:width, height;
+	-moz-transition-property: width, height; /* Firefox 4 */
+	-webkit-transition-property:width, height; /* Safari and Chrome */
+	-o-transition-property:width, height; /* Opera */
 
 	transition-duration: 0.5s;
 	-moz-transition-duration:0.5s; /* Firefox 4 */
@@ -163,7 +164,8 @@ button:active {
 	-o-transition-duration: 0.5s; /* Opera */
 }
 .quickNav div:hover{
-	width:50%;
+	width:100%;
+	height:60px;
 }
 .quickNav i{
 	color:#fff;

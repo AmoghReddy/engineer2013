@@ -20,14 +20,25 @@
 		<a id="loading_text">Loading....</a>
 	</div>
 	<script>
-		var data=["Assembling Gears....","Downloading LEDs....","Compiling Code....","Melting Metal....","Estimating Cost...."];
+		//var data=["Assembling Gears....","Downloading LEDs....","Compiling Code....","Melting Metal....","Estimating Cost...."];
+		var data=["Loading.....",".Loading....","..Loading...","...Loading..","....Loading.",
+				  ".....Loading","....Loading.","...Loading..","..Loading...",".Loading...."];
 		function loadingTextHandle(){
 			var loadingText=document.getElementById("loading_text");
 			var newData=data[Math.floor(Math.random()*1000)%data.length-1];
 			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
 			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",3000); }
 		}
-		loadingTextHandle();
+		var count = 0;
+		function loadingTextHandlePeriodic(){
+			var loadingText=document.getElementById("loading_text");
+			count++;
+			if (count >= data.length)count = 0;
+			var newData=data[count];
+			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
+			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",500); }
+		}
+		loadingTextHandlePeriodic();
 	</script>
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
@@ -1163,7 +1174,7 @@
 </tr>
 </table>
 </span>
-		</div>
+		</div><!--Closing for container -->
 		<div id="menu">
 			<button id="back" onclick="backHistory();">BACK</button>
 			<button id="page">RESET</button>
@@ -1174,11 +1185,11 @@
 				<center>
 					<span style="width:50%">
 					<div>
-						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >EV</button>
-						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >WS</button>
-						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >TN</button>
-						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >TS</button>
-						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >HM</button>
+						<button id="page" class="quickNavContent" style = "width: 60px; height: 60px;" >EV</button>
+						<button id="page" class="quickNavContent" style = "width: 60px; height: 60px;" >WS</button>
+						<button id="page" class="quickNavContent" style = "width: 60px; height: 60px;" >TN</button>
+						<button id="page" class="quickNavContent" style = "width: 60px; height: 60px;" >TS</button>
+						<button id="page" class="quickNavContent" style = "width: 60px; height: 60px;" >HM</button>
 					<i class="icon-th"></i>
 					</div>
 					</span>
