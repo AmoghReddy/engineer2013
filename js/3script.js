@@ -33,6 +33,7 @@ var history=[];
 function page( element, dontCenter, radiusAdjust )
 {
 	this.name;
+	this.dontCenter = dontCenter;
 	this.pageElement = element;
 	this.pageRect = element.getBoundingClientRect();
 	this.pageTween;
@@ -46,19 +47,12 @@ function page( element, dontCenter, radiusAdjust )
 	{
 		this.name = element.id.substr(4);
 		getAllChildren(this.pageElement, REblock, this.DOMobjects);
-		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, dontCenter, radiusAdjust);
+		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, this.dontCenter, radiusAdjust);
 		//getSphereTargets(this.DOMobjects, this.targets.sphere, 900);
 		//getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
 		//getGridTargets(this.DOMobjects, this.targets.grid);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 
-	}
-	this.initTabs = function()
-	{
-		this.name = element.id.substr(4);
-		getAllChildren(this.pageElement, REcomittee, this.DOMobjects);
-		getComitteeTargets(this.DOMobjects, this.targets.page, 200, this);
-		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 	}
 	this.initComittee = function()
 	{
@@ -143,15 +137,15 @@ function position(x, y, z)
 }
 
 function getAllChildren(element , regex, chosenElements) 
-{	
-	if (element.id == undefined)
+{
+	if (element.id == undefined || element.id == null)
 		return null;
 	if (element.hasChildNodes())
 	{
 		var array = element.childNodes;
 		for (x in array)
 		{
-			if (array[x].id == undefined)
+			if (array[x].id == undefined || element.id == null)
 				continue;
 			if (regex.test(array[x].id))
 			{
@@ -186,36 +180,8 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 	var threshold = pageElement.getBoundingClientRect();
 	var topThreshold = threshold.top - headerLength;
 	var centerAdjustment = ( initialWidth - ( threshold.right - threshold.left ) ) / 2 ;
-	if (dontCenter) centerAdjustment = 0;
-	for ( var i = 0; i < source.length; i ++ )
-	{
-		rect = source[i].getBoundingClientRect();
-		object = new THREE.Object3D();
-		boxleft = rect.left + centerAdjustment;
-		boxtop = rect.top - topThreshold;
-		boxwidth = rect.right-rect.left;
-		boxheight = rect.bottom-rect.top;
-		object.position.x = boxleft - (initialWidth/2) + boxwidth/2;
-		object.position.y = (window.innerHeight/2) - boxtop - boxheight/2;
-		pos = new position(object.position.x, object.position.y, 0);
-		initPos.push( pos );
-		vect.x = object.position.x;
-		theta = object.position.y / vect.z;
-		object.position.y = vect.z * Math.sin(theta);
-		object.position.z = vect.z - vect.z * Math.cos(theta) + radiusAdjust;
-		lookAwayFrom(object, vect);
-		destination.push( object );
-	}
-}
-
-function getTabTargets(source, destination, initPos, pageElement, dontCenter, radiusAdjust, tabStart)
-{
-	var rect, object, boxleft, boxtop, boxwidth, boxheight, theta, pos;
-	var vect = new THREE.Vector3();
-	vect.copy( pivot );
-	var threshold = pageElement.getBoundingClientRect();
-	var topThreshold = threshold.top - headerLength;
-	var centerAdjustment = ( initialWidth - ( threshold.right - threshold.left ) ) / 2 ;
+	console.log(pageElement.id + "::");
+	console.log(threshold);
 	if (dontCenter) centerAdjustment = 0;
 	for ( var i = 0; i < source.length; i ++ )
 	{
@@ -536,7 +502,7 @@ function getPage(pageName, tabName)
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	currentTabbedPage = undefined;
-	console.log(pageName+" "+tabName);
+	//console.log(pageName+" "+tabName);
 	// console.log()
 	if (currentPage == undefined)
 	{
@@ -609,16 +575,19 @@ function initPages()
 function initTabbedPages()
 {
 	var children = [];
-	var grandChildren = [];
 	var tempPage, radiusAdjust = -300;
 	getAllChildren(container, REtabgroup, children);
 	for ( var i = 0 ; i < children.length ; i++ )
 	{
+		var grandChildren = [];
 		getAllChildren(children[i], REtabs, grandChildren);
+		//console.log(children[i].childNodes );
+		//console.log(grandChildren);
 		var name = children[i].id.substr(8);
 		allTabbedPages[name] = {};
 		for ( var j = 0 ; j < grandChildren.length ; j++ )
 		{
+			//console.log(grandChildren[j]);
 			tempPage = new page(grandChildren[j], true, (j + 1) * radiusAdjust);
 			tempPage.initPage();
 			allTabbedPages[name][tempPage.name] = tempPage;
