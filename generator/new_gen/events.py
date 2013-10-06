@@ -8,7 +8,7 @@ eve_id=1
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	print '<span id = "comittee'+event+'" style="cursor:pointer" onclick="getPage('+event+')">'
+	print '<span id = "comittee'+event+'" style="cursor:pointer" onclick="getPage(\''+event+'\')">'
 	print '<h1>'+event+'</h1>'
 	print '<img id="eve'+str(eve_id)+'" src="'+comitteeLogos[event]+'"/>'
 	eve_id+=1
@@ -26,7 +26,7 @@ for i in events.iterkeys():
 		print j
 		print "<img src='"+events[i][j]['image']+"'/>"
 print "</div>"
-#images preload ends
+#images preload ends	
 
 
 #TODO comittee page
@@ -79,22 +79,38 @@ for i in events.iterkeys():
 		print "<td valign='top'>"
 
 		print "<span id='side"+event+"'>"		
-		print "<span id='blockGen"+str(block)+"'><img src='"+events[i][event]['image']+"'/></span><br />"
+		print "<span id='blockGen"+str(block)+"'><img src='"+events[i][event]['image']+"' width='250px'/></span><br />"
 		block+=1
 		print "<span id='blockGen"+str(block)+"'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
 		block+=1
-		print "<span id='blockGen"+str(block)+"'>"+"<h3>Contact:"+events[i][event]['contact']+"</h3></span><br />"
+		print "<span id='blockGen"+str(block)+"'>"+"<h3>Contact:"+events[i][event]['contact']+"</h3></span><br />"	
 		block+=1
+		#Tabs of content 
+		tab_type=(events[i][event]).keys()
+		print tab_type
+		for j in tab_type:
+			if tab_type.index(j) > 1:
+				print "<a id='blockGen"+str(block)+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'>'+j+"</a><br />"
+				block+=1
 		#Put other remaining blocks of keys !!! 
 		print "</span>"
 		print "</td>"
 		print "<td>"
-
-		print "<span id='page"+event+"'>"
-		print "<span id='blockGen"+str(block)+"' style='width:500px;'>"
-		print "<h2>Description</h2>"
-		print events[i][event]['Description']
-		print "</span>"
+		# print "<span id='page"+event+"'>"
+		#printing the tab of content
+		print '<span id = "tabgroup'+event+'">'
+		for j in tab_type:
+			if tab_type.index(j) > 1:
+				print '<span id = "tabs'+event+"_"+j+'">'
+				print '<span id="blockGen'+str(block)+"\" style='width: 500px;'>"
+				print events[i][event][j]
+				print '</span>'
+				print '</span>'
+		print '</span>'
+		# print "<span id='blockGen"+str(block)+"' style='width:500px;'>"
+		# print "<h2>Description</h2>"
+		# print events[i][event]['Description']
+		# print "</span>"
 
 		# TODO problem statement..etc
 		# print "<hr/>"
