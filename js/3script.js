@@ -7,11 +7,13 @@ var initialWidth = 1366;
 
 var allForms = {};
 var allSideBars = {};
+var allTabbedPages = {};
 var allPages = {};
 var allPagesIndex = []; //remove this later
 var allTweens = {};
 
 var currentPage;
+var currentTabbedPage;
 var currentSideBar;
 var currentForm;
 var renderTween;
@@ -23,7 +25,7 @@ var REform = new RegExp("^form");
 var REcomittee = new RegExp("^comittee");
 var REmenu = new RegExp("^menu");
 var REtabgroup = new RegExp("^tabgroup");
-var REtab = new RegExp("^tab");
+var REtabs = new RegExp("^tabs");
 
 var pivot = new THREE.Vector3(0, 0, -3000);
 var history=[];
@@ -42,16 +44,6 @@ function page( element, dontCenter, radiusAdjust )
 	this.onComplete = function() {}
 	this.initPage = function()
 	{
-		var tabStart = this.DOMobjects.length;
-		var tempArray = [];
-		getAllChildren(this.pageElement, REtabgroup, tempArray);
-		if (tempArray)
-		{
-			for (var i = 0 ; i < tempArray.length ; i++)
-			{
-								
-			}
-		}
 		this.name = element.id.substr(4);
 		getAllChildren(this.pageElement, REblock, this.DOMobjects);
 		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, dontCenter, radiusAdjust);
@@ -60,6 +52,13 @@ function page( element, dontCenter, radiusAdjust )
 		//getGridTargets(this.DOMobjects, this.targets.grid);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 
+	}
+	this.initTabs = function()
+	{
+		this.name = element.id.substr(4);
+		getAllChildren(this.pageElement, REcomittee, this.DOMobjects);
+		getComitteeTargets(this.DOMobjects, this.targets.page, 200, this);
+		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 	}
 	this.initComittee = function()
 	{
@@ -180,6 +179,36 @@ function lookAwayFrom(obj, piv)
 }
 
 function getPageTargets(source, destination, initPos, pageElement, dontCenter, radiusAdjust)
+{
+	var rect, object, boxleft, boxtop, boxwidth, boxheight, theta, pos;
+	var vect = new THREE.Vector3();
+	vect.copy( pivot );
+	var threshold = pageElement.getBoundingClientRect();
+	var topThreshold = threshold.top - headerLength;
+	var centerAdjustment = ( initialWidth - ( threshold.right - threshold.left ) ) / 2 ;
+	if (dontCenter) centerAdjustment = 0;
+	for ( var i = 0; i < source.length; i ++ )
+	{
+		rect = source[i].getBoundingClientRect();
+		object = new THREE.Object3D();
+		boxleft = rect.left + centerAdjustment;
+		boxtop = rect.top - topThreshold;
+		boxwidth = rect.right-rect.left;
+		boxheight = rect.bottom-rect.top;
+		object.position.x = boxleft - (initialWidth/2) + boxwidth/2;
+		object.position.y = (window.innerHeight/2) - boxtop - boxheight/2;
+		pos = new position(object.position.x, object.position.y, 0);
+		initPos.push( pos );
+		vect.x = object.position.x;
+		theta = object.position.y / vect.z;
+		object.position.y = vect.z * Math.sin(theta);
+		object.position.z = vect.z - vect.z * Math.cos(theta) + radiusAdjust;
+		lookAwayFrom(object, vect);
+		destination.push( object );
+	}
+}
+
+function getTabTargets(source, destination, initPos, pageElement, dontCenter, radiusAdjust, tabStart)
 {
 	var rect, object, boxleft, boxtop, boxwidth, boxheight, theta, pos;
 	var vect = new THREE.Vector3();
@@ -485,28 +514,59 @@ function explodePage( element )
 		getRandomTarget(object);
 		randomTargets.push(object);
 	}
-	transform(element.WGLobjects, randomTargets, 3000, 0, true, element.name);
+	transform(element.WGLobjects, randomTargets, 3000, 0, true, element);
 }
 
-function getPage(pageName)
+function explodeTabbedPage( element )
+{
+	if ( element == undefined ) return;
+	for (x in element)
+	{
+		explodePage(element[ x ]);
+	}
+}
+
+function getPage(pageName, tabName)
 {
 	alpha = 0;
 	var duration = 2500, variation = 2500;
 	explodePage( currentPage );
 	explodePage( currentSideBar );
+	explodeTabbedPage( currentTabbedPage );
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
-	loadPage( currentPage );
-	if (currentPage.name == 'homePage') variation = 0;
-	transform(currentPage.WGLobjects, currentPage.targets.page, duration, variation, false, currentPage.name);
+	currentTabbedPage = undefined;
+	if (tabName != undefined)
+	{
+		currentTabbedPage = allTabbedPages[pageName];
+		currentPage = allTabbedPages[pageName][tabName];
+		for (x in allTabbedPages[pageName])
+		{
+			var tabPage = allTabbedPages[pageName][ x ];
+			loadPage( tabPage );
+			transform(tabPage.WGLobjects, tabPage.targets.page, duration, variation, false, tabPage);
+		}
+		var resultTable=[];
+		getNextScroll(currentPage.targets.page, currentPage.initialPositions, resultTable, alpha);
+		transform(currentPage.WGLobjects, resultTable, duration, variation, false, currentPage);
+	}
+	else
+	{
+		loadPage( currentPage );
+		if (currentPage.name == 'homePage') variation = 0;
+		transform(currentPage.WGLobjects, currentPage.targets.page, duration, variation, false, currentPage);
+	}
 	if (currentSideBar != undefined)
 	{
 		loadPage( currentSideBar );
-		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar.name);
+		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar);
 	}
-	addHistory(currentPage.name);
-	if(currentPage.name == 'homePage') $("#menu").fadeOut();
-	else $("#menu").fadeIn();
+	if (tabName == undefined)
+	{ 
+		addHistory(currentPage.name);
+		if(currentPage.name == 'homePage') $("#menu").fadeOut();
+		else $("#menu").fadeIn();
+	}
 }
 
 var curIndex = 0;
@@ -536,6 +596,26 @@ function initPages()
 		tempPage.initPage();
 		allPagesIndex.push(tempPage.name);
 		allPages[tempPage.name] = tempPage;
+	}
+}
+
+function initTabbedPages()
+{
+	var children = [];
+	var grandChildren = [];
+	var tempPage, radiusAdjust = -300;
+	getAllChildren(container, REtabgroup, children);
+	for ( var i = 0 ; i < children.length ; i++ )
+	{
+		getAllChildren(children[i], REtabs, grandChildren);
+		var name = children[i].id.substr(8);
+		allTabbedPages[name] = {};
+		for ( var j = 0 ; j < grandChildren.length ; j++ )
+		{
+			tempPage = new page(grandChildren[j], true, (j + 1) * radiusAdjust);
+			tempPage.initPage();
+			allTabbedPages[name][tempPage.name] = tempPage;
+		}
 	}
 }
 
@@ -595,21 +675,10 @@ function init()
 	camera = new THREE.PerspectiveCamera( cameraAngle, window.innerWidth / window.innerHeight, 1, 5000 );
 	setCameraZ();
 	scene = new THREE.Scene();
-
-	/*var object;
-	for ( var i = 0; i < allPages.length; i ++ ) 
-	{
-		for ( var j = 0; j < allPages[i].DOMobjects.length; j ++ )
-		{
-			object = new THREE.CSS3DObject( allPages[i].DOMobjects[j] );
-			getRandomTarget(object);
-			//scene.add( object );
-			allPages[i].WGLobjects.push( object );
-		}
-	}*/
 	
 	initPages();
 	initSideBars();
+	initTabbedPages();
 	initForms();
 	initAllCommittees();
 	initHomePage();
@@ -625,10 +694,10 @@ function init()
 	//getPage("homePage");
 }
 
-function transform(sources, destinations, duration, variation, destroyOnComplete, pageName) 
+function transform(sources, destinations, duration, variation, destroyOnComplete, pageObject) 
 {
 	TWEEN.remove(renderTween);
-	if( allPages[pageName].pageTween != undefined ) { TWEEN.remove(allPages[pageName].pageTween); }
+	if( pageObject.pageTween != undefined ) { TWEEN.remove(pageObject.pageTween); }
 	for ( var i = 0; i < sources.length; i ++ )
 	{
 		var object = sources[i];
@@ -659,7 +728,7 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		.start();
 	new TWEEN.Tween( this )
 		.to( {}, duration + variation )
-		.onComplete( function() { if (pageName != undefined ){ allPages[pageName].onComplete(); }} )
+		.onComplete( function() { if (pageObject != undefined ){ pageObject.onComplete(); }} )
 		.start();
 		
 	/*if( pageObject.pageTween != undefined )
