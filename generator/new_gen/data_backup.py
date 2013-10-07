@@ -626,7 +626,7 @@ The robot will initially be placed in a node of our choice. The starting node ma
 
 "Simplicity":{"image": "engineer.gif","contact": "contact","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
-The dates for test run and the main event will be announced shortly<br/>\
+<b>The dates for test run and the main event will be announced shortly<br/>\
 <B>EVENT FORMAT</B><BR/>\
 This is an online event<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
@@ -732,52 +732,23 @@ The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 "},
 
-"Waltz":{"image": "./Icons_Final/Waltz.png","contact": "contact","Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
-switching walls at the check-lines indicated in the arena diagram", "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br />\
-has to negotiate only ‘L’ shaped 90 degree turns. <br /><br />\
-There are two paths that the participant can choose to solve the maze <br />\
-1. Original path <br />\
-2. Shortcut path <br />\
-<br />\
-The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br /><br />\
-The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.", 
-"Arena": "1. The arena comprises of 15cm high walls in the form of a small maze. The wall will be in\
-white color. <br />\
-2. The track may contain the following elements <br />\
-a) Straight Stretches <br />\
-b) 90 degree turns.<br />\
-c) Check-lines: White strips perpendicular to the direction of navigation indicating wall\
-switch. <br />\
-3. The base of the arena is painted in black except for the check-lines. <br />\
-4. A shortcutroute (the third white strip from entrance) is also provided for teams which can <br />\
-use it as a shortcut to finish the maze faster. <br />\
-5. The check-lines, of thickness 3 cmare provided at place where there are two walls on \
-either sides of the check-line.  <br />\
-6. Dimensions: The arena will be of dimensions no more than 290cm X 250 cm (including all\
-wall thickness) with the space between any two walls being 40cm exactly(bot navigation \
-width)<br />\
-The top view of the wall maze is shown below<br />\
-<img src='./data/waltz.jpg' />\
-<b>Index: <br /></b>\
-Green arrow- Entrance<br /><br />\
-Orange arrow- Exit for shortcut path<br />\
-Blue Arrow- Exit for Original path<br />",
-"Bot Specification and Rules": "<ul><li>The bot should fit in a box of dimensions 18 x 18 x 12 (cm).</li>\
-<li>The bot must switch at the check-lines (except the 3rd check-line) where the participating team must take the appropriate decision to use the shortcut or the original path.<\li>\
-<li>If the bot fails to follow the correct wall or strays into an ambiguous path at any point of time during \
-the run, it will be placed just after the previous check-line it has successfully negotiated. However, \
-for bots intending to use the shortcut path, the bot will be defaulted to location just after the 2ndcheck-line</li>\
-<li>It is advisable to a use a lower RPM motors to negotiate turns easily</li>\
-<li>Ready-made sensor modules are ALLOWED.However, use of readymade chassis or steppers/SERVO motors are not ALLOWED</li>\
-<li>Use of any mechanism which defiles or threatens to defile the arena will not be tolerated and the \
-pertaining teamwill be disqualified.</li>\
-<li>The judges have the final say regarding the disqualification or evaluation of the participating team.</li></ul>", 
-"evaluation": "Each team is given a maximum of 5 min to complete the maze and the score pertaining to each team will be \
-evaluated as<br />\
-Score = 300-T + X<br />\
-Where T is the time taken for the team to complete the maze in seconds <br />\
-X= 5 x No. of check-lines navigated successfully (except the 3rd check-line).<br />\
-Teams that navigate the 3rd check-line successfully and use the shortcut will be awarded an extra 20 points"},
+"Waltz":{"image": "./Icons_Final/Waltz.png","contact": "contact","Description": "<b>Introduction:<br/> <br/>Goal:</b><br/>  Teams must build a wall following bot that navigates the maze in minimum possible time <br/>\
+<b>Arena:</b><br/> 	\
+1. The arena comprises of 10cm high walls in the form of a small maze. The wall will be in white colour.<br/> \
+2. The track may contain the following elements-<br/> \
+a) Straight Stretches<br/>\
+b) 90 degree turns.<br/>\
+c) Checklines: White strips perpendicular to the direction of<br/> navigation indicating wall switch.<br/> \
+3. The base of the arena is painted in black except for the checklines.<br/> \
+4. A diversion route(indicated by a white wall edge) is also provided<br/> for teams which can use it as a shortcut to finish the maze faster.<br/> \
+5. The checklines are provided at place where there are two walls on<br/> either sides of the checklines.<br/> \
+6. Dimensions: The arena will be of dimensions no more than 155cm X 175<br/> cm with the space between any two wall being 30cm exactly<br/>(bot navigation width)<br/> \
+<b>Evaluation:</b><br/> \
+Each team is given a maximum of 5 min to complete the maze and the<br/> score pertaining to each team will be evaluated as <br/>\
+(300-T) <br/>\
+Where T is the time taken for the team to complete the maze in seconds.<br/>\
+"},
+
 }
 
 Mba={

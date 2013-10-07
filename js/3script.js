@@ -28,7 +28,7 @@ var REtabgroup = new RegExp("^tabgroup");
 var REtabs = new RegExp("^tabs");
 
 var pivot = new THREE.Vector3(0, 0, -3000);
-var history=[];
+var history2=[];
 
 function page( element, dontCenter, radiusAdjust )
 {
@@ -548,6 +548,13 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
+	var input = document.getElementById("share_url");
+	console.log(input.value);
+	var str = input.value.split("#")[1];
+	if (str == "homePage")
+		history.pushState(null, null, " ");
+	else
+		history.pushState(null, null, "#"+input.value.split("#")[1]);
 }
 
 var curIndex = 0;
@@ -765,13 +772,13 @@ function start()
 	animate();
 }
 function addHistory(itemName){
-	if(history[history.length-1] != itemName)
-		history.push(itemName);
+	if(history2[history2.length-1] != itemName)
+		history2.push(itemName);
 	document.getElementById("share_url").value=window.location.href.split("#")[0]+"#"+itemName;
 }
 function backHistory(){
-	itemName=history.pop();
-	getPage(history[history.length-1]);
+	itemName=history2.pop();
+	getPage(history2[history2.length-1]);
 }
 
 
