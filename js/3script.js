@@ -138,14 +138,17 @@ function position(x, y, z)
 
 function getAllChildren(element , regex, chosenElements) 
 {
-	if (element.id == undefined || element.id == null)
+	if (element.id == undefined || element.id == null || element == undefined)
 		return null;
 	if (element.hasChildNodes())
 	{
 		var array = element.childNodes;
-		for (x in array)
+		for (var x in array)
 		{
-			if (array[x].id == undefined || element.id == null)
+			//console.log('##########');
+			//console.log(array[x]);
+			//console.log('&&&&&&&&&&');
+			if (array[x].id == undefined || element.id == null || element == undefined)
 				continue;
 			if (regex.test(array[x].id))
 			{
@@ -178,10 +181,15 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 	var vect = new THREE.Vector3();
 	vect.copy( pivot );
 	var threshold = pageElement.getBoundingClientRect();
-	var topThreshold = threshold.top - headerLength;
+	var verticalCenterAdjustment = 0;
+	if ((threshold.bottom - threshold.top) < window.innerHeight )
+	{
+		verticalCenterAdjustment = (window.innerHeight - (threshold.bottom - threshold.top))/2;
+	}
+	var topThreshold = threshold.top - headerLength - verticalCenterAdjustment;
 	var centerAdjustment = ( initialWidth - ( threshold.right - threshold.left ) ) / 2 ;
-	console.log(pageElement.id + "::");
-	console.log(threshold);
+	//console.log(pageElement.id + "::");
+	//console.log(threshold);
 	if (dontCenter) centerAdjustment = 0;
 	for ( var i = 0; i < source.length; i ++ )
 	{
