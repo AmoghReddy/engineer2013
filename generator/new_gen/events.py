@@ -1,5 +1,6 @@
 #!/bin/env python
 import math
+import random
 from  data import *
 num=0
 eve_id=1
@@ -9,11 +10,15 @@ def get_num():
 	num+=1
 	return str(num)
 
+def get_color():
+	return "background: rgba("+str(random.randint(200,250))+","+str(random.randint(200,250))+","+str(random.randint(200,250))+",0.8);"
+
+
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	print '<span id = "comittee'+event+'" style="cursor:pointer" onclick="getPage(\''+event+'\')">'
-	print '<h1>'+event+'</h1>'
+	print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
+	# print '<h1>'+event+'</h1>'
 	print '<img id="eve'+str(eve_id)+'" src="'+comitteeLogos[event]+'"/>'
 	eve_id+=1
 	print '</span>'
@@ -60,9 +65,9 @@ for i in events.iterkeys():
 		if count%3==0:
 			print "<tr>"
 		if (events[i][event]['image'] == 'engineer.gif'):
-			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 400px;height: 400px;margin-top: 90px;background-color:#B3B5B5;'><h1 style='text-align:center;'>"+event+"</h1></td>"			
+			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 90px;"+get_color()+"'><h1 style='text-align:center;'>"+event.replace('_'," ")+"</h1></td>"			
 		else:
-			print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
+			print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='"+events[i][event]['image']+"'/></span></td>"
 			# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
 		if count%3==2:
 			print "</tr>"
@@ -80,25 +85,25 @@ for i in events.iterkeys():
 	for event in events[i].iterkeys():
 
 		#sidebar for the events page
-		print	 "<table class='table' align='center' style='width: 70%;'>"
+		print "<table class='table' align='center' style='width: 70%;'>"
 		print "<tr>"
 		print "<td valign='top' style='width: 30%'>"
 
 		print "<span id='side"+event+"'>"		
 		if (events[i][event]['image'] == 'engineer.gif'):
-			print "<span id='blockGen"+get_num()+"'><button class='button1' style='border-radius: 0%;width: 100%;height: 100%;margin-top: 90px;background-color:#B3B5B5'><h1 style='text-align:center;'>"+event+"</h1></button></span><br />"	
+			print "<span id='blockGen"+get_num()+"'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;"+get_color()+"'><h1 style='text-align:center;'>"+event.replace('_',' ')+"</h1></button></span><br />"	
 		else:
-			print "<span id='blockGen"+get_num()+"'><img src='"+events[i][event]['image']+"' width='250px'/></span><br />"
-			print "<span id='blockGen"+get_num()+"'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
+			print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src='"+events[i][event]['image']+"' width='250px'/></span><br />"
+			print "<span id='blockGen"+get_num()+"' style='width:250px;'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
 			# <span id='blockGen'+get_num()+ onclick='getPage("TEvent2")'><button class="button1" style="border-radius: 0%;width: 400px;height: 400px;margin-top: 90px;background-color:#B3B5B5"><h1 style="text-align:center;">MegaPixel</h1></div> </span>
 			# print "<span id='blockGen"+get_num()+"'><button src='"+events[i][event]['image']+"' width='250px'/></span><br />""
-		print "<span id='blockGen"+get_num()+"'>"+"<h3>Contact:"+events[i][event]['contact']+"</h3></span><br />"	
+		print "<span id='blockGen"+get_num()+"' style='width:250px;padding: 15px;border-radius:20px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span><br />"	
 		#Tabs of content 
 		tab_type=(events[i][event]).keys()
 		# print tab_type
 		for j in tab_type:
 			if (j != "image" and j != "contact"):
-				print "<a id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'>'+j+"</a><br />"
+				print "<a id='blockGen"+get_num()+"' style='width:250px;padding: 15px;border-radius:20px;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'>'+j+"</a><br />"
 			# print tab_type
 			# print event
 			# if event == "Proteus":
@@ -117,7 +122,7 @@ for i in events.iterkeys():
 			# if tab_type.index(j) > 1:
 			if (j != "image" and j != "contact"):
 				print '<span id = "tabs'+event+"_"+j+'">'
-				print '<span id="blockGen'+get_num()+"\" style='width: 500px;'>"		
+				print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;border-radius: 25px;'>"	
 				print events[i][event][j]
 				print '</span>'
 				print '</span>'
