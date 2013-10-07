@@ -122,7 +122,7 @@ function searchRouter(){
 		suggestions.push(str.replace(/_/g,' '));
 	}
 
-	$('#searchBox').typeahead({source: suggestions , updater: function(item) { getPage(item.replace(/ /g,'_')); }});
+	$('#searchBox').typeahead({source: suggestions , updater: function(item) { getPage(item.replace(/ /g,'_')); this.value = item ;}});
 }
 
 function share(){
