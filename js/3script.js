@@ -1,8 +1,8 @@
 var camera, cameraAngle, scene, renderer;
 var container, controls;
 
-var headerLength = 10;
-var footerLength = 60;
+var headerLength = 30;
+var footerLength = 90;
 var initialWidth = 1366;
 
 var allForms = {};
