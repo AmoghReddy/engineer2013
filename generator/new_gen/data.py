@@ -14,7 +14,8 @@ comitteeLogos={
 "Workshops": "./Icons_Final/workshop2.png",
 "Mechanical": "./Icons_Final/mech.png",
 "Astro": "./Icons_Final/astro.png",
-"Gaming":"./Icons_Final/gaming.png"
+"Gaming":"./Icons_Final/gaming.png",
+"Civil": "./Icons_Final/civilmain.png"
 }
 
 
@@ -24,7 +25,52 @@ Workshops={
 	"Ethical Hacking by TechDefence": {"image": "engineer.gif","contact": "contact","Description": "INTRODUCTION <br />As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"}
 }
 
-Gaming={"Aoe":{"image":"Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
+Civil = {
+	
+	"COLOSSUS": {"image": "./Icons_Final/Colossus.png","contact": "Mohan Krishna.T<br />\
++917411918682<br />\
+krishnamohan651@gmail.com<br />\
+Sushil Kumar<br />\
++918867345233<br />\
+sushil199124@gmail.com<br />","Description": "Guess, what is the first thought when it comes to Civil Engineering? Yes, it \
+is Structures, the spotlight of Colossus. The basis of a good structure lies in the \
+mix of innovation, analysis, and the determination to create an identity. This \
+edition of ENGINEER offers a hands-on experience in building an innovative \
+structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statement</a> "},
+
+	"FantastiCity": {"image": "./Icons_Final/fantasticity2.png","contact": "B.THEJA<br />\
++919480435585<br />\
+bnmtheja@gmail.com<br />\
+Sushil Kumar<br />\
++918867345233<br />\
+sushil199124@gmail.com<br />", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternative for military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
+
+	"Architect": {"image": "./Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br />\
++917411918682<br />\
+krishnamohan651@gmail.com<br />\
+Sushil Kumar<br />\
++918867345233<br />\
+sushil199124@gmail.com<br />\
+","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members.\
+o All members of the team should be enrolled as students in an educational institute.\
+o No person can be a part of more than one team."},
+
+	"Mindbend": {"image": "./Icons_Final/mindbend.png","contact": "B. THEJA<br />\
++919480435585<br />\
+bnmtheja@gmail.com<br />\
+Padmini M<br />\
++918123463865<br />\
+pm27178@gmail.com" , "Description": "With a combination of mind boggling questions, core concepts and some really exciting rounds, MindBend is definitely a test of your intellect! Time to prove yourself...!", "format": "The quiz will be an amalgamation of visual rounds and written tests, full of interesting and intriguing questions.", "eligibility": "The team can include a maximum of two members. All members of the team should be enrolled as students in an educational institute. No person can be a part of more than one team."},
+
+"Nirvahana": {"image": "./Icons_Final/Nirvana.png", "contact": "Mohan Krishna.T<br />\
++917411918682<br />\
+krishnamohan651@gmail.com<br />\
+Niveditha.J<br />\
++917795543699<br />\
+niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
+}
+
+Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
 The administrator's decision will be final in case of any dispute.\
 Team members are not allowed to change seats once the aoe map has started to load.\
 Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. \
@@ -56,7 +102,7 @@ Record Game : [X] Yes\
 3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs\
 "},
 
-"CounterStrike":{"image":"COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
+"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
          Registration Fees: Rs. 300/- per team\
         	General \
 Competition Method : 5 vs. 5 (Team Play, 5 players per team) \
@@ -228,7 +274,7 @@ Rules</p>\
 &middot; The administrator's decision will be final.</p>/"},
 
 
-"NFS": {"image": "image", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br />\
+"NFS": {"image": "engineer.gif", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br />\
 Registration will be closed after prelims.<br />\
 Players can choose their cars, customize them and modify them.<br />\
 At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br />\
@@ -424,7 +470,7 @@ Biz={
 <b>Number of Sessions:</b> 1 (Only the Final)<br/>\
 <b>Expected Participation:</b> 80-100<br/>"},
 
-"Product_Design_Challenge":{"image": "engineer.gif","contact": "contact","Description": "The competition aims to test how one can optimize a design and create a<br/> sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
+"Product_Design_Challenge":{"image": "engineer.gif","contact": "contact","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 The competition would be held by SCE and Biz events committee together.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>\
 <b>Venue: </b>MSH<br/> \
@@ -816,7 +862,7 @@ produce at the time of registration.</p><p>&bull; A team may comprise a maximum 
 
 
 Mining={
-"Mine_Rush":{"image": "./Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments.<br />\
+"Mine_Rush":{"image": "./Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments.<br />\
 Time : 09:30-12:00<br />\
 Venue : in and around mining department<br />\
 Net prize money :  Rs.5000/-"},
@@ -826,7 +872,7 @@ Time : 14:00-16:00<br />\
 Venue : mining department (conference hall)<br />\
 Net prize money :  Rs.3000/-<br />"},
 
-"Mine_Quest":{"image": "./Icons_Final/ Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br />\
+"Mine_Quest":{"image": "./Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br />\
 <h3>round 1 : preliminary</h3>\
 All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br />\
 time : 09:30-10:00<br />\
@@ -870,7 +916,7 @@ net prize money :  rs.2000/-<br />\
 events={
 "Technites":Technites,
 "Comps":Comps,
-
+"Civil": Civil,
 "TechSpeak": TechSpeakEvent,
 "Meta":Meta,
 "Biz":Biz,
