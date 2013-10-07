@@ -37,6 +37,12 @@ var alpha=0;
 function VScroll(isScrollUp)
 {
 	var resultTable=[];
+	var threshold = currentPage.pageRect;
+	if ((threshold.bottom - threshold.top) < window.innerHeight)
+	{
+		//console.log('not scrolling');
+		return;
+	}
 	if ( currentPage.name.match('allCommittees') ) 
 	{
 		if (isScrollUp)
@@ -128,6 +134,17 @@ function share(){
 	$("#shareModal").modal("show");
 }
 
+function makeSomeBlocks()
+{
+	var tempArray = [];
+	tempArray = document.getElementsByTagName('p');
+	for (var x = 0; x < tempArray.length; x++ )
+	{
+		tempArray[x].id = "blockPP" + x;
+		//tempArray.style = "";
+	}
+}
+
 function system()
 {
 	$(".loading").hide();
@@ -136,7 +153,8 @@ function system()
 	$(".quickNav button").hide(0);
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },function(){ quickNavToggle(true); });
 	$(".dropdown input").click(function(e){e.stopPropagation();});
-
+	container = document.getElementById("container");
+	makeSomeBlocks();
 	start();
 	keybind();
 	router();
