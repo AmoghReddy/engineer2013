@@ -1,7 +1,7 @@
 var camera, cameraAngle, scene, renderer;
 var container, controls;
 
-var headerLength = 30;
+var headerLength = 10;
 var footerLength = 90;
 var initialWidth = 1366;
 
@@ -503,7 +503,7 @@ function explodeTabbedPage( element )
 function getPage(pageName, tabName)
 {
 	alpha = 0;
-	var duration = 2500, variation = 2500;
+	var duration = 2000, variation = 1500;
 	explodePage( currentPage );
 	explodePage( currentSideBar );
 	explodeTabbedPage( currentTabbedPage );
@@ -590,7 +590,7 @@ function initPages()
 function initTabbedPages()
 {
 	var children = [];
-	var tempPage, radiusAdjust = -300;
+	var tempPage, radiusAdjust = -600;
 	getAllChildren(container, REtabgroup, children);
 	for ( var i = 0 ; i < children.length ; i++ )
 	{
@@ -778,7 +778,11 @@ function addHistory(itemName){
 }
 function backHistory(){
 	itemName=history2.pop();
-	getPage(history2[history2.length-1]);
+	var lastItem = history2[history2.length-1];
+	if (lastItem != undefined)
+	{
+		getPage(history2[history2.length-1]);
+	}
 }
 
 
