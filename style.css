@@ -170,7 +170,7 @@ button:active {
 	-o-transition-duration: 0.5s; /* Opera */
 }
 .quickNav div:hover{
-	width:40%;
+	width:75%;
 	height:60px;
 }
 .quickNav i{
@@ -207,12 +207,12 @@ button:active {
 	top:0px;
 	z-index:100;
 	cursor:pointer;
-	text-align:center;
-	width:0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 60px 60px 0 60px;
-	border-color: #a4a4a4 transparent transparent transparent;
+	/*text-align:center;*/
+	/*width:0px;*/
+	/*height: 0px;*/
+	/*border-style: solid;*/
+	/*border-width: 60px 60px 0 60px;*/
+	/*border-color: #a4a4a4 transparent transparent transparent;*/
 }
 .accountSettings{
 	margin-right:100px;
