@@ -70,7 +70,7 @@ Niveditha.J<br />\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
-Gaming={"Aoe":{"image":"Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
+Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
 The administrator's decision will be final in case of any dispute.\
 Team members are not allowed to change seats once the aoe map has started to load.\
 Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. \
