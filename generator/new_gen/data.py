@@ -79,7 +79,7 @@ o All members of the team should be enrolled as students in an educational insti
 o No person can be a part of more than one team."},
 
 "Mindbend": {
-	"image": "./Icons_Final/mindbend.png","contact": "CONTACT: B. THEJA <br/>\
+	"image": "./Icons_Final/mindbend.png","contact": "B. THEJA <br/>\
 +919480435585 <br/>\
 bnmtheja@gmail.com <br/>\
 Padmini M <br/>\
@@ -95,7 +95,7 @@ Niveditha.J<br />\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
-Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
+Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"Satish Chandra <br />9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
 The administrator's decision will be final in case of any dispute.\
 Team members are not allowed to change seats once the aoe map has started to load.\
 Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. \
@@ -127,7 +127,7 @@ Record Game : [X] Yes\
 3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs\
 "},
 
-"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
+"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"Satish Chandra <br />9740523343","specifications":"	Game Version: Counter-Strike 1.6  \
          Registration Fees: Rs. 300/- per team\
         	General \
 Competition Method : 5 vs. 5 (Team Play, 5 players per team) \
@@ -235,7 +235,7 @@ In the case of intentional disconnection, the referee may decide to end the matc
 Protests can only be filed by the team leader (e.g. a player that represents the team) <br />\
 If a player does not agree to any rules, he/she can express his/her protest to a referee before the completion of a match. Any intentional refusal to connect to the match server can result in a default loss for that team with the decision to <br />\
 be made at the sole discretion of the referee. <br />\
-If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},"dota":{"image":"Icons_Final/dOTA.png","contact":"contact","specifications":"<p>Competition format: 5v5 Teams</p>\
+If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},"dota":{"image":"Icons_Final/dOTA.png","contact":"Satish Chandra <br />9740523343","specifications":"<p>Competition format: 5v5 Teams</p>\
 <p>Match format: Single elimination i.e,Knockout</p>\
 <p>Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.</p>\
 <p>Finals will be 'Best of 3 games' and all other rounds will be single game only.<br />\
@@ -286,7 +286,7 @@ Rules</p>\
 <p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p>\
 <p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"},
 
- "Fifa":{"image":"engineer.gif","contact":"contact","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p>\
+ "Fifa":{"image":"engineer.gif","contact":"Satish Chandra <br />9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p>\
 &middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p>\
 &middot; There will be no practicing allowed. Participants are only allowed to change the necessary controls and check them.</p>\
 &middot; The total number of rounds will be decided by the participation.</p>\
@@ -299,7 +299,7 @@ Rules</p>\
 &middot; The administrator's decision will be final.</p>/"},
 
 
-"NFS": {"image": "engineer.gif", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br />\
+"NFS": {"image": "engineer.gif", "contact": "Satish Chandra <br />9740523343", "specifications": "<p>Rs. 60/- per participant.<br />\
 Registration will be closed after prelims.<br />\
 Players can choose their cars, customize them and modify them.<br />\
 At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br />\
@@ -444,7 +444,7 @@ be discussed in great detail, promising the gala night to be a great delight. We
 will enlighten star gazers of the basic topology of the night sky."}}
 
 Meta={
-"MetaMagic":{"image": "./Icons_Final/MetaMagic.png","contact": "contact","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />\
+"MetaMagic":{"image": "./Icons_Final/MetaMagic.png","contact": "Vijay Bhardwaj","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />\
  - Expected turnout – 400+ in total<br />\
  - Major demonstrations  – FerroFluid, Shape Memory Alloy, Superconductor<br />\
  - Others –  Sugar bomb, Instant Ice, Mega Bubble, Elephant Toothpaste, Walking on Water,  Chemical Squid, Smoke Bomb, Dry Sand.<br />\
@@ -452,7 +452,7 @@ Meta={
  - Session 1 on 25/10/2013 (8 am to 5 pm)<br />\
  - Session 2 on 26/10/2013 (10 am to 3 pm)"},
 
-"mindBend":{"image": "./Icons_Final/mindbend.png","contact": "contact","Description": "Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br />\
+"mindBend":{"image": "./Icons_Final/mindbend.png","contact": "Vijay Bhardwaj","Description": "Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br />\
 - Prelims round consisting of crossword and short questionnaire.<br />\
 - Final round between 6 teams<br />\
 - Expected turnout – 30 teams of 2 each<br /><br />\
@@ -460,7 +460,7 @@ Venue – MSH<br />\
 Day – 24/10/2013 (Day 1)<br />\
 Timings – 12 pm to 7 pm"},
 
-"Metamorphosis":{"image": "engineer.gif","contact": "contact","Description": "A trademark of Materials Events, this gives students an opportunity to take a crack a real-world industrial problem. Every stage of the problem forces one to think unconventionally and use every bit of information available.<br />\
+"Metamorphosis":{"image": "engineer.gif","contact": "Vijay Bhardwaj","Description": "A trademark of Materials Events, this gives students an opportunity to take a crack a real-world industrial problem. Every stage of the problem forces one to think unconventionally and use every bit of information available.<br />\
 - Abstract submission through mail<br />\
 - Final round – Presentation by 4 teams in Department seminar hall.<br />\
 - Expected turnout – 6 to 8 teams of 2 each<br /><br />\
@@ -468,14 +468,14 @@ Venue – Department Seminar Hall<br />\
 Day – 26/10/2013 (Day 3<br />\
 Timings – 3 pm to 6 pm"},
 
-"SEM_and_TEM_Expo":{"image": "./Icons_Final/SEMTEMExpo.png","contact": "contact","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
+"SEM_and_TEM_Expo":{"image": "./Icons_Final/SEMTEMExpo.png","contact": "Vijay Bhardwaj","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
 - 1 hour introductory talk<br />\
 - 1 hour demo  <br />\
 - Expected turnout – 50 <br />\
 - Venue – ISTE Seminar hall<br />\
 - Day – 25/10/2013 (Day 2)<br />"},
 
-"SEM_Photography_Contest":{"image": "./Icons_Final/SEMphotography.png","contact": "contact","Description": "The event is a photography contest. SEM images of samples having unique features are evaluated.<br />\
+"SEM_Photography_Contest":{"image": "./Icons_Final/SEMphotography.png","contact": "Vijay Bhardwaj","Description": "The event is a photography contest. SEM images of samples having unique features are evaluated.<br />\
 - Online photo submission with description<br />\
 - Expected turnout – 10<br />\
 - Venue – Department Seminar Hall<br />\
@@ -515,13 +515,13 @@ Problem Statement: To be provided by a Business Analysis Company.<br/>\
 <b>Expected Participation:</b> 100-120<br/>"},
 }
 Chem={
-"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "contact","Description":"<b>Introduction:</b><br/><br/>\
+"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br />9538703009","Description":"<b>Introduction:</b><br/><br/>\
 'My mind,'' he said, 'rebels at stagnation. Give me problems, give me work,<br/>give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>I crave for mental exaltation. That is why I have chosen my own particular profession,<br/>or rather created it, for I am the only one in the world.'<br/> \
 <b>― Arthur Conan Doyle, The Sign of Four</b><br/><br/>\
  Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science,<br/> laboratory skills and indulge in the world of basic chemistry. Don the role of a lab<br/> geek, play with the uncanniest concoctions, prepare the fanciest potions and race<br/>against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
 Push the lizard Brain of yours to the maximum!<br/>"},
 
-"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "contact","Description": "<b>Introduction:</b><br/><br/>\
+"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya<br />9538703009","Description": "<b>Introduction:</b><br/><br/>\
 Industry Defined Problem is real, applied engineering at its epitome. Aiming to<br/>bridge the gap between theory and practice by challenging engineers to come<br/>up with innovative and creative solutions to crucial real life industrial problems<br/>IDP has been serving as a platform for budding engineers to interact with experts<br/>from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
 Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge<br/>and come up with creative solutions to problems posed by the industry. In this event,<br/>a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue. . The participants are<br/>expected to come up with innovative & economically feasible solutions that can<br/>be assimilated in the company’s process.<br/><br/>\
 The previous editions had us collaborating with the likes of Mangalore Refinery <br/>and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and<br/>other esteemed companies.<br/> \
@@ -530,7 +530,7 @@ Come, participate and get to interact with and thereby learn from the profession
 Engineer 2013, the expectations get bigger and the stakes higher!<br/>\
 We will get back to you with further details. Stay updated. <br/>"},
 
-"The_Portal":{"image": "engineer.gif","contact": "contact","Description": "<b>Introduction:</b><br/><br/>\
+"The_Portal":{"image": "engineer.gif","contact": "Ramya<br />9538703009","Description": "<b>Introduction:</b><br/><br/>\
 Chemical process simulation software helps broadens an engineer’s capabilities and<br/>increases productivity. It  supercharges an engineer’s \
 efficiency when facing the<br/>toughest chemical process models or addressing day-to-day challenges.\
  They have<br/>potential instructional value for practically all core courses, right from first year<br/>process calculations to final year\
@@ -935,7 +935,7 @@ profitable path for the company.</span></p>\
 
 Sce={
 
-"The_Last_Word":{"image": "engineer.gif","contact": "contact","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
+"The_Last_Word":{"image": "engineer.gif","contact": "Aswin K S <br /> 9483647944","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 <br/>\
 Panel to consist of seven members, including one moderator<br/>\
 <br/>\
@@ -944,7 +944,7 @@ Budget: Corporate Hospitality<br/>\
 Venue: SJA, 27th October, 4 P.M. (last event of Engineer)<br/>\
 "},
 
-"Sparsh":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>\
+"Sparsh":{"image": "engineer.gif","contact": "Aswin K S <br /> 9483647944","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>\
 <br/>\
 Budget:<br/>\
 	Corporate Hospitality for judges<br/>\
@@ -956,12 +956,12 @@ Budget:<br/>\
 Venue: Any Seminar hall (preferably in Main building) 3 hours<br/>\
 No. of Teams expected: 10 (2011)<br/>\
 "},
-"Sky_Lanterns":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b> Chief Guest may light sky lanterns along with students and dignitaries<br/>\
+"Sky_Lanterns":{"image": "engineer.gif","contact": "Aswin K S <br /> 9483647944","Description": "<b>Description:</b> Chief Guest may light sky lanterns along with students and dignitaries<br/>\
 Budget: Rs.  4000<br/>\
 Venue: Main ground after inauguration<br/>\
 "},
 
-"Green_Design_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "contact","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Green_Design_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Aswin K S <br /> 9483647944","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
 }
 
 Mechanical={
