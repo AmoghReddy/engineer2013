@@ -22,7 +22,7 @@ comitteeLogos={
 
 #each comittee
 General = {
-	"Simplineer": {"image": "engineer.gif","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
 }
 
 
@@ -95,77 +95,77 @@ Niveditha.J<br/>\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
-Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"contact","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.\
-The administrator's decision will be final in case of any dispute.\
-Team members are not allowed to change seats once the aoe map has started to load.\
-Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. \
-Definition of Bugsa. Anything abnormal which will give a competitor / team an unfair advantageb. Anything which will cause interruption / fatal error to the game\
- Any competitor found to have intentionally disconnected from the game will give thatcompetitor's team a loss for that match.\
-If any competitors get disconnected within 15 minutes after the game start, the gamewill be restarted with same civs on same players.\
-Pauses are allowed. Before pausing and un-pausing , you need to inform your enemyabout this, so that you don't get any advantage. Pauses must be for genuine reasonsonly.\
- Any use of hacks like maphack or any software or scripts which gives any unfairadvantage is banned and will result in instant disqualification from the tournament.\
-Players are required to conduct themselves in a professional manner, showingsportsmanship and respect for everyone involved. Any flaming or insulting will result inteam-disqualification.\
- ","specifications":"Registration Fees: Rs. 200/- per team for 2 vs 2\
-Competition format: 2 vs 2\
-Match format: Single elimination i.e. knockout","gamesetting":" Game Version: Age 2x1 (User patch 1.2)\
-RULES 2 vs 2\
-M A S T E R S   O F   A R A B I A\
-Size : 4 player map\
-Difficulty : Standard\
-Resources : Standard \
-Population : 200 \
-Game Speed : Normal\
-Reveal Map : Standard\
-Starting Age : Standard\
-Victory Condition : Conquest\
-Team Together : [X] Yes\
-All techs : [ ] No\
-Allow Cheats : [ ] No\
-Lock Teams : [X] Yes\
-Lock Speed : [X] Yes\
-Record Game : [X] Yes\
-3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs\
+Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"Satish Chandra <br /> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
+The administrator's decision will be final in case of any dispute.<br/>\
+Team members are not allowed to change seats once the aoe map has started to load.<br/>\
+Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. <br/>\
+Definition of Bugsa. Anything abnormal which will give a competitor / team an unfair advantageb. Anything which will cause interruption / fatal error to the game<br/>\
+ Any competitor found to have intentionally disconnected from the game will give thatcompetitor's team a loss for that match.<br/>\
+If any competitors get disconnected within 15 minutes after the game start, the gamewill be restarted with same civs on same players.<br/>\
+Pauses are allowed. Before pausing and un-pausing , you need to inform your enemyabout this, so that you don't get any advantage. Pauses must be for genuine reasonsonly.<br/>\
+ Any use of hacks like maphack or any software or scripts which gives any unfairadvantage is banned and will result in instant disqualification from the tournament.<br/>\
+Players are required to conduct themselves in a professional manner, showingsportsmanship and respect for everyone involved. Any flaming or insulting will result inteam-disqualification.<br/>\
+ ","specifications":"Registration Fees: Rs. 200/- per team for 2 vs 2<br/>\
+Competition format: 2 vs 2<br/>\
+Match format: Single elimination i.e. knockout","gamesetting":" Game Version: Age 2x1 (User patch 1.2)<br/>\
+RULES 2 vs 2<br/>\
+M A S T E R S   O F   A R A B I A<br/>\
+Size : 4 player map<br/>\
+Difficulty : Standard<br/>\
+Resources : Standard <br/>\
+Population : 200 <br/>\
+Game Speed : Normal<br/>\
+Reveal Map : Standard<br/>\
+Starting Age : Standard<br/>\
+Victory Condition : Conquest<br/>\
+Team Together : [X] Yes<br/>\
+All techs : [ ] No<br/>\
+Allow Cheats : [ ] No<br/>\
+Lock Teams : [X] Yes<br/>\
+Lock Speed : [X] Yes<br/>\
+Record Game : [X] Yes<br/>\
+3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs<br/>\
 "},
 
-"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"contact","specifications":"	Game Version: Counter-Strike 1.6  \
-         Registration Fees: Rs. 300/- per team\
-        	General \
-Competition Method : 5 vs. 5 (Team Play, 5 players per team) \
-Victory Condition: The first team to win 16 rounds is declared the winner.\
-A coin toss will determine starting sides in 1st round of tournament (Counter-Terrorist or Terrorist) and a Knife-Round will decide the starting sides from 2nd round onwards.\
-In the case of a 15-15 tie after regulation, the following steps will be taken: \
-For 1st round of tournament, the match will remain a tie and both teams will qualify for next round. \
-For further rounds of tournament, the match will have overtime. Overtime consists of 6 rounds with starting money of $10,000. Each team will play 3 rounds as Terrorist and 3 rounds as Counter-Terrorist. The team to win 4 rounds first, is declared the winner. In the case of another tie, the overtime will be repeated until a winner is declared. \
-Official Maps: De_Dust2, De_Inferno, De_Nuke, De_Train, De_Tuscan, De_Mirage\
-Map Selection for Match :\
- 1st Round   : De_Dust2\
- 2nd Round  :  De_Inferno\
-                       Semi Finals : Best of 1 (The Team who the knife have to eliminate 3 maps and loosing \
-                                    team have to eliminate 2 maps)     \
-  Finals	: Best of 3 (The Team who the knife have to eliminate 2 maps and loosing \
-                                          team have to eliminate 1 maps)\
-Only team leaders are allowed to use public in-game messages (messagemode1) within a match. The rule also applies when dead. Use of messagemode1 by any member other than the team leader shall result in a warning. Other team members must only use team message (messagemode2), while in a match. \
-The Server Master will be record the process of the match. \
-Engineer Committee may install third party program and/or join as an observer for tournament operations purposes, such as verifying match results or gathering match data.\
- 	General Game Setting \
-Rounds: 30 Rounds (Max rounds format): Each Team plays 15 rounds as Terrorists and 15 rounds as Counter-Terrorists \
-Round Time: 1 minute 45 seconds. \
-Freezetime : 15 seconds.\
-Approved Grenade Amounts Per Round \
-Flashbangs: 2 \
-Grenades: 1 \
-Smoke Grenades: 1 \
-Any use of more than the approved amount of grenades by any player, will result in a warning, loss of round or even match loss by forfeit. \
-Approved Launch Option Commands \
-noforcemparms \
-noforcemaccel \
-noforcemspd \
-freq *** \
-Any other commands found in the launch options, not approved by a referee, will at least result in a warning or even a loss by forfeit. \
-Default skins must be used. \
-Any other use of map or program bugs can result in a warning at the minimum or loss by default for the offending team after deliberation and decision by the board of referees at its sole discretion. \
-Using Automatic sniper rifles (Kreig 550 commando & D3/AU1) is not allowed. It may lead to disqualification of team.\
-","serversettings":" <p>\
+"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"Satish Chandra <br /> 9740523343","specifications":"	Game Version: Counter-Strike 1.6  <br/>\
+         Registration Fees: Rs. 300/- per team<br/>\
+        	General <br/>\
+Competition Method : 5 vs. 5 (Team Play, 5 players per team) <br/>\
+Victory Condition: The first team to win 16 rounds is declared the winner.<br/>\
+A coin toss will determine starting sides in 1st round of tournament (Counter-Terrorist or Terrorist) and a Knife-Round will decide the starting sides from 2nd round onwards.<br/>\
+In the case of a 15-15 tie after regulation, the following steps will be taken: <br/>\
+For 1st round of tournament, the match will remain a tie and both teams will qualify for next round. <br/>\
+For further rounds of tournament, the match will have overtime. Overtime consists of 6 rounds with starting money of $10,000. Each team will play 3 rounds as Terrorist and 3 rounds as Counter-Terrorist. The team to win 4 rounds first, is declared the winner. In the case of another tie, the overtime will be repeated until a winner is declared. <br/>\
+Official Maps: De_Dust2, De_Inferno, De_Nuke, De_Train, De_Tuscan, De_Mirage<br/>\
+Map Selection for Match :<br/>\
+ 1st Round   : De_Dust2<br/>\
+ 2nd Round  :  De_Inferno<br/>\
+                       Semi Finals : Best of 1 (The Team who the knife have to eliminate 3 maps and loosing <br/>\
+                                    team have to eliminate 2 maps)     <br/>\
+  Finals	: Best of 3 (The Team who the knife have to eliminate 2 maps and loosing <br/>\
+                                          team have to eliminate 1 maps)<br/>\
+Only team leaders are allowed to use public in-game messages (messagemode1) within a match. The rule also applies when dead. Use of messagemode1 by any member other than the team leader shall result in a warning. Other team members must only use team message (messagemode2), while in a match. <br/>\
+The Server Master will be record the process of the match. <br/>\
+Engineer Committee may install third party program and/or join as an observer for tournament operations purposes, such as verifying match results or gathering match data.<br/>\
+ 	General Game Setting <br/>\
+Rounds: 30 Rounds (Max rounds format): Each Team plays 15 rounds as Terrorists and 15 rounds as Counter-Terrorists <br/>\
+Round Time: 1 minute 45 seconds. <br/>\
+Freezetime : 15 seconds.<br/>\
+Approved Grenade Amounts Per Round <br/>\
+Flashbangs: 2 <br/>\
+Grenades: 1 <br/>\
+Smoke Grenades: 1 <br/>\
+Any use of more than the approved amount of grenades by any player, will result in a warning, loss of round or even match loss by forfeit. <br/>\
+Approved Launch Option Commands <br/>\
+noforcemparms <br/>\
+noforcemaccel <br/>\
+noforcemspd <br/>\
+freq *** <br/>\
+Any other commands found in the launch options, not approved by a referee, will at least result in a warning or even a loss by forfeit. <br/>\
+Default skins must be used. <br/>\
+Any other use of map or program bugs can result in a warning at the minimum or loss by default for the offending team after deliberation and decision by the board of referees at its sole discretion. <br/>\
+Using Automatic sniper rifles (Kreig 550 commando & D3/AU1) is not allowed. It may lead to disqualification of team.<br/>\
+","serversettings":" <p><br/>\
  &#159; mp_autokick 0 mp_autocrosshair 0 <br/>\
  &#159; mp_autoteambalance 0 mp_buytime 0.25 <br/>\
  &#159; mp_consistency 1 mp_c4timer 35 <br/>\
@@ -207,7 +207,7 @@ cl_weather mp_corpse_stay <br/>\
 mp_decals max_shells <br/>\
 max_smokepuffs fastsprites <br/>\
 ex_interp 0.01 for LAN <br/>\
-</p>\
+<br/>\
 ","penalties":"<p>In case of use of any unfair practices listed below, the offending team will be a given a warning at the minimum or loss by default at the referee&rsquo;s sole discretion. <br/>\
 Team members may communicate verbally if they are alive in the match or when all team members are dead. <br/>\
 The player is deemed dead when the screen is completely faded to black. If a bug occurs and the screen doesn&rsquo;t fade to black, the player is deemed dead three seconds after he/she has fallen.<br/>\
@@ -235,71 +235,73 @@ In the case of intentional disconnection, the referee may decide to end the matc
 Protests can only be filed by the team leader (e.g. a player that represents the team) <br/>\
 If a player does not agree to any rules, he/she can express his/her protest to a referee before the completion of a match. Any intentional refusal to connect to the match server can result in a default loss for that team with the decision to <br/>\
 be made at the sole discretion of the referee. <br/>\
-If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},"dota":{"image":"Icons_Final/dOTA.png","contact":"contact","specifications":"<p>Competition format: 5v5 Teams</p>\
-<p>Match format: Single elimination i.e,Knockout</p>\
-<p>Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.</p>\
+If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},
+
+"dota":{"image":"Icons_Final/dOTA.png","contact":"Satish Chandra <br /> 9740523343","specifications":"<p>Competition format: 5v5 Teams</p>\
+<p>Match format: Single elimination i.e,Knockout</p><br/>\
+<p>Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.</p><br/>\
 <p>Finals will be 'Best of 3 games' and all other rounds will be single game only.<br/>\
-</p>","gamesetting":"<p>Version : Tournament</p> \
-<p>Password : Yes</p> \
-<p>Cheats : No</p> \
-<p>Spectators : Yes (Only the admins will spectate the matches)</p> \
-<p>Radiant Penalty : None</p>\
+</p>","gamesetting":"<p>Version : Tournament</p> <br/>\
+<p>Password : Yes</p> <br/>\
+<p>Cheats : No</p> <br/>\
+<p>Spectators : Yes (Only the admins will spectate the matches)</p> <br/>\
+<p>Radiant Penalty : None</p><br/>\
 <p>Dire Penalty : None<br/>\
-Rules</p>\
-<p>All players are required to have valid steam IDs.</p>\
-<p>Teams must report to the venue at the time informed. If they cannot report within 10mins of allotted time, they will be disqualified. The time will be informed in the contact provided by the team at least 45 minutes in advance.</p>\
-<p>The administrator's decision will be final in case of any dispute.</p>\
-<p>Game will be hosted by Engineer committee using referees.</p>\
-<p>Team members are not allowed to change seats once the DOTA map has started to load.</p>\
-<p>At the end of the match, competitors must maintain the final screenshots and receive the confirmation from the admin.</p>\
-<p>Backdooring is allowed. However instances of teleport abuse are not allowed. You cannot use any form of teleport (furion skill) to enter an enemy base unless your creeps are already present in the base. Example: Furion teleporting into enemy's base without Furion's creeps present.</p>\
-<p>Sharing of items is allowed as long as the game permits.</p>\
-<p>Competitors may pick up items dropped by their opponents.</p>\
-<p>Control Sharing is allowed.</p>\
-<p>Abuse &amp; Exploitation:</p>\
-<p>Trees Trapping: intentionally trapping enemies in trees is not allowed (except Furion's skill).</p>\
-<p>Pause Abuse: From the point after hero selection process is completed, pausing without any valid reason is not allowed.</p>\
-<p>Creep Blocking: Creep blocking (such as using creeps to block the entrance to the base or using fissure, disallowing creeps from moving down the lane completely) is not allowed. Creep slowing (such as moving in front of the creeps in zigzag manner to slow their progress or using fissure) is allowed.</p>\
-<p>Bug Exploitation: Exploitation of any known or newly discovered bug during the match will result in an immediate disqualification of the team. Excuses will not be entertained. Not knowing the bug is not an excuse, competitors are expected to know the current bugs.</p>\
-<p>Definition of Bugs</p>\
-<p>Anything abnormal which will give a competitor / team an unfair advantage.</p>\
-<p>Anything which will cause interruption / fatal error to the game.</p>\
-<p>Penalties</p>\
-<p>Warning: After a warning is given, the game goes on. If these warnings are accumulated by the team during the match, the team will be disqualified from the tournament.</p>\
-<p>Game Loss: A 'Game loss' given to a team means that the team will automatically lose the game, irrelevant of the actual match result.</p>\
-<p>Disqualifications: A team disqualification will lead to the team being removed from the tournament. They will not be allowed to take part in the current event.</p>\
-<p>Game Saves</p>\
-<p>First save will be at either:</p>\
-<p>15 minutes into the game</p>\
-<p>First blood</p>\
-<p>Second save onwards will be every 15 minutes of the game.</p>\
-<p>Saves will be done after any tower/rax are taken down or after a major gank/team-battle at a 'safe' instance decided by the Admins/Referees.</p>\
-<p>Admins/Referees have the right to request for additional game save at any moment during the tournament.</p>\
-<p>Any competitor found to have intentionally disconnected from the game will give that competitor's team a loss for that match.</p>\
-<p>If any competitors are disconnected within 15 minutes after the game start, the game will be restarted with same heroes on same players and same lanes have to be maintained till 1st creepwave clashes.</p>\
-<p>If any competitors are disconnected 15 minutes after the game start, the game will be reloaded from the latest save, if no barracks have been destroyed since last save. If so, the game will continue.</p>\
-<p>In case of game crash, the game will be reloaded from the latest save.</p>\
-<p>No random chats are allowed in all-chat during the game. Request for pause or save can be made by either captain at any point.</p>\
-<p>Pauses are allowed, but there can only be a maximum of two pauses, each 5 minutes, per team. If you cannot agree for longer pauses, the game can be resumed after 5 minutes. Before pausing and un-pausing , you need to inform your enemy about this, so that you don't get any advantage. Pauses must be for genuine reasons only.</p>\
-<p>Players are allowed to remap keys before the game, and not during the course of the game.</p>\
-<p>Any use of hacks like maphack or any software or scripts which gives any unfair advantage is banned and will result in instant disqualification from the tournament.</p>\
-<p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p>\
+Rules</p><br/>\
+<p>All players are required to have valid steam IDs.</p><br/>\
+<p>Teams must report to the venue at the time informed. If they cannot report within 10mins of allotted time, they will be disqualified. The time will be informed in the contact provided by the team at least 45 minutes in advance.</p><br/>\
+<p>The administrator's decision will be final in case of any dispute.</p><br/>\
+<p>Game will be hosted by Engineer committee using referees.</p><br/>\
+<p>Team members are not allowed to change seats once the DOTA map has started to load.</p><br/>\
+<p>At the end of the match, competitors must maintain the final screenshots and receive the confirmation from the admin.</p><br/>\
+<p>Backdooring is allowed. However instances of teleport abuse are not allowed. You cannot use any form of teleport (furion skill) to enter an enemy base unless your creeps are already present in the base. Example: Furion teleporting into enemy's base without Furion's creeps present.</p><br/>\
+<p>Sharing of items is allowed as long as the game permits.</p><br/>\
+<p>Competitors may pick up items dropped by their opponents.</p><br/>\
+<p>Control Sharing is allowed.</p><br/>\
+<p>Abuse &amp; Exploitation:</p><br/>\
+<p>Trees Trapping: intentionally trapping enemies in trees is not allowed (except Furion's skill).</p><br/>\
+<p>Pause Abuse: From the point after hero selection process is completed, pausing without any valid reason is not allowed.</p><br/>\
+<p>Creep Blocking: Creep blocking (such as using creeps to block the entrance to the base or using fissure, disallowing creeps from moving down the lane completely) is not allowed. Creep slowing (such as moving in front of the creeps in zigzag manner to slow their progress or using fissure) is allowed.</p><br/>\
+<p>Bug Exploitation: Exploitation of any known or newly discovered bug during the match will result in an immediate disqualification of the team. Excuses will not be entertained. Not knowing the bug is not an excuse, competitors are expected to know the current bugs.</p><br/>\
+<p>Definition of Bugs</p><br/>\
+<p>Anything abnormal which will give a competitor / team an unfair advantage.</p><br/>\
+<p>Anything which will cause interruption / fatal error to the game.</p><br/>\
+<p>Penalties</p><br/>\
+<p>Warning: After a warning is given, the game goes on. If these warnings are accumulated by the team during the match, the team will be disqualified from the tournament.</p><br/>\
+<p>Game Loss: A 'Game loss' given to a team means that the team will automatically lose the game, irrelevant of the actual match result.</p><br/>\
+<p>Disqualifications: A team disqualification will lead to the team being removed from the tournament. They will not be allowed to take part in the current event.</p><br/>\
+<p>Game Saves</p><br/>\
+<p>First save will be at either:</p><br/>\
+<p>15 minutes into the game</p><br/>\
+<p>First blood</p><br/>\
+<p>Second save onwards will be every 15 minutes of the game.</p><br/>\
+<p>Saves will be done after any tower/rax are taken down or after a major gank/team-battle at a 'safe' instance decided by the Admins/Referees.</p><br/>\
+<p>Admins/Referees have the right to request for additional game save at any moment during the tournament.</p><br/>\
+<p>Any competitor found to have intentionally disconnected from the game will give that competitor's team a loss for that match.</p><br/>\
+<p>If any competitors are disconnected within 15 minutes after the game start, the game will be restarted with same heroes on same players and same lanes have to be maintained till 1st creepwave clashes.</p><br/>\
+<p>If any competitors are disconnected 15 minutes after the game start, the game will be reloaded from the latest save, if no barracks have been destroyed since last save. If so, the game will continue.</p><br/>\
+<p>In case of game crash, the game will be reloaded from the latest save.</p><br/>\
+<p>No random chats are allowed in all-chat during the game. Request for pause or save can be made by either captain at any point.</p><br/>\
+<p>Pauses are allowed, but there can only be a maximum of two pauses, each 5 minutes, per team. If you cannot agree for longer pauses, the game can be resumed after 5 minutes. Before pausing and un-pausing , you need to inform your enemy about this, so that you don't get any advantage. Pauses must be for genuine reasons only.</p><br/>\
+<p>Players are allowed to remap keys before the game, and not during the course of the game.</p><br/>\
+<p>Any use of hacks like maphack or any software or scripts which gives any unfair advantage is banned and will result in instant disqualification from the tournament.</p><br/>\
+<p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p><br/>\
 <p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"},
 
- "Fifa":{"image":"engineer.gif","contact":"contact","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p>\
-&middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p>\
-&middot; There will be no practicing allowed. Participants are only allowed to change the necessary controls and check them.</p>\
-&middot; The total number of rounds will be decided by the participation.</p>\
-&middot; All rounds will follow usual knockout procedure.</p>\
-&middot; In case of a draw, the match is continued with the classic rule.</p>\
-&middot; In case of un-intentional disconnection, the admin will decide on how to proceed. If the game is within half-time and no goals have been scored, the game will be restarted with same teams for a full-time game. If not, the game will be played for the remaining time based on at what time it disconnected with scores being carried over.</p>\
-&middot; If at any time, a player intentionally disconnects/exits the game, he/she will be disqualified. In case of alt-tabbing, the admin will decide whether it was intentional or a mistake and what action must be taken with disqualification being the maximum penalty.</p>\
-&middot; Teams can be either clubs or countries according to the user's will.</p>\
-&middot; The first and second rounds will be classic 4 minute half time matches. The rest will all be 6 minute ones. Final match will be made a best of three.</p>\
+ "Fifa":{"image":"./Icons_Final/fifa.png","contact":"Satish Chandra <br /> 9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p><br/>\
+&middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p><br/>\
+&middot; There will be no practicing allowed. Participants are only allowed to change the necessary controls and check them.</p><br/>\
+&middot; The total number of rounds will be decided by the participation.</p><br/>\
+&middot; All rounds will follow usual knockout procedure.</p><br/>\
+&middot; In case of a draw, the match is continued with the classic rule.</p><br/>\
+&middot; In case of un-intentional disconnection, the admin will decide on how to proceed. If the game is within half-time and no goals have been scored, the game will be restarted with same teams for a full-time game. If not, the game will be played for the remaining time based on at what time it disconnected with scores being carried over.</p><br/>\
+&middot; If at any time, a player intentionally disconnects/exits the game, he/she will be disqualified. In case of alt-tabbing, the admin will decide whether it was intentional or a mistake and what action must be taken with disqualification being the maximum penalty.</p><br/>\
+&middot; Teams can be either clubs or countries according to the user's will.</p><br/>\
+&middot; The first and second rounds will be classic 4 minute half time matches. The rest will all be 6 minute ones. Final match will be made a best of three.</p><br/>\
 &middot; The administrator's decision will be final.</p>/"},
 
 
-"NFS": {"image": "engineer.gif", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br/>\
+"NFS": {"image": "./Icons_Final/nfs.png", "contact": "Satish Chandra <br /> 9740523343", "specifications": "<p>Rs. 60/- per participant.<br/>\
 Registration will be closed after prelims.<br/>\
 Players can choose their cars, customize them and modify them.<br/>\
 At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br/>\
@@ -344,13 +346,13 @@ Technites={
 }
 
 Comps={
-"Inscription":{"image": "engineer.gif","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
+"Inscription":{"image": "./Icons_Final/INSCRIPTION.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
 <b>Teams of 3.</b><br/>"},
 
 "Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b><br/>"},
 
-"Rectify":{"image": "engineer.gif","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
+"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
 you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have\
 a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our\
 codes. This event not only tests the mastery over and familiarity with a programming language but\
@@ -380,7 +382,7 @@ level. This is a quest for the elusive treasure buried beneath billions of web p
 
 }
 Astro={
-"AstroTalk":{"image":"engineer.gif","contact":"Mrinal Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
+"AstroTalk":{"image":"./Icons_Final/astro_talk.png","contact":"Mrinal Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
 designed to inspire and educate.Astronomy committee presents a series of lectures from eminent scholars \
 conducting cutting edge research in their respective domains.We are proud to present the following speakers: \
 Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of Physics, Indian Institute of \
@@ -399,7 +401,7 @@ Come. See. Rejoice."},
 those passionate in astronomy to flaunt their knowledge of the cosmos.\
 Short listed teams would face off in the final round."},
 
-"BeyondEarth":{"image":"engineer.gif","contact":"Mrinal Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
+"BeyondEarth":{"image":"./Icons_Final/Beyond_Earth.png","contact":"Mrinal Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
 their strategy to conquer the universe. \
 This event calls upon participants who are keen to learn about strategy we \
 would have to employ to expand our forces beyond Mother Earth. The \
@@ -459,41 +461,41 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "contact","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
 
-"Product_Design_Challenge":{"image": "engineer.gif","contact": "contact","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
+"Product_Design_Challenge":{"image": "./Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
-"Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "contact","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
+"Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
 <b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
 
-"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "contact","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
-"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "contact","Description":"<b>Introduction:</b><br/><br/>\
+"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya <br/> 9538703009","Description":"<b>Introduction:</b><br/>\
 'My mind,'' he said, 'rebels at stagnation. Give me problems, give me work,<br/>give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>I crave for mental exaltation. That is why I have chosen my own particular profession,<br/>or rather created it, for I am the only one in the world.'<br/> \
-<b>― Arthur Conan Doyle, The Sign of Four</b><br/><br/>\
+<b>― Arthur Conan Doyle, The Sign of Four</b><br/>\
  Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science,<br/> laboratory skills and indulge in the world of basic chemistry. Don the role of a lab<br/> geek, play with the uncanniest concoctions, prepare the fanciest potions and race<br/>against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
 Push the lizard Brain of yours to the maximum!<br/>"},
 
-"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "contact","Description": "<b>Introduction:</b><br/><br/>\
+"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
 Industry Defined Problem is real, applied engineering at its epitome. Aiming to<br/>bridge the gap between theory and practice by challenging engineers to come<br/>up with innovative and creative solutions to crucial real life industrial problems<br/>IDP has been serving as a platform for budding engineers to interact with experts<br/>from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
-Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge<br/>and come up with creative solutions to problems posed by the industry. In this event,<br/>a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue. . The participants are<br/>expected to come up with innovative & economically feasible solutions that can<br/>be assimilated in the company’s process.<br/><br/>\
+Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge<br/>and come up with creative solutions to problems posed by the industry. In this event,<br/>a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue. . The participants are<br/>expected to come up with innovative & economically feasible solutions that can<br/>be assimilated in the company’s process.<br/>\
 The previous editions had us collaborating with the likes of Mangalore Refinery <br/>and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and<br/>other esteemed companies.<br/> \
 So what are you thinking of?<br/>\
 Come, participate and get to interact with and thereby learn from the professionals!<br/>\
 Engineer 2013, the expectations get bigger and the stakes higher!<br/>\
 We will get back to you with further details. Stay updated. <br/>"},
 
-"The_Portal":{"image": "engineer.gif","contact": "contact","Description": "<b>Introduction:</b><br/><br/>\
+"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
 Chemical process simulation software helps broadens an engineer’s capabilities and<br/>increases productivity. It  supercharges an engineer’s \
 efficiency when facing the<br/>toughest chemical process models or addressing day-to-day challenges.\
  They have<br/>potential instructional value for practically all core courses, right from first year<br/>process calculations to final year\
   design project. It integrates all the topics under<br/>one roof making it one of the most powerful tool for a process/chemical engineer.<br/>\
  CHEMCAD is one such simulation software featuring a rich Graphical User Interface (GUI)<br/>allowing the user to \
- understand the behaviour of the chemical systems by using<br/>rigorous models of thermodynamic processes and unit operations.<br/><br/>\
+ understand the behaviour of the chemical systems by using<br/>rigorous models of thermodynamic processes and unit operations.<br/>\
 So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a<br/> hands-on experience with all the technical details and \
 theory involved. No pre-requisites.<br/>\
 This will be followed up by an exciting event based on software.<br/> Hurry up! Limited Seats! Lots of prizes at stake.<br/>"},
@@ -503,7 +505,7 @@ This will be followed up by an exciting event based on software.<br/> Hurry up! 
 Tronix={
 
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
-1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/><br/>\
+1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
  You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
   in this innovative event<br/>and hone your robotic skills.<br/>\
@@ -533,7 +535,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>Judges' decision will be final and binding in all cases.</li>\
 "},
 
-"Automata":{"image": "engineer.gif","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement<br/>\
@@ -581,7 +583,7 @@ A maximum of 4 members per team is allowed. We do not provide computers to the p
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
 "},
 
-"Simplicity":{"image": "engineer.gif","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
 The dates for test run and the main event will be announced shortly<br/>\
 <B>EVENT FORMAT</B><BR/>\
@@ -604,7 +606,7 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "engineer.gif","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
 There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
 <B>EVENT FORMAT<BR/>\
 Round 1</b><br/>\
@@ -634,7 +636,7 @@ The team with the highest amount of virtual money in their account at the end of
 Judges' decision will be final and binding in all cases.<br/>\
 "},
 
-"FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/><br/>\
+"FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
 Foxhunt, is a fun filled package on the lines of a traditional English activity involving<br/>tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,<br/>the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated<br/>anywhere in the campus, using a tunable radio receiver and an antenna built by them,<br/>making the event full of fun and excitement.<br/>\
 <B>EVENT FORMAT</B><BR/>\
 The event will have two phases <br/>\
@@ -662,7 +664,7 @@ Usage of mobile phones or other means of communication between teams during the 
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "engineer.gif","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts. At Engineer 2012,<br/>Symphony gives the participants an opportunity to dabble into the sights<br/>and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,<br/>so that the fountain dances to the tunes of the music. A huge draw every Engineer, Symphony<br/>generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts. At Engineer 2012,<br/>Symphony gives the participants an opportunity to dabble into the sights<br/>and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,<br/>so that the fountain dances to the tunes of the music. A huge draw every Engineer, Symphony<br/>generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
 <B>EVENT FORMAT</B><BR/>\
@@ -691,12 +693,12 @@ At any point of time during the event, the judges can change the rules to mainta
 
 "Waltz":{"image": "./Icons_Final/Waltz.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
 switching walls at the check-lines indicated in the arena diagram", "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
-has to negotiate only ‘L’ shaped 90 degree turns. <br/><br/>\
+has to negotiate only ‘L’ shaped 90 degree turns. <br/>\
 There are two paths that the participant can choose to solve the maze <br/>\
 1. Original path <br/>\
 2. Shortcut path <br/>\
 <br/>\
-The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br/><br/>\
+The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br/>\
 The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.", 
 "Arena": "1. The arena comprises of 15cm high walls in the form of a small maze. The wall will be in\
 white color. <br/>\
@@ -716,7 +718,7 @@ width)<br/>\
 The top view of the wall maze is shown below<br/>\
 <img src='./data/waltz.jpg' />\
 <b>Index: <br/></b>\
-Green arrow- Entrance<br/><br/>\
+Green arrow- Entrance<br/>\
 Orange arrow- Exit for shortcut path<br/>\
 Blue Arrow- Exit for Original path<br/>",
 "Bot Specification and Rules": "<ul><li>The bot should fit in a box of dimensions 18 x 18 x 12 (cm).</li>\
@@ -796,7 +798,7 @@ JUDGEMENT CRITERIA:<br/>\
 &#61607; There will be no negative marking for this round</p>"},
 
 
-"Markenza": {"image": "engineer.gif","contact": "Salman Usman <br/>salman.usman91@gmail.com", "Description":'<table width="677" style="border-collapse:collapse">\
+"Markenza": {"image": "./Icons_Final/MARKENZA.png","contact": "Salman Usman <br/>salman.usman91@gmail.com", "Description":'<table width="677" style="border-collapse:collapse">\
 <tbody><tr valign="top"><td width="67" height="14"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">Sr. No.</span></p></td>\
   <td width="112"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">NAME OF THE ROUND</span></p></td>\
   <td width="148"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">TAGLINE</span></p></td>\
@@ -847,7 +849,7 @@ JUDGEMENT CRITERIA:<br/>\
 
 
 	
-"HR_Event":{"image": "engineer.gif","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<table width="669" style="border-collapse:collapse">\
+"HR_Event":{"image": "./Icons_Final/HR.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<table width="669" style="border-collapse:collapse">\
 <tbody><tr valign="top"><td width="80" height="16"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Rounds</span></p></td>\
   <td width="157"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Name</span></p></td>\
   <td width="263"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Tag Line</span></p></td></tr>\
@@ -892,45 +894,57 @@ profitable path for the company.</span></p>\
 
 Sce={
 
-"The_Last_Word":{"image": "engineer.gif","contact": "contact","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
+"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br /> 9483523498","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
-"Sky_Lanterns":{"image": "engineer.gif","contact": "contact","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "contact","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br /> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
+"Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br /> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
+"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br /> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
 }
 
 Mechanical={
-"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.</p>\
-<p>&bull; The team is not permitted to compete with more than one robot.</p>","eventformat": "<p>&bull; The competition will be played on knock-out basis.</p>\
-<p>&bull; The machine would be checked for its safety during registrations. In case of unsafe </p>\
-<p>robots, the teams will be allowed to modify the robot before the registrations close.</p>\
-<p>&bull; Only one person can control the robot and one person can stay near the arena for </p>\
-<p>monitoring the robot.</p>\
-<p>&bull; In case of a tie, the robots will have to battle for a time duration of 2 minutes.</p>\
-<p>&bull; Each team will have a maximum time period of 20 minutes to repair their robot after </p>\
-<p>each battle round.</p>\
-<p>&bull; The teams should make sure their wires are slack and all the wires coming out of robot </p>\
-<p>need to be tangled together.</p>\
-<p>&bull; The wires coming out of the robot should be placed in such a way that it should be safe </p>\
-<p>from any attacks on the bot and the attack mechanisms provided by the organizers. The </p>\
-<p>organizers will not be held responsible in case of any accidents to the bot because of the </p>\
-<p>attack mechanism provided.</p>\
-<p>&bull; The organizers reserve the right to change any or all of the above rules or add any rules </p>\
-<p>as they deem fit.</p>\
-<p>&bull; Violation of any the above rules will lead to disqualification.</p>\
+"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.<br/>\
+<p>&bull; The team is not permitted to compete with more than one robot.</p>","eventformat": "<p>&bull; The competition will be played on knock-out basis.<br/>\
+<p>&bull; The machine would be checked for its safety during registrations. In case of unsafe <br/>\
+<p>robots, the teams will be allowed to modify the robot before the registrations close.<br/>\
+<p>&bull; Only one person can control the robot and one person can stay near the arena for <br/>\
+<p>monitoring the robot.<br/>\
+<p>&bull; In case of a tie, the robots will have to battle for a time duration of 2 minutes.<br/>\
+<p>&bull; Each team will have a maximum time period of 20 minutes to repair their robot after <br/>\
+<p>each battle round.<br/>\
+<p>&bull; The teams should make sure their wires are slack and all the wires coming out of robot <br/>\
+<p>need to be tangled together.<br/>\
+<p>&bull; The wires coming out of the robot should be placed in such a way that it should be safe <br/>\
+<p>from any attacks on the bot and the attack mechanisms provided by the organizers. The <br/>\
+<p>organizers will not be held responsible in case of any accidents to the bot because of the <br/>\
+<p>attack mechanism provided.<br/>\
+<p>&bull; The organizers reserve the right to change any or all of the above rules or add any rules <br/>\
+<p>as they deem fit.<br/>\
+<p>&bull; Violation of any the above rules will lead to disqualification.<br/>\
 <p>&bull; Judges' decision shall be treated as final and binding on all. </p><p><a href='data/GENERALRULES.pdf'>Download</a></p>"},
 
 
 "PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; The students must carry valid student ID cards of their college which they will be required to \
-produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.</p><p>&bull; The team is not permitted to compete with more than one bot.</p><p>&bull; Teams will not be allowed to modify their bots during their trial.</p>","eventformat":"<p>&bull; Each round will be of a maximum of 15 min duration.</p><p>&bull; Fig 1 portrays the arena </p><p>&bull; Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular </p><p>container and throw them into the hoops kept at different heights </p><p>&bull; In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.</p><p>&bull; Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 </p><p>will be at the height of 25cm from the arena. </p><p>&bull; A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is </p><p>required to climb over this bridge and throw the objects in hoop 3.</p><p>&bull; Each bot will be given only one round in which they need to complete the task.</p><p>&bull; If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 </p><p>seconds) or toppled over, those teams cannot ask for restore.</p><p>&bull; The organizers reserve the right to change any or all of the above rules as they deem fit.</p><p>&bull; Violation of any the above rules will lead to disqualification.</p>\
+produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.</p><p>&bull; The team is not permitted to compete with more than one bot.</p><p>&bull; Teams will not be allowed to modify their bots during their trial.</p>","eventformat":"<p>&bull; Each round will be of a maximum of 15 min duration.</p><p>&bull; Fig 1 portrays the arena </p><p>&bull; Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular </p><p>container and throw them into the hoops kept at different heights </p><p>&bull; In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.</p><p>&bull; Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 </p><p>will be at the height of 25cm from the arena. </p><p>&bull; A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is </p><p>required to climb over this bridge and throw the objects in hoop 3.</p><p>&bull; Each bot will be given only one round in which they need to complete the task.</p><p>&bull; If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 </p><p>seconds) or toppled over, those teams cannot ask for restore.</p><p>&bull; The organizers reserve the right to change any or all of the above rules as they deem fit.</p><p>&bull; Violation of any the above rules will lead to disqualification.<br/>\
 <p>&bull; Judges' decision shall be treated as final and binding on all.</p><p><a href='data/perfectmachineprob.pdf'>Download</a></p>"},
 
-"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. </p>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the </p>\
+"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. <br/>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the <br/>\
 <p>organizing committee won&rsquo;t be providing any.</p><p><a href='wrightflight.pdf'>Download</a></p>"},
 
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.</p>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make </p>\
-<p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"}
+"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.<br/>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make <br/>\
+<p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"},
+
+"Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>koodlyakashay@gmail.com", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": "ÿ The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
+A team may comprise a maximum of FIVE participants.<br/>\
+The team is not permitted to compete with more than one car.<br/>\
+Teams will not be allowed to modify their car during their trial.", "Event Format": "The event will have 6 rounds:\
+<br/>\
+<b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
+to the specified rules. There will be no points from this round. However, if the vehicle \
+doesn’t conform to all the rules, it will be immediately disqualified.<br/> <b>Maneuverability Test</b>: Each car will have to maneuver a set of obstacles and points will be awarded based on time taken to complete the course.<br/><b>Acceleration Test</b>: Each car will have to accelerate a certain distance and points will be awarded based on the time taken to complete the stretch.<br/><b>Quarter-Finals</b>: 8 quarter-Finalists will be decided based on their aggregate points obtained in the abstract submission, acceleration test and maneuverability test. 4 groups of 2 cars each will race and the first car proceeds to the next round.<br/><b>Semi-Finals</b>: 4 semi-finalists will be divided into 2 groups and race-off for the 2 spots in the finals. <br/><b>Final</b>: This round requires the final 2 cars to race through a track with acute curvesand obstructions with the cars able pit stops for refueling and repairs. The endurance of the car will be tested. <br/><a href='./data/velocity.pdf'>Event Rule</a> \
+"}
+
+
 }
 
 
@@ -938,7 +952,7 @@ produce at the time of registration.</p><p>&bull; A team may comprise a maximum 
 
 Mining={
 "Mine_Rush":{"image": "./Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments."},
-"Adverse_Mining_Problem":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
+"Adverse_Mining_Problem":{"image": "./Icons_Final/adverse_mining.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
 "Mine_Quest":{"image": "./Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br/>\
 <h3>round 1 : preliminary</h3>\
 All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br/>\
@@ -948,9 +962,9 @@ The top six teams will be qualified for this round. in this round multi-discipli
 This is a visual round in which the participants will be shown various pictures which may/ may not contain a flaw and are identified to detect and correct the flaw if present. they will also be given incomplete diagrams and are asked to complete them.<br/>\
 <h3>round 4 : grand-finale</h3>\
 The ultimate round which decides the winner of the event where their performance is continuously evaluated. this round is a combination of auction round, buzzer round, challenge round, and rapid fire round."},
-"Innovating_Mining":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
-"Blast_Mine_Ventilation":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
-"Hang-Man":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
+"Innovating_Mining":{"image": "./Icons_Final/mining_innovation.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
+"Blast_Mine_Ventilation":{"image": "./Icons_Final/blast_mine_ventilation.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
+"Hang-Man":{"image": "./Icons_Final/HANGMAN_MAIN.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
 }
 
 
