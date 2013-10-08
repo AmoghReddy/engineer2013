@@ -154,7 +154,7 @@ function system()
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },function(){ quickNavToggle(true); });
 	$(".dropdown input").click(function(e){e.stopPropagation();});
 	container = document.getElementById("container");
-	makeSomeBlocks();
+	//makeSomeBlocks(); //Do not call this (not needed any more)
 	start();
 	keybind();
 	router();

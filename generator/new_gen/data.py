@@ -22,7 +22,27 @@ comitteeLogos={
 
 #each comittee
 General = {
-	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."},
+	"Blue_Print":{"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
+Blueprint, the paper presentation contest held as part of Engineer attracts some of the best minds from all over the country. Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering.<br/>\
+<b>GENERAL RULES</b><br/>\
+• Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. \
+• The submissions should be original work by the authors and any hint of plagiarism will lead to instant disqualification.<br/>\
+• Authors are not permitted to submit papers that have already been accepted for publication/presentation in any other conferences or journals. Also, authors may not submit work that is under review in journals/conferences. \
+• Authors cannot submit the same paper in more than one of the fields. Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
+• All paper-abstracts will undergo a blind-review process. This means that the authors are not to reveal their identity in ANY form in the abstracts. Authors are only required to mention their names and details in the appropriate section while uploading the abstract. Any attempt to reveal the author’s identity in the submitted abstract will lead to disqualification. \
+• If the abstract is selected, then at least one of the authors has to be present for the final presentation. <br/>\
+<b>ABSTRACT SUBMISSION RULES AND PROCEDURE</b><br/>\
+• Authors will need to submit a single page abstract for the initial selections. \
+• There is no specific format for the abstract. \
+• Mention the title of the paper and DO NOT mention the authors name or author-affiliations. <br/>\
+• The abstract should not exceed 500 words in length and can include tables, figures or other data that the authors feel will improve the chances of their paper being selected. (The word limit is exclusive of the references and the title).\
+• Abstracts which do not comply with the above mentioned rules will be disqualified. <br/>\
+<b>TEAMS OF 4</b><br/>\
+<b>IMPORTANT DATES </b><br/>\
+14th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
+19th Oct – Declaration of Selected papers <br/>\
+24th -27th Oct – Presentation of papers<br/>"}
 }
 
 
@@ -95,7 +115,7 @@ Niveditha.J<br/>\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
-Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"Satish Chandra <br /> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
+Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"Satish Chandra <br/> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
 The administrator's decision will be final in case of any dispute.<br/>\
 Team members are not allowed to change seats once the aoe map has started to load.<br/>\
 Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. <br/>\
@@ -127,7 +147,7 @@ Record Game : [X] Yes<br/>\
 3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs<br/>\
 "},
 
-"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"Satish Chandra <br /> 9740523343","specifications":"	Game Version: Counter-Strike 1.6  <br/>\
+"CounterStrike":{"image":"./Icons_Final/COUNTERSTRIKE.png","contact":"Satish Chandra <br/> 9740523343","specifications":"	Game Version: Counter-Strike 1.6  <br/>\
          Registration Fees: Rs. 300/- per team<br/>\
         	General <br/>\
 Competition Method : 5 vs. 5 (Team Play, 5 players per team) <br/>\
@@ -237,7 +257,7 @@ If a player does not agree to any rules, he/she can express his/her protest to a
 be made at the sole discretion of the referee. <br/>\
 If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},
 
-"dota":{"image":"Icons_Final/dOTA.png","contact":"Satish Chandra <br /> 9740523343","specifications":"<p>Competition format: 5v5 Teams</p>\
+"dota":{"image":"Icons_Final/dOTA.png","contact":"Satish Chandra <br/> 9740523343","specifications":"<p>Competition format: 5v5 Teams</p>\
 <p>Match format: Single elimination i.e,Knockout</p><br/>\
 <p>Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.</p><br/>\
 <p>Finals will be 'Best of 3 games' and all other rounds will be single game only.<br/>\
@@ -288,7 +308,7 @@ Rules</p><br/>\
 <p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p><br/>\
 <p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"},
 
- "Fifa":{"image":"./Icons_Final/fifa.png","contact":"Satish Chandra <br /> 9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p><br/>\
+ "Fifa":{"image":"./Icons_Final/fifa.png","contact":"Satish Chandra <br/> 9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p><br/>\
 &middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p><br/>\
 &middot; There will be no practicing allowed. Participants are only allowed to change the necessary controls and check them.</p><br/>\
 &middot; The total number of rounds will be decided by the participation.</p><br/>\
@@ -301,7 +321,7 @@ Rules</p><br/>\
 &middot; The administrator's decision will be final.</p>/"},
 
 
-"NFS": {"image": "./Icons_Final/nfs.png", "contact": "Satish Chandra <br /> 9740523343", "specifications": "<p>Rs. 60/- per participant.<br/>\
+"NFS": {"image": "./Icons_Final/nfs.png", "contact": "Satish Chandra <br/> 9740523343", "specifications": "<p>Rs. 60/- per participant.<br/>\
 Registration will be closed after prelims.<br/>\
 Players can choose their cars, customize them and modify them.<br/>\
 At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br/>\
@@ -461,16 +481,16 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
 
-"Product_Design_Challenge":{"image": "./Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
+"Product_Design_Challenge":{"image": "./Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
-"Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
+"Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
 <b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
 
-"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br /> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
@@ -894,12 +914,12 @@ profitable path for the company.</span></p>\
 
 Sce={
 
-"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br /> 9483523498","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
+"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br /> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
-"Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br /> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br /> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
+"Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
+"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
 }
 
 Mechanical={
