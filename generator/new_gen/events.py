@@ -3,6 +3,7 @@ import math
 import random
 from  data import *
 num=0
+description = 0
 eve_id=1
 
 def get_num():
@@ -52,8 +53,12 @@ def event_description(event,i):
 		# if tab_type.index(j) > 1:
 		if (j != "image" and j != "contact"):
 			print '<span id = "tabs'+event+"_"+j+'">'
-			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;border-radius: 25px;'>"	
-			print events[i][event][j].replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;border-radius: 25px;" >')
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"	
+			description = events[i][event][j].replace('<p>',' ')
+			description = description.replace('</p>','<br/>')
+			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;" >')
+			print description
+			# print 
 			print '</span>'
 			print '</span>'
 	print '</span>'
