@@ -549,7 +549,7 @@ function getPage(pageName, tabName)
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
 	var input = document.getElementById("share_url");
-	console.log(input.value);
+	// console.log(input.value);
 	var str = input.value.split("#")[1];
 	if (str == "homePage")
 		history.pushState(null, null, " ");

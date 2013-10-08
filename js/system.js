@@ -150,6 +150,7 @@ function system()
 	$(".loading").hide();
 	// in 3script.js
 	$(".logo").click(function(){getPage("homePage");});
+	$(".close").click();
 	$(".quickNav button").hide(0);
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },function(){ quickNavToggle(true); });
 	$(".dropdown input").click(function(e){e.stopPropagation();});
