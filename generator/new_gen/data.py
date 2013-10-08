@@ -4,7 +4,7 @@ comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
 "Technites":"./Icons_Final/technites.png",
 "TechSpeak":"./Icons_Final/techspeak.png",
-"Meta":"./Icons_Final/Metamain.png",
+"Materials":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
 "Chem":"./Icons_Final/chemmain.png",
 "Tronix":"./Icons_Final/tronix.png",
@@ -22,12 +22,12 @@ comitteeLogos={
 
 #each comittee
 General = {
-	"Simplineer": {"image": "engineer.gif","contact": "Saurabh Verma (9742091940)<br>/Sumit Bansal (9663358730)","Description": "• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.• It is a team event• Teams of 3-4(from any branch or from same branch)• Event will consist of two stages• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. • Only one member from the team should register for the event.• Last date for registration 13th• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. • Results will be declared on 20th October and teams will be informed.", "Proceedings": "• Concept will be taught to the selected teams and then teams will be tested in that area.• Top 10 teams are to be shortlisted for the event.• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech. • Venues: CCC is confirmed for 24thEC lab on 24th1 room in main building on 25th Results will be announce on 25th 2-5 pm for EC event. (9:00 am to 12:00 pm.) for CS event. (2-5pm). after the event."}
+	"Simplineer": {"image": "engineer.gif","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
 }
 
 
 Workshops={
-	"Ethical_Hacking_by_TechDefence": {"image": "./Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br />As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
+	"Ethical_Hacking_by_TechDefence": {"image": "./Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
 
 	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Description": "<p>Registration Fee:  Rs 1200/ person</p>"},
 
@@ -50,30 +50,30 @@ Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the compl
 
 Civil = {
 	
-	"COLOSSUS": {"image": "./Icons_Final/Colossus.png","contact": "Mohan Krishna.T<br />\
-+917411918682<br />\
-krishnamohan651@gmail.com<br />\
-Sushil Kumar<br />\
-+918867345233<br />\
-sushil199124@gmail.com<br />","Description": "Guess, what is the first thought when it comes to Civil Engineering? Yes, it \
+	"COLOSSUS": {"image": "./Icons_Final/Colossus.png","contact": "Mohan Krishna.T<br/>\
++917411918682<br/>\
+krishnamohan651@gmail.com<br/>\
+Sushil Kumar<br/>\
++918867345233<br/>\
+sushil199124@gmail.com<br/>","Description": "Guess, what is the first thought when it comes to Civil Engineering? Yes, it \
 is Structures, the spotlight of Colossus. The basis of a good structure lies in the \
 mix of innovation, analysis, and the determination to create an identity. This \
 edition of ENGINEER offers a hands-on experience in building an innovative \
 structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statement</a> "},
 
-	"FantastiCity": {"image": "./Icons_Final/fantasticity2.png","contact": "B.THEJA<br />\
-+919480435585<br />\
-bnmtheja@gmail.com<br />\
-Sushil Kumar<br />\
-+918867345233<br />\
-sushil199124@gmail.com<br />", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternative for military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
+	"FantastiCity": {"image": "./Icons_Final/fantasticity2.png","contact": "B.THEJA<br/>\
++919480435585<br/>\
+bnmtheja@gmail.com<br/>\
+Sushil Kumar<br/>\
++918867345233<br/>\
+sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternative for military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
 
-	"Architect": {"image": "./Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br />\
-+917411918682<br />\
-krishnamohan651@gmail.com<br />\
-Sushil Kumar<br />\
-+918867345233<br />\
-sushil199124@gmail.com<br />\
+	"Architect": {"image": "./Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br/>\
++917411918682<br/>\
+krishnamohan651@gmail.com<br/>\
+Sushil Kumar<br/>\
++918867345233<br/>\
+sushil199124@gmail.com<br/>\
 ","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members.\
 o All members of the team should be enrolled as students in an educational institute.\
 o No person can be a part of more than one team."},
@@ -87,11 +87,11 @@ Padmini M <br/>\
 pm27178@gmail.com","Description":"With a combination of mind boggling questions, core concepts and some really exciting rounds, MindBend is definitely a test of your intellect! Time to prove yourself...!", "format": "The quiz will be an amalgamation of visual rounds and written tests, full of \
 interesting and intriguing questions.", "eligibility": "The team can include a maximum of two members. All members of the team should be enrolled as students in an educational institute. No person can be a part of more than one team."},
 	
-"Nirvahana": {"image": "./Icons_Final/Nirvana.png", "contact": "Mohan Krishna.T<br />\
-+917411918682<br />\
-krishnamohan651@gmail.com<br />\
-Niveditha.J<br />\
-+917795543699<br />\
+"Nirvahana": {"image": "./Icons_Final/Nirvana.png", "contact": "Mohan Krishna.T<br/>\
++917411918682<br/>\
+krishnamohan651@gmail.com<br/>\
+Niveditha.J<br/>\
++917795543699<br/>\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
@@ -166,85 +166,85 @@ Default skins must be used. \
 Any other use of map or program bugs can result in a warning at the minimum or loss by default for the offending team after deliberation and decision by the board of referees at its sole discretion. \
 Using Automatic sniper rifles (Kreig 550 commando & D3/AU1) is not allowed. It may lead to disqualification of team.\
 ","serversettings":" <p>\
- &#159; mp_autokick 0 mp_autocrosshair 0 <br />\
- &#159; mp_autoteambalance 0 mp_buytime 0.25 <br />\
- &#159; mp_consistency 1 mp_c4timer 35 <br />\
- &#159; mp_fadetoblack 1 mp_flashlight 1 <br />\
- &#159; mp_forcechasecam 2 mp_forcecamera 2 <br />\
- &#159; mp_footsteps 1 mp_freezetime 15 <br />\
- &#159; mp_friendlyfire 1 mp_hostagepenalty 0 <br />\
- &#159; mp_limitteams 10 mp_logecho 1 <br />\
- &#159; mp_logdetail 3 mp_logfile 1 <br />\
- &#159; mp_logmessages 1 mp_maxrounds 0 <br />\
- &#159; mp_playerid 0 mp_roundtime 1.75 <br />\
- &#159; mp_timelimit 0 mp_tkpunish 0 <br />\
- &#159; sv_aim 0 sv_airaccelerate 10 <br />\
- &#159; sv_airmove 1 sv_allowdownload 0 <br />\
- &#159; sv_allowupload 0 sv_alltalk 0 <br />\
- &#159; sv_cheats 0 sv_clienttrace 1 <br />\
- &#159; sv_clipmode 0 sv_friction 4 <br />\
- &#159; sv_gravity 800 sv_lan_rate 25000 <br />\
- &#159; sv_maxrate 25000 sv_maxspeed 320 <br />\
- &#159; sv_maxunlag 0.5 sv_maxupdaterate 101 <br />\
- &#159; sv_minupdaterate 101 sv_minrate 25000 <br />\
- &#159; sv_proxies 1 sv_send_logos 1 <br />\
- &#159; sv_send_resources 1 sv_stepsize 18 <br />\
- &#159; sv_stopspeed 75 sv_unlag 1 <br />\
- &#159; sv_voiceenable 1 sv_unlagsamples 1 <br />\
- &#159; sv_unlagpush 0 sys_ticrate 10000 <br />\
- &#159; allow_spectators 1 decalfrequency 60 <br />\
- &#159; edgefriction 2 host_framerate 0 <br />\
- &#159; log on pausable 0 <br />\
-q Allowed Setting Values for Client <br />\
-cl_updaterate 101 cl_cmdrate 101 <br />\
-rate 25000 m_filter 1/0 <br />\
-hud_fastswitch 1/0 zoom_sensitivity_ratio <br />\
-fps_max 101 cl_dynamiccrosshair 1/0 <br />\
-gamma 1/3 brightness 1/3 <br />\
-cl_minmodels 1/0 cl_shadows 1/0 <br />\
-q Following Client Settings May Not Be Changed (Must use the default values) <br />\
-cl_weather mp_corpse_stay <br />\
-mp_decals max_shells <br />\
-max_smokepuffs fastsprites <br />\
-ex_interp 0.01 for LAN <br />\
+ &#159; mp_autokick 0 mp_autocrosshair 0 <br/>\
+ &#159; mp_autoteambalance 0 mp_buytime 0.25 <br/>\
+ &#159; mp_consistency 1 mp_c4timer 35 <br/>\
+ &#159; mp_fadetoblack 1 mp_flashlight 1 <br/>\
+ &#159; mp_forcechasecam 2 mp_forcecamera 2 <br/>\
+ &#159; mp_footsteps 1 mp_freezetime 15 <br/>\
+ &#159; mp_friendlyfire 1 mp_hostagepenalty 0 <br/>\
+ &#159; mp_limitteams 10 mp_logecho 1 <br/>\
+ &#159; mp_logdetail 3 mp_logfile 1 <br/>\
+ &#159; mp_logmessages 1 mp_maxrounds 0 <br/>\
+ &#159; mp_playerid 0 mp_roundtime 1.75 <br/>\
+ &#159; mp_timelimit 0 mp_tkpunish 0 <br/>\
+ &#159; sv_aim 0 sv_airaccelerate 10 <br/>\
+ &#159; sv_airmove 1 sv_allowdownload 0 <br/>\
+ &#159; sv_allowupload 0 sv_alltalk 0 <br/>\
+ &#159; sv_cheats 0 sv_clienttrace 1 <br/>\
+ &#159; sv_clipmode 0 sv_friction 4 <br/>\
+ &#159; sv_gravity 800 sv_lan_rate 25000 <br/>\
+ &#159; sv_maxrate 25000 sv_maxspeed 320 <br/>\
+ &#159; sv_maxunlag 0.5 sv_maxupdaterate 101 <br/>\
+ &#159; sv_minupdaterate 101 sv_minrate 25000 <br/>\
+ &#159; sv_proxies 1 sv_send_logos 1 <br/>\
+ &#159; sv_send_resources 1 sv_stepsize 18 <br/>\
+ &#159; sv_stopspeed 75 sv_unlag 1 <br/>\
+ &#159; sv_voiceenable 1 sv_unlagsamples 1 <br/>\
+ &#159; sv_unlagpush 0 sys_ticrate 10000 <br/>\
+ &#159; allow_spectators 1 decalfrequency 60 <br/>\
+ &#159; edgefriction 2 host_framerate 0 <br/>\
+ &#159; log on pausable 0 <br/>\
+q Allowed Setting Values for Client <br/>\
+cl_updaterate 101 cl_cmdrate 101 <br/>\
+rate 25000 m_filter 1/0 <br/>\
+hud_fastswitch 1/0 zoom_sensitivity_ratio <br/>\
+fps_max 101 cl_dynamiccrosshair 1/0 <br/>\
+gamma 1/3 brightness 1/3 <br/>\
+cl_minmodels 1/0 cl_shadows 1/0 <br/>\
+q Following Client Settings May Not Be Changed (Must use the default values) <br/>\
+cl_weather mp_corpse_stay <br/>\
+mp_decals max_shells <br/>\
+max_smokepuffs fastsprites <br/>\
+ex_interp 0.01 for LAN <br/>\
 </p>\
-","penalties":"<p>In case of use of any unfair practices listed below, the offending team will be a given a warning at the minimum or loss by default at the referee&rsquo;s sole discretion. <br />\
-Team members may communicate verbally if they are alive in the match or when all team members are dead. <br />\
-The player is deemed dead when the screen is completely faded to black. If a bug occurs and the screen doesn&rsquo;t fade to black, the player is deemed dead three seconds after he/she has fallen.<br />\
-Boosting (stepping on top of own team player) is allowed in play. <br />\
-Binding Duck to scroll wheel is not allowed. <br />\
-C4 must be installed at a viewable location. Installing C4 at a location where a boost is required is allowed. <br />\
-Silent C4 installation is considered bug play. Such an offense may result in a warning or loss of all remaining TR rounds at the sole discretion of the board of referees. <br />\
-Throwing grenades over buildings in all maps are allowed. <br />\
-Any use of the flash bang bug will result in a &lsquo;-3&rsquo; round score for the offending team. If the use of the bug is decided as unintentional, the game continues as normal. If the use of the bug is decided as intentional, the offending team will be a given a warning at the minimum or loss by default. <br />\
-Use of personal model/skins (includes weapon skins) is not allowed.<br />\
-Use of personal map texture is not allowed.<br />\
-All cheat programs, Use of map bugs, defuse bugs etc. in play (e.g. map swimming, auto aim, knife defuse, magnum defuse etc.) is not allowed.<br />\
-Use of unfair but available scripts (e.g. silentrun, attack+use, centerview script, norecoil script, etc.) is not allowed<br />\
-The server master can and will check for the use of any unfair practice or script, even those not listed above, during each match.<br />\
-If referee decides that external conditions (Press, Team Leader, Player, Spectator, etc) give unfair advantage to a player, the team may be given a warning or lose by default at the referee&rsquo;s sole discretion. <br />\
-If a problem occurs with flash bang bug, the referee reviews the demo file and the offending team loses the round. The match continues normally. <br />\
-HLTV Proxy may join the game servers for Tournament Broadcast.<br />\
-To test for HLTV flash bugs, players must follow the directions of the server master and/or the referees. <br />\
-q If disconnection occurs during a match <br />\
-If all the players cannot play due to an unintended, unforeseen accident such as server stoppage, <br />\
-Before the 3rd round starts: restart the match <br />\
-After the 3rd round starts: Disconnected player must re-connect to the server. The round is continued unpausing, and if the disconnected player cannot connect to the server, all players must wait during the freeze time after the round until the disconnected player connects to the server. At this time, the match may continue by unpausing. (Not a restart) <br />\
-If up to 3 of all players are unintentionally disconnected: The score for that round is discarded. The game is paused after the round during the freeze time, and all players wait until the disconnected players are connected to the server. When all players are connected, the match may continue by unpausing the game. <br />\
-In the case of intentional disconnection, the referee may decide to end the match with the offending team losing by forfeit. <br />\
-Protests can only be filed by the team leader (e.g. a player that represents the team) <br />\
-If a player does not agree to any rules, he/she can express his/her protest to a referee before the completion of a match. Any intentional refusal to connect to the match server can result in a default loss for that team with the decision to <br />\
-be made at the sole discretion of the referee. <br />\
+","penalties":"<p>In case of use of any unfair practices listed below, the offending team will be a given a warning at the minimum or loss by default at the referee&rsquo;s sole discretion. <br/>\
+Team members may communicate verbally if they are alive in the match or when all team members are dead. <br/>\
+The player is deemed dead when the screen is completely faded to black. If a bug occurs and the screen doesn&rsquo;t fade to black, the player is deemed dead three seconds after he/she has fallen.<br/>\
+Boosting (stepping on top of own team player) is allowed in play. <br/>\
+Binding Duck to scroll wheel is not allowed. <br/>\
+C4 must be installed at a viewable location. Installing C4 at a location where a boost is required is allowed. <br/>\
+Silent C4 installation is considered bug play. Such an offense may result in a warning or loss of all remaining TR rounds at the sole discretion of the board of referees. <br/>\
+Throwing grenades over buildings in all maps are allowed. <br/>\
+Any use of the flash bang bug will result in a &lsquo;-3&rsquo; round score for the offending team. If the use of the bug is decided as unintentional, the game continues as normal. If the use of the bug is decided as intentional, the offending team will be a given a warning at the minimum or loss by default. <br/>\
+Use of personal model/skins (includes weapon skins) is not allowed.<br/>\
+Use of personal map texture is not allowed.<br/>\
+All cheat programs, Use of map bugs, defuse bugs etc. in play (e.g. map swimming, auto aim, knife defuse, magnum defuse etc.) is not allowed.<br/>\
+Use of unfair but available scripts (e.g. silentrun, attack+use, centerview script, norecoil script, etc.) is not allowed<br/>\
+The server master can and will check for the use of any unfair practice or script, even those not listed above, during each match.<br/>\
+If referee decides that external conditions (Press, Team Leader, Player, Spectator, etc) give unfair advantage to a player, the team may be given a warning or lose by default at the referee&rsquo;s sole discretion. <br/>\
+If a problem occurs with flash bang bug, the referee reviews the demo file and the offending team loses the round. The match continues normally. <br/>\
+HLTV Proxy may join the game servers for Tournament Broadcast.<br/>\
+To test for HLTV flash bugs, players must follow the directions of the server master and/or the referees. <br/>\
+q If disconnection occurs during a match <br/>\
+If all the players cannot play due to an unintended, unforeseen accident such as server stoppage, <br/>\
+Before the 3rd round starts: restart the match <br/>\
+After the 3rd round starts: Disconnected player must re-connect to the server. The round is continued unpausing, and if the disconnected player cannot connect to the server, all players must wait during the freeze time after the round until the disconnected player connects to the server. At this time, the match may continue by unpausing. (Not a restart) <br/>\
+If up to 3 of all players are unintentionally disconnected: The score for that round is discarded. The game is paused after the round during the freeze time, and all players wait until the disconnected players are connected to the server. When all players are connected, the match may continue by unpausing the game. <br/>\
+In the case of intentional disconnection, the referee may decide to end the match with the offending team losing by forfeit. <br/>\
+Protests can only be filed by the team leader (e.g. a player that represents the team) <br/>\
+If a player does not agree to any rules, he/she can express his/her protest to a referee before the completion of a match. Any intentional refusal to connect to the match server can result in a default loss for that team with the decision to <br/>\
+be made at the sole discretion of the referee. <br/>\
 If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},"dota":{"image":"Icons_Final/dOTA.png","contact":"contact","specifications":"<p>Competition format: 5v5 Teams</p>\
 <p>Match format: Single elimination i.e,Knockout</p>\
 <p>Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.</p>\
-<p>Finals will be 'Best of 3 games' and all other rounds will be single game only.<br />\
+<p>Finals will be 'Best of 3 games' and all other rounds will be single game only.<br/>\
 </p>","gamesetting":"<p>Version : Tournament</p> \
 <p>Password : Yes</p> \
 <p>Cheats : No</p> \
 <p>Spectators : Yes (Only the admins will spectate the matches)</p> \
 <p>Radiant Penalty : None</p>\
-<p>Dire Penalty : None<br />\
+<p>Dire Penalty : None<br/>\
 Rules</p>\
 <p>All players are required to have valid steam IDs.</p>\
 <p>Teams must report to the venue at the time informed. If they cannot report within 10mins of allotted time, they will be disqualified. The time will be informed in the contact provided by the team at least 45 minutes in advance.</p>\
@@ -299,102 +299,88 @@ Rules</p>\
 &middot; The administrator's decision will be final.</p>/"},
 
 
-"NFS": {"image": "engineer.gif", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br />\
-Registration will be closed after prelims.<br />\
-Players can choose their cars, customize them and modify them.<br />\
-At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br />\
-Any participant failing to complete the race will be disqualified.<br />\
-Game Type: Sprint<br />\
-Courses: Courses will be given at random and will be given on the spot. ( Players will be informed before the tournament of any such modifications)<br />\
-Participants are not allowed to use their own profiles.<br />\
-Players will be given 2 minutes to setup the car and its performance before the game.<br />\
-Race Mode Options:<br />\
-a. Track Direction : Forward/Backward<br />\
-b. N20 : On<br />\
-c. Collision Detection : Off<br />\
-d. Performance Matching : On<br />\
-Use of any cheat program is not allowed. Use of Carrera GT and BMW GTR is allowed only in the finals. Use of any settings exceeding standard and permitted settings is not allowed.<br />\
-Any disconnection of the connection between matches players due to System, Network, PC, and/or Power problems/issues results into a restart of match. If any player does not agree to a match restart, that player will lose by default.<br />\
-Intentional disconnection will not be tolerated. Upon judgment by the referee, any offending player will be charged with a loss by forfeit.<br />"}
+"NFS": {"image": "engineer.gif", "contact": "contact", "specifications": "<p>Rs. 60/- per participant.<br/>\
+Registration will be closed after prelims.<br/>\
+Players can choose their cars, customize them and modify them.<br/>\
+At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br/>\
+Any participant failing to complete the race will be disqualified.<br/>\
+Game Type: Sprint<br/>\
+Courses: Courses will be given at random and will be given on the spot. ( Players will be informed before the tournament of any such modifications)<br/>\
+Participants are not allowed to use their own profiles.<br/>\
+Players will be given 2 minutes to setup the car and its performance before the game.<br/>\
+Race Mode Options:<br/>\
+a. Track Direction : Forward/Backward<br/>\
+b. N20 : On<br/>\
+c. Collision Detection : Off<br/>\
+d. Performance Matching : On<br/>\
+Use of any cheat program is not allowed. Use of Carrera GT and BMW GTR is allowed only in the finals. Use of any settings exceeding standard and permitted settings is not allowed.<br/>\
+Any disconnection of the connection between matches players due to System, Network, PC, and/or Power problems/issues results into a restart of match. If any player does not agree to a match restart, that player will lose by default.<br/>\
+Intentional disconnection will not be tolerated. Upon judgment by the referee, any offending player will be charged with a loss by forfeit.<br/>"}
 }
 
 
 
 Technites={
-"Megapixel": {"image": "./Icons_Final/megapixel.png","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
-"Blitzkrieg": {"image": "./Icons_Final/blitzkrieg.png","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
-"Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
-"Agent_Dash": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. "},
-"Labyrinth": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. "},
-"Pin_Ball": {"image": "./Icons_Final/Pinball.png","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. "},
-"Temple_Run": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Temple Run, an adventurous game in which the character runs in a jungle avoiding all obstacles. The character is also being chased by a demon & has to avoid being caught. We are implementing the game virtually using Kinect. If you want to experience a real thrilling chase you gotta check this out. "},
-"Contraption": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "In the year 2011, Contraption was implemented on a structure that depicted the Engineer logo. In 2012, a mechanical clock was made. This year we bring it back bigger than ever."},
-"Strongman": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Strongman is an exhibitor of strength and this game is everyone’s chance at that. It consists of a tower of LEDs, lit according to how hard the player manages to whack a given spot with a hammer. As opposed to the ones used in funfair and carnivals, this game uses pressure sensors to determine the force of the blow. When all the LEDs are lit, the player wins. The game mechanics involves controlling the number of rows of LEDs lit according to the sensor measurements. "},
-"Shadow_LED": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Shadow LED is an LED panel that shows one’s shadow. When the person stands in front of it, the LEDs light up to display his/her shadow. Swing your arms, move about, walk away and it does exactly that. This event involves image processing and controlling LED arrays. "},
-"Waterfall": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. "},
-"Decagon": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. "},
-"Liquid_Light": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Liquid Light is made up of an RGB LED screen. It consists of various touch points. When touched, it creates an explosion of colourful patterns similar to the ripple effect from touching water. It involves detecting touch, algorithms to create patterns and controlling LED arrays. "},
-"Light_Wall": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. "},
-"Theremin": {"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "The Theremin is an early instrument played without touching. It consists of two antennas, one to control pitch and the other to control amplitude. Along the same lines, the Theremin implemented is modeled as a butler, with sensors for hands, depicted as vocalizing according to the user’s movements. Instead of the antennas, here, the distance of the user’s hands from the two sensors control the pitch and the amplitude. It also consists of two knobs to control mode and volume. The game mechanics involves sensing motion and using that as a basis to emit sounds. "},
-"Laser_Harp":{"image": "engineer.gif","contact": "Jacob: <br /> jacobv1992@gmail.com","Description": "Laser harp is an engineer’s attempt to draw analogy with the musical instrument harp. Being a high profile feature of concerts of famous musicians, here, laser beams are blocked instead of plucking strings and sound is emitted by detecting which laser was blocked using sensors. The game mechanics involve accurate alignment of the laser and sensor placed on opposite ends of the harp and producing sound of various frequencies according to the laser beam blocked. "}
+"Megapixel": {"image": "./Icons_Final/megapixel.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
+"Blitzkrieg": {"image": "./Icons_Final/blitzkrieg.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
+"Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
+"Psychadelic_Room":{"image": "./Icons_Final/PsychRoom.png", "contact": "Jacob: <br/> jacobv1992@gmail.com", 
+"Light_Wall": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ",
+"Decagon": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ",
+"Waterfall": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ",
+},
+"Arcade_Room": { "image": "engineer.gif", "contact": "Jacob: <br/> jacobv1992@gmail.com",  
+"Agent_Dash": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. ",
+"Labyrinth": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. ",
+"Pin_Ball": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. ",
+"Temple_Run": "Temple Run, an adventurous game in which the character runs in a jungle avoiding all obstacles. The character is also being chased by a demon & has to avoid being caught. We are implementing the game virtually using Kinect. If you want to experience a real thrilling chase you gotta check this out. ",
+"Contraption": "In the year 2011, Contraption was implemented on a structure that depicted the Engineer logo. In 2012, a mechanical clock was made. This year we bring it back bigger than ever.",
+"Strongman": "Strongman is an exhibitor of strength and this game is everyone’s chance at that. It consists of a tower of LEDs, lit according to how hard the player manages to whack a given spot with a hammer. As opposed to the ones used in funfair and carnivals, this game uses pressure sensors to determine the force of the blow. When all the LEDs are lit, the player wins. The game mechanics involves controlling the number of rows of LEDs lit according to the sensor measurements. ",
+"Shadow_LED": "Shadow LED is an LED panel that shows one’s shadow. When the person stands in front of it, the LEDs light up to display his/her shadow. Swing your arms, move about, walk away and it does exactly that. This event involves image processing and controlling LED arrays. ",
+"Liquid_Light": "Liquid Light is made up of an RGB LED screen. It consists of various touch points. When touched, it creates an explosion of colourful patterns similar to the ripple effect from touching water. It involves detecting touch, algorithms to create patterns and controlling LED arrays. ",
+"Theremin": "The Theremin is an early instrument played without touching. It consists of two antennas, one to control pitch and the other to control amplitude. Along the same lines, the Theremin implemented is modeled as a butler, with sensors for hands, depicted as vocalizing according to the user’s movements. Instead of the antennas, here, the distance of the user’s hands from the two sensors control the pitch and the amplitude. It also consists of two knobs to control mode and volume. The game mechanics involves sensing motion and using that as a basis to emit sounds. ",
+"Laser_Harp": "Laser harp is an engineer’s attempt to draw analogy with the musical instrument harp. Being a high profile feature of concerts of famous musicians, here, laser beams are blocked instead of plucking strings and sound is emitted by detecting which laser was blocked using sensors. The game mechanics involve accurate alignment of the laser and sensor placed on opposite ends of the harp and producing sound of various frequencies according to the laser beam blocked. "
+}
 }
 
 Comps={
-"Inscription":{"image": "engineer.gif","contact": "Syed Rahi <br />srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br />The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br />\
-<b>Teams of 3.</b><br />\
-Venue : Online. Mostly on CodeChef. 1 Session 3-4 hrs.<br />\
-Last Year Participation – Around 100 teams.<br />\
-Expected this year – Around 200 teams."},
+"Inscription":{"image": "engineer.gif","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
+<b>Teams of 3.</b><br/>"},
 
-"Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br />srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br />\
-<b>Teams of 2.</b><br />\
-Venue : Online. KK server. Throughout the fest.<br />\
-Last Year Participation - Around 10 teams.<br />\
-Expected this year – Around 20-25 teams."},
+"Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
+<b>Teams of 2.</b><br/>"},
 
-"Rectify":{"image": "engineer.gif","contact": "Syed Rahi <br />srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
+"Rectify":{"image": "engineer.gif","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
 you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have\
 a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our\
 codes. This event not only tests the mastery over and familiarity with a programming language but\
-also your dexterity in analyzing problems and providing logical solutions.<br />\
-<b>Individual event</b><br />\
-Venue : 1st round in NTB Classrooms. 2nd round in CCC<br />\
-Last Year Participation - Around 100.<br />\
-Expected this year – Around 200.<br />"},
+also your dexterity in analyzing problems and providing logical solutions.<br/>\
+<b>Individual event</b><br/>"},
 
-"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br />srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
+"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
 computer science from basic programming, scripting, to operating systems and networks. This\
 Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
 developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
-growing and the fastest changing area of Engineering.<br />\
+growing and the fastest changing area of Engineering.<br/>\
 Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test\
 how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we\
-can throw at you!<br />\
-<b>Teams of 3.</b><br />\
-Venue : 1st round in NTB Classrooms. 2nd and 3rd round in CCC<br />\
-Last Year Participation - Around 50 teams.<br />\
-Expected this year – Around 60-80 teams.<br />"},
+can throw at you!<br/>\
+<b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br />srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
+"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
 Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
-at the same time defending your own.<br />\
-<b>Teams of 3.</b><br />\
-Venue : Online. Both practice round and Main round.<br />\
-Last Year Participation - Around 30 teams.<br />\
-Expected this year – Around 50 teams."},
+at the same time defending your own.<br/>\
+<b>Teams of 3.</b><br/>"},
 
-"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br />srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
+"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
 of the participants are put to test. Using search engines, the participants need to figure out the clues\
 which will take them all around the World Wide Web in order to get to the next more intriguing\
-level. This is a quest for the elusive treasure buried beneath billions of web pages.<br />\
-<b>Individual event</b><br />\
-Venue : Online.<br />\
-Last Year Participation - > 500.<br />\
-Expected this year – Around 600.<br />"}
+level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
+<b>Individual event</b>"}
 
 }
 Astro={
-"AstroTalk":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
+"AstroTalk":{"image":"engineer.gif","contact":"Mrinal Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
 designed to inspire and educate.Astronomy committee presents a series of lectures from eminent scholars \
 conducting cutting edge research in their respective domains.We are proud to present the following speakers: \
 Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of Physics, Indian Institute of \
@@ -403,16 +389,17 @@ reflected in the following article. http://articles.timesofindia.indiatimes.com/
 He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\
 His page for more details:\
 http://www.physics.iisc.ernet.in/~bm/\
- Dr Jayaram Narayanan Chengalur\
+Dr Jayaram Narayanan Chengalur\
 Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be \
 giving a talk on the impact of engineers in the field of pure science.\
  We also present Video Conferences from varied speakers on physics, astrophotography and much more.\
-Come. See. Rejoice. Location : SJA"},"StarWars":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
+Come. See. Rejoice."},
+
+"StarWars":{"image":"./Icons_Final/starwars.png","contact":"Mrinal Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
 those passionate in astronomy to flaunt their knowledge of the cosmos.\
-Short listed teams would face off in the final round.\
-First Round: Main Seminar Hall\
-Final Round: ISTE Seminar Hall"},
-"BeyondEarth":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
+Short listed teams would face off in the final round."},
+
+"BeyondEarth":{"image":"engineer.gif","contact":"Mrinal Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
 their strategy to conquer the universe. \
 This event calls upon participants who are keen to learn about strategy we \
 would have to employ to expand our forces beyond Mother Earth. The \
@@ -427,9 +414,9 @@ Engineer 2013.\
 Final Round: Candidates would be required to defend their thesis with \
 the help of a presentation not exceeding 15 minutes. Extra points would be \
 awarded for teams which support their arguments with relevant models using \
-appropriate software.\
-Location: ISTE Seminar Hall"},
-"Exhibits":{"image":"engineer.gif","contact":"Mrinal Vibhav Arun Phone: 9449030636","Description":"Location: Astronomy Room, Main Building \
+appropriate software."},
+
+"Exhibits":{"image":"engineer.gif","contact":"Mrinal Phone: 9449030636","Description":"Location: Astronomy Room, Main Building \
 Time: Dawn to Dusk\
 1) Pondus - Your Normal Force - How much would you weigh in different parts of \
 the cosmos? \
@@ -444,75 +431,45 @@ be discussed in great detail, promising the gala night to be a great delight. We
 will enlighten star gazers of the basic topology of the night sky."}}
 
 Meta={
-"MetaMagic":{"image": "./Icons_Final/MetaMagic.png","contact": "contact","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br />\
- - Expected turnout – 400+ in total<br />\
- - Major demonstrations  – FerroFluid, Shape Memory Alloy, Superconductor<br />\
- - Others –  Sugar bomb, Instant Ice, Mega Bubble, Elephant Toothpaste, Walking on Water,  Chemical Squid, Smoke Bomb, Dry Sand.<br />\
- - Venue – Special Stage (SS)<br />\
- - Session 1 on 25/10/2013 (8 am to 5 pm)<br />\
- - Session 2 on 26/10/2013 (10 am to 3 pm)"},
+"MetaMagic":{"image": "./Icons_Final/MetaMagic.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br/>\
+ - Major demonstrations  – Shape Memory Alloy, Superconductor<br/>\
+ - Others –  Sugar bomb, Instant Ice, Mega Bubble, Elephant Toothpaste, Walking on Water,  Chemical Squid, Smoke Bomb, Dry Sand.<br/>"},
 
-"mindBend":{"image": "./Icons_Final/mindbend.png","contact": "contact","Description": "Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br />\
-- Prelims round consisting of crossword and short questionnaire.<br />\
-- Final round between 6 teams<br />\
-- Expected turnout – 30 teams of 2 each<br /><br />\
-Venue – MSH<br />\
-Day – 24/10/2013 (Day 1)<br />\
-Timings – 12 pm to 7 pm"},
+"mindBend":{"image": "./Icons_Final/mindbend.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br/>\
+- Prelims round consisting of crossword and short questionnaire.<br/>\
+- Final round between 6 teams"},
 
-"Metamorphosis":{"image": "engineer.gif","contact": "contact","Description": "A trademark of Materials Events, this gives students an opportunity to take a crack a real-world industrial problem. Every stage of the problem forces one to think unconventionally and use every bit of information available.<br />\
-- Abstract submission through mail<br />\
-- Final round – Presentation by 4 teams in Department seminar hall.<br />\
-- Expected turnout – 6 to 8 teams of 2 each<br /><br />\
-Venue – Department Seminar Hall<br />\
-Day – 26/10/2013 (Day 3<br />\
-Timings – 3 pm to 6 pm"},
+# "Metamorphosis":{"image": "engineer.gif","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "A trademark of Materials Events, this gives students an opportunity to take a crack a real-world industrial problem. Every stage of the problem forces one to think unconventionally and use every bit of information available.<br/>\
+# - Abstract submission through mail<br/>"},
 
-"SEM_and_TEM_Expo":{"image": "./Icons_Final/SEMTEMExpo.png","contact": "contact","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br />\
-- 1 hour introductory talk<br />\
-- 1 hour demo  <br />\
-- Expected turnout – 50 <br />\
-- Venue – ISTE Seminar hall<br />\
-- Day – 25/10/2013 (Day 2)<br />"},
+"SEM_and_TEM_Expo":{"image": "./Icons_Final/SEMTEMExpo.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br/>\
+- 1 hour introductory talk<br/>\
+- 1 hour demo  <br/>"},
 
-"SEM_Photography_Contest":{"image": "./Icons_Final/SEMphotography.png","contact": "contact","Description": "The event is a photography contest. SEM images of samples having unique features are evaluated.<br />\
-- Online photo submission with description<br />\
-- Expected turnout – 10<br />\
-- Venue – Department Seminar Hall<br />\
-- Day – 27/10/2013 (Day 4)"},
+"SEM_Photography_Contest":{"image": "./Icons_Final/SEMphotography.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "The event is a photography contest. SEM and TEM images of samples having unique features are evaluated.<br/>\
+- Online photo submission with description<br/>",
+"Submissiion Format": "A PDF file containing Caption, Photo and a description of maximum 100 words should be sent to:<br/> <b>materials.engi@gmail.com</b><br/>by 22nd October"
+},
 
 }
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "./Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br />This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br />\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose"}
+"Tech_Speak":{"image": "./Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose"}
 }
 
 Biz={
 "Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "contact","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
-<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>\
-<b>Venue:</b> MSH<br/> \
-<b>Number of Sessions:</b> 1 (Only the Final)<br/>\
-<b>Expected Participation:</b> 80-100<br/>"},
+<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
 
 "Product_Design_Challenge":{"image": "engineer.gif","contact": "contact","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
-The competition would be held by SCE and Biz events committee together.<br/>\
-<b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>\
-<b>Venue: </b>MSH<br/> \
-<b>Number of Sessions:</b> 1 (Only the Final)<br/>\
-<b>Expected Participation:</b> 60-100<br/>"},
+<b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
 "Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "contact","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
-<b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>\
-<b>Venue:</b> MSH<br/>\
-<b>Number of Sessions:</b> 1 (Only the Final)<br/>\
-<b>Expected Participation:</b> 50-80<br/>"},
+<b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
 
 "Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "contact","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
-Problem Statement: To be provided by a Business Analysis Company.<br/>\
-<b>Venue:</b> MSH<br/>\
-<b>Number of Sessions:</b> 1 (Only the Final)<br/>\
-<b>Expected Participation:</b> 100-120<br/>"},
+Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
 "Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "contact","Description":"<b>Introduction:</b><br/><br/>\
@@ -545,7 +502,7 @@ This will be followed up by an exciting event based on software.<br/> Hurry up! 
 
 Tronix={
 
-"TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br /> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
+"TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/><br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
  You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
@@ -576,7 +533,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>Judges' decision will be final and binding in all cases.</li>\
 "},
 
-"Automata":{"image": "engineer.gif","contact": "Nanda Kumar <br /> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "engineer.gif","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement<br/>\
@@ -624,7 +581,7 @@ A maximum of 4 members per team is allowed. We do not provide computers to the p
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
 "},
 
-"Simplicity":{"image": "engineer.gif","contact": "Nanda Kumar <br />nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+"Simplicity":{"image": "engineer.gif","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
 The dates for test run and the main event will be announced shortly<br/>\
 <B>EVENT FORMAT</B><BR/>\
@@ -647,7 +604,7 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "engineer.gif","contact": "Nanda Kumar <br />nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+"Trade_OFF":{"image": "engineer.gif","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
 There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
 <B>EVENT FORMAT<BR/>\
 Round 1</b><br/>\
@@ -677,7 +634,7 @@ The team with the highest amount of virtual money in their account at the end of
 Judges' decision will be final and binding in all cases.<br/>\
 "},
 
-"FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br />nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/><br/>\
+"FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/><br/>\
 Foxhunt, is a fun filled package on the lines of a traditional English activity involving<br/>tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,<br/>the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated<br/>anywhere in the campus, using a tunable radio receiver and an antenna built by them,<br/>making the event full of fun and excitement.<br/>\
 <B>EVENT FORMAT</B><BR/>\
 The event will have two phases <br/>\
@@ -705,7 +662,7 @@ Usage of mobile phones or other means of communication between teams during the 
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "engineer.gif","contact": "Nanda Kumar <br />nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts. At Engineer 2012,<br/>Symphony gives the participants an opportunity to dabble into the sights<br/>and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,<br/>so that the fountain dances to the tunes of the music. A huge draw every Engineer, Symphony<br/>generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "engineer.gif","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts. At Engineer 2012,<br/>Symphony gives the participants an opportunity to dabble into the sights<br/>and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,<br/>so that the fountain dances to the tunes of the music. A huge draw every Engineer, Symphony<br/>generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
 <B>EVENT FORMAT</B><BR/>\
@@ -732,36 +689,36 @@ The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 "},
 
-"Waltz":{"image": "./Icons_Final/Waltz.png","contact": "Nanda Kumar <br />nanda9045@gmail.com","Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
-switching walls at the check-lines indicated in the arena diagram", "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br />\
-has to negotiate only ‘L’ shaped 90 degree turns. <br /><br />\
-There are two paths that the participant can choose to solve the maze <br />\
-1. Original path <br />\
-2. Shortcut path <br />\
-<br />\
-The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br /><br />\
+"Waltz":{"image": "./Icons_Final/Waltz.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
+switching walls at the check-lines indicated in the arena diagram", "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
+has to negotiate only ‘L’ shaped 90 degree turns. <br/><br/>\
+There are two paths that the participant can choose to solve the maze <br/>\
+1. Original path <br/>\
+2. Shortcut path <br/>\
+<br/>\
+The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br/><br/>\
 The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.", 
 "Arena": "1. The arena comprises of 15cm high walls in the form of a small maze. The wall will be in\
-white color. <br />\
-2. The track may contain the following elements <br />\
-a) Straight Stretches <br />\
-b) 90 degree turns.<br />\
+white color. <br/>\
+2. The track may contain the following elements <br/>\
+a) Straight Stretches <br/>\
+b) 90 degree turns.<br/>\
 c) Check-lines: White strips perpendicular to the direction of navigation indicating wall\
-switch. <br />\
-3. The base of the arena is painted in black except for the check-lines. <br />\
-4. A shortcutroute (the third white strip from entrance) is also provided for teams which can <br />\
-use it as a shortcut to finish the maze faster. <br />\
+switch. <br/>\
+3. The base of the arena is painted in black except for the check-lines. <br/>\
+4. A shortcutroute (the third white strip from entrance) is also provided for teams which can <br/>\
+use it as a shortcut to finish the maze faster. <br/>\
 5. The check-lines, of thickness 3 cmare provided at place where there are two walls on \
-either sides of the check-line.  <br />\
+either sides of the check-line.  <br/>\
 6. Dimensions: The arena will be of dimensions no more than 290cm X 250 cm (including all\
 wall thickness) with the space between any two walls being 40cm exactly(bot navigation \
-width)<br />\
-The top view of the wall maze is shown below<br />\
+width)<br/>\
+The top view of the wall maze is shown below<br/>\
 <img src='./data/waltz.jpg' />\
-<b>Index: <br /></b>\
-Green arrow- Entrance<br /><br />\
-Orange arrow- Exit for shortcut path<br />\
-Blue Arrow- Exit for Original path<br />",
+<b>Index: <br/></b>\
+Green arrow- Entrance<br/><br/>\
+Orange arrow- Exit for shortcut path<br/>\
+Blue Arrow- Exit for Original path<br/>",
 "Bot Specification and Rules": "<ul><li>The bot should fit in a box of dimensions 18 x 18 x 12 (cm).</li>\
 <li>The bot must switch at the check-lines (except the 3rd check-line) where the participating team must take the appropriate decision to use the shortcut or the original path.<\li>\
 <li>If the bot fails to follow the correct wall or strays into an ambiguous path at any point of time during \
@@ -773,69 +730,69 @@ for bots intending to use the shortcut path, the bot will be defaulted to locati
 pertaining teamwill be disqualified.</li>\
 <li>The judges have the final say regarding the disqualification or evaluation of the participating team.</li></ul>", 
 "evaluation": "Each team is given a maximum of 5 min to complete the maze and the score pertaining to each team will be \
-evaluated as<br />\
-Score = 300-T + X<br />\
-Where T is the time taken for the team to complete the maze in seconds <br />\
-X= 5 x No. of check-lines navigated successfully (except the 3rd check-line).<br />\
+evaluated as<br/>\
+Score = 300-T + X<br/>\
+Where T is the time taken for the team to complete the maze in seconds <br/>\
+X= 5 x No. of check-lines navigated successfully (except the 3rd check-line).<br/>\
 Teams that navigate the 3rd check-line successfully and use the shortcut will be awarded an extra 20 points"},
 }
 
 Mba={
-"MindBend": {"image": "./Icons_Final/mindbend.png","contact": "B. THEJA<br />\
-+919480435585<br />\
-bnmtheja@gmail.com<br />\
-Padmini M<br />\
-+918123463865<br />\
-pm27178@gmail.com" , "REMINDER": "<p>DESCRIPTION OF THE GAME:<br />\
-&#61607; 10 minutes to solve the 15 multiple choice questions.<br />\
-RULES:<br />\
-&#61607; Each correct answer will carry 10 points.<br />\
-&#61607; Total points for this round are 150.<br />\
-&#61607; There will be no negative marking system for this round.<br />\
-TIME DURATION:<br />\
-&#61607; 10 Minutes.<br />\
-JUDGEMENT CRITERIA:<br />\
-&#61607; Points would not be awarded for more than one answer</p>", "Double Trouble": "<p>DESCRIPTION OF THE GAME:<br />\
-&#61607; Teams have to identify the shown images along with their background/specialty.<br />\
-e.g.: If the given image is about the car, then participants should identify the <br />\
-manufacturer/ company of the car as well as the model of the car. <br />\
-RULES:<br />\
-&#61607; There should be no repetition.<br />\
-&#61607; Each correct answer will carry 20 points.<br />\
-&#61607; Total points for this round are 60.<br />\
-TIME DURATION:<br />\
-&#61607; 10 Seconds per image.<br />\
-JUDGEMENT CRITERIA:<br />\
-&#61607; Points would be allotted for both identification of image and its background or <br />\
-specialty.<br />\
-&#61607; 10 points would be allotted for at least single identification of the image.<br />\
-&#61607; There will be a negative marking system in this round.<br />\
-&#61607; 10 points will be deducted for each incorrect answer.<br />\
-&#61607; If one team is unable to identify the image, then it will be forward to next team.<br />\
-&#61607; If the next team gives the correct answer, bonus of 5 points will be awarded, and <br />\
-if the respective team fails to answer correctly, then there will be a penalty of 10 <br />\
-points.</p>", "SOUNDTRACK": "<p>DESCRIPTION OF THE GAME:<br />\
-&#61607; A one minute audio/ video clip would be listened/ shown to each team <br />\
-respectively;<br />\
-&#61607; Team has to identify the theme of the audio/ video.<br />\
-RULES:<br />\
-&#61607; There should be no repetition.<br />\
-&#61607; 20 points for correct answer.<br />\
-&#61607; Total points for this round are 40.<br />\
-TIME DURATION:<br />\
-&#61607; For audio &ndash; Max. 30 seconds.<br />\
-&#61607; For video - According to the length of the video<br />\
-JUDGEMENT CRITERIA:<br />\
-&#61607; Time limit for thinking about the audio/ video should not be exceeding more than <br />\
-15 seconds.<br />\
-&#61607; There will be negative marking system for this round.<br />\
-&#61607; Penalty of 10 points for incorrect answer.</p>", "RAPIDO": "<p>DESCRIPTION OF THE GAME:<br />\
-&#61607; 5 rapid fire questions for each participant.<br />\
-RULES:<br />\
-&#61607; No repetition of the questions.<br />\
-JUDGEMENT CRITERIA:<br />\
-&#61607; Each correct answer will carry 20 points.<br />\
-&#61607; Total points for this round are 100.<br />\
+"MindBend": {"image": "./Icons_Final/mindbend.png","contact": "B. THEJA<br/>\
++919480435585<br/>\
+bnmtheja@gmail.com<br/>\
+Padmini M<br/>\
++918123463865<br/>\
+pm27178@gmail.com" , "REMINDER": "<p>DESCRIPTION OF THE GAME:<br/>\
+&#61607; 10 minutes to solve the 15 multiple choice questions.<br/>\
+RULES:<br/>\
+&#61607; Each correct answer will carry 10 points.<br/>\
+&#61607; Total points for this round are 150.<br/>\
+&#61607; There will be no negative marking system for this round.<br/>\
+TIME DURATION:<br/>\
+&#61607; 10 Minutes.<br/>\
+JUDGEMENT CRITERIA:<br/>\
+&#61607; Points would not be awarded for more than one answer</p>", "Double Trouble": "<p>DESCRIPTION OF THE GAME:<br/>\
+&#61607; Teams have to identify the shown images along with their background/specialty.<br/>\
+e.g.: If the given image is about the car, then participants should identify the <br/>\
+manufacturer/ company of the car as well as the model of the car. <br/>\
+RULES:<br/>\
+&#61607; There should be no repetition.<br/>\
+&#61607; Each correct answer will carry 20 points.<br/>\
+&#61607; Total points for this round are 60.<br/>\
+TIME DURATION:<br/>\
+&#61607; 10 Seconds per image.<br/>\
+JUDGEMENT CRITERIA:<br/>\
+&#61607; Points would be allotted for both identification of image and its background or <br/>\
+specialty.<br/>\
+&#61607; 10 points would be allotted for at least single identification of the image.<br/>\
+&#61607; There will be a negative marking system in this round.<br/>\
+&#61607; 10 points will be deducted for each incorrect answer.<br/>\
+&#61607; If one team is unable to identify the image, then it will be forward to next team.<br/>\
+&#61607; If the next team gives the correct answer, bonus of 5 points will be awarded, and <br/>\
+if the respective team fails to answer correctly, then there will be a penalty of 10 <br/>\
+points.</p>", "SOUNDTRACK": "<p>DESCRIPTION OF THE GAME:<br/>\
+&#61607; A one minute audio/ video clip would be listened/ shown to each team <br/>\
+respectively;<br/>\
+&#61607; Team has to identify the theme of the audio/ video.<br/>\
+RULES:<br/>\
+&#61607; There should be no repetition.<br/>\
+&#61607; 20 points for correct answer.<br/>\
+&#61607; Total points for this round are 40.<br/>\
+TIME DURATION:<br/>\
+&#61607; For audio &ndash; Max. 30 seconds.<br/>\
+&#61607; For video - According to the length of the video<br/>\
+JUDGEMENT CRITERIA:<br/>\
+&#61607; Time limit for thinking about the audio/ video should not be exceeding more than <br/>\
+15 seconds.<br/>\
+&#61607; There will be negative marking system for this round.<br/>\
+&#61607; Penalty of 10 points for incorrect answer.</p>", "RAPIDO": "<p>DESCRIPTION OF THE GAME:<br/>\
+&#61607; 5 rapid fire questions for each participant.<br/>\
+RULES:<br/>\
+&#61607; No repetition of the questions.<br/>\
+JUDGEMENT CRITERIA:<br/>\
+&#61607; Each correct answer will carry 20 points.<br/>\
+&#61607; Total points for this round are 100.<br/>\
 &#61607; There will be no negative marking for this round</p>"},
 
 
@@ -890,7 +847,7 @@ JUDGEMENT CRITERIA:<br />\
 
 
 	
-"HR_Event":{"image": "./Icons_Final/MBA.png","contact": "contact","Description": '<table width="669" style="border-collapse:collapse">\
+"HR_Event":{"image": "engineer.gif","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<table width="669" style="border-collapse:collapse">\
 <tbody><tr valign="top"><td width="80" height="16"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Rounds</span></p></td>\
   <td width="157"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Name</span></p></td>\
   <td width="263"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Tag Line</span></p></td></tr>\
@@ -914,7 +871,7 @@ JUDGEMENT CRITERIA:<br />\
   to it</span></p></td>\</tr>\
 </tbody></table>'},
 
-"Finance_Event":{"image": "./Icons_Final/Finance.png","contact": "Salman - 08904390686<br />\ Aditya - 07353643231","Description": '<div>\
+"Finance_Event":{"image": "./Icons_Final/Finance.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<div>\
 <p><span style="font-size:12pt;font-weight:bold;text-decoration:underline">Finanza – The Finance Event : </span></p>\
 <p><span style="font-size:12pt">The ultimate showdown of financial management skills! Do you have\
 what it takes to be a finance guru?</span></p>\
@@ -936,36 +893,15 @@ profitable path for the company.</span></p>\
 Sce={
 
 "The_Last_Word":{"image": "engineer.gif","contact": "contact","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
-<br/>\
-Panel to consist of seven members, including one moderator<br/>\
-<br/>\
-Budget: Corporate Hospitality<br/>\
-<br/>\
-Venue: SJA, 27th October, 4 P.M. (last event of Engineer)<br/>\
-"},
+Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>\
-<br/>\
-Budget:<br/>\
-	Corporate Hospitality for judges<br/>\
-	Prizes<br/>\
-		1st prize: Rs. 5000 <br/>\
-		2nd prize: Rs. 3000 <br/>\
-		3rd prize:Rs. 2000<br/>\
-<br/>\
-Venue: Any Seminar hall (preferably in Main building) 3 hours<br/>\
-No. of Teams expected: 10 (2011)<br/>\
-"},
-"Sky_Lanterns":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b> Chief Guest may light sky lanterns along with students and dignitaries<br/>\
-Budget: Rs.  4000<br/>\
-Venue: Main ground after inauguration<br/>\
-"},
-
-"Green_Design_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "contact","Description": "<b>Description:</b> SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Sparsh":{"image": "engineer.gif","contact": "contact","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
+"Sky_Lanterns":{"image": "engineer.gif","contact": "contact","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
+"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "contact","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
 }
 
 Mechanical={
-"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br />koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.</p>\
+"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.</p>\
 <p>&bull; The team is not permitted to compete with more than one robot.</p>","eventformat": "<p>&bull; The competition will be played on knock-out basis.</p>\
 <p>&bull; The machine would be checked for its safety during registrations. In case of unsafe </p>\
 <p>robots, the teams will be allowed to modify the robot before the registrations close.</p>\
@@ -986,14 +922,14 @@ Mechanical={
 <p>&bull; Judges' decision shall be treated as final and binding on all. </p><p><a href='data/GENERALRULES.pdf'>Download</a></p>"},
 
 
-"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br />koodlyakashay@gmail.com","generalrules":"<p>&bull; The students must carry valid student ID cards of their college which they will be required to \
+"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; The students must carry valid student ID cards of their college which they will be required to \
 produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.</p><p>&bull; The team is not permitted to compete with more than one bot.</p><p>&bull; Teams will not be allowed to modify their bots during their trial.</p>","eventformat":"<p>&bull; Each round will be of a maximum of 15 min duration.</p><p>&bull; Fig 1 portrays the arena </p><p>&bull; Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular </p><p>container and throw them into the hoops kept at different heights </p><p>&bull; In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.</p><p>&bull; Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 </p><p>will be at the height of 25cm from the arena. </p><p>&bull; A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is </p><p>required to climb over this bridge and throw the objects in hoop 3.</p><p>&bull; Each bot will be given only one round in which they need to complete the task.</p><p>&bull; If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 </p><p>seconds) or toppled over, those teams cannot ask for restore.</p><p>&bull; The organizers reserve the right to change any or all of the above rules as they deem fit.</p><p>&bull; Violation of any the above rules will lead to disqualification.</p>\
 <p>&bull; Judges' decision shall be treated as final and binding on all.</p><p><a href='data/perfectmachineprob.pdf'>Download</a></p>"},
 
-"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br />koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. </p>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the </p>\
+"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. </p>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the </p>\
 <p>organizing committee won&rsquo;t be providing any.</p><p><a href='wrightflight.pdf'>Download</a></p>"},
 
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br />koodlyakashay@gmail.com", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.</p>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make </p>\
+"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.</p>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make </p>\
 <p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"}
 }
 
@@ -1001,52 +937,20 @@ produce at the time of registration.</p><p>&bull; A team may comprise a maximum 
 
 
 Mining={
-"Mine_Rush":{"image": "./Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments.<br />\
-Time : 09:30-12:00<br />\
-Venue : in and around mining department<br />\
-Net prize money :  Rs.5000/-"},
-
-"Adverse_Mining_Problem":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts. <br />\
-Time : 14:00-16:00<br />\
-Venue : mining department (conference hall)<br />\
-Net prize money :  Rs.3000/-<br />"},
-
-"Mine_Quest":{"image": "./Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br />\
+"Mine_Rush":{"image": "./Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments."},
+"Adverse_Mining_Problem":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
+"Mine_Quest":{"image": "./Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br/>\
 <h3>round 1 : preliminary</h3>\
-All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br />\
-time : 09:30-10:00<br />\
-venue : mining department (lecture hall(s))<br />\
+All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br/>\
 <h3>round 2 : eliminator</h3>\
-The top six teams will be qualified for this round. in this round multi-disciplinary questions will be posed to the teams and are judged from all possible angles. <br />\
-time : 10:30-11:30<br />\
-venue : mining department (lecture hall(s))<br />\
+The top six teams will be qualified for this round. in this round multi-disciplinary questions will be posed to the teams and are judged from all possible angles. <br/>\
 <h3>round 3 : picture-perfect</h3>\
-This is a visual round in which the participants will be shown various pictures which may/ may not contain a flaw and are identified to detect and correct the flaw if present. they will also be given incomplete diagrams and are asked to complete them.<br />\
-time : 13:30-14:00<br />\
-venue : mining department (conference hall)<br />\
+This is a visual round in which the participants will be shown various pictures which may/ may not contain a flaw and are identified to detect and correct the flaw if present. they will also be given incomplete diagrams and are asked to complete them.<br/>\
 <h3>round 4 : grand-finale</h3>\
-The ultimate round which decides the winner of the event where their performance is continuously evaluated. this round is a combination of auction round, buzzer round, challenge round, and rapid fire round.<br />\
-time : 14:30-15:30<br />\
-venue : mining department (conference hall)<br />\
-net prize money :  rs.5000/-<br />\
-"},
-
-"Innovating_Mining":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round.<br />\
-time : 09:30-11:00<br />\
-venue : mining department (conference hall)<br />\
-net prize money :  rs.2000/-<br />\
-"},
-
-"Blast_Mine_Ventilation":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts.<br />\
-time : 11:00-12:00<br />\
-venue : mining department (conference hall)<br />\
-net prize money :  rs.2000/-<br />\
-"},
-"Hang-Man":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them.<br />\
-time : 14:00-15:00<br />\
-venue : mining department (conference hall)<br />\
-net prize money :  rs.2000/-<br />\
-"},
+The ultimate round which decides the winner of the event where their performance is continuously evaluated. this round is a combination of auction round, buzzer round, challenge round, and rapid fire round."},
+"Innovating_Mining":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
+"Blast_Mine_Ventilation":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
+"Hang-Man":{"image": "engineer.gif","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
 }
 
 
@@ -1057,7 +961,7 @@ events={
 "Comps":Comps,
 "Civil": Civil,
 "TechSpeak": TechSpeakEvent,
-"Meta":Meta,
+"Materials":Meta,
 "Biz":Biz,
 "Chem":Chem,
 "Tronix":Tronix,
