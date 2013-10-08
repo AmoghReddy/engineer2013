@@ -4,6 +4,14 @@
   font-weight: 300;
   src: url("windows.woff") format('woff');
 }
+
+@font-face{
+	font-family: 'acens';
+	font-style: normal;
+  	font-weight: 300;
+	src: url('Acens.ttf');
+}
+
 html, body {
 	height: 100%;
 }
@@ -11,7 +19,7 @@ html, body {
 body {
 	background: url(images/3QNCOe.jpg) repeat;
 	margin: 0;
-	font-family: ubuntu;
+	font-family: acens;/*ubuntu;*/
 	overflow: hidden;
 	color:#000;
 }
@@ -30,7 +38,8 @@ body:before {
 }
 
 span {
-	display: inline-block; 
+	display: inline-block;
+	font-family: acens;
 	/*background:rgba(255,255,255,0.7);
 	font-size: 20px;
 	line-height: 120%;
@@ -101,8 +110,8 @@ button {
 	background: transparent;
 	/*outline: 1px solid rgba(127,127,127,0.75);*/
 	border: 2px solid rgba(127,127,127,0.75);
-	height: 150px;
-	width: 150px;
+	height: 140px;
+	width: 140px;
 	border-radius:50%;
 	padding: 0px 0px;
 	cursor: pointer;
@@ -244,11 +253,11 @@ button:active {
 
 #searchBox {
 	margin-top:6px;
-    	padding: 2px 18px 2px 18px;
-    	width:130px;
+    padding: 2px 18px 2px 18px;
+    width:130px;
 	color:#000;
-    	border-top-left-radius:1000px;
-    	border-bottom-right-radius:1000px;
+    border-top-left-radius:1000px;
+    border-bottom-right-radius:1000px;
 }
 .leftButton{
     	border-top-left-radius:100px;

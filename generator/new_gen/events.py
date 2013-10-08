@@ -20,7 +20,7 @@ def event_sidebar(event,i):
 
 	print "<span id='side"+event+"'>"		
 	if (events[i][event]['image'] == 'engineer.gif'):
-		print "<span id='blockGen"+get_num()+"'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;"+get_color()+"'><h1 style='text-align:center;'>"+event.replace('_',' ')+"</h1></button></span><br />"	
+		print "<span id='blockGen"+get_num()+"'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_',' ')+"</h1></button></span><br />"	
 	else:
 		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src='"+events[i][event]['image']+"' width='250px'/></span><br />"
 	# print "<span id='blockGen"+get_num()+"' style='width:250px;'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
@@ -53,7 +53,7 @@ def event_description(event,i):
 		if (j != "image" and j != "contact"):
 			print '<span id = "tabs'+event+"_"+j+'">'
 			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;border-radius: 25px;'>"	
-			print events[i][event][j]
+			print events[i][event][j].replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;border-radius: 25px;" >')
 			print '</span>'
 			print '</span>'
 	print '</span>'
@@ -76,7 +76,6 @@ def commitee_sidebar(i):
 	print "</span>"
 
 def commitee_page(i):
-	print "<td>"
 	print "<span id='page"+i+"'>"
 	print "<table>"
 	count=0
@@ -84,7 +83,7 @@ def commitee_page(i):
 		if count%3==0:
 			print "<tr>"
 		if (events[i][event]['image'] == 'engineer.gif'):
-			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 90px;"+get_color()+"'><h1 style='text-align:center;'>"+event.replace('_'," ")+"</h1></td>"			
+			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
 		else:
 			print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='"+events[i][event]['image']+"'/></span></td>"
 			# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
@@ -132,6 +131,7 @@ for i in events.iterkeys():
 # sidebar ends
 	print "</td>"
 # page begins
+	print "<td valign = 'top' >"
 	commitee_page(i)
 # page ends
 	print "</td>"
