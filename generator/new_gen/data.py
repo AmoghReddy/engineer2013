@@ -368,35 +368,35 @@ Comps={
 "Inscription":{"image": "./Icons_Final/INSCRIPTION.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
+"Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each team programs their virtual bots to play a certain game. Bots programmed by different teams have a face-off in a quest to be the ''smartest'' bot!<br/>\
 <b>Teams of 2.</b><br/>"},
 
 "Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
-you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have\
-a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our\
-codes. This event not only tests the mastery over and familiarity with a programming language but\
-also your dexterity in analyzing problems and providing logical solutions.<br/>\
+&nbsp; you spot your prey and catch it at the blink of an eye like the vicious vulture ? If you think you have\
+&nbsp; a sharp eye and the instincts of a predator programmer, then come and hunt for the errors in our\
+&nbsp; codes. This event not only tests the mastery over and familiarity with a programming language but\
+&nbsp; also your dexterity in analyzing problems and providing logical solutions.<br/>\
 <b>Individual event</b><br/>"},
 
 "Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
-computer science from basic programming, scripting, to operating systems and networks. This\
-Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
-developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
-growing and the fastest changing area of Engineering.<br/>\
+&nbsp; computer science from basic programming, scripting, to operating systems and networks. This\
+&nbsp; Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
+&nbsp; developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
+&nbsp; growing and the fastest changing area of Engineering.<br/>\
 Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test\
-how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we\
-can throw at you!<br/>\
+&nbsp; how long you can persist solving the trickiest (and most often the simplest) computer science problems we\
+&nbsp; can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
 "ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
-Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
-at the same time defending your own.<br/>\
+&nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
+&nbsp; at the same time defending your own.<br/>\
 <b>Teams of 3.</b><br/>"},
 
 "Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
-of the participants are put to test. Using search engines, the participants need to figure out the clues\
-which will take them all around the World Wide Web in order to get to the next more intriguing\
-level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
+&nbsp; of the participants are put to test. Using search engines, the participants need to figure out the clues\
+&nbsp; which will take them all around the World Wide Web in order to get to the next more intriguing\
+&nbsp; level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
 <b>Individual event</b>"}
 
 }
