@@ -58,7 +58,7 @@ Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/h
 
 	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
 Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
-	
+
 	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
 			Registration Fee:  Rs 4250/ team.</br> Each team can have a maximum of 5 members (850/head).</br> A kit will be provided to each team.</p>	"},
 
@@ -69,16 +69,16 @@ Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the compl
 }
 
 Civil = {
-	
+
 	"COLOSSUS": {"image": "./Icons_Final/Colossus.png","contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
 krishnamohan651@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
-sushil199124@gmail.com<br/>","Description": "Guess, what is the first thought when it comes to Civil Engineering? Yes, it \
-is Structures, the spotlight of Colossus. The basis of a good structure lies in the \
+sushil199124@gmail.com<br/>","Description": "What is the first thing people think about when it comes to Civil Engineering? Yes, it \
+is structures, the spotlight of Colossus. The basis of a good structure lies in the \
 mix of innovation, analysis, and the determination to create an identity. This \
-edition of ENGINEER offers a hands-on experience in building an innovative \
+edition of Engineer offers a hands-on experience in building an innovative \
 structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statement</a> "},
 
 	"FantastiCity": {"image": "./Icons_Final/fantasticity2.png","contact": "B.THEJA<br/>\
@@ -86,7 +86,7 @@ structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statem
 bnmtheja@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
-sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternative for military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
+sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternatives for a military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
 
 	"Architect": {"image": "./Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
@@ -94,8 +94,8 @@ krishnamohan651@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
 sushil199124@gmail.com<br/>\
-","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members.\
-o All members of the team should be enrolled as students in an educational institute.\
+","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. <br/>This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners.<br/>This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot.<br/>All materials required to make the model will be provided by the organisers.<br/>All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members. \
+o All members of the team should be enrolled as students in an educational institute. \
 o No person can be a part of more than one team."},
 
 "Mindbend": {
@@ -104,15 +104,15 @@ o No person can be a part of more than one team."},
 bnmtheja@gmail.com <br/>\
 Padmini M <br/>\
 +918123463865 <br/>\
-pm27178@gmail.com","Description":"With a combination of mind boggling questions, core concepts and some really exciting rounds, MindBend is definitely a test of your intellect! Time to prove yourself...!", "format": "The quiz will be an amalgamation of visual rounds and written tests, full of \
-interesting and intriguing questions.", "eligibility": "The team can include a maximum of two members. All members of the team should be enrolled as students in an educational institute. No person can be a part of more than one team."},
-	
+pm27178@gmail.com","Description":"With a combination of mind boggling questions, core concepts and some really exciting rounds, MindBend is definitely a test of your intellect! Time to prove yourself!", "format": "The quiz will be an amalgamation of visual rounds and written tests, full of \
+interesting and intriguing questions.", "eligibility": "The team can include a maximum of two members.<br/>All members of the team should be enrolled as students in an educational institute.<br/>No person can be a part of more than one team."},
+
 "Nirvahana": {"image": "./Icons_Final/Nirvana.png", "contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
 krishnamohan651@gmail.com<br/>\
 Niveditha.J<br/>\
 +917795543699<br/>\
-niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you. The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
+niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you.<br/>The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
 Gaming={"Aoe":{"image":"./Icons_Final/aoe3.png","contact":"Satish Chandra <br/> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
@@ -345,12 +345,12 @@ Technites={
 "Megapixel": {"image": "./Icons_Final/megapixel.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
 "Blitzkrieg": {"image": "./Icons_Final/blitzkrieg.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
 "Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
-"Psychadelic_Room":{"image": "./Icons_Final/PsychRoom.png", "contact": "Jacob: <br/> jacobv1992@gmail.com", 
+"Psychadelic_Room":{"image": "./Icons_Final/PsychRoom.png", "contact": "Jacob: <br/> jacobv1992@gmail.com",
 "Light_Wall": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ",
 "Decagon": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ",
 "Waterfall": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ",
 },
-"Arcade_Room": { "image": "engineer.gif", "contact": "Jacob: <br/> jacobv1992@gmail.com",  
+"Arcade_Room": { "image": "engineer.gif", "contact": "Jacob: <br/> jacobv1992@gmail.com",
 "Agent_Dash": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. ",
 "Labyrinth": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. ",
 "Pin_Ball": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. ",
@@ -494,28 +494,28 @@ Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
 "Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya <br/> 9538703009","Description":"<b>Introduction:</b><br/>\
-'My mind,'' he said, 'rebels at stagnation. Give me problems, give me work,<br/>give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>I crave for mental exaltation. That is why I have chosen my own particular profession,<br/>or rather created it, for I am the only one in the world.'<br/> \
-<b>― Arthur Conan Doyle, The Sign of Four</b><br/>\
- Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science,<br/> laboratory skills and indulge in the world of basic chemistry. Don the role of a lab<br/> geek, play with the uncanniest concoctions, prepare the fanciest potions and race<br/>against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
+''My mind,'' he said, ''rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>''I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>''I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.''<br/> \
+<b>― Sir Arthur Conan Doyle, The Sign of Four</b><br/>\
+ Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry.<br/>Don the role of a lab geek,<br/>Play with the uncanniest concoctions,<br/>Prepare the fanciest potions<br/>And race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
 Push the lizard Brain of yours to the maximum!<br/>"},
 
 "Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
-Industry Defined Problem is real, applied engineering at its epitome. Aiming to<br/>bridge the gap between theory and practice by challenging engineers to come<br/>up with innovative and creative solutions to crucial real life industrial problems<br/>IDP has been serving as a platform for budding engineers to interact with experts<br/>from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
-Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge<br/>and come up with creative solutions to problems posed by the industry. In this event,<br/>a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue. . The participants are<br/>expected to come up with innovative & economically feasible solutions that can<br/>be assimilated in the company’s process.<br/>\
-The previous editions had us collaborating with the likes of Mangalore Refinery <br/>and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and<br/>other esteemed companies.<br/> \
-So what are you thinking of?<br/>\
+Industry Defined Problem is the epitome of real, applied engineering.<br/>Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems, IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
+Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry.<br/>In this event, a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue.<br/>The participants are expected to come up with innovative & economically feasible solutions that can be assimilated in the company’s process.<br/>\
+The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies.<br/> \
+So what are you thinking about?<br/>\
 Come, participate and get to interact with and thereby learn from the professionals!<br/>\
 Engineer 2013, the expectations get bigger and the stakes higher!<br/>\
 We will get back to you with further details. Stay updated. <br/>"},
 
 "The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
-Chemical process simulation software helps broadens an engineer’s capabilities and<br/>increases productivity. It  supercharges an engineer’s \
-efficiency when facing the<br/>toughest chemical process models or addressing day-to-day challenges.\
- They have<br/>potential instructional value for practically all core courses, right from first year<br/>process calculations to final year\
-  design project. It integrates all the topics under<br/>one roof making it one of the most powerful tool for a process/chemical engineer.<br/>\
- CHEMCAD is one such simulation software featuring a rich Graphical User Interface (GUI)<br/>allowing the user to \
- understand the behaviour of the chemical systems by using<br/>rigorous models of thermodynamic processes and unit operations.<br/>\
-So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a<br/> hands-on experience with all the technical details and \
+Chemical process simulation software helps broaden an engineer’s capabilities and increases productivity. It supercharges an engineer’s \
+efficiency when facing the toughest chemical process models or addressing day-to-day challenges.<br/>\
+ They have potential instructional value for practically all core courses, right from first year process calculations to final year\
+  design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer.<br/>\
+ CHEMCAD is one such simulation software featuring a rich Graphical User Interface (GUI) allowing the user to \
+ understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br/>\
+So, in this edition of Engineer, we bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and \
 theory involved. No pre-requisites.<br/>\
 This will be followed up by an exciting event based on software.<br/> Hurry up! Limited Seats! Lots of prizes at stake.<br/>"},
 
@@ -712,7 +712,7 @@ At any point of time during the event, the judges can change the rules to mainta
 
 "Waltz":{"image": "./Icons_Final/Waltz.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com",
 "Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
-switching walls at the check-lines indicated in the arena diagram", 
+switching walls at the check-lines indicated in the arena diagram",
 "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
 has to negotiate only ‘L’ shaped 90 degree turns. <br/>\
 There are two paths that the participant can choose to solve the maze <br/>\
@@ -751,7 +751,7 @@ for bots intending to use the shortcut path, the bot will be defaulted to locati
 <li>Ready-made sensor modules are ALLOWED.However, use of readymade chassis or steppers/SERVO motors are not ALLOWED</li>\
 <li>Use of any mechanism which defiles or threatens to defile the arena will not be tolerated and the \
 pertaining teamwill be disqualified.</li>\
-<li>The judges have the final say regarding the disqualification or evaluation of the participating team.</li></ul>", 
+<li>The judges have the final say regarding the disqualification or evaluation of the participating team.</li></ul>",
 "Evaluation": "Each team is given a maximum of 5 min to complete the maze and the score pertaining to each team will be \
 evaluated as<br/>\
 Score = 300-T + X<br/>\
@@ -766,7 +766,7 @@ Mba={
 bnmtheja@gmail.com<br/>\
 Padmini M<br/>\
 +918123463865<br/>\
-pm27178@gmail.com" , 
+pm27178@gmail.com" ,
 "ROUND 1": "<b>REMINDER</b><br/>DESCRIPTION OF THE GAME:<br/>\
 - 10 minutes to solve the 15 multiple choice questions.<br/>\
 RULES:<br/>\
@@ -776,7 +776,7 @@ RULES:<br/>\
 TIME DURATION:<br/>\
 - 10 Minutes.<br/>\
 JUDGEMENT CRITERIA:<br/>\
-- Points would not be awarded for more than one answer", 
+- Points would not be awarded for more than one answer",
 "ROUND 2": "<b> DOUBLE TROUBLE</b><br/>DESCRIPTION OF THE GAME:<br/>\
 - Teams have to identify the shown images along with their background/specialty.<br/>\
 e.g.: If the given image is about the car, then participants should identify the manufacturer company of the car as well as the model of the car. <br/>\
@@ -793,7 +793,7 @@ JUDGEMENT CRITERIA:<br/>\
 - 10 points will be deducted for each incorrect answer.<br/>\
 - If one team is unable to identify the image, then it will be forward to next team.<br/>\
 - If the next team gives the correct answer, bonus of 5 points will be awarded, and <br/>\
-if the respective team fails to answer correctly, then there will be a penalty of 10 points.", 
+if the respective team fails to answer correctly, then there will be a penalty of 10 points.",
 "ROUND 3": "<b>SOUNDTRACK</b><br/>DESCRIPTION OF THE GAME:<br/>\
 - A one minute audio/ video clip would be listened/ shown to each team respectively;<br/>\
 - Team has to identify the theme of the audio/ video.<br/>\
@@ -807,7 +807,7 @@ TIME DURATION:<br/>\
 JUDGEMENT CRITERIA:<br/>\
 - Time limit for thinking about the audio/ video should not be exceeding more than 15 seconds.<br/>\
 - There will be negative marking system for this round.<br/>\
-- Penalty of 10 points for incorrect answer.", 
+- Penalty of 10 points for incorrect answer.",
 "ROUND 4": "<b>RAPIDO</b><br/>DESCRIPTION OF THE GAME:<br/>\
 - 5 rapid fire questions for each participant.<br/>\
 RULES:<br/>\
@@ -952,7 +952,7 @@ JUDGEMENT CRITERIA:<br/>\
 </table>'},
 
 
-	
+
 "HR_Event":{"image": "./Icons_Final/HR.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231",
 "Description": '<table border="1" cellspacing="0" cellpadding="0" width="600">\
         <tr>\
@@ -1045,7 +1045,7 @@ Panel to consist of seven members, including one moderator"},
 
 "Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
 "Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}
 }
 
 Mechanical={
