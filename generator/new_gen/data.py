@@ -54,7 +54,7 @@ Workshops={
 	"3D_Photography": {"image": "engineer.gif","contact": "Manasij","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
 	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "<p>At Engineer we try to reach out to students of various branches. For the very first time we have something for Civil Engineering students and enthusiasts. The workshop can of course be attended by any one who is interested. The workshop will be conducted by Skyfi Labs and it will involve the design of a bridge through specialized tools on your computers followed by testing of your design on model sized bridges which you will be building with quality equipment provided by us.</br>\
-Registration Fee:  Rs 1800/ team.</br> Each time will consist of 2 people (900/head)</p>"},
+Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/head)</p>"},
 
 	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
 Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
@@ -820,80 +820,210 @@ JUDGEMENT CRITERIA:<br/>\
 &#61607; There will be no negative marking for this round</p>"},
 
 
-"Markenza": {"image": "./Icons_Final/MARKENZA.png","contact": "Salman Usman <br/>salman.usman91@gmail.com", "Description":'<table width="677" style="border-collapse:collapse">\
-<tbody><tr valign="top"><td width="67" height="14"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">Sr. No.</span></p></td>\
-  <td width="112"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">NAME OF THE ROUND</span></p></td>\
-  <td width="148"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">TAGLINE</span></p></td>\
-  <td width="179"><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt;font-weight:bold">DESCRIPTION</span></p></td></tr>\
-<tr valign="top"><td colspan="4" height="14"><p style="margin-left:0pt;line-height:20pt"><span style="font-size:20pt">Round – I –PRARAMBH&nbsp; </span></p></td></tr>\
-<tr valign="top"><td height="14"><p style="margin-left:0pt">1</p></td>\
-  <td><p style="margin-left:0pt">Question answer&nbsp; </p></td>\
-  <td><p style="margin-left:0pt"><span style="font-family:\'Georgia\',\'Arial\';font-size:10pt;color:#181818">“The roughest roads often lead \
-  to the top.”</span></p></td>\
-  <td><p style="margin-left:0pt">Each team will be asked questions with respect to the marketing</p></td></tr>\
-<tr valign="top"><td colspan="4" height="14"><p style="margin-left:0pt;line-height:20pt"><span style="font-size:20pt">Round – II- </span> <span style="font-size:20pt">In-sell-sane</span></p>\
-  </td></tr>\
-<tr valign="top"><td height="14"><p style="margin-left:0pt">2</p></td>\
-  <td><p style="margin-left:0pt;line-height:16pt"><span style="font-size:16pt">Selling Concept</span></p></td>\
-  <td><p style="margin-left:0pt"><span style="font-family:\'Verdana\',\'Arial\';font-size:9pt;color:#333333">“The only way to discover the limits \
-  of the possible is to go beyond them into the impossible.”</span></p></td>\
-  <td><p style="margin-left:0pt">Each team will be given a product to design the selling strategy to \
-  sell the product.</p></td></tr>\
-<tr valign="top"><td colspan="4" height="14"><p style="margin-left:0pt;line-height:20pt"><span style="font-size:20pt">Round – III- </span> <span style="font-size:20pt"> Mad Ad</span></p></td></tr>\
-<tr valign="top"><td height="14"><p style="margin-left:0pt">3</p></td>\
-  <td><p style="margin-left:0pt">Advertising (Based on 2nd round product)</p></td>\
-  <td><p style="margin-left:0pt"><span style="font-family:\'Verdana\',\'Arial\';font-size:9pt;color:#333333">“Nobody counts the number of ads \
-  you run; they just remember the impression you make.”</span></p></td>\
-  <td><p style="margin-left:0pt">Each team will have to design a advertisement for the product provided \
-  in previous round. </p></td></tr>\
-<tr valign="top"><td colspan="4" height="14"><p style="margin-left:0pt;line-height:20pt"><span style="font-size:20pt">Round – IV- Marketing Wizard</span></p></td></tr>\
-<tr valign="top"><td height="14"><p style="margin-left:0pt">4</p></td>\
-  <td>&nbsp;</td>\
-  <td><p style="margin-left:0pt"><span style="font-family:\'Georgia\',\'Arial\';font-size:10pt;color:#181818">“ if it can be thought, it can \
-  be done, a problem can be overcome”</span></p></td>\
-  <td><p style="margin-left:0pt">Each team will be given a non-existence product and they have to frame \
-  marketing strategy for that product.</p></td></tr>\
-<tr valign="top"><td colspan="4" height="14"><p style="margin-left:0pt;line-height:20pt"><span style="font-size:20pt">Round – V- </span> <span style="font-size:20pt">Enigma</span></p></td></tr>\
-<tr valign="top"><td height="14"><p style="margin-left:0pt">5</p></td>\
-  <td><p style="margin-left:0pt">Treasure Hunt</p></td>\
-  <td><p style="margin-left:0pt"><span style="font-family:\'Verdana\',\'Arial\';font-size:9pt;color:#333333">“Rich the&nbsp;treasure,&nbsp;<br>\
-  Sweet the pleasure”</span></p></td>\
-  <td><p style="margin-left:0pt">Each team will be given a clue which will leads to a product.</p></td></tr>\
-<tr valign="top"><td colspan="4" height="14"><p style="margin-left:0pt;line-height:20pt"><span style="font-size:20pt">Round – VI- The second coming</span></p></td></tr>\
-<tr valign="top"><td height="14"><p style="margin-left:0pt">6</p></td>\
-  <td><p style="margin-left:0pt">Product re-launch</p></td>\
-  <td><p style="margin-left:0pt"><span style="font-family:\'Verdana\',\'Arial\';font-size:9pt;color:#333333">“Fall down seven times. Stand up \
-  eight.”</span></p></td>\
-  <td><p style="margin-left:0pt">Each team will be given such a product which has failed in the market \
-  and they have to re-launch the product in the market with new marketing \
-  strategy.</p></td></tr>\
-</tbody></table>'},
+"Markenza": {"image": "./Icons_Final/MARKENZA.png","contact": "Salman Usman <br/>salman.usman91@gmail.com",
+"Description":'<table border="1" cellspacing="0" cellpadding="0" width="600">\
+        <tr>\
+            <td >\
+                    <strong>Sr. No.</strong>\
+            </td>\
+            <td  >\
+                    <strong>NAME OF THE ROUND</strong>\
+            </td>\
+            <td  >\
+                    <strong>TAGLINE</strong>\
+            </td>\
+            <td  >\
+                    <strong>DESCRIPTION</strong>\
+            </td>\
+        </tr>\
+        <tr>\
+            <td  colspan="4" >\
+                    Round – I –PRARAMBH\
+            </td>\
+        </tr>\
+        <tr>\
+            <td >\
+                    1\
+            </td>\
+            <td  >\
+                    Question answer\
+            </td>\
+            <td  >\
+                    “The roughest roads often lead to the top.”\
+            </td>\
+            <td  >\
+                    Each team will be asked questions with respect to the marketing\
+            </td>\
+        </tr>\
+        <tr>\
+            <td  colspan="4" >\
+                    Round – II- In-sell-sane\
+            </td>\
+        </tr>\
+        <tr>\
+            <td >\
+                    2\
+            </td>\
+            <td  >\
+                    Selling Concept\
+            </td>\
+            <td  >\
+                    “The only way to discover the limits of the possible is to go beyond them into the impossible.”\
+            </td>\
+            <td  >\
+                    Each team will be given a product to design the selling strategy to sell the product.\
+            </td>\
+        </tr>\
+        <tr>\
+            <td  colspan="4" >\
+                    Round – III- Mad Ad\
+            </td>\
+        </tr>\
+        <tr>\
+            <td >\
+                    3\
+            </td>\
+            <td  >\
+                    Advertising (Based on 2nd round product)\
+            </td>\
+            <td  >\
+                    “Nobody counts the number of ads you run; they just remember the impression you make.”\
+            </td>\
+            <td  >\
+                    Each team will have to design a advertisement for the product provided in previous round.\
+            </td>\
+        </tr>\
+        <tr>\
+            <td  colspan="4" >\
+                    Round – IV- Marketing Wizard\
+            </td>\
+        </tr>\
+        <tr>\
+            <td >\
+                    4\
+            </td>\
+            <td  >\
+            </td>\
+            <td  >\
+                    “ if it can be thought, it can be done, a problem can be overcome”\
+            </td>\
+            <td  >\
+                    Each team will be given a non-existence product and they have to frame marketing strategy for that product.\
+            </td>\
+        </tr>\
+        <tr>\
+            <td  colspan="4" >\
+                    Round – V- Enigma\
+            </td>\
+        </tr>\
+        <tr>\
+            <td >\
+                    5\
+            </td>\
+            <td  >\
+                    Treasure Hunt\
+            </td>\
+            <td  >\
+                    “Rich the treasure,\
+                    Sweet the pleasure”\
+            </td>\
+            <td  >\
+                    Each team will be given a clue which will leads to a product.\
+            </td>\
+        </tr>\
+        <tr>\
+            <td  colspan="4" >\
+                    Round – VI- The second coming\
+            </td>\
+        </tr>\
+        <tr>\
+            <td >\
+                    6\
+            </td>\
+            <td  >\
+                    Product re-launch\
+            </td>\
+            <td  >\
+                    “Fall down seven times. Stand up eight.”\
+            </td>\
+            <td  >\
+                    Each team will be given such a product which has failed in the market and they have to re-launch the product in the market with new\
+                    marketing strategy.\
+            </td>\
+        </tr>\
+</table>'},
 
 
 	
-"HR_Event":{"image": "./Icons_Final/HR.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<table width="669" style="border-collapse:collapse">\
-<tbody><tr valign="top"><td width="80" height="16"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Rounds</span></p></td>\
-  <td width="157"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Name</span></p></td>\
-  <td width="263"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;font-weight:bold;color:#4f81bd">Tag Line</span></p></td></tr>\
-<tr valign="top"><td height="16"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">1</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">Quiz &amp; Crossword</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">When you know better you do better</span></p></td>\</tr>\
-<tr valign="top"><td height="15"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">2</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">Conception</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;color:#181818">Change the way you look at things\
-  and the things you look at change</span></p></td>\</tr>\
-<tr valign="top"><td height="15"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">3</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">Survival of D fittest</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt;color:#181818">Fight to Fit, Survive to Succeed</span></p></td>\</tr>\
-<tr valign="top"><td height="15"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">4</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">Face off</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">Never wear a backward baseball cap to an interview \
-  unless applying for the job of umpire</span></p></td>\</tr> \
-<tr valign="top"><td height="15"><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">5</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">The Jaws</span></p></td>\
-  <td><p style="text-align:center"><span style="font-family:\'Comic Sans MS\',\'Arial\';font-size:12pt">It’s not stress that kills us; it is our reaction \
-  to it</span></p></td>\</tr>\
-</tbody></table>'},
+"HR_Event":{"image": "./Icons_Final/HR.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231",
+"Description": '<table border="1" cellspacing="0" cellpadding="0" width="600">\
+        <tr>\
+            <td>\
+                    <strong>Rounds</strong>\
+            </td>\
+            <td>\
+                    <strong>Name</strong>\
+            </td>\
+            <td>\
+                    <strong>Tag Line</strong>\
+            </td>\
+        </tr>\
+        <tr>\
+            <td>\
+                    1\
+            </td>\
+            <td>\
+                    Quiz &amp; Crossword\
+            </td>\
+            <td>\
+                    When you know better you do better\
+            </td>\
+        </tr>\
+        <tr>\
+            <td>\
+                    2\
+            </td>\
+            <td>\
+                    Conception\
+            </td>\
+            <td>\
+                    Change the way you look at things and the things you look at change\
+            </td>\
+        </tr>\
+        <tr>\
+            <td>\
+                    3\
+            </td>\
+            <td>\
+                    Survival of D fittest\
+            </td>\
+            <td>\
+                    Fight to Fit, Survive to Succeed\
+            </td>\
+        </tr>\
+        <tr>\
+            <td>\
+                    4\
+            </td>\
+            <td>\
+                    Face off\
+            </td>\
+            <td>\
+                    Never wear a backward baseball cap to an interview unless applying for the job of umpire<strong></strong>\
+            </td>\
+        </tr>\
+        <tr>\
+            <td>\
+                    5\
+            </td>\
+            <td>\
+                    The Jaws\
+            </td>\
+            <td>\
+                    It’s not stress that kills us; it is our reaction to it\
+            </td>\
+        </tr>\
+</table>'},
 
 "Finance_Event":{"image": "./Icons_Final/Finance.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<div>\
 <p><span style="font-size:12pt;font-weight:bold;text-decoration:underline">Finanza – The Finance Event : </span></p>\
@@ -908,10 +1038,6 @@ path</span></p>\
 <p><span style="font-size:12pt">On the basis of certain constraints, decide the best and the most \
 profitable path for the company.</span></p>\
 <p>&nbsp;</p>'},
-
-
-
-
 }
 
 Sce={

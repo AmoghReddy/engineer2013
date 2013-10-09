@@ -58,7 +58,6 @@ def event_description(event,i):
 			description = description.replace('</p>','<br/>')
 			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;" >')
 			print description
-			# print 
 			print '</span>'
 			print '</span>'
 	print '</span>'

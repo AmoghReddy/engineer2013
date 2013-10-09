@@ -2,6 +2,7 @@
   font-family: 'windows';
   font-style: normal;
   font-weight: 300;
+  letter-spacing: 10px;
   src: url("windows.woff") format('woff');
 }
 

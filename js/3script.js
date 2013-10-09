@@ -440,7 +440,7 @@ function getHomeTargets(source, destination, depth)
 
 function getRandomTarget(object) //always outside the view
 {
-	object.position.z = (Math.random() * 5000 + 100) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.z = (Math.random() * 5000 + 1000) * Math.pow(-1, Math.floor(Math.random() * 100));
 	var offsetY = (camera.position.z - object.position.z) * Math.tan((Math.PI/180) * cameraAngle / 2);
 	object.position.y = (Math.random() * 2000 + offsetY + window.innerHeight / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
 	object.position.x = (Math.random() * 2000 + offsetY * (window.innerWidth / window.innerHeight) + window.innerWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
