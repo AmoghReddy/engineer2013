@@ -59,7 +59,7 @@ Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/h
 	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
 Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
 	
-	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
+	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore. \
 			Registration Fee:  Rs 4250/ team.</br> Each team can have a maximum of 5 members (850/head).</br> A kit will be provided to each team.</p>	"},
 
 	"Humanoid_Robot": {"image": "./Icons_Final/ROBOTICS.png", "contact": "Manasij", "Description": "<p>You've been seeing videos of robots which walk, fight and even play football. However, workshops generally don't teach you to build such amazing robots. For the very first time in Engineer we will be conducting a workshop where we will be building a bipedal robot which can perform the above tasks. The workshop will be conducted by Frugal Labs who are based in Bangalore.</br>\
@@ -94,7 +94,7 @@ krishnamohan651@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
 sushil199124@gmail.com<br/>\
-","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members.\
+","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members. \
 o All members of the team should be enrolled as students in an educational institute.\
 o No person can be a part of more than one team."},
 
@@ -368,7 +368,7 @@ Comps={
 "Inscription":{"image": "./Icons_Final/INSCRIPTION.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each team programs their virtual bots to play a certain game. Bots programmed by different teams have a face-off in a quest to be the ''smartest'' bot!<br/>\
+"Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b><br/>"},
 
 "Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
@@ -408,12 +408,12 @@ Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of
 Science, Bangalore. His cutting edge research on black holes brought him to the limelight recently as \
 reflected in the following article. http://articles.timesofindia.indiatimes.com/2013-09-21/science/42272405_1_black-holes-mass-and-spin-iisc \
 He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\
-His page for more details:\
-http://www.physics.iisc.ernet.in/~bm/\
+His page for more details: \
+http://www.physics.iisc.ernet.in/~bm/ \
 Dr Jayaram Narayanan Chengalur\
 Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be \
-giving a talk on the impact of engineers in the field of pure science.\
- We also present Video Conferences from varied speakers on physics, astrophotography and much more.\
+giving a talk on the impact of engineers in the field of pure science. \
+ We also present Video Conferences from varied speakers on physics, astrophotography and much more. \
 Come. See. Rejoice."},
 
 "StarWars":{"image":"./Icons_Final/starwars.png","contact":"Mrinal Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
@@ -480,7 +480,7 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
 
 "Product_Design_Challenge":{"image": "./Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
@@ -489,7 +489,7 @@ Biz={
 "Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
 <b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
 
-"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
@@ -1077,8 +1077,50 @@ produce at the time of registration.</p><p>&bull; A team may comprise a maximum 
 "wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. <br/>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the <br/>\
 <p>organizing committee won&rsquo;t be providing any.</p><p><a href='wrightflight.pdf'>Download</a></p>"},
 
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.<br/>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make <br/>\
-<p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"},
+"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>9731937661", "generalrules": "\
+• Participants must carry valid ID cards of their respective college, which must be <br />\
+produced at the time of registration.<br />\
+• Maximum number of participants per team is four.<br />\
+• Readymade kits are not allowed.<br />\
+• Each team is allowed to participate with not more than one bot.<br />\
+• Judges decision will be final and binding.","eventrules":"• There shall be one qualifying round.<br />\
+• The qualifying round is to test the test the maneuverability and the water shooting \
+capacity of the bot.<br />\
+• The top 8 will qualify for the final round.<br />\
+• Teams will be provided with external 230V AC supply.<br />\
+• Teams must ensure that all mechanisms employed within the bot must not destroy the <br />\
+arena in any manner.<br />\
+• Any modifications on the bot must be made between the trials. Provision to make <br />\
+modifications during a trial is not permitted.","botsspecs":"• Bots may be wired or wireless.<br />\
+• Controlling wires (if any) should not be taut at any point during the trial.<br />\
+• The bot has to fit in a box of dimensions 30*30*30 cm3<br />\
+• The width of the flume is 72cm. There are no other dimensional restrictions on the <br />\
+width or length. Keep in mind the functional requirements of the bot.<br />\
+• No restriction on weight of bot.<br />\
+• The potential difference between any two points on the bot must not exceed 12V.<br />\
+• Electrical components must be adequately insulated to prevent any complications <br />\
+that could arise because of it coming in contact with water.","eventformat":"• Round 1<br />\
+The bot has to start from point A and travel along the length of the tank to point B. At point B, <br />\
+the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At <br />\
+point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure <br />\
+below for reference.<br />\
+• Round 2<br />\
+The participants are supposed to aim and shoot maximum of the three targets placed at <br />\
+gradually increasing heights at different distances. The details of the targets are shown below. <br />\
+The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time <br />\
+remaining is also taken into account for the scoring system. The targets have to be destroyed in <br />\
+the following sequence- A –B - C","scoring":"Time taken in round 1 = t1<br />\
+Time taken for destroying target 1 = t2 (seconds)<br />\
+Time taken for destroying target 2 = t3 (seconds)<br />\
+Time taken for destroying target 3 = t4 (seconds) <br />\
+T4 will be calculated only after all three targets have been brought down.<br />\
+Time remaining after all the targets have been destroyed = t5 (seconds)<br />\
+Range of the jet in round 1 = R (cm)<br />\
+FIRST ROUND EVALUATION:<br />\
+S1 = <br />\
+Based on S1 , top eight teams are qualified for the next round and awarded points from 40 to 5 <br />\
+(40, 35, 30 .. and so on). These points are carried forward for the final score.<br />\
+Final Score, S = + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
 
 "Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>koodlyakashay@gmail.com", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": "ÿ The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
