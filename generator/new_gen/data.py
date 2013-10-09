@@ -59,7 +59,7 @@ Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/h
 	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
 Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
 	
-	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
+	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore. \
 			Registration Fee:  Rs 4250/ team.</br> Each team can have a maximum of 5 members (850/head).</br> A kit will be provided to each team.</p>	"},
 
 	"Humanoid_Robot": {"image": "./Icons_Final/ROBOTICS.png", "contact": "Manasij", "Description": "<p>You've been seeing videos of robots which walk, fight and even play football. However, workshops generally don't teach you to build such amazing robots. For the very first time in Engineer we will be conducting a workshop where we will be building a bipedal robot which can perform the above tasks. The workshop will be conducted by Frugal Labs who are based in Bangalore.</br>\
@@ -94,7 +94,7 @@ krishnamohan651@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
 sushil199124@gmail.com<br/>\
-","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members.\
+","Home": "Civil Engineering is an art; a profession of creative ability and logic. Architect provides an opportunity for participants to unleash their innovation in designing an object of significance and splendor. This event aims to harness practical design and constructional abilities of the participants.", "Description": "Participants are required to prepare models for a predefined problem within a fixed time limit. The models will later be put to test and teams fulfilling the winning criteria in the best way will be declared winners. This event has attracted participants from various colleges and students from all disciplines can give it a shot.", "format": "The detailed problem statement will be given out on the spot. All materials required to make the model will be provided by the organizers. All the models completed within the given period, abiding the rules and regulations will be tested on the spot and evaluated by the judges.", "Eligibility": "o The team can include a maximum of two members. \
 o All members of the team should be enrolled as students in an educational institute.\
 o No person can be a part of more than one team."},
 
@@ -371,31 +371,31 @@ Comps={
 "Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b><br/>"},
 
-"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
-you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have\
-a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our\
-codes. This event not only tests the mastery over and familiarity with a programming language but\
+"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can \
+you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have \
+a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our \
+codes. This event not only tests the mastery over and familiarity with a programming language but \
 also your dexterity in analyzing problems and providing logical solutions.<br/>\
 <b>Individual event</b><br/>"},
 
-"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
-computer science from basic programming, scripting, to operating systems and networks. This\
-Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
-developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
+"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of \
+computer science from basic programming, scripting, to operating systems and networks. This \
+Engineer, Marathon is planned to be more challenging, which tests your mind with the latest \
+developing technologies in the field of Computer Science. After all, Computer Science is the fastest \
 growing and the fastest changing area of Engineering.<br/>\
-Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test\
-how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we\
+Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test \
+how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we \
 can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
-Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
-at the same time defending your own.<br/>\
+"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the \
+Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while \
+at the same time defending your own.<br/> \
 <b>Teams of 3.</b><br/>"},
 
-"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
-of the participants are put to test. Using search engines, the participants need to figure out the clues\
-which will take them all around the World Wide Web in order to get to the next more intriguing\
+"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills  \
+of the participants are put to test. Using search engines, the participants need to figure out the clues \
+which will take them all around the World Wide Web in order to get to the next more intriguing \
 level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
 <b>Individual event</b>"}
 
@@ -408,12 +408,12 @@ Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of
 Science, Bangalore. His cutting edge research on black holes brought him to the limelight recently as \
 reflected in the following article. http://articles.timesofindia.indiatimes.com/2013-09-21/science/42272405_1_black-holes-mass-and-spin-iisc \
 He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\
-His page for more details:\
-http://www.physics.iisc.ernet.in/~bm/\
+His page for more details: \
+http://www.physics.iisc.ernet.in/~bm/ \
 Dr Jayaram Narayanan Chengalur\
 Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be \
-giving a talk on the impact of engineers in the field of pure science.\
- We also present Video Conferences from varied speakers on physics, astrophotography and much more.\
+giving a talk on the impact of engineers in the field of pure science. \
+ We also present Video Conferences from varied speakers on physics, astrophotography and much more. \
 Come. See. Rejoice."},
 
 "StarWars":{"image":"./Icons_Final/starwars.png","contact":"Mrinal Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
@@ -480,7 +480,7 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
 
 "Product_Design_Challenge":{"image": "./Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
@@ -489,7 +489,7 @@ Biz={
 "Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
 <b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
 
-"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
@@ -526,8 +526,8 @@ Tronix={
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
- You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
-  in this innovative event<br/>and hone your robotic skills.<br/>\
+ You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate\
+  in this innovative event and hone your robotic skills.<br/>\
  <b>Problem Statement</b><br/>Will be released soon<br/>\
 <br/><B>ROBOT SPECIFICATIONS</B><br/><ul><li>The robot should be completely autonomous and self contained; external computers not allowed.</li>\
 <li>The robot should fit into a box of dimensions 25cm x 25cm x 25cm.</li>\
@@ -539,7 +539,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>Sharp objects on the robot which may damage or mark the arena will lead to disqualification of the team.</li></ul>\
 <br/><B>OTHER DETAILS</B><br/><ul><li>A maximum of 4 members may be present in one team.</li>\
 <li>Total time allotted is 10 minutes.</li>\
-<li>Each team will be given 10 minutes in which they can start the<br/> attempt a maximum of 3 times of which the best time of completion will <br/>be recorded for the results.</li>\
+<li>Each team will be given 10 minutes in which they can start to attempt a maximum of 3 times of which the best time of completion will be recorded for the results.</li>\
 <li>The robot may not deviate completely from the path at any time.</li>\
 <li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>\
 <br/><B>CONTEST PROCEDURE</B><br/>\
@@ -555,7 +555,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 "},
 
 "Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
-The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
+The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement<br/>\
 Arena Details</b> \
@@ -602,8 +602,8 @@ A maximum of 4 members per team is allowed. We do not provide computers to the p
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
 "},
 
-"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
-If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
+"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity” and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity sees amateur to professional participants from around the world trying to crack problems in various fields of mathematics, science and engineering.<br/>\
 The dates for test run and the main event will be announced shortly<br/>\
 <B>EVENT FORMAT</B><br/>\
 This is an online event<br/>\
@@ -625,8 +625,8 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
-There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
+"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates, this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits but also making judicious use of the resources is taken into account. So get ready to scratch your gray cells, and start designing!<br/>\
 <B>EVENT FORMAT<br/>\
 Round 1</b><br/>\
 Written qualification round comprising of objective questions conducted during Engineer.<br/>\
@@ -656,7 +656,7 @@ Judges' decision will be final and binding in all cases.<br/>\
 "},
 
 "FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
-Foxhunt, is a fun filled package on the lines of a traditional English activity involving<br/>tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,<br/>the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated<br/>anywhere in the campus, using a tunable radio receiver and an antenna built by them,<br/>making the event full of fun and excitement.<br/>\
+Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
 <B>EVENT FORMAT</B><br/>\
 The event will have two phases <br/>\
 <b>-FM reception stage(Phase 1)<br/> \
@@ -683,7 +683,7 @@ Usage of mobile phones or other means of communication between teams during the 
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts. At Engineer 2012,<br/>Symphony gives the participants an opportunity to dabble into the sights<br/>and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,<br/>so that the fountain dances to the tunes of the music. A huge draw every Engineer, Symphony<br/>generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer 2012,Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
 <B>EVENT FORMAT</B><br/>\
@@ -702,10 +702,10 @@ Teams can comprise of a maximum of three members.<br/>\
 The music input is given in the form of a stereo signal to the circuit through a standard male earphone connector as line-in.<br/>The music will also be played simultaneously on the speaker.<br/>\
 A qualification round will be conducted prior to the final competition based on which teams will be filtered.<br/>The teams will be allowed to tune their circuits during this round.<br/>\
 <B>JUDGING CRITERIA</B><br/>\
-Synchronization with the tunes – The operation of the fountain should be in harmony with music component(s).<br/>The team shall make this clear while explaining their algorithm.<br/>(The music components can be any apparent feature such as frequency range,<br/>amplitude, a combination of frequency and amplitude, etc.) Better synchronization carries more points.<br/>\
+Synchronization with the tunes – The operation of the fountain should be in harmony with music component(s).<br/>The team shall make this clear while explaining their algorithm.<br/>(The music components can be any apparent feature such as frequency range, amplitude, a combination of frequency and amplitude, etc.) Better synchronization carries more points.<br/>\
 Aesthetic appeal – Along with synchronization, the combination and sequence of water jets and<br/>lights should be chosen so as to create the best possible aesthetic appeal.<br/>\
-Design of the circuit – Teams shall explain their circuit to the judges. Good quality designs shall<br/>carry more marks.<br/>\
-Cost of the circuit – Cost of the circuit should be kept at minimum. Higher the cost of the circuit,<br/>lesser the points.<br/>\
+Design of the circuit – Teams shall explain their circuit to the judges. Good quality designs shall carry more marks.<br/>\
+Cost of the circuit – Cost of the circuit should be kept at minimum. Higher the cost of the circuit, lesser the points.<br/>\
 The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 "},
@@ -1040,12 +1040,12 @@ profitable path for the company.</span>\
 
 Sce={
 
-"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
+"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
+"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
 "Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}	
+"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based on their business feasibility and environmental impact.<br/>"}	
 }
 
 Mechanical={
