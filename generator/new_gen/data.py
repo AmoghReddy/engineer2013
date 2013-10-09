@@ -215,7 +215,7 @@ Using Automatic sniper rifles (Kreig 550 commando & D3/AU1) is not allowed. It m
  &#159; allow_spectators 1 decalfrequency 60 <br/>\
  &#159; edgefriction 2 host_framerate 0 <br/>\
  &#159; log on pausable 0 <br/>\
-q Allowed Setting Values for Client <br/>\
+ Allowed Setting Values for Client <br/>\
 cl_updaterate 101 cl_cmdrate 101 <br/>\
 rate 25000 m_filter 1/0 <br/>\
 hud_fastswitch 1/0 zoom_sensitivity_ratio <br/>\
@@ -257,56 +257,55 @@ If a player does not agree to any rules, he/she can express his/her protest to a
 be made at the sole discretion of the referee. <br/>\
 If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},
 
-"dota":{"image":"Icons_Final/dOTA.png","contact":"Satish Chandra <br/> 9740523343","specifications":"<p>Competition format: 5v5 Teams</p>\
-<p>Match format: Single elimination i.e,Knockout</p><br/>\
-<p>Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.</p><br/>\
-<p>Finals will be 'Best of 3 games' and all other rounds will be single game only.<br/>\
-</p>","gamesetting":"<p>Version : Tournament</p> <br/>\
-<p>Password : Yes</p> <br/>\
-<p>Cheats : No</p> <br/>\
-<p>Spectators : Yes (Only the admins will spectate the matches)</p> <br/>\
-<p>Radiant Penalty : None</p><br/>\
-<p>Dire Penalty : None<br/>\
-Rules</p><br/>\
-<p>All players are required to have valid steam IDs.</p><br/>\
-<p>Teams must report to the venue at the time informed. If they cannot report within 10mins of allotted time, they will be disqualified. The time will be informed in the contact provided by the team at least 45 minutes in advance.</p><br/>\
-<p>The administrator's decision will be final in case of any dispute.</p><br/>\
-<p>Game will be hosted by Engineer committee using referees.</p><br/>\
-<p>Team members are not allowed to change seats once the DOTA map has started to load.</p><br/>\
-<p>At the end of the match, competitors must maintain the final screenshots and receive the confirmation from the admin.</p><br/>\
-<p>Backdooring is allowed. However instances of teleport abuse are not allowed. You cannot use any form of teleport (furion skill) to enter an enemy base unless your creeps are already present in the base. Example: Furion teleporting into enemy's base without Furion's creeps present.</p><br/>\
-<p>Sharing of items is allowed as long as the game permits.</p><br/>\
-<p>Competitors may pick up items dropped by their opponents.</p><br/>\
-<p>Control Sharing is allowed.</p><br/>\
-<p>Abuse &amp; Exploitation:</p><br/>\
-<p>Trees Trapping: intentionally trapping enemies in trees is not allowed (except Furion's skill).</p><br/>\
-<p>Pause Abuse: From the point after hero selection process is completed, pausing without any valid reason is not allowed.</p><br/>\
-<p>Creep Blocking: Creep blocking (such as using creeps to block the entrance to the base or using fissure, disallowing creeps from moving down the lane completely) is not allowed. Creep slowing (such as moving in front of the creeps in zigzag manner to slow their progress or using fissure) is allowed.</p><br/>\
-<p>Bug Exploitation: Exploitation of any known or newly discovered bug during the match will result in an immediate disqualification of the team. Excuses will not be entertained. Not knowing the bug is not an excuse, competitors are expected to know the current bugs.</p><br/>\
-<p>Definition of Bugs</p><br/>\
-<p>Anything abnormal which will give a competitor / team an unfair advantage.</p><br/>\
-<p>Anything which will cause interruption / fatal error to the game.</p><br/>\
-<p>Penalties</p><br/>\
-<p>Warning: After a warning is given, the game goes on. If these warnings are accumulated by the team during the match, the team will be disqualified from the tournament.</p><br/>\
-<p>Game Loss: A 'Game loss' given to a team means that the team will automatically lose the game, irrelevant of the actual match result.</p><br/>\
-<p>Disqualifications: A team disqualification will lead to the team being removed from the tournament. They will not be allowed to take part in the current event.</p><br/>\
-<p>Game Saves</p><br/>\
-<p>First save will be at either:</p><br/>\
-<p>15 minutes into the game</p><br/>\
-<p>First blood</p><br/>\
-<p>Second save onwards will be every 15 minutes of the game.</p><br/>\
-<p>Saves will be done after any tower/rax are taken down or after a major gank/team-battle at a 'safe' instance decided by the Admins/Referees.</p><br/>\
-<p>Admins/Referees have the right to request for additional game save at any moment during the tournament.</p><br/>\
-<p>Any competitor found to have intentionally disconnected from the game will give that competitor's team a loss for that match.</p><br/>\
-<p>If any competitors are disconnected within 15 minutes after the game start, the game will be restarted with same heroes on same players and same lanes have to be maintained till 1st creepwave clashes.</p><br/>\
-<p>If any competitors are disconnected 15 minutes after the game start, the game will be reloaded from the latest save, if no barracks have been destroyed since last save. If so, the game will continue.</p><br/>\
-<p>In case of game crash, the game will be reloaded from the latest save.</p><br/>\
-<p>No random chats are allowed in all-chat during the game. Request for pause or save can be made by either captain at any point.</p><br/>\
-<p>Pauses are allowed, but there can only be a maximum of two pauses, each 5 minutes, per team. If you cannot agree for longer pauses, the game can be resumed after 5 minutes. Before pausing and un-pausing , you need to inform your enemy about this, so that you don't get any advantage. Pauses must be for genuine reasons only.</p><br/>\
-<p>Players are allowed to remap keys before the game, and not during the course of the game.</p><br/>\
-<p>Any use of hacks like maphack or any software or scripts which gives any unfair advantage is banned and will result in instant disqualification from the tournament.</p><br/>\
-<p>Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;</p><br/>\
-<p>Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;</p>"},
+"dota":{"image":"Icons_Final/dOTA.png","contact":"Satish Chandra <br/> 9740523343","specifications":"Competition format: 5v5 Teams\
+Match format: Single elimination i.e,Knockout<br/>\
+Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.<br/>\
+Finals will be 'Best of 3 games' and all other rounds will be single game only.<br/>\
+","gamesetting":"Version : Tournament <br/>\
+<b>Password :</b> Yes <br/>\
+<b>Cheats :</b> No <br/>\
+<b>Spectators :</b> Yes (Only the admins will spectate the matches) <br/>\
+<b>Radiant Penalty :</b> None<br/>\
+<b>Dire Penalty :</b> None<br/>\
+<b>Rules</b><br/>\
+All players are required to have valid steam IDs.<br/>\
+Teams must report to the venue at the time informed. If they cannot report within 10mins of allotted time, they will be disqualified. The time will be informed in the contact provided by the team at least 45 minutes in advance.<br/>\
+The administrator's decision will be final in case of any dispute.<br/>\
+Game will be hosted by Engineer committee using referees.<br/>\
+Team members are not allowed to change seats once the DOTA map has started to load.<br/>\
+At the end of the match, competitors must maintain the final screenshots and receive the confirmation from the admin.<br/>\
+Backdooring is allowed. However instances of teleport abuse are not allowed. You cannot use any form of teleport (furion skill) to enter an enemy base unless your creeps are already present in the base. Example: Furion teleporting into enemy's base without Furion's creeps present.<br/>\
+Sharing of items is allowed as long as the game permits.<br/>\
+Competitors may pick up items dropped by their opponents.<br/>\
+Control Sharing is allowed.<br/>\
+<b>Abuse &amp; Exploitation:</b><br/>\
+<b>Trees Trapping:</b> intentionally trapping enemies in trees is not allowed (except Furion's skill).<br/>\
+<b>Pause Abuse:</b> From the point after hero selection process is completed, pausing without any valid reason is not allowed.<br/>\
+<b>Creep Blocking:</b> Creep blocking (such as using creeps to block the entrance to the base or using fissure, disallowing creeps from moving down the lane completely) is not allowed. Creep slowing (such as moving in front of the creeps in zigzag manner to slow their progress or using fissure) is allowed.<br/>\
+<b>Bug Exploitation:</b> Exploitation of any known or newly discovered bug during the match will result in an immediate disqualification of the team. Excuses will not be entertained. Not knowing the bug is not an excuse, competitors are expected to know the current bugs.<br/>\
+<b>Definition of Bugs</b><br/>\
+Anything abnormal which will give a competitor / team an unfair advantage.<br/>\
+Anything which will cause interruption / fatal error to the game.<br/>\
+<b>Penalties</b><br/>\
+Warning: After a warning is given, the game goes on. If these warnings are accumulated by the team during the match, the team will be disqualified from the tournament.<br/>\
+Game Loss: A 'Game loss' given to a team means that the team will automatically lose the game, irrelevant of the actual match result.<br/>\
+Disqualifications: A team disqualification will lead to the team being removed from the tournament. They will not be allowed to take part in the current event.<br/>\
+<b>Game Saves</b><br/>\
+First save will be at either:<br/>\
+15 minutes into the game or First blood<br/>\
+Second save onwards will be every 15 minutes of the game.<br/>\
+Saves will be done after any tower/rax are taken down or after a major gank/team-battle at a 'safe' instance decided by the Admins/Referees.<br/>\
+Admins/Referees have the right to request for additional game save at any moment during the tournament.<br/>\
+Any competitor found to have intentionally disconnected from the game will give that competitor's team a loss for that match.<br/>\
+If any competitors are disconnected within 15 minutes after the game start, the game will be restarted with same heroes on same players and same lanes have to be maintained till 1st creepwave clashes.<br/>\
+If any competitors are disconnected 15 minutes after the game start, the game will be reloaded from the latest save, if no barracks have been destroyed since last save. If so, the game will continue.<br/>\
+In case of game crash, the game will be reloaded from the latest save.<br/>\
+No random chats are allowed in all-chat during the game. Request for pause or save can be made by either captain at any point.<br/>\
+Pauses are allowed, but there can only be a maximum of two pauses, each 5 minutes, per team. If you cannot agree for longer pauses, the game can be resumed after 5 minutes. Before pausing and un-pausing , you need to inform your enemy about this, so that you don't get any advantage. Pauses must be for genuine reasons only.<br/>\
+Players are allowed to remap keys before the game, and not during the course of the game.<br/>\
+Any use of hacks like maphack or any software or scripts which gives any unfair advantage is banned and will result in instant disqualification from the tournament.<br/>\
+Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;<br/>\
+Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;"},
 
  "Fifa":{"image":"./Icons_Final/fifa.png","contact":"Satish Chandra <br/> 9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p><br/>\
 &middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p><br/>\
@@ -767,57 +766,56 @@ Mba={
 bnmtheja@gmail.com<br/>\
 Padmini M<br/>\
 +918123463865<br/>\
-pm27178@gmail.com" , "REMINDER": "<p>DESCRIPTION OF THE GAME:<br/>\
-&#61607; 10 minutes to solve the 15 multiple choice questions.<br/>\
+pm27178@gmail.com" , 
+"ROUND 1": "<b>REMINDER</b><br/>DESCRIPTION OF THE GAME:<br/>\
+- 10 minutes to solve the 15 multiple choice questions.<br/>\
 RULES:<br/>\
-&#61607; Each correct answer will carry 10 points.<br/>\
-&#61607; Total points for this round are 150.<br/>\
-&#61607; There will be no negative marking system for this round.<br/>\
+- Each correct answer will carry 10 points.<br/>\
+- Total points for this round are 150.<br/>\
+- There will be no negative marking system for this round.<br/>\
 TIME DURATION:<br/>\
-&#61607; 10 Minutes.<br/>\
+- 10 Minutes.<br/>\
 JUDGEMENT CRITERIA:<br/>\
-&#61607; Points would not be awarded for more than one answer</p>", "Double Trouble": "<p>DESCRIPTION OF THE GAME:<br/>\
-&#61607; Teams have to identify the shown images along with their background/specialty.<br/>\
-e.g.: If the given image is about the car, then participants should identify the <br/>\
-manufacturer/ company of the car as well as the model of the car. <br/>\
+- Points would not be awarded for more than one answer", 
+"ROUND 2": "<b> DOUBLE TROUBLE</b><br/>DESCRIPTION OF THE GAME:<br/>\
+- Teams have to identify the shown images along with their background/specialty.<br/>\
+e.g.: If the given image is about the car, then participants should identify the manufacturer company of the car as well as the model of the car. <br/>\
 RULES:<br/>\
-&#61607; There should be no repetition.<br/>\
-&#61607; Each correct answer will carry 20 points.<br/>\
-&#61607; Total points for this round are 60.<br/>\
+- There should be no repetition.<br/>\
+- Each correct answer will carry 20 points.<br/>\
+- Total points for this round are 60.<br/>\
 TIME DURATION:<br/>\
-&#61607; 10 Seconds per image.<br/>\
+- 10 Seconds per image.<br/>\
 JUDGEMENT CRITERIA:<br/>\
-&#61607; Points would be allotted for both identification of image and its background or <br/>\
-specialty.<br/>\
-&#61607; 10 points would be allotted for at least single identification of the image.<br/>\
-&#61607; There will be a negative marking system in this round.<br/>\
-&#61607; 10 points will be deducted for each incorrect answer.<br/>\
-&#61607; If one team is unable to identify the image, then it will be forward to next team.<br/>\
-&#61607; If the next team gives the correct answer, bonus of 5 points will be awarded, and <br/>\
-if the respective team fails to answer correctly, then there will be a penalty of 10 <br/>\
-points.</p>", "SOUNDTRACK": "<p>DESCRIPTION OF THE GAME:<br/>\
-&#61607; A one minute audio/ video clip would be listened/ shown to each team <br/>\
-respectively;<br/>\
-&#61607; Team has to identify the theme of the audio/ video.<br/>\
+- Points would be allotted for both identification of image and its background or specialty.<br/>\
+- 10 points would be allotted for at least single identification of the image.<br/>\
+- There will be a negative marking system in this round.<br/>\
+- 10 points will be deducted for each incorrect answer.<br/>\
+- If one team is unable to identify the image, then it will be forward to next team.<br/>\
+- If the next team gives the correct answer, bonus of 5 points will be awarded, and <br/>\
+if the respective team fails to answer correctly, then there will be a penalty of 10 points.", 
+"ROUND 3": "<b>SOUNDTRACK</b><br/>DESCRIPTION OF THE GAME:<br/>\
+- A one minute audio/ video clip would be listened/ shown to each team respectively;<br/>\
+- Team has to identify the theme of the audio/ video.<br/>\
 RULES:<br/>\
-&#61607; There should be no repetition.<br/>\
-&#61607; 20 points for correct answer.<br/>\
-&#61607; Total points for this round are 40.<br/>\
+- There should be no repetition.<br/>\
+- 20 points for correct answer.<br/>\
+- Total points for this round are 40.<br/>\
 TIME DURATION:<br/>\
-&#61607; For audio &ndash; Max. 30 seconds.<br/>\
-&#61607; For video - According to the length of the video<br/>\
+- For audio &ndash; Max. 30 seconds.<br/>\
+- For video - According to the length of the video<br/>\
 JUDGEMENT CRITERIA:<br/>\
-&#61607; Time limit for thinking about the audio/ video should not be exceeding more than <br/>\
-15 seconds.<br/>\
-&#61607; There will be negative marking system for this round.<br/>\
-&#61607; Penalty of 10 points for incorrect answer.</p>", "RAPIDO": "<p>DESCRIPTION OF THE GAME:<br/>\
-&#61607; 5 rapid fire questions for each participant.<br/>\
+- Time limit for thinking about the audio/ video should not be exceeding more than 15 seconds.<br/>\
+- There will be negative marking system for this round.<br/>\
+- Penalty of 10 points for incorrect answer.", 
+"ROUND 4": "<b>RAPIDO</b><br/>DESCRIPTION OF THE GAME:<br/>\
+- 5 rapid fire questions for each participant.<br/>\
 RULES:<br/>\
-&#61607; No repetition of the questions.<br/>\
+- No repetition of the questions.<br/>\
 JUDGEMENT CRITERIA:<br/>\
-&#61607; Each correct answer will carry 20 points.<br/>\
-&#61607; Total points for this round are 100.<br/>\
-&#61607; There will be no negative marking for this round</p>"},
+- Each correct answer will carry 20 points.<br/>\
+- Total points for this round are 100.<br/>\
+- There will be no negative marking for this round"},
 
 
 "Markenza": {"image": "./Icons_Final/MARKENZA.png","contact": "Salman Usman <br/>salman.usman91@gmail.com",
@@ -1026,18 +1024,18 @@ JUDGEMENT CRITERIA:<br/>\
 </table>'},
 
 "Finance_Event":{"image": "./Icons_Final/Finance.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<div>\
-<p><span style="font-size:12pt;font-weight:bold;text-decoration:underline">Finanza – The Finance Event : </span></p>\
-<p><span style="font-size:12pt">The ultimate showdown of financial management skills! Do you have\
-what it takes to be a finance guru?</span></p>\
-<p><span style="font-size:12pt;font-weight:bold;text-decoration:underline">Round 1-</span><span style="font-size:12pt;font-weight:bold"> <span style="font-size:12pt;text-decoration:underline">Fin IQ</span> </span></p>\
-<p><span style="font-size:12pt">Quiz to test your basic financial and economic knowledge.</span></p>\
-<p><span style="font-size:12pt;font-weight:bold;text-decoration:underline">Round 2- IPL Mock Auction</span></p>\
-<p><span style="font-size:12pt">Manage to build a sound team by managing your virtual money.</span></p>\
-<p><span style="font-size:12pt;font-weight:bold;text-decoration:underline">Round 3-Profitable \
-path</span></p>\
-<p><span style="font-size:12pt">On the basis of certain constraints, decide the best and the most \
-profitable path for the company.</span></p>\
-<p>&nbsp;</p>'},
+<span style="font-size:12pt;font-weight:bold;text-decoration:underline">Finanza – The Finance Event : </span>\
+<span style="font-size:12pt">The ultimate showdown of financial management skills! Do you have\
+what it takes to be a finance guru?</span>\
+<span style="font-size:12pt;font-weight:bold;text-decoration:underline">Round 1-</span><span style="font-size:12pt;font-weight:bold"> <span style="font-size:12pt;text-decoration:underline">Fin IQ</span> </span>\
+<span style="font-size:12pt">Quiz to test your basic financial and economic knowledge.</span>\
+<span style="font-size:12pt;font-weight:bold;text-decoration:underline">Round 2- IPL Mock Auction</span>\
+<span style="font-size:12pt">Manage to build a sound team by managing your virtual money.</span>\
+<span style="font-size:12pt;font-weight:bold;text-decoration:underline">Round 3-Profitable \
+path</span>\
+<span style="font-size:12pt">On the basis of certain constraints, decide the best and the most \
+profitable path for the company.</span>\
+&nbsp;'},
 }
 
 Sce={
