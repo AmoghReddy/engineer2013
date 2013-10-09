@@ -1067,12 +1067,59 @@ attack mechanism provided.<br/>\
 &bull; The organizers reserve the right to change any or all of the above rules or add any rules \
 as they deem fit.<br/>\
 &bull; Violation of any the above rules will lead to disqualification.<br/>\
-&bull; Judges' decision shall be treated as final and binding on all. <br/><a href='data/GENERALRULES.pdf'>Download</a>"},
+&bull; Judges' decision shall be treated as final and binding on all.","download": "<a href='data/GENERALRULES.pdf'>Download</a>"},
 
 
-"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"&bull; The students must carry valid student ID cards of their college which they will be required to \
-produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br/>&bull; The team is not permitted to compete with more than one bot.<br/>&bull; Teams will not be allowed to modify their bots during their trial.","eventformat":"&bull; Each round will be of a maximum of 15 min duration.<br/>&bull; Fig 1 portrays the arena <br/>&bull; Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights.<br/>&bull; In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br/>&bull; Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 will be at the height of 25cm from the arena.<br/>&bull; A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is required to climb over this bridge and throw the objects in hoop 3.<br/>&bull; Each bot will be given only one round in which they need to complete the task.<br/>&bull; If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 seconds) or toppled over, those teams cannot ask for restore.<br/>&bull; The organizers reserve the right to change any or all of the above rules as they deem fit.<br/>&bull; Violation of any the above rules will lead to disqualification.<br/>\
-&bull; Judges' decision shall be treated as final and binding on all.<br/><a href='data/perfectmachineprob.pdf'>Download</a>"},
+"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br />\
+Contestants will have to register online. On spot registrations can also be done.<br />\
+A team may comprise a maximum of FIVE participants.<br />\
+Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br />\
+The team is not permitted to compete with more than one bot.<br />\
+Teams will not be allowed to modify their bots during their trial.<br />\
+.","eventformat":"Each round will be of a maximum of 15 min duration.<br />\
+Fig 1 portrays the arena <br />\
+Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br />\
+In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br />\
+Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 will be at the height of 25cm from the arena. <br />\
+A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is required to climb over this bridge and throw the objects in hoop 3.<br />\
+Each bot will be given only one round in which they need to complete the task.<br />\
+If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 seconds) or toppled over, those teams cannot ask for restore.<br />\
+The organizers reserve the right to change any or all of the above rules as they deem fit.<br />\
+Violation of any the above rules will lead to disqualification.<br />\
+Judges' decision shall be treated as final and binding on all.<br />\
+","judging":"A task is considered as completed only if all the objects are thrown into yhe respective hoops in.<br />\
+The score given to each team at the end of their trial as follows<br />\
+Score = ((10*h1+20*h2+40*h3) *t<br />\
+Where,<br />\
+t= Time remaining after the completion of the task (in minutes) (only after 9 objects are thrown).<br />\
+h1= Number of objects thrown in hoop 1(max=3).<br />\
+h2= Number of objects thrown in hoop 2(max=3).<br />\
+h3= Number of objects thrown in hoop 3(max=3).<br />\
+In case of a tie,<br />\
+Number of balls put will be considered. If scores are level even after that, the team to complete the task fastest will be awarded as winners.<br />\
+","specifications":"BOT SPECIFICATIONS<br />\
+The initial bot dimensions should not exceed 30 x 30 x 20 cm3&#160;excluding the control device dimensions. This dimension excludes the dimension of lifting mechanism <br />\
+The weight of the bot should not exceed 15 kgs.<br />\
+The bot can be controlled wirelessly or with wires.<br />\
+Readymade wireless remote control units may be used.<br />\
+In case wired control is used, the wire(s) must remain slack throughout the event. If the wires are visibly taut, the team would be immediately disqualified.<br />\
+Single phase external 230V AC power will be supplied. Maximum voltage between any two points on the bot must not exceed 24 V DC or 24 V AC.<br />\
+OBJECT DIMENSION<br />\
+Total number of objects to be thrown =9.<br />\
+The dimension of each cube=a cm*a cm*a cm<br />\
+The diameter of each ball = a cm<br />\
+The diameter of the hoop=20cm<br />\
+a = 4 to 7<br />\
+","mobility":"&#160;All robots must have easily visible and controlled mobility in order to compete.&#160;<br />\
+Any machine component should not be detached (intentionally) during any point of the event.<br />\
+Methods of Mobility include:<br />\
+Rolling (wheels, tracks or the whole robot)<br />\
+Walking (linear actuated legs with no rolling or cam operated motion).<br />\
+Shuffling(rotational cam operated legs)<br />\
+Jumping and hopping is not allowed<br />\
+Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br />\
+","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src="data/mech1.png"/><br/>Fig 2: paths that the teams are required to use<br/><img src="data/mech2.png"/><br/>Fig 3: The dimensions of the bridge<br/>\
+","download":"<a href='data/perfectmachineprob.pdf'>Download</a>"},
 
 "wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding.","eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
 organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>"},
