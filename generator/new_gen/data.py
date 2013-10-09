@@ -16,14 +16,15 @@ comitteeLogos={
 "Astro": "./Icons_Final/astro.png",
 "Gaming":"./Icons_Final/gaming.png",
 "Civil": "./Icons_Final/civilmain.png",
-"General": "./Icons_Final/GeneralEvents.png"
+"General": "./Icons_Final/GeneralEvents.png",
+"Blue Print":"./Icons_Final/BluePrint.png"
 }
 
 
 #each comittee
 General = {
 	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."},
-	"Blue_Print":{"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
+	"Blue Print":{"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
 Blueprint, the paper presentation contest held as part of Engineer attracts some of the best minds from all over the country. Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering.<br/>\
 <b>GENERAL RULES</b><br/>\
 • Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. \
@@ -46,6 +47,8 @@ Blueprint, the paper presentation contest held as part of Engineer attracts some
 }
 
 
+
+
 Workshops={
 	"Ethical_Hacking_by_TechDefence": {"image": "./Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
 
@@ -64,8 +67,6 @@ Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the compl
 
 	"Humanoid_Robot": {"image": "./Icons_Final/ROBOTICS.png", "contact": "Manasij", "Description": "<p>You've been seeing videos of robots which walk, fight and even play football. However, workshops generally don't teach you to build such amazing robots. For the very first time in Engineer we will be conducting a workshop where we will be building a bipedal robot which can perform the above tasks. The workshop will be conducted by Frugal Labs who are based in Bangalore.</br>\
 			Registration Fee:  Rs 7000/ team. </br>Each team can have a maximum of 5 members (1400/head). A kit will be provided to each team.</p>	"}
-
-
 }
 
 Civil = {
