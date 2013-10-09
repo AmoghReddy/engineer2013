@@ -101,8 +101,11 @@ def commitee_page(i):
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	if event != "Workshops" and event != "Technites" and event != "TechSpeak"and event != "":
-		print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
+	if event != "Workshops" and event != "Technites" and event != "TechSpeak" :
+		if event == "BluePrint":
+			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\'Blue_Print\')">'
+		else:
+			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
 		# print '<h1>'+event+'</h1>'
 		print '<img id="eve'+str(eve_id)+'" src="'+comitteeLogos[event]+'"/>'
 		eve_id+=1

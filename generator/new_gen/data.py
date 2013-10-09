@@ -3,7 +3,7 @@
 comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
 "Technites":"./Icons_Final/technites.png",
-"TechSpeak":"./Icons_Final/techspeak.png",
+"Tech Speak":"./Icons_Final/techspeak.png",
 "Materials":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
 "Chem":"./Icons_Final/chemmain.png",
@@ -17,14 +17,18 @@ comitteeLogos={
 "Gaming":"./Icons_Final/gaming.png",
 "Civil": "./Icons_Final/civilmain.png",
 "General": "./Icons_Final/GeneralEvents.png",
-"Blue Print":"./Icons_Final/BluePrint.png"
+"BluePrint":"./Icons_Final/BluePrint.png"
 }
 
 
 #each comittee
 General = {
-	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."},
-	"Blue Print":{"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
+	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+}
+
+BluePrint = {
+"Blue_Print" : {
+"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
 Blueprint, the paper presentation contest held as part of Engineer attracts some of the best minds from all over the country. Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering.<br/>\
 <b>GENERAL RULES</b><br/>\
 • Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. \
@@ -45,8 +49,6 @@ Blueprint, the paper presentation contest held as part of Engineer attracts some
 19th Oct – Declaration of Selected papers <br/>\
 24th -27th Oct – Presentation of papers<br/>"}
 }
-
-
 
 
 Workshops={
@@ -1133,5 +1135,6 @@ events={
 "Astro": Astro,
 "Gaming":Gaming,
 "Workshops": Workshops,
-"General": General
+"General": General,
+"BluePrint":BluePrint
 }
