@@ -1076,7 +1076,7 @@ The presentation must address the following:<br />\
 Total budget, including costs of raw materials and labour<br />\
 Detailed design, with justification<br />\
 Any other innovative ideas to improve functionality or add new features<br />\
-","Rules":"Preliminary round: <br />\
+","Rules":"<b>Preliminary round: </b><br />\
 Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to khv.10m148@nitk.edu.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
 Submit the abstract in PDF format.<br />\
 PDFs should include:<br />\
@@ -1087,13 +1087,13 @@ Name and details of the team members (Contact number and email id)<br />\
 Brief description of the idea/solution.<br />\
 The abstract should not exceed two pages (exclude two pages). Selected teams will be informed through mail.<br />\
 <br />\
-Final round:<br />\
+<b>Final round:</b><br />\
 <br />\
 The participants must form teams of 3 members or less.<br />\
 Presentation should not exceed 10 minutes.<br />\
 If participants want to include drawings/designs on softwares like AutoCAD etc., they are encouraged to do so.<br />\
 <br />\
-Prizes worth 10k to be won. <br />\
+<b>Prizes worth 10k to be won. </b><br />\
 ","Faqs":"Q. Can teams be formed by mixing students of different disciplines/departments?<br />\
 A.&#160;Yes.<br />\
 <br />\
