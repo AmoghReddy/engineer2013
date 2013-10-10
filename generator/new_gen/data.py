@@ -345,7 +345,7 @@ Technites={
 "Megapixel": {"image": "./Icons_Final/megapixel.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
 "Blitzkrieg": {"image": "./Icons_Final/blitzkrieg.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
 "Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
-"Psychadelic_Room":{"image": "./Icons_Final/PsychRoom.png", "contact": "Jacob: <br/> jacobv1992@gmail.com",
+"Psychedelic_Room":{"image": "./Icons_Final/PsychRoom.png", "contact": "Jacob: <br/> jacobv1992@gmail.com",
 "Light_Wall": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ",
 "Decagon": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ",
 "Waterfall": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ",
@@ -371,31 +371,31 @@ Comps={
 "Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b><br/>"},
 
-"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
-you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have\
-a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our\
-codes. This event not only tests the mastery over and familiarity with a programming language but\
+"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can \
+you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have \
+a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our \
+codes. This event not only tests the mastery over and familiarity with a programming language but \
 also your dexterity in analyzing problems and providing logical solutions.<br/>\
 <b>Individual event</b><br/>"},
 
-"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
-computer science from basic programming, scripting, to operating systems and networks. This\
-Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
-developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
+"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of \
+computer science from basic programming, scripting, to operating systems and networks. This \
+Engineer, Marathon is planned to be more challenging, which tests your mind with the latest \
+developing technologies in the field of Computer Science. After all, Computer Science is the fastest \
 growing and the fastest changing area of Engineering.<br/>\
-Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test\
-how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we\
+Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test \
+how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we \
 can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
-Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
-at the same time defending your own.<br/>\
+"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the \
+Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while \
+at the same time defending your own.<br/> \
 <b>Teams of 3.</b><br/>"},
 
-"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
-of the participants are put to test. Using search engines, the participants need to figure out the clues\
-which will take them all around the World Wide Web in order to get to the next more intriguing\
+"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills  \
+of the participants are put to test. Using search engines, the participants need to figure out the clues \
+which will take them all around the World Wide Web in order to get to the next more intriguing \
 level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
 <b>Individual event</b>"}
 
@@ -408,12 +408,12 @@ Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of
 Science, Bangalore. His cutting edge research on black holes brought him to the limelight recently as \
 reflected in the following article. http://articles.timesofindia.indiatimes.com/2013-09-21/science/42272405_1_black-holes-mass-and-spin-iisc \
 He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\
-His page for more details:\
-http://www.physics.iisc.ernet.in/~bm/\
+His page for more details: \
+http://www.physics.iisc.ernet.in/~bm/ \
 Dr Jayaram Narayanan Chengalur\
 Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be \
-giving a talk on the impact of engineers in the field of pure science.\
- We also present Video Conferences from varied speakers on physics, astrophotography and much more.\
+giving a talk on the impact of engineers in the field of pure science. \
+ We also present Video Conferences from varied speakers on physics, astrophotography and much more. \
 Come. See. Rejoice."},
 
 "StarWars":{"image":"./Icons_Final/starwars.png","contact":"Mrinal Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
@@ -480,7 +480,7 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges<br/>which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":{"image": "./Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
 
 "Product_Design_Challenge":{"image": "./Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
@@ -489,7 +489,7 @@ Biz={
 "Campus_Social_Innovision_Challenge":{"image": "./Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
 <b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
 
-"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+"Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
@@ -526,8 +526,8 @@ Tronix={
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
- You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
-  in this innovative event<br/>and hone your robotic skills.<br/>\
+ You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate\
+  in this innovative event and hone your robotic skills.<br/>\
  <b>Problem Statement</b><br/>Will be released soon<br/>\
 <br/><B>ROBOT SPECIFICATIONS</B><br/><ul><li>The robot should be completely autonomous and self contained; external computers not allowed.</li>\
 <li>The robot should fit into a box of dimensions 25cm x 25cm x 25cm.</li>\
@@ -539,7 +539,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>Sharp objects on the robot which may damage or mark the arena will lead to disqualification of the team.</li></ul>\
 <br/><B>OTHER DETAILS</B><br/><ul><li>A maximum of 4 members may be present in one team.</li>\
 <li>Total time allotted is 10 minutes.</li>\
-<li>Each team will be given 10 minutes in which they can start the<br/> attempt a maximum of 3 times of which the best time of completion will <br/>be recorded for the results.</li>\
+<li>Each team will be given 10 minutes in which they can start to attempt a maximum of 3 times of which the best time of completion will be recorded for the results.</li>\
 <li>The robot may not deviate completely from the path at any time.</li>\
 <li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>\
 <br/><B>CONTEST PROCEDURE</B><br/>\
@@ -555,7 +555,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 "},
 
 "Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
-The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
+The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement<br/>\
 Arena Details</b> \
@@ -602,8 +602,8 @@ A maximum of 4 members per team is allowed. We do not provide computers to the p
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
 "},
 
-"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
-If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
+"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity” and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity sees amateur to professional participants from around the world trying to crack problems in various fields of mathematics, science and engineering.<br/>\
 The dates for test run and the main event will be announced shortly<br/>\
 <B>EVENT FORMAT</B><br/>\
 This is an online event<br/>\
@@ -625,8 +625,8 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
-There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
+"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates, this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits but also making judicious use of the resources is taken into account. So get ready to scratch your gray cells, and start designing!<br/>\
 <B>EVENT FORMAT<br/>\
 Round 1</b><br/>\
 Written qualification round comprising of objective questions conducted during Engineer.<br/>\
@@ -656,7 +656,7 @@ Judges' decision will be final and binding in all cases.<br/>\
 "},
 
 "FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
-Foxhunt, is a fun filled package on the lines of a traditional English activity involving<br/>tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,<br/>the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated<br/>anywhere in the campus, using a tunable radio receiver and an antenna built by them,<br/>making the event full of fun and excitement.<br/>\
+Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
 <B>EVENT FORMAT</B><br/>\
 The event will have two phases <br/>\
 <b>-FM reception stage(Phase 1)<br/> \
@@ -683,7 +683,7 @@ Usage of mobile phones or other means of communication between teams during the 
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts. At Engineer 2012,<br/>Symphony gives the participants an opportunity to dabble into the sights<br/>and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,<br/>so that the fountain dances to the tunes of the music. A huge draw every Engineer, Symphony<br/>generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer 2012,Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
 <B>EVENT FORMAT</B><br/>\
@@ -702,10 +702,10 @@ Teams can comprise of a maximum of three members.<br/>\
 The music input is given in the form of a stereo signal to the circuit through a standard male earphone connector as line-in.<br/>The music will also be played simultaneously on the speaker.<br/>\
 A qualification round will be conducted prior to the final competition based on which teams will be filtered.<br/>The teams will be allowed to tune their circuits during this round.<br/>\
 <B>JUDGING CRITERIA</B><br/>\
-Synchronization with the tunes – The operation of the fountain should be in harmony with music component(s).<br/>The team shall make this clear while explaining their algorithm.<br/>(The music components can be any apparent feature such as frequency range,<br/>amplitude, a combination of frequency and amplitude, etc.) Better synchronization carries more points.<br/>\
+Synchronization with the tunes – The operation of the fountain should be in harmony with music component(s).<br/>The team shall make this clear while explaining their algorithm.<br/>(The music components can be any apparent feature such as frequency range, amplitude, a combination of frequency and amplitude, etc.) Better synchronization carries more points.<br/>\
 Aesthetic appeal – Along with synchronization, the combination and sequence of water jets and<br/>lights should be chosen so as to create the best possible aesthetic appeal.<br/>\
-Design of the circuit – Teams shall explain their circuit to the judges. Good quality designs shall<br/>carry more marks.<br/>\
-Cost of the circuit – Cost of the circuit should be kept at minimum. Higher the cost of the circuit,<br/>lesser the points.<br/>\
+Design of the circuit – Teams shall explain their circuit to the judges. Good quality designs shall carry more marks.<br/>\
+Cost of the circuit – Cost of the circuit should be kept at minimum. Higher the cost of the circuit, lesser the points.<br/>\
 The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 "},
@@ -1040,50 +1040,174 @@ profitable path for the company.</span>\
 
 Sce={
 
-"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer,<br/>The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
+"The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals<br/>for the given problem statement. SPARSH stands out from the rest of the events in the<br/>sense that the team SPARSH will continue to be a part of the project and the implementation<br/>of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
+"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
 "Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based <br/>on their business feasibility and environmental impact.<br/>"}
+"Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based on their business feasibility and environmental impact.<br/>"}
 }
 
 Mechanical={
-"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be </p><p>required to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; A team can comprise of students from different colleges.<br/>\
-<p>&bull; The team is not permitted to compete with more than one robot.</p>","eventformat": "<p>&bull; The competition will be played on knock-out basis.<br/>\
-<p>&bull; The machine would be checked for its safety during registrations. In case of unsafe <br/>\
-<p>robots, the teams will be allowed to modify the robot before the registrations close.<br/>\
-<p>&bull; Only one person can control the robot and one person can stay near the arena for <br/>\
-<p>monitoring the robot.<br/>\
-<p>&bull; In case of a tie, the robots will have to battle for a time duration of 2 minutes.<br/>\
-<p>&bull; Each team will have a maximum time period of 20 minutes to repair their robot after <br/>\
-<p>each battle round.<br/>\
-<p>&bull; The teams should make sure their wires are slack and all the wires coming out of robot <br/>\
-<p>need to be tangled together.<br/>\
-<p>&bull; The wires coming out of the robot should be placed in such a way that it should be safe <br/>\
-<p>from any attacks on the bot and the attack mechanisms provided by the organizers. The <br/>\
-<p>organizers will not be held responsible in case of any accidents to the bot because of the <br/>\
-<p>attack mechanism provided.<br/>\
-<p>&bull; The organizers reserve the right to change any or all of the above rules or add any rules <br/>\
-<p>as they deem fit.<br/>\
-<p>&bull; Violation of any the above rules will lead to disqualification.<br/>\
-<p>&bull; Judges' decision shall be treated as final and binding on all. </p><p><a href='data/GENERALRULES.pdf'>Download</a></p>"},
+"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"Contestants will have to register online. On spot registrations can also be done.<br />\
+The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br />\
+A team may comprise a maximum of FIVE participants.<br />\
+A team can comprise of students from different colleges.<br />\
+The team is not permitted to compete with more than one robot","eventformat": "The competition will be played on knock-out basis.<br />\
+The machine would be checked for its safety during registrations. In case of unsafe robots, the teams will be allowed to modify the robot before the registrations close.<br />\
+Only one person can control the robot and one person can stay near the arena for monitoring the robot.<br />\
+In case of a tie, the robots will have to battle for a time duration of 2 minutes.<br />\
+Each team will have a maximum time period of 20 minutes to repair their robot after each battle round.<br />\
+The teams should make sure their wires are slack and all the wires coming out of robot need to be tangled together.<br />\
+The wires coming out of the robot should be placed in such a way that it should be safe from any attacks on the bot and the attack mechanisms provided by the organizers. The organizers will not be held responsible in case of any accidents to the bot because of the attack mechanism provided.<br />\
+The organizers reserve the right to change any or all of the above rules or add any rules as they deem fit.<br />\
+Violation of any the above rules will lead to disqualification.<br />\
+Judges' decision shall be treated as final and binding on all.<br />\
+","eventrules":"The maximum duration of each battle would be 10 minutes except for the finals which is going to be a 20 minute battle. Any team that is not ready at the time specified will be disqualified from the competition and the opponent robot will be declared the winner.<br />\
+A robot that is deemed unsafe by the judges after the match has begun will be disqualified. The match will be immediately halted and the opponent will be awarded a win.<br />\
+If the robots fail to contact each other for 60 seconds, both the robots will be eliminated.<br />\
+The arena will have an opening through which bots can be pushed off the arena. <br />\
+The robot will be declared victorious if it pushes the opponent off the arena through the opening in the wall twice.<br />\
+In case a robot falls off the arena or toppled during the match, it can be restored back to the start point by a team member, within 30 seconds, during which the opponent can move in the arena but not make contact with the other robot. Only 1 restore will be allowed per team.<br />\
+The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br />\
+The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br />\
+In case of immobility of any of the bots, both the bots will start again from their start points. <br />\
+Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br />\
+","judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br />\
+In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br />\
+No points will be awarded for immobilizing the opponent bot.<br />\
+Points will be awarded for the team for using the offensive mechanisms provided by the organizers.<br />\
+","arenaspecs":"The arena will be a circular wooden board of diameter 8 ft. <br />\
+The arena will have 3 ft high mesh all around it except an opening through which the robots can be pushed out of the arena <br />\
+The arena may have one or more of the following traps:<br />\
+Reciprocating Platform with about 1 &ndash; 20 reciprocations per minute.<br />\
+Rotating Platform of about 30 &ndash; 300 rpm.<br />\
+Lifting Mechanisms.<br />\
+Sand/Gravel/ Slush Pits of dimensions 70 cm x 70 cm. Depth of the pits from the arena surface are at an average of 3cm.&#160;<br />\
+Corrugations with a maximum radius of 10cm and pitch 20 cm.<br />\
+Rollers with a maximum diameter of 6 cm.<br />\
+Hitting Mechanisms.<br />\
+Heavy Oscillating Metal Balls<br />\
+","mobility":"All robots must have easily visible and controlled mobility in order to compete.<br />\
+Any machine component should not be detached (intentionally) during any point of the war.<br />\
+The maximum power limitation for mobility is 150 W. However there is no power limitation for attack mechanism.<br />\
+Methods of Mobility include:<br />\
+Rolling (wheels, tracks or the whole robot)<br />\
+Walking (linear actuated legs with no rolling or cam operated motion).<br />\
+Shuffling(rotational cam operated legs)<br />\
+Jumping and hopping is not allowed<br />\
+Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br />\
+","botspecs":"Initial dimension of the robot should not exceed 50cm x 50cm x 50cm (l x b x h).The external device used to control the machine or any external tank is not included in the size constraint.<br />\
+Weight of the robot should not exceed 20kg (Excluding remote control and control wires).<br />\
+If the robot uses external pneumatic / hydraulic source tank, its weight would not be considered.<br />\
+If the robot is solely powered by onboard batteries (wireless robots), its weight would be considered 0.8 times its actual weight.<br />\
+The bot should contain an attack mechanism. Attack mechanism should be independent of the motion of the bot i.e. it should work even if the bot is motionless. A separate check of the attack mechanism will be conducted when the bot is immobile.<br />\
+The robot should have a small ground clearance such that the arena is not damaged at any point of time. The bot which causes any damage to arena will be disqualified.<br />\
+","hydraulic":"Participants can use pneumatic and hydraulic weapon systems.<br />\
+The outlet pressure of the source/tank should not exceed 8 bars. The used pressure should be indicated by means of temporarily fitted pressure gauge or there should be a provision to measure the cylinder pressure on the bot.<br />\
+Robots can use pressurized, non-inflammable gases/liquid to initialize their pneumatic mechanisms.<br />\
+Teams have to bring their own cylinders. Organizers will not provide any kind of refilling.<br />\
+Weight of the external cylinders are not taken into account.<br />\
+","power":"Both on and off board power supplies are allowed. Batteries must be sealed, immobilized-electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells).<br />\
+The voltage between any two terminals in the robot should not exceed 25V. There is no restriction on the power consumption of the bot.<br />\
+230V AC power will be provided.<br />\
+Participants can make use of one or more DC/Stepper motors.<br />\
+Use of an IC engine in any form is not allowed.<br />\
+If the robot is wired then the wire should remain slack under all circumstances during the competition. The length of the wire between controlling device &amp; the power supply and between machine &amp; controlling device should be at least 4 meters.<br />\
+","weapon":"The bots must have at least one kind of attack mechanism. Defensive bots like Wedge bots will be disqualified.<br />\
+Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammers etc. as weapons with following exceptions and limitations:<br />\
+Liquid projectiles.<br />\
+Any kind of inflammable liquid.<br />\
+Flame-based weapons.<br />\
+Electro-Magnetic Pulse.<br />\
+Any kind of explosive or intentionally ignited solid or potentially ignitable solid.<br />\
+Nets, tape, glue, or any other entanglement device or adhesives.<br />\
+High power magnets or electromagnets.<br />\
+Radio jamming, tazers, tesla coils, or any other high-voltage device.<br />\
+Un-tethered projectiles.&#160;<br />\
+Tethered projectiles in any direction with each having a maximum tether length of 1m are allowed.&#160;<br />\
+Spinning weapons which do not come in contact with the arena at no point of time are allowed. In no case should the arena be damaged by any bot. Violation of this rule will lead to immediate disqualification.&#160;<br />\
+","safety":"Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing.<br />\
+If you have a robot or weapon design that does not fit within the categories set forth in the above said rules or is in some way ambiguous or borderline, please contact the event organizers.<br />\
+Safe innovation is always encouraged, but surprising the event staff with your brilliant exploitation of a loophole may cause your robot to be disqualified before it even competes.<br />\
+Each event has safety inspections. It is at the judge&rsquo;s sole discretion that your robot is allowed to compete. As a builder you are obligated to disclose all operating principles and potential dangers to the inspection staff.<br />\
+Proper activation and deactivation of robots is critical. Robots must only be activated in the arena, testing areas, or with express consent of the event coordinators.<br />\
+All weapons must have a safety cover on any sharp edges.<br />\
+All participants build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved.<br />\
+Please take care to not hurt yourself or others when building, testing and competing.<br />\
+","download": "<a href='data/GENERALRULES.pdf'>Download</a>"},
 
 
-"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br /> \
-Contestants will have to register online. On spot registrations can also be done.<br /> \
-A team may comprise a maximum of FIVE participants.<br /> \
-Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br /> \
-The team is not permitted to compete with more than one bot.<br /> \
-Teams will not be allowed to modify their bots during their trial.<a href='data/perfectmachineprob.pdf'>Download</a></p>"},
+"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br />\
+Contestants will have to register online. On spot registrations can also be done.<br />\
+A team may comprise a maximum of FIVE participants.<br />\
+Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br />\
+The team is not permitted to compete with more than one bot.<br />\
+Teams will not be allowed to modify their bots during their trial.<br />\
+.","eventformat":"Each round will be of a maximum of 15 min duration.<br />\
+Fig 1 portrays the arena <br />\
+Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br />\
+In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br />\
+Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 will be at the height of 25cm from the arena. <br />\
+A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is required to climb over this bridge and throw the objects in hoop 3.<br />\
+Each bot will be given only one round in which they need to complete the task.<br />\
+If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 seconds) or toppled over, those teams cannot ask for restore.<br />\
+The organizers reserve the right to change any or all of the above rules as they deem fit.<br />\
+Violation of any the above rules will lead to disqualification.<br />\
+Judges' decision shall be treated as final and binding on all.<br />\
+","judging":"A task is considered as completed only if all the objects are thrown into yhe respective hoops in.<br />\
+The score given to each team at the end of their trial as follows<br />\
+Score = ((10*h1+20*h2+40*h3) *t<br />\
+Where,<br />\
+t= Time remaining after the completion of the task (in minutes) (only after 9 objects are thrown).<br />\
+h1= Number of objects thrown in hoop 1(max=3).<br />\
+h2= Number of objects thrown in hoop 2(max=3).<br />\
+h3= Number of objects thrown in hoop 3(max=3).<br />\
+In case of a tie,<br />\
+Number of balls put will be considered. If scores are level even after that, the team to complete the task fastest will be awarded as winners.<br />\
+","specifications":"BOT SPECIFICATIONS<br />\
+The initial bot dimensions should not exceed 30 x 30 x 20 cm3&#160;excluding the control device dimensions. This dimension excludes the dimension of lifting mechanism <br />\
+The weight of the bot should not exceed 15 kgs.<br />\
+The bot can be controlled wirelessly or with wires.<br />\
+Readymade wireless remote control units may be used.<br />\
+In case wired control is used, the wire(s) must remain slack throughout the event. If the wires are visibly taut, the team would be immediately disqualified.<br />\
+Single phase external 230V AC power will be supplied. Maximum voltage between any two points on the bot must not exceed 24 V DC or 24 V AC.<br />\
+OBJECT DIMENSION<br />\
+Total number of objects to be thrown =9.<br />\
+The dimension of each cube=a cm*a cm*a cm<br />\
+The diameter of each ball = a cm<br />\
+The diameter of the hoop=20cm<br />\
+a = 4 to 7<br />\
+","mobility":"&#160;All robots must have easily visible and controlled mobility in order to compete.&#160;<br />\
+Any machine component should not be detached (intentionally) during any point of the event.<br />\
+Methods of Mobility include:<br />\
+Rolling (wheels, tracks or the whole robot)<br />\
+Walking (linear actuated legs with no rolling or cam operated motion).<br />\
+Shuffling(rotational cam operated legs)<br />\
+Jumping and hopping is not allowed<br />\
+Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br />\
+","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
+","download":"<a href='data/perfectmachineprob.pdf'>Download</a>"},
 
-"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"<p>&bull; Contestants will have to register online. On spot registrations can also be done.</p><p>&bull; The students must carry valid student ID cards of their college which they will be required </p><p>to produce at the time of registration.</p><p>&bull; A team may comprise a maximum of FIVE participants.</p><p>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly </p><p>(ARF) kits is strictly prohibited.</p><p>&bull; Teams should note that the place where flight testing is done is an open area; hence </p><p>changes in wind direction may occur. The organizing committee will not be responsible for </p><p>any change in weather at the time of testing.</p><p>&bull; The glider has to be as per the specification mentioned below.</p><p>&bull; A team is permitted to compete with more than one glider of same/different design and </p><p>that design can be registered only once.</p><p>&bull; Any team that is not ready at the time specified will be disqualified from the competition </p><p>automatically. </p><p>&bull; The glider will be checked for its safety before the event and would be discarded if found </p><p>unsafe for other participants and spectators. </p><p>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during </p><p>the course of the event.</p><p>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to </p><p>disqualify any team indulging in misbehavior. <br/>\<p>&bull; Judges&rsquo; decision will be final and binding.</p>","eventformat":"<p>&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.</p><p>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable </p><p>mechanism can be built by the competing team for providing the initial thrust.</p><p>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of </p><p>the event regarding their glider construction procedure , materials used, design aspects etc , </p><p>which will be the judging criteria of your glider in case of a tie. </p><p>&bull; The event shall consist of 2 rounds - one preliminary and a final round.</p><p>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a </p><p>maximum horizontal range and glide for the longest time period (Fig 1). </p><p>&bull; The teams clearing the preliminary round qualify to the final round.</p><p>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is </p><p>tested for maneuverability. The glider is required to go through a pre designated path and then </p><p>maneuver across the given arena and crossing each checkpoint (Fig 2). </p><p>&bull; Each team will be given THREE trials in each round and the best score from the three trials will </p><p>be considered for the final scoring. </p><p>&bull; The teams will have to bring their own radio control equipments (if using any) and the <br/>\
-<p>organizing committee won&rsquo;t be providing any.</p><p><a href='wrightflight.pdf'>Download</a></p>"},
+"wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>9731937661","generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding.","eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
+organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br /> \
+Maximum weight of the glider should be less than 1kg.<br /> \
+Any material may be used for fabrication of glider.<br /> \
+Use of IC-engines in any form is not permitted. <br /> \
+The initial thrust to the glider is provided by means of chucking by hand/a mechanism built by the <br /> \
+team itself only.<br /> \
+Participants can use a maximum of 3 servo motors only for control surfaces.","Arena Specifications":"The height of the building from which the participants will be launching their glider is 9 meters in and \
+flight area of 35 m X 25 m. <br/><img src = 'data/Wright_flight1.JPG'/> <br/> <img src = 'data/Wright_flight2.JPG'/> <br/>","Judging Criteria and Scoring":"The following will be considered while judging the glider:<br/>Preliminary Round &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 40% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Gliding TEST) <br/><img src='wft1.JPG'/><br/>Final Round &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Maneuverability TEST)<br/><img src='wft2.JPG'/><br/>Report &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 10% <br/><img src='wft3.JPG'/><br/><br/>Design & construction: More weightage for the glider with less weight to wingspan ratio. \
+Minimum distance of 7 meters has to be covered by the glider in Preliminary round. <br/><br/>\
+*Safe landing for gliders with control surfaces is defined as landing under complete control of the \
+plane and for uncontrolled planes it is decided based on the impact due to landing. <br/>\
+*Glider is defined completely unpowered flying machine. (For more details check http:// \
+science.howstuffworks.com/transport/flight/modern/glider1.htm) <br/>"},
 
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "<p>&bull; Participants must carry valid ID cards of their respective college, which must be </p><p>produced at the time of registration.</p><p>&bull; Maximum number of participants per team is four.</p><p>&bull; Readymade kits are not allowed.</p><p>&bull; Each team is allowed to participate with not more than one bot.<br/>\<p>&bull; Judges decision will be final and binding.</p>","eventformat":"<p>&bull; There shall be one qualifying round.</p><p>&bull; The qualifying round is to test the test the maneuverability and the water shooting </p><p>capacity of the bot.</p><p>&bull; The top 8 will qualify for the final round.</p><p>&bull; Teams will be provided with external 230V AC supply.</p><p>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the </p><p>arena in any manner.</p><p>&bull; Any modifications on the bot must be made between the trials. Provision to make <br/>\
-<p>modifications during a trial is not permitted.</p><p><a href='proteus.pdf'>Download</a></p>"},
+"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "&bull; Participants must carry valid ID cards of their respective college, which must be produced at the time of registration.<br/>&bull; Maximum number of participants per team is four.<br/>&bull; Readymade kits are not allowed.<br/>&bull; Each team is allowed to participate with not more than one bot.<br/>&bull; Judges decision will be final and binding.","eventformat":"&bull; There shall be one qualifying round.<br/>&bull; The qualifying round is to test the test the maneuverability and the water shooting capacity of the bot.<br/>&bull; The top 8 will qualify for the final round.<br/>&bull; Teams will be provided with external 230V AC supply.<br/>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the arena in any manner.<br/>&bull; Any modifications on the bot must be made between the trials. Provision to make \
+modifications during a trial is not permitted.<br/><a href='proteus.pdf'>Download</a>"},
 
-"Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>koodlyakashay@gmail.com", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": "ÿ The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
+"Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>koodlyakashay@gmail.com", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 The team is not permitted to compete with more than one car.<br/>\
 Teams will not be allowed to modify their car during their trial.", "Event Format": "The event will have 6 rounds:\
