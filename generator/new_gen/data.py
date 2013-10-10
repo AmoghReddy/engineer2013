@@ -391,32 +391,32 @@ Comps={
 "Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b><br/>"},
 
-"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can \
-you spot your prey and catch it at the blink of an eye like the vicious vulture? If you think you have \
-a sharp eye and the instincts of a predator programmer then come and hunt for the errors in our \
-codes. This event not only tests the mastery over and familiarity with a programming language but \
-also your dexterity in analyzing problems and providing logical solutions.<br/>\
+"Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
+&nbsp; you spot your prey and catch it at the blink of an eye like the vicious vulture ? If you think you have\
+&nbsp; a sharp eye and the instincts of a predator programmer, then come and hunt for the errors in our\
+&nbsp; codes. This event not only tests the mastery over and familiarity with a programming language but\
+&nbsp; also your dexterity in analyzing problems and providing logical solutions.<br/>\
 <b>Individual event</b><br/>"},
 
-"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of \
-computer science from basic programming, scripting, to operating systems and networks. This \
-Engineer, Marathon is planned to be more challenging, which tests your mind with the latest \
-developing technologies in the field of Computer Science. After all, Computer Science is the fastest \
-growing and the fastest changing area of Engineering.<br/>\
-Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test \
-how long you can persist solving the trickiest (and most often the simplest) comp-sci problems we \
-can throw at you!<br/>\
+"Marathon":{"image": "./Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
+&nbsp; computer science from basic programming, scripting, to operating systems and networks. This\
+&nbsp; Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
+&nbsp; developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
+&nbsp; growing and the fastest changing area of Engineering.<br/>\
+Spread over all of Engineer, we give you the opportunity to make up for one bad day, as well as test\
+&nbsp; how long you can persist solving the trickiest (and most often the simplest) computer science problems we\
+&nbsp; can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the \
-Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while \
-at the same time defending your own.<br/> \
+"ECTF_-_Capture_the_Flag":{"image": "./Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
+&nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
+&nbsp; at the same time defending your own.<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills  \
-of the participants are put to test. Using search engines, the participants need to figure out the clues \
-which will take them all around the World Wide Web in order to get to the next more intriguing \
-level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
+"Virtual_Bounty":{"image": "./Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
+&nbsp; of the participants are put to test. Using search engines, the participants need to figure out the clues\
+&nbsp; which will take them all around the World Wide Web in order to get to the next more intriguing\
+&nbsp; level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
 <b>Individual event</b>"}
 
 }
@@ -546,8 +546,8 @@ Tronix={
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
- You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate\
-  in this innovative event and hone your robotic skills.<br/>\
+ You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
+  in this innovative event<br/>and hone your robotic skills.<br/>\
  <b>Problem Statement</b><br/>Will be released soon<br/>\
 <br/><B>ROBOT SPECIFICATIONS</B><br/><ul><li>The robot should be completely autonomous and self contained; external computers not allowed.</li>\
 <li>The robot should fit into a box of dimensions 25cm x 25cm x 25cm.</li>\
@@ -559,7 +559,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>Sharp objects on the robot which may damage or mark the arena will lead to disqualification of the team.</li></ul>\
 <br/><B>OTHER DETAILS</B><br/><ul><li>A maximum of 4 members may be present in one team.</li>\
 <li>Total time allotted is 10 minutes.</li>\
-<li>Each team will be given 10 minutes in which they can start to attempt a maximum of 3 times of which the best time of completion will be recorded for the results.</li>\
+<li>Each team will be given 10 minutes in which they can start the<br/> attempt a maximum of 3 times of which the best time of completion will <br/>be recorded for the results.</li>\
 <li>The robot may not deviate completely from the path at any time.</li>\
 <li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>\
 <br/><B>CONTEST PROCEDURE</B><br/>\
@@ -575,7 +575,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 "},
 
 "Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
-The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
+The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement<br/>\
 Arena Details</b> \
@@ -622,8 +622,8 @@ A maximum of 4 members per team is allowed. We do not provide computers to the p
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
 "},
 
-"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity” and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
-If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity sees amateur to professional participants from around the world trying to crack problems in various fields of mathematics, science and engineering.<br/>\
+"Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
 The dates for test run and the main event will be announced shortly<br/>\
 <B>EVENT FORMAT</B><br/>\
 This is an online event<br/>\
@@ -645,8 +645,8 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing one quality or aspect of something in return for gaining another quality or aspect.<br/>\
-There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates, this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits but also making judicious use of the resources is taken into account. So get ready to scratch your gray cells, and start designing!<br/>\
+"Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
 <B>EVENT FORMAT<br/>\
 Round 1</b><br/>\
 Written qualification round comprising of objective questions conducted during Engineer.<br/>\
@@ -1164,7 +1164,7 @@ A team may comprise a maximum of FIVE participants.<br />\
 Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br />\
 The team is not permitted to compete with more than one bot.<br />\
 Teams will not be allowed to modify their bots during their trial.<br />\
-.","eventformat":"Each round will be of a maximum of 15 min duration.<br />\
+","eventformat":"Each round will be of a maximum of 15 min duration.<br />\
 Fig 1 portrays the arena <br />\
 Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br />\
 In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br />\
@@ -1224,10 +1224,52 @@ plane and for uncontrolled planes it is decided based on the impact due to landi
 *Glider is defined completely unpowered flying machine. (For more details check http:// \
 science.howstuffworks.com/transport/flight/modern/glider1.htm) <br/>"},
 
-"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>koodlyakashay@gmail.com", "generalrules": "&bull; Participants must carry valid ID cards of their respective college, which must be produced at the time of registration.<br/>&bull; Maximum number of participants per team is four.<br/>&bull; Readymade kits are not allowed.<br/>&bull; Each team is allowed to participate with not more than one bot.<br/>&bull; Judges decision will be final and binding.","eventformat":"&bull; There shall be one qualifying round.<br/>&bull; The qualifying round is to test the test the maneuverability and the water shooting capacity of the bot.<br/>&bull; The top 8 will qualify for the final round.<br/>&bull; Teams will be provided with external 230V AC supply.<br/>&bull; Teams must ensure that all mechanisms employed within the bot must not destroy the arena in any manner.<br/>&bull; Any modifications on the bot must be made between the trials. Provision to make \
-modifications during a trial is not permitted.<br/><a href='proteus.pdf'>Download</a>"},
+"Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>9731937661", "General Rules": "\
+• Participants must carry valid ID cards of their respective college, which must be <br />\
+produced at the time of registration.<br />\
+• Maximum number of participants per team is four.<br />\
+• Readymade kits are not allowed.<br />\
+• Each team is allowed to participate with not more than one bot.<br />\
+• Judges decision will be final and binding.","Event Rules":"• There shall be one qualifying round.<br />\
+• The qualifying round is to test the test the maneuverability and the water shooting \
+capacity of the bot.<br />\
+• The top 8 will qualify for the final round.<br />\
+• Teams will be provided with external 230V AC supply.<br />\
+• Teams must ensure that all mechanisms employed within the bot must not destroy the <br />\
+arena in any manner.<br />\
+• Any modifications on the bot must be made between the trials. Provision to make <br />\
+modifications during a trial is not permitted.","Bot Specs":"• Bots may be wired or wireless.<br />\
+• Controlling wires (if any) should not be taut at any point during the trial.<br />\
+• The bot has to fit in a box of dimensions 30*30*30 cm3<br />\
+• The width of the flume is 72cm. There are no other dimensional restrictions on the <br />\
+width or length. Keep in mind the functional requirements of the bot.<br />\
+• No restriction on weight of bot.<br />\
+• The potential difference between any two points on the bot must not exceed 12V.<br />\
+• Electrical components must be adequately insulated to prevent any complications <br />\
+that could arise because of it coming in contact with water.","Event Format":"• Round 1<br />\
+The bot has to start from point A and travel along the length of the tank to point B. At point B, <br />\
+the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At <br />\
+point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure <br />\
+below for reference.<br />\
+• Round 2<br />\
+The participants are supposed to aim and shoot maximum of the three targets placed at <br />\
+gradually increasing heights at different distances. The details of the targets are shown below. <br />\
+The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time <br />\
+remaining is also taken into account for the scoring system. The targets have to be destroyed in <br />\
+the following sequence- A –B - C","Scoring":"Time taken in round 1 = t1<br />\
+Time taken for destroying target 1 = t2 (seconds)<br />\
+Time taken for destroying target 2 = t3 (seconds)<br />\
+Time taken for destroying target 3 = t4 (seconds) <br />\
+T4 will be calculated only after all three targets have been brought down.<br />\
+Time remaining after all the targets have been destroyed = t5 (seconds)<br />\
+Range of the jet in round 1 = R (cm)<br />\
+FIRST ROUND EVALUATION:<br />\
+S1 = <br />\
+Based on S1 , top eight teams are qualified for the next round and awarded points from 40 to 5 <br />\
+(40, 35, 30 .. and so on). These points are carried forward for the final score.<br />\
+Final Score, S = + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
 
-"Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>koodlyakashay@gmail.com", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
+"Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>9731937661", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 The team is not permitted to compete with more than one car.<br/>\
 Teams will not be allowed to modify their car during their trial.", "Event Format": "The event will have 6 rounds:\
@@ -1235,7 +1277,86 @@ Teams will not be allowed to modify their car during their trial.", "Event Forma
 <b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
 to the specified rules. There will be no points from this round. However, if the vehicle \
 doesn’t conform to all the rules, it will be immediately disqualified.<br/> <b>Maneuverability Test</b>: Each car will have to maneuver a set of obstacles and points will be awarded based on time taken to complete the course.<br/><b>Acceleration Test</b>: Each car will have to accelerate a certain distance and points will be awarded based on the time taken to complete the stretch.<br/><b>Quarter-Finals</b>: 8 quarter-Finalists will be decided based on their aggregate points obtained in the abstract submission, acceleration test and maneuverability test. 4 groups of 2 cars each will race and the first car proceeds to the next round.<br/><b>Semi-Finals</b>: 4 semi-finalists will be divided into 2 groups and race-off for the 2 spots in the finals. <br/><b>Final</b>: This round requires the final 2 cars to race through a track with acute curvesand obstructions with the cars able pit stops for refueling and repairs. The endurance of the car will be tested. <br/><a href='./data/velocity.pdf'>Event Rule</a> \
-"}
+","Event Rules":"The final 3 rounds will have races with multiple cars racing at a time.<br />\
+The track will have check points at regular intervals. If a machine tumbles, or halts, <br />\
+or goes off the arena at any point on the track, one of the team members is allowed to <br />\
+lift it up and place it at the nearest checkpoint behind that point. The clock will keep <br />\
+running during this time Only ONE member of the team will be allowed to run along <br />\
+with the car throughout each race.<br />\
+ Team members are not permitted to touch either their machines or those of their <br />\
+opponents once the race begins (unless there is a need to lift the machine as stated in <br />\
+second point). The penalty for doing so is disqualification.<br />\
+ If any of the machines starts off before the flag is waved, the counter would be <br />\
+restarted and the machines will get a second chance. However, if any machine starts <br />\
+off before the waving of flag (or countdown) for a second time, it will be disqualified. <br />\
+No re-match will be offered for the second time.<br />\
+ The machines are not allowed to leave any loose parts on any part of the arena. Any <br />\
+machine disintegrating during the race will be disqualified.<br />\
+ Teams are not allowed to purposefully damage the machine of the opponent's team.<br />\
+If found doing so on track (while racing), the concerned team will be disqualified. <br />\
+Execution of last three rules will be subjective and relies completely on judges'<br />\
+discretion.","Arena Specs":" The design of the track will be updated periodically. ( Make a note to check out the <br />\
+website periodically)<br />\
+The actual track during the time of race might not strictly follow the design shown <br />\
+above.<br />\
+The width of the track varies from 0.5 m to a maximum of 2mts.","Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X <br />\
+H) at any moment of time during the race. The height will be measured excluding the <br />\
+antenna. The external device which is used to control the machine is not included in <br />\
+the size constraint.<br />\
+ The machine should be controlled by a wireless remote control mechanism <br />\
+throughout the race.<br />\
+ The machine must not be made from Lego parts, or any ready-made assembly <br />\
+kits other than the parts mentioned below. Readily available chassis layouts are <br />\
+not allowed. Any machine found having a readymade chassis will be immediately <br />\
+disqualified.<br />\
+ The machine may be roughly classified into structural and functional parts:<br />\
+ <b>Structural parts</b> - Chassis, shock mounting members and have to be built by the <br />\
+participants themselves.<br/> <img src='data/velocity1.JPG'/> <br/> <b>Functional Parts</b> – Stock Steering mechanism must not be used and suspension <br />\
+(lower excluding suspension spring and shock absorbers) has to be built by the <br />\
+participants themselves. Steering mechanisms have to be compulsorily built by <br />\
+the participants.<br />\
+ Judging for the same will be strict and the participant will be immediately disqualified <br />\
+if any of the above structural components are found to be ready made.<br />\
+ The tires used must have a minimum diameter of 3 inches. You are advised to use <br />\
+tyres of good width for better performance on dirt tracks.<br\> <img src='data/velocity2.JPG'/><br/> <b>Please note: It is not compulsory to fabricate the brake mechanism.</b><br/><b>Wheel Hub:</b> Any part rigidly attached to the wheel hub will be considered as a part of <br />\
+it and hence can be ready-made. An example here is that of the ball stud. <img src='data/velocity3.JPG'/> <br/><b> Steering Mechanism:</b> Any part which is connected to steering rod rigidly i.e. has <br />\
+no degrees of freedom with respect to steering rod (example: heim joint http://<br />\
+en.wikipedia.org/wiki/Heim_joint) will be considered as part of steering rod and thus <br />\
+has to be fabricated by participants.<br/><img src='data/velocity4.JPG' /><br/><b> Suspension mechanism:</b> Any part rigidly connected to suspension arms or one with <br />\
+no degrees of freedom with respect to suspension arm will be considered as its part <br />\
+and has to be fabricated by the participants, except the upper suspension arm. For <br />\
+example both the heim joint (http://en.wikipedia.org/wiki/Rod_end_bearing -see this <br />\
+for more information) for the upper suspension arm and the stud rigidly connected to <br />\
+the wheel hub can be bought from the market.<br/><img src='data/velocity5.JPG' /><br/>If there are parts used in the concerned joint which are neither rigidly connected with <br />\
+suspension or the hub, steering system or hub; they can be used readymade from the <br />\
+market.<br />\
+ If teams get any part specifically manufactured for them, they are required to <br />\
+present the CAD Drawings given to the manufacturer and the manufacturer’s <br />\
+bill for the same.<br />\
+ The Chassis has to be strictly built by the team and use of stock chassis will lead <br />\
+to immediate disqualification.<br />\
+The above pictures are just sample pictures for you to understand the rules easily.","Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion <br />\
+(IC) engine for propulsion. Only one IC engine should be used in the machine. Use of <br />\
+any other sources such as chemicals, compressed gas, rockets etc. is not allowed.The <br />\
+maximum allowed capacity of IC engine to be used is 5 cc.<br/><img src='data/velocity6.JPG' /><br/>  Any machine which uses DC Motors for propulsion will be disqualified. However <br />\
+DC motors and servos can be used for steering mechanisms or any other control <br />\
+mechanisms apart from propulsion.<br />\
+ The machine must have an on-board power supply to run any mechanism requiring <br />\
+electric power.<br />\
+ The electric voltage anywhere in the machine should not exceed 15V at any point of <br />\
+time.<br />\
+ There shall be a countdown preceding the start of the race. No participant is allowed <br />\
+to touch the machine during the countdown period.<br />\
+ Providing a clutch mechanism between the engine and the wheel would prove useful, <br />\
+as it would prevent the engine from dying out at any stage of the race.<br />\
+ Participants are advised to use a proper cooling mechanism to prevent overheating of <br />\
+the engine.<br />\
+ Participants are advised to use sway bars for better control and stability.<br />\
+ The participants are advised to use proper air filters as dirt might cause serious <br />\
+problems to the engine.<br />\
+ Readymade wheels are allowed.<br />\
+ The machine will be inspected and if found to be dangerous, the team will be<br />\
+disqualified. This decision rests solely with the judges and the organizers."}
 
 
 }
