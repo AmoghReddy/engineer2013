@@ -1,0 +1,23 @@
+{% extends "base.html" %} 
+{% block title %}engineer 2013{% endblock %} 
+{% block head %}
+{% load staticfiles %}
+<script src="{% static "js/jquery-1.10.1.min.js" %}" /></script>
+Welcome to the engnieer{% endblock %} 
+
+{% block content %}
+
+
+ {% if user.username %} 
+<p>Welcome {{ user.first_name }}! 
+Here you can participate and learn in engineer!</p> 
+{% else %}
+
+
+ <p>Welcome anonymous user! 
+You need to <a href="/login/">login</a> 
+before you can participate and learn in engineer!.</p>
+
+ {% endif %} 
+{% endblock %} 
+

@@ -1,0 +1,127 @@
+
+C:\Users\Thejdeep\Desktop\engi2\engineer2013\generator\new_gen>type header.html 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>Engineer 2013</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js" ></script>
+		<script src="js/three.min.js"></script>
+		<script src="js/tween.min.js"></script>
+		<script src="js/CSS3DRenderer.js"></script>
+		<script src="js/3script.js"></script>
+		<script src="js/system.js"></script>
+	</head>
+	<body style="width: 1366px; overflow: hidden;">
+	<div class="loading">
+		<img src="loading.gif" />
+		<a id="loading_text">Loading....</a>
+	</div>
+	<script>
+		var data=["Assembling Gears....","Downloading LEDs....","Compiling Code....","Melting Metal....","Estimating Cost...."];
+		function loadingTextHandle(){
+			var loadingText=document.getElementById("loading_text");
+			var newData=data[Math.floor(Math.random()*1000)%data.length-1];
+			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
+			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",3000); }
+		}
+		loadingTextHandle();
+	</script>
+		<div id="container" style = "width: 1366">
+			<span id = "homePage">
+				<span id = "engiLogo"><img id="engiImg" src="images/logo.png" style="width:300px;box-shadow: 0px 0px 0px;"/></span>
+				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" >EVENTS</button></span>
+				<span id = "menu1"><button id="button1" onclick = "getPage('Workshops')">WORK SHOPS</button></span>
+				<span id = "menu2"><button id="button2" onclick="getPage('Technites')">TECHNITES</button></span>
+				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" >TECH SPEAK</button></span>
+				<span id = "menu4"><button id="button4">SPONSORS</button></span>
+				<!--<span id = "menu5"><button id="button5">ABOUT ENGI</button></span>-->
+				<span id = "menu6"><button id="button6">CONTACTS</button></span>
+				<span id = "menu7"><button id="button7">ACCOM</button></span>
+			</span>
+C:\Users\Thejdeep\Desktop\engi2\engineer2013\generator\new_gen>c:\Python33\python.exe events.py 
+
+C:\Users\Thejdeep\Desktop\engi2\engineer2013\generator\new_gen>type footer.html 
+</div>
+		<div id="menu">
+			<button id="back" onclick="backHistory();">BACK</button>
+			<button id="page">RESET</button>
+		</div>
+		<div class="logo"></div>
+		<div class="header">
+				<div class="quickNav" >
+				<center>
+					<span style="width:50%">
+					<div>
+						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" onclick="getPage('allCommittees')" >EV</button>
+						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;"  >WS</button>
+						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" onclick="getPage('Technites')" >TN</button>
+						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" onclick="getPage('Tech_Speak')" >TS</button>
+						<button id="page" class="quickNavContent" style = "width: 30px; height: 30px;" >HM</button>
+					<i class="icon-th"></i>
+					</div>
+					</span>
+				</center>
+				</div>
+
+			<div class="pull-right">
+				<a class="btn" onclick="share();">Share</a>
+<!-- 				<span class="dropdown" id="loggedIn">
+				<input type="text" id="searchBox" placeholder=" Search events"/>
+  					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
+  					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding-left:10px;" role="menu" aria-labelledby="dLabel">
+						<b>Suresh Alse</b><br />
+						<em>alseambusher@gmail.com</em>
+						<li class="divider"></li>
+						<li><a>Profile</a></li>
+						<li><a>Logout</a></li>
+  					</ul>
+				</span>
+				<span class="dropdown" id="Login">
+  					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Login <b class="caret"></b></a>
+  					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding:10px;" role="menu" aria-labelledby="dLabel">
+						<input type="text" placeholder="Email"/><br />
+						<input type="password" placeholder="Password"/><br />
+						<b class="btn btn-success">Login</b>
+  					</ul>
+				</span>
+				<span class="dropdown" id="Signup">
+  					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Signup <b class="caret"></b></a>
+  					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding:10px;" role="menu" aria-labelledby="dLabel">
+						<input type="text" placeholder="Email"/><br />
+						<input type="password" placeholder="Password"/><br />
+						<input type="text" placeholder="City"/><br />
+						<input type="text" placeholder="College"/><br />
+						<b class="btn btn-success"> Signup</b>
+  					</ul>
+				</span>
+ -->			</div>
+		</div>
+		<!-- share thingy -->
+		<div id="shareModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  			<div class="modal-header">
+    			<a type="button" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+    			<h3 id="myModalLabel">Share URL</h3>
+  			</div>
+  			<div class="modal-body">
+  				<input type="text" placeholder="URL" style="width:400px" id="share_url"/>
+  			</div>
+  			<div class="modal-footer">
+    			<a class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+  			</div>
+			</div>
+		<div class="footer">
+			<span class="social"> 
+				<a href="http://www.facebook.com/EngineerNITK" target="_blank"><img src="images/facebook-icon.png" /></a>
+				<img src="images/google-plus-icon.png" />
+				<a href="http://twitter.com/EngineerNITK" target="_blank"><img src="images/twitter-icon.png" /></a>
+				<a href="http://www.youtube.com/user/engineernitk" target="_blank"><img src="images/youtube-icon.png" /></a>
+			</span>
+			<center>&copy; Engineer 2013 Technical team</center>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+{% extends "base.html" %} 
+{% block title %}User page{% endblock %} 
+{% block head %}Welcome to Engineer{% endblock %} 
+
+{% block content %}
+
+<p>
+	Welcome {{ user.first_name }}! 
+</p>
+{% if user.is_authenticated %} 
+
+{% for req in user.teamjoinrequest_set.all %}
+
+</br><a href="/accept_team_request/{{req.id}}/"> {{req.fromteam.team_name}}</a>
+
+{% endfor %}
+
+{% endif %}
+</br>
+{% endblock %} 
+

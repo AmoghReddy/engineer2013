@@ -1,0 +1,19 @@
+{% extends "base.html" %} 
+{% block title %}thegreenplayground{% endblock %} 
+{% block head %}Welcome to the green playground{% endblock %} 
+
+{% block content %}
+
+<p>
+	Welcome {{ user.first_name }}! 
+	{% if true == 1 %}
+		<a href="/profile/edit">Edit Profile</a>
+	{% else %}
+	efwifdsoj
+	{% endif %}
+</p>
+{% include "profile/project_list.html" %} 
+</br>
+<a href="/project_register/">Create project</a>
+{% endblock %} 
+
