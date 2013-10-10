@@ -547,23 +547,19 @@ Tronix={
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
  You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
-  in this innovative event<br/>and hone your robotic skills.<br/>\
- <b>Problem Statement</b><br/>Will be released soon<br/>\
-<br/><B>ROBOT SPECIFICATIONS</B><br/><ul><li>The robot should be completely autonomous and self contained; external computers not allowed.</li>\
-<li>The robot should fit into a box of dimensions 25cm x 25cm x 25cm.</li>\
-<li>There is no weight restriction.</li><li>The robot cannot expand beyond the given dimensions at any time during the event.</li>\
-<li>The robot may have any type of sensor as long as it remains within the robot dimensions and not harm the arena.</li>\
-<li>The robot is required to have an onboard power source not based on combustion.</li>\
-<li>The maximum voltage between any two points on the robot should not exceed 12 volts.</li>\
-<li>Use of Lego kits or other ready-made kits is strictly prohibited. For details, please mail the specifications of your PCB with an attached image to in the contact details query.</li>\
-<li>Sharp objects on the robot which may damage or mark the arena will lead to disqualification of the team.</li></ul>\
-<br/><B>OTHER DETAILS</B><br/><ul><li>A maximum of 4 members may be present in one team.</li>\
+  in this innovative event<br/>and hone your robotic skills.<br/>",\
+ "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
+"botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
+Bot dimensions should be well within 20cm*10cm<br />\
+Bot wheels should not hamper the arena <br />\
+Bot should have a mechanism to show the traced path.",
+"OtherDetails":"<ul><li>A maximum of 4 members may be present in one team.</li>\
 <li>Total time allotted is 10 minutes.</li>\
 <li>Each team will be given 10 minutes in which they can start the<br/> attempt a maximum of 3 times of which the best time of completion will <br/>be recorded for the results.</li>\
 <li>The robot may not deviate completely from the path at any time.</li>\
-<li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>\
-<br/><B>CONTEST PROCEDURE</B><br/>\
-<ul<<li>The arena layout will not be shown until all the robots are given to the committee.</li>\
+<li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>",
+"ContestProcedure":"\
+<ul><li>The arena layout will not be shown until all the robots are given to the committee.</li>\
 <li>However a small sample arena will be available before the contest for calibration and testing.</li>\
 <li>The test arena will be made of same materials as the full-size and will be placed in similar lighting conditions.</li>\
 <li>After the arena is revealed, no modifications of any type may be made to the robots, including software or hardware changes.</li>\
@@ -572,7 +568,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>The team will have a maximum of three attempts within given 10 mins.</li>\
 <li>In case no team is able to complete the path, the judges will decide upon the winner.</li>\
 <li>Judges' decision will be final and binding in all cases.</li>\
-"},
+","samplearena":"<img src="data/trail.png"/>"},
 
 "Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
