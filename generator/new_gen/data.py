@@ -57,8 +57,8 @@ Sample Format (Use this format in the mail)<br/>\
 	</tr>\
 	<tr>\
 		<td>Analysis of Android mobile applications</td>\
-		<td>Ram Prasad – NITK, Surathkal <br /> Kishore Kumar – NITK, Surathkal</td>\
-		<td>Ram Prasad <br /> Email: ram@nitk.ac.in <br /> Ph: 973082719 </td>\
+		<td>Ram Prasad – NITK, Surathkal <br/> Kishore Kumar – NITK, Surathkal</td>\
+		<td>Ram Prasad <br/> Email: ram@nitk.ac.in <br/> Ph: 973082719 </td>\
 	</tr>\
 </table><br/>\
 <b>IMPORTANT DATES </b><br/>\
@@ -1063,159 +1063,159 @@ Sce={
 "The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b>  Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization."},
+"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club."},
 "Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
 "Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based on their business feasibility and environmental impact.<br/>"}
 }
 
 Mechanical={
-"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"Contestants will have to register online. On spot registrations can also be done.<br />\
-The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br />\
-A team may comprise a maximum of FIVE participants.<br />\
-A team can comprise of students from different colleges.<br />\
-The team is not permitted to compete with more than one robot","eventformat": "The competition will be played on knock-out basis.<br />\
-The machine would be checked for its safety during registrations. In case of unsafe robots, the teams will be allowed to modify the robot before the registrations close.<br />\
-Only one person can control the robot and one person can stay near the arena for monitoring the robot.<br />\
-In case of a tie, the robots will have to battle for a time duration of 2 minutes.<br />\
-Each team will have a maximum time period of 20 minutes to repair their robot after each battle round.<br />\
-The teams should make sure their wires are slack and all the wires coming out of robot need to be tangled together.<br />\
-The wires coming out of the robot should be placed in such a way that it should be safe from any attacks on the bot and the attack mechanisms provided by the organizers. The organizers will not be held responsible in case of any accidents to the bot because of the attack mechanism provided.<br />\
-The organizers reserve the right to change any or all of the above rules or add any rules as they deem fit.<br />\
-Violation of any the above rules will lead to disqualification.<br />\
-Judges' decision shall be treated as final and binding on all.<br />\
-","eventrules":"The maximum duration of each battle would be 10 minutes except for the finals which is going to be a 20 minute battle. Any team that is not ready at the time specified will be disqualified from the competition and the opponent robot will be declared the winner.<br />\
-A robot that is deemed unsafe by the judges after the match has begun will be disqualified. The match will be immediately halted and the opponent will be awarded a win.<br />\
-If the robots fail to contact each other for 60 seconds, both the robots will be eliminated.<br />\
-The arena will have an opening through which bots can be pushed off the arena. <br />\
-The robot will be declared victorious if it pushes the opponent off the arena through the opening in the wall twice.<br />\
-In case a robot falls off the arena or toppled during the match, it can be restored back to the start point by a team member, within 30 seconds, during which the opponent can move in the arena but not make contact with the other robot. Only 1 restore will be allowed per team.<br />\
-The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br />\
-The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br />\
-In case of immobility of any of the bots, both the bots will start again from their start points. <br />\
-Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br />\
-","judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br />\
-In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br />\
-No points will be awarded for immobilizing the opponent bot.<br />\
-Points will be awarded for the team for using the offensive mechanisms provided by the organizers.<br />\
-","arenaspecs":"The arena will be a circular wooden board of diameter 8 ft. <br />\
-The arena will have 3 ft high mesh all around it except an opening through which the robots can be pushed out of the arena <br />\
-The arena may have one or more of the following traps:<br />\
-Reciprocating Platform with about 1 &ndash; 20 reciprocations per minute.<br />\
-Rotating Platform of about 30 &ndash; 300 rpm.<br />\
-Lifting Mechanisms.<br />\
-Sand/Gravel/ Slush Pits of dimensions 70 cm x 70 cm. Depth of the pits from the arena surface are at an average of 3cm.&#160;<br />\
-Corrugations with a maximum radius of 10cm and pitch 20 cm.<br />\
-Rollers with a maximum diameter of 6 cm.<br />\
-Hitting Mechanisms.<br />\
-Heavy Oscillating Metal Balls<br />\
-","mobility":"All robots must have easily visible and controlled mobility in order to compete.<br />\
-Any machine component should not be detached (intentionally) during any point of the war.<br />\
-The maximum power limitation for mobility is 150 W. However there is no power limitation for attack mechanism.<br />\
-Methods of Mobility include:<br />\
-Rolling (wheels, tracks or the whole robot)<br />\
-Walking (linear actuated legs with no rolling or cam operated motion).<br />\
-Shuffling(rotational cam operated legs)<br />\
-Jumping and hopping is not allowed<br />\
-Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br />\
-","botspecs":"Initial dimension of the robot should not exceed 50cm x 50cm x 50cm (l x b x h).The external device used to control the machine or any external tank is not included in the size constraint.<br />\
-Weight of the robot should not exceed 20kg (Excluding remote control and control wires).<br />\
-If the robot uses external pneumatic / hydraulic source tank, its weight would not be considered.<br />\
-If the robot is solely powered by onboard batteries (wireless robots), its weight would be considered 0.8 times its actual weight.<br />\
-The bot should contain an attack mechanism. Attack mechanism should be independent of the motion of the bot i.e. it should work even if the bot is motionless. A separate check of the attack mechanism will be conducted when the bot is immobile.<br />\
-The robot should have a small ground clearance such that the arena is not damaged at any point of time. The bot which causes any damage to arena will be disqualified.<br />\
-","hydraulic":"Participants can use pneumatic and hydraulic weapon systems.<br />\
-The outlet pressure of the source/tank should not exceed 8 bars. The used pressure should be indicated by means of temporarily fitted pressure gauge or there should be a provision to measure the cylinder pressure on the bot.<br />\
-Robots can use pressurized, non-inflammable gases/liquid to initialize their pneumatic mechanisms.<br />\
-Teams have to bring their own cylinders. Organizers will not provide any kind of refilling.<br />\
-Weight of the external cylinders are not taken into account.<br />\
-","power":"Both on and off board power supplies are allowed. Batteries must be sealed, immobilized-electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells).<br />\
-The voltage between any two terminals in the robot should not exceed 25V. There is no restriction on the power consumption of the bot.<br />\
-230V AC power will be provided.<br />\
-Participants can make use of one or more DC/Stepper motors.<br />\
-Use of an IC engine in any form is not allowed.<br />\
-If the robot is wired then the wire should remain slack under all circumstances during the competition. The length of the wire between controlling device &amp; the power supply and between machine &amp; controlling device should be at least 4 meters.<br />\
-","weapon":"The bots must have at least one kind of attack mechanism. Defensive bots like Wedge bots will be disqualified.<br />\
-Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammers etc. as weapons with following exceptions and limitations:<br />\
-Liquid projectiles.<br />\
-Any kind of inflammable liquid.<br />\
-Flame-based weapons.<br />\
-Electro-Magnetic Pulse.<br />\
-Any kind of explosive or intentionally ignited solid or potentially ignitable solid.<br />\
-Nets, tape, glue, or any other entanglement device or adhesives.<br />\
-High power magnets or electromagnets.<br />\
-Radio jamming, tazers, tesla coils, or any other high-voltage device.<br />\
-Un-tethered projectiles.&#160;<br />\
-Tethered projectiles in any direction with each having a maximum tether length of 1m are allowed.&#160;<br />\
-Spinning weapons which do not come in contact with the arena at no point of time are allowed. In no case should the arena be damaged by any bot. Violation of this rule will lead to immediate disqualification.&#160;<br />\
-","safety":"Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing.<br />\
-If you have a robot or weapon design that does not fit within the categories set forth in the above said rules or is in some way ambiguous or borderline, please contact the event organizers.<br />\
-Safe innovation is always encouraged, but surprising the event staff with your brilliant exploitation of a loophole may cause your robot to be disqualified before it even competes.<br />\
-Each event has safety inspections. It is at the judge&rsquo;s sole discretion that your robot is allowed to compete. As a builder you are obligated to disclose all operating principles and potential dangers to the inspection staff.<br />\
-Proper activation and deactivation of robots is critical. Robots must only be activated in the arena, testing areas, or with express consent of the event coordinators.<br />\
-All weapons must have a safety cover on any sharp edges.<br />\
-All participants build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved.<br />\
-Please take care to not hurt yourself or others when building, testing and competing.<br />\
+"Robowars": {"image":"./Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"Contestants will have to register online. On spot registrations can also be done.<br/>\
+The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
+A team may comprise a maximum of FIVE participants.<br/>\
+A team can comprise of students from different colleges.<br/>\
+The team is not permitted to compete with more than one robot","eventformat": "The competition will be played on knock-out basis.<br/>\
+The machine would be checked for its safety during registrations. In case of unsafe robots, the teams will be allowed to modify the robot before the registrations close.<br/>\
+Only one person can control the robot and one person can stay near the arena for monitoring the robot.<br/>\
+In case of a tie, the robots will have to battle for a time duration of 2 minutes.<br/>\
+Each team will have a maximum time period of 20 minutes to repair their robot after each battle round.<br/>\
+The teams should make sure their wires are slack and all the wires coming out of robot need to be tangled together.<br/>\
+The wires coming out of the robot should be placed in such a way that it should be safe from any attacks on the bot and the attack mechanisms provided by the organizers. The organizers will not be held responsible in case of any accidents to the bot because of the attack mechanism provided.<br/>\
+The organizers reserve the right to change any or all of the above rules or add any rules as they deem fit.<br/>\
+Violation of any the above rules will lead to disqualification.<br/>\
+Judges' decision shall be treated as final and binding on all.<br/>\
+","eventrules":"The maximum duration of each battle would be 10 minutes except for the finals which is going to be a 20 minute battle. Any team that is not ready at the time specified will be disqualified from the competition and the opponent robot will be declared the winner.<br/>\
+A robot that is deemed unsafe by the judges after the match has begun will be disqualified. The match will be immediately halted and the opponent will be awarded a win.<br/>\
+If the robots fail to contact each other for 60 seconds, both the robots will be eliminated.<br/>\
+The arena will have an opening through which bots can be pushed off the arena. <br/>\
+The robot will be declared victorious if it pushes the opponent off the arena through the opening in the wall twice.<br/>\
+In case a robot falls off the arena or toppled during the match, it can be restored back to the start point by a team member, within 30 seconds, during which the opponent can move in the arena but not make contact with the other robot. Only 1 restore will be allowed per team.<br/>\
+The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br/>\
+The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br/>\
+In case of immobility of any of the bots, both the bots will start again from their start points. <br/>\
+Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>\
+","judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br/>\
+In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br/>\
+No points will be awarded for immobilizing the opponent bot.<br/>\
+Points will be awarded for the team for using the offensive mechanisms provided by the organizers.<br/>\
+","arenaspecs":"The arena will be a circular wooden board of diameter 8 ft. <br/>\
+The arena will have 3 ft high mesh all around it except an opening through which the robots can be pushed out of the arena <br/>\
+The arena may have one or more of the following traps:<br/>\
+Reciprocating Platform with about 1 &ndash; 20 reciprocations per minute.<br/>\
+Rotating Platform of about 30 &ndash; 300 rpm.<br/>\
+Lifting Mechanisms.<br/>\
+Sand/Gravel/ Slush Pits of dimensions 70 cm x 70 cm. Depth of the pits from the arena surface are at an average of 3cm.&#160;<br/>\
+Corrugations with a maximum radius of 10cm and pitch 20 cm.<br/>\
+Rollers with a maximum diameter of 6 cm.<br/>\
+Hitting Mechanisms.<br/>\
+Heavy Oscillating Metal Balls<br/>\
+","mobility":"All robots must have easily visible and controlled mobility in order to compete.<br/>\
+Any machine component should not be detached (intentionally) during any point of the war.<br/>\
+The maximum power limitation for mobility is 150 W. However there is no power limitation for attack mechanism.<br/>\
+Methods of Mobility include:<br/>\
+Rolling (wheels, tracks or the whole robot)<br/>\
+Walking (linear actuated legs with no rolling or cam operated motion).<br/>\
+Shuffling(rotational cam operated legs)<br/>\
+Jumping and hopping is not allowed<br/>\
+Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br/>\
+","botspecs":"Initial dimension of the robot should not exceed 50cm x 50cm x 50cm (l x b x h).The external device used to control the machine or any external tank is not included in the size constraint.<br/>\
+Weight of the robot should not exceed 20kg (Excluding remote control and control wires).<br/>\
+If the robot uses external pneumatic / hydraulic source tank, its weight would not be considered.<br/>\
+If the robot is solely powered by onboard batteries (wireless robots), its weight would be considered 0.8 times its actual weight.<br/>\
+The bot should contain an attack mechanism. Attack mechanism should be independent of the motion of the bot i.e. it should work even if the bot is motionless. A separate check of the attack mechanism will be conducted when the bot is immobile.<br/>\
+The robot should have a small ground clearance such that the arena is not damaged at any point of time. The bot which causes any damage to arena will be disqualified.<br/>\
+","hydraulic":"Participants can use pneumatic and hydraulic weapon systems.<br/>\
+The outlet pressure of the source/tank should not exceed 8 bars. The used pressure should be indicated by means of temporarily fitted pressure gauge or there should be a provision to measure the cylinder pressure on the bot.<br/>\
+Robots can use pressurized, non-inflammable gases/liquid to initialize their pneumatic mechanisms.<br/>\
+Teams have to bring their own cylinders. Organizers will not provide any kind of refilling.<br/>\
+Weight of the external cylinders are not taken into account.<br/>\
+","power":"Both on and off board power supplies are allowed. Batteries must be sealed, immobilized-electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells).<br/>\
+The voltage between any two terminals in the robot should not exceed 25V. There is no restriction on the power consumption of the bot.<br/>\
+230V AC power will be provided.<br/>\
+Participants can make use of one or more DC/Stepper motors.<br/>\
+Use of an IC engine in any form is not allowed.<br/>\
+If the robot is wired then the wire should remain slack under all circumstances during the competition. The length of the wire between controlling device &amp; the power supply and between machine &amp; controlling device should be at least 4 meters.<br/>\
+","weapon":"The bots must have at least one kind of attack mechanism. Defensive bots like Wedge bots will be disqualified.<br/>\
+Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammers etc. as weapons with following exceptions and limitations:<br/>\
+Liquid projectiles.<br/>\
+Any kind of inflammable liquid.<br/>\
+Flame-based weapons.<br/>\
+Electro-Magnetic Pulse.<br/>\
+Any kind of explosive or intentionally ignited solid or potentially ignitable solid.<br/>\
+Nets, tape, glue, or any other entanglement device or adhesives.<br/>\
+High power magnets or electromagnets.<br/>\
+Radio jamming, tazers, tesla coils, or any other high-voltage device.<br/>\
+Un-tethered projectiles.&#160;<br/>\
+Tethered projectiles in any direction with each having a maximum tether length of 1m are allowed.&#160;<br/>\
+Spinning weapons which do not come in contact with the arena at no point of time are allowed. In no case should the arena be damaged by any bot. Violation of this rule will lead to immediate disqualification.&#160;<br/>\
+","safety":"Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing.<br/>\
+If you have a robot or weapon design that does not fit within the categories set forth in the above said rules or is in some way ambiguous or borderline, please contact the event organizers.<br/>\
+Safe innovation is always encouraged, but surprising the event staff with your brilliant exploitation of a loophole may cause your robot to be disqualified before it even competes.<br/>\
+Each event has safety inspections. It is at the judge&rsquo;s sole discretion that your robot is allowed to compete. As a builder you are obligated to disclose all operating principles and potential dangers to the inspection staff.<br/>\
+Proper activation and deactivation of robots is critical. Robots must only be activated in the arena, testing areas, or with express consent of the event coordinators.<br/>\
+All weapons must have a safety cover on any sharp edges.<br/>\
+All participants build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved.<br/>\
+Please take care to not hurt yourself or others when building, testing and competing.<br/>\
 ","download": "<a href='data/GENERALRULES.pdf'>Download</a>"},
 
 
-"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br />\
-Contestants will have to register online. On spot registrations can also be done.<br />\
-A team may comprise a maximum of FIVE participants.<br />\
-Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br />\
-The team is not permitted to compete with more than one bot.<br />\
-Teams will not be allowed to modify their bots during their trial.<br />\
-","eventformat":"Each round will be of a maximum of 15 min duration.<br />\
-Fig 1 portrays the arena <br />\
-Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br />\
-In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br />\
-Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 will be at the height of 25cm from the arena. <br />\
-A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is required to climb over this bridge and throw the objects in hoop 3.<br />\
-Each bot will be given only one round in which they need to complete the task.<br />\
-If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 seconds) or toppled over, those teams cannot ask for restore.<br />\
-The organizers reserve the right to change any or all of the above rules as they deem fit.<br />\
-Violation of any the above rules will lead to disqualification.<br />\
-Judges' decision shall be treated as final and binding on all.<br />\
-","judging":"A task is considered as completed only if all the objects are thrown into yhe respective hoops in.<br />\
-The score given to each team at the end of their trial as follows<br />\
-Score = ((10*h1+20*h2+40*h3) *t<br />\
-Where,<br />\
-t= Time remaining after the completion of the task (in minutes) (only after 9 objects are thrown).<br />\
-h1= Number of objects thrown in hoop 1(max=3).<br />\
-h2= Number of objects thrown in hoop 2(max=3).<br />\
-h3= Number of objects thrown in hoop 3(max=3).<br />\
-In case of a tie,<br />\
-Number of balls put will be considered. If scores are level even after that, the team to complete the task fastest will be awarded as winners.<br />\
-","specifications":"BOT SPECIFICATIONS<br />\
-The initial bot dimensions should not exceed 30 x 30 x 20 cm3&#160;excluding the control device dimensions. This dimension excludes the dimension of lifting mechanism <br />\
-The weight of the bot should not exceed 15 kgs.<br />\
-The bot can be controlled wirelessly or with wires.<br />\
-Readymade wireless remote control units may be used.<br />\
-In case wired control is used, the wire(s) must remain slack throughout the event. If the wires are visibly taut, the team would be immediately disqualified.<br />\
-Single phase external 230V AC power will be supplied. Maximum voltage between any two points on the bot must not exceed 24 V DC or 24 V AC.<br />\
-OBJECT DIMENSION<br />\
-Total number of objects to be thrown =9.<br />\
-The dimension of each cube=a cm*a cm*a cm<br />\
-The diameter of each ball = a cm<br />\
-The diameter of the hoop=20cm<br />\
-a = 4 to 7<br />\
-","mobility":"&#160;All robots must have easily visible and controlled mobility in order to compete.&#160;<br />\
-Any machine component should not be detached (intentionally) during any point of the event.<br />\
-Methods of Mobility include:<br />\
-Rolling (wheels, tracks or the whole robot)<br />\
-Walking (linear actuated legs with no rolling or cam operated motion).<br />\
-Shuffling(rotational cam operated legs)<br />\
-Jumping and hopping is not allowed<br />\
-Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br />\
+"PerfectMachine":{"image":"./Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakashay@gmail.com","generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
+Contestants will have to register online. On spot registrations can also be done.<br/>\
+A team may comprise a maximum of FIVE participants.<br/>\
+Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br/>\
+The team is not permitted to compete with more than one bot.<br/>\
+Teams will not be allowed to modify their bots during their trial.<br/>\
+","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
+Fig 1 portrays the arena <br/>\
+Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br/>\
+In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br/>\
+Hoop 1 will be at the ground level. Hoop 2 will be at the height of 15cm from the arena. Hoop 3 will be at the height of 25cm from the arena. <br/>\
+A bridge will be provided at the bottom of hoop 3(hoop at the height of 25 cm). The bot is required to climb over this bridge and throw the objects in hoop 3.<br/>\
+Each bot will be given only one round in which they need to complete the task.<br/>\
+If the bot gets immobilized (unable to show minimum linear displacement of 10cm for 30 seconds) or toppled over, those teams cannot ask for restore.<br/>\
+The organizers reserve the right to change any or all of the above rules as they deem fit.<br/>\
+Violation of any the above rules will lead to disqualification.<br/>\
+Judges' decision shall be treated as final and binding on all.<br/>\
+","judging":"A task is considered as completed only if all the objects are thrown into yhe respective hoops in.<br/>\
+The score given to each team at the end of their trial as follows<br/>\
+Score = ((10*h1+20*h2+40*h3) *t<br/>\
+Where,<br/>\
+t= Time remaining after the completion of the task (in minutes) (only after 9 objects are thrown).<br/>\
+h1= Number of objects thrown in hoop 1(max=3).<br/>\
+h2= Number of objects thrown in hoop 2(max=3).<br/>\
+h3= Number of objects thrown in hoop 3(max=3).<br/>\
+In case of a tie,<br/>\
+Number of balls put will be considered. If scores are level even after that, the team to complete the task fastest will be awarded as winners.<br/>\
+","specifications":"BOT SPECIFICATIONS<br/>\
+The initial bot dimensions should not exceed 30 x 30 x 20 cm3&#160;excluding the control device dimensions. This dimension excludes the dimension of lifting mechanism <br/>\
+The weight of the bot should not exceed 15 kgs.<br/>\
+The bot can be controlled wirelessly or with wires.<br/>\
+Readymade wireless remote control units may be used.<br/>\
+In case wired control is used, the wire(s) must remain slack throughout the event. If the wires are visibly taut, the team would be immediately disqualified.<br/>\
+Single phase external 230V AC power will be supplied. Maximum voltage between any two points on the bot must not exceed 24 V DC or 24 V AC.<br/>\
+OBJECT DIMENSION<br/>\
+Total number of objects to be thrown =9.<br/>\
+The dimension of each cube=a cm*a cm*a cm<br/>\
+The diameter of each ball = a cm<br/>\
+The diameter of the hoop=20cm<br/>\
+a = 4 to 7<br/>\
+","mobility":"&#160;All robots must have easily visible and controlled mobility in order to compete.&#160;<br/>\
+Any machine component should not be detached (intentionally) during any point of the event.<br/>\
+Methods of Mobility include:<br/>\
+Rolling (wheels, tracks or the whole robot)<br/>\
+Walking (linear actuated legs with no rolling or cam operated motion).<br/>\
+Shuffling(rotational cam operated legs)<br/>\
+Jumping and hopping is not allowed<br/>\
+Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br/>\
 ","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
 ","download":"<a href='data/perfectmachineprob.pdf'>Download</a>"},
 
 "wrightflight":{"image":"./Icons_Final/WrightFlight.png","contact":"Akshay K R <br/>9731937661","generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding.","eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
-organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br /> \
-Maximum weight of the glider should be less than 1kg.<br /> \
-Any material may be used for fabrication of glider.<br /> \
-Use of IC-engines in any form is not permitted. <br /> \
-The initial thrust to the glider is provided by means of chucking by hand/a mechanism built by the <br /> \
-team itself only.<br /> \
+organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
+Maximum weight of the glider should be less than 1kg.<br/> \
+Any material may be used for fabrication of glider.<br/> \
+Use of IC-engines in any form is not permitted. <br/> \
+The initial thrust to the glider is provided by means of chucking by hand/a mechanism built by the <br/> \
+team itself only.<br/> \
 Participants can use a maximum of 3 servo motors only for control surfaces.","Arena Specifications":"The height of the building from which the participants will be launching their glider is 9 meters in and \
 flight area of 35 m X 25 m. <br/><img src = 'data/Wright_flight1.JPG'/> <br/> <img src = 'data/Wright_flight2.JPG'/> <br/>","Judging Criteria and Scoring":"The following will be considered while judging the glider:<br/>Preliminary Round &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 40% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Gliding TEST) <br/><img src='wft1.JPG'/><br/>Final Round &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Maneuverability TEST)<br/><img src='wft2.JPG'/><br/>Report &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 10% <br/><img src='wft3.JPG'/><br/><br/>Design & construction: More weightage for the glider with less weight to wingspan ratio. \
 Minimum distance of 7 meters has to be covered by the glider in Preliminary round. <br/><br/>\
@@ -1225,48 +1225,48 @@ plane and for uncontrolled planes it is decided based on the impact due to landi
 science.howstuffworks.com/transport/flight/modern/glider1.htm) <br/>"},
 
 "Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R <br/>9731937661", "General Rules": "\
-• Participants must carry valid ID cards of their respective college, which must be <br />\
-produced at the time of registration.<br />\
-• Maximum number of participants per team is four.<br />\
-• Readymade kits are not allowed.<br />\
-• Each team is allowed to participate with not more than one bot.<br />\
-• Judges decision will be final and binding.","Event Rules":"• There shall be one qualifying round.<br />\
+• Participants must carry valid ID cards of their respective college, which must be <br/>\
+produced at the time of registration.<br/>\
+• Maximum number of participants per team is four.<br/>\
+• Readymade kits are not allowed.<br/>\
+• Each team is allowed to participate with not more than one bot.<br/>\
+• Judges decision will be final and binding.","Event Rules":"• There shall be one qualifying round.<br/>\
 • The qualifying round is to test the test the maneuverability and the water shooting \
-capacity of the bot.<br />\
-• The top 8 will qualify for the final round.<br />\
-• Teams will be provided with external 230V AC supply.<br />\
-• Teams must ensure that all mechanisms employed within the bot must not destroy the <br />\
-arena in any manner.<br />\
-• Any modifications on the bot must be made between the trials. Provision to make <br />\
-modifications during a trial is not permitted.","Bot Specs":"• Bots may be wired or wireless.<br />\
-• Controlling wires (if any) should not be taut at any point during the trial.<br />\
-• The bot has to fit in a box of dimensions 30*30*30 cm3<br />\
-• The width of the flume is 72cm. There are no other dimensional restrictions on the <br />\
-width or length. Keep in mind the functional requirements of the bot.<br />\
-• No restriction on weight of bot.<br />\
-• The potential difference between any two points on the bot must not exceed 12V.<br />\
-• Electrical components must be adequately insulated to prevent any complications <br />\
-that could arise because of it coming in contact with water.","Event Format":"• Round 1<br />\
-The bot has to start from point A and travel along the length of the tank to point B. At point B, <br />\
-the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At <br />\
-point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure <br />\
-below for reference.<br />\
-• Round 2<br />\
-The participants are supposed to aim and shoot maximum of the three targets placed at <br />\
-gradually increasing heights at different distances. The details of the targets are shown below. <br />\
-The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time <br />\
-remaining is also taken into account for the scoring system. The targets have to be destroyed in <br />\
-the following sequence- A –B - C","Scoring":"Time taken in round 1 = t1<br />\
-Time taken for destroying target 1 = t2 (seconds)<br />\
-Time taken for destroying target 2 = t3 (seconds)<br />\
-Time taken for destroying target 3 = t4 (seconds) <br />\
-T4 will be calculated only after all three targets have been brought down.<br />\
-Time remaining after all the targets have been destroyed = t5 (seconds)<br />\
-Range of the jet in round 1 = R (cm)<br />\
-FIRST ROUND EVALUATION:<br />\
-S1 = <br />\
-Based on S1 , top eight teams are qualified for the next round and awarded points from 40 to 5 <br />\
-(40, 35, 30 .. and so on). These points are carried forward for the final score.<br />\
+capacity of the bot.<br/>\
+• The top 8 will qualify for the final round.<br/>\
+• Teams will be provided with external 230V AC supply.<br/>\
+• Teams must ensure that all mechanisms employed within the bot must not destroy the <br/>\
+arena in any manner.<br/>\
+• Any modifications on the bot must be made between the trials. Provision to make <br/>\
+modifications during a trial is not permitted.","Bot Specs":"• Bots may be wired or wireless.<br/>\
+• Controlling wires (if any) should not be taut at any point during the trial.<br/>\
+• The bot has to fit in a box of dimensions 30*30*30 cm3<br/>\
+• The width of the flume is 72cm. There are no other dimensional restrictions on the <br/>\
+width or length. Keep in mind the functional requirements of the bot.<br/>\
+• No restriction on weight of bot.<br/>\
+• The potential difference between any two points on the bot must not exceed 12V.<br/>\
+• Electrical components must be adequately insulated to prevent any complications <br/>\
+that could arise because of it coming in contact with water.","Event Format":"• Round 1<br/>\
+The bot has to start from point A and travel along the length of the tank to point B. At point B, <br/>\
+the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At <br/>\
+point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure <br/>\
+below for reference.<br/>\
+• Round 2<br/>\
+The participants are supposed to aim and shoot maximum of the three targets placed at <br/>\
+gradually increasing heights at different distances. The details of the targets are shown below. <br/>\
+The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time <br/>\
+remaining is also taken into account for the scoring system. The targets have to be destroyed in <br/>\
+the following sequence- A –B - C","Scoring":"Time taken in round 1 = t1<br/>\
+Time taken for destroying target 1 = t2 (seconds)<br/>\
+Time taken for destroying target 2 = t3 (seconds)<br/>\
+Time taken for destroying target 3 = t4 (seconds) <br/>\
+T4 will be calculated only after all three targets have been brought down.<br/>\
+Time remaining after all the targets have been destroyed = t5 (seconds)<br/>\
+Range of the jet in round 1 = R (cm)<br/>\
+FIRST ROUND EVALUATION:<br/>\
+S1 = <br/>\
+Based on S1 , top eight teams are qualified for the next round and awarded points from 40 to 5 <br/>\
+(40, 35, 30 .. and so on). These points are carried forward for the final score.<br/>\
 Final Score, S = + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
 
 "Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R <br/>9731937661", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
@@ -1277,85 +1277,85 @@ Teams will not be allowed to modify their car during their trial.", "Event Forma
 <b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
 to the specified rules. There will be no points from this round. However, if the vehicle \
 doesn’t conform to all the rules, it will be immediately disqualified.<br/> <b>Maneuverability Test</b>: Each car will have to maneuver a set of obstacles and points will be awarded based on time taken to complete the course.<br/><b>Acceleration Test</b>: Each car will have to accelerate a certain distance and points will be awarded based on the time taken to complete the stretch.<br/><b>Quarter-Finals</b>: 8 quarter-Finalists will be decided based on their aggregate points obtained in the abstract submission, acceleration test and maneuverability test. 4 groups of 2 cars each will race and the first car proceeds to the next round.<br/><b>Semi-Finals</b>: 4 semi-finalists will be divided into 2 groups and race-off for the 2 spots in the finals. <br/><b>Final</b>: This round requires the final 2 cars to race through a track with acute curvesand obstructions with the cars able pit stops for refueling and repairs. The endurance of the car will be tested. <br/><a href='./data/velocity.pdf'>Event Rule</a> \
-","Event Rules":"The final 3 rounds will have races with multiple cars racing at a time.<br />\
-The track will have check points at regular intervals. If a machine tumbles, or halts, <br />\
-or goes off the arena at any point on the track, one of the team members is allowed to <br />\
-lift it up and place it at the nearest checkpoint behind that point. The clock will keep <br />\
-running during this time Only ONE member of the team will be allowed to run along <br />\
-with the car throughout each race.<br />\
- Team members are not permitted to touch either their machines or those of their <br />\
-opponents once the race begins (unless there is a need to lift the machine as stated in <br />\
-second point). The penalty for doing so is disqualification.<br />\
- If any of the machines starts off before the flag is waved, the counter would be <br />\
-restarted and the machines will get a second chance. However, if any machine starts <br />\
-off before the waving of flag (or countdown) for a second time, it will be disqualified. <br />\
-No re-match will be offered for the second time.<br />\
- The machines are not allowed to leave any loose parts on any part of the arena. Any <br />\
-machine disintegrating during the race will be disqualified.<br />\
- Teams are not allowed to purposefully damage the machine of the opponent's team.<br />\
-If found doing so on track (while racing), the concerned team will be disqualified. <br />\
-Execution of last three rules will be subjective and relies completely on judges'<br />\
-discretion.","Arena Specs":" The design of the track will be updated periodically. ( Make a note to check out the <br />\
-website periodically)<br />\
-The actual track during the time of race might not strictly follow the design shown <br />\
-above.<br />\
-The width of the track varies from 0.5 m to a maximum of 2mts.","Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X <br />\
-H) at any moment of time during the race. The height will be measured excluding the <br />\
-antenna. The external device which is used to control the machine is not included in <br />\
-the size constraint.<br />\
- The machine should be controlled by a wireless remote control mechanism <br />\
-throughout the race.<br />\
- The machine must not be made from Lego parts, or any ready-made assembly <br />\
-kits other than the parts mentioned below. Readily available chassis layouts are <br />\
-not allowed. Any machine found having a readymade chassis will be immediately <br />\
-disqualified.<br />\
- The machine may be roughly classified into structural and functional parts:<br />\
- <b>Structural parts</b> - Chassis, shock mounting members and have to be built by the <br />\
-participants themselves.<br/> <img src='data/velocity1.JPG'/> <br/> <b>Functional Parts</b> – Stock Steering mechanism must not be used and suspension <br />\
-(lower excluding suspension spring and shock absorbers) has to be built by the <br />\
-participants themselves. Steering mechanisms have to be compulsorily built by <br />\
-the participants.<br />\
- Judging for the same will be strict and the participant will be immediately disqualified <br />\
-if any of the above structural components are found to be ready made.<br />\
- The tires used must have a minimum diameter of 3 inches. You are advised to use <br />\
-tyres of good width for better performance on dirt tracks.<br\> <img src='data/velocity2.JPG'/><br/> <b>Please note: It is not compulsory to fabricate the brake mechanism.</b><br/><b>Wheel Hub:</b> Any part rigidly attached to the wheel hub will be considered as a part of <br />\
-it and hence can be ready-made. An example here is that of the ball stud. <img src='data/velocity3.JPG'/> <br/><b> Steering Mechanism:</b> Any part which is connected to steering rod rigidly i.e. has <br />\
-no degrees of freedom with respect to steering rod (example: heim joint http://<br />\
-en.wikipedia.org/wiki/Heim_joint) will be considered as part of steering rod and thus <br />\
-has to be fabricated by participants.<br/><img src='data/velocity4.JPG' /><br/><b> Suspension mechanism:</b> Any part rigidly connected to suspension arms or one with <br />\
-no degrees of freedom with respect to suspension arm will be considered as its part <br />\
-and has to be fabricated by the participants, except the upper suspension arm. For <br />\
-example both the heim joint (http://en.wikipedia.org/wiki/Rod_end_bearing -see this <br />\
-for more information) for the upper suspension arm and the stud rigidly connected to <br />\
-the wheel hub can be bought from the market.<br/><img src='data/velocity5.JPG' /><br/>If there are parts used in the concerned joint which are neither rigidly connected with <br />\
-suspension or the hub, steering system or hub; they can be used readymade from the <br />\
-market.<br />\
- If teams get any part specifically manufactured for them, they are required to <br />\
-present the CAD Drawings given to the manufacturer and the manufacturer’s <br />\
-bill for the same.<br />\
- The Chassis has to be strictly built by the team and use of stock chassis will lead <br />\
-to immediate disqualification.<br />\
-The above pictures are just sample pictures for you to understand the rules easily.","Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion <br />\
-(IC) engine for propulsion. Only one IC engine should be used in the machine. Use of <br />\
-any other sources such as chemicals, compressed gas, rockets etc. is not allowed.The <br />\
-maximum allowed capacity of IC engine to be used is 5 cc.<br/><img src='data/velocity6.JPG' /><br/>  Any machine which uses DC Motors for propulsion will be disqualified. However <br />\
-DC motors and servos can be used for steering mechanisms or any other control <br />\
-mechanisms apart from propulsion.<br />\
- The machine must have an on-board power supply to run any mechanism requiring <br />\
-electric power.<br />\
- The electric voltage anywhere in the machine should not exceed 15V at any point of <br />\
-time.<br />\
- There shall be a countdown preceding the start of the race. No participant is allowed <br />\
-to touch the machine during the countdown period.<br />\
- Providing a clutch mechanism between the engine and the wheel would prove useful, <br />\
-as it would prevent the engine from dying out at any stage of the race.<br />\
- Participants are advised to use a proper cooling mechanism to prevent overheating of <br />\
-the engine.<br />\
- Participants are advised to use sway bars for better control and stability.<br />\
- The participants are advised to use proper air filters as dirt might cause serious <br />\
-problems to the engine.<br />\
- Readymade wheels are allowed.<br />\
- The machine will be inspected and if found to be dangerous, the team will be<br />\
+","Event Rules":"The final 3 rounds will have races with multiple cars racing at a time.<br/>\
+The track will have check points at regular intervals. If a machine tumbles, or halts, <br/>\
+or goes off the arena at any point on the track, one of the team members is allowed to <br/>\
+lift it up and place it at the nearest checkpoint behind that point. The clock will keep <br/>\
+running during this time Only ONE member of the team will be allowed to run along <br/>\
+with the car throughout each race.<br/>\
+ Team members are not permitted to touch either their machines or those of their <br/>\
+opponents once the race begins (unless there is a need to lift the machine as stated in <br/>\
+second point). The penalty for doing so is disqualification.<br/>\
+ If any of the machines starts off before the flag is waved, the counter would be <br/>\
+restarted and the machines will get a second chance. However, if any machine starts <br/>\
+off before the waving of flag (or countdown) for a second time, it will be disqualified. <br/>\
+No re-match will be offered for the second time.<br/>\
+ The machines are not allowed to leave any loose parts on any part of the arena. Any <br/>\
+machine disintegrating during the race will be disqualified.<br/>\
+ Teams are not allowed to purposefully damage the machine of the opponent's team.<br/>\
+If found doing so on track (while racing), the concerned team will be disqualified. <br/>\
+Execution of last three rules will be subjective and relies completely on judges'<br/>\
+discretion.","Arena Specs":" The design of the track will be updated periodically. ( Make a note to check out the <br/>\
+website periodically)<br/>\
+The actual track during the time of race might not strictly follow the design shown <br/>\
+above.<br/>\
+The width of the track varies from 0.5 m to a maximum of 2mts.","Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X <br/>\
+H) at any moment of time during the race. The height will be measured excluding the <br/>\
+antenna. The external device which is used to control the machine is not included in <br/>\
+the size constraint.<br/>\
+ The machine should be controlled by a wireless remote control mechanism <br/>\
+throughout the race.<br/>\
+ The machine must not be made from Lego parts, or any ready-made assembly <br/>\
+kits other than the parts mentioned below. Readily available chassis layouts are <br/>\
+not allowed. Any machine found having a readymade chassis will be immediately <br/>\
+disqualified.<br/>\
+ The machine may be roughly classified into structural and functional parts:<br/>\
+ <b>Structural parts</b> - Chassis, shock mounting members and have to be built by the <br/>\
+participants themselves.<br/> <img src='data/velocity1.JPG'/> <br/> <b>Functional Parts</b> – Stock Steering mechanism must not be used and suspension <br/>\
+(lower excluding suspension spring and shock absorbers) has to be built by the <br/>\
+participants themselves. Steering mechanisms have to be compulsorily built by <br/>\
+the participants.<br/>\
+ Judging for the same will be strict and the participant will be immediately disqualified <br/>\
+if any of the above structural components are found to be ready made.<br/>\
+ The tires used must have a minimum diameter of 3 inches. You are advised to use <br/>\
+tyres of good width for better performance on dirt tracks.<br\> <img src='data/velocity2.JPG'/><br/> <b>Please note: It is not compulsory to fabricate the brake mechanism.</b><br/><b>Wheel Hub:</b> Any part rigidly attached to the wheel hub will be considered as a part of <br/>\
+it and hence can be ready-made. An example here is that of the ball stud. <img src='data/velocity3.JPG'/> <br/><b> Steering Mechanism:</b> Any part which is connected to steering rod rigidly i.e. has <br/>\
+no degrees of freedom with respect to steering rod (example: heim joint http://<br/>\
+en.wikipedia.org/wiki/Heim_joint) will be considered as part of steering rod and thus <br/>\
+has to be fabricated by participants.<br/><img src='data/velocity4.JPG' /><br/><b> Suspension mechanism:</b> Any part rigidly connected to suspension arms or one with <br/>\
+no degrees of freedom with respect to suspension arm will be considered as its part <br/>\
+and has to be fabricated by the participants, except the upper suspension arm. For <br/>\
+example both the heim joint (http://en.wikipedia.org/wiki/Rod_end_bearing -see this <br/>\
+for more information) for the upper suspension arm and the stud rigidly connected to <br/>\
+the wheel hub can be bought from the market.<br/><img src='data/velocity5.JPG' /><br/>If there are parts used in the concerned joint which are neither rigidly connected with <br/>\
+suspension or the hub, steering system or hub; they can be used readymade from the <br/>\
+market.<br/>\
+ If teams get any part specifically manufactured for them, they are required to <br/>\
+present the CAD Drawings given to the manufacturer and the manufacturer’s <br/>\
+bill for the same.<br/>\
+ The Chassis has to be strictly built by the team and use of stock chassis will lead <br/>\
+to immediate disqualification.<br/>\
+The above pictures are just sample pictures for you to understand the rules easily.","Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion <br/>\
+(IC) engine for propulsion. Only one IC engine should be used in the machine. Use of <br/>\
+any other sources such as chemicals, compressed gas, rockets etc. is not allowed.The <br/>\
+maximum allowed capacity of IC engine to be used is 5 cc.<br/><img src='data/velocity6.JPG' /><br/>  Any machine which uses DC Motors for propulsion will be disqualified. However <br/>\
+DC motors and servos can be used for steering mechanisms or any other control <br/>\
+mechanisms apart from propulsion.<br/>\
+ The machine must have an on-board power supply to run any mechanism requiring <br/>\
+electric power.<br/>\
+ The electric voltage anywhere in the machine should not exceed 15V at any point of <br/>\
+time.<br/>\
+ There shall be a countdown preceding the start of the race. No participant is allowed <br/>\
+to touch the machine during the countdown period.<br/>\
+ Providing a clutch mechanism between the engine and the wheel would prove useful, <br/>\
+as it would prevent the engine from dying out at any stage of the race.<br/>\
+ Participants are advised to use a proper cooling mechanism to prevent overheating of <br/>\
+the engine.<br/>\
+ Participants are advised to use sway bars for better control and stability.<br/>\
+ The participants are advised to use proper air filters as dirt might cause serious <br/>\
+problems to the engine.<br/>\
+ Readymade wheels are allowed.<br/>\
+ The machine will be inspected and if found to be dangerous, the team will be<br/>\
 disqualified. This decision rests solely with the judges and the organizers."}
 
 
