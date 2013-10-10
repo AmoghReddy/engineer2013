@@ -163,6 +163,7 @@ function system()
 
 }
 window.onbeforeunload=function(){ 
-	getPage(document.location.split("#")[1]);
+	// return 'jwoiah';
+	// getPage(document.location.split("#")[1]);
 }
 window.onload=system;

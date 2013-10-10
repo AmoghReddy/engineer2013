@@ -23,7 +23,7 @@ def event_sidebar(event,i):
 	if (events[i][event]['image'] == 'engineer.gif'):
 		print "<span id='blockGen"+get_num()+"'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_',' ')+"</h1></button></span><br />"	
 	else:
-		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src=\"%{ static '"+events[i][event]['image']+"' %}\" width='250px'/></span><br />"
+		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src=\"{% static '"+events[i][event]['image']+"' %}\" width='250px'/></span><br />"
 	# print "<span id='blockGen"+get_num()+"' style='width:250px;'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
 		# <span id='blockGen'+get_num()+ onclick='getPage("TEvent2")'><button class="button1" style="border-radius: 0%;width: 400px;height: 400px;margin-top: 90px;background-color:#B3B5B5"><h1 style="text-align:center;">MegaPixel</h1></div> </span>
 		# print "<span id='blockGen"+get_num()+"'><button src='"+events[i][event]['image']+"' width='250px'/></span><br />""
