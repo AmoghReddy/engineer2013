@@ -28,26 +28,43 @@ General = {
 
 BluePrint = {
 "Blue_Print" : {
-"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
+"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>+91-9590390285<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
 Blueprint, the paper presentation contest held as part of Engineer attracts some of the best minds from all over the country. Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering.<br/>\
 <b>GENERAL RULES</b><br/>\
-• Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. \
+• Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. <br/>\
 • The submissions should be original work by the authors and any hint of plagiarism will lead to instant disqualification.<br/>\
-• Authors are not permitted to submit papers that have already been accepted for publication/presentation in any other conferences or journals. Also, authors may not submit work that is under review in journals/conferences. \
+• Authors are not permitted to submit papers that have already been accepted for publication/presentation in any other conferences or journals. Also, authors may not submit work that is under review in journals/conferences. <br/>\
 • Authors cannot submit the same paper in more than one of the fields. Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
-• All paper-abstracts will undergo a blind-review process. This means that the authors are not to reveal their identity in ANY form in the abstracts. Authors are only required to mention their names and details in the appropriate section while uploading the abstract. Any attempt to reveal the author’s identity in the submitted abstract will lead to disqualification. \
+• All paper-abstracts will undergo a blind-review process. This means that the authors are not to reveal their identity in ANY form in the abstracts. Authors are only required to mention their names and details in the appropriate section while uploading the abstract. Any attempt to reveal the author’s identity in the submitted abstract will lead to disqualification.<br/>\
 • If the abstract is selected, then at least one of the authors has to be present for the final presentation. <br/>\
 <b>ABSTRACT SUBMISSION RULES AND PROCEDURE</b><br/>\
-• Authors will need to submit a single page abstract for the initial selections. \
-• There is no specific format for the abstract. \
+• Authors will need to submit a single page abstract for the initial selections. <br/>\
+• There is no specific format for the abstract. <br/>\
 • Mention the title of the paper and DO NOT mention the authors name or author-affiliations. <br/>\
-• The abstract should not exceed 500 words in length and can include tables, figures or other data that the authors feel will improve the chances of their paper being selected. (The word limit is exclusive of the references and the title).\
+• The abstract should not exceed 500 words in length and can include tables, figures or other data that the authors feel will improve the chances of their paper being selected. (The word limit is exclusive of the references and the title).<br/>\
 • Abstracts which do not comply with the above mentioned rules will be disqualified. <br/>\
 <b>TEAMS OF 4</b><br/>\
+<b>Submission Details</b><br/>\
+Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
+- Subject of the mail: Category/ Field of Blueprint ( Example: Mechanical)<br/>\
+- Details to be included in the mail:<br/>\
+Sample Format (Use this format in the mail)<br/>\
+<table border='1'>\
+	<tr>\
+		<td>Title of Paper</td>\
+		<td>Name and Institution name of each author of the paper</td>\
+		<td>Complete Contact Information of Participant (any one)</td>\
+	</tr>\
+	<tr>\
+		<td>Analysis of Android mobile applications</td>\
+		<td>Ram Prasad – NITK, Surathkal <br /> Kishore Kumar – NITK, Surathkal</td>\
+		<td>Ram Prasad <br /> Email: ram@nitk.ac.in <br /> Ph: 973082719 </td>\
+	</tr>\
+</table><br/>\
 <b>IMPORTANT DATES </b><br/>\
-14th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
-19th Oct – Declaration of Selected papers <br/>\
-24th -27th Oct – Presentation of papers<br/>"}
+18th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
+21th Oct – Declaration of Selected papers <br/>\
+24th -27th Oct – Presentation of papers"}
 }
 
 
