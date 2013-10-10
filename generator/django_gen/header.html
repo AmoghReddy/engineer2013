@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		{% load staticfiles %}
+		<link rel="icon" href="{% static 'http://engineer.org.in/2013/favicon.ico" type="image/x-icon' %}">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" %}>
+		<title>Engineer 2013</title>
+		<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" />
+		<link rel="stylesheet" href="{% static 'style.css' %}"/>
+		<script src="{% static 'js/jquery-1.10.1.min.js' %}"></script>
+		<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'bootstrap/js/bootstrap-typeahead.js' %}"></script>
+		<script src="{% static 'js/three.min.js' %}"></script>
+		<script src="{% static 'js/tween.min.js' %}"></script>
+		<script src="{% static 'js/CSS3DRenderer.js' %}"></script>
+		<script src="{% static 'js/3script.js' %}"></script>
+		<script src="{% static 'js/system.js' %}"></script>
+	</head>
+	<body style="width: 1366px; overflow: hidden;">
+	<div class="loading">
+		<img src="{% static 'loading.gif' %}" />
+		<a id="loading_text">Loading....</a>
+	</div>
+	<script>
+		var data=["Loading....","Loading....","Loading....","Loading....","Loading...."];
+		function loadingTextHandle(){
+			var loadingText=document.getElementById("loading_text");
+			var newData=data[Math.floor(Math.random()*1000)%data.length-1];
+			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
+			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",3000); }
+		}
+		loadingTextHandle();
+	</script>
+
+		<div class="alert" stlye="z-index: 1000" style="
+	    position: absolute;
+	    z-index: 1000;
+	    width: 100%;
+	    height: 20px;
+		">
+		  <button type="button" class="close" data-dismiss="alert" style=" position: absolute;z-index: 1000;right: 60px;
+line-height: 18px;
+margin-top: 10px;width: 27px;
+height: 21px;">X</button>
+		  <strong><p>This website has been created using WebGL, we recommend you to update your browser to latest version. For best experience please use Google Chrome 29+</p></strong>
+		</div>
+
+
+		<div id="container" style = "width: 1366">
+			<span id = "homePage">
+				<span id = "engiLogo"><img id="engiImg" src="{% static 'images/logo.png' %}"" style="width:300px;box-shadow: 0px 0px 0px;" %}" /></span>
+				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" style="font-family: acens;">EVENTS</button></span>
+				<span id = "menu1"><button id="button1" onclick = "getPage('Workshops')" style="font-family: acens;" >WORK SHOPS</button></span>
+				<span id = "menu2"><button id="button2" onclick="getPage('Technites')" style="font-family: acens;" >TECHNITES</button></span>
+				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" style="font-family: acens;" >TECH SPEAK</button></span>
+				<span id = "menu4"><button id="button4" style="font-family: acens;" >SPONSORS</button></span>
+				<!--<span id = "menu5"><button id="button5" style="font-family: acens;" >ABOUT ENGI</button></span>-->
+				<span id = "menu6"><button id="button6" style="font-family: acens;" onclick = "getPage('Contact')" >CONTACTS</button></span>
+				<span id = "menu7"><button id="button7" style="font-family: acens;" >ACCOM</button></span>
+			</span>
+			<span id='pageContact' style='margin:100px;padding:50px'>
+			<table class='table'>
+			<tr>
+			<td valign='top'><span id='blockGen97'><img src="{% static 'Icons_Final/contacts.png' %}" /></span></td>
+			<td>
+			<span id='blockGen98' style='width:500px;'>
+			<h1>Contact Us</h1><hr/>
+			<p><b>Utpal Kant (Convenor)</b></br>
+			<span style='font-style:italic;'>Ph: 8123309743 </br>
+			Email: convenor@engineer.org.in</span></br></br>
+			<b>Ankit Kumar (Chief Coordinator)</b></br>
+			<span style='font-style:italic;'>Ph: 8123196114 </br>
+			Email: chiefcoordinator@engineer.org.in</span></br></br>
+			<b>Abhisekh Malali (Secretary)</b></br>
+			<span style='font-style:italic;'>Ph: 9480799184 </br>
+			Email: abhisekh@engineer.org.in</span></br></br>
+			<b>Vishnu Swaroop (Marketing Head)</b></br>
+			<span style='font-style:italic;'>Ph: 9986849580 </br>
+			Email: vishnu@engineer.org.in</span></p>
+			<hr/>
+
+			</span>
+			</td>
+			</tr>
+			</table>
+			</span>
