@@ -1268,14 +1268,14 @@ The initial thrust to the glider is provided by means of chucking by hand/a mech
 team itself only.<br/> \
 Participants can use a maximum of 3 servo motors only for control surfaces.","Arena Specifications":"The height of the building from which the participants will be launching their glider is 9 meters in and \
 flight area of 35 m X 25 m. <br/><img src = 'data/Wright_flight1.JPG'/> <br/> <img src = 'data/Wright_flight2.JPG'/> <br/>","Judging Criteria and Scoring":"The following will be considered while judging the glider:<br/>Preliminary Round &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 40% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Gliding TEST) <br/><img src='wft1.JPG'/><br/>Final Round &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Maneuverability TEST)<br/><img src='wft2.JPG'/><br/>Report &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 10% <br/><img src='wft3.JPG'/><br/><br/>Design & construction: More weightage for the glider with less weight to wingspan ratio. \
-Minimum distance of 7 meters has to be covered by the glider in Preliminary round. <br/><br/>\
+Minimum distance of 7 meters has to be covered by the glider in Preliminary round. <br/>\
 *Safe landing for gliders with control surfaces is defined as landing under complete control of the \
 plane and for uncontrolled planes it is decided based on the impact due to landing. <br/>\
-*Glider is defined completely unpowered flying machine. (For more details check http:// \
-science.howstuffworks.com/transport/flight/modern/glider1.htm) <br/>"},
+*Glider is defined completely unpowered flying machine.<br/>(For more details check \
+<a href=\"http://science.howstuffworks.com/transport/flight/modern/glider1.htm\">here</a>) <br/>"},
 
 "Proteus": {"image": "./Icons_Final/Proteus.png","contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", "General Rules": "\
-• Participants must carry valid ID cards of their respective college, which must be <br/>\
+• Participants must carry valid ID cards of their respective college, which must be \
 produced at the time of registration.<br/>\
 • Maximum number of participants per team is four.<br/>\
 • Readymade kits are not allowed.<br/>\
@@ -1285,27 +1285,27 @@ produced at the time of registration.<br/>\
 capacity of the bot.<br/>\
 • The top 8 will qualify for the final round.<br/>\
 • Teams will be provided with external 230V AC supply.<br/>\
-• Teams must ensure that all mechanisms employed within the bot must not destroy the <br/>\
+• Teams must ensure that all mechanisms employed within the bot must not destroy the \
 arena in any manner.<br/>\
-• Any modifications on the bot must be made between the trials. Provision to make <br/>\
+• Any modifications on the bot must be made between the trials. Provision to make \
 modifications during a trial is not permitted.","Bot Specs":"• Bots may be wired or wireless.<br/>\
 • Controlling wires (if any) should not be taut at any point during the trial.<br/>\
 • The bot has to fit in a box of dimensions 30*30*30 cm3<br/>\
-• The width of the flume is 72cm. There are no other dimensional restrictions on the <br/>\
+• The width of the flume is 72cm. There are no other dimensional restrictions on the \
 width or length. Keep in mind the functional requirements of the bot.<br/>\
 • No restriction on weight of bot.<br/>\
 • The potential difference between any two points on the bot must not exceed 12V.<br/>\
 • Electrical components must be adequately insulated to prevent any complications <br/>\
 that could arise because of it coming in contact with water.","Event Format":"• Round 1<br/>\
-The bot has to start from point A and travel along the length of the tank to point B. At point B, <br/>\
-the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At <br/>\
-point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure <br/>\
+The bot has to start from point A and travel along the length of the tank to point B. At point B, \
+the bot has to take a turn and then reach point C. The time taken to reach here is noted as t1.At \
+point C, it is required to shoot a jet of water to achieve maximum range (R). Look at the figure \
 below for reference.<br/>\
 • Round 2<br/>\
-The participants are supposed to aim and shoot maximum of the three targets placed at <br/>\
-gradually increasing heights at different distances. The details of the targets are shown below. <br/>\
-The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time <br/>\
-remaining is also taken into account for the scoring system. The targets have to be destroyed in <br/>\
+The participants are supposed to aim and shoot maximum of the three targets placed at \
+gradually increasing heights at different distances. The details of the targets are shown below. \
+The maximum time allotted to each team is 6 minutes. If all the targets are destroyed, the time \
+remaining is also taken into account for the scoring system. The targets have to be destroyed in \
 the following sequence- A –B - C","Scoring":"Time taken in round 1 = t1<br/>\
 Time taken for destroying target 1 = t2 (seconds)<br/>\
 Time taken for destroying target 2 = t3 (seconds)<br/>\
@@ -1314,10 +1314,10 @@ T4 will be calculated only after all three targets have been brought down.<br/>\
 Time remaining after all the targets have been destroyed = t5 (seconds)<br/>\
 Range of the jet in round 1 = R (cm)<br/>\
 FIRST ROUND EVALUATION:<br/>\
-S1 = <br/>\
-Based on S1 , top eight teams are qualified for the next round and awarded points from 40 to 5 <br/>\
+S1 = 2 * R * ( 1 / t1 )<br/>\
+Based on S1, top eight teams are qualified for the next round and awarded points from 40 to 5 \
 (40, 35, 30 .. and so on). These points are carried forward for the final score.<br/>\
-Final Score, S = + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
+Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
 
 "Velocity": {"image": "./Icons_Final/Velocity.png", "contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
@@ -1328,84 +1328,84 @@ Teams will not be allowed to modify their car during their trial.", "Event Forma
 to the specified rules. There will be no points from this round. However, if the vehicle \
 doesn’t conform to all the rules, it will be immediately disqualified.<br/> <b>Maneuverability Test</b>: Each car will have to maneuver a set of obstacles and points will be awarded based on time taken to complete the course.<br/><b>Acceleration Test</b>: Each car will have to accelerate a certain distance and points will be awarded based on the time taken to complete the stretch.<br/><b>Quarter-Finals</b>: 8 quarter-Finalists will be decided based on their aggregate points obtained in the abstract submission, acceleration test and maneuverability test. 4 groups of 2 cars each will race and the first car proceeds to the next round.<br/><b>Semi-Finals</b>: 4 semi-finalists will be divided into 2 groups and race-off for the 2 spots in the finals. <br/><b>Final</b>: This round requires the final 2 cars to race through a track with acute curvesand obstructions with the cars able pit stops for refueling and repairs. The endurance of the car will be tested. <br/><a href='./data/velocity.pdf'>Event Rule</a> \
 ","Event Rules":"The final 3 rounds will have races with multiple cars racing at a time.<br/>\
-The track will have check points at regular intervals. If a machine tumbles, or halts, <br/>\
-or goes off the arena at any point on the track, one of the team members is allowed to <br/>\
-lift it up and place it at the nearest checkpoint behind that point. The clock will keep <br/>\
-running during this time Only ONE member of the team will be allowed to run along <br/>\
+The track will have check points at regular intervals. If a machine tumbles, or halts, \
+or goes off the arena at any point on the track, one of the team members is allowed to \
+lift it up and place it at the nearest checkpoint behind that point. The clock will keep \
+running during this time.<br/> Only ONE member of the team will be allowed to run along \
 with the car throughout each race.<br/>\
- Team members are not permitted to touch either their machines or those of their <br/>\
-opponents once the race begins (unless there is a need to lift the machine as stated in <br/>\
+ Team members are not permitted to touch either their machines or those of their \
+opponents once the race begins (unless there is a need to lift the machine as stated in \
 second point). The penalty for doing so is disqualification.<br/>\
- If any of the machines starts off before the flag is waved, the counter would be <br/>\
-restarted and the machines will get a second chance. However, if any machine starts <br/>\
+ If any of the machines starts off before the flag is waved, the counter would be \
+restarted and the machines will get a second chance. However, if any machine starts \
 off before the waving of flag (or countdown) for a second time, it will be disqualified. <br/>\
 No re-match will be offered for the second time.<br/>\
- The machines are not allowed to leave any loose parts on any part of the arena. Any <br/>\
+ The machines are not allowed to leave any loose parts on any part of the arena. Any \
 machine disintegrating during the race will be disqualified.<br/>\
- Teams are not allowed to purposefully damage the machine of the opponent's team.<br/>\
+ Teams are not allowed to purposefully damage the machine of the opponent's team. \
 If found doing so on track (while racing), the concerned team will be disqualified. <br/>\
-Execution of last three rules will be subjective and relies completely on judges'<br/>\
-discretion.","Arena Specs":" The design of the track will be updated periodically. ( Make a note to check out the <br/>\
+Execution of last three rules will be subjective and relies completely on judges' \
+discretion.","Arena Specs":" The design of the track will be updated periodically. ( Make a note to check out the \
 website periodically)<br/>\
-The actual track during the time of race might not strictly follow the design shown <br/>\
+The actual track during the time of race might not strictly follow the design shown \
 above.<br/>\
-The width of the track varies from 0.5 m to a maximum of 2mts.","Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X <br/>\
-H) at any moment of time during the race. The height will be measured excluding the <br/>\
-antenna. The external device which is used to control the machine is not included in <br/>\
+The width of the track varies from 0.5 m to a maximum of 2mts.","Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X \
+H) at any moment of time during the race.<br/> The height will be measured excluding the \
+antenna. The external device which is used to control the machine is not included in \
 the size constraint.<br/>\
- The machine should be controlled by a wireless remote control mechanism <br/>\
+ The machine should be controlled by a wireless remote control mechanism \
 throughout the race.<br/>\
- The machine must not be made from Lego parts, or any ready-made assembly <br/>\
-kits other than the parts mentioned below. Readily available chassis layouts are <br/>\
-not allowed. Any machine found having a readymade chassis will be immediately <br/>\
+ The machine must not be made from Lego parts, or any ready-made assembly \
+kits other than the parts mentioned below.<br/> Readily available chassis layouts are \
+not allowed. Any machine found having a readymade chassis will be immediately \
 disqualified.<br/>\
  The machine may be roughly classified into structural and functional parts:<br/>\
- <b>Structural parts</b> - Chassis, shock mounting members and have to be built by the <br/>\
-participants themselves.<br/> <img src='data/velocity1.JPG'/> <br/> <b>Functional Parts</b> – Stock Steering mechanism must not be used and suspension <br/>\
-(lower excluding suspension spring and shock absorbers) has to be built by the <br/>\
-participants themselves. Steering mechanisms have to be compulsorily built by <br/>\
+ <b>Structural parts</b> - Chassis, shock mounting members and have to be built by the \
+participants themselves.<br/> <img src='data/velocity1.JPG'/> <br/> <b>Functional Parts</b> – Stock Steering mechanism must not be used and suspension \
+(lower excluding suspension spring and shock absorbers) has to be built by the \
+participants themselves.<br/> Steering mechanisms have to be compulsorily built by \
 the participants.<br/>\
- Judging for the same will be strict and the participant will be immediately disqualified <br/>\
+ Judging for the same will be strict and the participant will be immediately disqualified \
 if any of the above structural components are found to be ready made.<br/>\
- The tires used must have a minimum diameter of 3 inches. You are advised to use <br/>\
-tyres of good width for better performance on dirt tracks.<br\> <img src='data/velocity2.JPG'/><br/> <b>Please note: It is not compulsory to fabricate the brake mechanism.</b><br/><b>Wheel Hub:</b> Any part rigidly attached to the wheel hub will be considered as a part of <br/>\
-it and hence can be ready-made. An example here is that of the ball stud. <img src='data/velocity3.JPG'/> <br/><b> Steering Mechanism:</b> Any part which is connected to steering rod rigidly i.e. has <br/>\
-no degrees of freedom with respect to steering rod (example: heim joint http://<br/>\
-en.wikipedia.org/wiki/Heim_joint) will be considered as part of steering rod and thus <br/>\
-has to be fabricated by participants.<br/><img src='data/velocity4.JPG' /><br/><b> Suspension mechanism:</b> Any part rigidly connected to suspension arms or one with <br/>\
-no degrees of freedom with respect to suspension arm will be considered as its part <br/>\
-and has to be fabricated by the participants, except the upper suspension arm. For <br/>\
-example both the heim joint (http://en.wikipedia.org/wiki/Rod_end_bearing -see this <br/>\
-for more information) for the upper suspension arm and the stud rigidly connected to <br/>\
-the wheel hub can be bought from the market.<br/><img src='data/velocity5.JPG' /><br/>If there are parts used in the concerned joint which are neither rigidly connected with <br/>\
-suspension or the hub, steering system or hub; they can be used readymade from the <br/>\
+ The tires used must have a minimum diameter of 3 inches. You are advised to use \
+tyres of good width for better performance on dirt tracks.<br\> <img src='data/velocity2.JPG'/><br/> <b>Please note: It is not compulsory to fabricate the brake mechanism.</b><br/><b>Wheel Hub:</b> Any part rigidly attached to the wheel hub will be considered as a part of \
+it and hence can be ready-made. An example here is that of the ball stud. <img src='data/velocity3.JPG'/> <br/><b> Steering Mechanism:</b> Any part which is connected to steering rod rigidly i.e. has \
+no degrees of freedom with respect to steering rod (example: heim joint http://\
+en.wikipedia.org/wiki/Heim_joint) will be considered as part of steering rod and thus \
+has to be fabricated by participants.<br/><img src='data/velocity4.JPG' /><br/><b> Suspension mechanism:</b> Any part rigidly connected to suspension arms or one with \
+no degrees of freedom with respect to suspension arm will be considered as its part \
+and has to be fabricated by the participants, except the upper suspension arm. For \
+example both the heim joint (http://en.wikipedia.org/wiki/Rod_end_bearing -see this \
+for more information) for the upper suspension arm and the stud rigidly connected to \
+the wheel hub can be bought from the market.<br/><img src='data/velocity5.JPG' /><br/>If there are parts used in the concerned joint which are neither rigidly connected with \
+suspension or the hub, steering system or hub; they can be used readymade from the \
 market.<br/>\
- If teams get any part specifically manufactured for them, they are required to <br/>\
-present the CAD Drawings given to the manufacturer and the manufacturer’s <br/>\
+ If teams get any part specifically manufactured for them, they are required to \
+present the CAD Drawings given to the manufacturer and the manufacturer’s \
 bill for the same.<br/>\
- The Chassis has to be strictly built by the team and use of stock chassis will lead <br/>\
+ The Chassis has to be strictly built by the team and use of stock chassis will lead \
 to immediate disqualification.<br/>\
-The above pictures are just sample pictures for you to understand the rules easily.","Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion <br/>\
-(IC) engine for propulsion. Only one IC engine should be used in the machine. Use of <br/>\
-any other sources such as chemicals, compressed gas, rockets etc. is not allowed.The <br/>\
-maximum allowed capacity of IC engine to be used is 5 cc.<br/><img src='data/velocity6.JPG' /><br/>  Any machine which uses DC Motors for propulsion will be disqualified. However <br/>\
-DC motors and servos can be used for steering mechanisms or any other control <br/>\
+The above pictures are just sample pictures for you to understand the rules easily.","Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion \
+(IC) engine for propulsion.<br/> Only one IC engine should be used in the machine.<br/> Use of \
+any other sources such as chemicals, compressed gas, rockets etc. is not allowed.<br/>The \
+maximum allowed capacity of IC engine to be used is 5 cc.<br/><img src='data/velocity6.JPG' /><br/>  Any machine which uses DC Motors for propulsion will be disqualified. However \
+DC motors and servos can be used for steering mechanisms or any other control \
 mechanisms apart from propulsion.<br/>\
- The machine must have an on-board power supply to run any mechanism requiring <br/>\
+ The machine must have an on-board power supply to run any mechanism requiring \
 electric power.<br/>\
- The electric voltage anywhere in the machine should not exceed 15V at any point of <br/>\
+ The electric voltage anywhere in the machine should not exceed 15V at any point of \
 time.<br/>\
- There shall be a countdown preceding the start of the race. No participant is allowed <br/>\
+ There shall be a countdown preceding the start of the race. No participant is allowed \
 to touch the machine during the countdown period.<br/>\
- Providing a clutch mechanism between the engine and the wheel would prove useful, <br/>\
+ Providing a clutch mechanism between the engine and the wheel would prove useful, \
 as it would prevent the engine from dying out at any stage of the race.<br/>\
- Participants are advised to use a proper cooling mechanism to prevent overheating of <br/>\
+ Participants are advised to use a proper cooling mechanism to prevent overheating of \
 the engine.<br/>\
  Participants are advised to use sway bars for better control and stability.<br/>\
- The participants are advised to use proper air filters as dirt might cause serious <br/>\
+ The participants are advised to use proper air filters as dirt might cause serious \
 problems to the engine.<br/>\
  Readymade wheels are allowed.<br/>\
- The machine will be inspected and if found to be dangerous, the team will be<br/>\
+ The machine will be inspected and if found to be dangerous, the team will be \
 disqualified. This decision rests solely with the judges and the organizers."}
 
 
