@@ -96,7 +96,7 @@ function extractDelta(e)
     }
 }
 function keybind(){
-	$(container).keydown(function(e){
+	$(document).keydown(function(e){
 		if(e.keyCode==37 || e.keyCode==38){
 			VScroll(false);
 		}
@@ -162,5 +162,7 @@ function system()
 	searchRouter();
 
 }
-//window.onbeforeunload=function(){ return "Back Button wont work :P\nUse the back button at the bottom of the screen";}
+window.onbeforeunload=function(){ 
+	getPage(document.location.split("#")[1]);
+}
 window.onload=system;
