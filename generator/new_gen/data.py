@@ -1063,7 +1063,57 @@ Sce={
 "The_Last_Word":{"image": "./Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club."},
+"Sparsh":{"image": "./Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
+"Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br />\
+Use of biomass is not in itself a cause for concern. However, when resources harvested are unsustainable and energy conversion technologies are inefficient, there are serious adverse consequences for people&rsquo;s health, the environment and economic development.<br />\
+ <br />\
+About 1.3 million people &ndash; mostly women and children&ndash; die prematurely every year because of exposure to indoor air pollution from biomass burning. Environmental damage can also result, for example, in deforestation. <br />\
+","NeedOfTheHour":"There is an urgent need for alternative, sustainable energy sources and improved sanitation. By converting animal manure and human excreta into cooking energy, biogas could fill the void.<br />\
+This problem is most directly solved by household level bio-gas plants which are being manufactured in India. However, the plants cost INR.15,000. This puts a break to the sales of these bio-gas plants as these plants are mainly targeted to the rural people who may not be willing to pay this price. The need of the hour is to make these bio-gas plants cheaper so that everybody can afford. <br />\
+","problemstatement":"The participants of Sparsh are expected to give ideas through which household level bio-gas plants can be made cost-effectively with a budget which should not exceed INR 15,000. The aim is to make the household bio-gas plants as cost-effective as possible. The participants are required to make a presentation of their ideas. They are judged on the cost-effectiveness of their idea and the practicality of their solution. They will be judged by professionals experienced in this domain. Innovative and feasible ideas may be implemented and further developed by Mangalore City Corporation. <br />\
+<br />\
+The presentation must address the following:<br />\
+Total budget, including costs of raw materials and labour<br />\
+Detailed design, with justification<br />\
+Any other innovative ideas to improve functionality or add new features<br />\
+","Rules":"Preliminary round: <br />\
+Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to khv.10m148@nitk.edu.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
+Submit the abstract in PDF format.<br />\
+PDFs should include:<br />\
+Title <br />\
+College name<br />\
+Team name<br />\
+Name and details of the team members (Contact number and email id)<br />\
+Brief description of the idea/solution.<br />\
+The abstract should not exceed two pages (exclude two pages). Selected teams will be informed through mail.<br />\
+<br />\
+Final round:<br />\
+<br />\
+The participants must form teams of 3 members or less.<br />\
+Presentation should not exceed 10 minutes.<br />\
+If participants want to include drawings/designs on softwares like AutoCAD etc., they are encouraged to do so.<br />\
+<br />\
+Prizes worth 10k to be won. <br />\
+","Faqs":"Q. Can teams be formed by mixing students of different disciplines/departments?<br />\
+A.&#160;Yes.<br />\
+<br />\
+Q. Can teams be formed by mixing undergraduate and post-graduate engineering students?<br />\
+A.&#160;Yes.<br />\
+<br />\
+Q. Can one team submit more than one entry?<br />\
+A.&#160;No, one team can send only one entry and the same person cannot be in more than one team.<br />\
+<br />\
+Q. Whom do we contact in case of any queries?<br />\
+A.&#160;In case of any queries, send a mail khv.10m148@nitk.edu.in.<br />\
+<br />\
+Q. Can entries be submitted in other languages?<br />\
+A.&#160;No, entries are to be submitted only in English<br />\
+<br />\
+Q. Would a prototype be required if I'm a short listed candidate?<br />\
+A.&#160;No<br />\
+<br />\
+The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
+"},
 "Sky_Lanterns":{"image": "./Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
 "Green_Inovation_Challenge":{"image": "./Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based on their business feasibility and environmental impact.<br/>"}
 }
