@@ -3,7 +3,7 @@
 comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
 "Technites":"./Icons_Final/technites.png",
-"TechSpeak":"./Icons_Final/techspeak.png",
+"Tech Speak":"./Icons_Final/techspeak.png",
 "Materials":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
 "Chem":"./Icons_Final/chemmain.png",
@@ -16,33 +16,55 @@ comitteeLogos={
 "Astro": "./Icons_Final/astro.png",
 "Gaming":"./Icons_Final/gaming.png",
 "Civil": "./Icons_Final/civilmain.png",
-"General": "./Icons_Final/GeneralEvents.png"
+"General": "./Icons_Final/GeneralEvents.png",
+"BluePrint":"./Icons_Final/BluePrint.png"
 }
 
 
 #each comittee
 General = {
-	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."},
-	"Blue_Print":{"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
+	"Simplineer": {"image": "./Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+}
+
+BluePrint = {
+"Blue_Print" : {
+"image": "./Icons_Final/BluePrint.png","contact": "Raghavan<br/>+91-9590390285<br/>blueprint@engineer.org.in","Description": "<b>Introduction</b><br/>\
 Blueprint, the paper presentation contest held as part of Engineer attracts some of the best minds from all over the country. Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering.<br/>\
 <b>GENERAL RULES</b><br/>\
-• Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. \
+• Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. <br/>\
 • The submissions should be original work by the authors and any hint of plagiarism will lead to instant disqualification.<br/>\
-• Authors are not permitted to submit papers that have already been accepted for publication/presentation in any other conferences or journals. Also, authors may not submit work that is under review in journals/conferences. \
+• Authors are not permitted to submit papers that have already been accepted for publication/presentation in any other conferences or journals. Also, authors may not submit work that is under review in journals/conferences. <br/>\
 • Authors cannot submit the same paper in more than one of the fields. Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
-• All paper-abstracts will undergo a blind-review process. This means that the authors are not to reveal their identity in ANY form in the abstracts. Authors are only required to mention their names and details in the appropriate section while uploading the abstract. Any attempt to reveal the author’s identity in the submitted abstract will lead to disqualification. \
+• All paper-abstracts will undergo a blind-review process. This means that the authors are not to reveal their identity in ANY form in the abstracts. Authors are only required to mention their names and details in the appropriate section while uploading the abstract. Any attempt to reveal the author’s identity in the submitted abstract will lead to disqualification.<br/>\
 • If the abstract is selected, then at least one of the authors has to be present for the final presentation. <br/>\
 <b>ABSTRACT SUBMISSION RULES AND PROCEDURE</b><br/>\
-• Authors will need to submit a single page abstract for the initial selections. \
-• There is no specific format for the abstract. \
+• Authors will need to submit a single page abstract for the initial selections. <br/>\
+• There is no specific format for the abstract. <br/>\
 • Mention the title of the paper and DO NOT mention the authors name or author-affiliations. <br/>\
-• The abstract should not exceed 500 words in length and can include tables, figures or other data that the authors feel will improve the chances of their paper being selected. (The word limit is exclusive of the references and the title).\
+• The abstract should not exceed 500 words in length and can include tables, figures or other data that the authors feel will improve the chances of their paper being selected. (The word limit is exclusive of the references and the title).<br/>\
 • Abstracts which do not comply with the above mentioned rules will be disqualified. <br/>\
 <b>TEAMS OF 4</b><br/>\
+<b>Submission Details</b><br/>\
+Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
+- Subject of the mail: Category/ Field of Blueprint ( Example: Mechanical)<br/>\
+- Details to be included in the mail:<br/>\
+Sample Format (Use this format in the mail)<br/>\
+<table border='1' height=\"300\" width=\"600\">\
+	<tr>\
+		<td>Title of Paper</td>\
+		<td>Name and Institution name of each author of the paper</td>\
+		<td>Complete Contact Information of Participant (any one)</td>\
+	</tr>\
+	<tr>\
+		<td>Analysis of Android mobile applications</td>\
+		<td>Ram Prasad – NITK, Surathkal <br /> Kishore Kumar – NITK, Surathkal</td>\
+		<td>Ram Prasad <br /> Email: ram@nitk.ac.in <br /> Ph: 973082719 </td>\
+	</tr>\
+</table><br/>\
 <b>IMPORTANT DATES </b><br/>\
-14th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
-19th Oct – Declaration of Selected papers <br/>\
-24th -27th Oct – Presentation of papers<br/>"}
+18th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
+21th Oct – Declaration of Selected papers <br/>\
+24th -27th Oct – Presentation of papers"}
 }
 
 
@@ -64,8 +86,6 @@ Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the compl
 
 	"Humanoid_Robot": {"image": "./Icons_Final/ROBOTICS.png", "contact": "Manasij", "Description": "<p>You've been seeing videos of robots which walk, fight and even play football. However, workshops generally don't teach you to build such amazing robots. For the very first time in Engineer we will be conducting a workshop where we will be building a bipedal robot which can perform the above tasks. The workshop will be conducted by Frugal Labs who are based in Bangalore.</br>\
 			Registration Fee:  Rs 7000/ team. </br>Each team can have a maximum of 5 members (1400/head). A kit will be provided to each team.</p>	"}
-
-
 }
 
 Civil = {
@@ -1259,5 +1279,6 @@ events={
 "Astro": Astro,
 "Gaming":Gaming,
 "Workshops": Workshops,
-"General": General
+"General": General,
+"BluePrint":BluePrint
 }

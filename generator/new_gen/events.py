@@ -32,14 +32,14 @@ def event_sidebar(event,i):
 	# print tab_type
 	for j in tab_type:
 		if (j != "image" and j != "contact"):
-			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
+			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
 		# print tab_type
 		# print event
 		# if event == "Proteus":
 		# print aiufibof
 			# print j
 			# print lqn;
-	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 15px;border-radius:20px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
+	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 15px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
 	print "</span>"
 	print "</td>"
 
@@ -101,8 +101,11 @@ def commitee_page(i):
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	if event != "Workshops" and event != "Technites" and event != "TechSpeak":
-		print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
+	if event != "Workshops" and event != "Technites" and event != "TechSpeak" :
+		if event == "BluePrint":
+			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\'Blue_Print\')">'
+		else:
+			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
 		# print '<h1>'+event+'</h1>'
 		print '<img id="eve'+str(eve_id)+'" src="'+comitteeLogos[event]+'"/>'
 		eve_id+=1

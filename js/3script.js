@@ -5,6 +5,9 @@ var headerLength = 10;
 var footerLength = 90;
 var initialWidth = 1366;
 
+var iconWidth = 250;
+var iconHeight = 250;
+
 var allForms = {};
 var allSideBars = {};
 var allTabbedPages = {};
@@ -145,9 +148,6 @@ function getAllChildren(element , regex, chosenElements)
 		var array = element.childNodes;
 		for (var x in array)
 		{
-			//console.log('##########');
-			//console.log(array[x]);
-			//console.log('&&&&&&&&&&');
 			if (array[x].id == undefined || element.id == null || element == undefined)
 				continue;
 			if (regex.test(array[x].id))
@@ -438,12 +438,100 @@ function getHomeTargets(source, destination, depth)
 	}
 }
 
+function getComitteePageTarget(source, destination)
+{
+	var object, horiz, vert;
+	var len = source.length;
+	var vect = new THREE.Vector3();
+	vect.copy( pivot );
+	switch(len)
+	{
+		case 1:
+			console.log('1');
+			object = new THREE.Object3D(0, 0, 0);
+			destination.push();
+			break;
+		case 2:
+			console.log('2');
+			horiz = iconWidth / 2 + 50;
+			object = new THREE.Object3D(-horiz, 0, 0);
+			destination.push();
+			object = new THREE.Object3D(horiz, 0, 0);
+			destination.push();
+			break;
+		case 3:
+			console.log('3');
+			horiz = iconWidth / 2 + 50;
+			vert = iconHeight / 2 + 50;
+			object = new THREE.Object3D(0, vert, 0);
+			destination.push();
+			object = new THREE.Object3D(-horiz, -vert, 0);
+			destination.push();
+			object = new THREE.Object3D(horiz, -vert, 0);
+			destination.push();
+			break;
+		case 4:
+			console.log('4');
+			horiz = iconWidth / 2 + 50;
+			vert = iconHeight / 2 + 50;
+			object = new THREE.Object3D(-horiz, vert, 0);
+			destination.push();
+			object = new THREE.Object3D(horiz, vert, 0);
+			destination.push();
+			object = new THREE.Object3D(-horiz, -vert, 0);
+			destination.push();
+			object = new THREE.Object3D(horiz, -vert, 0);
+			destination.push();
+			break;
+		case 5:
+			console.log('5');
+			horiz = iconWidth / 2 + 50;
+			vert = iconHeight / 2 + 50;
+			object = new THREE.Object3D(-horiz, vert, 0);
+			destination.push();
+			object = new THREE.Object3D(horiz, vert, 0);
+			destination.push();
+			object = new THREE.Object3D(-horiz, -vert, 0);
+			destination.push();
+			object = new THREE.Object3D(horiz, -vert, 0);
+			destination.push();
+			break;
+		case 6:
+			console.log('6');
+			for (var i = 0; i < source.length; i++ )
+			{
+
+			}
+			break;
+		case 7:
+			console.log('7');
+			for (var i = 0; i < source.length; i++ )
+			{
+
+			}
+			break;
+		case 8:
+			console.log('8');
+			for (var i = 0; i < source.length; i++ )
+			{
+
+			}
+			break;
+		default :
+			console.log('default');
+			for (var i = 0; i < source.length; i++ )
+			{
+
+			}
+	}
+}
+
 function getRandomTarget(object) //always outside the view
 {
-	object.position.z = (Math.random() * 5000 + 1000) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.z = (Math.random() * 5000 + 3000) * Math.pow(-1, Math.floor(Math.random() * 100));
 	var offsetY = (camera.position.z - object.position.z) * Math.tan((Math.PI/180) * cameraAngle / 2);
-	object.position.y = (Math.random() * 2000 + offsetY + window.innerHeight / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
-	object.position.x = (Math.random() * 2000 + offsetY * (window.innerWidth / window.innerHeight) + window.innerWidth / 2) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.y = (Math.random() * 2000 + offsetY + window.innerHeight / 2 + 1000) * Math.pow(-1, Math.floor(Math.random() * 100));
+	object.position.x = (Math.random() * 2000 + offsetY * (window.innerWidth / window.innerHeight) + window.innerWidth / 2 + 1000) * Math.pow(-1, Math.floor(Math.random() * 100));
 	object.rotation.x = Math.random() % Math.PI*2;
 	object.rotation.y = Math.random() % Math.PI*2;
 	object.rotation.z = Math.random() % Math.PI*2;
@@ -751,6 +839,7 @@ function onWindowResize()
 	camera.updateProjectionMatrix();
 	setCameraZ();
 	renderer.setSize( window.innerWidth, window.innerHeight );
+	render();
 }
 
 function animate() 
