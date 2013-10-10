@@ -49,7 +49,7 @@ Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
 - Subject of the mail: Category/ Field of Blueprint ( Example: Mechanical)<br/>\
 - Details to be included in the mail:<br/>\
 Sample Format (Use this format in the mail)<br/>\
-<table border='1'>\
+<table border='1' width='600'>\
 	<tr>\
 		<td>Title of Paper</td>\
 		<td>Name and Institution name of each author of the paper</td>\
