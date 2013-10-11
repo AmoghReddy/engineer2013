@@ -2,41 +2,37 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="icon" href="http://engineer.org.in/2013/favicon.ico" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		{% load staticfiles %}
+		<link rel="icon" href="{% static 'http://engineer.org.in/2013/favicon.ico" type="image/x-icon' %}">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" %}>
 		<title>Engineer 2013</title>
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="style.css" />
-		<script src="js/jquery-1.10.1.min.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js" ></script>
-		<script src="bootstrap/js/bootstrap-typeahead.js"></script>
-		<script src="js/three.min.js"></script>
-		<script src="js/tween.min.js"></script>
-		<script src="js/CSS3DRenderer.js"></script>
-		<script src="js/3script.js"></script>
-		<script src="js/system.js"></script>
+		<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" />
+		<link rel="stylesheet" href="{% static 'style.css' %}"/>
+		<script src="{% static 'js/jquery-1.10.1.min.js' %}"></script>
+		<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'bootstrap/js/bootstrap-typeahead.js' %}"></script>
+		<script src="{% static 'js/three.min.js' %}"></script>
+		<script src="{% static 'js/tween.min.js' %}"></script>
+		<script src="{% static 'js/CSS3DRenderer.js' %}"></script>
+		<script src="{% static 'js/3script.js' %}"></script>
+		<script src="{% static 'js/system.js' %}"></script>
+		<script src="{% static 'js/server.js' %}"></script>
 	</head>
 	<body style="width: 1366px; overflow: hidden;">
 	<div class="loading">
-		<img src="loading.gif" />
-		<a id="loading_text">Loading</a>
+		<img src="{% static 'loading.gif' %}" />
+		<a id="loading_text">Loading....</a>
 	</div>
 	<script>
-		var data=["Loading.","Loading..","Loading...","Loading....","Loading....."];
-		count = 0;
+		var data=["Loading....","Loading....","Loading....","Loading....","Loading...."];
 		function loadingTextHandle(){
 			var loadingText=document.getElementById("loading_text");
-			count++;
-			if (count >= data.length)count=0;
-			var newData=data[count];
-			//if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle()",0);
-			//else{ 
-				loadingText.innerHTML=newData; setTimeout("loadingTextHandle()",500); 
-			//}
+			var newData=data[Math.floor(Math.random()*1000)%data.length-1];
+			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
+			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",3000); }
 		}
 		loadingTextHandle();
 	</script>
-
 		<div class="alert" stlye="z-index: 1000" style="
 	    position: absolute;
 	    z-index: 1000;
@@ -49,38 +45,25 @@ margin-top: 10px;width: 27px;
 height: 21px;">X</button>
 		  <strong><p>This website has been created using WebGL, we recommend you to update your browser to latest version. For best experience please use Google Chrome 29+</p></strong>
 		</div>
-
-
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
-				<span id = "menuLogo"><img id="engiImg" src="images/logo.png" style="width:300px;box-shadow: 0px 0px 0px;"/></span>
+				<span id = "engiLogo"><img id="engiImg" src="{% static 'images/logo.png' %}"" style="width:300px;box-shadow: 0px 0px 0px;" %}" /></span>
 				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" style="font-family: acens;">EVENTS</button></span>
 				<span id = "menu1"><button id="button1" onclick = "getPage('Workshops')" style="font-family: acens;" >WORK SHOPS</button></span>
-				<span id = "menu2"><button id="button2" onclick = "getPage('Technites')" style="font-family: acens;" >TECHNITES</button></span>
+				<span id = "menu2"><button id="button2" onclick="getPage('Technites')" style="font-family: acens;" >TECHNITES</button></span>
 				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" style="font-family: acens;" >TECH SPEAK</button></span>
-				<span id = "menu4"><button id="button4" onclick = "getPage('sponsors')" style="font-family: acens;" >SPONSORS</button></span>
+				<span id = "menu4"><button id="button4" style="font-family: acens;" >SPONSORS</button></span>
 				<!--<span id = "menu5"><button id="button5" style="font-family: acens;" >ABOUT ENGI</button></span>-->
 				<span id = "menu6"><button id="button6" style="font-family: acens;" onclick = "getPage('Contact')" >CONTACTS</button></span>
 				<span id = "menu7"><button id="button7" style="font-family: acens;" >ACCOM</button></span>
 			</span>
-			<span id = "sponsors">
-				<span id = "menuLogo2"><img id="engiImg2" src="images/logo.png" style="width:300px;box-shadow: 0px 0px 0px;"/></span>
-				<span id = "menu00"><img src = "sponsors/Adormi_Technologies.jpg" style="width:300px"/></span>
-				<span id = "menu01"><img src = "sponsors/Bosch.jpg" style="width:300px"/></span>
-				<span id = "menu02"><img src = "sponsors/Byju.jpg" style="width:300px"/></span>
-				<span id = "menu03"><img src = "sponsors/D_E_Shaw.jpg" style="width:300px"/></span>
-				<span id = "menu04"><img src = "sponsors/Oracle.JPG" style="width:300px"/></span>
-			</span>
-			<span id = "pageProfile">
-				
-			</span>
 			<span id='pageContact' style='margin:100px;padding:50px'>
 			<table class='table'>
 			<tr>
-			<td valign='top'><span id='blockGen97'><img src='Icons_Final/contacts.png'/></span></td>
+			<td valign='top'><span id='blockGen97'><img src="{% static 'Icons_Final/contacts.png' %}" /></span></td>
 			<td>
 			<span id='blockGen98' style='width:500px;'>
-			<h1>Contact Us</h1><hr />
+			<h1>Contact Us</h1><hr/>
 			<p><b>Utpal Kant (Convenor)</b></br>
 			<span style='font-style:italic;'>Ph: 8123309743 </br>
 			Email: convenor@engineer.org.in</span></br></br>
@@ -94,7 +77,6 @@ height: 21px;">X</button>
 			<span style='font-style:italic;'>Ph: 9986849580 </br>
 			Email: vishnu@engineer.org.in</span></p>
 			<hr/>
-
 			</span>
 			</td>
 			</tr>
