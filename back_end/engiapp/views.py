@@ -39,7 +39,7 @@ def register_page(request):
             return HttpResponse(content="success")
 #            return HttpResponseRedirect('/register/success/')
         else:
-            return HttpResponse(content="error")
+            return HttpResponseForbidden()
     else:
         form = RegistrationForm()
     variables = RequestContext(request, {'form': form})

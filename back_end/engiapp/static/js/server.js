@@ -32,7 +32,7 @@ $.ajax({
 function signup(){
 
 $.ajax({
-  url: "/signup/",
+  url: "/register/",
   type: 'post',
   contentType: "application/x-www-form-urlencoded",
   data: $('#Signup form').serialize(),
