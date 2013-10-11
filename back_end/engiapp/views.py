@@ -25,7 +25,7 @@ def logout_page(request):
 def register_page(request):
     if request.method == 'POST': #user has submitted the form
         form = RegistrationForm(request.POST)
-        if True:
+        if form.is_valid():
             username = ''.join([choice(letters) for i in xrange(30)])
             user = User.objects.create_user(username=username, first_name=form.cleaned_data['first_name'],
                 last_name=form.cleaned_data['last_name'], password=form.cleaned_data['password1'],
@@ -40,10 +40,10 @@ def register_page(request):
 #            return HttpResponseRedirect('/register/success/')
         else:
             return HttpResponseForbidden()
-    else:
-        form = RegistrationForm()
-    variables = RequestContext(request, {'form': form})
-    return render_to_response('registration/register.html', variables)
+#    else:
+#        form = RegistrationForm()
+#    variables = RequestContext(request, {'form': form})
+#    return render_to_response('registration/register.html', variables)
 
 
 def user_page(request, username):
