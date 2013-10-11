@@ -6,6 +6,7 @@ from django.forms.extras.widgets import SelectDateWidget
 
 class RegistrationForm(forms.Form):
     first_name = forms.CharField(label=u'First Name')
+    # puts first_name
     last_name = forms.CharField(label=u'Last Name')
     email = forms.EmailField(label=u'Email')
     password1 = forms.CharField(label=u'Password', widget=forms.PasswordInput())

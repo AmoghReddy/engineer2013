@@ -8,8 +8,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^$', 'engiapp.views.main_page'),
-    (r'^login/$', 'django.contrib.auth.views.login'),
-    #(r'^login/$', 'engiapp.views.userLogin'),
+    # (r'^login/$', 'django.contrib.auth.views.login'),
+    (r'^login/$', 'engiapp.views.userLogin'),
     (r'^logout/$', 'engiapp.views.logout_page'),
     (r'^register/$', 'engiapp.views.register_page'),
 
