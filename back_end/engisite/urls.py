@@ -19,7 +19,7 @@ urlpatterns = patterns('',
 
     (r'^committee/$', 'engiapp.views.all_committee'),
     (r'^committee/(?P<committee_id>\d+)/$', 'engiapp.views.committee'),
-    (r'^events/$', 'engiapp.views.all_events'),
+    (r'^events/$','engiapp.views.all_events'),
     (r'^events/(?P<event_id>\d+)/$', 'engiapp.views.event'),
 
     (r'^event/(\d+)/$', 'engiapp.views.event_page'),

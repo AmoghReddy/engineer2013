@@ -24,6 +24,12 @@ def event_sidebar(event,i):
 		print "<span id='blockGen"+get_num()+"'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_',' ')+"</h1></button></span><br />"	
 	else:
 		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src=\"{% static '"+events[i][event]['image']+"' %}\" width='250px'/></span><br />"
+		# print events[i]
+		if event != "Tech_Speak" and events[i] != "Workshops" and event != "Ethical_Hacking_by_TechDefence" and event != "Augmented_Reality" and event != "RC_Aircraft_Design_and_Fabrication" and event != "Humanoid_Robot" and event != "Android Application Development" and event != "Bridge_Design_and_Fabrication" and event != "Blue Print" and event != "Psychadelic_Room" and event != "Blitzkrieg" and event != "Megapixel" and event != "3D_Photography" and event != "Dance_Dance_Revolution" and event != "Arcade_Room":
+			if newHash[event]["team_members"] >	 1:
+				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_register'+'\")\'><h3>'+"Register"+"</h3></span>"
+			else:
+				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_register'+'\")\'><h3>'+"Register"+"</h3></span>"
 	# print "<span id='blockGen"+get_num()+"' style='width:250px;'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
 		# <span id='blockGen'+get_num()+ onclick='getPage("TEvent2")'><button class="button1" style="border-radius: 0%;width: 400px;height: 400px;margin-top: 90px;background-color:#B3B5B5"><h1 style="text-align:center;">MegaPixel</h1></div> </span>
 		# print "<span id='blockGen"+get_num()+"'><button src='"+events[i][event]['image']+"' width='250px'/></span><br />""
@@ -64,6 +70,16 @@ def event_description(event,i):
 			description = description.replace('<br />','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >')
 			print description
 			print '</span>'
+			print '</span>'
+	if event != "Tech_Speak" and events[i] != "Workshops" and event != "Ethical_Hacking_by_TechDefence" and event != "Augmented_Reality" and event != "RC_Aircraft_Design_and_Fabrication" and event != "Humanoid_Robot" and event != "Android Application Development" and event != "Bridge_Design_and_Fabrication" and event != "Blue Print" and event != "Psychadelic_Room" and event != "Blitzkrieg" and event != "Megapixel" and event != "3D_Photography" and event != "Dance_Dance_Revolution" and event != "Arcade_Room":
+			print '<span id = "tabs'+event+"_"+j+'_register">'
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"
+			if (int(newHash[event]["team_members"])) >	 1:
+				k = int(newHash[event]["team_members"])
+				l=0
+				while(l < k):
+					print "<input name='member'><br/>"
+					l+=1
 			print '</span>'
 	print '</span>'
 	# print "<span id='blockGen"+get_num()+"' style='width:500px;'>"
