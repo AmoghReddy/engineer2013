@@ -624,7 +624,7 @@ The teams will have to use the camera provided by us. <br/>\
 <b>General Information</b><br/>\
 A maximum of 4 members per team is allowed. We do not provide computers to the participating teams. It is expected that you arrange for your own.<br/>\
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
-"},
+","download":"<a href=\"data/Automata.docx\">Download</a>"},
 
 "Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
