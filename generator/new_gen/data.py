@@ -517,7 +517,13 @@ Chem={
 ''My mind,'' he said, ''rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>''I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>''I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.''<br/> \
 <b>― Sir Arthur Conan Doyle, The Sign of Four</b><br/>\
  Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry.<br/>Don the role of a lab geek,<br/>Play with the uncanniest concoctions,<br/>Prepare the fanciest potions<br/>And race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
-Push the lizard Brain of yours to the maximum!<br/>"},
+Push the lizard Brain of yours to the maximum!<br/>","Rules and Regulations":"<br/>• A team can have a maximum of 2 people. <br/> \
+• All members of the team are to be enrolled as students in an educational institute.<br/> \
+• No person can be a part of more than 1 team. <br/> \
+• There is no restriction on the number of people participating from a particular institute.",
+"Rounds":"<br/>• The First round will comprise of a Written Quiz testing concepts of +2 Level Chemistry and logical reasoning.<br/> \
+• Around 10 teams will be selected to the next round who will get to work on an exciting puzzle set up based on a storyline. <br/> \
+• This being a spot event, the problem statement will be released on the event day itself."},
 
 "Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
 Industry Defined Problem is the epitome of real, applied engineering.<br/>Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems, IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
@@ -539,6 +545,30 @@ So, in this edition of Engineer, we bring to you a workshop on CHEMCAD giving yo
 theory involved. No pre-requisites.<br/>\
 This will be followed up by an exciting event based on software.<br/> Hurry up! Limited Seats! Lots of prizes at stake.<br/>"},
 
+"Contraption":{"image": "./Icons_Final/#","contact": "Ramya <br/> 9538703009","Description": "Even during these modern days when ships are equipped with advanced technological devices, \
+oil spills continue to be a major threat to the marine environment. With vast number of people \
+dependant on coastal areas for fishing and tourism throughout the world, consequences of oil \
+spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these \
+disasters. Most man made oil pollution comes from land based activities. But public attention tends \
+to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like \
+diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products \
+evaporate quickly and do not persist long in the environment. However, heavier crude oil of less \
+toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn’t \
+decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel \
+ocean fires. <br /> \
+For this year’s edition of Engineer, Contraption provides an opportunity for participants to furnish \
+innovative solutions for oil spills on a miniature scale, based on the criteria given below. \
+A pond of water having an exposed surface area of 0.25 m2 \
+are required to come up with a mechanism that will recover the oil layer from the water. Dimensions \
+of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. \
+There is no constraint on the material of construction or the height of the model. <br/>\
+Participation will be in groups not exceeding four members. An abstract comprising of the design, \
+operating principle, criteria such as power requirements, cost analysis etc. has to be submitted by \
+15th October. Shortlisted participants will be notified by 16th \
+October. Judgment will be based on factors such as rate of oil recovered, creativity, power consumption, practical application and cost of \
+assembly of the model. Points will be cut based on fraction of water recovered along with the oil. <br/>"},
+
+
 }
 
 Tronix={
@@ -547,7 +577,7 @@ Tronix={
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
-"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
+"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.",
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
 Bot dimensions should be well within 20cm*10cm<br />\
 Bot wheels should not hamper the arena <br />\
