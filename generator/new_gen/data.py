@@ -513,31 +513,41 @@ Biz={
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
-"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya <br/> 9538703009","Description":"<b>Introduction:</b><br/>\
-''My mind,'' he said, ''rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>''I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>''I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.''<br/> \
-<b>― Sir Arthur Conan Doyle, The Sign of Four</b><br/>\
- Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry.<br/>Don the role of a lab geek,<br/>Play with the uncanniest concoctions,<br/>Prepare the fanciest potions<br/>And race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
-Push the lizard Brain of yours to the maximum!<br/>"},
+"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
+&ldquo;My mind,&quot; he said, &quot;rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.&rdquo;&#160;<br />\
+&#8213;&#160;Arthur Conan Doyle,&#160;The Sign of Four<br />\
+<br />\
+<br />\
+ Here&rsquo;s a call to all those curious minds waiting to try something new, BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry. Don the role of a lab geek,&#160;play with the uncanniest concoctions, prepare the fanciest potions and&#160;race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br />\
+Push the lizard Brain of yours to the maximum!<br />\
+","rules":"A team can have a maximum of 2 people.<br />\
+All members of the team are to be enrolled as students in an educational institute.<br />\
+No person can be a part of more than 1 team.<br />\
+There is no restriction on the number of people participating from a particular institute.<br />\
+","rounds":"The First round will comprise of a Written Quiz testing concepts of +2 Level Chemistry and logical reasoning.<br />\
+Around 10 teams will be selected to the next round who will get to work on an exciting puzzle set up based on a storyline.<br />\
+This being a spot event, the problem statement will be released on the event day itself.<br />\
+"},
 
-"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
-Industry Defined Problem is the epitome of real, applied engineering.<br/>Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems, IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
-Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry.<br/>In this event, a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue.<br/>The participants are expected to come up with innovative & economically feasible solutions that can be assimilated in the company’s process.<br/>\
-The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies.<br/> \
-So what are you thinking about?<br/>\
-Come, participate and get to interact with and thereby learn from the professionals!<br/>\
-Engineer 2013, the expectations get bigger and the stakes higher!<br/>\
-We will get back to you with further details. Stay updated. <br/>"},
+"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is real, applied engineering at its epitome. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
+Industry-Institute interaction is vital for the development of any engineering student. This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry. In this event, a renowned Chemical firm puts forward a technical problem which they are facing. The problem may be either recurring one or a one off issue. . The participants are expected to come up with innovative &amp; economically feasible solutions that can be assimilated in the company&rsquo;s process.<br />\
+The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies. <br />\
+So what are you thinking of?<br />\
+Come, participate and get to interact with and thereby learn from the professionals!<br />\
+Engineer 2013, the expectations get bigger and the stakes higher! <br />\
+<br />\
+We will get back to you with further details. Stay updated. <br />\
+"},
 
-"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
-Chemical process simulation software helps broaden an engineer’s capabilities and increases productivity. It supercharges an engineer’s \
-efficiency when facing the toughest chemical process models or addressing day-to-day challenges.<br/>\
- They have potential instructional value for practically all core courses, right from first year process calculations to final year\
-  design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer.<br/>\
- CHEMCAD is one such simulation software featuring a rich Graphical User Interface (GUI) allowing the user to \
- understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br/>\
-So, in this edition of Engineer, we bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and \
-theory involved. No pre-requisites.<br/>\
-This will be followed up by an exciting event based on software.<br/> Hurry up! Limited Seats! Lots of prizes at stake.<br/>"},
+"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broadens an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
+<br />\
+So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />\
+"},"Contraption":{"image":"image","contact":"Ramya<br/>sra.10ch36@nitk.edu.in\
+ <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br />\
+For this year&rsquo;s edition of Engineer, Contraption provides an opportunity for participants to furnish innovative solutions for oil spills on a miniature scale, based on the criteria given below.<br />\
+A pond of water having an exposed surface area of 0.25 m2 is covered by a layer of oil. Participants are required to come up with a mechanism that will recover the oil layer from the water. Dimensions of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. There is no constraint on the material of construction or the height of the model.<br />\
+Participation will be in groups not exceeding four members. An abstract comprising of the design, operating principle, criteria such as power requirements, cost analysis etc. has to be submitted by 15th October. Shortlisted participants will be notified by 16th October. Judgment will be based on factors such as rate of oil recovered, creativity, power consumption, practical application and cost of assembly of the model. Points will be cut based on fraction of water recovered along with the oil.<br />\
+"}
 
 }
 
