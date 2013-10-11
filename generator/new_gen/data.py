@@ -3,21 +3,21 @@
 comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
 "Technites":"./Icons_Final/technites.png",
-"Tech Speak":"./Icons_Final/techspeak.png",
+"Tech_Speak":"./Icons_Final/techspeak.png",
 "Materials":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
-"Chem":"./Icons_Final/chemmain.png",
+"Chemical":"./Icons_Final/chemmain.png",
 "Tronix":"./Icons_Final/tronix.png",
 "Mba":"./Icons_Final/MBA.png",
 "Sce":"./Icons_Final/Sce.png",
 "Mining":"./Icons_Final/mining.png",
 "Workshops": "./Icons_Final/workshop2.png",
 "Mechanical": "./Icons_Final/mech.png",
-"Astro": "./Icons_Final/astro.png",
+"Astronomy": "./Icons_Final/astro.png",
 "Gaming":"./Icons_Final/gaming.png",
 "Civil": "./Icons_Final/civilmain.png",
 "General": "./Icons_Final/GeneralEvents.png",
-"BluePrint":"./Icons_Final/BluePrint.png"
+"Blue_Print":"./Icons_Final/BluePrint.png"
 }
 
 
@@ -545,7 +545,7 @@ Tronix={
 
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
-Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.<br/>\
+A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
 "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
@@ -571,8 +571,8 @@ Bot should have a mechanism to show the traced path.",
 "Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
-<b>Problem Statement<br/>\
-Arena Details</b> \
+<b>Problem Statement</b><br/>\
+Arena Details<br/> \
 The arena will be a non-reflective surface on top of a wooden base.<br/> \
 An overhead camera is positioned on top of the arena so that it is completely visible. The position of the camera with respect to the arena will be fixed.<br/>\
 The arena consists of a white background with square nodes at certain points. One of the nodes is the finish node, and will be marked in RED, while the rest of the nodes will be BLACK.<br/>\
@@ -619,19 +619,19 @@ The robot will initially be placed in a node of our choice. The starting node ma
 "Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
 The dates for test run and the main event will be announced shortly<br/>\
-<B>EVENT FORMAT</B><br/>\
+<b>EVENT FORMAT</b><br/>\
 This is an online event<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
 The event will be of 8 hour duration.<br/>\
 The solutions to the each question has to be uploaded for evaluation\
 Points will be awarded after evaluation of submitted solutions.<br/>\
-<B>EVENT RULES</B><br/>\
+<b>EVENT RULES</b><br/>\
 Codes have to be submitted in the form of MATLAB .m files with specific format.<br/>\
 The format will be specified along with each question.<br/>\
 Participants may upload answer to problems any number of times.<br/>\
 Uploading codes intended to harm the server, will earn disqualification.<br/>\
 The submitted source code will be checked if it is copied. Any copying of code would lead to immediate disqualification of both the codes in doubt.<br/>\
-<B>SCORING CRITERIA</B><br/>\
+<b>SCORING CRITERIA</b><br/>\
 The evaluation of the codes is done automatically by a MATLAB server.<br/>\
 Points are allotted based on the performance of the solution to different test cases.<br/>\
 The participants may submit the codes as many times before the final deadline. The codes last submitted will be judged.<br/>\
@@ -641,8 +641,8 @@ The organizers decision will be final and binding.<br/>\
 
 "Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
 There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
-<B>EVENT FORMAT<br/>\
-Round 1</b><br/>\
+<b>EVENT FORMAT</b><br/>\
+Round 1<br/>\
 Written qualification round comprising of objective questions conducted during Engineer.<br/>\
 A limited number of teams, depending on their performance in the qualification round, will proceed into round 2.<br/>\
 The questions challenge one's understanding of basic analog and digital electronic circuits.<br/>\
@@ -654,15 +654,15 @@ A task is said to be complete only when a design is implemented on hardware and 
 Half the cost of the component will be credited (as virtual money) on returning unused component.<br/>\
 Technical help, if required can also be obtained at the cost of virtual money.<br/>\
 Teams will NOT be allowed to carry their own personal components to the event. All the components required for the event will be provided by the organizers.<br/>\
-<B>GENERAL INFORMATION<br/>\
+<b>GENERAL INFORMATION</b><br/>\
 Team size: Three(maximum) <br/>\
-Resources</b><br/>\
+Resources<br/>\
 Datasheets for all the components required will be provided.<br/> \
 <b>Useful Knowledge</b><br/>\
 Basics of Analog Electronic Circuits: Transistors, OPAMPs, 555 timers, etc.<br/>\
 Basics of Digital Electronic Circuits: TTL gates, adders, flip-flops etc.<br/>\
 Analog Communication: Simple modulator-demodulator circuits<br/>\
-<B>JUDGING CRITERIA</B><br/>\
+<b>JUDGING CRITERIA</b><br/>\
 The output of the circuit will be evaluated.<br/>\
 In case of a tie, time required to build the circuit will be considered.<br/>\
 The team with the highest amount of virtual money in their account at the end of the event will be declared as the winner.<br/>\
@@ -670,12 +670,12 @@ Judges' decision will be final and binding in all cases.<br/>\
 "},
 
 "FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
-Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
-<B>EVENT FORMAT</B><br/>\
+Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
+<b>EVENT FORMAT</b><br/>\
 The event will have two phases <br/>\
-<b>-FM reception stage(Phase 1)<br/> \
+-FM reception stage(Phase 1)<br/> \
 -HAM reception stage(Phase 2)<br/>\
-Phase 1</b><br/>\
+Phase 1<br/>\
 All the participating teams are required to build an FM receiver circuit (with an antenna, if required) for Phase 1.<br/>\
 The participating teams which qualify Phase 1 are then allowed to participate in Phase 2.<br/>\
 <b>Judging criteria:</b><br/>\
@@ -684,23 +684,23 @@ Cost.<br/>\
 Points will be deducted for using ready-made printed circuit boards.<br/>\
 Any extra innovations on the circuit (example- a mechanism to switch between FM and HAM reception) will be rewarded with extra points.<br/>\
 Any antennas to aid FM reception are encouraged, however they won’t independently carry a point weight age and can aid in clarity of reception.<br/>\
-<B>EVENT RULES</B><br/>\
+<b>EVENT RULES</b><br/>\
 Each team can consist of a maximum of 4 members.<br/>\
 The members of each team can be from different colleges.<br/>\
 Participating teams those qualify Phase 1 will only be allowed to participate in Phase 2.<br/>\
 Only one antenna will be provided to the participating teams, who have qualified for phase 2 but are not able to design on their own.<br/>\
 The decision of the judges will be the absolute authority.<br/>\
-<B>DISQUALIFICATIONS</B><br/>\
+<b>DISQUALIFICATIONS</b><br/>\
 Things that amount to disqualification<br/>\
 Usage of a commercial antenna.<br/>\
 Usage of mobile phones or other means of communication between teams during the final event.<br/>\
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer 2012,Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer, Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
-<B>EVENT FORMAT</B><br/>\
+<b>EVENT FORMAT</b><br/>\
 Design an electronic controller circuit for a musical fountain.<br/>\
 The water jets and lights on the fountain should be aesthetically harmonized with the music that is played.<br/>\
 The fountain fitted with lights and water jet nozzles shall be provided.<br/>\
@@ -711,11 +711,11 @@ Three tunes will be played for each of the teams. One of them will be the same f
 All teams coming will have to provide a 2 page abstract during the event to receive participation certificates.<br/>The abstract should contain the description of algorithm and schematics of circuits used.<br/>\
 <b>SYMPHONY TUNE:</b><br/>\
 To be downloaded(Will be released shortly)<br/>\
-<B>RULES</B><br/>\
+<b>RULES</b><br/>\
 Teams can comprise of a maximum of three members.<br/>\
 The music input is given in the form of a stereo signal to the circuit through a standard male earphone connector as line-in.<br/>The music will also be played simultaneously on the speaker.<br/>\
 A qualification round will be conducted prior to the final competition based on which teams will be filtered.<br/>The teams will be allowed to tune their circuits during this round.<br/>\
-<B>JUDGING CRITERIA</B><br/>\
+<b>JUDGING CRITERIA</b><br/>\
 Synchronization with the tunes – The operation of the fountain should be in harmony with music component(s).<br/>The team shall make this clear while explaining their algorithm.<br/>(The music components can be any apparent feature such as frequency range, amplitude, a combination of frequency and amplitude, etc.) Better synchronization carries more points.<br/>\
 Aesthetic appeal – Along with synchronization, the combination and sequence of water jets and<br/>lights should be chosen so as to create the best possible aesthetic appeal.<br/>\
 Design of the circuit – Teams shall explain their circuit to the judges. Good quality designs shall carry more marks.<br/>\
@@ -1433,18 +1433,18 @@ events={
 "Technites":Technites,
 "Comps":Comps,
 "Civil": Civil,
-"TechSpeak": TechSpeakEvent,
+"Tech_Speak": TechSpeakEvent,
 "Materials":Meta,
 "Biz":Biz,
-"Chem":Chem,
+"Chemical":Chem,
 "Tronix":Tronix,
 "Mba":Mba,
 "Sce":Sce,
 "Mining":Mining,
 "Mechanical": Mechanical,
-"Astro": Astro,
+"Astronomy": Astro,
 "Gaming":Gaming,
 "Workshops": Workshops,
 "General": General,
-"BluePrint":BluePrint
+"Blue_Print":BluePrint
 }
