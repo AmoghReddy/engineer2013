@@ -25,7 +25,7 @@ def logout_page(request):
 def register_page(request):
     if request.method == 'POST': #user has submitted the form
         form = RegistrationForm(request.POST)
-        if form.is_valid():
+        if True:
             username = ''.join([choice(letters) for i in xrange(30)])
             user = User.objects.create_user(username=username, first_name=form.cleaned_data['first_name'],
                 last_name=form.cleaned_data['last_name'], password=form.cleaned_data['password1'],
