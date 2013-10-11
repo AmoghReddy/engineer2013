@@ -15,9 +15,9 @@ def get_color():
 	return "background: rgba("+str(random.randint(200,250))+","+str(random.randint(200,250))+","+str(random.randint(200,250))+",0.8);"
 
 def event_sidebar(event,i):
-	print "<table class='table' align='center' style='width: 80%;'>"
+	print "<table class='table' align='center' style='width: 90%;'>"
 	print "<tr>"
-	print "<td valign='top' style='width: 30%'>"
+	print "<td valign='top' style='width: 25%'>"
 
 	print "<span id='side"+event+"'>"		
 	if (events[i][event]['image'] == 'engineer.gif'):
@@ -32,19 +32,19 @@ def event_sidebar(event,i):
 	# print tab_type
 	for j in tab_type:
 		if (j != "image" and j != "contact"):
-			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
+			print "<span id='blockGen"+get_num()+"' style='width:240px;padding: 3px;padding-left: 5px;padding-right: 5px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><b>'+j.replace('_',' ')+"</b></span>"
 		# print tab_type
 		# print event
 		# if event == "Proteus":
 		# print aiufibof
 			# print j
 			# print lqn;
-	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 15px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
+	print "<span id='blockGen"+get_num()+"' style='width:240px;padding: 3px;"+get_color()+"'>"+"<b>Contact:</b> "+events[i][event]['contact']+"</span>"
 	print "</span>"
 	print "</td>"
 
 def event_description(event,i):
-	print "<td style='width: 70%'>"
+	print "<td style='width: 75%'>"
 		# print "<span id='page"+event+"'>"
 		#printing the tab of content
 	print '<span id = "tabgroup'+event+'">'
@@ -53,10 +53,10 @@ def event_description(event,i):
 		# if tab_type.index(j) > 1:
 		if (j != "image" and j != "contact"):
 			print '<span id = "tabs'+event+"_"+j+'">'
-			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"	
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 10px;'>"	
 			description = events[i][event][j].replace('<p>',' ')
 			description = description.replace('</p>','<br/>')
-			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;" >')
+			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 10px;" >')
 			print description
 			print '</span>'
 			print '</span>'

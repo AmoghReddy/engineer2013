@@ -386,10 +386,10 @@ Technites={
 
 Comps={
 "Inscription":{"image": "./Icons_Final/INSCRIPTION.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
-<b>Teams of 3.</b><br/>"},
+<b>Teams of 3.</b>"},
 
 "Kode_Kombat":{"image": "./Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
-<b>Teams of 2.</b><br/>"},
+<b>Teams of 2.</b>"},
 
 "Rectify":{"image": "./Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
 &nbsp; you spot your prey and catch it at the blink of an eye like the vicious vulture ? If you think you have\
