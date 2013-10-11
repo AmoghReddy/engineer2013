@@ -78,8 +78,56 @@ Workshops={
 	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "<p>At Engineer we try to reach out to students of various branches. For the very first time we have something for Civil Engineering students and enthusiasts. The workshop can of course be attended by any one who is interested. The workshop will be conducted by Skyfi Labs and it will involve the design of a bridge through specialized tools on your computers followed by testing of your design on model sized bridges which you will be building with quality equipment provided by us.</br>\
 Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/head)</p>"},
 
-	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
-Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
+	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "The knack to flying is learning how to throw yourself at the ground and miss <br/>\
+-Douglas Adams <br/> \
+At the dawn of the twentieth century, having explored and conquered all land, man turned his eyes skywards. For much of history he has been trying to conquer this seemingly unbeatable foe. The skies continued to elude him until finally, the Wright brothers finally conquered the skies one windy morning in the winter of 1903. Since then the aircraft industry has exploded, and aero planes have captured the imagination of the human race.<br/> \
+This workshop by <a href='http://www.aerotrix.com/'' target='_blank' ><b>AerotriX</b></a> gives the participants an opportunity to understand the theory behind the functioning of aircrafts and aircraft design. It makes the participants innovate by coming up with their own design of mini aircrafts and fabricating them as per their design. This workshop takes the participants through a series of interactive lectures and design sessions supplemented by practical sessions, thereby providing a complete learning experience.<br/> \
+Video: <a href='http://www.youtube.com/watch?v=gyL7bv9RGRU' target='_blank' >http://www.youtube.com/watch?<wbr>v=gyL7bv9RGRU</a> \
+","Workshop Specialties":"<b>Workshop Specialties</b>:  \
+• No pre-designed kits are given to participants. Participants design their own aircrafts (using hand calculation and software) under the guidance of our professionals which are later fabricated by them. <br/>\
+• The workshop is organized personally by IIT Kanpur Aerospace Engineering Graduates ",
+"Workshop Structure":"The workshop is divided into 4 modules: \
+• Understanding Flight <br/>\
+• Design of Aircraft <br/> \
+• Fabrication of Aircraft <br/>\
+• Flying using Remote Control <br/>\
+Three awards will be given to the participating teams in terms of Best Design, Best Fabrication and Innovation. The names of the recipients will be put up on our website permanently and they will also be provided with certificate of merit. \
+For our previous workshops awards, check www.aerotrix.com/participant-awards",
+"Kit Contents": "\
+• Hardware \
+• Engine/ Electric Motor * \
+• Electric Motor Controller * \
+• Propeller * <br/> \
+• Transmitter * \
+• Receiver * \
+• Li-Po battery * \
+• Servo motors (3 pieces) * <br/> \
+• Landing Gear ( main and tail dragger) \
+• Wheels (2 pieces) \
+• Coroplast \
+• Styrofoam <br/> \
+• Control Rods \
+• Epoxy Glue \
+• Wing Holders \
+• Working Tools ^ <br/> \
+• Other miscellaneous items \
+The parts marked * are not part of standard kit. These components would be provided during the workshop but would be taken back after the workshop. This is being done to reduce the cost of the workshop and make it affordable for students who do not want to buy the complete kit. <br/>\
+Complete kit consists of all the above items excluding transmitter and receiver <br/> \
+^working tools would be taken back after workshop <br/> \
+Software <br/> \
+• Software used to design and test RC planes \
+• RC Simulator \
+• RC Flying Tutorials and videos <br/>\
+Other Material <br/>\
+• Booklet on Aircraft Maintenance \
+• Booklet on aerobatic maneuvers ","Workshop Details":" <br/>\
+Duration:  2 days (8 hours per day) <br/>\
+Date:  25 Oct - 27 Oct 2013 <br/>\
+Organizers: AerotriX <br/>\
+Cost: Rs 7500/- per team for the standard kit and Rs 12500/- for the complete kit. <br/>\
+Participants can register in team containing maximum of 5 members <br/>\
+Visit www.aerotrix.com for further details <br/>\
+Write to us at info@aerotrix.com for further queries or information"},
 
 	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
 			Registration Fee:  Rs 4250/ team.</br> Each team can have a maximum of 5 members (850/head).</br> A kit will be provided to each team.</p>	"},
@@ -547,7 +595,7 @@ Tronix={
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
-"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
+"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.",
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
 Bot dimensions should be well within 20cm*10cm<br />\
 Bot wheels should not hamper the arena <br />\
