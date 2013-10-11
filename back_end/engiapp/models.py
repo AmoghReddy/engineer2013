@@ -31,6 +31,10 @@ class Team(models.Model):
     team_event = models.OneToOneField(EngiEvents)
     unique_together = (("team_event", "team_name"),)
 
+class TeamJoinRequest(models.Model):
+    fromteam = models.OneToOneField(Team)
+    receivers = models.ManyToManyField(User)
+
 class Student(models.Model):
     user = models.OneToOneField(User)
 #    date_of_birth = models.DateField()
@@ -42,9 +46,4 @@ class Student(models.Model):
     phone_number = models.CharField(max_length=20)
     events = models.ManyToManyField(EngiEvents)
     teams=models.ManyToManyField(Team)
-
-
-
-class TeamJoinRequest(models.Model):
-    fromteam = models.OneToOneField(Team)
-    receivers = models.ManyToManyField(User)
+    team_join_request=models.ManyToManyField(TeamJoinRequest)
