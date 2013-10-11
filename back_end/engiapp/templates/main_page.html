@@ -2291,7 +2291,7 @@ Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagin
 				<span class="dropdown" id="Signup">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Signup <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left: -166px;padding:10px;" role="menu" aria-labelledby="dLabel">
-  						<form method="post">
+  						<form method="post" onsubmit="return false;">
   							{% csrf_token %}
   							<input name="first_name" type="text" placeholder="First Name"/><br />
   							<input name="last_name" type="text" placeholder="Last Name"/><br />
