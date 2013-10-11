@@ -53,10 +53,10 @@ def event_description(event,i):
 		# if tab_type.index(j) > 1:
 		if (j != "image" and j != "contact"):
 			print '<span id = "tabs'+event+"_"+j+'">'
-			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 10px;'>"	
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>"	
 			description = events[i][event][j].replace('<p>',' ')
 			description = description.replace('</p>','<br/>')
-			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 10px;" >')
+			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >')
 			print description
 			print '</span>'
 			print '</span>'
@@ -84,14 +84,14 @@ def commitee_page(i):
 	print "<table>"
 	count=0
 	for event in events[i].iterkeys():
-		if count%3==0:
+		if count%4==0:
 			print "<tr>"
 		if (events[i][event]['image'] == 'engineer.gif'):
 			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
 		else:
 			print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='"+events[i][event]['image']+"'/></span></td>"
 			# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
-		if count%3==2:
+		if count%4==3:
 			print "</tr>"
 		count+=1
 	print "</table>"
