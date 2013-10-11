@@ -545,10 +545,9 @@ Tronix={
 
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
-Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.\
- You are required to build a line follower robot<br/>that will seamlessly move on the morse code and decode them. Participate\
-  in this innovative event<br/>and hone your robotic skills.<br/>",\
- "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
+Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.<br/>\
+You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
+"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
 Bot dimensions should be well within 20cm*10cm<br />\
 Bot wheels should not hamper the arena <br />\
@@ -558,8 +557,7 @@ Bot should have a mechanism to show the traced path.",
 <li>Each team will be given 10 minutes in which they can start the<br/> attempt a maximum of 3 times of which the best time of completion will <br/>be recorded for the results.</li>\
 <li>The robot may not deviate completely from the path at any time.</li>\
 <li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>",
-"ContestProcedure":"\
-<ul><li>The arena layout will not be shown until all the robots are given to the committee.</li>\
+"ContestProcedure":"<ul><li>The arena layout will not be shown until all the robots are given to the committee.</li>\
 <li>However a small sample arena will be available before the contest for calibration and testing.</li>\
 <li>The test arena will be made of same materials as the full-size and will be placed in similar lighting conditions.</li>\
 <li>After the arena is revealed, no modifications of any type may be made to the robots, including software or hardware changes.</li>\
@@ -759,7 +757,7 @@ Green arrow- Entrance<br/>\
 Orange arrow- Exit for shortcut path<br/>\
 Blue Arrow- Exit for Original path",
 "Bot Specification and Rules": "<ul><li>The bot should fit in a box of dimensions 18 x 18 x 12 (cm).</li>\
-<li>The bot must switch at the check-lines (except the 3rd check-line) where the participating team must take the appropriate decision to use the shortcut or the original path.<\li>\
+<li>The bot must switch at the check-lines (except the 3rd check-line) where the participating team must take the appropriate decision to use the shortcut or the original path.</li>\
 <li>If the bot fails to follow the correct wall or strays into an ambiguous path at any point of time during \
 the run, it will be placed just after the previous check-line it has successfully negotiated. However, \
 for bots intending to use the shortcut path, the bot will be defaulted to location just after the 2ndcheck-line</li>\

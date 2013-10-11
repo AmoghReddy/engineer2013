@@ -55,8 +55,13 @@ def event_description(event,i):
 			print '<span id = "tabs'+event+"_"+j+'">'
 			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>"	
 			description = events[i][event][j].replace('<p>',' ')
+			description = description.replace('<ul>',' ')
+			description = description.replace('</ul>',' ')
+			description = description.replace('<li>',' ')
+			description = description.replace('</li>',' ')
 			description = description.replace('</p>','<br/>')
 			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >')
+			description = description.replace('<br />','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >')
 			print description
 			print '</span>'
 			print '</span>'
