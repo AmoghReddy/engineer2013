@@ -71,15 +71,105 @@ Sample Format (Use this format in the mail)<br/>\
 Workshops={
 	"Ethical_Hacking_by_TechDefence": {"image": "./Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
 
-	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Description": "<p>Registration Fee:  Rs 1200/ person</p>"},
-
+	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Workshop Details": "<b>Duration</b>: 2 days (8 hours per day)<br/>\
+<b>Date</b>: <b> 26 Oct - 27 Oct 2013</b><br/>\
+<b>Organizers</b>: Code Instruct<br/>\
+<b>Cost</b>: Rs 1200/- per participant<br/>","Description":"This workshop by <b>Code Instruct</b> gives the participants an opportunity to understand the theory behind the Android Operating System, Android SDK and different Libraries. It makes the participants innovate by coming up with their own app ideas. This workshop takes the participants through a series of interactive lectures and coding sessions, thereby providing a complete learning experience.","Workshop Specialities":"\
+<i>Interactive Lecture Sessions</i><br/>\
+<i>Hands on development of Android applications using industry standard tools</i><br/>\
+<i>The workshop is organized personally by IIT Kanpur Computer Science and Engineering Graduates</i><br/>", "Workshop structure":"\
+Introduction to Mobile Application Development<br/>\
+Role of Android in mobile industry<br/>\
+Introduction to Android SDK and its setup<br/>\
+Building the Application Framework<br/>\
+Designing User Interfaces<br/>\
+Working with activities<br/>\
+Working with Resources, Intents, Widgets<br/>\
+Adding network support to the Application<br/>\
+Examples apps: Calculator, Music Player and Battery Widget<br/>\
+Publishing Application into Play Store<br/>\
+<p>Awards will be given to the participants, who develop innovative and interesting apps. The names of the recipients will be put up on our website permanently and they will also be provided with certificate of merit.</p>\
+","Software":"Software used to design and develop Android Applications<br/>\
+Eclipse IDE<br/>\
+Android SDK","Other Material":"\
+Booklet on Introduction to Android<br/>\
+Sample Applications in Android (Source Code)<br/>"},
 	"3D_Photography": {"image": "engineer.gif","contact": "Manasij","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
-	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "<p>At Engineer we try to reach out to students of various branches. For the very first time we have something for Civil Engineering students and enthusiasts. The workshop can of course be attended by any one who is interested. The workshop will be conducted by Skyfi Labs and it will involve the design of a bridge through specialized tools on your computers followed by testing of your design on model sized bridges which you will be building with quality equipment provided by us.</br>\
-Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/head)</p>"},
+	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
+	"Workshop structure":"The workshop has the following modules:<br/>\
+<b>Lecture</b>: Introduction to bridge design and working of different types of bridges<br/>\
+<b>Design session</b>: Each team will design their own bridge using a simulator<br/>\
+<b>Fabrication</b>: With the design obtained in the design session and the raw material provided by us each team will fabricate their own model bridge<br/>\
+<b>Testing</b>: Each bridge fabricated by the teams will be tested for maximum load taken<br/>","Outcomes":"Certificate of participation from Civil Simplified to all the participants<br/>\
+Career Guidance and Counseling by IIT alumni<br/>\
+Better Chances to pursue higher education in IITs/Universities abroad<br/>\
+Useful to develop good B.Tech/M.Tech projects<br/>","Awards":"<b>Best Design Award</b>: To the team which builds the bridge with maximum efficiency<br/>\
+<b>Best Fabrication Award</b>: To the team which fabricates the bridge perfectly<br/>\
+<b>Best Innovation Award</b>: To the team which comes up with an innovative truss<br/>","Course Content":"Introduction to different types of existing bridges<br/>\
+Structural response to moving loads<br/>\
+Methods of analysis of a truss bridge<br/>\
+IRC code specifications<br/>\
+Segmental Bridge Construction techniques<br/>\
+Pre stressed box girder design<br/>\
+Statically determinate and indeterminate structures<br/>\
+Fabrication techniques for model bridge according to problem statement<br/>\
+","Course Details":"Duration: 1 day<br/>\
+Date: 24 October 2013<br/>\
+Organizers: Civil Simplified<br/>\
+Cost: Rs.950 per participant. 2 participants will be clubbed into a team during practical session. One team will design and make one bridge.<br/>\
+"},
 
-	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
-Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
+	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "The knack to flying is learning how to throw yourself at the ground and miss <br/>\
+-Douglas Adams <br/> \
+At the dawn of the twentieth century, having explored and conquered all land, man turned his eyes skywards. For much of history he has been trying to conquer this seemingly unbeatable foe. The skies continued to elude him until finally, the Wright brothers finally conquered the skies one windy morning in the winter of 1903. Since then the aircraft industry has exploded, and aero planes have captured the imagination of the human race.<br/> \
+This workshop by <a href='http://www.aerotrix.com/'' target='_blank' ><b>AerotriX</b></a> gives the participants an opportunity to understand the theory behind the functioning of aircrafts and aircraft design. It makes the participants innovate by coming up with their own design of mini aircrafts and fabricating them as per their design. This workshop takes the participants through a series of interactive lectures and design sessions supplemented by practical sessions, thereby providing a complete learning experience.<br/> \
+Video: <a href='http://www.youtube.com/watch?v=gyL7bv9RGRU' target='_blank' >http://www.youtube.com/watch?<wbr>v=gyL7bv9RGRU</a> \
+","Workshop Specialties":"<b>Workshop Specialties</b>:  \
+• No pre-designed kits are given to participants. Participants design their own aircrafts (using hand calculation and software) under the guidance of our professionals which are later fabricated by them. <br/>\
+• The workshop is organized personally by IIT Kanpur Aerospace Engineering Graduates ",
+"Workshop Structure":"The workshop is divided into 4 modules: \
+• Understanding Flight <br/>\
+• Design of Aircraft <br/> \
+• Fabrication of Aircraft <br/>\
+• Flying using Remote Control <br/>\
+Three awards will be given to the participating teams in terms of Best Design, Best Fabrication and Innovation. The names of the recipients will be put up on our website permanently and they will also be provided with certificate of merit. \
+For our previous workshops awards, check www.aerotrix.com/participant-awards",
+"Kit Contents": "\
+• Hardware \
+• Engine/ Electric Motor * \
+• Electric Motor Controller * \
+• Propeller * <br/> \
+• Transmitter * \
+• Receiver * \
+• Li-Po battery * \
+• Servo motors (3 pieces) * <br/> \
+• Landing Gear ( main and tail dragger) \
+• Wheels (2 pieces) \
+• Coroplast \
+• Styrofoam <br/> \
+• Control Rods \
+• Epoxy Glue \
+• Wing Holders \
+• Working Tools ^ <br/> \
+• Other miscellaneous items \
+The parts marked * are not part of standard kit. These components would be provided during the workshop but would be taken back after the workshop. This is being done to reduce the cost of the workshop and make it affordable for students who do not want to buy the complete kit. <br/>\
+Complete kit consists of all the above items excluding transmitter and receiver <br/> \
+^working tools would be taken back after workshop <br/> \
+Software <br/> \
+• Software used to design and test RC planes \
+• RC Simulator \
+• RC Flying Tutorials and videos <br/>\
+Other Material <br/>\
+• Booklet on Aircraft Maintenance \
+• Booklet on aerobatic maneuvers ","Workshop Details":" <br/>\
+Duration:  2 days (8 hours per day) <br/>\
+Date:  25 Oct - 27 Oct 2013 <br/>\
+Organizers: AerotriX <br/>\
+Cost: Rs 7500/- per team for the standard kit and Rs 12500/- for the complete kit. <br/>\
+Participants can register in team containing maximum of 5 members <br/>\
+Visit www.aerotrix.com for further details <br/>\
+Write to us at info@aerotrix.com for further queries or information"},
 
 	"Augmented_Reality": {"image": "./Icons_Final/AUGMENTED.png", "contact": "Manasij", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
 			Registration Fee:  Rs 4250/ team.</br> Each team can have a maximum of 5 members (850/head).</br> A kit will be provided to each team.</p>	"},
@@ -529,7 +619,7 @@ Around 10 teams will be selected to the next round who will get to work on an ex
 This being a spot event, the problem statement will be released on the event day itself.<br />\
 "},
 
-"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is real, applied engineering at its epitome. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
+"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is the epitome of real, applied engineering. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
 Industry-Institute interaction is vital for the development of any engineering student. This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry. In this event, a renowned Chemical firm puts forward a technical problem which they are facing. The problem may be either recurring one or a one off issue. . The participants are expected to come up with innovative &amp; economically feasible solutions that can be assimilated in the company&rsquo;s process.<br />\
 The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies. <br />\
 So what are you thinking of?<br />\
@@ -539,7 +629,7 @@ Engineer 2013, the expectations get bigger and the stakes higher! <br />\
 We will get back to you with further details. Stay updated. <br />\
 "},
 
-"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broadens an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
+"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
 <br />\
 So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />\
 "},"Contraption":{"image":"image","contact":"Ramya<br/>sra.10ch36@nitk.edu.in\

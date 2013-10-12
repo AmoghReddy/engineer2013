@@ -1,3 +1,3 @@
 cat header.html
-python events.py
+python events_new.py
 cat footer.html
