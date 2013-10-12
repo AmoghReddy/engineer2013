@@ -147,7 +147,7 @@ def team_register_page(request, event_id):
                 team_join_request, created = TeamJoinRequest.objects.get_or_create(fromteam=team)
                 for (u, user_mail ) in form.extra_answers():
                     to_user = get_object_or_404(User, email=user_mail)
-                    if (to_user == request.user)
+                    if (to_user == request.user):
                         return HttpResponse(status=403)
                     # student=Student.objects.get(user=to_user)
                     # student.team_join_request.add(team)
