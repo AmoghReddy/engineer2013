@@ -47,7 +47,7 @@ height: 21px;">X</button>
 		</div>
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
-				<span id = "engiLogo"><img id="engiImg" src="{% static 'images/logo.png' %}" style="width:300px;box-shadow: 0px 0px 0px;" /></span>
+				<span id = "engiLogo"><img id="engiImg" src="{% static '/images/logo.png' %}" style="width:300px;box-shadow: 0px 0px 0px;" /></span>
 				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" style="font-family: acens;">EVENTS</button></span>
 				<span id = "menu1"><button id="button1" onclick = "getPage('Workshops')" style="font-family: acens;" >WORK SHOPS</button></span>
 				<span id = "menu2"><button id="button2" onclick="getPage('Technites')" style="font-family: acens;" >TECHNITES</button></span>
@@ -58,7 +58,7 @@ height: 21px;">X</button>
 				<span id = "menu7"><button id="button7" style="font-family: acens;" >ACCOM</button></span>
 			</span>
 			<span id = "sponsors">
-				<span id = "menuLogo2"><img id="engiImg2" src="/images/logo.png" style="width:300px;box-shadow: 0px 0px 0px;"/></span>
+				<span id = "menuLogo2"><img id="engiImg2" src="{% static '/images/logo.png' %}" style="width:300px;box-shadow: 0px 0px 0px;"/></span>
 				<span id = "menu00"><img src = "{% static 'sponsors/Adormi_Technologies.jpg' %}" style="width:300px"/></span>
 				<span id = "menu01"><img src = "{% static 'sponsors/Bosch.jpg' %}" style="width:300px"/></span>
 				<span id = "menu02"><img src = "{% static 'sponsors/Byju.jpg' %}" style="width:300px"/></span>
@@ -980,8 +980,8 @@ All teams must report at the venue at the time informed.Teams not reporting with
 <td valign='top' style='width: 30%'>
 <span id='sideNFS'>
 <span id='blockGen268' style='background: rgba(200,222,203,0.8);'><img src="{% static './Icons_Final/nfs.png' %}" width='250px'/></span><br />
-<span id='blockGen269' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,214,236,0.8);' onclick='register_single_event(24)'><h3>Register</h3></span>
-<span id='blockGen270' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,231,201,0.8);' onclick='getPage("NFS","NFS_specifications")'><h3>specifications</h3></span>
+<span id='blockGen269' class="register" style=' width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,214,236,0.8);' onclick='register_single_event(24)'><h3>Register</h3></span>
+<span id='blockGen270' style=' width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,231,201,0.8);' onclick='getPage("NFS","NFS_specifications")'><h3>specifications</h3></span>
 <span id='blockGen271' style='width:220px;padding: 15px;border-radius:20px;background: rgba(224,214,238,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
 </span>
 </td>
@@ -3008,7 +3008,7 @@ Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagin
 			<button id="back" onclick="backHistory();">BACK</button>
 			<button id="page">RESET</button>
 		</div> -->
-		<div class="logo"><img src='{% static "images/logo.png" %}' style="width:100px;" /><img src='{% static "images/engi.png" %}' style="width:250px;"></div>
+		<div class="logo"><img src='{% static "/images/logo.png" %}' style="width:100px;" /><img src='{% static "images/engi.png" %}' style="width:250px;"></div>
 		<div class="header">
 				<div class="quickNav">
 				<center>
