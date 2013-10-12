@@ -145,6 +145,24 @@ function makeSomeBlocks()
 	}
 }
 
+function fillUpProfileDetails(name, email)
+{
+	var prof_name = document.getElementById('profile_name');
+	var prof_email = document.getElementById('profile_email');
+	prof_name.innerHTML = name;
+	prof_email.innerHTML = email;
+}
+
+function fillUpProfileEvents(eventList)
+{
+	var listEle = document.getElementById('profile_events');
+	var listEleHTML = "";
+	for (eve in eventList)
+	{
+		listEleHTML = listEleHTML + "<br/>" + eventList[eve];
+	}
+}
+
 function system()
 {
 	$(".loading").hide();

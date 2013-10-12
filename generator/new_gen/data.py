@@ -3,21 +3,21 @@
 comitteeLogos={
 "Comps":"./Icons_Final/Comps_Main.png",
 "Technites":"./Icons_Final/technites.png",
-"Tech Speak":"./Icons_Final/techspeak.png",
+"Tech_Speak":"./Icons_Final/techspeak.png",
 "Materials":"./Icons_Final/Metamain.png",
 "Biz":"./Icons_Final/BIZ.png",
-"Chem":"./Icons_Final/chemmain.png",
+"Chemical":"./Icons_Final/chemmain.png",
 "Tronix":"./Icons_Final/tronix.png",
 "Mba":"./Icons_Final/MBA.png",
 "Sce":"./Icons_Final/Sce.png",
 "Mining":"./Icons_Final/mining.png",
 "Workshops": "./Icons_Final/workshop2.png",
 "Mechanical": "./Icons_Final/mech.png",
-"Astro": "./Icons_Final/astro.png",
+"Astronomy": "./Icons_Final/astro.png",
 "Gaming":"./Icons_Final/gaming.png",
 "Civil": "./Icons_Final/civilmain.png",
 "General": "./Icons_Final/GeneralEvents.png",
-"BluePrint":"./Icons_Final/BluePrint.png"
+"Blue_Print":"./Icons_Final/BluePrint.png"
 }
 
 
@@ -71,12 +71,54 @@ Sample Format (Use this format in the mail)<br/>\
 Workshops={
 	"Ethical_Hacking_by_TechDefence": {"image": "./Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
 
-	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Description": "<p>Registration Fee:  Rs 1200/ person</p>"},
-
+	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Workshop Details": "<b>Duration</b>: 2 days (8 hours per day)<br/>\
+<b>Date</b>: <b> 26 Oct - 27 Oct 2013</b><br/>\
+<b>Organizers</b>: Code Instruct<br/>\
+<b>Cost</b>: Rs 1200/- per participant<br/>","Description":"This workshop by <b>Code Instruct</b> gives the participants an opportunity to understand the theory behind the Android Operating System, Android SDK and different Libraries. It makes the participants innovate by coming up with their own app ideas. This workshop takes the participants through a series of interactive lectures and coding sessions, thereby providing a complete learning experience.","Workshop Specialities":"\
+<i>Interactive Lecture Sessions</i><br/>\
+<i>Hands on development of Android applications using industry standard tools</i><br/>\
+<i>The workshop is organized personally by IIT Kanpur Computer Science and Engineering Graduates</i><br/>", "Workshop structure":"\
+Introduction to Mobile Application Development<br/>\
+Role of Android in mobile industry<br/>\
+Introduction to Android SDK and its setup<br/>\
+Building the Application Framework<br/>\
+Designing User Interfaces<br/>\
+Working with activities<br/>\
+Working with Resources, Intents, Widgets<br/>\
+Adding network support to the Application<br/>\
+Examples apps: Calculator, Music Player and Battery Widget<br/>\
+Publishing Application into Play Store<br/>\
+<p>Awards will be given to the participants, who develop innovative and interesting apps. The names of the recipients will be put up on our website permanently and they will also be provided with certificate of merit.</p>\
+","Software":"Software used to design and develop Android Applications<br/>\
+Eclipse IDE<br/>\
+Android SDK","Other Material":"\
+Booklet on Introduction to Android<br/>\
+Sample Applications in Android (Source Code)<br/>"},
 	"3D_Photography": {"image": "engineer.gif","contact": "Manasij","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
-	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "<p>At Engineer we try to reach out to students of various branches. For the very first time we have something for Civil Engineering students and enthusiasts. The workshop can of course be attended by any one who is interested. The workshop will be conducted by Skyfi Labs and it will involve the design of a bridge through specialized tools on your computers followed by testing of your design on model sized bridges which you will be building with quality equipment provided by us.</br>\
-Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/head)</p>"},
+	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
+	"Workshop structure":"The workshop has the following modules:<br/>\
+<b>Lecture</b>: Introduction to bridge design and working of different types of bridges<br/>\
+<b>Design session</b>: Each team will design their own bridge using a simulator<br/>\
+<b>Fabrication</b>: With the design obtained in the design session and the raw material provided by us each team will fabricate their own model bridge<br/>\
+<b>Testing</b>: Each bridge fabricated by the teams will be tested for maximum load taken<br/>","Outcomes":"Certificate of participation from Civil Simplified to all the participants<br/>\
+Career Guidance and Counseling by IIT alumni<br/>\
+Better Chances to pursue higher education in IITs/Universities abroad<br/>\
+Useful to develop good B.Tech/M.Tech projects<br/>","Awards":"<b>Best Design Award</b>: To the team which builds the bridge with maximum efficiency<br/>\
+<b>Best Fabrication Award</b>: To the team which fabricates the bridge perfectly<br/>\
+<b>Best Innovation Award</b>: To the team which comes up with an innovative truss<br/>","Course Content":"Introduction to different types of existing bridges<br/>\
+Structural response to moving loads<br/>\
+Methods of analysis of a truss bridge<br/>\
+IRC code specifications<br/>\
+Segmental Bridge Construction techniques<br/>\
+Pre stressed box girder design<br/>\
+Statically determinate and indeterminate structures<br/>\
+Fabrication techniques for model bridge according to problem statement<br/>\
+","Course Details":"Duration: 1 day<br/>\
+Date: 24 October 2013<br/>\
+Organizers: Civil Simplified<br/>\
+Cost: Rs.950 per participant. 2 participants will be clubbed into a team during practical session. One team will design and make one bridge.<br/>\
+"},
 
 	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "The knack to flying is learning how to throw yourself at the ground and miss <br/>\
 -Douglas Adams <br/> \
@@ -561,61 +603,41 @@ Biz={
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 }
 Chem={
-"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya <br/> 9538703009","Description":"<b>Introduction:</b><br/>\
-''My mind,'' he said, ''rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere.<br/>''I can dispense then with artificial stimulants. But I abhor the dull routine of existence.<br/>''I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.''<br/> \
-<b>― Sir Arthur Conan Doyle, The Sign of Four</b><br/>\
- Here’s a call to all those curious minds waiting to try something new,<br/> BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry.<br/>Don the role of a lab geek,<br/>Play with the uncanniest concoctions,<br/>Prepare the fanciest potions<br/>And race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
-Push the lizard Brain of yours to the maximum!<br/>","Rules and Regulations":"<br/>• A team can have a maximum of 2 people. <br/> \
-• All members of the team are to be enrolled as students in an educational institute.<br/> \
-• No person can be a part of more than 1 team. <br/> \
-• There is no restriction on the number of people participating from a particular institute.",
-"Rounds":"<br/>• The First round will comprise of a Written Quiz testing concepts of +2 Level Chemistry and logical reasoning.<br/> \
-• Around 10 teams will be selected to the next round who will get to work on an exciting puzzle set up based on a storyline. <br/> \
-• This being a spot event, the problem statement will be released on the event day itself."},
+"Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
+&ldquo;My mind,&quot; he said, &quot;rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.&rdquo;&#160;<br />\
+&#8213;&#160;Arthur Conan Doyle,&#160;The Sign of Four<br />\
+<br />\
+<br />\
+ Here&rsquo;s a call to all those curious minds waiting to try something new, BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry. Don the role of a lab geek,&#160;play with the uncanniest concoctions, prepare the fanciest potions and&#160;race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br />\
+Push the lizard Brain of yours to the maximum!<br />\
+","rules":"A team can have a maximum of 2 people.<br />\
+All members of the team are to be enrolled as students in an educational institute.<br />\
+No person can be a part of more than 1 team.<br />\
+There is no restriction on the number of people participating from a particular institute.<br />\
+","rounds":"The First round will comprise of a Written Quiz testing concepts of +2 Level Chemistry and logical reasoning.<br />\
+Around 10 teams will be selected to the next round who will get to work on an exciting puzzle set up based on a storyline.<br />\
+This being a spot event, the problem statement will be released on the event day itself.<br />\
+"},
 
-"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
-Industry Defined Problem is the epitome of real, applied engineering.<br/>Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems, IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/><br/> \
-Industry-Institute interaction is vital for the development of any engineering student.<br/>This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry.<br/>In this event, a renowned Chemical firm puts forward a technical problem which they are facing. <br/>The problem may be either recurring one or a one off issue.<br/>The participants are expected to come up with innovative & economically feasible solutions that can be assimilated in the company’s process.<br/>\
-The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies.<br/> \
-So what are you thinking about?<br/>\
-Come, participate and get to interact with and thereby learn from the professionals!<br/>\
-Engineer 2013, the expectations get bigger and the stakes higher!<br/>\
-We will get back to you with further details. Stay updated. <br/>"},
+"Industry_Defined_Problem":{"image": "./Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is the epitome of real, applied engineering. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
+Industry-Institute interaction is vital for the development of any engineering student. This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry. In this event, a renowned Chemical firm puts forward a technical problem which they are facing. The problem may be either recurring one or a one off issue. . The participants are expected to come up with innovative &amp; economically feasible solutions that can be assimilated in the company&rsquo;s process.<br />\
+The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies. <br />\
+So what are you thinking of?<br />\
+Come, participate and get to interact with and thereby learn from the professionals!<br />\
+Engineer 2013, the expectations get bigger and the stakes higher! <br />\
+<br />\
+We will get back to you with further details. Stay updated. <br />\
+"},
 
-"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya <br/> 9538703009","Description": "<b>Introduction:</b><br/>\
-Chemical process simulation software helps broaden an engineer’s capabilities and increases productivity. It supercharges an engineer’s \
-efficiency when facing the toughest chemical process models or addressing day-to-day challenges.<br/>\
- They have potential instructional value for practically all core courses, right from first year process calculations to final year\
-  design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer.<br/>\
- CHEMCAD is one such simulation software featuring a rich Graphical User Interface (GUI) allowing the user to \
- understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br/>\
-So, in this edition of Engineer, we bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and \
-theory involved. No pre-requisites.<br/>\
-This will be followed up by an exciting event based on software.<br/> Hurry up! Limited Seats! Lots of prizes at stake.<br/>"},
-
-"Contraption":{"image": "./Icons_Final/#","contact": "Ramya <br/> 9538703009","Description": "Even during these modern days when ships are equipped with advanced technological devices, \
-oil spills continue to be a major threat to the marine environment. With vast number of people \
-dependant on coastal areas for fishing and tourism throughout the world, consequences of oil \
-spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these \
-disasters. Most man made oil pollution comes from land based activities. But public attention tends \
-to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like \
-diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products \
-evaporate quickly and do not persist long in the environment. However, heavier crude oil of less \
-toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn’t \
-decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel \
-ocean fires. <br /> \
-For this year’s edition of Engineer, Contraption provides an opportunity for participants to furnish \
-innovative solutions for oil spills on a miniature scale, based on the criteria given below. \
-A pond of water having an exposed surface area of 0.25 m2 \
-are required to come up with a mechanism that will recover the oil layer from the water. Dimensions \
-of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. \
-There is no constraint on the material of construction or the height of the model. <br/>\
-Participation will be in groups not exceeding four members. An abstract comprising of the design, \
-operating principle, criteria such as power requirements, cost analysis etc. has to be submitted by \
-15th October. Shortlisted participants will be notified by 16th \
-October. Judgment will be based on factors such as rate of oil recovered, creativity, power consumption, practical application and cost of \
-assembly of the model. Points will be cut based on fraction of water recovered along with the oil. <br/>"},
-
+"The_Portal":{"image": "./Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
+<br />\
+So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />\
+"},"Contraption":{"image":"image","contact":"Ramya<br/>sra.10ch36@nitk.edu.in\
+ <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br />\
+For this year&rsquo;s edition of Engineer, Contraption provides an opportunity for participants to furnish innovative solutions for oil spills on a miniature scale, based on the criteria given below.<br />\
+A pond of water having an exposed surface area of 0.25 m2 is covered by a layer of oil. Participants are required to come up with a mechanism that will recover the oil layer from the water. Dimensions of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. There is no constraint on the material of construction or the height of the model.<br />\
+Participation will be in groups not exceeding four members. An abstract comprising of the design, operating principle, criteria such as power requirements, cost analysis etc. has to be submitted by 15th October. Shortlisted participants will be notified by 16th October. Judgment will be based on factors such as rate of oil recovered, creativity, power consumption, practical application and cost of assembly of the model. Points will be cut based on fraction of water recovered along with the oil.<br />\
+"}
 
 }
 
@@ -623,9 +645,9 @@ Tronix={
 
 "TrailBlazer":{"image": "./Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
-Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the event.<br/>A simple event based on line follower robotics.<br/>\
+A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
-"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.",
+"goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
 Bot dimensions should be well within 20cm*10cm<br />\
 Bot wheels should not hamper the arena <br />\
@@ -649,8 +671,8 @@ Bot should have a mechanism to show the traced path.",
 "Automata":{"image": "./Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
-<b>Problem Statement<br/>\
-Arena Details</b> \
+<b>Problem Statement</b><br/>\
+Arena Details<br/> \
 The arena will be a non-reflective surface on top of a wooden base.<br/> \
 An overhead camera is positioned on top of the arena so that it is completely visible. The position of the camera with respect to the arena will be fixed.<br/>\
 The arena consists of a white background with square nodes at certain points. One of the nodes is the finish node, and will be marked in RED, while the rest of the nodes will be BLACK.<br/>\
@@ -692,24 +714,24 @@ The teams will have to use the camera provided by us. <br/>\
 <b>General Information</b><br/>\
 A maximum of 4 members per team is allowed. We do not provide computers to the participating teams. It is expected that you arrange for your own.<br/>\
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
-"},
+","download":"<a href=\"data/Automata.docx\">Download</a>"},
 
 "Simplicity":{"image": "./Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
 The dates for test run and the main event will be announced shortly<br/>\
-<B>EVENT FORMAT</B><br/>\
+<b>EVENT FORMAT</b><br/>\
 This is an online event<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
 The event will be of 8 hour duration.<br/>\
 The solutions to the each question has to be uploaded for evaluation\
 Points will be awarded after evaluation of submitted solutions.<br/>\
-<B>EVENT RULES</B><br/>\
+<b>EVENT RULES</b><br/>\
 Codes have to be submitted in the form of MATLAB .m files with specific format.<br/>\
 The format will be specified along with each question.<br/>\
 Participants may upload answer to problems any number of times.<br/>\
 Uploading codes intended to harm the server, will earn disqualification.<br/>\
 The submitted source code will be checked if it is copied. Any copying of code would lead to immediate disqualification of both the codes in doubt.<br/>\
-<B>SCORING CRITERIA</B><br/>\
+<b>SCORING CRITERIA</b><br/>\
 The evaluation of the codes is done automatically by a MATLAB server.<br/>\
 Points are allotted based on the performance of the solution to different test cases.<br/>\
 The participants may submit the codes as many times before the final deadline. The codes last submitted will be judged.<br/>\
@@ -719,8 +741,8 @@ The organizers decision will be final and binding.<br/>\
 
 "Trade_OFF":{"image": "./Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
 There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
-<B>EVENT FORMAT<br/>\
-Round 1</b><br/>\
+<b>EVENT FORMAT</b><br/>\
+Round 1<br/>\
 Written qualification round comprising of objective questions conducted during Engineer.<br/>\
 A limited number of teams, depending on their performance in the qualification round, will proceed into round 2.<br/>\
 The questions challenge one's understanding of basic analog and digital electronic circuits.<br/>\
@@ -732,15 +754,15 @@ A task is said to be complete only when a design is implemented on hardware and 
 Half the cost of the component will be credited (as virtual money) on returning unused component.<br/>\
 Technical help, if required can also be obtained at the cost of virtual money.<br/>\
 Teams will NOT be allowed to carry their own personal components to the event. All the components required for the event will be provided by the organizers.<br/>\
-<B>GENERAL INFORMATION<br/>\
+<b>GENERAL INFORMATION</b><br/>\
 Team size: Three(maximum) <br/>\
-Resources</b><br/>\
+Resources<br/>\
 Datasheets for all the components required will be provided.<br/> \
 <b>Useful Knowledge</b><br/>\
 Basics of Analog Electronic Circuits: Transistors, OPAMPs, 555 timers, etc.<br/>\
 Basics of Digital Electronic Circuits: TTL gates, adders, flip-flops etc.<br/>\
 Analog Communication: Simple modulator-demodulator circuits<br/>\
-<B>JUDGING CRITERIA</B><br/>\
+<b>JUDGING CRITERIA</b><br/>\
 The output of the circuit will be evaluated.<br/>\
 In case of a tie, time required to build the circuit will be considered.<br/>\
 The team with the highest amount of virtual money in their account at the end of the event will be declared as the winner.<br/>\
@@ -748,12 +770,12 @@ Judges' decision will be final and binding in all cases.<br/>\
 "},
 
 "FoxHunt":{"image": "./Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
-Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer 2012 is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
-<B>EVENT FORMAT</B><br/>\
+Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
+<b>EVENT FORMAT</b><br/>\
 The event will have two phases <br/>\
-<b>-FM reception stage(Phase 1)<br/> \
+-FM reception stage(Phase 1)<br/> \
 -HAM reception stage(Phase 2)<br/>\
-Phase 1</b><br/>\
+Phase 1<br/>\
 All the participating teams are required to build an FM receiver circuit (with an antenna, if required) for Phase 1.<br/>\
 The participating teams which qualify Phase 1 are then allowed to participate in Phase 2.<br/>\
 <b>Judging criteria:</b><br/>\
@@ -762,23 +784,23 @@ Cost.<br/>\
 Points will be deducted for using ready-made printed circuit boards.<br/>\
 Any extra innovations on the circuit (example- a mechanism to switch between FM and HAM reception) will be rewarded with extra points.<br/>\
 Any antennas to aid FM reception are encouraged, however they won’t independently carry a point weight age and can aid in clarity of reception.<br/>\
-<B>EVENT RULES</B><br/>\
+<b>EVENT RULES</b><br/>\
 Each team can consist of a maximum of 4 members.<br/>\
 The members of each team can be from different colleges.<br/>\
 Participating teams those qualify Phase 1 will only be allowed to participate in Phase 2.<br/>\
 Only one antenna will be provided to the participating teams, who have qualified for phase 2 but are not able to design on their own.<br/>\
 The decision of the judges will be the absolute authority.<br/>\
-<B>DISQUALIFICATIONS</B><br/>\
+<b>DISQUALIFICATIONS</b><br/>\
 Things that amount to disqualification<br/>\
 Usage of a commercial antenna.<br/>\
 Usage of mobile phones or other means of communication between teams during the final event.<br/>\
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer 2012,Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "./Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer, Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
-<B>EVENT FORMAT</B><br/>\
+<b>EVENT FORMAT</b><br/>\
 Design an electronic controller circuit for a musical fountain.<br/>\
 The water jets and lights on the fountain should be aesthetically harmonized with the music that is played.<br/>\
 The fountain fitted with lights and water jet nozzles shall be provided.<br/>\
@@ -789,11 +811,11 @@ Three tunes will be played for each of the teams. One of them will be the same f
 All teams coming will have to provide a 2 page abstract during the event to receive participation certificates.<br/>The abstract should contain the description of algorithm and schematics of circuits used.<br/>\
 <b>SYMPHONY TUNE:</b><br/>\
 To be downloaded(Will be released shortly)<br/>\
-<B>RULES</B><br/>\
+<b>RULES</b><br/>\
 Teams can comprise of a maximum of three members.<br/>\
 The music input is given in the form of a stereo signal to the circuit through a standard male earphone connector as line-in.<br/>The music will also be played simultaneously on the speaker.<br/>\
 A qualification round will be conducted prior to the final competition based on which teams will be filtered.<br/>The teams will be allowed to tune their circuits during this round.<br/>\
-<B>JUDGING CRITERIA</B><br/>\
+<b>JUDGING CRITERIA</b><br/>\
 Synchronization with the tunes – The operation of the fountain should be in harmony with music component(s).<br/>The team shall make this clear while explaining their algorithm.<br/>(The music components can be any apparent feature such as frequency range, amplitude, a combination of frequency and amplitude, etc.) Better synchronization carries more points.<br/>\
 Aesthetic appeal – Along with synchronization, the combination and sequence of water jets and<br/>lights should be chosen so as to create the best possible aesthetic appeal.<br/>\
 Design of the circuit – Teams shall explain their circuit to the judges. Good quality designs shall carry more marks.<br/>\
@@ -1511,18 +1533,18 @@ events={
 "Technites":Technites,
 "Comps":Comps,
 "Civil": Civil,
-"TechSpeak": TechSpeakEvent,
+"Tech_Speak": TechSpeakEvent,
 "Materials":Meta,
 "Biz":Biz,
-"Chem":Chem,
+"Chemical":Chem,
 "Tronix":Tronix,
 "Mba":Mba,
 "Sce":Sce,
 "Mining":Mining,
 "Mechanical": Mechanical,
-"Astro": Astro,
+"Astronomy": Astro,
 "Gaming":Gaming,
 "Workshops": Workshops,
 "General": General,
-"BluePrint":BluePrint
+"Blue_Print":BluePrint
 }

@@ -76,12 +76,12 @@ def event_description(event,i):
 
 def commitee_sidebar(i):
 	print "<span id='side"+i+"'>"
-	print "<br /><br /><br />"
+	#print "<br /><br /><br />"
 	for c in i:
 		if (c == "_"):
-			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"
+			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 10px;font-family: acens;'>"+"&nbsp;"+"</h1></span><br />"
 		else:
-			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c+"</h1></span><br />"
+			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 10px;font-family: acens;'>"+c.upper()+"</h1></span><br />"
 	print "</span>"
 
 def commitee_page(i):
@@ -106,8 +106,8 @@ def commitee_page(i):
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	if event != "Workshops" and event != "Technites" and event != "TechSpeak" :
-		if event == "BluePrint":
+	if event != "Workshops" and event != "Technites" and event != "Tech_Speak" :
+		if event == "Blue_Print":
 			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\'Blue_Print\')">'
 		else:
 			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
