@@ -89,12 +89,13 @@ def event_description(event,i):
 				l=0
 				print "<form id=register_"+newHash[event]["id"]+" onsubmit=\"return false;\">"
 				print "{% csrf_token %}"
-				print "<input name='team_name'><br/>"
+				print "<input name='team_name' placeholder='Team Name'><br/>"
 				print "<input type='hidden' name='event_id' value='"+newHash[event]["id"]+"'><br/>"
 				while(l < k-1):
-					print "<input name='custom_"+str(l)+"'><br/>"
+					print "<input placeholder='Registered member email' name='custom_"+str(l)+"'><br/>"
 					l+=1
-				print "<button class='btn btn-success' onclick='register_team_event(\""+event+"\",\""+newHash[event]["id"]+"\");'>Create Team</button>"
+				print "<button style='height: 30px;' class='btn btn-success' onclick='register_team_event(\""+event+"\",\""+newHash[event]["id"]+"\");'>Create Team</button><br />"
+				print "<span id='register_team'></span>"
 				print '</form>'
 			print '</span>'
 			print '</span>'

@@ -636,6 +636,7 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
+	// if (pageName == 'Profile') get_profile_page();
 	var input = document.getElementById("share_url");
 	// console.log(input.value);
 	var str = input.value.split("#")[1];
@@ -873,10 +874,3 @@ function backHistory(){
 		getPage(history2[history2.length-1]);
 	}
 }
-
-
-
-
-
-
-

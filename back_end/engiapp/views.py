@@ -14,6 +14,7 @@ from django.shortcuts import render_to_response, get_object_or_404
 
 def main_page(request):
     variables = RequestContext(request, {})
+    print request.build_absolute_uri()
     return render_to_response('main_page.html', variables)
 
 
@@ -240,10 +241,11 @@ def userLogin(request):
         return HttpResponseForbidden()
     
 def account_page(request):
+    user = request.user
     student=Student.objects.get(user=request.user)
     data={"individual":[],"teams":[],"requests":[]}
     for team in student.teams.all():
-        team_data={"event_id":team.team_event.id,"event_name":team.team_event.event_name,"members":[]}
+        team_data={"team_id": team.id,"event_id":team.team_event.id,"event_name":team.team_event.event_name,"members":[]}
         for members in team.members.all():
             team_data["members"].append(members.first_name+members.last_name)
         data["teams"].append(team_data)
@@ -252,7 +254,9 @@ def account_page(request):
         if event.id not in [ team.team_event.id for team in student.teams.all() ]:
             data["individual"].append({"event_id": event.id,"event_name": event.event_name})
 
-    for join_request in student.team_join_request.all():
-        data["requests"].append(join_request.frompage.team_name)
 
-    return HttpResponse(content=json.dumps(data))
+    for join_request in user.teamjoinrequest_set.all():
+        # req.fromteam.team_name
+        data["requests"].append({"team_name": join_request.fromteam.team_name, "request_id": join_request.id})
+
+    return HttpResponse(content=json.dumps(data), content_type="application/json")

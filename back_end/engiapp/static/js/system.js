@@ -147,7 +147,7 @@ function makeSomeBlocks()
 
 function system()
 {
-	$(".loading").hide();
+	$(".loading").hide();	
 	// in 3script.js
 	$(".logo").click(function(){getPage("homePage");});
 	$(".close").click();
@@ -160,9 +160,15 @@ function system()
 	keybind();
 	router();
 	searchRouter();
-
+	// alert(currentPage.name)
+	if (currentPage.name == "Profile")
+	{
+		// alert('running')
+		get_profile_page(0);
+	}
 }
 window.onbeforeunload=function(){ 
-	getPage(document.location.split("#")[1]);
+	// return 'jwoiah';
+	// getPage(document.location.split("#")[1]);
 }
 window.onload=system;

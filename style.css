@@ -1,15 +1,24 @@
 @font-face {
-  font-family: 'windows';
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 10px;
-  src: url("windows.woff") format('woff');
+	font-family: 'windows';
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 10px;
+	src: url("windows.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'nexus';
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 10px;
+	src: url("nexus.woff") format('woff');
 }
 
 @font-face{
 	font-family: 'acens';
 	font-style: normal;
   	font-weight: 300;
+  	letter-spacing: 10px;
 	src: url('Acens.ttf');
 }
 
@@ -20,7 +29,7 @@ html, body {
 body {
 	background: url(images/3QNCOe.jpg) repeat;
 	margin: 0;
-	font-family: acens;/*ubuntu;*/
+	font-family: nexus;/*ubuntu;*/
 	overflow: hidden;
 	color:#000;
 }
@@ -40,7 +49,7 @@ body:before {
 
 span {
 	display: inline-block;
-	font-family: acens;
+	font-family: nexus;
 	/*background:rgba(255,255,255,0.7);
 	font-size: 20px;
 	line-height: 120%;
@@ -294,7 +303,7 @@ button:active {
 .footer .social{
 	position:fixed;
 	bottom:5px;
-	left:5px;
+	right:5px;
 }
 
 #menu button{

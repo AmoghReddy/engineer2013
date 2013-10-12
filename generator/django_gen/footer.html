@@ -33,7 +33,7 @@
 						<b id="fname">Firstname </b><b id="lname">Lastname</b><br />
 						<em id="email">Email</em>
 						<li class="divider"></li>
-						<li><a>Profile</a></li>
+						<li><a onclick="get_profile_page(1);">Profile</a></li>
 						<li onclick="logout();"><a>Logout</a></li>
   					</ul>
 				</span>
@@ -44,7 +44,8 @@
   						{% csrf_token %}
 						<input type="text" name="username" placeholder="Email" /><br />
 						<input type="password" name="password" placeholder="Password" /><br />
-						<button class="btn btn-success" onclick="login()">Submit</button>
+						<button class="btn btn-success" onclick="login()" style="height: 30px;">Submit</button>
+						<span id="error_login"></span>
 						</form>
   					</ul>
 				</span>
@@ -60,7 +61,8 @@
 							<input name="password2" type="password" placeholder="Confirm Password"/><br />
 							<input name="city" type="text" placeholder="City"/><br />
 							<input name="institution_name" type="text" placeholder="College"/><br />
-							<button class="btn btn-success" onclick="signup()">Submit</button>
+							<button class="btn btn-success" onclick="signup()" style="height: 30px;">Submit</button>
+							<span id="error_signup"></span>
 						</form>
   					</ul>
 				</span>
@@ -109,8 +111,11 @@
 		{% else %}
 			$('#loggedIn').hide();
 		{% endif %}
-
-
+		</script>
+		<script>
+			$( document ).ready(function() {
+  				// Handler for .ready() called.
+			});
 		</script>
 	</body>
 </html>

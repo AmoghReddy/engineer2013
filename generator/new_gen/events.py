@@ -15,9 +15,9 @@ def get_color():
 	return "background: rgba("+str(random.randint(200,250))+","+str(random.randint(200,250))+","+str(random.randint(200,250))+",0.8);"
 
 def event_sidebar(event,i):
-	print "<table class='table' align='center' style='width: 80%;'>"
+	print "<table class='table' align='center' style='width: 90%;'>"
 	print "<tr>"
-	print "<td valign='top' style='width: 30%'>"
+	print "<td valign='top' style='width: 25%'>"
 
 	print "<span id='side"+event+"'>"		
 	if (events[i][event]['image'] == 'engineer.gif'):
@@ -32,19 +32,19 @@ def event_sidebar(event,i):
 	# print tab_type
 	for j in tab_type:
 		if (j != "image" and j != "contact"):
-			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
+			print "<span id='blockGen"+get_num()+"' style='width:240px;padding: 3px;padding-left: 5px;padding-right: 5px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><b>'+j.replace('_',' ')+"</b></span>"
 		# print tab_type
 		# print event
 		# if event == "Proteus":
 		# print aiufibof
 			# print j
 			# print lqn;
-	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 15px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
+	print "<span id='blockGen"+get_num()+"' style='width:240px;padding: 3px;"+get_color()+"'>"+"<b>Contact:</b> "+events[i][event]['contact']+"</span>"
 	print "</span>"
 	print "</td>"
 
 def event_description(event,i):
-	print "<td style='width: 70%'>"
+	print "<td style='width: 75%'>"
 		# print "<span id='page"+event+"'>"
 		#printing the tab of content
 	print '<span id = "tabgroup'+event+'">'
@@ -53,10 +53,15 @@ def event_description(event,i):
 		# if tab_type.index(j) > 1:
 		if (j != "image" and j != "contact"):
 			print '<span id = "tabs'+event+"_"+j+'">'
-			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"	
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>"	
 			description = events[i][event][j].replace('<p>',' ')
+			description = description.replace('<ul>',' ')
+			description = description.replace('</ul>',' ')
+			description = description.replace('<li>',' ')
+			description = description.replace('</li>',' ')
 			description = description.replace('</p>','<br/>')
-			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;" >')
+			description = description.replace('<br/>','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >')
+			description = description.replace('<br />','</span><span id="blockGen'+get_num()+'" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >')
 			print description
 			print '</span>'
 			print '</span>'
@@ -71,12 +76,12 @@ def event_description(event,i):
 
 def commitee_sidebar(i):
 	print "<span id='side"+i+"'>"
-	print "<br /><br /><br />"
+	#print "<br /><br /><br />"
 	for c in i:
 		if (c == "_"):
-			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"
+			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 10px;font-family: acens;'>"+"&nbsp;"+"</h1></span><br />"
 		else:
-			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c+"</h1></span><br />"
+			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 10px;font-family: acens;'>"+c.upper()+"</h1></span><br />"
 	print "</span>"
 
 def commitee_page(i):
@@ -84,14 +89,14 @@ def commitee_page(i):
 	print "<table>"
 	count=0
 	for event in events[i].iterkeys():
-		if count%3==0:
+		if count%4==0:
 			print "<tr>"
 		if (events[i][event]['image'] == 'engineer.gif'):
 			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
 		else:
 			print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='"+events[i][event]['image']+"'/></span></td>"
 			# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
-		if count%3==2:
+		if count%4==3:
 			print "</tr>"
 		count+=1
 	print "</table>"
@@ -101,8 +106,8 @@ def commitee_page(i):
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	if event != "Workshops" and event != "Technites" and event != "TechSpeak" :
-		if event == "BluePrint":
+	if event != "Workshops" and event != "Technites" and event != "Tech_Speak" :
+		if event == "Blue_Print":
 			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\'Blue_Print\')">'
 		else:
 			print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
