@@ -1205,7 +1205,7 @@ newHash={
 	"Ethical_Hacking_by_TechDefence": {"id":"63","team_members":"1"},
 	"Augmented_Reality": {"id": "64","team_members": "5"},
 	"RC_Aircraft_Design_and_Fabrication": {"id": "65","team_members": "5"},
-	"Humanoid_Robot": {"id": "66", "team_members": "5"}
+	"Humanoid_Robot": {"id": "66", "team_members": "5"},
 	"Android Application Development": {"id" : "67","team_members":"1"},
 	"3D_Photography": {"id" : "68","team_members":"1"},
 	"Bridge_Design_and_Fabrication": {"id" : "69","team_members":"2"},# workspop
