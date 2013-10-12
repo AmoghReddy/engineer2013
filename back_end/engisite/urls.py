@@ -13,14 +13,14 @@ urlpatterns = patterns('',
     (r'^logout/$', 'engiapp.views.logout_page'),
     (r'^register/$', 'engiapp.views.register_page'),
 
-    (r'^user/(\w+)/$', 'engiapp.views.user_page'),
+    #(r'^user/(\w+)/$', 'engiapp.views.user_page'),
 
-    (r'^committee/(\w+)/$', 'engiapp.views.committee_page'),
+    #(r'^committee/(\w+)/$', 'engiapp.views.committee_page'),
 
-    (r'^committee/$', 'engiapp.views.all_committee'),
-    (r'^committee/(?P<committee_id>\d+)/$', 'engiapp.views.committee'),
-    (r'^events/$','engiapp.views.all_events'),
-    (r'^events/(?P<event_id>\d+)/$', 'engiapp.views.event'),
+    #(r'^committee/$', 'engiapp.views.all_committee'),
+    #(r'^committee/(?P<committee_id>\d+)/$', 'engiapp.views.committee'),
+    #(r'^events/$','engiapp.views.all_events'),
+    #(r'^events/(?P<event_id>\d+)/$', 'engiapp.views.event'),
 
     (r'^event/(\d+)/$', 'engiapp.views.event_page'),
 
@@ -30,8 +30,8 @@ urlpatterns = patterns('',
 
     (r'^accept_team_request/(\d+)/$', 'engiapp.views.accept_team_request'),
 
-    (r'^register_event/$', 'engiapp.views.event_register_page'),
-    (r'^register_committee/$', 'engiapp.views.committee_register_page'),
+    #(r'^register_event/$', 'engiapp.views.event_register_page'),
+    #'^register_committee/$', 'engiapp.views.committee_register_page'),
     (r'^register/success/$', TemplateView.as_view(template_name="registration/register_success.html")),
     (r'^account/$', 'engiapp.views.account_page'),
     # Examples:
@@ -42,5 +42,5 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    url(r'^admin/', include(admin.site.urls)),
+    #url(r'^admin/', include(admin.site.urls)),
 )

@@ -76,6 +76,8 @@ $.ajax({
     $('#loggedIn').hide();
     $('#Login').show();
     $('#Signup').show();
+    if(currentPage.name=="Profile")
+    	getPage("homePage");
     console.log(statusCode);
   },
   error: function (xhr, desc, err) {

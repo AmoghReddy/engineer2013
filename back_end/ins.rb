@@ -88,12 +88,30 @@ newHash={
 	"Kode_Kombat"=>{"id"=>"57","team_members"=>"2","comittee_id"=>"1"},
 	"Marathon"=>{"id"=>"58","team_members"=>"3","comittee_id"=>"1"},
 	"Rectify"=>{"id"=>"59","team_members"=>"1","comittee_id"=>"1"},
-	"Ethical_Hacking_by_TechDefence"=> {"id"=>"60","team_members"=>"1","comittee_id"=>"13"},
-	"Augmented_Reality"=> {"id"=> "61","team_members"=> "5","comittee_id"=>"13"},
-	"RC_Aircraft_Design_and_Fabrication"=> {"id"=> "62","team_members"=> "5","comittee_id"=>"13"},
-	"Android Development "=> {"id"=> "63","team_members"=> "5","comittee_id"=>"13"},
-	"Humanoid_Robot"=> {"id"=> "64", "team_members"=> "5","comittee_id"=>"13"},
-	"3D_Photography"=>{"id"=>"65","team_members"=>"1","comittee_id"=>"13"}
+
+	"HR_Event"=> {"id"=> "60","team_members"=> "1"},
+	"Finance_Event"=> {"id"=> "61","team_members"=> "1"},
+	"Mindbend"=> {"id"=>"62","team_members"=>"1"},
+	"Ethical_Hacking_by_TechDefence"=> {"id"=>"63","team_members"=>"1","comittee_id"=>"13"},
+
+	"Augmented_Reality"=> {"id"=> "64","team_members"=> "5","comittee_id"=>"13"},
+
+	"RC_Aircraft_Design_and_Fabrication"=> {"id"=> "65","team_members"=> "5","comittee_id"=>"13"},
+
+	"Humanoid_Robot"=> {"id"=> "66", "team_members"=> "5","comittee_id"=>"13"},
+
+	"Android Application Development"=> {"id" => "67","team_members"=>"1","comittee_id"=>"13"},
+
+	"3D_Photography"=> {"id" => "68","team_members"=>"1","comittee_id"=>"13"},
+
+	"Bridge_Design_and_Fabrication"=> {"id" => "69","team_members"=>"2","comittee_id"=>"13"},
+
+	#"Ethical_Hacking_by_TechDefence"=> {"id"=>"60","team_members"=>"1","comittee_id"=>"13"},
+	#"Augmented_Reality"=> {"id"=> "61","team_members"=> "5","comittee_id"=>"13"},
+	#"RC_Aircraft_Design_and_Fabrication"=> {"id"=> "62","team_members"=> "5","comittee_id"=>"13"},
+	#"Android Development "=> {"id"=> "63","team_members"=> "5","comittee_id"=>"13"},
+	#"Humanoid_Robot"=> {"id"=> "64", "team_members"=> "5","comittee_id"=>"13"},
+	#"3D_Photography"=>{"id"=>"65","team_members"=>"1","comittee_id"=>"13"}
 	}
 
 newHash.each_pair do |key,value|

@@ -69,7 +69,7 @@ function page( element, dontCenter, radiusAdjust )
 		this.name = element.id;
 		var depth = -20, duration = 1200;
 		this.zDepth = depth;
-		//this.DOMobjects.push(document.getElementById('engiLogo'));
+		this.DOMobjects.push(document.getElementById('engiLogo'));
 		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
 		var radius = 0;
 		if (this.name == "sponsors") radius = 10;
