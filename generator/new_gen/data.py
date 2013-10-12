@@ -71,12 +71,54 @@ Sample Format (Use this format in the mail)<br/>\
 Workshops={
 	"Ethical_Hacking_by_TechDefence": {"image": "./Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
 
-	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Description": "<p>Registration Fee:  Rs 1200/ person</p>"},
-
+	"Android Application Development": {"image": "./Icons_Final/Android.png", "contact": "Manasij", "Workshop Details": "<b>Duration</b>: 2 days (8 hours per day)<br/>\
+<b>Date</b>: <b> 26 Oct - 27 Oct 2013</b><br/>\
+<b>Organizers</b>: Code Instruct<br/>\
+<b>Cost</b>: Rs 1200/- per participant<br/>","Description":"This workshop by <b>Code Instruct</b> gives the participants an opportunity to understand the theory behind the Android Operating System, Android SDK and different Libraries. It makes the participants innovate by coming up with their own app ideas. This workshop takes the participants through a series of interactive lectures and coding sessions, thereby providing a complete learning experience.","Workshop Specialities":"\
+<i>Interactive Lecture Sessions</i><br/>\
+<i>Hands on development of Android applications using industry standard tools</i><br/>\
+<i>The workshop is organized personally by IIT Kanpur Computer Science and Engineering Graduates</i><br/>", "Workshop structure":"\
+Introduction to Mobile Application Development<br/>\
+Role of Android in mobile industry<br/>\
+Introduction to Android SDK and its setup<br/>\
+Building the Application Framework<br/>\
+Designing User Interfaces<br/>\
+Working with activities<br/>\
+Working with Resources, Intents, Widgets<br/>\
+Adding network support to the Application<br/>\
+Examples apps: Calculator, Music Player and Battery Widget<br/>\
+Publishing Application into Play Store<br/>\
+<p>Awards will be given to the participants, who develop innovative and interesting apps. The names of the recipients will be put up on our website permanently and they will also be provided with certificate of merit.</p>\
+","Software":"Software used to design and develop Android Applications<br/>\
+Eclipse IDE<br/>\
+Android SDK","Other Material":"\
+Booklet on Introduction to Android<br/>\
+Sample Applications in Android (Source Code)<br/>"},
 	"3D_Photography": {"image": "engineer.gif","contact": "Manasij","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
-	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "<p>At Engineer we try to reach out to students of various branches. For the very first time we have something for Civil Engineering students and enthusiasts. The workshop can of course be attended by any one who is interested. The workshop will be conducted by Skyfi Labs and it will involve the design of a bridge through specialized tools on your computers followed by testing of your design on model sized bridges which you will be building with quality equipment provided by us.</br>\
-Registration Fee:  Rs 1800/ team.</br> Each team will consist of 2 people (900/head)</p>"},
+	"Bridge_Design_and_Fabrication": {"image": "./Icons_Final/Bridge_design.png", "contact": "Manasij", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
+	"Workshop structure":"The workshop has the following modules:<br/>\
+<b>Lecture</b>: Introduction to bridge design and working of different types of bridges<br/>\
+<b>Design session</b>: Each team will design their own bridge using a simulator<br/>\
+<b>Fabrication</b>: With the design obtained in the design session and the raw material provided by us each team will fabricate their own model bridge<br/>\
+<b>Testing</b>: Each bridge fabricated by the teams will be tested for maximum load taken<br/>","Outcomes":"Certificate of participation from Civil Simplified to all the participants<br/>\
+Career Guidance and Counseling by IIT alumni<br/>\
+Better Chances to pursue higher education in IITs/Universities abroad<br/>\
+Useful to develop good B.Tech/M.Tech projects<br/>","Awards":"<b>Best Design Award</b>: To the team which builds the bridge with maximum efficiency<br/>\
+<b>Best Fabrication Award</b>: To the team which fabricates the bridge perfectly<br/>\
+<b>Best Innovation Award</b>: To the team which comes up with an innovative truss<br/>","Course Content":"Introduction to different types of existing bridges<br/>\
+Structural response to moving loads<br/>\
+Methods of analysis of a truss bridge<br/>\
+IRC code specifications<br/>\
+Segmental Bridge Construction techniques<br/>\
+Pre stressed box girder design<br/>\
+Statically determinate and indeterminate structures<br/>\
+Fabrication techniques for model bridge according to problem statement<br/>\
+","Course Details":"Duration: 1 day<br/>\
+Date: 24 October 2013<br/>\
+Organizers: Civil Simplified<br/>\
+Cost: Rs.950 per participant. 2 participants will be clubbed into a team during practical session. One team will design and make one bridge.<br/>\
+"},
 
 	"RC_Aircraft_Design_and_Fabrication": {"image": "./Icons_Final/RC_Aircraft.png", "contact": "Manasij", "Description": "<p>Ever wanted to design and build your very own aircraft? This is your chance. This year at Engineer we will be having a Remote Controlled Aircraft Design and Fabrication workshop which will be conducted by Aerotrix.</br>\
 Registration Fee:  Rs 7500/ team for economy kit and Rs 12500/team for the complete kit.</br> Each team can have a maximum of 5 members.</p>"},
