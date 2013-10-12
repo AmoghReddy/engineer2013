@@ -1,9 +1,11 @@
 # Create your views here.
 
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
 from django.core import serializers
 from django.shortcuts import render_to_response
-from django.template import RequestContext
-from django.contrib.auth import logout, authenticate, login
+from django.template import RequestContext 
+from django.contrib.auth import logout
 from django.http import *
 from engiapp.forms import *
 from engiapp.models import *
@@ -25,12 +27,11 @@ def logout_page(request):
 def register_page(request):
     if request.method == 'POST': #user has submitted the form
         form = RegistrationForm(request.POST)
-        if form.is_valid():
+        if True:
             username = ''.join([choice(letters) for i in xrange(30)])
             user = User.objects.create_user(username=username, first_name=form.cleaned_data['first_name'],
                 last_name=form.cleaned_data['last_name'], password=form.cleaned_data['password1'],
                 email=form.cleaned_data['email'])
-
 #            student = Student(user=user, date_of_birth=form.cleaned_data['date_of_birth'],
 #                country=form.cleaned_data['country'], state=form.cleaned_data['state'], city=form.cleaned_data['city'],
 #                address=form.cleaned_data['address'], institution_name=form.cleaned_data['institution_name'])
@@ -40,10 +41,10 @@ def register_page(request):
 #            return HttpResponseRedirect('/register/success/')
         else:
             return HttpResponseForbidden()
-#    else:
-#        form = RegistrationForm()
-#    variables = RequestContext(request, {'form': form})
-#    return render_to_response('registration/register.html', variables)
+    else:
+        form = RegistrationForm()
+    variables = RequestContext(request, {'form': form})
+    return render_to_response('registration/register.html', variables)
 
 
 def user_page(request, username):
@@ -74,7 +75,7 @@ def event(request, event_id):
     # p = get_object_or_404(EngiEvents , pk=event_id)
     return HttpResponse(serializers.serialize("json", EngiEvents.objects.filter(pk=event_id)))
 
-# this will just add to the database, DONT use this for registering to an event
+
 def event_register_page(request):
     if request.method == 'POST': #user has submitted the form
         form = EventRegistrationForm(request.POST)
@@ -89,47 +90,35 @@ def event_register_page(request):
     variables = RequestContext(request, {'form': form})
     return render_to_response('registration/event_register.html', variables)
 
-# use this for registering to an event
+
 def event_page(request, event_id):
     engievent = get_object_or_404(EngiEvents, id=event_id)
-    if request.user.is_authenticated():
-        student = Student.objects.get(user=request.user)
-        if engievent.team_size == 1:
-            student.events.add(engievent)
-        return HttpResponse("success")
+    registered = 0
+    if request.method == 'POST': #user has submitted the form
+        if "Join event" in request.POST:
+            if request.user.is_authenticated():
+                student = Student.objects.get(user=request.user)
+                if engievent.team_size == 1:
+                    student.events.add(engievent)
+                    registered = 1
+                else:
+                    return HttpResponseRedirect('/register_team/%s/' % (event_id))
     else:
-        return Http404()
-
-#    registered = 0
-#    if request.method == 'POST': #user has submitted the form
-#        if "Join event" in request.POST:
-#            if request.user.is_authenticated():
-#                student = Student.objects.get(user=request.user)
-#                if engievent.team_size == 1:
-#                    student.events.add(engievent)
-#                    registered = 1
-#                else:
-#                    return HttpResponseRedirect('/register_team/%s/' % (event_id))
-#    else:
-#        if request.user.is_authenticated():
-#            student = Student.objects.get(user=request.user)
-#            if engievent in student.events.all():
-#                registered = 1
-#    variables = RequestContext(request, {'engievent': engievent, 'registered': registered})
-#    return render_to_response('event_page.html', variables)
+        if request.user.is_authenticated():
+            student = Student.objects.get(user=request.user)
+            if engievent in student.events.all():
+                registered = 1
+    variables = RequestContext(request, {'engievent': engievent, 'registered': registered})
+    return render_to_response('event_page.html', variables)
 
 
 def team_register_page(request, event_id):
     engievent = get_object_or_404(EngiEvents, id=event_id)
     team_exists=0
-    print "sdofnmdfsiomnsdroi"
     if request.method == 'POST':
-        print "sdofnmdfsiomnsdroi"
         if request.user.is_authenticated():
-            print "sdofnmdfsiomnsdroi"
             form = TeamRegistrationForm(request.POST, extra=engievent.team_size)
             if form.is_valid():
-                print "sdofnmdfsiomnsdroi"
                 student = Student.objects.get(user=request.user)
                 team, created = Team.objects.get_or_create(team_name=form.cleaned_data['team_name'],
                      team_event=engievent)
@@ -137,30 +126,22 @@ def team_register_page(request, event_id):
 #                    form = TeamRegistrationForm(extra=engievent.team_size)
                     team_exists=1
                     print team_exists
-                    return HttpResponse(status=403)
+                    return HttpResponse(content="Team Name Already Exists")
 #                    variables = RequestContext(request, {'form': form,'team_exists':team_exists})
 #                    return render_to_response('registration/team_register.html', variables)
                 team.members.add(request.user)
-                # team.save()
-                print "sdofnmdfsiomnsdroi"
+                #team.save()
                 team_join_request, created = TeamJoinRequest.objects.get_or_create(fromteam=team)
                 for (u, user_mail ) in form.extra_answers():
                     to_user = get_object_or_404(User, email=user_mail)
-                    # student=Student.objects.get(user=to_user)
-                    # student.team_join_request.add(team)
-                    # student.save()
                     team_join_request.receivers.add(to_user)
                 team_join_request.save()
                 return HttpResponse("success")
-            else:
-                return HttpResponse(status=403)
-        else:
-            return HttpResponse(status=403)
-            #return HttpResponseRedirect('/register/success/')
+#                return HttpResponseRedirect('/register/success/')
     else:
-       form = TeamRegistrationForm(extra=engievent.team_size)
-       variables = RequestContext(request, {'form': form,'team_exists':team_exists})
-       return render_to_response('registration/team_register.html', variables)
+        form = TeamRegistrationForm(extra=engievent.team_size)
+    variables = RequestContext(request, {'form': form,'team_exists':team_exists})
+    return render_to_response('registration/team_register.html', variables)
 
 
 def accept_team_request(request, req_id):
@@ -170,7 +151,7 @@ def accept_team_request(request, req_id):
             teamjoinrequest.receivers.remove(request.user)
             teamjoinrequest.fromteam.members.add(request.user)
         else:
-            return HttpResponse(content="success")
+            return HttpResponseRedirect('/register/success/')
         if len(teamjoinrequest.receivers.all()) == 0:
             team = teamjoinrequest.fromteam
             ##leader.events.add(team.team_event)
@@ -179,9 +160,9 @@ def accept_team_request(request, req_id):
                 stud.events.add(team.team_event)
                 stud.teams.add(team)
             teamjoinrequest.delete()
-        return HttpResponse(content="success")
+        return HttpResponseRedirect('/register/success/')
     else:
-        return Http404()
+        return HttpResponseRedirect('/login/')
 
 
 def committee_register_page(request):
@@ -241,7 +222,7 @@ def userLogin(request):
     
 def account_page(request):
     student=Student.objects.get(user=request.user)
-    data={"individual":[],"teams":[],"requests":[]}
+    data={"individual":[],"teams":[]}
     for team in student.teams.all():
         team_data={"event_id":team.team_event.id,"event_name":team.team_event.event_name,"members":[]}
         for members in team.members.all():
@@ -251,8 +232,4 @@ def account_page(request):
     for event in student.events.all():
         if event.id not in [ team.team_event.id for team in student.teams.all() ]:
             data["individual"].append({"event_id": event.id,"event_name": event.event_name})
-
-    for join_request in student.team_join_request.all():
-        data["requests"].append(join_request.frompage.team_name)
-
     return HttpResponse(content=json.dumps(data))

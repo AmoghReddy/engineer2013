@@ -51,7 +51,7 @@
 				<span class="dropdown" id="Signup">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Signup <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left: -166px;padding:10px;" role="menu" aria-labelledby="dLabel">
-  						<form method="post">
+  						<form onsubmit="return false;">
   							{% csrf_token %}
   							<input name="first_name" type="text" placeholder="First Name"/><br />
   							<input name="last_name" type="text" placeholder="Last Name"/><br />
@@ -100,10 +100,10 @@
 		{% if user.is_authenticated %}
 			user = {'fname': "{{ user.first_name }}", "lname": "{{ user.last_name }}" , "email": "{{ user.email }}"}
 			get_profile(user)
-			// user = new person();
-			// person.fname= "{{ request.user.first_name }}";
-			// person.lname= "{{ request.user.last_name }}";
-			// person.email = "{{ request.user.email }}";
+			user = new person();
+			person.fname= "{{ request.user.first_name }}";
+			person.lname= "{{ request.user.last_name }}";
+			person.email = "{{ request.user.email }}";
 			$('#Login').hide();
 			$('#Signup').hide();
 		{% else %}

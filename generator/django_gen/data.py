@@ -544,7 +544,7 @@ Get on the codes of Samuel Morse, decode the ‘dits and dahs’ and ace the eve
 <li>The robot may not deviate completely from the path at any time.</li>\
 <li>The robot is expected to stop automatically at the end of the path which is going to be a circle of same colour as the line preceding it.</li></ul>\
 <br/><B>CONTEST PROCEDURE</B><br/>\
-<ul<<li>The arena layout will not be shown until all the robots are given to the committee.</li>\
+<ul><li>The arena layout will not be shown until all the robots are given to the committee.</li>\
 <li>However a small sample arena will be available before the contest for calibration and testing.</li>\
 <li>The test arena will be made of same materials as the full-size and will be placed in similar lighting conditions.</li>\
 <li>After the arena is revealed, no modifications of any type may be made to the robots, including software or hardware changes.</li>\
