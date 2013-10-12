@@ -69,15 +69,43 @@ function page( element, dontCenter, radiusAdjust )
 		this.name = element.id;
 		var depth = -20, duration = 1200;
 		this.zDepth = depth;
-		//this.DOMobjects.push(document.getElementById('engiLogo'));
+		this.DOMobjects.push(document.getElementById('engiLogo'));
 		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
-		var radius = 0;
-		if (this.name == "sponsors") radius = 10;
-		getHomeTargets(this.DOMobjects, this.targets.page, depth, radius);
+		getHomeTargets(this.DOMobjects, this.targets.page, depth);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 		this.onComplete = function()
 		{
 			TWEEN.remove(renderTween);
+			/*for (var i = 1; i < this.WGLobjects.length; i++)
+			{
+				var object = this.WGLobjects[i];
+				console.log(object);
+				var target = new THREE.Object3D();
+				target.position.x = this.targets.page[i].position.x;
+				target.position.y = this.targets.page[i].position.y;
+				target.position.z = -this.targets.page[i].position.z;
+				if( allTweens[object.id] != undefined )
+				{
+					TWEEN.remove(allTweens[object.id][0]);
+					TWEEN.remove(allTweens[object.id][1]);
+					TWEEN.remove(allTweens[object.id][2]);
+				}
+				var tempVar = 100;
+				var pos = new TWEEN.Tween( object.position )
+					.to( { x: target.position.x, y: target.position.y, z: target.position.z }, duration / 2 )
+					.easing( TWEEN.Easing.Quadratic.InOut )
+					.repeat( Infinity )
+					.yoyo( true );
+				var rot = new TWEEN.Tween( object.rotation )
+					.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, duration / 2 )
+					.easing( TWEEN.Easing.Linear.None );
+				var dest = new TWEEN.Tween( object )
+					.to( {}, duration );
+				var chain = new TWEEN.Tween( tempVar ).to( {}, (i - 1) * duration / ( this.WGLobjects.length - 1 ) )
+					.chain(pos)
+					.start();
+				allTweens[object.id] = [pos, rot, dest];
+			}*/
 			var pageName = this.name;
 			if( allPages[pageName].pageTween != undefined ) { TWEEN.remove(allPages[pageName].pageTween); }
 			var depth = allPages[pageName].zDepth;
@@ -382,7 +410,7 @@ function getComitteeTargets(source, destination, gap, pageElement)
 	}
 }
 
-function getHomeTargets(source, destination, depth, radiusExtra)
+function getHomeTargets(source, destination, depth)
 {
 	var radius, maxDiag, rect, diag, theta, object;
 	maxDiag = 0;
@@ -395,7 +423,7 @@ function getHomeTargets(source, destination, depth, radiusExtra)
 	// CHANGE THE VALUE OF THIS TO CONTROL RADIUS
 	maxDiag-=100;
 	rect = source[0].getBoundingClientRect();
-	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag + radiusExtra;
+	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag;
 	//console.log(radius);
 	theta = 2 * Math.PI / (source.length - 1);
 	object = new THREE.Object3D(0, 0, 0);
@@ -608,6 +636,7 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
+	// if (pageName == 'Profile') get_profile_page();
 	var input = document.getElementById("share_url");
 	// console.log(input.value);
 	var str = input.value.split("#")[1];
@@ -714,15 +743,6 @@ function initHomePage()
 	allPages[tempPage.name] = tempPage;
 }
 
-function initSponsors()
-{
-	var sponsors = document.getElementById("sponsors");
-	var tempPage = new page(sponsors, false, 0);
-	tempPage.initHome();
-	allPagesIndex.push(tempPage.name);
-	allPages[tempPage.name] = tempPage;
-}
-
 function setCameraZ()
 {
 	camera.position.z = window.innerHeight / ( 2 * Math.tan( ( Math.PI / 180 ) * ( cameraAngle / 2 ) ) ) * ( initialWidth / window.innerWidth );
@@ -742,7 +762,6 @@ function init()
 	initForms();
 	initAllCommittees();
 	initHomePage();
-	initSponsors();
 
 	renderer = new THREE.CSS3DRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight);
@@ -855,10 +874,3 @@ function backHistory(){
 		getPage(history2[history2.length-1]);
 	}
 }
-
-
-
-
-
-
-
