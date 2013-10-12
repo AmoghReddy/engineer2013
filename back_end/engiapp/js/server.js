@@ -1,7 +1,7 @@
 function login(){
 
 $.ajax({
-  url: "/login/",
+  url: "login/",
   type: 'post',
   contentType: "application/x-www-form-urlencoded",
   data: $('#Login form').serialize(),
@@ -34,7 +34,7 @@ $.ajax({
 function signup(){
 
 $.ajax({
-  url: "/register/",
+  url: "register/",
   type: 'post',
   contentType: "application/x-www-form-urlencoded",
   data: $('#Signup form').serialize(),
@@ -64,7 +64,7 @@ $.ajax({
 function logout(){
 
 $.ajax({
-  url: "/logout",
+  url: "logout",
   type: 'get',
   // contentType: "application/x-www-form-urlencoded",
   // data: $('#Signup form').serialize(),
@@ -123,7 +123,7 @@ function get_profile(data){
 
 function register_single_event(event_id){
   $.ajax({
-  url: "/event/"+event_id+"/",
+  url: "event/"+event_id+"/",
   type: 'post',
   contentType: "application/x-www-form-urlencoded",
   data: "csrfmiddlewaretoken="+$('#Signup form input[name="csrfmiddlewaretoken"]').val(),
@@ -151,7 +151,7 @@ function register_team_event(event_name,event_id)
   // alert('hello');
   console.log($("#register_"+event_id));
   $.ajax({
-  url: "/register_team/"+event_id+"/",
+  url: "register_team/"+event_id+"/",
   type: 'post',
   contentType: "application/x-www-form-urlencoded",
   data: $('#register_'+event_id).serialize(),
@@ -191,7 +191,7 @@ function get_profile_page(type)
   if (type == 1)
     getPage("Profile");
   $.ajax({
-  url: "/account/",
+  url: "account/",
   type: 'get',
   // contentType: "application/x-www-form-urlencoded",
   // data: $('#Signup form').serialize(),

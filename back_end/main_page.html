@@ -3106,7 +3106,7 @@ Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagin
 		}
 		{% if user.is_authenticated %}
 			user = {'fname': "{{ user.first_name }}", "lname": "{{ user.last_name }}" , "email": "{{ user.email }}"}
-			get_profile(user)
+			// get_profile(user)
 			user = new person();
 			person.fname= "{{ request.user.first_name }}";
 			person.lname= "{{ request.user.last_name }}";
