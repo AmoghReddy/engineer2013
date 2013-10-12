@@ -145,28 +145,9 @@ function makeSomeBlocks()
 	}
 }
 
-function fillUpProfileDetails(name, email)
-{
-	var prof_name = document.getElementById('profile_name');
-	var prof_email = document.getElementById('profile_email');
-	prof_name.innerHTML = name;
-	prof_email.innerHTML = email;
-}
-
-function fillUpProfileEvents(eventList)
-{
-	alert('trial');
-	var listEle = document.getElementById('profile_events');
-	var listEleHTML = "";
-	for (eve in eventList)
-	{
-		listEleHTML = listEleHTML + "<br/>" + eventList["event_name"];
-	}
-}
-
 function system()
 {
-	$(".loading").hide();
+	$(".loading").hide();	
 	// in 3script.js
 	$(".logo").click(function(){getPage("homePage");});
 	$(".close").click();
@@ -179,7 +160,12 @@ function system()
 	keybind();
 	router();
 	searchRouter();
-
+	// alert(currentPage.name)
+	if (currentPage.name == "Profile")
+	{
+		// alert('running')
+		get_profile_page(0);
+	}
 }
 window.onbeforeunload=function(){ 
 	// return 'jwoiah';

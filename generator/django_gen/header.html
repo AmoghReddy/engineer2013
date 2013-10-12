@@ -16,7 +16,6 @@
 		<script src="{% static 'js/CSS3DRenderer.js' %}"></script>
 		<script src="{% static 'js/3script.js' %}"></script>
 		<script src="{% static 'js/system.js' %}"></script>
-		<script src="{% static 'js/server.js' %}"></script>
 	</head>
 	<body style="width: 1366px; overflow: hidden;">
 	<div class="loading">
@@ -33,6 +32,7 @@
 		}
 		loadingTextHandle();
 	</script>
+
 		<div class="alert" stlye="z-index: 1000" style="
 	    position: absolute;
 	    z-index: 1000;
@@ -45,74 +45,19 @@ margin-top: 10px;width: 27px;
 height: 21px;">X</button>
 		  <strong><p>This website has been created using WebGL, we recommend you to update your browser to latest version. For best experience please use Google Chrome 29+</p></strong>
 		</div>
+
+
 		<div id="container" style = "width: 1366">
 			<span id = "homePage">
-				<span id = "engiLogo"><img id="engiImg" src='{% static "images/logo.png" %}' style="width:300px;box-shadow: 0px 0px 0px;" /></span>
+				<span id = "engiLogo"><img id="engiImg" src="{% static 'images/logo.png' %}"" style="width:300px;box-shadow: 0px 0px 0px;" %}" /></span>
 				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" style="font-family: acens;">EVENTS</button></span>
 				<span id = "menu1"><button id="button1" onclick = "getPage('Workshops')" style="font-family: acens;" >WORK SHOPS</button></span>
 				<span id = "menu2"><button id="button2" onclick="getPage('Technites')" style="font-family: acens;" >TECHNITES</button></span>
 				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" style="font-family: acens;" >TECH SPEAK</button></span>
-				<span id = "menu4"><button id="button4" style="font-family: acens;" onclick = "getPage('sponsors')" >SPONSORS</button></span>
+				<span id = "menu4"><button id="button4" style="font-family: acens;" >SPONSORS</button></span>
 				<!--<span id = "menu5"><button id="button5" style="font-family: acens;" >ABOUT ENGI</button></span>-->
 				<span id = "menu6"><button id="button6" style="font-family: acens;" onclick = "getPage('Contact')" >CONTACTS</button></span>
 				<span id = "menu7"><button id="button7" style="font-family: acens;" >ACCOM</button></span>
-			</span>
-			<span id = "sponsors">
-				<!--<span id = "menuLogo2"><img id="engiImg2" src="{% static 'images/logo.png' %}" style="width:300px;box-shadow: 0px 0px 0px;"/></span>-->
-				<span id = "menu00"><img src = "{% static 'sponsors/Adormi_Technologies.jpg' %}" style="width:300px"/></span>
-				<span id = "menu01"><img src = "{% static 'sponsors/Bosch.jpg' %}" style="width:300px"/></span>
-				<span id = "menu02"><img src = "{% static 'sponsors/Byju.jpg' %}" style="width:300px"/></span>
-				<span id = "menu03"><img src = "{% static 'sponsors/D_E_Shaw.jpg' %}" style="width:300px"/></span>
-				<span id = "menu04"><img src = "{% static 'sponsors/Oracle.JPG' %}" style="width:300px"/></span>
-			</span>
-			<span id = "pageProfile" >
-				<span id = "blockProfile0" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>PROFILE</span>
-				<span id = "blockProfile1" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					<table width = "600">
-						<tr>
-							<td>
-								Name:
-							</td>
-							<td>
-								<b id = "profile_name"></b>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Email ID:
-							</td>
-							<td>
-								<b id = "profile_email"></b>
-							</td>
-						</tr>
-					</table>
-				</span>
-				<span id = "blockProfile2" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					Events Registered:
-				</span>
-				<span id = "blockProfile3" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					<p id = "profile_events"></p>
-				</span>
-
-				<span id = "blockProfile4" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					Team Requests
-				</span>
-				<span id = "blockProfile5" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					<p id="profile_team_request"></p>
-				</span>
-
-				<!-- <span id = "blockProfile4" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					
-				</span>
-				<span id = "blockProfile5" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					
-				</span>
-				<span id = "blockProfile6" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					
-				</span>
-				<span id = "blockProfile7" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					
-				</span> -->
 			</span>
 			<span id='pageContact' style='margin:100px;padding:50px'>
 			<table class='table'>
@@ -134,6 +79,7 @@ height: 21px;">X</button>
 			<span style='font-style:italic;'>Ph: 9986849580 </br>
 			Email: vishnu@engineer.org.in</span></p>
 			<hr/>
+
 			</span>
 			</td>
 			</tr>
