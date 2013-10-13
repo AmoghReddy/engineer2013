@@ -49,7 +49,7 @@ Send the abstract as a PDF attachment to blueprint@engineer.org.in<br/>\
 - Subject of the mail: Category/ Field of Blueprint ( Example: Mechanical)<br/>\
 - Details to be included in the mail:<br/>\
 Sample Format (Use this format in the mail)<br/>\
-<table border='1' height=\"300\" width=\"600\">\
+<table border='1'>\
 	<tr>\
 		<td>Title of Paper</td>\
 		<td>Name and Institution name of each author of the paper</td>\
@@ -57,10 +57,10 @@ Sample Format (Use this format in the mail)<br/>\
 	</tr>\
 	<tr>\
 		<td>Analysis of Android mobile applications</td>\
-		<td>Ram Prasad – NITK, Surathkal <br/> Kishore Kumar – NITK, Surathkal</td>\
-		<td>Ram Prasad <br/> Email: ram@nitk.ac.in <br/> Ph: 973082719 </td>\
+		<td>Ram Prasad – NITK, Surathkal  Kishore Kumar – NITK, Surathkal</td>\
+		<td>Ram Prasad  Email: ram@nitk.ac.in  Ph: 973082719 </td>\
 	</tr>\
-</table><br/>\
+</table>\
 <b>IMPORTANT DATES </b><br/>\
 18th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
 21th Oct – Declaration of Selected papers <br/>\
@@ -69,7 +69,7 @@ Sample Format (Use this format in the mail)<br/>\
 
 
 Workshops={
-	"Ethical_Hacking_by_TechDefence": {"image": "/Icons_Final/HACKING.png","contact": "Manasij","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
+	"Ethical_Hacking_by_TechDefence": {"image": "/Icons_Final/HACKING.png","contact": "Manasij()","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
 
 	"Android Application Development": {"image": "/Icons_Final/Android.png", "contact": "Manasij", "Workshop Details": "<b>Duration</b>: 2 days (8 hours per day)<br/>\
 <b>Date</b>: <b> 26 Oct - 27 Oct 2013</b><br/>\
@@ -452,15 +452,15 @@ Intentional disconnection will not be tolerated. Upon judgment by the referee, a
 
 
 Technites={
-"Megapixel": {"image": "/Icons_Final/megapixel.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
-"Blitzkrieg": {"image": "/Icons_Final/blitzkrieg.png","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
-"Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob: <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
-"Psychedelic_Room":{"image": "/Icons_Final/PsychRoom.png", "contact": "Jacob: <br/> jacobv1992@gmail.com",
+"Megapixel": {"image": "/Icons_Final/megapixel.png","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
+"Blitzkrieg": {"image": "/Icons_Final/blitzkrieg.png","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
+"Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
+"Psychedelic_Room":{"image": "/Icons_Final/PsychRoom.png", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
 "Light_Wall": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ",
 "Decagon": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ",
 "Waterfall": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ",
 },
-"Arcade_Room": { "image": "engineer.gif", "contact": "Jacob: <br/> jacobv1992@gmail.com",
+"Arcade_Room": { "image": "engineer.gif", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
 "Agent_Dash": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. ",
 "Labyrinth": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. ",
 "Pin_Ball": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. ",
@@ -475,20 +475,20 @@ Technites={
 }
 
 Comps={
-"Inscription":{"image": "/Icons_Final/INSCRIPTION.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
+"Inscription":{"image": "/Icons_Final/INSCRIPTION.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
 <b>Teams of 3.</b>"},
 
-"Kode_Kombat":{"image": "/Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
+"Kode_Kombat":{"image": "/Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b>"},
 
-"Rectify":{"image": "/Icons_Final/RECTIFY.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
+"Rectify":{"image": "/Icons_Final/RECTIFY.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
 &nbsp; you spot your prey and catch it at the blink of an eye like the vicious vulture ? If you think you have\
 &nbsp; a sharp eye and the instincts of a predator programmer, then come and hunt for the errors in our\
 &nbsp; codes. This event not only tests the mastery over and familiarity with a programming language but\
 &nbsp; also your dexterity in analyzing problems and providing logical solutions.<br/>\
 <b>Individual event</b><br/>"},
 
-"Marathon":{"image": "/Icons_Final/marathon_final.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
+"Marathon":{"image": "/Icons_Final/marathon_final.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
 &nbsp; computer science from basic programming, scripting, to operating systems and networks. This\
 &nbsp; Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
 &nbsp; developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
@@ -498,12 +498,12 @@ Spread over all of Engineer, we give you the opportunity to make up for one bad 
 &nbsp; can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "/Icons_Final/ECTF.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
+"ECTF_-_Capture_the_Flag":{"image": "/Icons_Final/ECTF.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
 &nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
 &nbsp; at the same time defending your own.<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"Virtual_Bounty":{"image": "/Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
+"Virtual_Bounty":{"image": "/Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
 &nbsp; of the participants are put to test. Using search engines, the participants need to figure out the clues\
 &nbsp; which will take them all around the World Wide Web in order to get to the next more intriguing\
 &nbsp; level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
@@ -643,7 +643,7 @@ Participation will be in groups not exceeding four members. An abstract comprisi
 
 Tronix={
 
-"TrailBlazer":{"image": "/Icons_Final/trailblazer.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
+"TrailBlazer":{"image": "/Icons_Final/trailblazer.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
@@ -668,7 +668,7 @@ Bot should have a mechanism to show the traced path.",
 <li>Judges' decision will be final and binding in all cases.</li>\
 ","samplearena":"<img src=\"./data/trail.png\" />"},
 
-"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement</b><br/>\
@@ -716,7 +716,7 @@ A maximum of 4 members per team is allowed. We do not provide computers to the p
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
 ","download":"<a href=\"data/Automata.docx\">Download</a>"},
 
-"Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+"Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
 The dates for test run and the main event will be announced shortly<br/>\
 <b>EVENT FORMAT</b><br/>\
@@ -739,7 +739,7 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "/Icons_Final/trade_off.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+"Trade_OFF":{"image": "/Icons_Final/trade_off.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
 There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
 <b>EVENT FORMAT</b><br/>\
 Round 1<br/>\
@@ -769,7 +769,7 @@ The team with the highest amount of virtual money in their account at the end of
 Judges' decision will be final and binding in all cases.<br/>\
 "},
 
-"FoxHunt":{"image": "/Icons_Final/foxxhunt.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
+"FoxHunt":{"image": "/Icons_Final/foxxhunt.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
 Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
 <b>EVENT FORMAT</b><br/>\
 The event will have two phases <br/>\
@@ -797,7 +797,7 @@ Usage of mobile phones or other means of communication between teams during the 
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "/Icons_Final/Symphony.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer, Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "/Icons_Final/Symphony.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer, Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
 <b>EVENT FORMAT</b><br/>\
@@ -824,7 +824,7 @@ The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 "},
 
-"Waltz":{"image": "/Icons_Final/Waltz.png","contact": "Nanda Kumar <br/>nanda9045@gmail.com",
+"Waltz":{"image": "/Icons_Final/Waltz.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com",
 "Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
 switching walls at the check-lines indicated in the arena diagram",
 "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
@@ -1510,9 +1510,9 @@ disqualified. This decision rests solely with the judges and the organizers."}
 
 
 Mining={
-"Mine_Rush":{"image": "/Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments."},
-"Adverse_Mining_Problem":{"image": "/Icons_Final/adverse_mining.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
-"Mine_Quest":{"image": "/Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br/>\
+"Mine_Rush":{"image": "/Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments."},
+"Adverse_Mining_Problem":{"image": "/Icons_Final/adverse_mining.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
+"Mine_Quest":{"image": "/Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br/>\
 <h3>round 1 : preliminary</h3>\
 All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br/>\
 <h3>round 2 : eliminator</h3>\
@@ -1521,9 +1521,9 @@ The top six teams will be qualified for this round. in this round multi-discipli
 This is a visual round in which the participants will be shown various pictures which may/ may not contain a flaw and are identified to detect and correct the flaw if present. they will also be given incomplete diagrams and are asked to complete them.<br/>\
 <h3>round 4 : grand-finale</h3>\
 The ultimate round which decides the winner of the event where their performance is continuously evaluated. this round is a combination of auction round, buzzer round, challenge round, and rapid fire round."},
-"Innovating_Mining":{"image": "/Icons_Final/mining_innovation.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
-"Blast_Mine_Ventilation":{"image": "/Icons_Final/blast_mine_ventilation.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
-"Hang-Man":{"image": "/Icons_Final/HANGMAN_MAIN.png","contact": "Arjun Thumbayil - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
+"Innovating_Mining":{"image": "/Icons_Final/mining_innovation.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
+"Blast_Mine_Ventilation":{"image": "/Icons_Final/blast_mine_ventilation.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
+"Hang-Man":{"image": "/Icons_Final/HANGMAN_MAIN.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
 }
 
 

@@ -26,8 +26,6 @@ def event_sidebar(event,i):
 		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src=\"static"+events[i][event]['image']+"\" width='250px'/></span><br />"
 		# print events[i]
 	if event != "Tech_Speak" and events[i] != "Workshops" and event != "Blue_Print" and event != "Psychedelic_Room" and event != "Blitzkrieg" and event != "Megapixel" and event != "Dance_Dance_Revolution" and event != "Arcade_Room":
-
-
 			#if int(newHash[event]["team_members"]) > 1:
 			if False:
 				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><h3>"+"Register"+"</h3></span>"
@@ -113,32 +111,34 @@ def event_description(event,i):
 	print "</table>"
 
 def commitee_sidebar(i):
-	print "<span id='side"+i+"'>"
-	print "<br /><br /><br />"
-	for c in i:
-		if (c == "_"):
-			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"
-		else:
-			print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c+"</h1></span><br />"
-	print "</span>"
+	if i !=  "Blue_Print":
+		print "<span id='side"+i+"'>"
+		print "<br /><br /><br />"
+		for c in i:
+			if (c == "_"):
+				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"
+			else:
+				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c+"</h1></span><br />"
+		print "</span>"
 
 def commitee_page(i):
-	print "<span id='page"+i+"'>"
-	print "<table>"
-	count=0
-	for event in events[i].iterkeys():
-		if count%3==0:
-			print "<tr>"
-		if (events[i][event]['image'] == 'engineer.gif'):
-			print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
-		else:
-			print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='static"+events[i][event]['image']+"'/></span></td>"
-			# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
-		if count%3==2:
-			print "</tr>"
-		count+=1
-	print "</table>"
-	print "</span>"
+	if i !=  "Blue_Print":
+		print "<span id='page"+i+"'>"
+		print "<table>"
+		count=0
+		for event in events[i].iterkeys():
+			if count%3==0:
+				print "<tr>"
+			if (events[i][event]['image'] == 'engineer.gif'):
+				print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
+			else:
+				print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='static"+events[i][event]['image']+"'/></span></td>"
+				# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
+			if count%3==2:
+				print "</tr>"
+			count+=1
+		print "</table>"
+		print "</span>"
 
 
 #Adding all committees 
