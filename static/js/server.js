@@ -1,5 +1,8 @@
+login_block=0;
 function login(){
-
+if(login_block!=0)
+	return;
+login_block=1;
 $.ajax({
   url: "server.php?action=login",
   type: 'post',
@@ -22,18 +25,23 @@ $.ajax({
     $('#Signup').hide();
     get_profile(data);
     $('#loggedIn').show();
+    login_block=0;
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
     console.log("Desc: " + desc + "\nErr:" + err);
     $('#error_login').html('Wrong Email and Password combination');
     $('#error_login').attr('class', 'alert alert-error');
+    login_block=0;
   }
 });
-
+$("login_button").removeAttr("disabled"); 
 }
-
+signup_block=0;
 function signup(){
+if(signup_block!=0)
+	return;
+signup_block=1;
 $.ajax({
   url: "server.php?action=signup",
   type: 'post',
@@ -50,19 +58,23 @@ $.ajax({
     // $('#loggedIn').show();
     $('#error_signup').html('Sign up successful!! Please login ');
     $('error_signup').attr('class', 'success');
+    signup_block=0;
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
     console.log("Desc: " + desc + "\nErr:" + err);
     $('#error_signup').html('Error while Submitting!!');
     $('#error_signup').attr('class', 'alert alert-error');
+    signup_block=0;
   }
 });
+$("signup_button").removeAttr("disabled"); 
 }
 
-
+logout_block=0;
 function logout(){
-
+if(logout_block!=0)
+	return;
 $.ajax({
   url: "server.php?action=logout",
   type: 'get',
@@ -79,10 +91,12 @@ $.ajax({
     if(currentPage.name=="Profile")
     	getPage("homePage");
     console.log(statusCode);
+    logout_block=0;
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
     console.log("Desc: " + desc + "\nErr:" + err);
+    logout_block=0;
   }
 });
 
