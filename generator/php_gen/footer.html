@@ -29,7 +29,7 @@
 				<img src='static/images/up.png' onclick="VScroll(false)" style="position:fixed;right:10px;top:240px;width:50px;cursor:pointer;"/>
 				<img src='static/images/down.png' onclick="VScroll(true)" style="position:fixed;right:10px;top:290px;width:50px;cursor:pointer;"/>
 				<span class="dropdown" id="loggedIn">
-  					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
+  					<a class="dropdown-toggle btn" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding-left:10px;" role="menu" aria-labelledby="dLabel">
 						<b id="fname">Firstname </b><b id="lname">Lastname</b><br />
 						<em id="email">Email</em>
@@ -39,7 +39,7 @@
   					</ul>
 				</span>
 				<span class="dropdown" id="Login">
-  					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Login <b class="caret"></b></a>
+  					<a class="dropdown-toggle btn " data-toggle="dropdown" href="#"><b>Login</b> <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left:-177px;padding:10px;" role="menu" aria-labelledby="dLabel">
   						<form onsubmit="return false;">
 						<input type="text" name="username" placeholder="Email" /><br />
@@ -50,7 +50,7 @@
   					</ul>
 				</span>
 				<span class="dropdown" id="Signup">
-  					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Signup <b class="caret"></b></a>
+  					<a class="dropdown-toggle btn " data-toggle="dropdown" href="#"><b>Signup</b> <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left: -166px;padding:10px;" role="menu" aria-labelledby="dLabel">
   						<form onsubmit="return false;">
   							<input name="first_name" type="text" placeholder="First Name"/><br />
@@ -60,6 +60,7 @@
 							<input name="password2" type="password" placeholder="Confirm Password"/><br />
 							<input name="city" type="text" placeholder="City"/><br />
 							<input name="institution_name" type="text" placeholder="College"/><br />
+							<input name="phone" type="text" placeholder="Phone"/><br />
 							<button class="btn btn-success" onclick="signup()" style="height: 30px;">Submit</button>
 							<span id="error_signup"></span>
 						</form>
@@ -99,6 +100,7 @@
 			this.email = "";
 		}
 		<?
+		include("basicfunctions.php");
 			if(isLogin()){
 		?>
 			user = {'fname': "<? echo $_SESSION['first_name']; ?>", "lname": "<? echo $_SESSION['last_name']; ?>" , "email": "<? echo $_SESSION['email'];?>"}

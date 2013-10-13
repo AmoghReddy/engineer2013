@@ -3,11 +3,13 @@ function login(){
 $.ajax({
   url: "server.php?action=login",
   type: 'post',
-  contentType: "application/x-www-form-urlencoded",
+  //contentType: "application/x-www-form-urlencoded",
   data: $('#Login form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
+    data=jQuery.parseJSON( data );
+   //console.log(typeof eval(data));
     console.log("Success!!");
     console.log(data);
     console.log(data['fname']);
@@ -32,11 +34,10 @@ $.ajax({
 }
 
 function signup(){
-
 $.ajax({
-  url: "register/",
+  url: "server.php?action=signup",
   type: 'post',
-  contentType: "application/x-www-form-urlencoded",
+ // contentType: "application/x-www-form-urlencoded",
   data: $('#Signup form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
@@ -57,7 +58,6 @@ $.ajax({
     $('#error_signup').attr('class', 'alert alert-error');
   }
 });
-
 }
 
 
@@ -125,10 +125,10 @@ function get_profile(data){
 
 function register_single_event(event_id){
   $.ajax({
-  url: "event/"+event_id+"/",
+  url: "server.php?action=register_event&event_id="+event_id,
   type: 'post',
-  contentType: "application/x-www-form-urlencoded",
-  data: "csrfmiddlewaretoken="+$('#Signup form input[name="csrfmiddlewaretoken"]').val(),
+  //contentType: "application/x-www-form-urlencoded",
+  data: "",
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
@@ -193,16 +193,18 @@ function get_profile_page(type)
   if (type == 1)
     getPage("Profile");
   $.ajax({
-  url: "account/",
+  url: "server.php?action=account",
   type: 'get',
   // contentType: "application/x-www-form-urlencoded",
   // data: $('#Signup form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
+    data=jQuery.parseJSON(data);
     // console.log("Success!!");
     // user=0;
     d = data;
+    
     console.log(data);
     fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
     console.log(data["individual"]);

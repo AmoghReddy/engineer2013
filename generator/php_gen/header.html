@@ -1,6 +1,5 @@
 <?
 session_start();
-require("basicfunctions.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -69,9 +68,12 @@ height: 21px;">X</button>
 				<span id = "menu04"><img src = 'static/sponsors/Oracle.JPG'  style="width:300px"/></span>
 			</span>
 			<span id = "pageProfile" >
-				<span id = "blockProfile0" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>PROFILE</span>
-				<span id = "blockProfile1" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
-					<table width = "600">
+				
+				<table>
+				<tr>
+				<td><span id = "blockProfile0" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>PROFILE</span></td>
+				<td><span id = "blockProfile1" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
+					<table width = "650">
 						<tr>
 							<td>
 								Name:
@@ -89,20 +91,23 @@ height: 21px;">X</button>
 							</td>
 						</tr>
 					</table>
-				</span>
-				<span id = "blockProfile2" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
+				</span></td>
+				</tr>
+				<td><span id = "blockProfile2" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
 					Events Registered:
-				</span>
-				<span id = "blockProfile3" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
+				</span></td>
+				<td><span id = "blockProfile3" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
 					<p id = "profile_events"></p>
-				</span>
+				</span></td>
+				</tr>
+				</table>
 
-				<span id = "blockProfile4" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
+				<!--<span id = "blockProfile4" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
 					Team Requests
 				</span>
 				<span id = "blockProfile5" style='display:none;width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
 					<p id="profile_team_request"></p>
-				</span>
+				</span>-->
 
 				<!-- <span id = "blockProfile4" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
 					
