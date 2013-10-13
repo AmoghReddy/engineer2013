@@ -1215,7 +1215,10 @@ The organisers retain the right to make any changes to the event, format, dates,
 }
 
 Mechanical={
-"Robowars": {"image":"/Icons_Final/RoboWars.png","contact":"Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661","generalrules":"Contestants will have to register online. On spot registrations can also be done.<br/>\
+
+"Robowars": {"image":"/Icons_Final/RoboWars.png",
+"contact":"Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661",
+"generalrules":"Contestants will have to register online. On spot registrations can also be done.<br/>\
 The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 A team can comprise of students from different colleges.<br/>\
@@ -1238,8 +1241,8 @@ In case a robot falls off the arena or toppled during the match, it can be resto
 The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br/>\
 The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br/>\
 In case of immobility of any of the bots, both the bots will start again from their start points. <br/>\
-Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>\
-","judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br/>\
+Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000",
+"judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br/>\
 In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br/>\
 No points will be awarded for immobilizing the opponent bot.<br/>\
 Points will be awarded for the team for using the offensive mechanisms provided by the organizers.<br/>\
@@ -1304,13 +1307,15 @@ Please take care to not hurt yourself or others when building, testing and compe
 ","download": "<a href='data/GENERALRULES.pdf'>Download</a>"},
 
 
-"PerfectMachine":{"image":"/Icons_Final/PerfectMachine.png","contact":"Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661","generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
+"PerfectMachine":{"image":"/Icons_Final/PerfectMachine.png",
+"contact":"Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661",
+"generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
 Contestants will have to register online. On spot registrations can also be done.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br/>\
 The team is not permitted to compete with more than one bot.<br/>\
 Teams will not be allowed to modify their bots during their trial.<br/>\
-","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
+Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
 Fig 1 portrays the arena <br/>\
 Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br/>\
 In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br/>\
@@ -1355,7 +1360,11 @@ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not a
 ","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
 ","download":"<a href='data/perfectmachineprob.pdf'>Download</a>"},
 
-"wrightflight":{"image":"/Icons_Final/WrightFlight.png","contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661","generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding.","eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
+"wrightflight":{"image":"/Icons_Final/WrightFlight.png",
+"contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661",
+"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000",
+"eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>\
+&bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
 organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
 Maximum weight of the glider should be less than 1kg.<br/> \
 Any material may be used for fabrication of glider.<br/> \
@@ -1377,7 +1386,7 @@ produced at the time of registration.<br/>\
 • Maximum number of participants per team is four.<br/>\
 • Readymade kits are not allowed.<br/>\
 • Each team is allowed to participate with not more than one bot.<br/>\
-• Judges decision will be final and binding.","Event Rules":"• There shall be one qualifying round.<br/>\
+• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000","Event Rules":"• There shall be one qualifying round.<br/>\
 • The qualifying round is to test the test the maneuverability and the water shooting \
 capacity of the bot.<br/>\
 • The top 8 will qualify for the final round.<br/>\
@@ -1416,15 +1425,21 @@ Based on S1, top eight teams are qualified for the next round and awarded points
 (40, 35, 30 .. and so on). These points are carried forward for the final score.<br/>\
 Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
 
-"Velocity": {"image": "/Icons_Final/Velocity.png", "contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
+
+"Velocity": {"image": "/Icons_Final/Velocity.png", 
+"contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", 
+"Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", 
+"General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 The team is not permitted to compete with more than one car.<br/>\
-Teams will not be allowed to modify their car during their trial.", "Event Format": "The event will have 6 rounds:\
+Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000",
+ "Event Format": "The event will have 6 rounds:\
 <br/>\
 <b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
 to the specified rules. There will be no points from this round. However, if the vehicle \
-doesn’t conform to all the rules, it will be immediately disqualified.<br/> <b>Maneuverability Test</b>: Each car will have to maneuver a set of obstacles and points will be awarded based on time taken to complete the course.<br/><b>Acceleration Test</b>: Each car will have to accelerate a certain distance and points will be awarded based on the time taken to complete the stretch.<br/><b>Quarter-Finals</b>: 8 quarter-Finalists will be decided based on their aggregate points obtained in the abstract submission, acceleration test and maneuverability test. 4 groups of 2 cars each will race and the first car proceeds to the next round.<br/><b>Semi-Finals</b>: 4 semi-finalists will be divided into 2 groups and race-off for the 2 spots in the finals. <br/><b>Final</b>: This round requires the final 2 cars to race through a track with acute curvesand obstructions with the cars able pit stops for refueling and repairs. The endurance of the car will be tested. <br/><a href='./data/velocity.pdf'>Event Rule</a> \
-","Event Rules":"The final 3 rounds will have races with multiple cars racing at a time.<br/>\
+doesn’t conform to all the rules, it will be immediately disqualified.<br/> <b>Maneuverability Test</b>: Each car will have to maneuver a set of obstacles and points will be awarded based on time taken to complete the course.<br/><b>Acceleration Test</b>: Each car will have to accelerate a certain distance and points will be awarded based on the time taken to complete the stretch.<br/><b>Quarter-Finals</b>: 8 quarter-Finalists will be decided based on their aggregate points obtained in the abstract submission, acceleration test and maneuverability test. 4 groups of 2 cars each will race and the first car proceeds to the next round.<br/><b>Semi-Finals</b>: 4 semi-finalists will be divided into 2 groups and race-off for the 2 spots in the finals. <br/><b>Final</b>: This round requires the final 2 cars to race through a track with acute curvesand obstructions with the cars able pit stops for refueling and repairs. The endurance of the car will be tested. <br/><a href='./data/velocity.pdf'>Event Rule</a> ",
+
+"Event Rules":"The final 3 rounds will have races with multiple cars racing at a time.<br/>\
 The track will have check points at regular intervals. If a machine tumbles, or halts, \
 or goes off the arena at any point on the track, one of the team members is allowed to \
 lift it up and place it at the nearest checkpoint behind that point. The clock will keep \
@@ -1446,7 +1461,8 @@ discretion.","Arena Specs":" The design of the track will be updated periodicall
 website periodically)<br/>\
 The actual track during the time of race might not strictly follow the design shown \
 above.<br/>\
-The width of the track varies from 0.5 m to a maximum of 2mts.","Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X \
+The width of the track varies from 0.5 m to a maximum of 2mts.",
+"Car Specs":" Machine should fit in a box of dimensions 500 mm x 500 mm x 400 mm (L X B X \
 H) at any moment of time during the race.<br/> The height will be measured excluding the \
 antenna. The external device which is used to control the machine is not included in \
 the size constraint.<br/>\
@@ -1482,7 +1498,8 @@ present the CAD Drawings given to the manufacturer and the manufacturer’s \
 bill for the same.<br/>\
  The Chassis has to be strictly built by the team and use of stock chassis will lead \
 to immediate disqualification.<br/>\
-The above pictures are just sample pictures for you to understand the rules easily.","Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion \
+The above pictures are just sample pictures for you to understand the rules easily.",
+"Propulsion & Steering":" The machine must use only mechanical power generated by an internal combustion \
 (IC) engine for propulsion.<br/> Only one IC engine should be used in the machine.<br/> Use of \
 any other sources such as chemicals, compressed gas, rockets etc. is not allowed.<br/>The \
 maximum allowed capacity of IC engine to be used is 5 cc.<br/><img src='data/velocity6.JPG' /><br/>  Any machine which uses DC Motors for propulsion will be disqualified. However \
