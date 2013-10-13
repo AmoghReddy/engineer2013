@@ -1,7 +1,7 @@
 function login(){
 
 $.ajax({
-  url: "login/",
+  url: "server.php?action=login",
   type: 'post',
   contentType: "application/x-www-form-urlencoded",
   data: $('#Login form').serialize(),
@@ -64,7 +64,7 @@ $.ajax({
 function logout(){
 
 $.ajax({
-  url: "logout",
+  url: "server.php?action=logout",
   type: 'get',
   // contentType: "application/x-www-form-urlencoded",
   // data: $('#Signup form').serialize(),
