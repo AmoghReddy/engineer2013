@@ -38,7 +38,6 @@ function page( element, dontCenter, radiusAdjust )
 	this.name;
 	this.dontCenter = dontCenter;
 	this.pageElement = element;
-	console.log(element);
 	this.pageRect = element.getBoundingClientRect();
 	this.pageTween;
 	this.DOMobjects = [];

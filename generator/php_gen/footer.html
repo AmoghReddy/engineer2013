@@ -3,12 +3,13 @@
 			<button id="back" onclick="backHistory();">BACK</button>
 			<button id="page">RESET</button>
 		</div> -->
-		<div class="logo"><img src="static/images/logo.png" style="width:100px;" /><img src="static/images/engi.png"  style="width:250px;"></div>
+		<div class="logo"><img src='static/images/logo.png' style="width:100px;" /><img src='static/images/engi.png' style="width:250px;"></div>
 		<div class="header">
-				<div class="quickNav" >
+				<div class="quickNav">
 				<center>
 					<span style="width:50%">
 					<div>
+
 						<button id="page" class="quickNavContent" style = "width: 120px; height: 50px; border-radius:10px;" onclick="getPage('allCommittees')" >EVENTS</button>
 						<button id="page" class="quickNavContent" style = "width: 120px; height: 50px; border-radius:10px;" onclick="getPage('Workshops')" >WORKSHOPS</button>
 						<button id="page" class="quickNavContent" style = "width: 120px; height: 50px; border-radius:10px;" onclick="getPage('Technites')" >TECHNITES</button>
@@ -21,41 +22,50 @@
 				</div>
 
 			<div class="pull-right">
-				<span style="font-size:19px;">24th - 27th October 2013</span>
+				<!-- <span style="font-size:19px;">24th - 27th October 2013</span> -->
 				<input type="text" id="searchBox" placeholder=" Search events"/><br />
 				<!-- <a class="btn" onclick="share();">Share</a><br /> -->
-				<img id="back" src="static/./images/back.png"  onclick="backHistory();" style="position:fixed;right:10px;top:60px;width:50px;cursor:pointer;"/>
-				<img src="static/images/up.png"  onclick="VScroll(false)" style="position:fixed;right:10px;top:240px;width:50px;cursor:pointer;"/>
-				<img src="static/images/down.png"  onclick="VScroll(true)" style="position:fixed;right:10px;top:290px;width:50px;cursor:pointer;"/>
-<!-- 				<span class="dropdown" id="loggedIn">
+				<img id="back" src='static/./images/back.png' onclick="backHistory();" style="position:fixed;right:10px;top:60px;width:50px;cursor:pointer;"/>
+				<img src='static/images/up.png' onclick="VScroll(false)" style="position:fixed;right:10px;top:240px;width:50px;cursor:pointer;"/>
+				<img src='static/images/down.png' onclick="VScroll(true)" style="position:fixed;right:10px;top:290px;width:50px;cursor:pointer;"/>
+				<span class="dropdown" id="loggedIn">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#"><i class="icon-user"></i> <b class="caret"></b></a>
   					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding-left:10px;" role="menu" aria-labelledby="dLabel">
-						<b>Suresh Alse</b><br />
-						<em>alseambusher@gmail.com</em>
+						<b id="fname">Firstname </b><b id="lname">Lastname</b><br />
+						<em id="email">Email</em>
 						<li class="divider"></li>
-						<li><a>Profile</a></li>
-						<li><a>Logout</a></li>
+						<li><a onclick="get_profile_page(1);">Profile</a></li>
+						<li onclick="logout();"><a>Logout</a></li>
   					</ul>
 				</span>
 				<span class="dropdown" id="Login">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Login <b class="caret"></b></a>
-  					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding:10px;" role="menu" aria-labelledby="dLabel">
-						<input type="text" placeholder="Email"/><br />
-						<input type="password" placeholder="Password"/><br />
-						<b class="btn btn-success">Login</b>
+  					<ul class="dropdown-menu accountSettings" style="margin-left:-177px;padding:10px;" role="menu" aria-labelledby="dLabel">
+  						<form onsubmit="return false;">
+						<input type="text" name="username" placeholder="Email" /><br />
+						<input type="password" name="password" placeholder="Password" /><br />
+						<button class="btn btn-success" onclick="login()" style="height: 30px;">Submit</button>
+						<span id="error_login"></span>
+						</form>
   					</ul>
 				</span>
 				<span class="dropdown" id="Signup">
   					<a class="dropdown-toggle btn colorless" data-toggle="dropdown" href="#">Signup <b class="caret"></b></a>
-  					<ul class="dropdown-menu accountSettings" style="margin-left:-5px;padding:10px;" role="menu" aria-labelledby="dLabel">
-						<input type="text" placeholder="Email"/><br />
-						<input type="password" placeholder="Password"/><br />
-						<input type="text" placeholder="City"/><br />
-						<input type="text" placeholder="College"/><br />
-						<b class="btn btn-success"> Signup</b>
+  					<ul class="dropdown-menu accountSettings" style="margin-left: -166px;padding:10px;" role="menu" aria-labelledby="dLabel">
+  						<form onsubmit="return false;">
+  							<input name="first_name" type="text" placeholder="First Name"/><br />
+  							<input name="last_name" type="text" placeholder="Last Name"/><br />
+							<input name="email" type="text" placeholder="Email"/><br />
+							<input name="password1" type="password" placeholder="Password"/><br />
+							<input name="password2" type="password" placeholder="Confirm Password"/><br />
+							<input name="city" type="text" placeholder="City"/><br />
+							<input name="institution_name" type="text" placeholder="College"/><br />
+							<button class="btn btn-success" onclick="signup()" style="height: 30px;">Submit</button>
+							<span id="error_signup"></span>
+						</form>
   					</ul>
 				</span>
- -->			</div>
+			</div>
 		</div>
 		<!-- share thingy -->
 		<div id="shareModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -72,13 +82,41 @@
 			</div>
 		<div class="footer">
 			<span class="social"> 
-				<a href="http://www.facebook.com/EngineerNITK" target="_blank"><img src="static/images/facebook-icon.png"  /></a>
-				<a href="http://twitter.com/EngineerNITK" target="_blank"><img src="static/images/twitter-icon.png" /></a>
-				<a href="http://www.youtube.com/user/engineernitk" target="_blank"><img src="static/images/youtube-icon.png" /></a>
-				<a href="http://www.engineerpress.blogspot.in" target="_blank"><img src="static/images/blogger-icon.png" /></a>
-				<a href="http://in.linkedin.com/in/engineernitk" target="_blank"><img src="static/images/linkedin-icon.png" /></a>
+				<a href="http://www.facebook.com/EngineerNITK" target="_blank"><img src='static/images/facebook-icon.png' /></a>
+				<a href="http://twitter.com/EngineerNITK" target="_blank"><img src='static/images/twitter-icon.png'/></a>
+				<a href="http://www.youtube.com/user/engineernitk" target="_blank"><img src='static/images/youtube-icon.png'/></a>
+				<a href="http://www.engineerpress.blogspot.in" target="_blank"><img src='static/images/blogger-icon.png'/></a>
+				<a href="http://in.linkedin.com/in/engineernitk" target="_blank"><img src='static/images/linkedin-icon.png'/></a>
 			</span>
 			<center>&copy; Engineer 2013 Technical team</center>
 		</div>
+		<script>
+		var loggedin_flag= 0;
+		var user = 0
+		person = function(){
+			this.fname= "";
+			this.lname= "";
+			this.email = "";
+		}
+		<?
+			if(isLogin()){
+		?>
+			user = {'fname': "<? echo $_SESSION['first_name']; ?>", "lname": "<? echo $_SESSION['last_name']; ?>" , "email": "<? echo $_SESSION['email'];?>"}
+			get_profile(user)
+			user = new person();
+			person.fname= "<? echo $_SESSION['first_name']; ?>";
+			person.lname= "<? echo $_SESSION['last_name']; ?>";
+			person.email = "<? echo $_SESSION['email'];?>";
+			$('#Login').hide();
+			$('#Signup').hide();
+		<?} else {?>
+			$('#loggedIn').hide();
+		<?}?>
+		</script>
+		<script>
+			$( document ).ready(function() {
+  				// Handler for .ready() called.
+			});
+		</script>
 	</body>
 </html>
