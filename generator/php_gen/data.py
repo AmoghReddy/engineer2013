@@ -654,7 +654,39 @@ to the challenge posed. The stakes are Higher!!</p>\
 
 "The_Portal":{"image": "/Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
 <br />\
-So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />"},
+So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />The event will be conducted in two rounds.<br />",
+"Round 1":"<b>Workshop</b><hr />\
+The workshop will be held in two sessions.\
+<p><b>Session 1</b>: Theory -An introductory session to give an insight of ChemCAD <br />\
+This will comprise of a detailed explanation of various aspects of the software and its applications in real time situations like analysis of distillation tower in petroleum industry, reactor design, simulation of process flow sheets,etc.; which will be concluded by solving a few sample problems.</p>\
+<p><b>Session 2</b>: A hands-on session</br />\
+You will be given an opportunity to work on the software with a set of problems and get a feel of the software. Experts, well versed with the software will assist you, clear your doubts and pay individual attention.</p>",
+"Round 2":"<p><b>Event</b><hr />A series of problem statements will have to be solved using ChemCAD in a stipulated amount of time. The questions will be based on the knowledge acquired in round 1. The criteria for judgment will depend on several factors which will be announced on the spot. In case of any discrepancies, the decision of the organizers shall be considered final.</p>",
+"FAQ":"<p>What pre-requisites are required to attend the workshop?<br />\
+<b>Ans</b> : None. Basics of reactors and distillation column will be covered in the theory \
+session.</p>\
+<p>Should I get my laptop?<br />\
+<b>Ans</b> : Yes</p>\
+<p>What about the software and license of ChemCAD?<br />\
+<b>Ans</b>: We will provide you the software. NITK chemical engineering department has \
+licensed software and participants will be allowed to use the same.</p>\
+<p>ChemCAD requires license? How can it be useful if I don’t have one?<br />\
+<b>Ans</b>: ChemCAD is extensively used in industry as well as in research. Learning this software \
+will give you a glimpse of how simulation works and knowing a simulating tool before \
+graduation is always an added advantage.</p>\
+<p>I am a first year/ second year student. I have no knowledge of reactors or distillation \
+columns. Can I attend?<br />\
+<b>Ans</b> : See Answer for Q. 1</p>\
+<p>I am an out-station participant. What about my stay?<br />\
+<b>Ans</b>: Your stay at NITK will be managed by our student hospitality team.</p>\
+<p>Who will be conducting the workshop?<br />\
+<b>Ans</b>: Students from NITK well versed with the software will be conducting the same.</p>\
+<p>How do I register for the workshop?<br />\
+<b>Ans</b>: Preregister by sending a mail to sra.10ch36@nitk.edu.in.</p>\
+<p>I am not a chemical engineer. Can I attend?<br />\
+<b>Ans</b>: This workshop is not restricted to chemical engineers as simulation is major aspect \
+in design, research and process industries. See Q1.</p>"
+},
 
 "Contraption":{"image":"engineer.gif","contact":"Ramya<br/>sra.10ch36@nitk.edu.in\
  <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br />\
