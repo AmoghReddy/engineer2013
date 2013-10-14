@@ -591,7 +591,60 @@ TechSpeakEvent={
 
 Biz={
 "Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
-<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>"},
+<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>","Introduction":"The Intuit Case Study Challenge provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
+ 1st Round: Registration and submission of preliminary presentations <br/>\
+2nd Round: Mentoring session and Finals (25th October, 2013 and 26th October, 2013.<br/> \
+<b>The deadline for 1st round submission is 19th October,2013. </b><br/>\
+The entries have to be submitted in the form of a powerpoint presentation only, to bizevents@engineer.org.in .<br/> Participants have to register before submitting the entries.","Agenda":"• Who are we solving for:<br />\
+– The problem statements for the event are designed for the small business owners. <br />\
+– Small businesses typically have less than 50 employees and are not as organized in terms of managing their business. <br />\
+– Mostly they maintain all their sales, employee payments and inventory \
+manually. <br />\
+• Why are we solving for them:<br />\
+– Small business are unexplored domains<br />\
+– Mostly solutions available in market are for Medium to Big Businesses<br />\
+– Easy to access the owner of the business","Case 1":"• Problem Statement <br />\
+As a real estate agent, I want to manage all my clients which include rental and sales. e.g. <br />\
+notify when an agreement is getting over, manage new sales and customers. Solve for me. <br />\
+• Expected outcome<br />\
+– Execution <br />\
+&nbsp;&nbsp;• Deliverables include working prototype to include solutions for both rental and sales customer.<br />\
+&nbsp;&nbsp;• Provide team’s roles and responsibilities<br />\
+– Customer validation<br />\
+&nbsp;&nbsp;• Interaction with intended customer <br />\
+&nbsp;&nbsp;• Insights from customer feedback<br />\
+– Business Model <br />\
+&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution <br />\
+&nbsp;&nbsp;• What is ROI of this model?<br />\
+","Case 2":"• Problem Statement<br />\
+As a mobile repair/recharge shop owner, to get insights on the type of sales I am making, I \
+need lot of manual effort. Solve for me to get business insights to grow my business based \
+on the payments made.<br />\
+• Expected outcome<br />\
+– Execution<br />\
+&nbsp;&nbsp;• Deliverables include working prototype to have sales information in various channels<br />\
+&nbsp;&nbsp;• Provide team’s roles and responsibilities<br />\
+– Customer validation<br />\
+&nbsp;&nbsp;• Interaction with intended customer<br />\
+&nbsp;&nbsp;• Insights from customer feedback<br />\
+– Business Model <br />\
+&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br />\
+&nbsp;&nbsp;• What is ROI of this model?<br />\
+<br />","Case 3":"• Problem Statement<br />\
+I am unable to manage my customers because of unpredictable frequency. On holidays \
+there will be rush and lot of customers go away, whereas on regular working days my \
+employees don't have much work. Solve for me. <br />\
+• Expected outcome<br />\
+– Execution<br />\
+&nbsp;&nbsp;• Deliverables include working prototype to include customer scheduling and employee payment tracking.<br />\
+&nbsp;&nbsp;• Provide team’s roles and responsibilities<br />\
+– Customer validation<br />\
+&nbsp;&nbsp;• Interaction with intended customer<br />\
+&nbsp;&nbsp;• Insights from customer feedback<br />\
+– Business Model <br />\
+&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br />\
+&nbsp;&nbsp;• What is ROI of this model?<br />\
+<br />"},
 
 "Product_Design_Challenge":{"image": "/Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
@@ -702,10 +755,10 @@ Tronix={
 "TrailBlazer":{"image": "/Icons_Final/trailblazer.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 A simple event based on line follower robotics.<br/>\
-You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
+You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>",
 "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
-Bot dimensions should be well within 20cm*10cm<br />\
+Bot dimensions should be well within 20cm*18cm<br />\
 Bot wheels should not hamper the arena <br />\
 Bot should have a mechanism to show the traced path.",
 "OtherDetails":"<ul><li>A maximum of 4 members may be present in one team.</li>\
@@ -722,7 +775,11 @@ Bot should have a mechanism to show the traced path.",
 <li>The team will have a maximum of three attempts within given 10 mins.</li>\
 <li>In case no team is able to complete the path, the judges will decide upon the winner.</li>\
 <li>Judges' decision will be final and binding in all cases.</li>\
-","samplearena":"<img src=\"./data/trail.png\" />"},
+","samplearena":"<img src=\"./data/trail.png\" />","Arena":"• The arena comprises of black path on a white background.<br />\
+• All turnings are 90 degree. <br />\
+• A black circle of radius 7.5 cm, indicated the end of the path. <br />\
+• Black line has a uniform thickness of 3cm.<br />\
+• Dimensions: The arena will be of dimensions no more than 210cm X 190 cm"},
 
 "Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
@@ -1265,7 +1322,93 @@ A.&#160;No<br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "SCE along with business events committee will be evaluating 'green' innovation ideas based on their business feasibility and environmental impact.<br/>"}
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "<img src='data/GIC.jpg'/> <br/>A man may die, nations may rise and fall, but an idea lives on....<br />\
+<b>Socially Conscious Engineering along with Biz \
+Committee presents the 1ST edition of the GIC .<br/>\
+In the world we live in today, where many ideas \
+build itself on an environmental and social \
+foundation, for an idea to make it big, it’s not \
+enough for it to be just technically sound but also \
+practical. <br/>\
+This is an Innovation Challenge where budding \
+engineers have to use their technical skills to \
+showcase their innovation and also design a \
+business plan supporting their idea, so as to \
+show the viability of actual implementation of \
+their ideas, which make environmental or social \
+impact.<br /></b>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
+earth. This could either be a completely new technology that you have developed or an \
+improvement or modification of an existing technology that could cover 1 or more of the \
+following aspects :<br />\
+• Safe &amp; Reliable – Making new or modifying existing solutions to make \
+quality energy available and its usage at every household safe for man, machine &amp; \
+environment.<br />\
+• Efficient – Innovative solution for EFFICIENT energy usage with reduction in \
+capital and operational expenditures.<br />\
+• Productive &amp; Green – Innovative solutions with good deployment speed and \
+scalability, focused at reduced carbon footprint and ease of installation.<br />\
+• The solution could be in the form of product development or an idea presentation. <br/>\
+The idea presented can be from any field of engineering, but ensuring that it makes a \
+positive impact on the environment through direct use or indirectly.<br/>\
+P.S : Since this is an innovation challenge, feel free to explore beyond the \
+above criteria . Do go ahead and add any new avenues that you may have in \
+mind or see your idea making a positive impact on.<br /><br/>\
+Submitted entries will be evaluated by a panel of experts giving equal weightage to:<br />\
+1) How green your idea is ( positive environmental impact )<br />\
+2) How viable a business option it can be if implemented<br /><br/>\
+Things you could keep in mind :<br />\
+• Earth friendliness<br />\
+• Reality friendliness<br />\
+• Innovations brought in <br />\
+• Novelty of the idea<br />\
+• Effectiveness of the idea","Rules and guidelines":"Preliminary round: <br />\
+Candidates interested to participate should register at www.engineer.org.in. The participants \
+must mail an abstract of their idea (not exceeding two page) to <b>amr.10EE113@nitk.edu.in</b> with \
+subject as “SCE GIC abstract” on or before 19th<br />\
+i. Submit the abstract in PDF format.<br />\
+ii. PDFs should include:<br />\
+iii. Title of the application/ product<br />\
+iv. College Name<br />\
+v. Name and details of the Team members (max 4 members)<br />\
+   ( contact no. and email-id of the members )<br />\
+vi. Problem addressed<br />\
+vii. Abstract max 2 pages ( excluding the above )<br /><br/>\
+Selected teams will be informed through mail.<br />\
+Final round:<br />\
+i. The final round will involve the short-listed teams to give a presentation of their \
+idea before a jury panel covering all the aspects of their innovation.<br />\
+ii. The presentation wiil be for a duration of about 12 minutes which will be\
+followed by a Q&amp;A secession from the judges .<br />\
+iii. The teams could showcase any type of prototype made or simulations / \
+surveys conducted as a part of the presentation.<br />\
+Areas of evaluation for the finale will be shared with the selected teams 2 days prior to\
+the main event (scheduled tentatively on 24th\
+October, 2013.<br /><br/>\
+<b>Prizes worth 10k to be won.</b>","FAQS":"Q. What is the maximum size of a team? <br />\
+A. The team can comprise of a maximum of 4 members.<br /><br/>\
+Q. Can the participating team comprise of only 1 member?<br />\
+A. Yes<br /><br/>\
+Q. Can teams be formed by mixing students of different disciplines/departments?<br />\
+A. Yes<br /><br/>\
+Q. Can teams be formed by mixing undergraduate and post-graduate engineering students?<br />\
+A. No. This contest is only open for undergraduate engineering students.<br /><br/>\
+Q. Can one team submit more than one entry?<br />\
+A. Yes, one team can send more than one entry.<br /><br/>\
+Q. Whom do we contact in case of any queries?<br />\
+A. In case of any queries, send a mail amr.10EE113@nitk.edu.in or refer to the Contact Us List \
+which appears on every page.<br /><br/>\
+Q. Can entries be submitted in other languages?<br />\
+A. No, entries are to be submitted only in English<br /><br/>\
+Q. Should my presentation necessarily be a solution?<br />\
+A. No, Your presentation can be a product proposal, changes in an existing product, a concept with \
+a feasibility aspect, or a solution.<br /><br/>\
+Q. Would a prototype be required if I'm a short listed candidate?<br />\
+A. Not necessary, but bonus points will be awarded based on level of implementation of idea which \
+could be shown through a physical prototype or a recorded video.<br /><br/>\
+Q. How will I know whether my entry has been short-listed or not?<br />\
+A. We will inform you through mail<br /><br/>\
+The organisers retain the right to make any changes to the event, format, dates, rules and in any\
+matter related to this event at any time before or during the event."}
 }
 
 Mechanical={
