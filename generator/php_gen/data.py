@@ -209,7 +209,7 @@ o All members of the team should be enrolled as students in an educational insti
 o No person can be a part of more than one team."},
 
 "Mindbend": {
-	"image": "/Icons_Final/mindbend.png","contact": "CONTACT: B. THEJA <br/>\
+	"image": "/Icons_Final/mindbend.png","contact": "B. THEJA <br/>\
 +919480435585 <br/>\
 bnmtheja@gmail.com <br/>\
 Padmini M <br/>\
@@ -628,7 +628,29 @@ Engineer 2013, the expectations get bigger and the stakes higher! <br />\
 We will get back to you with further details. Stay updated. <br />\
 ", "Rounds": "First(Abstract for the event): A brief write up about the solution to the problem posed by 18th.<br/> Second : Selected groups will present their solutions in the form of a PPT in front of a panel from the industry on 25th .","Rules_and_Regulations": "<ul><li>A team can have a maximum of 4 people.</li><li>All members of the team are to be enrolled as students in an educational institute.</li>\
 <li>No person can be a part of more than 1 team.</li></ul><br/>There is no restriction on the number of people participating from a particular institute. <br/>\
-Cash prize of 30K for this event alone !!", "Problem Statement": "<a href='./data/IDP.pdf'>Download</a>" },
+Cash prize of 30K for this event alone !!", "Problem Statement": "\
+<p><blockquote>“A good scientist is a person with original ideas. A good engineer is a \
+person who makes a design that works with as few original ideas as \
+possible. There are no prima donnas in engineering.” -Freeman Dyson</blockquote></p><br />\
+<p>After memorable stint with MRPL last year, we are back this year with the \
+Industry defined problem. We are proud to have BASF as our sponsor for IDP’13. \
+With more than 110,000 employees, six Verbund sites, approximately 380 \
+additional production sites and headquartered in Ludwigshafen, Germany, BASF \
+is largest chemical company in the World. BASF Mangalore is largest production \
+site in South Asia and is involved in the production of performance chemicals \
+(leather and textile chemicals), dispersions and paper chemicals, automotive and \
+coil coatings and construction chemicals. </p><br />\
+<p>Butadiene is an unsaturated hydrocarbon which is produced by cracking naphtha. \
+Butadiene is mainly used in the tyre, paper and plastics industry. Important \
+characteristics of Butadiene are: highly flammable, toxic, colorless, aromatic \
+smell.</p>\
+<p>BASF uses 20, 20 ton tankers per month. Each of them is at 3.5 bar pressure \
+before unloading, after which they reach 1 bar. The main aim is maximum \
+recovery so your task is to find out the percentage recovery in each tanker, \
+measures to recover and changes to be made to enhance recovery.<br />\
+Come take part in this Year’s Edition of IDP, with innovative and creative solutions \
+to the challenge posed. The stakes are Higher!!</p>\
+<a href='./data/IDP.pdf'>Download</a>" },
 
 "The_Portal":{"image": "/Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
 <br />\
