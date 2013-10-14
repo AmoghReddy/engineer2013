@@ -656,7 +656,7 @@ to the challenge posed. The stakes are Higher!!</p>\
 <br />\
 So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />The event will be conducted in two rounds.<br />",
 "Round 1":"<b>Workshop</b><hr />\
-The workshop will be held in two sessions.\
+The workshop will be held in two sessions.<br />\
 <p><b>Session 1</b>: Theory -An introductory session to give an insight of ChemCAD <br />\
 This will comprise of a detailed explanation of various aspects of the software and its applications in real time situations like analysis of distillation tower in petroleum industry, reactor design, simulation of process flow sheets,etc.; which will be concluded by solving a few sample problems.</p>\
 <p><b>Session 2</b>: A hands-on session</br />\
