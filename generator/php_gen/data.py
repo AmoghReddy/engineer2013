@@ -1510,7 +1510,7 @@ Proper activation and deactivation of robots is critical. Robots must only be ac
 All weapons must have a safety cover on any sharp edges.<br/>\
 All participants build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved.<br/>\
 Please take care to not hurt yourself or others when building, testing and competing.<br/>\
-","download": "<a href='data/GENERALRULES.pdf'>Download</a>"},
+","download": "<a href='data/robowars.docx'>Download</a>"},
 
 
 "PerfectMachine":{"image":"/Icons_Final/PerfectMachine.png",
@@ -1566,7 +1566,7 @@ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not a
 ","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
 ","download":"\
 <iframe width='420' height='315' src='//www.youtube.com/embed/m7qXfG3_2O8' frameborder='0' allowfullscreen></iframe><br /><br />\
-<a href='data/perfectmachineprob.pdf'>Download</a>"},
+<a href='data/perfectMachine.docx'>Download</a>"},
 
 "wrightflight":{"image":"/Icons_Final/WrightFlight.png",
 "contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661",

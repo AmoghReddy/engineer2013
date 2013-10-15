@@ -120,7 +120,7 @@ def commitee_sidebar(i):
 			if (c == "_"):
 				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"
 			else:
-				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c+"</h1></span><br />"
+				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c.upper()+"</h1></span><br />"
 		print "</span>"
 
 def commitee_page(i):
