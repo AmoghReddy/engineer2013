@@ -651,7 +651,7 @@ A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot that will seamlessly move on the morse code and decode them.<br/> Participate in this innovative event and hone your robotic skills.<br/>",
 "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
-Bot dimensions should be well within 20cm*10cm<br />\
+Bot dimensions should be well within 20cm*18cm<br />\
 Bot wheels should not hamper the arena <br />\
 Bot should have a mechanism to show the traced path.",
 "OtherDetails":"<ul><li>A maximum of 4 members may be present in one team.</li>\
@@ -670,7 +670,7 @@ Bot should have a mechanism to show the traced path.",
 <li>Judges' decision will be final and binding in all cases.</li>\
 ","samplearena":"<img src=\"./data/trail.png\" />"},
 
-"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<a href='./data/Automata_arena.pdf'>Download</a>" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement</b><br/>\
