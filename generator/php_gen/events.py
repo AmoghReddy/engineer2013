@@ -32,23 +32,15 @@ def event_sidebar(event,i):
 			if False:
 				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><h3>"+"Register"+"</h3></span>"
 			else:
-				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='register_single_event("+newHash[event]['id']+")'><h3>"+"Register"+"</h3></span>"
-	# print "<span id='blockGen"+get_num()+"' style='width:250px;'>"+"<h1>"+event.replace('_',' ')+"</h1></span><br />"
-		# <span id='blockGen'+get_num()+ onclick='getPage("TEvent2")'><button class="button1" style="border-radius: 0%;width: 400px;height: 400px;margin-top: 90px;background-color:#B3B5B5"><h1 style="text-align:center;">MegaPixel</h1></div> </span>
-		# print "<span id='blockGen"+get_num()+"'><button src='"+events[i][event]['image']+"' width='250px'/></span><br />""
+				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='register_single_event("+newHash[event]['id']+")'><h3>"+"Register"+"</h3></span>"
 	#Tabs of content in side bar !!
 	tab_type=(events[i][event]).keys()
 	# print tab_type
 	for j in tab_type:
 		if (j != "image" and j != "contact"):
-			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
-		# print tab_type
-		# print event
-		# if event == "Proteus":
-		# print aiufibof
-			# print j
-			# print lqn;
-	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 15px;border-radius:20px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
+			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
+
+	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
 	print "</span>"
 	print "</td>"
 
@@ -129,14 +121,14 @@ def commitee_page(i):
 		print "<table>"
 		count=0
 		for event in events[i].iterkeys():
-			if count%3==0:
+			if count%4==0:
 				print "<tr>"
 			if (events[i][event]['image'] == 'engineer.gif'):
 				print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
 			else:
 				print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='static"+events[i][event]['image']+"'/></span></td>"
 				# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
-			if count%3==2:
+			if count%4==3:
 				print "</tr>"
 			count+=1
 		print "</table>"
