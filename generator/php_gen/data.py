@@ -764,7 +764,8 @@ Tronix={
 "TrailBlazer":{"image": "/Icons_Final/trailblazer.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 A simple event based on line follower robotics.<br/>\
-You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>",
+You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>\
+<b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
 "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
 Bot dimensions should be well within 20cm*18cm<br />\
@@ -790,7 +791,7 @@ Bot should have a mechanism to show the traced path.",
 • Black line has a uniform thickness of 3cm.<br />\
 • Dimensions: The arena will be of dimensions no more than 210cm X 190 cm"},
 
-"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<img src='./data/automata.png' />" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement</b><br/>\
@@ -807,17 +808,7 @@ The only input to you will be the stream from the overhead camera feed.<br/>\
 The robot can move ahead only on the paths connecting the nodes.<br/>\
 ONLY DC MOTORS are allowed. Steppers and wheel encoders will lead to disqualification of the team.<br/>\
 There will be a maximum of 15 minutes for each team in which they can have as many trials as required. Teams will also be given 10 minutes for calibration.<br/>\
-All teams must submit their bots, codes, or laptops at the start of the competition.<br/>\
-<b>Scoring Criteria</b>\
-The best time is taken in consideration.<br/> \
-Any deviation from path will lead to restart of trial.<br/> \
-In case of no one completing the traversal of arena, the team who has gone the farthest will win.<br/> \
-The scoring is time-based and the team which finishes first wins.<br/> \
-Illegal robot movements will result in a restart of the trial (Example: Deviation from the paths).<br/> \
-The trial starts when the robot starts moving from the initial position as mentioned in the figure.<br/> \
-The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
-The team will be penalized every time the robot deviates from the path.<br/>\
-<b>Robot Details</b><br/>\
+All teams must submit their bots, codes, or laptops at the start of the competition.<br/><b>Robot Details</b><br/>\
 The robot should be completely autonomous.<br/> \
 The robot should fit into a box of dimensions 20x18 (length x width).<br/>\
 The robot is required to have an onboard power source not based on combustion.<br/> \
@@ -836,13 +827,23 @@ The teams will have to use the camera provided by us. <br/>\
 <b>General Information</b><br/>\
 A maximum of 4 members per team is allowed. We do not provide computers to the participating teams. It is expected that you arrange for your own.<br/>\
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
-","download":"<a href=\"data/Automata.docx\">Download</a>"},
+<b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
+"Scoring Criteria": "The best time is taken in consideration.<br/> \
+Any deviation from path will lead to restart of trial.<br/> \
+In case of no one completing the traversal of arena, the team who has gone the farthest will win.<br/> \
+The scoring is time-based and the team which finishes first wins.<br/> \
+Illegal robot movements will result in a restart of the trial (Example: Deviation from the paths).<br/> \
+The trial starts when the robot starts moving from the initial position as mentioned in the figure.<br/> \
+The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
+The team will be penalized every time the robot deviates from the path.<br/>"
+,"download":"<a href=\"data/Automata.docx\">Download</a>"},
 
 "Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
-If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
-The dates for test run and the main event will be announced shortly<br/>\
-<b>EVENT FORMAT</b><br/>\
-This is an online event<br/>\
+If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.<br/>\
+<b>Trial Run:</b> 18th October<br/>\
+<b>Event:</b> 19th October<br/> ",
+"EVENT FORMAT AND RULES": "This is an online team event<br/>\
+Each team consists of 3 members<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
 The event will be of 8 hour duration.<br/>\
 The solutions to the each question has to be uploaded for evaluation\
@@ -852,9 +853,8 @@ Codes have to be submitted in the form of MATLAB .m files with specific format.<
 The format will be specified along with each question.<br/>\
 Participants may upload answer to problems any number of times.<br/>\
 Uploading codes intended to harm the server, will earn disqualification.<br/>\
-The submitted source code will be checked if it is copied. Any copying of code would lead to immediate disqualification of both the codes in doubt.<br/>\
-<b>SCORING CRITERIA</b><br/>\
-The evaluation of the codes is done automatically by a MATLAB server.<br/>\
+The submitted source code will be checked if it is copied. Any copying of code would lead to immediate disqualification of both the codes in doubt.<br/>",
+"SCORING CRITERIA": "The evaluation of the codes is done automatically by a MATLAB server.<br/>\
 Points are allotted based on the performance of the solution to different test cases.<br/>\
 The participants may submit the codes as many times before the final deadline. The codes last submitted will be judged.<br/>\
 In case of a tie, the total login time will be considered.<br/>\
@@ -948,15 +948,15 @@ At any point of time during the event, the judges can change the rules to mainta
 
 "Waltz":{"image": "/Icons_Final/Waltz.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com",
 "Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
-switching walls at the check-lines indicated in the arena diagram",
+switching walls at the check-lines indicated in the arena diagram<br/><b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
 "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
 has to negotiate only ‘L’ shaped 90 degree turns. <br/>\
 There are two paths that the participant can choose to solve the maze <br/>\
 1. Original path <br/>\
 2. Shortcut path <br/>\
 The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br/>\
-The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.",
-
+The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.\
+",
 "Arena": "1. The arena comprises of 15cm high walls in the form of a small maze. The wall will be in\
 white color. <br/>\
 2. The track may contain the following elements <br/>\
@@ -984,7 +984,7 @@ Blue Arrow- Exit for Original path",
 the run, it will be placed just after the previous check-line it has successfully negotiated. However, \
 for bots intending to use the shortcut path, the bot will be defaulted to location just after the 2ndcheck-line</li>\
 <li>It is advisable to a use a lower RPM motors to negotiate turns easily</li>\
-<li>Ready-made sensor modules are ALLOWED.However, use of readymade chassis or steppers/SERVO motors are not ALLOWED</li>\
+<li>Ready-made sensor modules are ALLOWED.However, use of steppers/SERVO motors are not ALLOWED</li>\
 <li>Use of any mechanism which defiles or threatens to defile the arena will not be tolerated and the \
 pertaining teamwill be disqualified.</li>\
 <li>The judges have the final say regarding the disqualification or evaluation of the participating team.</li></ul>",
