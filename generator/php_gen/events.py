@@ -5,7 +5,9 @@ from  data import *
 num=0
 description = 0
 eve_id=1
-
+#not single participation
+single_event_committees=["Blue_Print","Mockstock","Tech_Speak"]
+no_registrations=["Sky_Lanterns","Tech_Speak","Blue_Print","Psychedelic_Room","Blitzkrieg","Megapixel","Dance_Dance_Revolution","Arcade_Room","Mockstock","Case_Study_challenge"]
 def get_num():
 	global num
 	num+=1
@@ -25,7 +27,7 @@ def event_sidebar(event,i):
 	else:
 		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src=\"static"+events[i][event]['image']+"\" width='250px'/></span><br />"
 		# print events[i]
-	if event != "Tech_Speak" and events[i] != "Workshops" and event != "Blue_Print" and event != "Psychedelic_Room" and event != "Blitzkrieg" and event != "Megapixel" and event != "Dance_Dance_Revolution" and event != "Arcade_Room":
+	if events[i] != "Workshops" and event not in no_registrations:
 			#if int(newHash[event]["team_members"]) > 1:
 			if False:
 				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><h3>"+"Register"+"</h3></span>"
@@ -82,7 +84,7 @@ def event_description(event,i):
 			print '</span>'
 			print '</span>'
 
-	if event != "Tech_Speak" and events[i] != "Workshops" and event != "Blue_Print" and event != "Psychedelic_Room" and event != "Blitzkrieg" and event != "Megapixel" and event != "Dance_Dance_Revolution" and event != "Arcade_Room":
+	if events[i] != "Workshops" and event not in no_registrations:
 			print '<span id = "tabs'+newHash[event]["id"]+"_"+'register">'
 			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"
 			#if (int(newHash[event]["team_members"])) > 1:
@@ -111,7 +113,7 @@ def event_description(event,i):
 	print "</table>"
 
 def commitee_sidebar(i):
-	if i !=  "Blue_Print":
+	if i not in  single_event_committees:
 		print "<span id='side"+i+"'>"
 		print "<br /><br /><br />"
 		for c in i:
@@ -122,7 +124,7 @@ def commitee_sidebar(i):
 		print "</span>"
 
 def commitee_page(i):
-	if i !=  "Blue_Print":
+	if i not in  single_event_committees:
 		print "<span id='page"+i+"'>"
 		print "<table>"
 		count=0
@@ -144,7 +146,7 @@ def commitee_page(i):
 #Adding all committees 
 print '<span id = "allCommittees" >'
 for event in events.iterkeys():
-	if event != "Workshops" and event != "Technites" and event != "TechSpeak"and event != "":
+	if event != "Workshops" and event != "Technites" and event != "Tech_Speak" and event != "":
 		print '<span id = "comittee'+event+'" style="cursor:pointer;'+get_color()+'" onclick="getPage(\''+event+'\')">'
 		# print '<h1>'+event+'</h1>'
 		print '<img id="eve'+str(eve_id)+'" src="static'+comitteeLogos[event]+'"/>'
