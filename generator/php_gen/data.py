@@ -17,13 +17,22 @@ comitteeLogos={
 "Gaming":"/Icons_Final/gaming.png",
 "Civil": "/Icons_Final/civilmain.png",
 "General": "/Icons_Final/GeneralEvents.png",
-"Blue_Print":"/Icons_Final/BluePrint.png"
+"Blue_Print":"/Icons_Final/BluePrint.png",
+"Mockstock":"/Icons_Final/mockstock.png"
 }
 
 
 #each comittee
 General = {
-	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Last date for registration 13th<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+}
+Mock_Stock={
+"Mockstock":{"image":"/Icons_Final/mockstock.png","contact":"Shashank Ajmera<br />08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://www.mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
+<p>The event starts on 21st of October, and goes on till 25th of October. (The main event has been postponed due to technical difficulties).However, the trial versions will be put up soon (before 21st) for the users to get used to the environment.</p>\
+<p>The event will start on evenings, at 7:00 pm, and go on till 1:00 am, exactly like the American market, for all four days. </p>\
+<p>The trading will be inter-day, i.e., whatever your portfolio is at the end of the day, the same will be carried on to the next day. Hence, the final winner will be the one who makes the maximum cumulative profit after four days. </p>\
+<b>Prizes:</b><br />\
+<p>Winner gets an amount of Rs. 5000/-</p>"}
 }
 
 BluePrint = {
@@ -590,8 +599,8 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
-<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>","Introduction":"The Intuit Case Study Challenge provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
+"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
+<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
  1st Round: Registration and submission of preliminary presentations <br/>\
 2nd Round: Mentoring session and Finals (25th October, 2013 and 26th October, 2013.<br/> \
 <b>The deadline for 1st round submission is 19th October,2013. </b><br/>\
@@ -755,7 +764,8 @@ Tronix={
 "TrailBlazer":{"image": "/Icons_Final/trailblazer.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 A simple event based on line follower robotics.<br/>\
-You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>",
+You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>\
+<b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
 "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
 "botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
 Bot dimensions should be well within 20cm*18cm<br />\
@@ -781,7 +791,7 @@ Bot should have a mechanism to show the traced path.",
 • Black line has a uniform thickness of 3cm.<br />\
 • Dimensions: The arena will be of dimensions no more than 210cm X 190 cm"},
 
-"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<img src='./data/automata.png' />" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement</b><br/>\
@@ -798,17 +808,7 @@ The only input to you will be the stream from the overhead camera feed.<br/>\
 The robot can move ahead only on the paths connecting the nodes.<br/>\
 ONLY DC MOTORS are allowed. Steppers and wheel encoders will lead to disqualification of the team.<br/>\
 There will be a maximum of 15 minutes for each team in which they can have as many trials as required. Teams will also be given 10 minutes for calibration.<br/>\
-All teams must submit their bots, codes, or laptops at the start of the competition.<br/>\
-<b>Scoring Criteria</b>\
-The best time is taken in consideration.<br/> \
-Any deviation from path will lead to restart of trial.<br/> \
-In case of no one completing the traversal of arena, the team who has gone the farthest will win.<br/> \
-The scoring is time-based and the team which finishes first wins.<br/> \
-Illegal robot movements will result in a restart of the trial (Example: Deviation from the paths).<br/> \
-The trial starts when the robot starts moving from the initial position as mentioned in the figure.<br/> \
-The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
-The team will be penalized every time the robot deviates from the path.<br/>\
-<b>Robot Details</b><br/>\
+All teams must submit their bots, codes, or laptops at the start of the competition.<br/><b>Robot Details</b><br/>\
 The robot should be completely autonomous.<br/> \
 The robot should fit into a box of dimensions 20x18 (length x width).<br/>\
 The robot is required to have an onboard power source not based on combustion.<br/> \
@@ -827,13 +827,23 @@ The teams will have to use the camera provided by us. <br/>\
 <b>General Information</b><br/>\
 A maximum of 4 members per team is allowed. We do not provide computers to the participating teams. It is expected that you arrange for your own.<br/>\
 The robot will initially be placed in a node of our choice. The starting node may be different for different teams.<br/>\
-","download":"<a href=\"data/Automata.docx\">Download</a>"},
+<b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
+"Scoring Criteria": "The best time is taken in consideration.<br/> \
+Any deviation from path will lead to restart of trial.<br/> \
+In case of no one completing the traversal of arena, the team who has gone the farthest will win.<br/> \
+The scoring is time-based and the team which finishes first wins.<br/> \
+Illegal robot movements will result in a restart of the trial (Example: Deviation from the paths).<br/> \
+The trial starts when the robot starts moving from the initial position as mentioned in the figure.<br/> \
+The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
+The team will be penalized every time the robot deviates from the path.<br/>"
+,"download":"<a href=\"data/Automata.docx\">Download</a>"},
 
 "Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
-If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.\
-The dates for test run and the main event will be announced shortly<br/>\
-<b>EVENT FORMAT</b><br/>\
-This is an online event<br/>\
+If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.<br/>\
+<b>Trial Run:</b> 18th October<br/>\
+<b>Event:</b> 19th October<br/> ",
+"EVENT FORMAT AND RULES": "This is an online team event<br/>\
+Each team consists of 3 members<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
 The event will be of 8 hour duration.<br/>\
 The solutions to the each question has to be uploaded for evaluation\
@@ -843,9 +853,8 @@ Codes have to be submitted in the form of MATLAB .m files with specific format.<
 The format will be specified along with each question.<br/>\
 Participants may upload answer to problems any number of times.<br/>\
 Uploading codes intended to harm the server, will earn disqualification.<br/>\
-The submitted source code will be checked if it is copied. Any copying of code would lead to immediate disqualification of both the codes in doubt.<br/>\
-<b>SCORING CRITERIA</b><br/>\
-The evaluation of the codes is done automatically by a MATLAB server.<br/>\
+The submitted source code will be checked if it is copied. Any copying of code would lead to immediate disqualification of both the codes in doubt.<br/>",
+"SCORING CRITERIA": "The evaluation of the codes is done automatically by a MATLAB server.<br/>\
 Points are allotted based on the performance of the solution to different test cases.<br/>\
 The participants may submit the codes as many times before the final deadline. The codes last submitted will be judged.<br/>\
 In case of a tie, the total login time will be considered.<br/>\
@@ -939,15 +948,15 @@ At any point of time during the event, the judges can change the rules to mainta
 
 "Waltz":{"image": "/Icons_Final/Waltz.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com",
 "Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
-switching walls at the check-lines indicated in the arena diagram",
+switching walls at the check-lines indicated in the arena diagram<br/><b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
 "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
 has to negotiate only ‘L’ shaped 90 degree turns. <br/>\
 There are two paths that the participant can choose to solve the maze <br/>\
 1. Original path <br/>\
 2. Shortcut path <br/>\
 The original path involves only wall switching at check-lines (except for the 3rdcheck-line which needs to be ignored) and a single type of ‘L’ shaped corners. <br/>\
-The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.",
-
+The shortcut path is similar to the original path, but involves negotiation of a left-turn at the 3rd check-line to follow the wall including the familiar ‘L’ shaped 90 degree turn.\
+",
 "Arena": "1. The arena comprises of 15cm high walls in the form of a small maze. The wall will be in\
 white color. <br/>\
 2. The track may contain the following elements <br/>\
@@ -975,7 +984,7 @@ Blue Arrow- Exit for Original path",
 the run, it will be placed just after the previous check-line it has successfully negotiated. However, \
 for bots intending to use the shortcut path, the bot will be defaulted to location just after the 2ndcheck-line</li>\
 <li>It is advisable to a use a lower RPM motors to negotiate turns easily</li>\
-<li>Ready-made sensor modules are ALLOWED.However, use of readymade chassis or steppers/SERVO motors are not ALLOWED</li>\
+<li>Ready-made sensor modules are ALLOWED.However, use of steppers/SERVO motors are not ALLOWED</li>\
 <li>Use of any mechanism which defiles or threatens to defile the arena will not be tolerated and the \
 pertaining teamwill be disqualified.</li>\
 <li>The judges have the final say regarding the disqualification or evaluation of the participating team.</li></ul>",
@@ -1284,7 +1293,7 @@ Total budget, including costs of raw materials and labour<br />\
 Detailed design, with justification<br />\
 Any other innovative ideas to improve functionality or add new features<br />\
 ","Rules":"<b>Preliminary round: </b><br />\
-Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to khv.10m148@nitk.edu.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
+Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
 Submit the abstract in PDF format.<br />\
 PDFs should include:<br />\
 Title <br />\
@@ -1322,8 +1331,8 @@ A.&#160;No<br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "<img src='data/GIC.jpg'/> <br/>A man may die, nations may rise and fall, but an idea lives on....<br />\
-<b>Socially Conscious Engineering along with Biz \
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+<p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \
 build itself on an environmental and social \
@@ -1336,7 +1345,7 @@ showcase their innovation and also design a \
 business plan supporting their idea, so as to \
 show the viability of actual implementation of \
 their ideas, which make environmental or social \
-impact.<br /></b>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
+impact.<br /></p>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
 earth. This could either be a completely new technology that you have developed or an \
 improvement or modification of an existing technology that could cover 1 or more of the \
 following aspects :<br />\
@@ -1363,7 +1372,7 @@ Things you could keep in mind :<br />\
 • Novelty of the idea<br />\
 • Effectiveness of the idea","Rules and guidelines":"Preliminary round: <br />\
 Candidates interested to participate should register at www.engineer.org.in. The participants \
-must mail an abstract of their idea (not exceeding two page) to <b>amr.10EE113@nitk.edu.in</b> with \
+must mail an abstract of their idea (not exceeding two page) to <b>sce@engineer.org.in</b> with \
 subject as “SCE GIC abstract” on or before 19th<br />\
 i. Submit the abstract in PDF format.<br />\
 ii. PDFs should include:<br />\
@@ -1395,7 +1404,7 @@ A. No. This contest is only open for undergraduate engineering students.<br /><b
 Q. Can one team submit more than one entry?<br />\
 A. Yes, one team can send more than one entry.<br /><br/>\
 Q. Whom do we contact in case of any queries?<br />\
-A. In case of any queries, send a mail amr.10EE113@nitk.edu.in or refer to the Contact Us List \
+A. In case of any queries, send a mail sce@engineer.org.in or refer to the Contact Us List \
 which appears on every page.<br /><br/>\
 Q. Can entries be submitted in other languages?<br />\
 A. No, entries are to be submitted only in English<br /><br/>\
@@ -1438,7 +1447,7 @@ In case a robot falls off the arena or toppled during the match, it can be resto
 The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br/>\
 The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br/>\
 In case of immobility of any of the bots, both the bots will start again from their start points. <br/>\
-Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000",
+Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000<br /><b>Schedule</b><br /> Day 2 (25) Sports complex",
 "judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br/>\
 In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br/>\
 No points will be awarded for immobilizing the opponent bot.<br/>\
@@ -1501,7 +1510,7 @@ Proper activation and deactivation of robots is critical. Robots must only be ac
 All weapons must have a safety cover on any sharp edges.<br/>\
 All participants build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved.<br/>\
 Please take care to not hurt yourself or others when building, testing and competing.<br/>\
-","download": "<a href='data/GENERALRULES.pdf'>Download</a>"},
+","download": "<a href='data/robowars.docx'>Download</a>"},
 
 
 "PerfectMachine":{"image":"/Icons_Final/PerfectMachine.png",
@@ -1512,7 +1521,7 @@ A team may comprise a maximum of FIVE participants.<br/>\
 Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br/>\
 The team is not permitted to compete with more than one bot.<br/>\
 Teams will not be allowed to modify their bots during their trial.<br/>\
-Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
+Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 1 (24) Sports complex","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
 Fig 1 portrays the arena <br/>\
 Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br/>\
 In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br/>\
@@ -1557,14 +1566,14 @@ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not a
 ","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
 ","download":"\
 <iframe width='420' height='315' src='//www.youtube.com/embed/m7qXfG3_2O8' frameborder='0' allowfullscreen></iframe><br /><br />\
-<a href='data/perfectmachineprob.pdf'>Download</a>"},
+<a href='data/perfectMachine.docx'>Download</a>"},
 
 "wrightflight":{"image":"/Icons_Final/WrightFlight.png",
 "contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661",
-"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000",
+"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000<br /><b>Schedule</b><br /> Day 0 (23) Ap Mech dept",
 "eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>\
 &bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
-organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
+organizing committee won&rsquo;t be providing any.<br/><a href='data/wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
 Maximum weight of the glider should be less than 1kg.<br/> \
 Any material may be used for fabrication of glider.<br/> \
 Use of IC-engines in any form is not permitted. <br/> \
@@ -1585,7 +1594,7 @@ produced at the time of registration.<br/>\
 • Maximum number of participants per team is four.<br/>\
 • Readymade kits are not allowed.<br/>\
 • Each team is allowed to participate with not more than one bot.<br/>\
-• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000","Event Rules":"• There shall be one qualifying round.<br/>\
+• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 0 (23) Wave mechanics lab","Event Rules":"• There shall be one qualifying round.<br/>\
 • The qualifying round is to test the test the maneuverability and the water shooting \
 capacity of the bot.<br/>\
 • The top 8 will qualify for the final round.<br/>\
@@ -1622,7 +1631,7 @@ FIRST ROUND EVALUATION:<br/>\
 S1 = 2 * R * ( 1 / t1 )<br/>\
 Based on S1, top eight teams are qualified for the next round and awarded points from 40 to 5 \
 (40, 35, 30 .. and so on). These points are carried forward for the final score.<br/>\
-Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><a href='proteus.pdf'>Download</a></p>"},
+Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><a href='data/proteus.pdf'>Download</a></p>"},
 
 
 "Velocity": {"image": "/Icons_Final/Velocity.png", 
@@ -1631,7 +1640,7 @@ Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 1
 "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 The team is not permitted to compete with more than one car.<br/>\
-Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000",
+Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000<br /><b>Schedule</b><br /> Day 3 (26) Main ground <br /> Reserve day: Day 4 (27)",
  "Event Format": "The event will have 6 rounds:\
 <br/>\
 <b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
@@ -1764,7 +1773,8 @@ events={
 "Gaming":Gaming,
 "Workshops": Workshops,
 "General": General,
-"Blue_Print":BluePrint
+"Blue_Print":BluePrint,
+"Mockstock":Mock_Stock
 }
 
 newHash={
