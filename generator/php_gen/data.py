@@ -1284,7 +1284,7 @@ Total budget, including costs of raw materials and labour<br />\
 Detailed design, with justification<br />\
 Any other innovative ideas to improve functionality or add new features<br />\
 ","Rules":"<b>Preliminary round: </b><br />\
-Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to khv.10m148@nitk.edu.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
+Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
 Submit the abstract in PDF format.<br />\
 PDFs should include:<br />\
 Title <br />\
@@ -1322,8 +1322,8 @@ A.&#160;No<br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "<img src='data/GIC.jpg'/> <br/>A man may die, nations may rise and fall, but an idea lives on....<br />\
-<b>Socially Conscious Engineering along with Biz \
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+<p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \
 build itself on an environmental and social \
@@ -1336,7 +1336,7 @@ showcase their innovation and also design a \
 business plan supporting their idea, so as to \
 show the viability of actual implementation of \
 their ideas, which make environmental or social \
-impact.<br /></b>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
+impact.<br /></p>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
 earth. This could either be a completely new technology that you have developed or an \
 improvement or modification of an existing technology that could cover 1 or more of the \
 following aspects :<br />\
@@ -1363,7 +1363,7 @@ Things you could keep in mind :<br />\
 • Novelty of the idea<br />\
 • Effectiveness of the idea","Rules and guidelines":"Preliminary round: <br />\
 Candidates interested to participate should register at www.engineer.org.in. The participants \
-must mail an abstract of their idea (not exceeding two page) to <b>amr.10EE113@nitk.edu.in</b> with \
+must mail an abstract of their idea (not exceeding two page) to <b>sce@engineer.org.in</b> with \
 subject as “SCE GIC abstract” on or before 19th<br />\
 i. Submit the abstract in PDF format.<br />\
 ii. PDFs should include:<br />\
@@ -1395,7 +1395,7 @@ A. No. This contest is only open for undergraduate engineering students.<br /><b
 Q. Can one team submit more than one entry?<br />\
 A. Yes, one team can send more than one entry.<br /><br/>\
 Q. Whom do we contact in case of any queries?<br />\
-A. In case of any queries, send a mail amr.10EE113@nitk.edu.in or refer to the Contact Us List \
+A. In case of any queries, send a mail sce@engineer.org.in or refer to the Contact Us List \
 which appears on every page.<br /><br/>\
 Q. Can entries be submitted in other languages?<br />\
 A. No, entries are to be submitted only in English<br /><br/>\
@@ -1438,7 +1438,7 @@ In case a robot falls off the arena or toppled during the match, it can be resto
 The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br/>\
 The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br/>\
 In case of immobility of any of the bots, both the bots will start again from their start points. <br/>\
-Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000",
+Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000<br /><b>Schedule</b><br /> Day 2 (25) Sports complex",
 "judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br/>\
 In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br/>\
 No points will be awarded for immobilizing the opponent bot.<br/>\
@@ -1512,7 +1512,7 @@ A team may comprise a maximum of FIVE participants.<br/>\
 Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br/>\
 The team is not permitted to compete with more than one bot.<br/>\
 Teams will not be allowed to modify their bots during their trial.<br/>\
-Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
+Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 1 (24) Sports complex","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
 Fig 1 portrays the arena <br/>\
 Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br/>\
 In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br/>\
@@ -1561,7 +1561,7 @@ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not a
 
 "wrightflight":{"image":"/Icons_Final/WrightFlight.png",
 "contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661",
-"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000",
+"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000<br /><b>Schedule</b><br /> Day 0 (23) Ap Mech dept",
 "eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>\
 &bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
 organizing committee won&rsquo;t be providing any.<br/><a href='wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
@@ -1585,7 +1585,7 @@ produced at the time of registration.<br/>\
 • Maximum number of participants per team is four.<br/>\
 • Readymade kits are not allowed.<br/>\
 • Each team is allowed to participate with not more than one bot.<br/>\
-• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000","Event Rules":"• There shall be one qualifying round.<br/>\
+• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 0 (23) Wave mechanics lab","Event Rules":"• There shall be one qualifying round.<br/>\
 • The qualifying round is to test the test the maneuverability and the water shooting \
 capacity of the bot.<br/>\
 • The top 8 will qualify for the final round.<br/>\
@@ -1631,7 +1631,7 @@ Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 1
 "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 The team is not permitted to compete with more than one car.<br/>\
-Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000",
+Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000<br /><b>Schedule</b><br /> Day 3 (26) Main ground <br /> Reserve day: Day 4 (27)",
  "Event Format": "The event will have 6 rounds:\
 <br/>\
 <b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
