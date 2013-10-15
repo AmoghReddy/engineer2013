@@ -10,7 +10,6 @@
 <label>Filter events</label>
 <select name="event_filter">
 <option value="-2">All Users</option>
-<option value="-1">All Registrations</option>
 <?
 $connect=mysqli_connect("localhost","root","alse","engineer");
 $query=mysqli_query($connect,"select * from engiapp_engievents");
@@ -24,13 +23,14 @@ while($row=mysqli_fetch_array($query)){
 <?
 if($_POST['password']=="engi2013!"){
 	if($_POST["event_filter"]=="-1"){
-		$query=mysqli_query($connect,"select engi_users.first_name,engi_users.last_name,engi_users.email,engi_users.phone,engi_users.city,engi_users.college,engiapp_engievents.event_name from engi_users inner join engi_registrations on engi_registrations.student_id=engi_users.id inner join engiapp_engievents on engiapp_engievents.id=engi_registrations.event_id") or die("cant do");
+		$query=mysqli_query($connect,"select engi_users.first_name,engi_users.last_name,engi_users.email,engi_users.phone,engi_users.city,engi_users.college,engiapp_engievents.event_name from engi_users inner join engi_registrations on engi_registrations.student_id=engi_users.id inner join engiapp_engievents on engiapp_engievents.id=engi_registrations.event_id where engiapp_engievents.event_name !='alse'") or die("cant do");
 	}
 	if($_POST["event_filter"]=="-2"){
 		$query=mysqli_query($connect,"select * from engi_users");
 	}
 	else{
 		$query=mysqli_query($connect,"select engi_users.first_name,engi_users.last_name,engi_users.email,engi_users.phone,engi_users.city,engi_users.college,engiapp_engievents.event_name from engi_users inner join engi_registrations on engi_registrations.student_id=engi_users.id inner join engiapp_engievents on engiapp_engievents.id=engi_registrations.event_id where engiapp_engievents.event_name='".$_POST["event_filter"]."'");
+		echo "<h1>".$_POST['event_filter']."</h1><hr />";
 	}
 	
 	echo "<table class='table'>";
