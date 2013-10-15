@@ -185,49 +185,49 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 </table>
 </span>
 <span id = "allCommittees" >
-<span id = "comitteeTronix" style="cursor:pointer;background: rgba(248,219,227,0.8);" onclick="getPage('Tronix')">
+<span id = "comitteeTronix" style="cursor:pointer;background: rgba(217,228,228,0.8);" onclick="getPage('Tronix')">
 <img id="eve1" src="static/Icons_Final/tronix.png"/>
 </span>
-<span id = "comitteeGaming" style="cursor:pointer;background: rgba(221,208,239,0.8);" onclick="getPage('Gaming')">
+<span id = "comitteeGaming" style="cursor:pointer;background: rgba(242,242,200,0.8);" onclick="getPage('Gaming')">
 <img id="eve2" src="static/Icons_Final/gaming.png"/>
 </span>
-<span id = "comitteeMining" style="cursor:pointer;background: rgba(232,222,248,0.8);" onclick="getPage('Mining')">
+<span id = "comitteeMining" style="cursor:pointer;background: rgba(203,222,239,0.8);" onclick="getPage('Mining')">
 <img id="eve3" src="static/Icons_Final/mining.png"/>
 </span>
-<span id = "comitteeCivil" style="cursor:pointer;background: rgba(216,241,204,0.8);" onclick="getPage('Civil')">
+<span id = "comitteeCivil" style="cursor:pointer;background: rgba(210,240,232,0.8);" onclick="getPage('Civil')">
 <img id="eve4" src="static/Icons_Final/civilmain.png"/>
 </span>
-<span id = "comitteeSce" style="cursor:pointer;background: rgba(226,211,235,0.8);" onclick="getPage('Sce')">
+<span id = "comitteeSce" style="cursor:pointer;background: rgba(243,241,242,0.8);" onclick="getPage('Sce')">
 <img id="eve5" src="static/Icons_Final/Sce.png"/>
 </span>
-<span id = "comitteeMockstock" style="cursor:pointer;background: rgba(245,214,224,0.8);" onclick="getPage('Mockstock')">
+<span id = "comitteeMockstock" style="cursor:pointer;background: rgba(203,243,248,0.8);" onclick="getPage('Mockstock')">
 <img id="eve6" src="static/Icons_Final/mockstock.png"/>
 </span>
-<span id = "comitteeMba" style="cursor:pointer;background: rgba(226,208,246,0.8);" onclick="getPage('Mba')">
+<span id = "comitteeMba" style="cursor:pointer;background: rgba(246,222,205,0.8);" onclick="getPage('Mba')">
 <img id="eve7" src="static/Icons_Final/MBA.png"/>
 </span>
-<span id = "comitteeGeneral" style="cursor:pointer;background: rgba(225,229,213,0.8);" onclick="getPage('General')">
+<span id = "comitteeGeneral" style="cursor:pointer;background: rgba(229,234,219,0.8);" onclick="getPage('General')">
 <img id="eve8" src="static/Icons_Final/GeneralEvents.png"/>
 </span>
-<span id = "comitteeChemical" style="cursor:pointer;background: rgba(248,219,236,0.8);" onclick="getPage('Chemical')">
+<span id = "comitteeChemical" style="cursor:pointer;background: rgba(215,218,217,0.8);" onclick="getPage('Chemical')">
 <img id="eve9" src="static/Icons_Final/chemmain.png"/>
 </span>
-<span id = "comitteeComps" style="cursor:pointer;background: rgba(239,233,209,0.8);" onclick="getPage('Comps')">
+<span id = "comitteeComps" style="cursor:pointer;background: rgba(229,233,222,0.8);" onclick="getPage('Comps')">
 <img id="eve10" src="static/Icons_Final/Comps_Main.png"/>
 </span>
-<span id = "comitteeMaterials" style="cursor:pointer;background: rgba(214,204,203,0.8);" onclick="getPage('Materials')">
+<span id = "comitteeMaterials" style="cursor:pointer;background: rgba(244,233,244,0.8);" onclick="getPage('Materials')">
 <img id="eve11" src="static/Icons_Final/Metamain.png"/>
 </span>
-<span id = "comitteeBiz" style="cursor:pointer;background: rgba(227,214,244,0.8);" onclick="getPage('Biz')">
+<span id = "comitteeBiz" style="cursor:pointer;background: rgba(217,222,242,0.8);" onclick="getPage('Biz')">
 <img id="eve12" src="static/Icons_Final/BIZ.png"/>
 </span>
-<span id = "comitteeBlue_Print" style="cursor:pointer;background: rgba(214,233,236,0.8);" onclick="getPage('Blue_Print')">
+<span id = "comitteeBlue_Print" style="cursor:pointer;background: rgba(239,237,230,0.8);" onclick="getPage('Blue_Print')">
 <img id="eve13" src="static/Icons_Final/BluePrint.png"/>
 </span>
-<span id = "comitteeMechanical" style="cursor:pointer;background: rgba(239,246,240,0.8);" onclick="getPage('Mechanical')">
+<span id = "comitteeMechanical" style="cursor:pointer;background: rgba(221,211,220,0.8);" onclick="getPage('Mechanical')">
 <img id="eve14" src="static/Icons_Final/mech.png"/>
 </span>
-<span id = "comitteeAstronomy" style="cursor:pointer;background: rgba(230,200,238,0.8);" onclick="getPage('Astronomy')">
+<span id = "comitteeAstronomy" style="cursor:pointer;background: rgba(241,219,245,0.8);" onclick="getPage('Astronomy')">
 <img id="eve15" src="static/Icons_Final/astro.png"/>
 </span>
 </span>
@@ -248,17 +248,17 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageTronix'>
 <table>
 <tr>
-<td><span id='blockGen7' onclick='getPage("Simplicity")' style='cursor:pointer;width: 250px;background: rgba(243,203,205,0.8);'><img src='static/Icons_Final/SIMPLICITY.png'/></span></td>
-<td><span id='blockGen8' onclick='getPage("Waltz")' style='cursor:pointer;width: 250px;background: rgba(217,239,242,0.8);'><img src='static/Icons_Final/Waltz.png'/></span></td>
-<td><span id='blockGen9' onclick='getPage("Trade_OFF")' style='cursor:pointer;width: 250px;background: rgba(239,222,229,0.8);'><img src='static/Icons_Final/trade_off.png'/></span></td>
+<td><span id='blockGen7' onclick='getPage("Simplicity")' style='cursor:pointer;width: 250px;background: rgba(218,218,231,0.8);'><img src='static/Icons_Final/SIMPLICITY.png'/></span></td>
+<td><span id='blockGen8' onclick='getPage("Waltz")' style='cursor:pointer;width: 250px;background: rgba(215,212,220,0.8);'><img src='static/Icons_Final/Waltz.png'/></span></td>
+<td><span id='blockGen9' onclick='getPage("Trade_OFF")' style='cursor:pointer;width: 250px;background: rgba(240,207,215,0.8);'><img src='static/Icons_Final/trade_off.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen10' onclick='getPage("Symphony")' style='cursor:pointer;width: 250px;background: rgba(227,227,230,0.8);'><img src='static/Icons_Final/Symphony.png'/></span></td>
-<td><span id='blockGen11' onclick='getPage("TrailBlazer")' style='cursor:pointer;width: 250px;background: rgba(230,215,205,0.8);'><img src='static/Icons_Final/trailblazer.png'/></span></td>
-<td><span id='blockGen12' onclick='getPage("Automata")' style='cursor:pointer;width: 250px;background: rgba(243,240,225,0.8);'><img src='static/Icons_Final/AUTOMATA_NEW.png'/></span></td>
+<td><span id='blockGen10' onclick='getPage("Symphony")' style='cursor:pointer;width: 250px;background: rgba(238,201,210,0.8);'><img src='static/Icons_Final/Symphony.png'/></span></td>
+<td><span id='blockGen11' onclick='getPage("TrailBlazer")' style='cursor:pointer;width: 250px;background: rgba(217,212,213,0.8);'><img src='static/Icons_Final/trailblazer.png'/></span></td>
+<td><span id='blockGen12' onclick='getPage("Automata")' style='cursor:pointer;width: 250px;background: rgba(213,232,206,0.8);'><img src='static/Icons_Final/AUTOMATA_NEW.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen13' onclick='getPage("FoxHunt")' style='cursor:pointer;width: 250px;background: rgba(232,233,214,0.8);'><img src='static/Icons_Final/foxxhunt.png'/></span></td>
+<td><span id='blockGen13' onclick='getPage("FoxHunt")' style='cursor:pointer;width: 250px;background: rgba(232,221,219,0.8);'><img src='static/Icons_Final/foxxhunt.png'/></span></td>
 </table>
 </span>
 </td>
@@ -281,13 +281,13 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageGaming'>
 <table>
 <tr>
-<td><span id='blockGen20' onclick='getPage("Fifa")' style='cursor:pointer;width: 250px;background: rgba(204,206,215,0.8);'><img src='static/Icons_Final/fifa.png'/></span></td>
-<td><span id='blockGen21' onclick='getPage("Aoe")' style='cursor:pointer;width: 250px;background: rgba(250,246,238,0.8);'><img src='static/Icons_Final/aoe3.png'/></span></td>
-<td><span id='blockGen22' onclick='getPage("NFS")' style='cursor:pointer;width: 250px;background: rgba(227,246,205,0.8);'><img src='static/Icons_Final/nfs.png'/></span></td>
+<td><span id='blockGen20' onclick='getPage("Fifa")' style='cursor:pointer;width: 250px;background: rgba(216,246,224,0.8);'><img src='static/Icons_Final/fifa.png'/></span></td>
+<td><span id='blockGen21' onclick='getPage("Aoe")' style='cursor:pointer;width: 250px;background: rgba(236,202,236,0.8);'><img src='static/Icons_Final/aoe3.png'/></span></td>
+<td><span id='blockGen22' onclick='getPage("NFS")' style='cursor:pointer;width: 250px;background: rgba(231,214,214,0.8);'><img src='static/Icons_Final/nfs.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen23' onclick='getPage("dota")' style='cursor:pointer;width: 250px;background: rgba(233,214,237,0.8);'><img src='static/Icons_Final/dOTA.png'/></span></td>
-<td><span id='blockGen24' onclick='getPage("CounterStrike")' style='cursor:pointer;width: 250px;background: rgba(241,234,239,0.8);'><img src='static/Icons_Final/COUNTERSTRIKE.png'/></span></td>
+<td><span id='blockGen23' onclick='getPage("dota")' style='cursor:pointer;width: 250px;background: rgba(237,209,210,0.8);'><img src='static/Icons_Final/dOTA.png'/></span></td>
+<td><span id='blockGen24' onclick='getPage("CounterStrike")' style='cursor:pointer;width: 250px;background: rgba(234,242,241,0.8);'><img src='static/Icons_Final/COUNTERSTRIKE.png'/></span></td>
 </table>
 </span>
 </td>
@@ -310,14 +310,14 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageMining'>
 <table>
 <tr>
-<td><span id='blockGen31' onclick='getPage("Innovating_Mining")' style='cursor:pointer;width: 250px;background: rgba(248,221,234,0.8);'><img src='static/Icons_Final/mining_innovation.png'/></span></td>
-<td><span id='blockGen32' onclick='getPage("Adverse_Mining_Problem")' style='cursor:pointer;width: 250px;background: rgba(227,201,243,0.8);'><img src='static/Icons_Final/adverse_mining.png'/></span></td>
-<td><span id='blockGen33' onclick='getPage("Mine_Quest")' style='cursor:pointer;width: 250px;background: rgba(215,243,248,0.8);'><img src='static/Icons_Final/Mine_Quest.png'/></span></td>
+<td><span id='blockGen31' onclick='getPage("Innovating_Mining")' style='cursor:pointer;width: 250px;background: rgba(240,208,240,0.8);'><img src='static/Icons_Final/mining_innovation.png'/></span></td>
+<td><span id='blockGen32' onclick='getPage("Adverse_Mining_Problem")' style='cursor:pointer;width: 250px;background: rgba(242,233,211,0.8);'><img src='static/Icons_Final/adverse_mining.png'/></span></td>
+<td><span id='blockGen33' onclick='getPage("Mine_Quest")' style='cursor:pointer;width: 250px;background: rgba(225,211,212,0.8);'><img src='static/Icons_Final/Mine_Quest.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen34' onclick='getPage("Hang-Man")' style='cursor:pointer;width: 250px;background: rgba(242,235,204,0.8);'><img src='static/Icons_Final/HANGMAN_MAIN.png'/></span></td>
-<td><span id='blockGen35' onclick='getPage("Blast_Mine_Ventilation")' style='cursor:pointer;width: 250px;background: rgba(243,209,213,0.8);'><img src='static/Icons_Final/blast_mine_ventilation.png'/></span></td>
-<td><span id='blockGen36' onclick='getPage("Mine_Rush")' style='cursor:pointer;width: 250px;background: rgba(216,221,232,0.8);'><img src='static/Icons_Final/Mine_Rush.png'/></span></td>
+<td><span id='blockGen34' onclick='getPage("Hang-Man")' style='cursor:pointer;width: 250px;background: rgba(210,221,233,0.8);'><img src='static/Icons_Final/HANGMAN_MAIN.png'/></span></td>
+<td><span id='blockGen35' onclick='getPage("Blast_Mine_Ventilation")' style='cursor:pointer;width: 250px;background: rgba(228,214,206,0.8);'><img src='static/Icons_Final/blast_mine_ventilation.png'/></span></td>
+<td><span id='blockGen36' onclick='getPage("Mine_Rush")' style='cursor:pointer;width: 250px;background: rgba(200,240,233,0.8);'><img src='static/Icons_Final/Mine_Rush.png'/></span></td>
 </tr>
 </table>
 </span>
@@ -348,13 +348,13 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageCivil'>
 <table>
 <tr>
-<td><span id='blockGen42' onclick='getPage("FantastiCity")' style='cursor:pointer;width: 250px;background: rgba(205,215,245,0.8);'><img src='static/Icons_Final/fantasticity2.png'/></span></td>
-<td><span id='blockGen43' onclick='getPage("COLOSSUS")' style='cursor:pointer;width: 250px;background: rgba(210,220,212,0.8);'><img src='static/Icons_Final/Colossus.png'/></span></td>
-<td><span id='blockGen44' onclick='getPage("Architect")' style='cursor:pointer;width: 250px;background: rgba(204,204,204,0.8);'><img src='static/Icons_Final/Architect2.png'/></span></td>
+<td><span id='blockGen42' onclick='getPage("FantastiCity")' style='cursor:pointer;width: 250px;background: rgba(212,203,232,0.8);'><img src='static/Icons_Final/fantasticity2.png'/></span></td>
+<td><span id='blockGen43' onclick='getPage("COLOSSUS")' style='cursor:pointer;width: 250px;background: rgba(246,243,200,0.8);'><img src='static/Icons_Final/Colossus.png'/></span></td>
+<td><span id='blockGen44' onclick='getPage("Architect")' style='cursor:pointer;width: 250px;background: rgba(207,226,238,0.8);'><img src='static/Icons_Final/Architect2.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen45' onclick='getPage("Nirvahana")' style='cursor:pointer;width: 250px;background: rgba(244,243,222,0.8);'><img src='static/Icons_Final/Nirvana.png'/></span></td>
-<td><span id='blockGen46' onclick='getPage("Mindbend")' style='cursor:pointer;width: 250px;background: rgba(244,222,235,0.8);'><img src='static/Icons_Final/mindbend.png'/></span></td>
+<td><span id='blockGen45' onclick='getPage("Nirvahana")' style='cursor:pointer;width: 250px;background: rgba(232,205,245,0.8);'><img src='static/Icons_Final/Nirvana.png'/></span></td>
+<td><span id='blockGen46' onclick='getPage("Mindbend")' style='cursor:pointer;width: 250px;background: rgba(224,208,228,0.8);'><img src='static/Icons_Final/mindbend.png'/></span></td>
 </table>
 </span>
 </td>
@@ -374,12 +374,12 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageSce'>
 <table>
 <tr>
-<td><span id='blockGen50' onclick='getPage("Sky_Lanterns")' style='cursor:pointer;width: 250px;background: rgba(204,222,223,0.8);'><img src='static/Icons_Final/sky_lantern.png'/></span></td>
-<td><span id='blockGen51' onclick='getPage("Green_Inovation_Challenge")' style='cursor:pointer;width: 250px;background: rgba(236,210,203,0.8);'><img src='static/Icons_Final/Green_Product_Design.png'/></span></td>
-<td><span id='blockGen52' onclick='getPage("Sparsh")' style='cursor:pointer;width: 250px;background: rgba(248,203,223,0.8);'><img src='static/Icons_Final/saprsh.png'/></span></td>
+<td><span id='blockGen50' onclick='getPage("Sky_Lanterns")' style='cursor:pointer;width: 250px;background: rgba(209,242,205,0.8);'><img src='static/Icons_Final/sky_lantern.png'/></span></td>
+<td><span id='blockGen51' onclick='getPage("Green_Inovation_Challenge")' style='cursor:pointer;width: 250px;background: rgba(224,227,228,0.8);'><img src='static/Icons_Final/Green_Product_Design.png'/></span></td>
+<td><span id='blockGen52' onclick='getPage("Sparsh")' style='cursor:pointer;width: 250px;background: rgba(230,204,205,0.8);'><img src='static/Icons_Final/saprsh.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen53' onclick='getPage("The_Last_Word")' style='cursor:pointer;width: 250px;background: rgba(216,237,219,0.8);'><img src='static/Icons_Final/lastword.png'/></span></td>
+<td><span id='blockGen53' onclick='getPage("The_Last_Word")' style='cursor:pointer;width: 250px;background: rgba(224,216,221,0.8);'><img src='static/Icons_Final/lastword.png'/></span></td>
 </table>
 </span>
 </td>
@@ -413,17 +413,17 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageWorkshops'>
 <table>
 <tr>
-<td><span id='blockGen63' onclick='getPage("Ethical_Hacking_by_TechDefence")' style='cursor:pointer;width: 250px;background: rgba(211,208,210,0.8);'><img src='static/Icons_Final/HACKING.png'/></span></td>
-<td><span id='blockGen64' onclick='getPage("Augmented_Reality")' style='cursor:pointer;width: 250px;background: rgba(217,249,224,0.8);'><img src='static/Icons_Final/AUGMENTED.png'/></span></td>
-<td><button id='blockGen65' class='button1' onclick='getPage("3D_Photography")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(214,209,246,0.8);'><h1 style='text-align:center;font-family: acens;'>3D Photography</h1></td>
+<td><span id='blockGen63' onclick='getPage("Ethical_Hacking_by_TechDefence")' style='cursor:pointer;width: 250px;background: rgba(211,247,212,0.8);'><img src='static/Icons_Final/HACKING.png'/></span></td>
+<td><span id='blockGen64' onclick='getPage("Augmented_Reality")' style='cursor:pointer;width: 250px;background: rgba(217,221,217,0.8);'><img src='static/Icons_Final/AUGMENTED.png'/></span></td>
+<td><button id='blockGen65' class='button1' onclick='getPage("3D_Photography")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(232,226,209,0.8);'><h1 style='text-align:center;font-family: acens;'>3D Photography</h1></td>
 </tr>
 <tr>
-<td><span id='blockGen66' onclick='getPage("RC_Aircraft_Design_and_Fabrication")' style='cursor:pointer;width: 250px;background: rgba(235,238,237,0.8);'><img src='static/Icons_Final/RC_Aircraft.png'/></span></td>
-<td><span id='blockGen67' onclick='getPage("Humanoid_Robot")' style='cursor:pointer;width: 250px;background: rgba(248,211,200,0.8);'><img src='static/Icons_Final/ROBOTICS.png'/></span></td>
-<td><span id='blockGen68' onclick='getPage("Android Application Development")' style='cursor:pointer;width: 250px;background: rgba(218,231,215,0.8);'><img src='static/Icons_Final/Android.png'/></span></td>
+<td><span id='blockGen66' onclick='getPage("RC_Aircraft_Design_and_Fabrication")' style='cursor:pointer;width: 250px;background: rgba(250,217,219,0.8);'><img src='static/Icons_Final/RC_Aircraft.png'/></span></td>
+<td><span id='blockGen67' onclick='getPage("Humanoid_Robot")' style='cursor:pointer;width: 250px;background: rgba(240,212,205,0.8);'><img src='static/Icons_Final/ROBOTICS.png'/></span></td>
+<td><span id='blockGen68' onclick='getPage("Android Application Development")' style='cursor:pointer;width: 250px;background: rgba(200,209,244,0.8);'><img src='static/Icons_Final/Android.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen69' onclick='getPage("Bridge_Design_and_Fabrication")' style='cursor:pointer;width: 250px;background: rgba(225,230,223,0.8);'><img src='static/Icons_Final/Bridge_design.png'/></span></td>
+<td><span id='blockGen69' onclick='getPage("Bridge_Design_and_Fabrication")' style='cursor:pointer;width: 250px;background: rgba(248,247,233,0.8);'><img src='static/Icons_Final/Bridge_design.png'/></span></td>
 </table>
 </span>
 </td>
@@ -443,12 +443,12 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageMba'>
 <table>
 <tr>
-<td><span id='blockGen73' onclick='getPage("MindBend")' style='cursor:pointer;width: 250px;background: rgba(237,246,220,0.8);'><img src='static/Icons_Final/mindbend.png'/></span></td>
-<td><span id='blockGen74' onclick='getPage("HR_Event")' style='cursor:pointer;width: 250px;background: rgba(236,217,233,0.8);'><img src='static/Icons_Final/HR.png'/></span></td>
-<td><span id='blockGen75' onclick='getPage("Markenza")' style='cursor:pointer;width: 250px;background: rgba(220,204,249,0.8);'><img src='static/Icons_Final/MARKENZA.png'/></span></td>
+<td><span id='blockGen73' onclick='getPage("MindBend")' style='cursor:pointer;width: 250px;background: rgba(232,248,218,0.8);'><img src='static/Icons_Final/mindbend.png'/></span></td>
+<td><span id='blockGen74' onclick='getPage("HR_Event")' style='cursor:pointer;width: 250px;background: rgba(242,226,221,0.8);'><img src='static/Icons_Final/HR.png'/></span></td>
+<td><span id='blockGen75' onclick='getPage("Markenza")' style='cursor:pointer;width: 250px;background: rgba(210,212,227,0.8);'><img src='static/Icons_Final/MARKENZA.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen76' onclick='getPage("Finance_Event")' style='cursor:pointer;width: 250px;background: rgba(239,245,205,0.8);'><img src='static/Icons_Final/Finance.png'/></span></td>
+<td><span id='blockGen76' onclick='getPage("Finance_Event")' style='cursor:pointer;width: 250px;background: rgba(239,225,247,0.8);'><img src='static/Icons_Final/Finance.png'/></span></td>
 </table>
 </span>
 </td>
@@ -472,7 +472,7 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageGeneral'>
 <table>
 <tr>
-<td><span id='blockGen84' onclick='getPage("Simplineer")' style='cursor:pointer;width: 250px;background: rgba(203,216,209,0.8);'><img src='static/Icons_Final/SIMPLINEER.png'/></span></td>
+<td><span id='blockGen84' onclick='getPage("Simplineer")' style='cursor:pointer;width: 250px;background: rgba(233,231,236,0.8);'><img src='static/Icons_Final/SIMPLINEER.png'/></span></td>
 </table>
 </span>
 </td>
@@ -497,12 +497,12 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageChemical'>
 <table>
 <tr>
-<td><span id='blockGen93' onclick='getPage("Industry_Defined_Problem")' style='cursor:pointer;width: 250px;background: rgba(200,237,241,0.8);'><img src='static/Icons_Final/IDP.png'/></span></td>
-<td><button id='blockGen94' class='button1' onclick='getPage("Contraption")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(238,241,225,0.8);'><h1 style='text-align:center;font-family: acens;'>Contraption</h1></td>
-<td><span id='blockGen95' onclick='getPage("The_Portal")' style='cursor:pointer;width: 250px;background: rgba(215,230,234,0.8);'><img src='static/Icons_Final/the_portal.png'/></span></td>
+<td><span id='blockGen93' onclick='getPage("Industry_Defined_Problem")' style='cursor:pointer;width: 250px;background: rgba(201,237,237,0.8);'><img src='static/Icons_Final/IDP.png'/></span></td>
+<td><button id='blockGen94' class='button1' onclick='getPage("Contraption")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(236,247,212,0.8);'><h1 style='text-align:center;font-family: acens;'>Contraption</h1></td>
+<td><span id='blockGen95' onclick='getPage("The_Portal")' style='cursor:pointer;width: 250px;background: rgba(244,248,248,0.8);'><img src='static/Icons_Final/the_portal.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen96' onclick='getPage("Chemical_Breakdown")' style='cursor:pointer;width: 250px;background: rgba(204,246,236,0.8);'><img src='static/Icons_Final/Chemical_Breakdown.png'/></span></td>
+<td><span id='blockGen96' onclick='getPage("Chemical_Breakdown")' style='cursor:pointer;width: 250px;background: rgba(220,212,207,0.8);'><img src='static/Icons_Final/Chemical_Breakdown.png'/></span></td>
 </table>
 </span>
 </td>
@@ -524,14 +524,14 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageComps'>
 <table>
 <tr>
-<td><span id='blockGen102' onclick='getPage("Inscription")' style='cursor:pointer;width: 250px;background: rgba(244,230,225,0.8);'><img src='static/Icons_Final/INSCRIPTION.png'/></span></td>
-<td><span id='blockGen103' onclick='getPage("ECTF_-_Capture_the_Flag")' style='cursor:pointer;width: 250px;background: rgba(247,242,202,0.8);'><img src='static/Icons_Final/ECTF.png'/></span></td>
-<td><span id='blockGen104' onclick='getPage("Virtual_Bounty")' style='cursor:pointer;width: 250px;background: rgba(239,209,209,0.8);'><img src='static/Icons_Final/VIRTUAL_BOUNTY2.png'/></span></td>
+<td><span id='blockGen102' onclick='getPage("Inscription")' style='cursor:pointer;width: 250px;background: rgba(206,218,238,0.8);'><img src='static/Icons_Final/INSCRIPTION.png'/></span></td>
+<td><span id='blockGen103' onclick='getPage("ECTF_-_Capture_the_Flag")' style='cursor:pointer;width: 250px;background: rgba(223,243,235,0.8);'><img src='static/Icons_Final/ECTF.png'/></span></td>
+<td><span id='blockGen104' onclick='getPage("Virtual_Bounty")' style='cursor:pointer;width: 250px;background: rgba(201,247,216,0.8);'><img src='static/Icons_Final/VIRTUAL_BOUNTY2.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen105' onclick='getPage("Kode_Kombat")' style='cursor:pointer;width: 250px;background: rgba(244,232,236,0.8);'><img src='static/Icons_Final/CODE_KOMBAT.png'/></span></td>
-<td><span id='blockGen106' onclick='getPage("Marathon")' style='cursor:pointer;width: 250px;background: rgba(233,241,207,0.8);'><img src='static/Icons_Final/marathon_final.png'/></span></td>
-<td><span id='blockGen107' onclick='getPage("Rectify")' style='cursor:pointer;width: 250px;background: rgba(243,237,211,0.8);'><img src='static/Icons_Final/RECTIFY.png'/></span></td>
+<td><span id='blockGen105' onclick='getPage("Kode_Kombat")' style='cursor:pointer;width: 250px;background: rgba(215,216,214,0.8);'><img src='static/Icons_Final/CODE_KOMBAT.png'/></span></td>
+<td><span id='blockGen106' onclick='getPage("Marathon")' style='cursor:pointer;width: 250px;background: rgba(207,222,203,0.8);'><img src='static/Icons_Final/marathon_final.png'/></span></td>
+<td><span id='blockGen107' onclick='getPage("Rectify")' style='cursor:pointer;width: 250px;background: rgba(200,248,249,0.8);'><img src='static/Icons_Final/RECTIFY.png'/></span></td>
 </tr>
 </table>
 </span>
@@ -558,12 +558,12 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageMaterials'>
 <table>
 <tr>
-<td><span id='blockGen117' onclick='getPage("mindBend")' style='cursor:pointer;width: 250px;background: rgba(202,238,223,0.8);'><img src='static/Icons_Final/mindbend.png'/></span></td>
-<td><span id='blockGen118' onclick='getPage("SEM_and_TEM_Expo")' style='cursor:pointer;width: 250px;background: rgba(221,207,231,0.8);'><img src='static/Icons_Final/SEMTEMExpo.png'/></span></td>
-<td><span id='blockGen119' onclick='getPage("MetaMagic")' style='cursor:pointer;width: 250px;background: rgba(222,237,222,0.8);'><img src='static/Icons_Final/MetaMagic.png'/></span></td>
+<td><span id='blockGen117' onclick='getPage("mindBend")' style='cursor:pointer;width: 250px;background: rgba(216,236,208,0.8);'><img src='static/Icons_Final/mindbend.png'/></span></td>
+<td><span id='blockGen118' onclick='getPage("SEM_and_TEM_Expo")' style='cursor:pointer;width: 250px;background: rgba(225,243,209,0.8);'><img src='static/Icons_Final/SEMTEMExpo.png'/></span></td>
+<td><span id='blockGen119' onclick='getPage("MetaMagic")' style='cursor:pointer;width: 250px;background: rgba(231,207,212,0.8);'><img src='static/Icons_Final/MetaMagic.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen120' onclick='getPage("SEM_Photography_Contest")' style='cursor:pointer;width: 250px;background: rgba(225,248,238,0.8);'><img src='static/Icons_Final/SEMphotography.png'/></span></td>
+<td><span id='blockGen120' onclick='getPage("SEM_Photography_Contest")' style='cursor:pointer;width: 250px;background: rgba(243,203,238,0.8);'><img src='static/Icons_Final/SEMphotography.png'/></span></td>
 </table>
 </span>
 </td>
@@ -583,12 +583,12 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageBiz'>
 <table>
 <tr>
-<td><span id='blockGen124' onclick='getPage("Product_Design_Challenge")' style='cursor:pointer;width: 250px;background: rgba(239,245,226,0.8);'><img src='static/Icons_Final/PRODUCT_DESIGN_123.png'/></span></td>
-<td><span id='blockGen125' onclick='getPage("Campus_Social_Innovision_Challenge")' style='cursor:pointer;width: 250px;background: rgba(239,241,243,0.8);'><img src='static/Icons_Final/campussocialinnovation.png'/></span></td>
-<td><span id='blockGen126' onclick='getPage("Case_Study_challenge")' style='cursor:pointer;width: 250px;background: rgba(226,244,242,0.8);'><img src='static/Icons_Final/casestudychallenge.png'/></span></td>
+<td><span id='blockGen124' onclick='getPage("Product_Design_Challenge")' style='cursor:pointer;width: 250px;background: rgba(209,216,211,0.8);'><img src='static/Icons_Final/PRODUCT_DESIGN_123.png'/></span></td>
+<td><span id='blockGen125' onclick='getPage("Campus_Social_Innovision_Challenge")' style='cursor:pointer;width: 250px;background: rgba(233,226,206,0.8);'><img src='static/Icons_Final/campussocialinnovation.png'/></span></td>
+<td><span id='blockGen126' onclick='getPage("Case_Study_challenge")' style='cursor:pointer;width: 250px;background: rgba(222,250,225,0.8);'><img src='static/Icons_Final/casestudychallenge.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen127' onclick='getPage("Data_Analysis_Challange")' style='cursor:pointer;width: 250px;background: rgba(235,231,211,0.8);'><img src='static/Icons_Final/data_analysischallenge.png'/></span></td>
+<td><span id='blockGen127' onclick='getPage("Data_Analysis_Challange")' style='cursor:pointer;width: 250px;background: rgba(248,234,217,0.8);'><img src='static/Icons_Final/data_analysischallenge.png'/></span></td>
 </table>
 </span>
 </td>
@@ -623,13 +623,13 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageMechanical'>
 <table>
 <tr>
-<td><span id='blockGen138' onclick='getPage("Velocity")' style='cursor:pointer;width: 250px;background: rgba(215,202,218,0.8);'><img src='static/Icons_Final/Velocity.png'/></span></td>
-<td><span id='blockGen139' onclick='getPage("Proteus")' style='cursor:pointer;width: 250px;background: rgba(244,231,201,0.8);'><img src='static/Icons_Final/Proteus.png'/></span></td>
-<td><span id='blockGen140' onclick='getPage("PerfectMachine")' style='cursor:pointer;width: 250px;background: rgba(234,203,205,0.8);'><img src='static/Icons_Final/PerfectMachine.png'/></span></td>
+<td><span id='blockGen138' onclick='getPage("Velocity")' style='cursor:pointer;width: 250px;background: rgba(221,214,203,0.8);'><img src='static/Icons_Final/Velocity.png'/></span></td>
+<td><span id='blockGen139' onclick='getPage("Proteus")' style='cursor:pointer;width: 250px;background: rgba(221,204,232,0.8);'><img src='static/Icons_Final/Proteus.png'/></span></td>
+<td><span id='blockGen140' onclick='getPage("PerfectMachine")' style='cursor:pointer;width: 250px;background: rgba(235,215,242,0.8);'><img src='static/Icons_Final/PerfectMachine.png'/></span></td>
 </tr>
 <tr>
-<td><span id='blockGen141' onclick='getPage("Robowars")' style='cursor:pointer;width: 250px;background: rgba(237,216,232,0.8);'><img src='static/Icons_Final/RoboWars.png'/></span></td>
-<td><span id='blockGen142' onclick='getPage("wrightflight")' style='cursor:pointer;width: 250px;background: rgba(217,242,240,0.8);'><img src='static/Icons_Final/WrightFlight.png'/></span></td>
+<td><span id='blockGen141' onclick='getPage("Robowars")' style='cursor:pointer;width: 250px;background: rgba(214,204,201,0.8);'><img src='static/Icons_Final/RoboWars.png'/></span></td>
+<td><span id='blockGen142' onclick='getPage("wrightflight")' style='cursor:pointer;width: 250px;background: rgba(245,231,207,0.8);'><img src='static/Icons_Final/WrightFlight.png'/></span></td>
 </table>
 </span>
 </td>
@@ -655,12 +655,12 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageAstronomy'>
 <table>
 <tr>
-<td><span id='blockGen152' onclick='getPage("BeyondEarth")' style='cursor:pointer;width: 250px;background: rgba(212,204,248,0.8);'><img src='static/Icons_Final/Beyond_Earth.png'/></span></td>
-<td><span id='blockGen153' onclick='getPage("StarWars")' style='cursor:pointer;width: 250px;background: rgba(235,230,239,0.8);'><img src='static/Icons_Final/starwars.png'/></span></td>
-<td><button id='blockGen154' class='button1' onclick='getPage("Exhibits")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(216,235,240,0.8);'><h1 style='text-align:center;font-family: acens;'>Exhibits</h1></td>
+<td><span id='blockGen152' onclick='getPage("BeyondEarth")' style='cursor:pointer;width: 250px;background: rgba(247,217,218,0.8);'><img src='static/Icons_Final/Beyond_Earth.png'/></span></td>
+<td><span id='blockGen153' onclick='getPage("StarWars")' style='cursor:pointer;width: 250px;background: rgba(202,204,219,0.8);'><img src='static/Icons_Final/starwars.png'/></span></td>
+<td><button id='blockGen154' class='button1' onclick='getPage("Exhibits")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(226,214,218,0.8);'><h1 style='text-align:center;font-family: acens;'>Exhibits</h1></td>
 </tr>
 <tr>
-<td><span id='blockGen155' onclick='getPage("AstroTalk")' style='cursor:pointer;width: 250px;background: rgba(203,215,219,0.8);'><img src='static/Icons_Final/astro_talk.png'/></span></td>
+<td><span id='blockGen155' onclick='getPage("AstroTalk")' style='cursor:pointer;width: 250px;background: rgba(233,206,241,0.8);'><img src='static/Icons_Final/astro_talk.png'/></span></td>
 </table>
 </span>
 </td>
@@ -686,13 +686,13 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <span id='pageTechnites'>
 <table>
 <tr>
-<td><span id='blockGen165' onclick='getPage("Psychedelic_Room")' style='cursor:pointer;width: 250px;background: rgba(203,245,217,0.8);'><img src='static/Icons_Final/PsychRoom.png'/></span></td>
-<td><button id='blockGen166' class='button1' onclick='getPage("Dance_Dance_Revolution")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(227,247,247,0.8);'><h1 style='text-align:center;font-family: acens;'>Dance Dance Revolution</h1></td>
-<td><button id='blockGen167' class='button1' onclick='getPage("Arcade_Room")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(232,231,200,0.8);'><h1 style='text-align:center;font-family: acens;'>Arcade Room</h1></td>
+<td><span id='blockGen165' onclick='getPage("Psychedelic_Room")' style='cursor:pointer;width: 250px;background: rgba(204,248,200,0.8);'><img src='static/Icons_Final/PsychRoom.png'/></span></td>
+<td><button id='blockGen166' class='button1' onclick='getPage("Dance_Dance_Revolution")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(205,236,225,0.8);'><h1 style='text-align:center;font-family: acens;'>Dance Dance Revolution</h1></td>
+<td><button id='blockGen167' class='button1' onclick='getPage("Arcade_Room")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;background: rgba(211,205,223,0.8);'><h1 style='text-align:center;font-family: acens;'>Arcade Room</h1></td>
 </tr>
 <tr>
-<td><span id='blockGen168' onclick='getPage("Blitzkrieg")' style='cursor:pointer;width: 250px;background: rgba(240,209,246,0.8);'><img src='static/Icons_Final/blitzkrieg.png'/></span></td>
-<td><span id='blockGen169' onclick='getPage("Megapixel")' style='cursor:pointer;width: 250px;background: rgba(203,220,213,0.8);'><img src='static/Icons_Final/megapixel.png'/></span></td>
+<td><span id='blockGen168' onclick='getPage("Blitzkrieg")' style='cursor:pointer;width: 250px;background: rgba(205,223,232,0.8);'><img src='static/Icons_Final/blitzkrieg.png'/></span></td>
+<td><span id='blockGen169' onclick='getPage("Megapixel")' style='cursor:pointer;width: 250px;background: rgba(215,211,225,0.8);'><img src='static/Icons_Final/megapixel.png'/></span></td>
 </table>
 </span>
 </td>
@@ -702,10 +702,10 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSimplicity'>
-<span id='blockGen170' style='background: rgba(228,232,238,0.8);'><img src="static/Icons_Final/SIMPLICITY.png" width='250px'/></span><br />
-<span id='blockGen171' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,242,208,0.8);' onclick='register_single_event(15)'><h3>Register</h3></span>
-<span id='blockGen172' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,246,218,0.8);' onclick='getPage("Simplicity","Simplicity_Description")'><h3>Description</h3></span>
-<span id='blockGen173' style='width:220px;padding: 15px;border-radius:20px;background: rgba(224,209,203,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
+<span id='blockGen170' style='background: rgba(241,235,248,0.8);'><img src="static/Icons_Final/SIMPLICITY.png" width='250px'/></span><br />
+<span id='blockGen171' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,201,211,0.8);' onclick='register_single_event(15)'><h3>Register</h3></span>
+<span id='blockGen172' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,212,237,0.8);' onclick='getPage("Simplicity","Simplicity_Description")'><h3>Description</h3></span>
+<span id='blockGen173' style='width:220px;padding: 15px;border-radius:20px;background: rgba(238,240,229,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -729,14 +729,14 @@ As ENGINNER promotes paperless banking please avoid hard cash and demand drafts.
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideWaltz'>
-<span id='blockGen178' style='background: rgba(202,250,222,0.8);'><img src="static/Icons_Final/Waltz.png" width='250px'/></span><br />
-<span id='blockGen179' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,201,218,0.8);' onclick='register_single_event(16)'><h3>Register</h3></span>
-<span id='blockGen180' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,246,249,0.8);' onclick='getPage("Waltz","Waltz_Arena")'><h3>Arena</h3></span>
-<span id='blockGen181' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,250,208,0.8);' onclick='getPage("Waltz","Waltz_Goal")'><h3>Goal</h3></span>
-<span id='blockGen182' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(213,247,223,0.8);' onclick='getPage("Waltz","Waltz_Specifications")'><h3>Specifications</h3></span>
-<span id='blockGen183' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,217,248,0.8);' onclick='getPage("Waltz","Waltz_Evaluation")'><h3>Evaluation</h3></span>
-<span id='blockGen184' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,225,223,0.8);' onclick='getPage("Waltz","Waltz_Bot Specification and Rules")'><h3>Bot Specification and Rules</h3></span>
-<span id='blockGen185' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,220,225,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
+<span id='blockGen178' style='background: rgba(204,237,243,0.8);'><img src="static/Icons_Final/Waltz.png" width='250px'/></span><br />
+<span id='blockGen179' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,202,234,0.8);' onclick='register_single_event(16)'><h3>Register</h3></span>
+<span id='blockGen180' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,250,218,0.8);' onclick='getPage("Waltz","Waltz_Arena")'><h3>Arena</h3></span>
+<span id='blockGen181' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,217,200,0.8);' onclick='getPage("Waltz","Waltz_Goal")'><h3>Goal</h3></span>
+<span id='blockGen182' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,228,208,0.8);' onclick='getPage("Waltz","Waltz_Specifications")'><h3>Specifications</h3></span>
+<span id='blockGen183' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,227,213,0.8);' onclick='getPage("Waltz","Waltz_Evaluation")'><h3>Evaluation</h3></span>
+<span id='blockGen184' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,242,217,0.8);' onclick='getPage("Waltz","Waltz_Bot Specification and Rules")'><h3>Bot Specification and Rules</h3></span>
+<span id='blockGen185' style='width:220px;padding: 15px;border-radius:20px;background: rgba(220,211,246,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -788,10 +788,10 @@ Each team is given a maximum of 5 min to complete the maze and the score pertain
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideTrade_OFF'>
-<span id='blockGen202' style='background: rgba(232,226,234,0.8);'><img src="static/Icons_Final/trade_off.png" width='250px'/></span><br />
-<span id='blockGen203' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,233,227,0.8);' onclick='register_single_event(17)'><h3>Register</h3></span>
-<span id='blockGen204' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,246,242,0.8);' onclick='getPage("Trade_OFF","Trade_OFF_Description")'><h3>Description</h3></span>
-<span id='blockGen205' style='width:220px;padding: 15px;border-radius:20px;background: rgba(211,245,219,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
+<span id='blockGen202' style='background: rgba(248,209,236,0.8);'><img src="static/Icons_Final/trade_off.png" width='250px'/></span><br />
+<span id='blockGen203' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,210,206,0.8);' onclick='register_single_event(17)'><h3>Register</h3></span>
+<span id='blockGen204' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,213,206,0.8);' onclick='getPage("Trade_OFF","Trade_OFF_Description")'><h3>Description</h3></span>
+<span id='blockGen205' style='width:220px;padding: 15px;border-radius:20px;background: rgba(201,221,214,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -815,10 +815,10 @@ Each team is given a maximum of 5 min to complete the maze and the score pertain
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSymphony'>
-<span id='blockGen210' style='background: rgba(227,250,207,0.8);'><img src="static/Icons_Final/Symphony.png" width='250px'/></span><br />
-<span id='blockGen211' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,245,202,0.8);' onclick='register_single_event(18)'><h3>Register</h3></span>
-<span id='blockGen212' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,225,207,0.8);' onclick='getPage("Symphony","Symphony_Description")'><h3>Description</h3></span>
-<span id='blockGen213' style='width:220px;padding: 15px;border-radius:20px;background: rgba(216,221,240,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
+<span id='blockGen210' style='background: rgba(210,212,250,0.8);'><img src="static/Icons_Final/Symphony.png" width='250px'/></span><br />
+<span id='blockGen211' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,241,229,0.8);' onclick='register_single_event(18)'><h3>Register</h3></span>
+<span id='blockGen212' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,206,211,0.8);' onclick='getPage("Symphony","Symphony_Description")'><h3>Description</h3></span>
+<span id='blockGen213' style='width:220px;padding: 15px;border-radius:20px;background: rgba(203,246,206,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -842,16 +842,16 @@ Music is the soul of many art forms. Fountains are a symbol of beauty and elegan
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideTrailBlazer'>
-<span id='blockGen218' style='background: rgba(242,247,208,0.8);'><img src="static/Icons_Final/trailblazer.png" width='250px'/></span><br />
-<span id='blockGen219' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,243,222,0.8);' onclick='register_single_event(19)'><h3>Register</h3></span>
-<span id='blockGen220' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,249,241,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_Arena")'><h3>Arena</h3></span>
-<span id='blockGen221' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,235,204,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_Description")'><h3>Description</h3></span>
-<span id='blockGen222' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,247,246,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_ContestProcedure")'><h3>ContestProcedure</h3></span>
-<span id='blockGen223' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,243,238,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_samplearena")'><h3>samplearena</h3></span>
-<span id='blockGen224' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(244,233,232,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_OtherDetails")'><h3>OtherDetails</h3></span>
-<span id='blockGen225' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,234,217,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_botspecs")'><h3>botspecs</h3></span>
-<span id='blockGen226' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,226,220,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_goal")'><h3>goal</h3></span>
-<span id='blockGen227' style='width:220px;padding: 15px;border-radius:20px;background: rgba(241,202,240,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/> nanda9045@gmail.com</h3></span>
+<span id='blockGen218' style='background: rgba(226,236,216,0.8);'><img src="static/Icons_Final/trailblazer.png" width='250px'/></span><br />
+<span id='blockGen219' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(204,221,236,0.8);' onclick='register_single_event(19)'><h3>Register</h3></span>
+<span id='blockGen220' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,213,246,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_Arena")'><h3>Arena</h3></span>
+<span id='blockGen221' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,248,222,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_Description")'><h3>Description</h3></span>
+<span id='blockGen222' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,247,223,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_ContestProcedure")'><h3>ContestProcedure</h3></span>
+<span id='blockGen223' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,227,229,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_samplearena")'><h3>samplearena</h3></span>
+<span id='blockGen224' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,203,223,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_OtherDetails")'><h3>OtherDetails</h3></span>
+<span id='blockGen225' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,222,232,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_botspecs")'><h3>botspecs</h3></span>
+<span id='blockGen226' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,219,243,0.8);' onclick='getPage("TrailBlazer","TrailBlazer_goal")'><h3>goal</h3></span>
+<span id='blockGen227' style='width:220px;padding: 15px;border-radius:20px;background: rgba(244,220,222,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/> nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -917,11 +917,11 @@ Teams must build a line following bot that navigates the path in minimum possibl
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideAutomata'>
-<span id='blockGen250' style='background: rgba(216,200,232,0.8);'><img src="static/Icons_Final/AUTOMATA_NEW.png" width='250px'/></span><br />
-<span id='blockGen251' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(239,243,232,0.8);' onclick='register_single_event(20)'><h3>Register</h3></span>
-<span id='blockGen252' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,204,235,0.8);' onclick='getPage("Automata","Automata_download")'><h3>download</h3></span>
-<span id='blockGen253' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,219,250,0.8);' onclick='getPage("Automata","Automata_Description")'><h3>Description</h3></span>
-<span id='blockGen254' style='width:220px;padding: 15px;border-radius:20px;background: rgba(247,227,236,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/> nanda9045@gmail.com</h3></span>
+<span id='blockGen250' style='background: rgba(246,206,208,0.8);'><img src="static/Icons_Final/AUTOMATA_NEW.png" width='250px'/></span><br />
+<span id='blockGen251' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,215,246,0.8);' onclick='register_single_event(20)'><h3>Register</h3></span>
+<span id='blockGen252' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,201,240,0.8);' onclick='getPage("Automata","Automata_download")'><h3>download</h3></span>
+<span id='blockGen253' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,232,204,0.8);' onclick='getPage("Automata","Automata_Description")'><h3>Description</h3></span>
+<span id='blockGen254' style='width:220px;padding: 15px;border-radius:20px;background: rgba(242,249,238,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/> nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -952,10 +952,10 @@ Robotics has advanced in ways that we had never imagined.</span><span id="blockG
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideFoxHunt'>
-<span id='blockGen262' style='background: rgba(230,226,221,0.8);'><img src="static/Icons_Final/foxxhunt.png" width='250px'/></span><br />
-<span id='blockGen263' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,214,224,0.8);' onclick='register_single_event(21)'><h3>Register</h3></span>
-<span id='blockGen264' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,224,223,0.8);' onclick='getPage("FoxHunt","FoxHunt_Description")'><h3>Description</h3></span>
-<span id='blockGen265' style='width:220px;padding: 15px;border-radius:20px;background: rgba(213,223,243,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
+<span id='blockGen262' style='background: rgba(212,247,245,0.8);'><img src="static/Icons_Final/foxxhunt.png" width='250px'/></span><br />
+<span id='blockGen263' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,238,208,0.8);' onclick='register_single_event(21)'><h3>Register</h3></span>
+<span id='blockGen264' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,210,207,0.8);' onclick='getPage("FoxHunt","FoxHunt_Description")'><h3>Description</h3></span>
+<span id='blockGen265' style='width:220px;padding: 15px;border-radius:20px;background: rgba(231,244,203,0.8);'><h3>Contact: Nanda Kumar(9945248355) <br/>nanda9045@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -979,10 +979,10 @@ Robotics has advanced in ways that we had never imagined.</span><span id="blockG
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideFifa'>
-<span id='blockGen270' style='background: rgba(200,245,218,0.8);'><img src="static/Icons_Final/fifa.png" width='250px'/></span><br />
-<span id='blockGen271' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,233,215,0.8);' onclick='register_single_event(22)'><h3>Register</h3></span>
-<span id='blockGen272' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,217,211,0.8);' onclick='getPage("Fifa","Fifa_specifications")'><h3>specifications</h3></span>
-<span id='blockGen273' style='width:220px;padding: 15px;border-radius:20px;background: rgba(207,207,203,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
+<span id='blockGen270' style='background: rgba(232,240,213,0.8);'><img src="static/Icons_Final/fifa.png" width='250px'/></span><br />
+<span id='blockGen271' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,223,204,0.8);' onclick='register_single_event(22)'><h3>Register</h3></span>
+<span id='blockGen272' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,225,214,0.8);' onclick='getPage("Fifa","Fifa_specifications")'><h3>specifications</h3></span>
+<span id='blockGen273' style='width:220px;padding: 15px;border-radius:20px;background: rgba(215,248,243,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1006,12 +1006,12 @@ Robotics has advanced in ways that we had never imagined.</span><span id="blockG
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideAoe'>
-<span id='blockGen278' style='background: rgba(230,222,244,0.8);'><img src="static/Icons_Final/aoe3.png" width='250px'/></span><br />
-<span id='blockGen279' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,250,214,0.8);' onclick='register_single_event(23)'><h3>Register</h3></span>
-<span id='blockGen280' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,211,236,0.8);' onclick='getPage("Aoe","Aoe_specifications")'><h3>specifications</h3></span>
-<span id='blockGen281' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,240,219,0.8);' onclick='getPage("Aoe","Aoe_generalrules")'><h3>generalrules</h3></span>
-<span id='blockGen282' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(207,210,235,0.8);' onclick='getPage("Aoe","Aoe_gamesetting")'><h3>gamesetting</h3></span>
-<span id='blockGen283' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,215,222,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
+<span id='blockGen278' style='background: rgba(236,231,222,0.8);'><img src="static/Icons_Final/aoe3.png" width='250px'/></span><br />
+<span id='blockGen279' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,225,207,0.8);' onclick='register_single_event(23)'><h3>Register</h3></span>
+<span id='blockGen280' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,212,200,0.8);' onclick='getPage("Aoe","Aoe_specifications")'><h3>specifications</h3></span>
+<span id='blockGen281' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,220,242,0.8);' onclick='getPage("Aoe","Aoe_generalrules")'><h3>generalrules</h3></span>
+<span id='blockGen282' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,239,205,0.8);' onclick='getPage("Aoe","Aoe_gamesetting")'><h3>gamesetting</h3></span>
+<span id='blockGen283' style='width:220px;padding: 15px;border-radius:20px;background: rgba(205,249,232,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1049,10 +1049,10 @@ All teams must report at the venue at the time informed.Teams not reporting with
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideNFS'>
-<span id='blockGen294' style='background: rgba(206,214,232,0.8);'><img src="static/Icons_Final/nfs.png" width='250px'/></span><br />
-<span id='blockGen295' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,216,208,0.8);' onclick='register_single_event(24)'><h3>Register</h3></span>
-<span id='blockGen296' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,224,233,0.8);' onclick='getPage("NFS","NFS_specifications")'><h3>specifications</h3></span>
-<span id='blockGen297' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,214,217,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
+<span id='blockGen294' style='background: rgba(228,211,248,0.8);'><img src="static/Icons_Final/nfs.png" width='250px'/></span><br />
+<span id='blockGen295' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,202,240,0.8);' onclick='register_single_event(24)'><h3>Register</h3></span>
+<span id='blockGen296' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,218,228,0.8);' onclick='getPage("NFS","NFS_specifications")'><h3>specifications</h3></span>
+<span id='blockGen297' style='width:220px;padding: 15px;border-radius:20px;background: rgba(202,215,211,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1076,11 +1076,11 @@ All teams must report at the venue at the time informed.Teams not reporting with
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sidedota'>
-<span id='blockGen302' style='background: rgba(227,243,212,0.8);'><img src="static/Icons_Final/dOTA.png" width='250px'/></span><br />
-<span id='blockGen303' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,221,244,0.8);' onclick='register_single_event(25)'><h3>Register</h3></span>
-<span id='blockGen304' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,208,214,0.8);' onclick='getPage("dota","dota_specifications")'><h3>specifications</h3></span>
-<span id='blockGen305' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,226,229,0.8);' onclick='getPage("dota","dota_gamesetting")'><h3>gamesetting</h3></span>
-<span id='blockGen306' style='width:220px;padding: 15px;border-radius:20px;background: rgba(235,211,204,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
+<span id='blockGen302' style='background: rgba(247,225,201,0.8);'><img src="static/Icons_Final/dOTA.png" width='250px'/></span><br />
+<span id='blockGen303' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,243,231,0.8);' onclick='register_single_event(25)'><h3>Register</h3></span>
+<span id='blockGen304' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,214,230,0.8);' onclick='getPage("dota","dota_specifications")'><h3>specifications</h3></span>
+<span id='blockGen305' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,224,223,0.8);' onclick='getPage("dota","dota_gamesetting")'><h3>gamesetting</h3></span>
+<span id='blockGen306' style='width:220px;padding: 15px;border-radius:20px;background: rgba(240,201,243,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1111,12 +1111,12 @@ Version : Tournament </span><span id="blockGen311" style="width: 650px;font-size
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideCounterStrike'>
-<span id='blockGen314' style='background: rgba(201,202,204,0.8);'><img src="static/Icons_Final/COUNTERSTRIKE.png" width='250px'/></span><br />
-<span id='blockGen315' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,202,230,0.8);' onclick='register_single_event(26)'><h3>Register</h3></span>
-<span id='blockGen316' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,226,216,0.8);' onclick='getPage("CounterStrike","CounterStrike_specifications")'><h3>specifications</h3></span>
-<span id='blockGen317' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,211,221,0.8);' onclick='getPage("CounterStrike","CounterStrike_serversettings")'><h3>serversettings</h3></span>
-<span id='blockGen318' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,211,210,0.8);' onclick='getPage("CounterStrike","CounterStrike_penalties")'><h3>penalties</h3></span>
-<span id='blockGen319' style='width:220px;padding: 15px;border-radius:20px;background: rgba(245,217,213,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
+<span id='blockGen314' style='background: rgba(239,244,216,0.8);'><img src="static/Icons_Final/COUNTERSTRIKE.png" width='250px'/></span><br />
+<span id='blockGen315' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,244,246,0.8);' onclick='register_single_event(26)'><h3>Register</h3></span>
+<span id='blockGen316' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,207,234,0.8);' onclick='getPage("CounterStrike","CounterStrike_specifications")'><h3>specifications</h3></span>
+<span id='blockGen317' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,224,203,0.8);' onclick='getPage("CounterStrike","CounterStrike_serversettings")'><h3>serversettings</h3></span>
+<span id='blockGen318' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,222,205,0.8);' onclick='getPage("CounterStrike","CounterStrike_penalties")'><h3>penalties</h3></span>
+<span id='blockGen319' style='width:220px;padding: 15px;border-radius:20px;background: rgba(216,221,226,0.8);'><h3>Contact: Satish Chandra <br/> 9740523343</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1154,10 +1154,10 @@ Version : Tournament </span><span id="blockGen311" style="width: 650px;font-size
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideInnovating_Mining'>
-<span id='blockGen330' style='background: rgba(202,232,204,0.8);'><img src="static/Icons_Final/mining_innovation.png" width='250px'/></span><br />
-<span id='blockGen331' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,218,214,0.8);' onclick='register_single_event(1)'><h3>Register</h3></span>
-<span id='blockGen332' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,222,212,0.8);' onclick='getPage("Innovating_Mining","Innovating_Mining_Description")'><h3>Description</h3></span>
-<span id='blockGen333' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,233,237,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
+<span id='blockGen330' style='background: rgba(243,210,205,0.8);'><img src="static/Icons_Final/mining_innovation.png" width='250px'/></span><br />
+<span id='blockGen331' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,204,207,0.8);' onclick='register_single_event(1)'><h3>Register</h3></span>
+<span id='blockGen332' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,225,240,0.8);' onclick='getPage("Innovating_Mining","Innovating_Mining_Description")'><h3>Description</h3></span>
+<span id='blockGen333' style='width:220px;padding: 15px;border-radius:20px;background: rgba(247,214,200,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1181,10 +1181,10 @@ Students are allowed to think without any bounds on creative grounds to come up 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideAdverse_Mining_Problem'>
-<span id='blockGen338' style='background: rgba(208,232,232,0.8);'><img src="static/Icons_Final/adverse_mining.png" width='250px'/></span><br />
-<span id='blockGen339' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,214,218,0.8);' onclick='register_single_event(2)'><h3>Register</h3></span>
-<span id='blockGen340' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,228,229,0.8);' onclick='getPage("Adverse_Mining_Problem","Adverse_Mining_Problem_Description")'><h3>Description</h3></span>
-<span id='blockGen341' style='width:220px;padding: 15px;border-radius:20px;background: rgba(207,244,222,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
+<span id='blockGen338' style='background: rgba(218,211,245,0.8);'><img src="static/Icons_Final/adverse_mining.png" width='250px'/></span><br />
+<span id='blockGen339' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,220,223,0.8);' onclick='register_single_event(2)'><h3>Register</h3></span>
+<span id='blockGen340' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,213,249,0.8);' onclick='getPage("Adverse_Mining_Problem","Adverse_Mining_Problem_Description")'><h3>Description</h3></span>
+<span id='blockGen341' style='width:220px;padding: 15px;border-radius:20px;background: rgba(226,237,247,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1208,10 +1208,10 @@ This is a power point presentation round where the participants can choose a rea
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMine_Quest'>
-<span id='blockGen346' style='background: rgba(223,201,249,0.8);'><img src="static/Icons_Final/Mine_Quest.png" width='250px'/></span><br />
-<span id='blockGen347' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,232,226,0.8);' onclick='register_single_event(3)'><h3>Register</h3></span>
-<span id='blockGen348' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,239,226,0.8);' onclick='getPage("Mine_Quest","Mine_Quest_Description")'><h3>Description</h3></span>
-<span id='blockGen349' style='width:220px;padding: 15px;border-radius:20px;background: rgba(225,234,208,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
+<span id='blockGen346' style='background: rgba(201,218,226,0.8);'><img src="static/Icons_Final/Mine_Quest.png" width='250px'/></span><br />
+<span id='blockGen347' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,239,214,0.8);' onclick='register_single_event(3)'><h3>Register</h3></span>
+<span id='blockGen348' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,240,232,0.8);' onclick='getPage("Mine_Quest","Mine_Quest_Description")'><h3>Description</h3></span>
+<span id='blockGen349' style='width:220px;padding: 15px;border-radius:20px;background: rgba(240,211,221,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1235,10 +1235,10 @@ This is a quiz event which consists of four rounds. </span><span id="blockGen351
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideHang-Man'>
-<span id='blockGen354' style='background: rgba(206,227,244,0.8);'><img src="static/Icons_Final/HANGMAN_MAIN.png" width='250px'/></span><br />
-<span id='blockGen355' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,233,209,0.8);' onclick='register_single_event(4)'><h3>Register</h3></span>
-<span id='blockGen356' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,242,241,0.8);' onclick='getPage("Hang-Man","Hang-Man_Description")'><h3>Description</h3></span>
-<span id='blockGen357' style='width:220px;padding: 15px;border-radius:20px;background: rgba(231,215,248,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
+<span id='blockGen354' style='background: rgba(207,247,212,0.8);'><img src="static/Icons_Final/HANGMAN_MAIN.png" width='250px'/></span><br />
+<span id='blockGen355' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,242,205,0.8);' onclick='register_single_event(4)'><h3>Register</h3></span>
+<span id='blockGen356' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,220,231,0.8);' onclick='getPage("Hang-Man","Hang-Man_Description")'><h3>Description</h3></span>
+<span id='blockGen357' style='width:220px;padding: 15px;border-radius:20px;background: rgba(237,204,223,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1262,10 +1262,10 @@ This round is based on the actual hangman game where the participants will be gi
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideBlast_Mine_Ventilation'>
-<span id='blockGen362' style='background: rgba(204,239,245,0.8);'><img src="static/Icons_Final/blast_mine_ventilation.png" width='250px'/></span><br />
-<span id='blockGen363' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,227,232,0.8);' onclick='register_single_event(5)'><h3>Register</h3></span>
-<span id='blockGen364' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,204,207,0.8);' onclick='getPage("Blast_Mine_Ventilation","Blast_Mine_Ventilation_Description")'><h3>Description</h3></span>
-<span id='blockGen365' style='width:220px;padding: 15px;border-radius:20px;background: rgba(225,248,248,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
+<span id='blockGen362' style='background: rgba(239,227,228,0.8);'><img src="static/Icons_Final/blast_mine_ventilation.png" width='250px'/></span><br />
+<span id='blockGen363' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,249,245,0.8);' onclick='register_single_event(5)'><h3>Register</h3></span>
+<span id='blockGen364' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,242,219,0.8);' onclick='getPage("Blast_Mine_Ventilation","Blast_Mine_Ventilation_Description")'><h3>Description</h3></span>
+<span id='blockGen365' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,231,238,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1289,10 +1289,10 @@ A very simple round in which the participants will be given the required data pe
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMine_Rush'>
-<span id='blockGen370' style='background: rgba(207,243,201,0.8);'><img src="static/Icons_Final/Mine_Rush.png" width='250px'/></span><br />
-<span id='blockGen371' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,246,224,0.8);' onclick='register_single_event(6)'><h3>Register</h3></span>
-<span id='blockGen372' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,219,243,0.8);' onclick='getPage("Mine_Rush","Mine_Rush_Description")'><h3>Description</h3></span>
-<span id='blockGen373' style='width:220px;padding: 15px;border-radius:20px;background: rgba(249,246,246,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
+<span id='blockGen370' style='background: rgba(207,208,250,0.8);'><img src="static/Icons_Final/Mine_Rush.png" width='250px'/></span><br />
+<span id='blockGen371' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,203,249,0.8);' onclick='register_single_event(6)'><h3>Register</h3></span>
+<span id='blockGen372' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,241,232,0.8);' onclick='getPage("Mine_Rush","Mine_Rush_Description")'><h3>Description</h3></span>
+<span id='blockGen373' style='width:220px;padding: 15px;border-radius:20px;background: rgba(201,247,212,0.8);'><h3>Contact: Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1316,9 +1316,9 @@ A treasure hunt kind of an event where the teams decode a series of clues to rea
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideTech_Speak'>
-<span id='blockGen378' style='background: rgba(228,220,240,0.8);'><img src="static/Icons_Final/Techspeak.png" width='250px'/></span><br />
-<span id='blockGen379' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,218,202,0.8);' onclick='getPage("Tech_Speak","Tech_Speak_Description")'><h3>Description</h3></span>
-<span id='blockGen380' style='width:220px;padding: 15px;border-radius:20px;background: rgba(243,237,250,0.8);'><h3>Contact: Aashish Mane - +91 9945049097</h3></span>
+<span id='blockGen378' style='background: rgba(224,222,210,0.8);'><img src="static/Icons_Final/Techspeak.png" width='250px'/></span><br />
+<span id='blockGen379' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,206,203,0.8);' onclick='getPage("Tech_Speak","Tech_Speak_Description")'><h3>Description</h3></span>
+<span id='blockGen380' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,233,235,0.8);'><h3>Contact: Aashish Mane - +91 9945049097</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1338,10 +1338,10 @@ TechSpeak is a series of a video conferences with eminent personalities who are 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideFantastiCity'>
-<span id='blockGen384' style='background: rgba(248,206,237,0.8);'><img src="static/Icons_Final/fantasticity2.png" width='250px'/></span><br />
-<span id='blockGen385' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,224,217,0.8);' onclick='register_single_event(41)'><h3>Register</h3></span>
-<span id='blockGen386' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,229,236,0.8);' onclick='getPage("FantastiCity","FantastiCity_Description")'><h3>Description</h3></span>
-<span id='blockGen387' style='width:220px;padding: 15px;border-radius:20px;background: rgba(219,215,201,0.8);'><h3>Contact: B.THEJA<br/>+919480435585<br/>bnmtheja@gmail.com<br/>Sushil Kumar<br/>+918867345233<br/>sushil199124@gmail.com<br/></h3></span>
+<span id='blockGen384' style='background: rgba(202,234,246,0.8);'><img src="static/Icons_Final/fantasticity2.png" width='250px'/></span><br />
+<span id='blockGen385' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(204,227,219,0.8);' onclick='register_single_event(41)'><h3>Register</h3></span>
+<span id='blockGen386' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,206,228,0.8);' onclick='getPage("FantastiCity","FantastiCity_Description")'><h3>Description</h3></span>
+<span id='blockGen387' style='width:220px;padding: 15px;border-radius:20px;background: rgba(244,217,250,0.8);'><h3>Contact: B.THEJA<br/>+919480435585<br/>bnmtheja@gmail.com<br/>Sushil Kumar<br/>+918867345233<br/>sushil199124@gmail.com<br/></h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1365,10 +1365,10 @@ With the advent of advanced satellites and various reconnaissance airplanes, it 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideCOLOSSUS'>
-<span id='blockGen392' style='background: rgba(243,220,238,0.8);'><img src="static/Icons_Final/Colossus.png" width='250px'/></span><br />
-<span id='blockGen393' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,208,210,0.8);' onclick='register_single_event(42)'><h3>Register</h3></span>
-<span id='blockGen394' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,227,200,0.8);' onclick='getPage("COLOSSUS","COLOSSUS_Description")'><h3>Description</h3></span>
-<span id='blockGen395' style='width:220px;padding: 15px;border-radius:20px;background: rgba(206,249,216,0.8);'><h3>Contact: Mohan Krishna.T<br/>+917411918682<br/>krishnamohan651@gmail.com<br/>Sushil Kumar<br/>+918867345233<br/>sushil199124@gmail.com<br/></h3></span>
+<span id='blockGen392' style='background: rgba(204,208,215,0.8);'><img src="static/Icons_Final/Colossus.png" width='250px'/></span><br />
+<span id='blockGen393' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,221,225,0.8);' onclick='register_single_event(42)'><h3>Register</h3></span>
+<span id='blockGen394' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,239,237,0.8);' onclick='getPage("COLOSSUS","COLOSSUS_Description")'><h3>Description</h3></span>
+<span id='blockGen395' style='width:220px;padding: 15px;border-radius:20px;background: rgba(233,208,234,0.8);'><h3>Contact: Mohan Krishna.T<br/>+917411918682<br/>krishnamohan651@gmail.com<br/>Sushil Kumar<br/>+918867345233<br/>sushil199124@gmail.com<br/></h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1392,13 +1392,13 @@ What is the first thing people think about when it comes to Civil Engineering? Y
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideArchitect'>
-<span id='blockGen400' style='background: rgba(224,238,241,0.8);'><img src="static/Icons_Final/Architect2.png" width='250px'/></span><br />
-<span id='blockGen401' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,222,205,0.8);' onclick='register_single_event(43)'><h3>Register</h3></span>
-<span id='blockGen402' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,214,236,0.8);' onclick='getPage("Architect","Architect_Description")'><h3>Description</h3></span>
-<span id='blockGen403' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,232,228,0.8);' onclick='getPage("Architect","Architect_format")'><h3>format</h3></span>
-<span id='blockGen404' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,246,250,0.8);' onclick='getPage("Architect","Architect_Eligibility")'><h3>Eligibility</h3></span>
-<span id='blockGen405' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,218,224,0.8);' onclick='getPage("Architect","Architect_Home")'><h3>Home</h3></span>
-<span id='blockGen406' style='width:220px;padding: 15px;border-radius:20px;background: rgba(203,248,220,0.8);'><h3>Contact: Mohan Krishna.T<br/>+917411918682<br/>krishnamohan651@gmail.com<br/>Sushil Kumar<br/>+918867345233<br/>sushil199124@gmail.com<br/></h3></span>
+<span id='blockGen400' style='background: rgba(248,235,226,0.8);'><img src="static/Icons_Final/Architect2.png" width='250px'/></span><br />
+<span id='blockGen401' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,225,245,0.8);' onclick='register_single_event(43)'><h3>Register</h3></span>
+<span id='blockGen402' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,240,215,0.8);' onclick='getPage("Architect","Architect_Description")'><h3>Description</h3></span>
+<span id='blockGen403' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,245,241,0.8);' onclick='getPage("Architect","Architect_format")'><h3>format</h3></span>
+<span id='blockGen404' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,220,238,0.8);' onclick='getPage("Architect","Architect_Eligibility")'><h3>Eligibility</h3></span>
+<span id='blockGen405' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,212,229,0.8);' onclick='getPage("Architect","Architect_Home")'><h3>Home</h3></span>
+<span id='blockGen406' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,208,231,0.8);'><h3>Contact: Mohan Krishna.T<br/>+917411918682<br/>krishnamohan651@gmail.com<br/>Sushil Kumar<br/>+918867345233<br/>sushil199124@gmail.com<br/></h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1443,10 +1443,10 @@ Civil Engineering is an art; a profession of creative ability and logic. Archite
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideNirvahana'>
-<span id='blockGen420' style='background: rgba(228,204,230,0.8);'><img src="static/Icons_Final/Nirvana.png" width='250px'/></span><br />
-<span id='blockGen421' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,209,230,0.8);' onclick='register_single_event(44)'><h3>Register</h3></span>
-<span id='blockGen422' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,231,246,0.8);' onclick='getPage("Nirvahana","Nirvahana_Home")'><h3>Home</h3></span>
-<span id='blockGen423' style='width:220px;padding: 15px;border-radius:20px;background: rgba(230,213,234,0.8);'><h3>Contact: Mohan Krishna.T<br/>+917411918682<br/>krishnamohan651@gmail.com<br/>Niveditha.J<br/>+917795543699<br/>niveditha811@gmail.com</h3></span>
+<span id='blockGen420' style='background: rgba(244,215,202,0.8);'><img src="static/Icons_Final/Nirvana.png" width='250px'/></span><br />
+<span id='blockGen421' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,224,216,0.8);' onclick='register_single_event(44)'><h3>Register</h3></span>
+<span id='blockGen422' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,226,201,0.8);' onclick='getPage("Nirvahana","Nirvahana_Home")'><h3>Home</h3></span>
+<span id='blockGen423' style='width:220px;padding: 15px;border-radius:20px;background: rgba(203,214,247,0.8);'><h3>Contact: Mohan Krishna.T<br/>+917411918682<br/>krishnamohan651@gmail.com<br/>Niveditha.J<br/>+917795543699<br/>niveditha811@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1470,12 +1470,12 @@ A concern for the environment, a passion for design, a desire to innovate… Nir
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMindbend'>
-<span id='blockGen428' style='background: rgba(248,212,209,0.8);'><img src="static/Icons_Final/mindbend.png" width='250px'/></span><br />
-<span id='blockGen429' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,216,249,0.8);' onclick='register_single_event(62)'><h3>Register</h3></span>
-<span id='blockGen430' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(207,230,217,0.8);' onclick='getPage("Mindbend","Mindbend_eligibility")'><h3>eligibility</h3></span>
-<span id='blockGen431' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,248,242,0.8);' onclick='getPage("Mindbend","Mindbend_Description")'><h3>Description</h3></span>
-<span id='blockGen432' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,221,207,0.8);' onclick='getPage("Mindbend","Mindbend_format")'><h3>format</h3></span>
-<span id='blockGen433' style='width:220px;padding: 15px;border-radius:20px;background: rgba(228,243,241,0.8);'><h3>Contact: B. THEJA <br/>+919480435585 <br/>bnmtheja@gmail.com <br/>Padmini M <br/>+918123463865 <br/>pm27178@gmail.com</h3></span>
+<span id='blockGen428' style='background: rgba(241,234,229,0.8);'><img src="static/Icons_Final/mindbend.png" width='250px'/></span><br />
+<span id='blockGen429' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,226,239,0.8);' onclick='register_single_event(62)'><h3>Register</h3></span>
+<span id='blockGen430' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,242,231,0.8);' onclick='getPage("Mindbend","Mindbend_eligibility")'><h3>eligibility</h3></span>
+<span id='blockGen431' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,227,248,0.8);' onclick='getPage("Mindbend","Mindbend_Description")'><h3>Description</h3></span>
+<span id='blockGen432' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,208,214,0.8);' onclick='getPage("Mindbend","Mindbend_format")'><h3>format</h3></span>
+<span id='blockGen433' style='width:220px;padding: 15px;border-radius:20px;background: rgba(203,248,211,0.8);'><h3>Contact: B. THEJA <br/>+919480435585 <br/>bnmtheja@gmail.com <br/>Padmini M <br/>+918123463865 <br/>pm27178@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1513,9 +1513,9 @@ The quiz will be an amalgamation of visual rounds and written tests, full of int
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSky_Lanterns'>
-<span id='blockGen444' style='background: rgba(228,247,216,0.8);'><img src="static/Icons_Final/sky_lantern.png" width='250px'/></span><br />
-<span id='blockGen445' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,207,240,0.8);' onclick='getPage("Sky_Lanterns","Sky_Lanterns_Description")'><h3>Description</h3></span>
-<span id='blockGen446' style='width:220px;padding: 15px;border-radius:20px;background: rgba(237,223,211,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
+<span id='blockGen444' style='background: rgba(243,239,205,0.8);'><img src="static/Icons_Final/sky_lantern.png" width='250px'/></span><br />
+<span id='blockGen445' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,218,249,0.8);' onclick='getPage("Sky_Lanterns","Sky_Lanterns_Description")'><h3>Description</h3></span>
+<span id='blockGen446' style='width:220px;padding: 15px;border-radius:20px;background: rgba(239,243,218,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1535,13 +1535,13 @@ Chief Guest may light sky lanterns along with students and dignitaries
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideGreen_Inovation_Challenge'>
-<span id='blockGen450' style='background: rgba(218,230,246,0.8);'><img src="static/Icons_Final/Green_Product_Design.png" width='250px'/></span><br />
-<span id='blockGen451' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,225,236,0.8);' onclick='register_single_event(51)'><h3>Register</h3></span>
-<span id='blockGen452' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,224,244,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_Description")'><h3>Description</h3></span>
-<span id='blockGen453' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,230,203,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_FAQS")'><h3>FAQS</h3></span>
-<span id='blockGen454' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,246,218,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_Problem Statement")'><h3>Problem Statement</h3></span>
-<span id='blockGen455' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,209,213,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_Rules and guidelines")'><h3>Rules and guidelines</h3></span>
-<span id='blockGen456' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,226,223,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
+<span id='blockGen450' style='background: rgba(218,242,203,0.8);'><img src="static/Icons_Final/Green_Product_Design.png" width='250px'/></span><br />
+<span id='blockGen451' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,240,205,0.8);' onclick='register_single_event(51)'><h3>Register</h3></span>
+<span id='blockGen452' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,208,239,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_Description")'><h3>Description</h3></span>
+<span id='blockGen453' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,234,212,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_FAQS")'><h3>FAQS</h3></span>
+<span id='blockGen454' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,240,234,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_Problem Statement")'><h3>Problem Statement</h3></span>
+<span id='blockGen455' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(214,214,210,0.8);' onclick='getPage("Green_Inovation_Challenge","Green_Inovation_Challenge_Rules and guidelines")'><h3>Rules and guidelines</h3></span>
+<span id='blockGen456' style='width:220px;padding: 15px;border-radius:20px;background: rgba(224,218,247,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1586,15 +1586,15 @@ Preliminary round: <br />Candidates interested to participate should register at
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSparsh'>
-<span id='blockGen469' style='background: rgba(209,236,214,0.8);'><img src="static/Icons_Final/saprsh.png" width='250px'/></span><br />
-<span id='blockGen470' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,214,233,0.8);' onclick='register_single_event(52)'><h3>Register</h3></span>
-<span id='blockGen471' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,243,229,0.8);' onclick='getPage("Sparsh","Sparsh_Rules")'><h3>Rules</h3></span>
-<span id='blockGen472' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,218,207,0.8);' onclick='getPage("Sparsh","Sparsh_problemstatement")'><h3>problemstatement</h3></span>
-<span id='blockGen473' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,226,212,0.8);' onclick='getPage("Sparsh","Sparsh_Description")'><h3>Description</h3></span>
-<span id='blockGen474' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,249,225,0.8);' onclick='getPage("Sparsh","Sparsh_Introduction")'><h3>Introduction</h3></span>
-<span id='blockGen475' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,218,219,0.8);' onclick='getPage("Sparsh","Sparsh_NeedOfTheHour")'><h3>NeedOfTheHour</h3></span>
-<span id='blockGen476' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,217,233,0.8);' onclick='getPage("Sparsh","Sparsh_Faqs")'><h3>Faqs</h3></span>
-<span id='blockGen477' style='width:220px;padding: 15px;border-radius:20px;background: rgba(212,240,207,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
+<span id='blockGen469' style='background: rgba(202,206,220,0.8);'><img src="static/Icons_Final/saprsh.png" width='250px'/></span><br />
+<span id='blockGen470' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,237,212,0.8);' onclick='register_single_event(52)'><h3>Register</h3></span>
+<span id='blockGen471' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(213,210,224,0.8);' onclick='getPage("Sparsh","Sparsh_Rules")'><h3>Rules</h3></span>
+<span id='blockGen472' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(244,206,219,0.8);' onclick='getPage("Sparsh","Sparsh_problemstatement")'><h3>problemstatement</h3></span>
+<span id='blockGen473' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,246,235,0.8);' onclick='getPage("Sparsh","Sparsh_Description")'><h3>Description</h3></span>
+<span id='blockGen474' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,210,239,0.8);' onclick='getPage("Sparsh","Sparsh_Introduction")'><h3>Introduction</h3></span>
+<span id='blockGen475' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,237,241,0.8);' onclick='getPage("Sparsh","Sparsh_NeedOfTheHour")'><h3>NeedOfTheHour</h3></span>
+<span id='blockGen476' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,227,234,0.8);' onclick='getPage("Sparsh","Sparsh_Faqs")'><h3>Faqs</h3></span>
+<span id='blockGen477' style='width:220px;padding: 15px;border-radius:20px;background: rgba(226,221,229,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1653,10 +1653,10 @@ Q. Can teams be formed by mixing students of different disciplines/departments?<
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideThe_Last_Word'>
-<span id='blockGen497' style='background: rgba(229,250,236,0.8);'><img src="static/Icons_Final/lastword.png" width='250px'/></span><br />
-<span id='blockGen498' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,218,209,0.8);' onclick='register_single_event(53)'><h3>Register</h3></span>
-<span id='blockGen499' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,231,209,0.8);' onclick='getPage("The_Last_Word","The_Last_Word_Description")'><h3>Description</h3></span>
-<span id='blockGen500' style='width:220px;padding: 15px;border-radius:20px;background: rgba(240,226,237,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
+<span id='blockGen497' style='background: rgba(243,225,217,0.8);'><img src="static/Icons_Final/lastword.png" width='250px'/></span><br />
+<span id='blockGen498' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,225,239,0.8);' onclick='register_single_event(53)'><h3>Register</h3></span>
+<span id='blockGen499' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,219,237,0.8);' onclick='getPage("The_Last_Word","The_Last_Word_Description")'><h3>Description</h3></span>
+<span id='blockGen500' style='width:220px;padding: 15px;border-radius:20px;background: rgba(222,201,228,0.8);'><h3>Contact: Ashwin K S<br/> 9483523498</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1680,10 +1680,10 @@ Description: The final event to take place during Engineer, The Last Word is an 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMockstock'>
-<span id='blockGen505' style='background: rgba(238,228,224,0.8);'><img src="static/Icons_Final/mockstock.png" width='250px'/></span><br />
-<span id='blockGen506' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,214,250,0.8);' onclick='getPage("Mockstock","Mockstock_Description")'><h3>Description</h3></span>
-<span id='blockGen507' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,202,229,0.8);' onclick='getPage("Mockstock","Mockstock_Details")'><h3>Details</h3></span>
-<span id='blockGen508' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,227,233,0.8);'><h3>Contact: Shashank Ajmera<br />08867838479</h3></span>
+<span id='blockGen505' style='background: rgba(226,250,233,0.8);'><img src="static/Icons_Final/mockstock.png" width='250px'/></span><br />
+<span id='blockGen506' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,236,238,0.8);' onclick='getPage("Mockstock","Mockstock_Description")'><h3>Description</h3></span>
+<span id='blockGen507' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,218,223,0.8);' onclick='getPage("Mockstock","Mockstock_Details")'><h3>Details</h3></span>
+<span id='blockGen508' style='width:220px;padding: 15px;border-radius:20px;background: rgba(214,245,220,0.8);'><h3>Contact: Shashank Ajmera<br />08867838479</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1699,7 +1699,7 @@ Mockstock is an online share trading event. The game is simple; you will be give
 <span id="blockGen512" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>
 </span>
 <span id="blockGen514" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >
- The event starts on 21st of October, and goes on till 25th of October. (The main event has been postponed due to technical difficulties).However, the trial versions will be put up soon (before 21st) for the users to get used to the environment.</span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" > The event will start on evenings, at 7:00 pm, and go on till 1:00 am, exactly like the American market, for all four days. </span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" > The trading will be inter-day, i.e., whatever your portfolio is at the end of the day, the same will be carried on to the next day. Hence, the final winner will be the one who makes the maximum cumulative profit after four days. </span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" ><b>Prizes:</b><br /> Winner gets an amount of Rs. 5000/-</span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >
+ The event starts on 21st of October, and goes on till 25th of October. (The main event has been postponed due to technical difficulties).However, the trial versions will be put up soon (before 21st) for the users to get used to the environment.</span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" > The event will start on evenings, at 7:00 pm, and go on till 1:00 am, exactly like the American market, for all four days. </span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" > Click here to go to event Page: <a href='mockstock.meteor.com target='_blank' />mockstock.meteor.com</a></span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" > The trading will be inter-day, i.e., whatever your portfolio is at the end of the day, the same will be carried on to the next day. Hence, the final winner will be the one who makes the maximum cumulative profit after four days. </span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" ><b>Prizes:</b><br /> Winner gets an amount of Rs. 5000/-</span><span id="blockGen513" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >
 </span>
 </span>
 </span>
@@ -1710,10 +1710,10 @@ Mockstock is an online share trading event. The game is simple; you will be give
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideEthical_Hacking_by_TechDefence'>
-<span id='blockGen515' style='background: rgba(226,247,210,0.8);'><img src="static/Icons_Final/HACKING.png" width='250px'/></span><br />
-<span id='blockGen516' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,229,245,0.8);' onclick='register_single_event(63)'><h3>Register</h3></span>
-<span id='blockGen517' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,200,246,0.8);' onclick='getPage("Ethical_Hacking_by_TechDefence","Ethical_Hacking_by_TechDefence_Description")'><h3>Description</h3></span>
-<span id='blockGen518' style='width:220px;padding: 15px;border-radius:20px;background: rgba(245,234,223,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen515' style='background: rgba(249,247,241,0.8);'><img src="static/Icons_Final/HACKING.png" width='250px'/></span><br />
+<span id='blockGen516' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(214,221,211,0.8);' onclick='register_single_event(63)'><h3>Register</h3></span>
+<span id='blockGen517' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,223,219,0.8);' onclick='getPage("Ethical_Hacking_by_TechDefence","Ethical_Hacking_by_TechDefence_Description")'><h3>Description</h3></span>
+<span id='blockGen518' style='width:220px;padding: 15px;border-radius:20px;background: rgba(239,216,208,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1737,10 +1737,10 @@ INTRODUCTION </span><span id="blockGen520" style="width: 650px;font-size:20px;li
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideAugmented_Reality'>
-<span id='blockGen523' style='background: rgba(231,248,223,0.8);'><img src="static/Icons_Final/AUGMENTED.png" width='250px'/></span><br />
-<span id='blockGen524' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,228,243,0.8);' onclick='register_single_event(64)'><h3>Register</h3></span>
-<span id='blockGen525' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,237,222,0.8);' onclick='getPage("Augmented_Reality","Augmented_Reality_Description")'><h3>Description</h3></span>
-<span id='blockGen526' style='width:220px;padding: 15px;border-radius:20px;background: rgba(246,207,235,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen523' style='background: rgba(213,216,214,0.8);'><img src="static/Icons_Final/AUGMENTED.png" width='250px'/></span><br />
+<span id='blockGen524' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,222,225,0.8);' onclick='register_single_event(64)'><h3>Register</h3></span>
+<span id='blockGen525' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,238,222,0.8);' onclick='getPage("Augmented_Reality","Augmented_Reality_Description")'><h3>Description</h3></span>
+<span id='blockGen526' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,250,225,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1764,10 +1764,10 @@ INTRODUCTION </span><span id="blockGen520" style="width: 650px;font-size:20px;li
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='side3D_Photography'>
-<span id='blockGen531'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(241,234,229,0.8);'><h1 style='text-align:center;font-family: acens;'>3D Photography</h1></button></span><br />
-<span id='blockGen532' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,227,220,0.8);' onclick='register_single_event(68)'><h3>Register</h3></span>
-<span id='blockGen533' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,234,232,0.8);' onclick='getPage("3D_Photography","3D_Photography_Description")'><h3>Description</h3></span>
-<span id='blockGen534' style='width:220px;padding: 15px;border-radius:20px;background: rgba(230,205,227,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen531'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(206,202,205,0.8);'><h1 style='text-align:center;font-family: acens;'>3D Photography</h1></button></span><br />
+<span id='blockGen532' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,238,221,0.8);' onclick='register_single_event(68)'><h3>Register</h3></span>
+<span id='blockGen533' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,250,248,0.8);' onclick='getPage("3D_Photography","3D_Photography_Description")'><h3>Description</h3></span>
+<span id='blockGen534' style='width:220px;padding: 15px;border-radius:20px;background: rgba(224,226,231,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1791,14 +1791,14 @@ INTRODUCTION </span><span id="blockGen520" style="width: 650px;font-size:20px;li
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideRC_Aircraft_Design_and_Fabrication'>
-<span id='blockGen539' style='background: rgba(242,235,233,0.8);'><img src="static/Icons_Final/RC_Aircraft.png" width='250px'/></span><br />
-<span id='blockGen540' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,200,211,0.8);' onclick='register_single_event(65)'><h3>Register</h3></span>
-<span id='blockGen541' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,235,216,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Workshop Details")'><h3>Workshop Details</h3></span>
-<span id='blockGen542' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,210,243,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Workshop Specialties")'><h3>Workshop Specialties</h3></span>
-<span id='blockGen543' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,223,234,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Description")'><h3>Description</h3></span>
-<span id='blockGen544' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,230,209,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Kit Contents")'><h3>Kit Contents</h3></span>
-<span id='blockGen545' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,236,228,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Workshop Structure")'><h3>Workshop Structure</h3></span>
-<span id='blockGen546' style='width:220px;padding: 15px;border-radius:20px;background: rgba(234,247,248,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen539' style='background: rgba(209,247,237,0.8);'><img src="static/Icons_Final/RC_Aircraft.png" width='250px'/></span><br />
+<span id='blockGen540' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,240,219,0.8);' onclick='register_single_event(65)'><h3>Register</h3></span>
+<span id='blockGen541' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,236,212,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Workshop Details")'><h3>Workshop Details</h3></span>
+<span id='blockGen542' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,218,200,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Workshop Specialties")'><h3>Workshop Specialties</h3></span>
+<span id='blockGen543' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,249,201,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Description")'><h3>Description</h3></span>
+<span id='blockGen544' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,246,228,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Kit Contents")'><h3>Kit Contents</h3></span>
+<span id='blockGen545' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,216,207,0.8);' onclick='getPage("RC_Aircraft_Design_and_Fabrication","RC_Aircraft_Design_and_Fabrication_Workshop Structure")'><h3>Workshop Structure</h3></span>
+<span id='blockGen546' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,203,241,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1850,10 +1850,10 @@ The workshop is divided into 4 modules: • Understanding Flight </span><span id
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideHumanoid_Robot'>
-<span id='blockGen563' style='background: rgba(223,239,212,0.8);'><img src="static/Icons_Final/ROBOTICS.png" width='250px'/></span><br />
-<span id='blockGen564' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,233,250,0.8);' onclick='register_single_event(66)'><h3>Register</h3></span>
-<span id='blockGen565' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,216,234,0.8);' onclick='getPage("Humanoid_Robot","Humanoid_Robot_Description")'><h3>Description</h3></span>
-<span id='blockGen566' style='width:220px;padding: 15px;border-radius:20px;background: rgba(219,248,219,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen563' style='background: rgba(218,203,217,0.8);'><img src="static/Icons_Final/ROBOTICS.png" width='250px'/></span><br />
+<span id='blockGen564' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,245,204,0.8);' onclick='register_single_event(66)'><h3>Register</h3></span>
+<span id='blockGen565' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,203,229,0.8);' onclick='getPage("Humanoid_Robot","Humanoid_Robot_Description")'><h3>Description</h3></span>
+<span id='blockGen566' style='width:220px;padding: 15px;border-radius:20px;background: rgba(215,226,216,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1877,15 +1877,15 @@ The workshop is divided into 4 modules: • Understanding Flight </span><span id
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideAndroid Application Development'>
-<span id='blockGen571' style='background: rgba(228,218,230,0.8);'><img src="static/Icons_Final/Android.png" width='250px'/></span><br />
-<span id='blockGen572' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,231,246,0.8);' onclick='register_single_event(67)'><h3>Register</h3></span>
-<span id='blockGen573' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,209,227,0.8);' onclick='getPage("Android Application Development","Android Application Development_Workshop Details")'><h3>Workshop Details</h3></span>
-<span id='blockGen574' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,211,229,0.8);' onclick='getPage("Android Application Development","Android Application Development_Description")'><h3>Description</h3></span>
-<span id='blockGen575' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,249,209,0.8);' onclick='getPage("Android Application Development","Android Application Development_Other Material")'><h3>Other Material</h3></span>
-<span id='blockGen576' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,221,207,0.8);' onclick='getPage("Android Application Development","Android Application Development_Workshop Specialities")'><h3>Workshop Specialities</h3></span>
-<span id='blockGen577' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,248,202,0.8);' onclick='getPage("Android Application Development","Android Application Development_Workshop structure")'><h3>Workshop structure</h3></span>
-<span id='blockGen578' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,218,202,0.8);' onclick='getPage("Android Application Development","Android Application Development_Software")'><h3>Software</h3></span>
-<span id='blockGen579' style='width:220px;padding: 15px;border-radius:20px;background: rgba(245,244,206,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen571' style='background: rgba(207,205,207,0.8);'><img src="static/Icons_Final/Android.png" width='250px'/></span><br />
+<span id='blockGen572' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(213,201,249,0.8);' onclick='register_single_event(67)'><h3>Register</h3></span>
+<span id='blockGen573' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,248,217,0.8);' onclick='getPage("Android Application Development","Android Application Development_Workshop Details")'><h3>Workshop Details</h3></span>
+<span id='blockGen574' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,242,237,0.8);' onclick='getPage("Android Application Development","Android Application Development_Description")'><h3>Description</h3></span>
+<span id='blockGen575' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,212,248,0.8);' onclick='getPage("Android Application Development","Android Application Development_Other Material")'><h3>Other Material</h3></span>
+<span id='blockGen576' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,226,202,0.8);' onclick='getPage("Android Application Development","Android Application Development_Workshop Specialities")'><h3>Workshop Specialities</h3></span>
+<span id='blockGen577' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,205,247,0.8);' onclick='getPage("Android Application Development","Android Application Development_Workshop structure")'><h3>Workshop structure</h3></span>
+<span id='blockGen578' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,244,201,0.8);' onclick='getPage("Android Application Development","Android Application Development_Software")'><h3>Software</h3></span>
+<span id='blockGen579' style='width:220px;padding: 15px;border-radius:20px;background: rgba(201,226,208,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -1944,15 +1944,15 @@ Software used to design and develop Android Applications</span><span id="blockGe
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideBridge_Design_and_Fabrication'>
-<span id='blockGen599' style='background: rgba(205,250,221,0.8);'><img src="static/Icons_Final/Bridge_design.png" width='250px'/></span><br />
-<span id='blockGen600' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,235,240,0.8);' onclick='register_single_event(69)'><h3>Register</h3></span>
-<span id='blockGen601' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,242,204,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Course Details")'><h3>Course Details</h3></span>
-<span id='blockGen602' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,247,207,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Awards")'><h3>Awards</h3></span>
-<span id='blockGen603' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,220,241,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Description")'><h3>Description</h3></span>
-<span id='blockGen604' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,240,238,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Course Content")'><h3>Course Content</h3></span>
-<span id='blockGen605' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,246,242,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Workshop structure")'><h3>Workshop structure</h3></span>
-<span id='blockGen606' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,244,228,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Outcomes")'><h3>Outcomes</h3></span>
-<span id='blockGen607' style='width:220px;padding: 15px;border-radius:20px;background: rgba(234,242,217,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
+<span id='blockGen599' style='background: rgba(200,234,213,0.8);'><img src="static/Icons_Final/Bridge_design.png" width='250px'/></span><br />
+<span id='blockGen600' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,245,215,0.8);' onclick='register_single_event(69)'><h3>Register</h3></span>
+<span id='blockGen601' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,212,226,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Course Details")'><h3>Course Details</h3></span>
+<span id='blockGen602' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,234,238,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Awards")'><h3>Awards</h3></span>
+<span id='blockGen603' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,250,215,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Description")'><h3>Description</h3></span>
+<span id='blockGen604' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,248,237,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Course Content")'><h3>Course Content</h3></span>
+<span id='blockGen605' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,242,223,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Workshop structure")'><h3>Workshop structure</h3></span>
+<span id='blockGen606' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,234,231,0.8);' onclick='getPage("Bridge_Design_and_Fabrication","Bridge_Design_and_Fabrication_Outcomes")'><h3>Outcomes</h3></span>
+<span id='blockGen607' style='width:220px;padding: 15px;border-radius:20px;background: rgba(203,233,215,0.8);'><h3>Contact: Manasij(+91 9738731680)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2011,13 +2011,13 @@ Certificate of participation from Civil Simplified to all the participants</span
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMindBend'>
-<span id='blockGen627' style='background: rgba(220,246,232,0.8);'><img src="static/Icons_Final/mindbend.png" width='250px'/></span><br />
-<span id='blockGen628' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,216,250,0.8);' onclick='register_single_event(45)'><h3>Register</h3></span>
-<span id='blockGen629' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,202,219,0.8);' onclick='getPage("MindBend","MindBend_ROUND 4")'><h3>ROUND 4</h3></span>
-<span id='blockGen630' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,234,210,0.8);' onclick='getPage("MindBend","MindBend_ROUND 3")'><h3>ROUND 3</h3></span>
-<span id='blockGen631' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,230,248,0.8);' onclick='getPage("MindBend","MindBend_ROUND 2")'><h3>ROUND 2</h3></span>
-<span id='blockGen632' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,231,250,0.8);' onclick='getPage("MindBend","MindBend_ROUND 1")'><h3>ROUND 1</h3></span>
-<span id='blockGen633' style='width:220px;padding: 15px;border-radius:20px;background: rgba(248,206,250,0.8);'><h3>Contact: B. THEJA<br/>+919480435585<br/>bnmtheja@gmail.com<br/>Padmini M<br/>+918123463865<br/>pm27178@gmail.com</h3></span>
+<span id='blockGen627' style='background: rgba(222,224,224,0.8);'><img src="static/Icons_Final/mindbend.png" width='250px'/></span><br />
+<span id='blockGen628' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,234,245,0.8);' onclick='register_single_event(45)'><h3>Register</h3></span>
+<span id='blockGen629' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,250,216,0.8);' onclick='getPage("MindBend","MindBend_ROUND 4")'><h3>ROUND 4</h3></span>
+<span id='blockGen630' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,225,200,0.8);' onclick='getPage("MindBend","MindBend_ROUND 3")'><h3>ROUND 3</h3></span>
+<span id='blockGen631' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,241,246,0.8);' onclick='getPage("MindBend","MindBend_ROUND 2")'><h3>ROUND 2</h3></span>
+<span id='blockGen632' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,210,210,0.8);' onclick='getPage("MindBend","MindBend_ROUND 1")'><h3>ROUND 1</h3></span>
+<span id='blockGen633' style='width:220px;padding: 15px;border-radius:20px;background: rgba(246,220,243,0.8);'><h3>Contact: B. THEJA<br/>+919480435585<br/>bnmtheja@gmail.com<br/>Padmini M<br/>+918123463865<br/>pm27178@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2062,10 +2062,10 @@ Certificate of participation from Civil Simplified to all the participants</span
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideHR_Event'>
-<span id='blockGen647' style='background: rgba(212,221,201,0.8);'><img src="static/Icons_Final/HR.png" width='250px'/></span><br />
-<span id='blockGen648' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,238,241,0.8);' onclick='register_single_event(60)'><h3>Register</h3></span>
-<span id='blockGen649' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,212,240,0.8);' onclick='getPage("HR_Event","HR_Event_Description")'><h3>Description</h3></span>
-<span id='blockGen650' style='width:220px;padding: 15px;border-radius:20px;background: rgba(242,248,215,0.8);'><h3>Contact: Salman - 08904390686<br/>\ Aditya - 07353643231</h3></span>
+<span id='blockGen647' style='background: rgba(202,222,224,0.8);'><img src="static/Icons_Final/HR.png" width='250px'/></span><br />
+<span id='blockGen648' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,241,225,0.8);' onclick='register_single_event(60)'><h3>Register</h3></span>
+<span id='blockGen649' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,211,225,0.8);' onclick='getPage("HR_Event","HR_Event_Description")'><h3>Description</h3></span>
+<span id='blockGen650' style='width:220px;padding: 15px;border-radius:20px;background: rgba(211,211,217,0.8);'><h3>Contact: Salman - 08904390686<br/>\ Aditya - 07353643231</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2089,10 +2089,10 @@ Certificate of participation from Civil Simplified to all the participants</span
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMarkenza'>
-<span id='blockGen655' style='background: rgba(238,245,246,0.8);'><img src="static/Icons_Final/MARKENZA.png" width='250px'/></span><br />
-<span id='blockGen656' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,214,228,0.8);' onclick='register_single_event(38)'><h3>Register</h3></span>
-<span id='blockGen657' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(214,226,203,0.8);' onclick='getPage("Markenza","Markenza_Description")'><h3>Description</h3></span>
-<span id='blockGen658' style='width:220px;padding: 15px;border-radius:20px;background: rgba(239,225,222,0.8);'><h3>Contact: Salman Usman <br/>salman.usman91@gmail.com</h3></span>
+<span id='blockGen655' style='background: rgba(232,239,201,0.8);'><img src="static/Icons_Final/MARKENZA.png" width='250px'/></span><br />
+<span id='blockGen656' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(207,217,207,0.8);' onclick='register_single_event(38)'><h3>Register</h3></span>
+<span id='blockGen657' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,233,210,0.8);' onclick='getPage("Markenza","Markenza_Description")'><h3>Description</h3></span>
+<span id='blockGen658' style='width:220px;padding: 15px;border-radius:20px;background: rgba(243,231,208,0.8);'><h3>Contact: Salman Usman <br/>salman.usman91@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2116,10 +2116,10 @@ Certificate of participation from Civil Simplified to all the participants</span
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideFinance_Event'>
-<span id='blockGen663' style='background: rgba(217,201,201,0.8);'><img src="static/Icons_Final/Finance.png" width='250px'/></span><br />
-<span id='blockGen664' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,228,240,0.8);' onclick='register_single_event(61)'><h3>Register</h3></span>
-<span id='blockGen665' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,213,234,0.8);' onclick='getPage("Finance_Event","Finance_Event_Description")'><h3>Description</h3></span>
-<span id='blockGen666' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,242,250,0.8);'><h3>Contact: Salman - 08904390686<br/>\ Aditya - 07353643231</h3></span>
+<span id='blockGen663' style='background: rgba(221,249,228,0.8);'><img src="static/Icons_Final/Finance.png" width='250px'/></span><br />
+<span id='blockGen664' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,236,237,0.8);' onclick='register_single_event(61)'><h3>Register</h3></span>
+<span id='blockGen665' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,211,225,0.8);' onclick='getPage("Finance_Event","Finance_Event_Description")'><h3>Description</h3></span>
+<span id='blockGen666' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,204,245,0.8);'><h3>Contact: Salman - 08904390686<br/>\ Aditya - 07353643231</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2143,11 +2143,11 @@ Certificate of participation from Civil Simplified to all the participants</span
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSimplineer'>
-<span id='blockGen671' style='background: rgba(231,214,238,0.8);'><img src="static/Icons_Final/SIMPLINEER.png" width='250px'/></span><br />
-<span id='blockGen672' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,243,230,0.8);' onclick='register_single_event(40)'><h3>Register</h3></span>
-<span id='blockGen673' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,236,210,0.8);' onclick='getPage("Simplineer","Simplineer_Proceedings")'><h3>Proceedings</h3></span>
-<span id='blockGen674' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,227,208,0.8);' onclick='getPage("Simplineer","Simplineer_Description")'><h3>Description</h3></span>
-<span id='blockGen675' style='width:220px;padding: 15px;border-radius:20px;background: rgba(215,239,238,0.8);'><h3>Contact: Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)</h3></span>
+<span id='blockGen671' style='background: rgba(230,208,215,0.8);'><img src="static/Icons_Final/SIMPLINEER.png" width='250px'/></span><br />
+<span id='blockGen672' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,234,217,0.8);' onclick='register_single_event(40)'><h3>Register</h3></span>
+<span id='blockGen673' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,211,220,0.8);' onclick='getPage("Simplineer","Simplineer_Proceedings")'><h3>Proceedings</h3></span>
+<span id='blockGen674' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,203,234,0.8);' onclick='getPage("Simplineer","Simplineer_Description")'><h3>Description</h3></span>
+<span id='blockGen675' style='width:220px;padding: 15px;border-radius:20px;background: rgba(239,210,206,0.8);'><h3>Contact: Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2178,13 +2178,13 @@ Certificate of participation from Civil Simplified to all the participants</span
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideIndustry_Defined_Problem'>
-<span id='blockGen681' style='background: rgba(242,250,222,0.8);'><img src="static/Icons_Final/IDP.png" width='250px'/></span><br />
-<span id='blockGen682' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,201,249,0.8);' onclick='register_single_event(32)'><h3>Register</h3></span>
-<span id='blockGen683' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,247,204,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Description")'><h3>Description</h3></span>
-<span id='blockGen684' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(244,201,201,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Problem Statement")'><h3>Problem Statement</h3></span>
-<span id='blockGen685' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,234,238,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Rules_and_Regulations")'><h3>Rules_and_Regulations</h3></span>
-<span id='blockGen686' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(239,221,239,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Rounds")'><h3>Rounds</h3></span>
-<span id='blockGen687' style='width:220px;padding: 15px;border-radius:20px;background: rgba(250,234,207,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
+<span id='blockGen681' style='background: rgba(233,206,206,0.8);'><img src="static/Icons_Final/IDP.png" width='250px'/></span><br />
+<span id='blockGen682' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,228,217,0.8);' onclick='register_single_event(32)'><h3>Register</h3></span>
+<span id='blockGen683' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(207,244,216,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Description")'><h3>Description</h3></span>
+<span id='blockGen684' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,237,202,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Problem Statement")'><h3>Problem Statement</h3></span>
+<span id='blockGen685' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(213,242,244,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Rules_and_Regulations")'><h3>Rules_and_Regulations</h3></span>
+<span id='blockGen686' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,214,204,0.8);' onclick='getPage("Industry_Defined_Problem","Industry_Defined_Problem_Rounds")'><h3>Rounds</h3></span>
+<span id='blockGen687' style='width:220px;padding: 15px;border-radius:20px;background: rgba(212,223,203,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2229,12 +2229,12 @@ First(Abstract for the event): A brief write up about the solution to the proble
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideContraption'>
-<span id='blockGen701'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(248,237,250,0.8);'><h1 style='text-align:center;font-family: acens;'>Contraption</h1></button></span><br />
-<span id='blockGen702' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,208,217,0.8);' onclick='register_single_event(70)'><h3>Register</h3></span>
-<span id='blockGen703' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,223,212,0.8);' onclick='getPage("Contraption","Contraption_Introduction")'><h3>Introduction</h3></span>
-<span id='blockGen704' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,215,208,0.8);' onclick='getPage("Contraption","Contraption_Problem Statement")'><h3>Problem Statement</h3></span>
-<span id='blockGen705' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,200,248,0.8);' onclick='getPage("Contraption","Contraption_Rules")'><h3>Rules</h3></span>
-<span id='blockGen706' style='width:220px;padding: 15px;border-radius:20px;background: rgba(240,247,229,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
+<span id='blockGen701'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(222,241,237,0.8);'><h1 style='text-align:center;font-family: acens;'>Contraption</h1></button></span><br />
+<span id='blockGen702' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,218,203,0.8);' onclick='register_single_event(70)'><h3>Register</h3></span>
+<span id='blockGen703' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,231,203,0.8);' onclick='getPage("Contraption","Contraption_Introduction")'><h3>Introduction</h3></span>
+<span id='blockGen704' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,208,211,0.8);' onclick='getPage("Contraption","Contraption_Problem Statement")'><h3>Problem Statement</h3></span>
+<span id='blockGen705' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,246,239,0.8);' onclick='getPage("Contraption","Contraption_Rules")'><h3>Rules</h3></span>
+<span id='blockGen706' style='width:220px;padding: 15px;border-radius:20px;background: rgba(222,246,243,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2272,13 +2272,13 @@ Participation will be in groups not exceeding four members. An abstract comprisi
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideThe_Portal'>
-<span id='blockGen717' style='background: rgba(209,238,230,0.8);'><img src="static/Icons_Final/the_portal.png" width='250px'/></span><br />
-<span id='blockGen718' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,200,240,0.8);' onclick='register_single_event(33)'><h3>Register</h3></span>
-<span id='blockGen719' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,248,207,0.8);' onclick='getPage("The_Portal","The_Portal_Description")'><h3>Description</h3></span>
-<span id='blockGen720' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,250,206,0.8);' onclick='getPage("The_Portal","The_Portal_FAQ")'><h3>FAQ</h3></span>
-<span id='blockGen721' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,206,250,0.8);' onclick='getPage("The_Portal","The_Portal_Round 2")'><h3>Round 2</h3></span>
-<span id='blockGen722' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,239,249,0.8);' onclick='getPage("The_Portal","The_Portal_Round 1")'><h3>Round 1</h3></span>
-<span id='blockGen723' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,242,207,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
+<span id='blockGen717' style='background: rgba(209,205,214,0.8);'><img src="static/Icons_Final/the_portal.png" width='250px'/></span><br />
+<span id='blockGen718' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,205,241,0.8);' onclick='register_single_event(33)'><h3>Register</h3></span>
+<span id='blockGen719' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,207,218,0.8);' onclick='getPage("The_Portal","The_Portal_Description")'><h3>Description</h3></span>
+<span id='blockGen720' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,226,225,0.8);' onclick='getPage("The_Portal","The_Portal_FAQ")'><h3>FAQ</h3></span>
+<span id='blockGen721' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,244,236,0.8);' onclick='getPage("The_Portal","The_Portal_Round 2")'><h3>Round 2</h3></span>
+<span id='blockGen722' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,236,247,0.8);' onclick='getPage("The_Portal","The_Portal_Round 1")'><h3>Round 1</h3></span>
+<span id='blockGen723' style='width:220px;padding: 15px;border-radius:20px;background: rgba(247,229,220,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2323,12 +2323,12 @@ Chemical process simulation software helps broaden an engineer&rsquo;s capabilit
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideChemical_Breakdown'>
-<span id='blockGen737' style='background: rgba(235,243,244,0.8);'><img src="static/Icons_Final/Chemical_Breakdown.png" width='250px'/></span><br />
-<span id='blockGen738' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,205,205,0.8);' onclick='register_single_event(34)'><h3>Register</h3></span>
-<span id='blockGen739' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,238,216,0.8);' onclick='getPage("Chemical_Breakdown","Chemical_Breakdown_Introduction")'><h3>Introduction</h3></span>
-<span id='blockGen740' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,237,227,0.8);' onclick='getPage("Chemical_Breakdown","Chemical_Breakdown_rules")'><h3>rules</h3></span>
-<span id='blockGen741' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(239,239,234,0.8);' onclick='getPage("Chemical_Breakdown","Chemical_Breakdown_rounds")'><h3>rounds</h3></span>
-<span id='blockGen742' style='width:220px;padding: 15px;border-radius:20px;background: rgba(247,247,228,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
+<span id='blockGen737' style='background: rgba(247,216,220,0.8);'><img src="static/Icons_Final/Chemical_Breakdown.png" width='250px'/></span><br />
+<span id='blockGen738' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,221,240,0.8);' onclick='register_single_event(34)'><h3>Register</h3></span>
+<span id='blockGen739' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,234,209,0.8);' onclick='getPage("Chemical_Breakdown","Chemical_Breakdown_Introduction")'><h3>Introduction</h3></span>
+<span id='blockGen740' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,216,237,0.8);' onclick='getPage("Chemical_Breakdown","Chemical_Breakdown_rules")'><h3>rules</h3></span>
+<span id='blockGen741' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,216,226,0.8);' onclick='getPage("Chemical_Breakdown","Chemical_Breakdown_rounds")'><h3>rounds</h3></span>
+<span id='blockGen742' style='width:220px;padding: 15px;border-radius:20px;background: rgba(246,216,210,0.8);'><h3>Contact: Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2366,10 +2366,10 @@ The First round will comprise of a Written Quiz testing concepts of +2 Level Che
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideInscription'>
-<span id='blockGen753' style='background: rgba(202,228,219,0.8);'><img src="static/Icons_Final/INSCRIPTION.png" width='250px'/></span><br />
-<span id='blockGen754' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,242,213,0.8);' onclick='register_single_event(54)'><h3>Register</h3></span>
-<span id='blockGen755' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,202,244,0.8);' onclick='getPage("Inscription","Inscription_Description")'><h3>Description</h3></span>
-<span id='blockGen756' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,246,225,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
+<span id='blockGen753' style='background: rgba(212,218,241,0.8);'><img src="static/Icons_Final/INSCRIPTION.png" width='250px'/></span><br />
+<span id='blockGen754' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,239,202,0.8);' onclick='register_single_event(54)'><h3>Register</h3></span>
+<span id='blockGen755' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,227,225,0.8);' onclick='getPage("Inscription","Inscription_Description")'><h3>Description</h3></span>
+<span id='blockGen756' style='width:220px;padding: 15px;border-radius:20px;background: rgba(200,241,219,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2393,10 +2393,10 @@ Inscription is the international online programming contest of Engineer.</span><
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideECTF_-_Capture_the_Flag'>
-<span id='blockGen761' style='background: rgba(235,221,240,0.8);'><img src="static/Icons_Final/ECTF.png" width='250px'/></span><br />
-<span id='blockGen762' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,207,214,0.8);' onclick='register_single_event(55)'><h3>Register</h3></span>
-<span id='blockGen763' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,205,218,0.8);' onclick='getPage("ECTF_-_Capture_the_Flag","ECTF_-_Capture_the_Flag_Description")'><h3>Description</h3></span>
-<span id='blockGen764' style='width:220px;padding: 15px;border-radius:20px;background: rgba(247,240,236,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
+<span id='blockGen761' style='background: rgba(212,221,227,0.8);'><img src="static/Icons_Final/ECTF.png" width='250px'/></span><br />
+<span id='blockGen762' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,226,212,0.8);' onclick='register_single_event(55)'><h3>Register</h3></span>
+<span id='blockGen763' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,212,210,0.8);' onclick='getPage("ECTF_-_Capture_the_Flag","ECTF_-_Capture_the_Flag_Description")'><h3>Description</h3></span>
+<span id='blockGen764' style='width:220px;padding: 15px;border-radius:20px;background: rgba(218,242,248,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2420,10 +2420,10 @@ ECTF is a ethical hacking competition, where you set up your Base (a virtual mac
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideVirtual_Bounty'>
-<span id='blockGen769' style='background: rgba(219,247,236,0.8);'><img src="static/Icons_Final/VIRTUAL_BOUNTY2.png" width='250px'/></span><br />
-<span id='blockGen770' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,242,244,0.8);' onclick='register_single_event(56)'><h3>Register</h3></span>
-<span id='blockGen771' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,232,231,0.8);' onclick='getPage("Virtual_Bounty","Virtual_Bounty_Description")'><h3>Description</h3></span>
-<span id='blockGen772' style='width:220px;padding: 15px;border-radius:20px;background: rgba(228,230,215,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
+<span id='blockGen769' style='background: rgba(207,220,246,0.8);'><img src="static/Icons_Final/VIRTUAL_BOUNTY2.png" width='250px'/></span><br />
+<span id='blockGen770' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,200,204,0.8);' onclick='register_single_event(56)'><h3>Register</h3></span>
+<span id='blockGen771' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(244,221,235,0.8);' onclick='getPage("Virtual_Bounty","Virtual_Bounty_Description")'><h3>Description</h3></span>
+<span id='blockGen772' style='width:220px;padding: 15px;border-radius:20px;background: rgba(249,234,221,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2447,10 +2447,10 @@ Virtual Bounty is the online technical treasure hunt of Engineer, where the divi
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideKode_Kombat'>
-<span id='blockGen777' style='background: rgba(211,240,233,0.8);'><img src="static/Icons_Final/CODE_KOMBAT.png" width='250px'/></span><br />
-<span id='blockGen778' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,234,202,0.8);' onclick='register_single_event(57)'><h3>Register</h3></span>
-<span id='blockGen779' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,223,205,0.8);' onclick='getPage("Kode_Kombat","Kode_Kombat_Description")'><h3>Description</h3></span>
-<span id='blockGen780' style='width:220px;padding: 15px;border-radius:20px;background: rgba(220,242,226,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
+<span id='blockGen777' style='background: rgba(242,235,226,0.8);'><img src="static/Icons_Final/CODE_KOMBAT.png" width='250px'/></span><br />
+<span id='blockGen778' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,215,234,0.8);' onclick='register_single_event(57)'><h3>Register</h3></span>
+<span id='blockGen779' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,249,239,0.8);' onclick='getPage("Kode_Kombat","Kode_Kombat_Description")'><h3>Description</h3></span>
+<span id='blockGen780' style='width:220px;padding: 15px;border-radius:20px;background: rgba(204,222,214,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2474,10 +2474,10 @@ Kode Kombat is an Artificial Intelligence programming contest. It is an online e
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMarathon'>
-<span id='blockGen785' style='background: rgba(240,202,236,0.8);'><img src="static/Icons_Final/marathon_final.png" width='250px'/></span><br />
-<span id='blockGen786' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,248,209,0.8);' onclick='register_single_event(58)'><h3>Register</h3></span>
-<span id='blockGen787' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,231,232,0.8);' onclick='getPage("Marathon","Marathon_Description")'><h3>Description</h3></span>
-<span id='blockGen788' style='width:220px;padding: 15px;border-radius:20px;background: rgba(224,235,210,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
+<span id='blockGen785' style='background: rgba(201,229,244,0.8);'><img src="static/Icons_Final/marathon_final.png" width='250px'/></span><br />
+<span id='blockGen786' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,239,204,0.8);' onclick='register_single_event(58)'><h3>Register</h3></span>
+<span id='blockGen787' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,215,237,0.8);' onclick='getPage("Marathon","Marathon_Description")'><h3>Description</h3></span>
+<span id='blockGen788' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,217,215,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2501,10 +2501,10 @@ Marathon is an event that inculcates multiple tasks of varying difficulty coveri
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideRectify'>
-<span id='blockGen793' style='background: rgba(249,212,215,0.8);'><img src="static/Icons_Final/RECTIFY.png" width='250px'/></span><br />
-<span id='blockGen794' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,222,206,0.8);' onclick='register_single_event(59)'><h3>Register</h3></span>
-<span id='blockGen795' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,227,216,0.8);' onclick='getPage("Rectify","Rectify_Description")'><h3>Description</h3></span>
-<span id='blockGen796' style='width:220px;padding: 15px;border-radius:20px;background: rgba(242,201,223,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
+<span id='blockGen793' style='background: rgba(249,230,215,0.8);'><img src="static/Icons_Final/RECTIFY.png" width='250px'/></span><br />
+<span id='blockGen794' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,237,216,0.8);' onclick='register_single_event(59)'><h3>Register</h3></span>
+<span id='blockGen795' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,231,236,0.8);' onclick='getPage("Rectify","Rectify_Description")'><h3>Description</h3></span>
+<span id='blockGen796' style='width:220px;padding: 15px;border-radius:20px;background: rgba(229,204,227,0.8);'><h3>Contact: Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2528,10 +2528,10 @@ It’s time to scratch your Grey cells, it’s time to rectify! Rectify will tes
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sidemindBend'>
-<span id='blockGen801' style='background: rgba(228,211,218,0.8);'><img src="static/Icons_Final/mindbend.png" width='250px'/></span><br />
-<span id='blockGen802' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,236,213,0.8);' onclick='register_single_event(7)'><h3>Register</h3></span>
-<span id='blockGen803' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,208,226,0.8);' onclick='getPage("mindBend","mindBend_Description")'><h3>Description</h3></span>
-<span id='blockGen804' style='width:220px;padding: 15px;border-radius:20px;background: rgba(241,204,250,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
+<span id='blockGen801' style='background: rgba(244,238,210,0.8);'><img src="static/Icons_Final/mindbend.png" width='250px'/></span><br />
+<span id='blockGen802' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,212,241,0.8);' onclick='register_single_event(7)'><h3>Register</h3></span>
+<span id='blockGen803' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(239,220,204,0.8);' onclick='getPage("mindBend","mindBend_Description")'><h3>Description</h3></span>
+<span id='blockGen804' style='width:220px;padding: 15px;border-radius:20px;background: rgba(233,213,222,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2555,10 +2555,10 @@ Mindbend is a fun quiz for those who have an undying thirst to know more about m
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSEM_and_TEM_Expo'>
-<span id='blockGen809' style='background: rgba(234,231,245,0.8);'><img src="static/Icons_Final/SEMTEMExpo.png" width='250px'/></span><br />
-<span id='blockGen810' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,222,205,0.8);' onclick='register_single_event(8)'><h3>Register</h3></span>
-<span id='blockGen811' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,217,227,0.8);' onclick='getPage("SEM_and_TEM_Expo","SEM_and_TEM_Expo_Description")'><h3>Description</h3></span>
-<span id='blockGen812' style='width:220px;padding: 15px;border-radius:20px;background: rgba(248,235,200,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
+<span id='blockGen809' style='background: rgba(244,209,234,0.8);'><img src="static/Icons_Final/SEMTEMExpo.png" width='250px'/></span><br />
+<span id='blockGen810' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,241,209,0.8);' onclick='register_single_event(8)'><h3>Register</h3></span>
+<span id='blockGen811' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,200,239,0.8);' onclick='getPage("SEM_and_TEM_Expo","SEM_and_TEM_Expo_Description")'><h3>Description</h3></span>
+<span id='blockGen812' style='width:220px;padding: 15px;border-radius:20px;background: rgba(218,203,238,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2582,10 +2582,10 @@ The event’s agenda is to exhibit two Electron Microscopes which are the pride 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMetaMagic'>
-<span id='blockGen817' style='background: rgba(203,236,212,0.8);'><img src="static/Icons_Final/MetaMagic.png" width='250px'/></span><br />
-<span id='blockGen818' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,230,204,0.8);' onclick='register_single_event(9)'><h3>Register</h3></span>
-<span id='blockGen819' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,208,213,0.8);' onclick='getPage("MetaMagic","MetaMagic_Description")'><h3>Description</h3></span>
-<span id='blockGen820' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,225,234,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
+<span id='blockGen817' style='background: rgba(212,239,218,0.8);'><img src="static/Icons_Final/MetaMagic.png" width='250px'/></span><br />
+<span id='blockGen818' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,208,201,0.8);' onclick='register_single_event(9)'><h3>Register</h3></span>
+<span id='blockGen819' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,231,247,0.8);' onclick='getPage("MetaMagic","MetaMagic_Description")'><h3>Description</h3></span>
+<span id='blockGen820' style='width:220px;padding: 15px;border-radius:20px;background: rgba(219,231,201,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2609,11 +2609,11 @@ Metamagic is an exhibition of fascinating experiments designed to amaze even the
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideSEM_Photography_Contest'>
-<span id='blockGen825' style='background: rgba(226,231,206,0.8);'><img src="static/Icons_Final/SEMphotography.png" width='250px'/></span><br />
-<span id='blockGen826' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,237,210,0.8);' onclick='register_single_event(10)'><h3>Register</h3></span>
-<span id='blockGen827' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,237,200,0.8);' onclick='getPage("SEM_Photography_Contest","SEM_Photography_Contest_Description")'><h3>Description</h3></span>
-<span id='blockGen828' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,234,204,0.8);' onclick='getPage("SEM_Photography_Contest","SEM_Photography_Contest_Submissiion Format")'><h3>Submissiion Format</h3></span>
-<span id='blockGen829' style='width:220px;padding: 15px;border-radius:20px;background: rgba(215,216,244,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
+<span id='blockGen825' style='background: rgba(229,211,216,0.8);'><img src="static/Icons_Final/SEMphotography.png" width='250px'/></span><br />
+<span id='blockGen826' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,240,232,0.8);' onclick='register_single_event(10)'><h3>Register</h3></span>
+<span id='blockGen827' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,239,232,0.8);' onclick='getPage("SEM_Photography_Contest","SEM_Photography_Contest_Description")'><h3>Description</h3></span>
+<span id='blockGen828' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,240,202,0.8);' onclick='getPage("SEM_Photography_Contest","SEM_Photography_Contest_Submissiion Format")'><h3>Submissiion Format</h3></span>
+<span id='blockGen829' style='width:220px;padding: 15px;border-radius:20px;background: rgba(203,250,223,0.8);'><h3>Contact: Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2644,10 +2644,10 @@ A PDF file containing Caption, Photo and a description of maximum 100 words shou
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideProduct_Design_Challenge'>
-<span id='blockGen837' style='background: rgba(250,212,228,0.8);'><img src="static/Icons_Final/PRODUCT_DESIGN_123.png" width='250px'/></span><br />
-<span id='blockGen838' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,249,227,0.8);' onclick='register_single_event(11)'><h3>Register</h3></span>
-<span id='blockGen839' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(204,208,222,0.8);' onclick='getPage("Product_Design_Challenge","Product_Design_Challenge_Description")'><h3>Description</h3></span>
-<span id='blockGen840' style='width:220px;padding: 15px;border-radius:20px;background: rgba(239,210,242,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
+<span id='blockGen837' style='background: rgba(201,231,205,0.8);'><img src="static/Icons_Final/PRODUCT_DESIGN_123.png" width='250px'/></span><br />
+<span id='blockGen838' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(214,236,201,0.8);' onclick='register_single_event(11)'><h3>Register</h3></span>
+<span id='blockGen839' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,222,218,0.8);' onclick='getPage("Product_Design_Challenge","Product_Design_Challenge_Description")'><h3>Description</h3></span>
+<span id='blockGen840' style='width:220px;padding: 15px;border-radius:20px;background: rgba(208,219,222,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2671,10 +2671,10 @@ The competition aims to test how one can optimize a design and create a sustaina
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideCampus_Social_Innovision_Challenge'>
-<span id='blockGen845' style='background: rgba(231,209,247,0.8);'><img src="static/Icons_Final/campussocialinnovation.png" width='250px'/></span><br />
-<span id='blockGen846' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,235,212,0.8);' onclick='register_single_event(12)'><h3>Register</h3></span>
-<span id='blockGen847' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,246,224,0.8);' onclick='getPage("Campus_Social_Innovision_Challenge","Campus_Social_Innovision_Challenge_Description")'><h3>Description</h3></span>
-<span id='blockGen848' style='width:220px;padding: 15px;border-radius:20px;background: rgba(214,229,209,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
+<span id='blockGen845' style='background: rgba(248,206,216,0.8);'><img src="static/Icons_Final/campussocialinnovation.png" width='250px'/></span><br />
+<span id='blockGen846' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,206,214,0.8);' onclick='register_single_event(12)'><h3>Register</h3></span>
+<span id='blockGen847' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,246,212,0.8);' onclick='getPage("Campus_Social_Innovision_Challenge","Campus_Social_Innovision_Challenge_Description")'><h3>Description</h3></span>
+<span id='blockGen848' style='width:220px;padding: 15px;border-radius:20px;background: rgba(202,206,209,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2698,15 +2698,15 @@ The competition aims at solving problems within the campus of NITK-Surathkal.</s
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideCase_Study_challenge'>
-<span id='blockGen853' style='background: rgba(218,249,236,0.8);'><img src="static/Icons_Final/casestudychallenge.png" width='250px'/></span><br />
-<span id='blockGen854' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,246,222,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Case 2")'><h3>Case 2</h3></span>
-<span id='blockGen855' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,237,214,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Case 3")'><h3>Case 3</h3></span>
-<span id='blockGen856' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,211,247,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Description")'><h3>Description</h3></span>
-<span id='blockGen857' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(207,245,231,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Agenda")'><h3>Agenda</h3></span>
-<span id='blockGen858' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,211,250,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Introduction")'><h3>Introduction</h3></span>
-<span id='blockGen859' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,208,204,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Register")'><h3>Register</h3></span>
-<span id='blockGen860' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(244,213,219,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Case 1")'><h3>Case 1</h3></span>
-<span id='blockGen861' style='width:220px;padding: 15px;border-radius:20px;background: rgba(227,244,234,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
+<span id='blockGen853' style='background: rgba(212,211,235,0.8);'><img src="static/Icons_Final/casestudychallenge.png" width='250px'/></span><br />
+<span id='blockGen854' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,210,205,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Case 2")'><h3>Case 2</h3></span>
+<span id='blockGen855' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,221,233,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Case 3")'><h3>Case 3</h3></span>
+<span id='blockGen856' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,238,227,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Description")'><h3>Description</h3></span>
+<span id='blockGen857' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,221,250,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Agenda")'><h3>Agenda</h3></span>
+<span id='blockGen858' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(239,243,249,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Introduction")'><h3>Introduction</h3></span>
+<span id='blockGen859' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,212,231,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Register")'><h3>Register</h3></span>
+<span id='blockGen860' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(219,216,241,0.8);' onclick='getPage("Case_Study_challenge","Case_Study_challenge_Case 1")'><h3>Case 1</h3></span>
+<span id='blockGen861' style='width:220px;padding: 15px;border-radius:20px;background: rgba(205,228,219,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2768,10 +2768,10 @@ The <b>Intuit Case Study Challenge</b> provides the participants an opportunity 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideData_Analysis_Challange'>
-<span id='blockGen883' style='background: rgba(249,247,240,0.8);'><img src="static/Icons_Final/data_analysischallenge.png" width='250px'/></span><br />
-<span id='blockGen884' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,232,238,0.8);' onclick='register_single_event(14)'><h3>Register</h3></span>
-<span id='blockGen885' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,215,241,0.8);' onclick='getPage("Data_Analysis_Challange","Data_Analysis_Challange_Description")'><h3>Description</h3></span>
-<span id='blockGen886' style='width:220px;padding: 15px;border-radius:20px;background: rgba(231,200,224,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
+<span id='blockGen883' style='background: rgba(233,210,206,0.8);'><img src="static/Icons_Final/data_analysischallenge.png" width='250px'/></span><br />
+<span id='blockGen884' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,229,232,0.8);' onclick='register_single_event(14)'><h3>Register</h3></span>
+<span id='blockGen885' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,206,240,0.8);' onclick='getPage("Data_Analysis_Challange","Data_Analysis_Challange_Description")'><h3>Description</h3></span>
+<span id='blockGen886' style='width:220px;padding: 15px;border-radius:20px;background: rgba(218,225,213,0.8);'><h3>Contact: Neetesh Hegde <br/> 9483647944</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2795,9 +2795,9 @@ This competition will judge your potential to deal with huge databases similar t
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideBlue_Print'>
-<span id='blockGen891' style='background: rgba(235,249,241,0.8);'><img src="static/Icons_Final/BluePrint.png" width='250px'/></span><br />
-<span id='blockGen892' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,249,230,0.8);' onclick='getPage("Blue_Print","Blue_Print_Description")'><h3>Description</h3></span>
-<span id='blockGen893' style='width:220px;padding: 15px;border-radius:20px;background: rgba(225,201,222,0.8);'><h3>Contact: Raghavan<br/>+91-9590390285<br/>raghav10rogers@gmail.com</h3></span>
+<span id='blockGen891' style='background: rgba(223,221,215,0.8);'><img src="static/Icons_Final/BluePrint.png" width='250px'/></span><br />
+<span id='blockGen892' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,201,230,0.8);' onclick='getPage("Blue_Print","Blue_Print_Description")'><h3>Description</h3></span>
+<span id='blockGen893' style='width:220px;padding: 15px;border-radius:20px;background: rgba(220,208,250,0.8);'><h3>Contact: Raghavan<br/>+91-9590390285<br/>raghav10rogers@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2817,16 +2817,16 @@ This competition will judge your potential to deal with huge databases similar t
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideVelocity'>
-<span id='blockGen897' style='background: rgba(229,218,210,0.8);'><img src="static/Icons_Final/Velocity.png" width='250px'/></span><br />
-<span id='blockGen898' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,238,214,0.8);' onclick='register_single_event(27)'><h3>Register</h3></span>
-<span id='blockGen899' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,226,232,0.8);' onclick='getPage("Velocity","Velocity_General Rules")'><h3>General Rules</h3></span>
-<span id='blockGen900' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,244,219,0.8);' onclick='getPage("Velocity","Velocity_Event Format")'><h3>Event Format</h3></span>
-<span id='blockGen901' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,227,205,0.8);' onclick='getPage("Velocity","Velocity_Propulsion & Steering")'><h3>Propulsion & Steering</h3></span>
-<span id='blockGen902' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,207,248,0.8);' onclick='getPage("Velocity","Velocity_Car Specs")'><h3>Car Specs</h3></span>
-<span id='blockGen903' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,205,212,0.8);' onclick='getPage("Velocity","Velocity_Introduction")'><h3>Introduction</h3></span>
-<span id='blockGen904' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,249,247,0.8);' onclick='getPage("Velocity","Velocity_Arena Specs")'><h3>Arena Specs</h3></span>
-<span id='blockGen905' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,222,224,0.8);' onclick='getPage("Velocity","Velocity_Event Rules")'><h3>Event Rules</h3></span>
-<span id='blockGen906' style='width:220px;padding: 15px;border-radius:20px;background: rgba(239,234,228,0.8);'><h3>Contact: Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661</h3></span>
+<span id='blockGen897' style='background: rgba(222,203,227,0.8);'><img src="static/Icons_Final/Velocity.png" width='250px'/></span><br />
+<span id='blockGen898' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,220,225,0.8);' onclick='register_single_event(27)'><h3>Register</h3></span>
+<span id='blockGen899' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,204,212,0.8);' onclick='getPage("Velocity","Velocity_General Rules")'><h3>General Rules</h3></span>
+<span id='blockGen900' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(214,233,241,0.8);' onclick='getPage("Velocity","Velocity_Event Format")'><h3>Event Format</h3></span>
+<span id='blockGen901' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,222,218,0.8);' onclick='getPage("Velocity","Velocity_Propulsion & Steering")'><h3>Propulsion & Steering</h3></span>
+<span id='blockGen902' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,238,223,0.8);' onclick='getPage("Velocity","Velocity_Car Specs")'><h3>Car Specs</h3></span>
+<span id='blockGen903' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,235,232,0.8);' onclick='getPage("Velocity","Velocity_Introduction")'><h3>Introduction</h3></span>
+<span id='blockGen904' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,217,250,0.8);' onclick='getPage("Velocity","Velocity_Arena Specs")'><h3>Arena Specs</h3></span>
+<span id='blockGen905' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(221,211,223,0.8);' onclick='getPage("Velocity","Velocity_Event Rules")'><h3>Event Rules</h3></span>
+<span id='blockGen906' style='width:220px;padding: 15px;border-radius:20px;background: rgba(202,232,238,0.8);'><h3>Contact: Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2892,15 +2892,15 @@ The final 3 rounds will have races with multiple cars racing at a time.</span><s
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideProteus'>
-<span id='blockGen929' style='background: rgba(245,222,234,0.8);'><img src="static/Icons_Final/Proteus.png" width='250px'/></span><br />
-<span id='blockGen930' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,246,209,0.8);' onclick='register_single_event(28)'><h3>Register</h3></span>
-<span id='blockGen931' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,244,238,0.8);' onclick='getPage("Proteus","Proteus_Scoring")'><h3>Scoring</h3></span>
-<span id='blockGen932' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,222,242,0.8);' onclick='getPage("Proteus","Proteus_download")'><h3>download</h3></span>
-<span id='blockGen933' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,201,237,0.8);' onclick='getPage("Proteus","Proteus_Event Format")'><h3>Event Format</h3></span>
-<span id='blockGen934' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,235,247,0.8);' onclick='getPage("Proteus","Proteus_General Rules")'><h3>General Rules</h3></span>
-<span id='blockGen935' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,216,237,0.8);' onclick='getPage("Proteus","Proteus_Bot Specs")'><h3>Bot Specs</h3></span>
-<span id='blockGen936' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,219,227,0.8);' onclick='getPage("Proteus","Proteus_Event Rules")'><h3>Event Rules</h3></span>
-<span id='blockGen937' style='width:220px;padding: 15px;border-radius:20px;background: rgba(244,232,240,0.8);'><h3>Contact: Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661</h3></span>
+<span id='blockGen929' style='background: rgba(248,213,218,0.8);'><img src="static/Icons_Final/Proteus.png" width='250px'/></span><br />
+<span id='blockGen930' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,236,245,0.8);' onclick='register_single_event(28)'><h3>Register</h3></span>
+<span id='blockGen931' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,223,221,0.8);' onclick='getPage("Proteus","Proteus_Scoring")'><h3>Scoring</h3></span>
+<span id='blockGen932' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,201,232,0.8);' onclick='getPage("Proteus","Proteus_download")'><h3>download</h3></span>
+<span id='blockGen933' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(213,200,211,0.8);' onclick='getPage("Proteus","Proteus_Event Format")'><h3>Event Format</h3></span>
+<span id='blockGen934' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,236,229,0.8);' onclick='getPage("Proteus","Proteus_General Rules")'><h3>General Rules</h3></span>
+<span id='blockGen935' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,249,200,0.8);' onclick='getPage("Proteus","Proteus_Bot Specs")'><h3>Bot Specs</h3></span>
+<span id='blockGen936' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(243,210,213,0.8);' onclick='getPage("Proteus","Proteus_Event Rules")'><h3>Event Rules</h3></span>
+<span id='blockGen937' style='width:220px;padding: 15px;border-radius:20px;background: rgba(206,246,250,0.8);'><h3>Contact: Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -2959,16 +2959,16 @@ Time taken in round 1 = t1</span><span id="blockGen939" style="width: 650px;font
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sidePerfectMachine'>
-<span id='blockGen957' style='background: rgba(205,227,228,0.8);'><img src="static/Icons_Final/PerfectMachine.png" width='250px'/></span><br />
-<span id='blockGen958' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(208,248,247,0.8);' onclick='register_single_event(29)'><h3>Register</h3></span>
-<span id='blockGen959' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(225,211,223,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_arenaspecs")'><h3>arenaspecs</h3></span>
-<span id='blockGen960' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(231,230,232,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_eventformat")'><h3>eventformat</h3></span>
-<span id='blockGen961' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,212,211,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_judging")'><h3>judging</h3></span>
-<span id='blockGen962' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,213,212,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_specifications")'><h3>specifications</h3></span>
-<span id='blockGen963' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,249,245,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_generalrules")'><h3>generalrules</h3></span>
-<span id='blockGen964' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,244,235,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_mobility")'><h3>mobility</h3></span>
-<span id='blockGen965' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,208,247,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_download")'><h3>download</h3></span>
-<span id='blockGen966' style='width:220px;padding: 15px;border-radius:20px;background: rgba(205,208,216,0.8);'><h3>Contact: Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661</h3></span>
+<span id='blockGen957' style='background: rgba(200,229,241,0.8);'><img src="static/Icons_Final/PerfectMachine.png" width='250px'/></span><br />
+<span id='blockGen958' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,227,249,0.8);' onclick='register_single_event(29)'><h3>Register</h3></span>
+<span id='blockGen959' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(228,244,244,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_arenaspecs")'><h3>arenaspecs</h3></span>
+<span id='blockGen960' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(206,235,200,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_eventformat")'><h3>eventformat</h3></span>
+<span id='blockGen961' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,224,225,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_judging")'><h3>judging</h3></span>
+<span id='blockGen962' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,224,250,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_specifications")'><h3>specifications</h3></span>
+<span id='blockGen963' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,202,228,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_generalrules")'><h3>generalrules</h3></span>
+<span id='blockGen964' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,246,236,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_mobility")'><h3>mobility</h3></span>
+<span id='blockGen965' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,203,249,0.8);' onclick='getPage("PerfectMachine","PerfectMachine_download")'><h3>download</h3></span>
+<span id='blockGen966' style='width:220px;padding: 15px;border-radius:20px;background: rgba(241,232,224,0.8);'><h3>Contact: Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3034,21 +3034,21 @@ The students must carry valid student ID cards of their college which they will 
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideRobowars'>
-<span id='blockGen989' style='background: rgba(228,227,201,0.8);'><img src="static/Icons_Final/RoboWars.png" width='250px'/></span><br />
-<span id='blockGen990' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,210,244,0.8);' onclick='register_single_event(30)'><h3>Register</h3></span>
-<span id='blockGen991' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,228,216,0.8);' onclick='getPage("Robowars","Robowars_power")'><h3>power</h3></span>
-<span id='blockGen992' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,227,239,0.8);' onclick='getPage("Robowars","Robowars_mobility")'><h3>mobility</h3></span>
-<span id='blockGen993' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,206,208,0.8);' onclick='getPage("Robowars","Robowars_botspecs")'><h3>botspecs</h3></span>
-<span id='blockGen994' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,245,240,0.8);' onclick='getPage("Robowars","Robowars_eventrules")'><h3>eventrules</h3></span>
-<span id='blockGen995' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,238,201,0.8);' onclick='getPage("Robowars","Robowars_arenaspecs")'><h3>arenaspecs</h3></span>
-<span id='blockGen996' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,229,202,0.8);' onclick='getPage("Robowars","Robowars_eventformat")'><h3>eventformat</h3></span>
-<span id='blockGen997' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,248,213,0.8);' onclick='getPage("Robowars","Robowars_download")'><h3>download</h3></span>
-<span id='blockGen998' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,207,207,0.8);' onclick='getPage("Robowars","Robowars_weapon")'><h3>weapon</h3></span>
-<span id='blockGen999' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,216,205,0.8);' onclick='getPage("Robowars","Robowars_hydraulic")'><h3>hydraulic</h3></span>
-<span id='blockGen1000' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(234,226,246,0.8);' onclick='getPage("Robowars","Robowars_safety")'><h3>safety</h3></span>
-<span id='blockGen1001' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,225,247,0.8);' onclick='getPage("Robowars","Robowars_judging")'><h3>judging</h3></span>
-<span id='blockGen1002' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(247,234,213,0.8);' onclick='getPage("Robowars","Robowars_generalrules")'><h3>generalrules</h3></span>
-<span id='blockGen1003' style='width:220px;padding: 15px;border-radius:20px;background: rgba(222,223,223,0.8);'><h3>Contact: Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661</h3></span>
+<span id='blockGen989' style='background: rgba(212,204,245,0.8);'><img src="static/Icons_Final/RoboWars.png" width='250px'/></span><br />
+<span id='blockGen990' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,209,228,0.8);' onclick='register_single_event(30)'><h3>Register</h3></span>
+<span id='blockGen991' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,226,245,0.8);' onclick='getPage("Robowars","Robowars_power")'><h3>power</h3></span>
+<span id='blockGen992' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,236,216,0.8);' onclick='getPage("Robowars","Robowars_mobility")'><h3>mobility</h3></span>
+<span id='blockGen993' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(241,238,245,0.8);' onclick='getPage("Robowars","Robowars_botspecs")'><h3>botspecs</h3></span>
+<span id='blockGen994' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,234,231,0.8);' onclick='getPage("Robowars","Robowars_eventrules")'><h3>eventrules</h3></span>
+<span id='blockGen995' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,224,236,0.8);' onclick='getPage("Robowars","Robowars_arenaspecs")'><h3>arenaspecs</h3></span>
+<span id='blockGen996' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,216,203,0.8);' onclick='getPage("Robowars","Robowars_eventformat")'><h3>eventformat</h3></span>
+<span id='blockGen997' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,208,216,0.8);' onclick='getPage("Robowars","Robowars_download")'><h3>download</h3></span>
+<span id='blockGen998' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(248,224,226,0.8);' onclick='getPage("Robowars","Robowars_weapon")'><h3>weapon</h3></span>
+<span id='blockGen999' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(220,204,247,0.8);' onclick='getPage("Robowars","Robowars_hydraulic")'><h3>hydraulic</h3></span>
+<span id='blockGen1000' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,245,207,0.8);' onclick='getPage("Robowars","Robowars_safety")'><h3>safety</h3></span>
+<span id='blockGen1001' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,231,222,0.8);' onclick='getPage("Robowars","Robowars_judging")'><h3>judging</h3></span>
+<span id='blockGen1002' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,231,223,0.8);' onclick='getPage("Robowars","Robowars_generalrules")'><h3>generalrules</h3></span>
+<span id='blockGen1003' style='width:220px;padding: 15px;border-radius:20px;background: rgba(240,235,207,0.8);'><h3>Contact: Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3149,14 +3149,14 @@ Contestants will have to register online. On spot registrations can also be done
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sidewrightflight'>
-<span id='blockGen1041' style='background: rgba(236,241,227,0.8);'><img src="static/Icons_Final/WrightFlight.png" width='250px'/></span><br />
-<span id='blockGen1042' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(249,209,225,0.8);' onclick='register_single_event(31)'><h3>Register</h3></span>
-<span id='blockGen1043' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,215,200,0.8);' onclick='getPage("wrightflight","wrightflight_Judging Criteria and Scoring")'><h3>Judging Criteria and Scoring</h3></span>
-<span id='blockGen1044' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,232,206,0.8);' onclick='getPage("wrightflight","wrightflight_eventformat")'><h3>eventformat</h3></span>
-<span id='blockGen1045' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,249,210,0.8);' onclick='getPage("wrightflight","wrightflight_generalrules")'><h3>generalrules</h3></span>
-<span id='blockGen1046' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,232,235,0.8);' onclick='getPage("wrightflight","wrightflight_Glider Specifications")'><h3>Glider Specifications</h3></span>
-<span id='blockGen1047' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(222,210,214,0.8);' onclick='getPage("wrightflight","wrightflight_Arena Specifications")'><h3>Arena Specifications</h3></span>
-<span id='blockGen1048' style='width:220px;padding: 15px;border-radius:20px;background: rgba(249,229,241,0.8);'><h3>Contact: Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661</h3></span>
+<span id='blockGen1041' style='background: rgba(240,207,247,0.8);'><img src="static/Icons_Final/WrightFlight.png" width='250px'/></span><br />
+<span id='blockGen1042' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,202,218,0.8);' onclick='register_single_event(31)'><h3>Register</h3></span>
+<span id='blockGen1043' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,240,214,0.8);' onclick='getPage("wrightflight","wrightflight_Judging Criteria and Scoring")'><h3>Judging Criteria and Scoring</h3></span>
+<span id='blockGen1044' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,202,243,0.8);' onclick='getPage("wrightflight","wrightflight_eventformat")'><h3>eventformat</h3></span>
+<span id='blockGen1045' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,204,229,0.8);' onclick='getPage("wrightflight","wrightflight_generalrules")'><h3>generalrules</h3></span>
+<span id='blockGen1046' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,250,211,0.8);' onclick='getPage("wrightflight","wrightflight_Glider Specifications")'><h3>Glider Specifications</h3></span>
+<span id='blockGen1047' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,236,249,0.8);' onclick='getPage("wrightflight","wrightflight_Arena Specifications")'><h3>Arena Specifications</h3></span>
+<span id='blockGen1048' style='width:220px;padding: 15px;border-radius:20px;background: rgba(229,215,231,0.8);'><h3>Contact: Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3208,10 +3208,10 @@ The height of the building from which the participants will be launching their g
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideBeyondEarth'>
-<span id='blockGen1065' style='background: rgba(250,250,245,0.8);'><img src="static/Icons_Final/Beyond_Earth.png" width='250px'/></span><br />
-<span id='blockGen1066' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,227,234,0.8);' onclick='register_single_event(46)'><h3>Register</h3></span>
-<span id='blockGen1067' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(216,203,202,0.8);' onclick='getPage("BeyondEarth","BeyondEarth_Description")'><h3>Description</h3></span>
-<span id='blockGen1068' style='width:220px;padding: 15px;border-radius:20px;background: rgba(221,211,237,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
+<span id='blockGen1065' style='background: rgba(232,221,220,0.8);'><img src="static/Icons_Final/Beyond_Earth.png" width='250px'/></span><br />
+<span id='blockGen1066' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(200,209,238,0.8);' onclick='register_single_event(46)'><h3>Register</h3></span>
+<span id='blockGen1067' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,219,229,0.8);' onclick='getPage("BeyondEarth","BeyondEarth_Description")'><h3>Description</h3></span>
+<span id='blockGen1068' style='width:220px;padding: 15px;border-radius:20px;background: rgba(236,230,240,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3235,10 +3235,10 @@ The height of the building from which the participants will be launching their g
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideStarWars'>
-<span id='blockGen1073' style='background: rgba(203,214,207,0.8);'><img src="static/Icons_Final/starwars.png" width='250px'/></span><br />
-<span id='blockGen1074' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(240,213,209,0.8);' onclick='register_single_event(47)'><h3>Register</h3></span>
-<span id='blockGen1075' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(236,203,250,0.8);' onclick='getPage("StarWars","StarWars_Description")'><h3>Description</h3></span>
-<span id='blockGen1076' style='width:220px;padding: 15px;border-radius:20px;background: rgba(204,217,226,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
+<span id='blockGen1073' style='background: rgba(236,240,221,0.8);'><img src="static/Icons_Final/starwars.png" width='250px'/></span><br />
+<span id='blockGen1074' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,229,235,0.8);' onclick='register_single_event(47)'><h3>Register</h3></span>
+<span id='blockGen1075' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(212,228,242,0.8);' onclick='getPage("StarWars","StarWars_Description")'><h3>Description</h3></span>
+<span id='blockGen1076' style='width:220px;padding: 15px;border-radius:20px;background: rgba(248,236,224,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3262,10 +3262,10 @@ The height of the building from which the participants will be launching their g
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideExhibits'>
-<span id='blockGen1081'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(214,223,218,0.8);'><h1 style='text-align:center;font-family: acens;'>Exhibits</h1></button></span><br />
-<span id='blockGen1082' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(226,201,232,0.8);' onclick='register_single_event(48)'><h3>Register</h3></span>
-<span id='blockGen1083' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,230,209,0.8);' onclick='getPage("Exhibits","Exhibits_Description")'><h3>Description</h3></span>
-<span id='blockGen1084' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,237,237,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
+<span id='blockGen1081'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(213,234,220,0.8);'><h1 style='text-align:center;font-family: acens;'>Exhibits</h1></button></span><br />
+<span id='blockGen1082' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,208,239,0.8);' onclick='register_single_event(48)'><h3>Register</h3></span>
+<span id='blockGen1083' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,222,221,0.8);' onclick='getPage("Exhibits","Exhibits_Description")'><h3>Description</h3></span>
+<span id='blockGen1084' style='width:220px;padding: 15px;border-radius:20px;background: rgba(216,223,221,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3289,10 +3289,10 @@ Location: Astronomy Room, Main Building Time: Dawn to Dusk1) Pondus - Your Norma
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideAstroTalk'>
-<span id='blockGen1089' style='background: rgba(239,242,237,0.8);'><img src="static/Icons_Final/astro_talk.png" width='250px'/></span><br />
-<span id='blockGen1090' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(210,243,202,0.8);' onclick='register_single_event(49)'><h3>Register</h3></span>
-<span id='blockGen1091' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(201,249,222,0.8);' onclick='getPage("AstroTalk","AstroTalk_Description")'><h3>Description</h3></span>
-<span id='blockGen1092' style='width:220px;padding: 15px;border-radius:20px;background: rgba(219,203,247,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
+<span id='blockGen1089' style='background: rgba(221,245,230,0.8);'><img src="static/Icons_Final/astro_talk.png" width='250px'/></span><br />
+<span id='blockGen1090' class="register" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,219,234,0.8);' onclick='register_single_event(49)'><h3>Register</h3></span>
+<span id='blockGen1091' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,247,242,0.8);' onclick='getPage("AstroTalk","AstroTalk_Description")'><h3>Description</h3></span>
+<span id='blockGen1092' style='width:220px;padding: 15px;border-radius:20px;background: rgba(226,238,227,0.8);'><h3>Contact: Mrinal Phone: 9449030636</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3316,11 +3316,11 @@ In partnership with TechSpeak, Astronomy committee presents enlightening talks,d
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sidePsychedelic_Room'>
-<span id='blockGen1097' style='background: rgba(216,216,208,0.8);'><img src="static/Icons_Final/PsychRoom.png" width='250px'/></span><br />
-<span id='blockGen1098' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(211,218,200,0.8);' onclick='getPage("Psychedelic_Room","Psychedelic_Room_Decagon")'><h3>Decagon</h3></span>
-<span id='blockGen1099' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,247,204,0.8);' onclick='getPage("Psychedelic_Room","Psychedelic_Room_Light_Wall")'><h3>Light_Wall</h3></span>
-<span id='blockGen1100' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(227,234,232,0.8);' onclick='getPage("Psychedelic_Room","Psychedelic_Room_Waterfall")'><h3>Waterfall</h3></span>
-<span id='blockGen1101' style='width:220px;padding: 15px;border-radius:20px;background: rgba(235,231,244,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
+<span id='blockGen1097' style='background: rgba(217,213,243,0.8);'><img src="static/Icons_Final/PsychRoom.png" width='250px'/></span><br />
+<span id='blockGen1098' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,206,213,0.8);' onclick='getPage("Psychedelic_Room","Psychedelic_Room_Decagon")'><h3>Decagon</h3></span>
+<span id='blockGen1099' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(237,233,237,0.8);' onclick='getPage("Psychedelic_Room","Psychedelic_Room_Light_Wall")'><h3>Light_Wall</h3></span>
+<span id='blockGen1100' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,249,243,0.8);' onclick='getPage("Psychedelic_Room","Psychedelic_Room_Waterfall")'><h3>Waterfall</h3></span>
+<span id='blockGen1101' style='width:220px;padding: 15px;border-radius:20px;background: rgba(219,244,214,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3354,9 +3354,9 @@ Waterfall is a part of the Psychedelic Room. It displays visualizations synchron
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideDance_Dance_Revolution'>
-<span id='blockGen1111'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(202,212,242,0.8);'><h1 style='text-align:center;font-family: acens;'>Dance Dance Revolution</h1></button></span><br />
-<span id='blockGen1112' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(244,219,204,0.8);' onclick='getPage("Dance_Dance_Revolution","Dance_Dance_Revolution_Description")'><h3>Description</h3></span>
-<span id='blockGen1113' style='width:220px;padding: 15px;border-radius:20px;background: rgba(210,206,229,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
+<span id='blockGen1111'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(219,214,210,0.8);'><h1 style='text-align:center;font-family: acens;'>Dance Dance Revolution</h1></button></span><br />
+<span id='blockGen1112' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(202,219,240,0.8);' onclick='getPage("Dance_Dance_Revolution","Dance_Dance_Revolution_Description")'><h3>Description</h3></span>
+<span id='blockGen1113' style='width:220px;padding: 15px;border-radius:20px;background: rgba(226,212,234,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3376,18 +3376,18 @@ Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where pl
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideArcade_Room'>
-<span id='blockGen1117'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(207,222,250,0.8);'><h1 style='text-align:center;font-family: acens;'>Arcade Room</h1></button></span><br />
-<span id='blockGen1118' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(215,235,236,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_ContraptioN")'><h3>ContraptioN</h3></span>
-<span id='blockGen1119' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(250,209,215,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Liquid_Light")'><h3>Liquid_Light</h3></span>
-<span id='blockGen1120' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(242,237,201,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Temple_Run")'><h3>Temple_Run</h3></span>
-<span id='blockGen1121' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(230,247,242,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Theremin")'><h3>Theremin</h3></span>
-<span id='blockGen1122' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,234,241,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Pin_Ball")'><h3>Pin_Ball</h3></span>
-<span id='blockGen1123' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(238,235,218,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Agent_Dash")'><h3>Agent_Dash</h3></span>
-<span id='blockGen1124' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(245,223,212,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Shadow_LED")'><h3>Shadow_LED</h3></span>
-<span id='blockGen1125' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,204,213,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Strongman")'><h3>Strongman</h3></span>
-<span id='blockGen1126' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,211,242,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Labyrinth")'><h3>Labyrinth</h3></span>
-<span id='blockGen1127' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(233,216,213,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Laser_Harp")'><h3>Laser_Harp</h3></span>
-<span id='blockGen1128' style='width:220px;padding: 15px;border-radius:20px;background: rgba(212,216,215,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
+<span id='blockGen1117'><button class='button1' style='border-radius: 0%;width: 250px;height: 250px;background: rgba(237,224,231,0.8);'><h1 style='text-align:center;font-family: acens;'>Arcade Room</h1></button></span><br />
+<span id='blockGen1118' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,219,220,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_ContraptioN")'><h3>ContraptioN</h3></span>
+<span id='blockGen1119' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(246,238,211,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Liquid_Light")'><h3>Liquid_Light</h3></span>
+<span id='blockGen1120' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,208,236,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Temple_Run")'><h3>Temple_Run</h3></span>
+<span id='blockGen1121' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(218,221,212,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Theremin")'><h3>Theremin</h3></span>
+<span id='blockGen1122' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(224,222,247,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Pin_Ball")'><h3>Pin_Ball</h3></span>
+<span id='blockGen1123' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(217,242,214,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Agent_Dash")'><h3>Agent_Dash</h3></span>
+<span id='blockGen1124' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(235,241,224,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Shadow_LED")'><h3>Shadow_LED</h3></span>
+<span id='blockGen1125' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(205,205,200,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Strongman")'><h3>Strongman</h3></span>
+<span id='blockGen1126' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(203,229,216,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Labyrinth")'><h3>Labyrinth</h3></span>
+<span id='blockGen1127' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(209,239,248,0.8);' onclick='getPage("Arcade_Room","Arcade_Room_Laser_Harp")'><h3>Laser_Harp</h3></span>
+<span id='blockGen1128' style='width:220px;padding: 15px;border-radius:20px;background: rgba(218,208,234,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3470,9 +3470,9 @@ Laser harp is an engineer’s attempt to draw analogy with the musical instrumen
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideBlitzkrieg'>
-<span id='blockGen1159' style='background: rgba(223,221,200,0.8);'><img src="static/Icons_Final/blitzkrieg.png" width='250px'/></span><br />
-<span id='blockGen1160' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(223,235,235,0.8);' onclick='getPage("Blitzkrieg","Blitzkrieg_Description")'><h3>Description</h3></span>
-<span id='blockGen1161' style='width:220px;padding: 15px;border-radius:20px;background: rgba(219,230,220,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
+<span id='blockGen1159' style='background: rgba(213,205,204,0.8);'><img src="static/Icons_Final/blitzkrieg.png" width='250px'/></span><br />
+<span id='blockGen1160' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(229,213,202,0.8);' onclick='getPage("Blitzkrieg","Blitzkrieg_Description")'><h3>Description</h3></span>
+<span id='blockGen1161' style='width:220px;padding: 15px;border-radius:20px;background: rgba(232,222,220,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>
@@ -3492,9 +3492,9 @@ Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. I
 <tr>
 <td valign='top' style='width: 30%'>
 <span id='sideMegapixel'>
-<span id='blockGen1165' style='background: rgba(218,214,242,0.8);'><img src="static/Icons_Final/megapixel.png" width='250px'/></span><br />
-<span id='blockGen1166' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(214,222,220,0.8);' onclick='getPage("Megapixel","Megapixel_Description")'><h3>Description</h3></span>
-<span id='blockGen1167' style='width:220px;padding: 15px;border-radius:20px;background: rgba(223,210,202,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
+<span id='blockGen1165' style='background: rgba(229,228,202,0.8);'><img src="static/Icons_Final/megapixel.png" width='250px'/></span><br />
+<span id='blockGen1166' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;background: rgba(232,215,238,0.8);' onclick='getPage("Megapixel","Megapixel_Description")'><h3>Description</h3></span>
+<span id='blockGen1167' style='width:220px;padding: 15px;border-radius:20px;background: rgba(234,231,233,0.8);'><h3>Contact: Jacob(8123464539): <br/> jacobv1992@gmail.com</h3></span>
 </span>
 </td>
 <td style='width: 70%'>

@@ -30,6 +30,7 @@ Mock_Stock={
 "Mockstock":{"image":"/Icons_Final/mockstock.png","contact":"Shashank Ajmera<br />08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.", "Details":"\
 <p>The event starts on 21st of October, and goes on till 25th of October. (The main event has been postponed due to technical difficulties).However, the trial versions will be put up soon (before 21st) for the users to get used to the environment.</p>\
 <p>The event will start on evenings, at 7:00 pm, and go on till 1:00 am, exactly like the American market, for all four days. </p>\
+<p>Click here to go to event Page: <a href='mockstock.meteor.com target='_blank' />mockstock.meteor.com</a></p>\
 <p>The trading will be inter-day, i.e., whatever your portfolio is at the end of the day, the same will be carried on to the next day. Hence, the final winner will be the one who makes the maximum cumulative profit after four days. </p>\
 <b>Prizes:</b><br />\
 <p>Winner gets an amount of Rs. 5000/-</p>"}
