@@ -7,7 +7,7 @@ description = 0
 eve_id=1
 #not single participation
 single_event_committees=["Blue_Print","Mockstock","Tech_Speak"]
-no_registrations=["Tech_Speak","Blue_Print","Psychedelic_Room","Blitzkrieg","Megapixel","Dance_Dance_Revolution","Arcade_Room","Mockstock","Case_Study_challenge"]
+no_registrations=["Sky_Lanterns","Tech_Speak","Blue_Print","Psychedelic_Room","Blitzkrieg","Megapixel","Dance_Dance_Revolution","Arcade_Room","Mockstock","Case_Study_challenge"]
 def get_num():
 	global num
 	num+=1
