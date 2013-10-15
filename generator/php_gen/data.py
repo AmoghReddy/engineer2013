@@ -103,7 +103,7 @@ Eclipse IDE<br/>\
 Android SDK","Other Material":"\
 Booklet on Introduction to Android<br/>\
 Sample Applications in Android (Source Code)<br/>"},
-	"3D_Photography": {"image": "engineer.gif","contact": "Manasij(+91 9738731680)","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
+	"3D_Photography": {"image": "/Icons_Final/3d photo.jpg","contact": "Manasij(+91 9738731680)","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
 	"Bridge_Design_and_Fabrication": {"image": "/Icons_Final/Bridge_design.png", "contact": "Manasij(+91 9738731680)", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
 	"Workshop structure":"The workshop has the following modules:<br/>\
@@ -463,13 +463,13 @@ Intentional disconnection will not be tolerated. Upon judgment by the referee, a
 Technites={
 "Megapixel": {"image": "/Icons_Final/megapixel.png","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
 "Blitzkrieg": {"image": "/Icons_Final/blitzkrieg.png","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
-"Dance_Dance_Revolution":{"image": "engineer.gif","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
+"Dance_Dance_Revolution":{"image": "/Icons_Final/Dance.jpg","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
 "Psychedelic_Room":{"image": "/Icons_Final/PsychRoom.png", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
 "Light_Wall": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ",
 "Decagon": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ",
 "Waterfall": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ",
 },
-"Arcade_Room": { "image": "engineer.gif", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
+"Arcade_Room": { "image": "/Icons_Final/arcade.jpg", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
 "Agent_Dash": "Who doesn't love the OO7 style agent of the famous android game AGENT DASH! This event is a virtual game where you are supposed to control your agent in the game by actually moving left or right on the sensor platform. The ultimate goal is to dodge obstacles coming your way ,shoot your enemies & cover the longest distance. ",
 "Labyrinth": "Labyrinth is a game consisting of a maze and a marble the objective of which is to tilt the playfield to guide the marble to the end of the maze. The maze is suspended using the four corners. The player is provided with a keyglove used to control the tilt of the maze by similar palm tilt. The keyglove has an Inertial Measurement Unit (accelerometer and gyroscope devices) which is used to measure the tilt and Xbees to transmit data wirelessly to the control system on the labyrinth. The game mechanics involves tapping the hand tilt of the player and replicating a similar tilt on the playfield. ",
 "Pin_Ball": "A game enjoyed since ages by the young & old alike is now brought out of the screen into the real scenario. The blockers are controlled using levers & the aim of the game is to keep the ball from falling into the pit. ",
@@ -556,7 +556,7 @@ the help of a presentation not exceeding 15 minutes. Extra points would be \
 awarded for teams which support their arguments with relevant models using \
 appropriate software."},
 
-"Exhibits":{"image":"engineer.gif","contact":"Mrinal Phone: 9449030636","Description":"Location: Astronomy Room, Main Building \
+"Exhibits":{"image":"/Icons_Final/exhibitions.jpg","contact":"Mrinal Phone: 9449030636","Description":"Location: Astronomy Room, Main Building \
 Time: Dawn to Dusk\
 1) Pondus - Your Normal Force - How much would you weigh in different parts of \
 the cosmos? \
@@ -595,7 +595,13 @@ Meta={
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "/Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose"}
+"Tech_Speak":{"image": "/Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
+ Venue: ATB seminar hall<br/>\
+ Time:15.30 - 17.30<br /><br/>\
+<b>Dr. Banibrata Mukhopadhyay (Astro Talk)</b><br/>\
+Venue: ATB seminar hall<br/>\
+Time:afternoon<br /><br/>\
+More to be announced soon"}
 }
 
 Biz={
@@ -754,8 +760,28 @@ in design, research and process industries. See Q1.</p>"
  <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br />\
 For this year&rsquo;s edition of Engineer, Contraption provides an opportunity for participants to furnish innovative solutions for oil spills on a miniature scale, based on the criteria in Problem Statement.<br />", 
 "Problem Statement": "A pond of water having an exposed surface area of 0.25 m2 is covered by a layer of oil. Participants are required to come up with a mechanism that will recover the oil layer from the water. Dimensions of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. There is no constraint on the material of construction or the height of the model.<br />" , 
-"Rules": "Participation will be in groups not exceeding four members. An abstract comprising of the design, operating principle, criteria such as power requirements, cost analysis etc. has to be submitted by 18th October. Shortlisted participants will be notified. Judgment will be based on factors such as rate of oil recovered, creativity, power consumption, practical application and cost of assembly of the model. Points will be cut based on fraction of water recovered along with the oil.<br />\
-"}
+"Rules": "• The students must carry valid student ID cards of their \
+college which they will be required to produce at the time of \
+registration. <br />\
+• A team may comprise a maximum of four participants. \
+Readymade kits are NOT allowed. Judges decision in this \
+regard will be final and binding. <br />\
+• Teams will not be allowed to modify their model during their \
+trial. <br />\
+• The initial model dimensions should not exceed 25 cm x 25 \
+cm excluding the height and control device dimensions. This \
+dimension excludes the pneumatic or hydraulic pumps, if \
+used. <br />\
+• The weight of the model should not exceed 10 kgs. <br />\
+• The model can be controlled wirelessly or with wires. <br />\
+• Readymade wireless remote control units may be used. <br />\
+• In case wired control is used, the wire(s) must remain \
+slack throughout the event. If the wires are visibly taut, the \
+team would be immediately disqualified. <br />\
+• Single phase external 230V AC power will be supplied. \
+Maximum voltage between any two points on the model\
+must not exceed 24 V DC or 24 V AC. <br />\
+• Maximum power consumption should not exceed 200W."}
 
 }
 
