@@ -12,7 +12,7 @@
 <option value="-2">All Users</option>
 <?
 require("../connect.php");
-$query=mysqli_query($connect,"select * from engiapp_engievents");
+$query=mysqli_query($connect,"select * from engiapp_engievents order by event_name");
 while($row=mysqli_fetch_array($query)){
 	echo "<option value='".$row["event_name"]."'>".$row["event_name"]."</option>";
 }
