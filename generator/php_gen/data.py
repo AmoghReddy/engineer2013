@@ -595,7 +595,13 @@ Meta={
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "/Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose"}
+"Tech_Speak":{"image": "/Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
+ Venue: ATB seminar hall<br/>\
+ Time:15.30 - 17.30<br /><br/>\
+<b>Dr. Banibrata Mukhopadhyay (Astro Talk)</b><br/>\
+Venue: ATB seminar hall<br/>\
+Time:afternoon<br /><br/>\
+More to be announced soon"}
 }
 
 Biz={
@@ -754,8 +760,28 @@ in design, research and process industries. See Q1.</p>"
  <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br />\
 For this year&rsquo;s edition of Engineer, Contraption provides an opportunity for participants to furnish innovative solutions for oil spills on a miniature scale, based on the criteria in Problem Statement.<br />", 
 "Problem Statement": "A pond of water having an exposed surface area of 0.25 m2 is covered by a layer of oil. Participants are required to come up with a mechanism that will recover the oil layer from the water. Dimensions of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. There is no constraint on the material of construction or the height of the model.<br />" , 
-"Rules": "Participation will be in groups not exceeding four members. An abstract comprising of the design, operating principle, criteria such as power requirements, cost analysis etc. has to be submitted by 18th October. Shortlisted participants will be notified. Judgment will be based on factors such as rate of oil recovered, creativity, power consumption, practical application and cost of assembly of the model. Points will be cut based on fraction of water recovered along with the oil.<br />\
-"}
+"Rules": "• The students must carry valid student ID cards of their \
+college which they will be required to produce at the time of \
+registration. <br />\
+• A team may comprise a maximum of four participants. \
+Readymade kits are NOT allowed. Judges decision in this \
+regard will be final and binding. <br />\
+• Teams will not be allowed to modify their model during their \
+trial. <br />\
+• The initial model dimensions should not exceed 25 cm x 25 \
+cm excluding the height and control device dimensions. This \
+dimension excludes the pneumatic or hydraulic pumps, if \
+used. <br />\
+• The weight of the model should not exceed 10 kgs. <br />\
+• The model can be controlled wirelessly or with wires. <br />\
+• Readymade wireless remote control units may be used. <br />\
+• In case wired control is used, the wire(s) must remain \
+slack throughout the event. If the wires are visibly taut, the \
+team would be immediately disqualified. <br />\
+• Single phase external 230V AC power will be supplied. \
+Maximum voltage between any two points on the model\
+must not exceed 24 V DC or 24 V AC. <br />\
+• Maximum power consumption should not exceed 200W."}
 
 }
 
