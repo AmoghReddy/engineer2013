@@ -561,7 +561,7 @@ function explodeTabbedPage( element )
 }
 
 function getPage(pageName, tabName)
-{
+{		
 	alpha = 0;
 	var duration = 2000, variation = 1500;
 	explodePage( currentPage );
@@ -608,13 +608,11 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
-	var input = document.getElementById("share_url");
-	// console.log(input.value);
-	var str = input.value.split("#")[1];
-	if (str == "homePage")
+		//console.log(currentPage.name);
+	if (!currentPage || currentPage.name == "homePage")
 		history.pushState(null, null, " ");
 	else
-		history.pushState(null, null, "#"+input.value.split("#")[1]);
+		history.pushState(null, null, "#"+currentPage.name);
 }
 
 var curIndex = 0;
@@ -845,7 +843,6 @@ function start()
 function addHistory(itemName){
 	if(history2[history2.length-1] != itemName)
 		history2.push(itemName);
-	document.getElementById("share_url").value=window.location.href.split("#")[0]+"#"+itemName;
 }
 function backHistory(){
 	itemName=history2.pop();
