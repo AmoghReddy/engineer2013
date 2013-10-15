@@ -11,7 +11,7 @@
 <select name="event_filter">
 <option value="-2">All Users</option>
 <?
-$connect=mysqli_connect("localhost","root","alse","engineer");
+require("../connect.php");
 $query=mysqli_query($connect,"select * from engiapp_engievents");
 while($row=mysqli_fetch_array($query)){
 	echo "<option value='".$row["event_name"]."'>".$row["event_name"]."</option>";
