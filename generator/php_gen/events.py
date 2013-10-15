@@ -107,7 +107,7 @@ def event_description(event,i):
 def commitee_sidebar(i):
 	if i not in  single_event_committees:
 		print "<span id='side"+i+"'>"
-		print "<br /><br /><br />"
+		#print "<br /><br /><br />"
 		for c in i:
 			if (c == "_"):
 				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"

@@ -108,35 +108,6 @@ function get_profile(data){
   $("#lname").html(data['lname']);
 }
 
-// function event_register(event_name,event_id){
-//   // alert("zzzz");
-
-//   // #call the function for individual registration
-//   $.ajax({
-//   url: "/logout",
-//   type: 'get',
-//   // contentType: "application/x-www-form-urlencoded",
-//   // data: $('#Signup form').serialize(),
-//   success: function(data, textStatus, jqXHR){
-//     var statusCode = jqXHR.status;
-//     var statusText = jqXHR.statusText;
-//     // console.log("Success!!");
-//     // user=0;
-//     // $('#loggedIn').hide();
-//     // $('#Login').show();
-//     // $('#Signup').show();
-//     get_profile_page(1);
-//     console.log(statusCode);
-//   },
-//   error: function (xhr, desc, err) {
-//     console.log(xhr);
-//     console.log("Desc: " + desc + "\nErr:" + err);
-//   } 
-//   });
-
-//   getPage(event,event+'_register');
-// }
-
 function register_single_event(event_id){
   $.ajax({
   url: "server.php?action=register_event&event_id="+event_id,
@@ -246,20 +217,20 @@ function fillUpProfileDetails(name, email)
 
 function fillUpProfileEvents(event)
 {
+	console.log(event);
   // alert('trial');
   // var listEle = document.getElementById('profile_events');
-  var listEleHTML = "";
+  var listEleHTML = "<table class='table'>";
   // alert(eventList);
   console.log("list of events");
   console.log(event);
   var j=0;
   while(j < event.individual.length)
   {
-    // alert((event.individual[j]).event_n/ame);
-    listEleHTML = listEleHTML + ((event.individual[j]).event_name)+ "<br />";
+    listEleHTML = listEleHTML + "<tr><td>"+((event.individual[j]).event_name)+ "<td><a class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</a></td></tr><br />";
     j++;
   }
-  // $("#profile_events").html(listEleHTML);
+  listEleHTML+="</table>";
 
   // #Team events   
   var j=0;
@@ -270,29 +241,10 @@ function fillUpProfileEvents(event)
     listEleHTML = listEleHTML + ((event.teams[j]).event_name)+"<a style='cursor: pointer;' onclick='delete_team("+(event.teams[j]).team_id+")'>&nbsp;(Delete Team)</a><br />";
     j++;
   }
-  $("#profile_events").html(listEleHTML);
+  console.log(listEleHTML);
+  
+  document.getElementById("profile_events").innerHTML=listEleHTML;
 
-  // #Fill all the team requests 
-  j=0;
-  listEleHTML = "";
-  // alert(event.requests.length);
-  while(j < event.requests.length)
-  {
-    // alert((event.individual[j]).event_n/ame);
-    listEleHTML = listEleHTML + ((event.requests[j]).team_name)+"<a style='cursor: pointer' onclick='accept_request("+(event.requests[j]).request_id+");'>&nbsp;(Accept)</a><br />";
-    j++;
-  }
-  $("#profile_team_request").html(listEleHTML);
-
-  // listEle.innerHTML(listEleHTML);
-
-  // for (eve in eventList)
-  // {
-  //  console.log("event!!!")
-  //  console.log(event[eve]);
-  //  listEleHTML = listEleHTML + "<br/>" + eve[0]["event_name"];
-  // }
-  // $()
 }
 
 function accept_request(request_id)
@@ -305,12 +257,7 @@ function accept_request(request_id)
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
-    // console.log("Success!!");
     get_profile_page(1);
-    // user=0;
-    // $('#loggedIn').hide();
-    // $('#Login').show();
-    // $('#Signup').show();
     console.log(statusCode);
   },
   error: function (xhr, desc, err) {
@@ -343,4 +290,26 @@ function delete_team(team_id)
     console.log("Desc: " + desc + "\nErr:" + err);
   } 
   });
+}
+
+function unregistration(event_id){
+  $.ajax({
+  url: "server.php?action=unregister&event_id="+event_id+"",
+  type: 'get',
+  success: function(data, textStatus, jqXHR){
+    var statusCode = jqXHR.status;
+    var statusText = jqXHR.statusText;
+	data=jQuery.parseJSON(data);
+    fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
+    console.log(data["individual"]);
+    fillUpProfileEvents(data);
+    console.log(statusCode);
+  },
+  error: function (xhr, desc, err) {
+    console.log(xhr);
+    console.log("Desc: " + desc + "\nErr:" + err);
+  } 
+  });
+	
+	
 }

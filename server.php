@@ -6,6 +6,7 @@ switch($_GET['action']){
 	case "signup":signup();break;
 	case "register_event":register_event();break;
 	case "account":account();break;
+	case "unregister":unregistration();break;
 }
 function isLogin(){
 	if(isset($_SESSION) && isset($_SESSION['first_name']) && isset($_SESSION['last_name']) && isset($_SESSION['email']))
@@ -129,6 +130,22 @@ function account(){
 	}
 	echo json_encode($data);
 	return;
+}
+
+function unregistration(){
+	require("connect.php");
+	if(!isLogin()){
+		header('HTTP/1.0 403 Forbidden');
+		return;
+	}
+	if(isset($_GET['event_id'])){
+		$event_id=mysqli_real_escape_string($connect,$_GET['event_id']);
+		$student_id=getStudentId();
+		$query=mysqli_query($connect,"delete from engi_registrations where event_id='$event_id' and student_id='$student_id'");
+		error_log("delete from engi_registrations where event_id='$event_id' and student_id='$student_id'");
+		account();
+	}
+	
 }
 
 function email_valid($temp_email) { 
