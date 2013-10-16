@@ -1591,7 +1591,7 @@ Jumping and hopping is not allowed<br/>\
 Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br/>\
 ","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
 ","download":"\
-<iframe width='420' height='315' src='//www.youtube.com/embed/m7qXfG3_2O8' frameborder='0' allowfullscreen></iframe><br /><br />\
+<b>Video: </b><a href='http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be' target='_blank'>http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be</a><br /><br />\
 <a href='data/perfectMachine.docx'>Download</a>"},
 
 "wrightflight":{"image":"/Icons_Final/WrightFlight.png",
@@ -1657,7 +1657,7 @@ FIRST ROUND EVALUATION:<br/>\
 S1 = 2 * R * ( 1 / t1 )<br/>\
 Based on S1, top eight teams are qualified for the next round and awarded points from 40 to 5 \
 (40, 35, 30 .. and so on). These points are carried forward for the final score.<br/>\
-Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><a href='data/proteus.pdf'>Download</a></p>"},
+Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><b>Video: </b><a href='http://youtu.be/Oz2YhPmACBA' target='_blank'>http://youtu.be/Oz2YhPmACBA</a><br /><a href='data/proteus.pdf'>Download</a></p>"},
 
 
 "Velocity": {"image": "/Icons_Final/Velocity.png", 
