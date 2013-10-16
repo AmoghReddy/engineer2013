@@ -227,7 +227,7 @@ function fillUpProfileEvents(event)
   var j=0;
   while(j < event.individual.length)
   {
-    listEleHTML = listEleHTML + "<tr><td>"+((event.individual[j]).event_name)+ "<td><a class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</a></td></tr>";
+    listEleHTML = listEleHTML + "<tr><td><a onclick='getPage(\""+((event.individual[j]).event_name)+"\")' style='cursor:pointer'>"+((event.individual[j]).event_name)+ "</a><td><a class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</a></td></tr>";
     j++;
   }
   listEleHTML+="</table>";

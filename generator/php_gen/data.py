@@ -1838,7 +1838,7 @@ newHash={
 	"Industry_Defined_Problem":{"id":"32","team_members":"1"},
 	"The_Portal":{"id":"33","team_members":"1"},
 	"Chemical_Breakdown":{"id":"34","team_members":"1"},
-	"blueprint":{"id":"35","team_members":"1"},
+	"Blue_Print":{"id":"35","team_members":"1"},
 	"mindbend":{"id":"36","team_members":"1"},
 	"Human":{"id":"37","team_members":"1"},
 	"Markenza":{"id":"38","team_members":"1"},
