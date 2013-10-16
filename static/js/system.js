@@ -15,8 +15,8 @@ function setEvents()
 {
 	var transformTime = 1500;
 	
-	var button = document.getElementById( 'page' );
-	button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, false, currentPage);}, false );
+	//var button = document.getElementById( 'page' );
+	//button.addEventListener( 'click', function ( event ) {transform(currentPage.WGLobjects, currentPage.targets.page, transformTime, transformTime, false, currentPage);}, false );
 
 	//var button = document.getElementById( 'button1' );
 	//button.addEventListener( 'click', function ( event ) {getPage('Home');}, false );
@@ -173,7 +173,7 @@ function system()
 	$(".quickNav button").hide(0);
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },function(){ quickNavToggle(true); });
 	$(".dropdown input").click(function(e){e.stopPropagation();});
-	container = document.getElementById("container");
+	//container = document.getElementById("container");
 	//makeSomeBlocks(); //Do not call this (not needed any more)
 	start();
 	keybind();

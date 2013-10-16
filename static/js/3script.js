@@ -41,6 +41,7 @@ function page( element, dontCenter, radiusAdjust )
 	this.pageRect = element.getBoundingClientRect();
 	this.pageTween;
 	this.DOMobjects = [];
+	this.rectObjects = [];
 	this.targets = { page: [], sphere: [], helix: [], grid: [], initial: [] };
 	this.WGLobjects = [];
 	this.initialPositions = [];
@@ -50,7 +51,8 @@ function page( element, dontCenter, radiusAdjust )
 	{
 		this.name = element.id.substr(4);
 		getAllChildren(this.pageElement, REblock, this.DOMobjects);
-		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, this.dontCenter, radiusAdjust);
+		getAllRects(this.DOMobjects, this.rectObjects);
+		getPageTargets(this.rectObjects, this.targets.page, this.initialPositions, this.pageElement, this.dontCenter, radiusAdjust);
 		//getSphereTargets(this.DOMobjects, this.targets.sphere, 900);
 		//getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
 		//getGridTargets(this.DOMobjects, this.targets.grid);
@@ -61,7 +63,8 @@ function page( element, dontCenter, radiusAdjust )
 	{
 		this.name = element.id;
 		getAllChildren(this.pageElement, REcomittee, this.DOMobjects);
-		getComitteeTargets(this.DOMobjects, this.targets.page, 200, this);
+		getAllRects(this.DOMobjects, this.rectObjects);
+		getComitteeTargets(this.rectObjects, this.targets.page, 200, this);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 	}
 	this.initHome = function()
@@ -71,9 +74,10 @@ function page( element, dontCenter, radiusAdjust )
 		this.zDepth = depth;
 		this.DOMobjects.push(document.getElementById('engiLogo'));
 		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
+		getAllRects(this.DOMobjects, this.rectObjects);
 		var radius = 0;
 		if (this.name == "sponsors") radius = 10;
-		getHomeTargets(this.DOMobjects, this.targets.page, depth, radius);
+		getHomeTargets(this.rectObjects, this.targets.page, depth, radius);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 		this.onComplete = function()
 		{
@@ -134,6 +138,16 @@ function getAllChildren(element , regex, chosenElements)
 	}
 }
 
+function getAllRects(DOMobjects, rectObjects)
+{
+	var rect;
+	for (var i = 0; i < DOMobjects.length; i++)
+	{
+		rect = DOMobjects[i].getBoundingClientRect();
+		rectObjects.push(rect);
+	}
+}
+
 function lookAwayFrom(obj, piv)
 {
 	var temp = new THREE.Vector3();
@@ -165,7 +179,7 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 	if (dontCenter) centerAdjustment = 0;
 	for ( var i = 0; i < source.length; i ++ )
 	{
-		rect = source[i].getBoundingClientRect();
+		rect = source[i];
 		object = new THREE.Object3D();
 		boxleft = rect.left + centerAdjustment;
 		boxtop = rect.top - topThreshold;
@@ -342,7 +356,7 @@ function getComitteeTargets(source, destination, gap, pageElement)
 	height1 = height2 = arc = 0;
 	for( var i = 0; i < length1; i++ )
 	{
-		var rect = source[i].getBoundingClientRect();
+		var rect = source[i];
 		arc += (rect.right - rect.left) + gap;
 		if ((rect.bottom - rect.top) > height1) height1 = rect.bottom - rect.top;
 	}
@@ -350,7 +364,7 @@ function getComitteeTargets(source, destination, gap, pageElement)
 	arc = 0;
 	for( var i = length1; i < length1 + length2; i++ )
 	{
-		var rect = source[i].getBoundingClientRect();
+		var rect = source[i];
 		arc += (rect.right - rect.left) + gap;
 		if ((rect.bottom - rect.top) > height2) height2 = rect.bottom - rect.top;
 	}
@@ -388,13 +402,13 @@ function getHomeTargets(source, destination, depth, radiusExtra)
 	maxDiag = 0;
 	for (var i = 1; i < source.length; i++ )
 	{
-		rect = source[i].getBoundingClientRect();
+		rect = source[i];
 		diag = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2;
 		if (diag > maxDiag) maxDiag = diag;
 	}
 	// CHANGE THE VALUE OF THIS TO CONTROL RADIUS
 	maxDiag-=100;
-	rect = source[0].getBoundingClientRect();
+	rect = source[0];
 	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag + radiusExtra;
 	//console.log(radius);
 	theta = 2 * Math.PI / (source.length - 1);
@@ -740,7 +754,7 @@ function init()
 	initForms();
 	initAllCommittees();
 	initHomePage();
-	initSponsors();
+	//initSponsors();
 
 	renderer = new THREE.CSS3DRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight);
