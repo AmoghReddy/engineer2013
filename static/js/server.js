@@ -323,12 +323,6 @@ function generateTeamRegForm(event_name)
 {
   var id = eventData[event_name].id;
   var num = eventData[event_name].team_members;
-  <form onsubmit="return false;">
-    <input type="text" name="username" placeholder="Email" /><br/>
-    <input type="password" name="password" placeholder="Password" /><br/>
-    <button class="btn btn-success" id="login_button" onclick="login()" style="height: 30px;">Submit</button>
-    <span id="error_login"></span>
-  </form>
   var content = "< form onsubmit='return false;' ><table>";
   content += "<tr><td>Team Name "+(i+1)+"</td><td><input name='registeration_team_name' type='text' placeholder='Email' /></td></tr>"
   for (var i = 0; i < num; i++)
@@ -338,6 +332,9 @@ function generateTeamRegForm(event_name)
   content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button>
     <span id='error_team_reg'></span>";
   content += "</table></form>";
+  var mess = new message("Team_Registeration_"+event_name, "Enter team details", content, "600");
+  mess.init();
+  mess.showMessage();
 }
 function register_team(event_id){
 
