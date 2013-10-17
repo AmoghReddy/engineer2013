@@ -109,6 +109,7 @@ function register_event(){
 	// see if already registered
 	$query=mysqli_query($connect,"select * from engi_registrations where student_id='$student_id' and event_id='$event_id'");
 	if(mysqli_num_rows($query)>0){
+		//error_log("avasdvasdvavasd");
 		echo "success";
 		return;
 	}

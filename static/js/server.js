@@ -193,14 +193,14 @@ function get_profile_page(type)
     // user=0;
     d = data;
     
-    console.log(data);
+    //console.log(data);
     fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
-    console.log(data["individual"]);
+    //console.log(data["individual"]);
     fillUpProfileEvents(data);
     // $('#loggedIn').hide();
     // $('#Login').show();
     // $('#Signup').show();
-    console.log(statusCode);
+    //console.log(statusCode);
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
@@ -220,7 +220,7 @@ function fillUpProfileDetails(name, email)
 
 function fillUpProfileEvents(event)
 {
-	console.log(event);
+	//console.log(event);
   // alert('trial');
   // var listEle = document.getElementById('profile_events');
   var listEleHTML = "<table class='table'>";
@@ -230,7 +230,8 @@ function fillUpProfileEvents(event)
   var j=0;
   while(j < event.individual.length)
   {
-    listEleHTML = listEleHTML + "<tr><td><a onclick='getPage(\""+((event.individual[j]).event_name)+"\")' style='cursor:pointer'>"+((event.individual[j]).event_name)+ "</a><td><a class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</a></td></tr>";
+    listEleHTML += "<tr><td><a onclick='getPage(\""+((event.individual[j]).event_name)+"\")' style='cursor:pointer'>"+((event.individual[j]).event_name)+ "</a></td>"
+    listEleHTML += "<td><a class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</a></td></tr>";
     j++;
   }
   listEleHTML+="</table>";
@@ -304,9 +305,9 @@ function unregistration(event_id){
     var statusText = jqXHR.statusText;
 	data=jQuery.parseJSON(data);
     fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
-    console.log(data["individual"]);
+    //console.log(data["individual"]);
     fillUpProfileEvents(data);
-    console.log(statusCode);
+    //console.log(statusCode);
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
@@ -314,5 +315,26 @@ function unregistration(event_id){
   } 
   });
 	
-	
+	team_members
+}
+
+function generateTeamRegForm(event_name)
+{
+  var id = eventData[event_name].id;
+  var num = eventData[event_name].team_members;
+  <form onsubmit="return false;">
+    <input type="text" name="username" placeholder="Email" /><br/>
+    <input type="password" name="password" placeholder="Password" /><br/>
+    <button class="btn btn-success" id="login_button" onclick="login()" style="height: 30px;">Submit</button>
+    <span id="error_login"></span>
+  </form>
+  var content = "< form onsubmit='return false;' ><table>";
+  content += "<tr><td>Team Name "+(i+1)+"</td><td><input name='registeration_team_name' type='text' placeholder='Email' /></td></tr>"
+  for (var i = 0; i < num; i++)
+  {
+    content += "<tr><td>Member "+(i+1)+"</td><td><input name='registeration_email"+(i+1)+"' type='text' placeholder='Email' /></td></tr>"
+  }
+  content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button>
+    <span id='error_team_reg'></span>";
+  content += "</table></form>";
 }
