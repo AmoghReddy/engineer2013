@@ -126,7 +126,10 @@ def commitee_page(i):
 			if (events[i][event]['image'] == 'engineer.gif'):
 				print "<td><button id='blockGen"+get_num()+"' class='button1' onclick='getPage(\""+event+"\")' style='cursor:pointer;border-radius: 0%;width: 250px;height: 250px;margin-top: 0px;"+get_color()+"'><h1 style='text-align:center;font-family: acens;'>"+event.replace('_'," ")+"</h1></td>"			
 			else:
-				print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='static"+events[i][event]['image']+"'/></span></td>"
+				if event == "Product_Design_Challenge":
+					print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\"Green_Inovation_Challenge\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='static"+events[i][event]['image']+"'/></span></td>"
+				else:
+					print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer;width: 250px;"+get_color()+"'><img src='static"+events[i][event]['image']+"'/></span></td>"
 				# print "<td><span id='blockGen"+get_num()+"' onclick='getPage(\""+event+"\")' style='cursor:pointer'><img src='"+events[i][event]['image']+"'/></span></td>"
 			if count%4==3:
 				print "</tr>"
