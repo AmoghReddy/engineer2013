@@ -318,5 +318,28 @@ function unregistration(event_id){
 	
 }
 function register_team(event_id){
-
+  $.ajax({
+  url: "server.php?action=team_register&event_id="+event_id+"",
+  type: 'post',
+  // TODO fix this
+  data: $('#register_team_form').serialize(),
+  success: function(data, textStatus, jqXHR){
+    var statusCode = jqXHR.status;
+    var statusText = jqXHR.statusText;
+    //data=jQuery.parseJSON(data);
+    if(data!="success"){
+      //TODO print error message
+    }
+    
+  },
+  error: function (xhr, desc, err) {
+    var mess = new message("notLoggedIn", "Not Logged In", "Please login to register for the event.", "400");
+    mess.init();
+    mess.showMessage();
+    console.log(xhr);
+    console.log("Desc: " + desc + "\nErr:" + err);
+  } 
+  });
+  
+  
 }
