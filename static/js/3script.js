@@ -14,6 +14,8 @@ var allTabbedPages = {};
 var allPages = {};
 var allPagesIndex = []; //remove this later
 var allTweens = {};
+var allMessagges = {};
+var allUpdates = {};
 
 var currentPage;
 var currentTabbedPage;
@@ -41,6 +43,7 @@ function page( element, dontCenter, radiusAdjust )
 	this.pageRect = element.getBoundingClientRect();
 	this.pageTween;
 	this.DOMobjects = [];
+	this.rectObjects = [];
 	this.targets = { page: [], sphere: [], helix: [], grid: [], initial: [] };
 	this.WGLobjects = [];
 	this.initialPositions = [];
@@ -50,7 +53,8 @@ function page( element, dontCenter, radiusAdjust )
 	{
 		this.name = element.id.substr(4);
 		getAllChildren(this.pageElement, REblock, this.DOMobjects);
-		getPageTargets(this.DOMobjects, this.targets.page, this.initialPositions, this.pageElement, this.dontCenter, radiusAdjust);
+		getAllRects(this.DOMobjects, this.rectObjects);
+		getPageTargets(this.rectObjects, this.targets.page, this.initialPositions, this.pageElement, this.dontCenter, radiusAdjust);
 		//getSphereTargets(this.DOMobjects, this.targets.sphere, 900);
 		//getHelixTargets(this.DOMobjects, this.targets.helix, 1100);
 		//getGridTargets(this.DOMobjects, this.targets.grid);
@@ -61,7 +65,8 @@ function page( element, dontCenter, radiusAdjust )
 	{
 		this.name = element.id;
 		getAllChildren(this.pageElement, REcomittee, this.DOMobjects);
-		getComitteeTargets(this.DOMobjects, this.targets.page, 200, this);
+		getAllRects(this.DOMobjects, this.rectObjects);
+		getComitteeTargets(this.rectObjects, this.targets.page, 200, this);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 	}
 	this.initHome = function()
@@ -71,9 +76,10 @@ function page( element, dontCenter, radiusAdjust )
 		this.zDepth = depth;
 		this.DOMobjects.push(document.getElementById('engiLogo'));
 		getAllChildren(this.pageElement, REmenu, this.DOMobjects);
+		getAllRects(this.DOMobjects, this.rectObjects);
 		var radius = 0;
 		if (this.name == "sponsors") radius = 10;
-		getHomeTargets(this.DOMobjects, this.targets.page, depth, radius);
+		getHomeTargets(this.rectObjects, this.targets.page, depth, radius);
 		loadWGLObjects(this.DOMobjects, this.WGLobjects);
 		this.onComplete = function()
 		{
@@ -134,6 +140,16 @@ function getAllChildren(element , regex, chosenElements)
 	}
 }
 
+function getAllRects(DOMobjects, rectObjects)
+{
+	var rect;
+	for (var i = 0; i < DOMobjects.length; i++)
+	{
+		rect = DOMobjects[i].getBoundingClientRect();
+		rectObjects.push(rect);
+	}
+}
+
 function lookAwayFrom(obj, piv)
 {
 	var temp = new THREE.Vector3();
@@ -165,7 +181,7 @@ function getPageTargets(source, destination, initPos, pageElement, dontCenter, r
 	if (dontCenter) centerAdjustment = 0;
 	for ( var i = 0; i < source.length; i ++ )
 	{
-		rect = source[i].getBoundingClientRect();
+		rect = source[i];
 		object = new THREE.Object3D();
 		boxleft = rect.left + centerAdjustment;
 		boxtop = rect.top - topThreshold;
@@ -342,7 +358,7 @@ function getComitteeTargets(source, destination, gap, pageElement)
 	height1 = height2 = arc = 0;
 	for( var i = 0; i < length1; i++ )
 	{
-		var rect = source[i].getBoundingClientRect();
+		var rect = source[i];
 		arc += (rect.right - rect.left) + gap;
 		if ((rect.bottom - rect.top) > height1) height1 = rect.bottom - rect.top;
 	}
@@ -350,7 +366,7 @@ function getComitteeTargets(source, destination, gap, pageElement)
 	arc = 0;
 	for( var i = length1; i < length1 + length2; i++ )
 	{
-		var rect = source[i].getBoundingClientRect();
+		var rect = source[i];
 		arc += (rect.right - rect.left) + gap;
 		if ((rect.bottom - rect.top) > height2) height2 = rect.bottom - rect.top;
 	}
@@ -388,13 +404,13 @@ function getHomeTargets(source, destination, depth, radiusExtra)
 	maxDiag = 0;
 	for (var i = 1; i < source.length; i++ )
 	{
-		rect = source[i].getBoundingClientRect();
+		rect = source[i];
 		diag = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2;
 		if (diag > maxDiag) maxDiag = diag;
 	}
 	// CHANGE THE VALUE OF THIS TO CONTROL RADIUS
 	maxDiag-=100;
-	rect = source[0].getBoundingClientRect();
+	rect = source[0];
 	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag + radiusExtra;
 	//console.log(radius);
 	theta = 2 * Math.PI / (source.length - 1);
@@ -575,6 +591,11 @@ function getPage(pageName, tabName)
 	if (currentPage == undefined)
 	{
 		currentTabbedPage = allTabbedPages[pageName];
+		if (currentTabbedPage == undefined)
+		{
+			var tempArr = pageName.split('@')
+			getPage(tempArr[0], pageName);
+		}
 		if (tabName == undefined)
 		{
 			for (var y in allTabbedPages[pageName])
@@ -609,10 +630,60 @@ function getPage(pageName, tabName)
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
 		//console.log(currentPage.name);
-	if (!currentPage || currentPage.name == "homePage")
+	if (!currentPage || currentPage.name.match("homePage"))
 		history.pushState(null, null, " ");
 	else
+		//console.log(currentPage.name);
 		history.pushState(null, null, "#"+currentPage.name);
+}
+
+function removeMessage()
+{
+
+}
+
+function message(name, title, message, width)
+{
+	this.name = name;
+	this.title = title;
+	this.message = message;
+	this.width = width;
+	this.WGLobject;
+	this.target;
+	this.init = function()
+	{
+		var ele = document.createElement('span');
+		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
+		var content = '<table><tr><td>';
+		content += '<h1>'+this.title+'</h1>';
+		content += '</td><td align = "right"><span style = "color: red; cursor: pointer;" onclick = "allMessagges[\''+name+'\'].removeMessage()" >X</span>';
+		content += '</td></tr>';
+		content += '<tr><td colspan="2">';
+		content += this.message;
+		content += '</td></tr></table>';
+		ele.innerHTML = content;
+		this.ele = ele;
+		var object = new THREE.CSS3DObject( ele );
+		getRandomTarget(object);
+		this.WGLobject = object;
+		var tar = new THREE.Object3D();
+		tar.position.z = 20;
+		this.target = tar;
+		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
+		allMessagges[name] = this;
+	}
+	this.showMessage = function()
+	{
+		scene.add(this.WGLobject);
+		transformSingle(this.WGLobject, this.target, 1000, 0, false);
+	}
+	this.removeMessage = function()
+	{
+		var object = new THREE.Object3D();
+		getRandomTarget(object);
+		transformSingle(this.WGLobject, object, 2000, 0, false, true);
+		console.log('Removed!!!');
+	}
 }
 
 var curIndex = 0;
@@ -740,23 +811,21 @@ function init()
 	initForms();
 	initAllCommittees();
 	initHomePage();
-	initSponsors();
+	//initSponsors();
 
 	renderer = new THREE.CSS3DRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight);
 	renderer.domElement.style.position = 'absolute';
 	container.innerHTML="";
 	container.appendChild( renderer.domElement );
-	
-	//getPage("allCommittees");
-	//getPage("Home");
-	//getPage("homePage");
+
 }
 
 function transform(sources, destinations, duration, variation, destroyOnComplete, pageObject) 
 {
 	TWEEN.remove(renderTween);
-	if( pageObject.pageTween != undefined ) { TWEEN.remove(pageObject.pageTween); }
+	if( pageObject != undefined )
+		if( pageObject.pageTween != undefined ) { TWEEN.remove(pageObject.pageTween); }
 	for ( var i = 0; i < sources.length; i ++ )
 	{
 		var object = sources[i];
@@ -789,28 +858,35 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		.to( {}, duration + variation )
 		.onComplete( function() { if (pageObject != undefined ){ pageObject.onComplete(); }} )
 		.start();
-		
-	/*if( pageObject.pageTween != undefined )
+}
+
+function transformSingle(source, destination, duration, variation, dontRender, destroyOnComplete) 
+{
+	var object = source;
+	var target = destination;
+	if( allTweens[object.id] != undefined )
 	{
-		TWEEN.remove(pageObject.pageTween);
-		//console.log("Tweening removed");
+		TWEEN.remove(allTweens[object.id][0]);
+		TWEEN.remove(allTweens[object.id][1]);
+		TWEEN.remove(allTweens[object.id][2]);
 	}
-	
-	if (destroyOnComplete == true)
-	{
-		pageObject.pageTween = new TWEEN.Tween( sources )
-			.to( {}, duration + variation )
-			.onUpdate( render )
-			.onComplete( function() {for ( var i = 0; i < sources.length; i++ ){scene.remove(sources[i]);}})
-			.start();
-	}
-	else
-	{
-		pageObject.pageTween = new TWEEN.Tween( sources )
-			.to( {}, duration + variation )
-			.onUpdate( render )
-			.start();
-	}*/
+	var pos = new TWEEN.Tween( object.position )
+		.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
+		.easing( TWEEN.Easing.Elastic.Out )
+		.start();
+	var rot = new TWEEN.Tween( object.rotation )
+		.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
+		.easing( TWEEN.Easing.Exponential.InOut )
+		.start();
+	var dest = new TWEEN.Tween( object )
+		.to( {}, duration + variation )
+		.onComplete( function() { if (destroyOnComplete == true) scene.remove( this );})
+		.start();
+	allTweens[object.id] = [pos, rot, dest];
+	if (dontRender != true) new TWEEN.Tween( this )
+		.to( {}, duration + variation )
+		.onUpdate( render )
+		.start();
 }
 
 function onWindowResize() 

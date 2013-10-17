@@ -1357,7 +1357,7 @@ A.&#160;No<br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Ashwin K S<br/> 9483523498","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
 <p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \
