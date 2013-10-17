@@ -1,3 +1,3 @@
 <?
-$connect=mysqli_connect("localhost","root","alse","engineer");
+$connect=mysqli_connect("localhost","root","amogh","engineer");
 ?>

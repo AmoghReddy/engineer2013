@@ -595,6 +595,7 @@ function getPage(pageName, tabName)
 		{
 			var tempArr = pageName.split('@')
 			getPage(tempArr[0], pageName);
+			return;
 		}
 		if (tabName == undefined)
 		{
