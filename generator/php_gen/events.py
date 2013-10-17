@@ -54,7 +54,7 @@ def event_description(event,i):
 		# if tab_type.index(j) > 1:
 		if (j != "image" and j != "contact"):
 			print '<span id = "tabs'+event+"@"+j+'">'
-			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>"
 			description = events[i][event][j].replace('<p>',' ')
 			description = description.replace('<ul>',' ')
 			description = description.replace('</ul>',' ')
@@ -78,7 +78,7 @@ def event_description(event,i):
 
 	if events[i] != "Workshops" and event not in no_registrations:
 			print '<span id = "tabs'+newHash[event]["id"]+"_"+'register">'
-			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"
+			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>"
 			#if (int(newHash[event]["team_members"])) > 1:
 			if False:
 				k = int(newHash[event]["team_members"])
@@ -110,9 +110,9 @@ def commitee_sidebar(i):
 		#print "<br /><br /><br />"
 		for c in i:
 			if (c == "_"):
-				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br />"
+				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+"&nbsp;"+"</h1></span><br/>"
 			else:
-				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c.upper()+"</h1></span><br />"
+				print "<span id='blockGen"+get_num()+"'><h1 style='font-size: 68px; margin: 5px;'>"+c.upper()+"</h1></span><br/>"
 		print "</span>"
 
 def commitee_page(i):

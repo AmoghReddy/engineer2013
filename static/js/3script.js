@@ -638,11 +638,6 @@ function getPage(pageName, tabName)
 		history.pushState(null, null, "#"+currentPage.name);
 }
 
-function removeMessage()
-{
-
-}
-
 function message(name, title, message, width)
 {
 	this.name = name;
