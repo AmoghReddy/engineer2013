@@ -14,6 +14,8 @@ var allTabbedPages = {};
 var allPages = {};
 var allPagesIndex = []; //remove this later
 var allTweens = {};
+var allMessagges = {};
+var allUpdates = {};
 
 var currentPage;
 var currentTabbedPage;
@@ -589,6 +591,11 @@ function getPage(pageName, tabName)
 	if (currentPage == undefined)
 	{
 		currentTabbedPage = allTabbedPages[pageName];
+		if (currentTabbedPage == undefined)
+		{
+			var tempArr = pageName.split('@')
+			getPage(tempArr[0], pageName);
+		}
 		if (tabName == undefined)
 		{
 			for (var y in allTabbedPages[pageName])
@@ -623,10 +630,60 @@ function getPage(pageName, tabName)
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
 		//console.log(currentPage.name);
-	if (!currentPage || currentPage.name == "homePage")
+	if (!currentPage || currentPage.name.match("homePage"))
 		history.pushState(null, null, " ");
 	else
+		//console.log(currentPage.name);
 		history.pushState(null, null, "#"+currentPage.name);
+}
+
+function removeMessage()
+{
+
+}
+
+function message(name, title, message, width)
+{
+	this.name = name;
+	this.title = title;
+	this.message = message;
+	this.width = width;
+	this.WGLobject;
+	this.target;
+	this.init = function()
+	{
+		var ele = document.createElement('span');
+		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
+		var content = '<table><tr><td>';
+		content += '<h1>'+this.title+'</h1>';
+		content += '</td><td align = "right"><span style = "color: red; cursor: pointer;" onclick = "allMessagges[\''+name+'\'].removeMessage()" >X</span>';
+		content += '</td></tr>';
+		content += '<tr><td colspan="2">';
+		content += this.message;
+		content += '</td></tr></table>';
+		ele.innerHTML = content;
+		this.ele = ele;
+		var object = new THREE.CSS3DObject( ele );
+		getRandomTarget(object);
+		this.WGLobject = object;
+		var tar = new THREE.Object3D();
+		tar.position.z = 20;
+		this.target = tar;
+		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
+		allMessagges[name] = this;
+	}
+	this.showMessage = function()
+	{
+		scene.add(this.WGLobject);
+		transformSingle(this.WGLobject, this.target, 1000, 0, false);
+	}
+	this.removeMessage = function()
+	{
+		var object = new THREE.Object3D();
+		getRandomTarget(object);
+		transformSingle(this.WGLobject, object, 2000, 0, false, true);
+		console.log('Removed!!!');
+	}
 }
 
 var curIndex = 0;
@@ -761,16 +818,14 @@ function init()
 	renderer.domElement.style.position = 'absolute';
 	container.innerHTML="";
 	container.appendChild( renderer.domElement );
-	
-	//getPage("allCommittees");
-	//getPage("Home");
-	//getPage("homePage");
+
 }
 
 function transform(sources, destinations, duration, variation, destroyOnComplete, pageObject) 
 {
 	TWEEN.remove(renderTween);
-	if( pageObject.pageTween != undefined ) { TWEEN.remove(pageObject.pageTween); }
+	if( pageObject != undefined )
+		if( pageObject.pageTween != undefined ) { TWEEN.remove(pageObject.pageTween); }
 	for ( var i = 0; i < sources.length; i ++ )
 	{
 		var object = sources[i];
@@ -803,28 +858,35 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		.to( {}, duration + variation )
 		.onComplete( function() { if (pageObject != undefined ){ pageObject.onComplete(); }} )
 		.start();
-		
-	/*if( pageObject.pageTween != undefined )
+}
+
+function transformSingle(source, destination, duration, variation, dontRender, destroyOnComplete) 
+{
+	var object = source;
+	var target = destination;
+	if( allTweens[object.id] != undefined )
 	{
-		TWEEN.remove(pageObject.pageTween);
-		//console.log("Tweening removed");
+		TWEEN.remove(allTweens[object.id][0]);
+		TWEEN.remove(allTweens[object.id][1]);
+		TWEEN.remove(allTweens[object.id][2]);
 	}
-	
-	if (destroyOnComplete == true)
-	{
-		pageObject.pageTween = new TWEEN.Tween( sources )
-			.to( {}, duration + variation )
-			.onUpdate( render )
-			.onComplete( function() {for ( var i = 0; i < sources.length; i++ ){scene.remove(sources[i]);}})
-			.start();
-	}
-	else
-	{
-		pageObject.pageTween = new TWEEN.Tween( sources )
-			.to( {}, duration + variation )
-			.onUpdate( render )
-			.start();
-	}*/
+	var pos = new TWEEN.Tween( object.position )
+		.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
+		.easing( TWEEN.Easing.Elastic.Out )
+		.start();
+	var rot = new TWEEN.Tween( object.rotation )
+		.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
+		.easing( TWEEN.Easing.Exponential.InOut )
+		.start();
+	var dest = new TWEEN.Tween( object )
+		.to( {}, duration + variation )
+		.onComplete( function() { if (destroyOnComplete == true) scene.remove( this );})
+		.start();
+	allTweens[object.id] = [pos, rot, dest];
+	if (dontRender != true) new TWEEN.Tween( this )
+		.to( {}, duration + variation )
+		.onUpdate( render )
+		.start();
 }
 
 function onWindowResize() 

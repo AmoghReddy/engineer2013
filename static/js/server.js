@@ -126,6 +126,9 @@ function register_single_event(event_id){
     // $('#loggedIn').show();
   },
   error: function (xhr, desc, err) {
+    var mess = new message("notLoggedIn", "Not Logged In", "Please login to register for the event.", "400");
+    mess.init();
+    mess.showMessage();
     console.log(xhr);
     console.log("Desc: " + desc + "\nErr:" + err);
   }

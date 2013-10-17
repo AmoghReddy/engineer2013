@@ -30,17 +30,17 @@ def event_sidebar(event,i):
 	if events[i] != "Workshops" and event not in no_registrations:
 			#if int(newHash[event]["team_members"]) > 1:
 			if False:
-				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><h3>"+"Register"+"</h3></span>"
+				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><b>"+"Register"+"</b></span>"
 			else:
-				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='register_single_event("+newHash[event]['id']+")'><h3>"+"Register"+"</h3></span>"
+				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='register_single_event("+newHash[event]['id']+")'><b>"+"Register"+"</b></span>"
 	#Tabs of content in side bar !!
 	tab_type=(events[i][event]).keys()
 	# print tab_type
 	for j in tab_type:
 		if (j != "image" and j != "contact"):
-			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'_'+j+'\")\'><h3>'+j+"</h3></span>"
+			print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='getPage(\""+event+"\",\""+event+'@'+j+'\")\'><b>'+j+"</b></span>"
 
-	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 5px;padding-left: 15px;padding-right: 15px;"+get_color()+"'>"+"<h3>Contact: "+events[i][event]['contact']+"</h3></span>"
+	print "<span id='blockGen"+get_num()+"' style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;"+get_color()+"'>"+"<b>Contact: "+events[i][event]['contact']+"</b></span>"
 	print "</span>"
 	print "</td>"
 
@@ -53,7 +53,7 @@ def event_description(event,i):
 	for j in tab_type:
 		# if tab_type.index(j) > 1:
 		if (j != "image" and j != "contact"):
-			print '<span id = "tabs'+event+"_"+j+'">'
+			print '<span id = "tabs'+event+"@"+j+'">'
 			print '<span id="blockGen'+get_num()+"\" style='width: 650px;font-size:25px;line-height:30px;background: rgba(255,255,255,0.8);padding: 15px;'>"
 			description = events[i][event][j].replace('<p>',' ')
 			description = description.replace('<ul>',' ')
