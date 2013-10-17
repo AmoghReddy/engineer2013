@@ -244,6 +244,7 @@ function fillUpProfileEvents(event)
   console.log(listEleHTML);
   
   document.getElementById("profile_events").innerHTML=listEleHTML;
+  //allPages["Profile"].pageRect=document.getElementById("profile_events").getBoundingClientRect();
 
 }
 
@@ -312,4 +313,7 @@ function unregistration(event_id){
   });
 	
 	
+}
+function register_team(event_id){
+
 }
