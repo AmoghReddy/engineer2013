@@ -234,7 +234,7 @@ Niveditha.J<br/>\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you.<br/>The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
-Gaming={"Aoe":{"image":"/Icons_Final/aoe3.png","contact":"Satish Chandra <br/> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
+Gaming={"Aoe":{"image":"/Icons_Final/aoe2.jpg","contact":"Satish Chandra <br/> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
 The administrator's decision will be final in case of any dispute.<br/>\
 Team members are not allowed to change seats once the aoe map has started to load.<br/>\
 Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. <br/>\
@@ -661,7 +661,7 @@ employees don't have much work. Solve for me. <br />\
 &nbsp;&nbsp;• What is ROI of this model?<br />\
 <br />"},
 
-"Product_Design_Challenge":{"image": "/Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
+"Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
 "Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
@@ -1357,7 +1357,7 @@ A.&#160;No<br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
 <p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \

@@ -4,6 +4,7 @@ var container, controls;
 var headerLength = 10;
 var footerLength = 90;
 var initialWidth = 1366;
+var homePageRadius;
 
 var iconWidth = 250;
 var iconHeight = 250;
@@ -34,6 +35,13 @@ var REtabs = new RegExp("^tabs");
 
 var pivot = new THREE.Vector3(0, 0, -3000);
 var history2=[];
+
+var randomNumber = 0;
+function getRand()
+{
+	randomNumber++;
+	return randomNumber;
+}
 
 function page( element, dontCenter, radiusAdjust )
 {
@@ -412,6 +420,7 @@ function getHomeTargets(source, destination, depth, radiusExtra)
 	maxDiag-=100;
 	rect = source[0];
 	radius = Math.sqrt(Math.pow(rect.right - rect.left , 2) + Math.pow(rect.bottom - rect.top , 2)) / 2 + maxDiag + radiusExtra;
+	homePageRadius = radius + maxDiag;
 	//console.log(radius);
 	theta = 2 * Math.PI / (source.length - 1);
 	object = new THREE.Object3D(0, 0, 0);
@@ -646,11 +655,13 @@ function message(name, title, message, width)
 	this.width = width;
 	this.WGLobject;
 	this.target;
+	this.ele;
+	this.rect;
 	this.init = function()
 	{
 		var ele = document.createElement('span');
 		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
-		var content = '<table><tr><td>';
+		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
 		content += '<h1>'+this.title+'</h1>';
 		content += '</td><td align = "right"><span style = "color: red; cursor: pointer;" onclick = "allMessagges[\''+name+'\'].removeMessage()" >X</span>';
 		content += '</td></tr>';
@@ -659,6 +670,7 @@ function message(name, title, message, width)
 		content += '</td></tr></table>';
 		ele.innerHTML = content;
 		this.ele = ele;
+		this.rect = ele.getBoundingClientRect();
 		var object = new THREE.CSS3DObject( ele );
 		getRandomTarget(object);
 		this.WGLobject = object;
@@ -680,6 +692,44 @@ function message(name, title, message, width)
 		transformSingle(this.WGLobject, object, 2000, 0, false, true);
 		console.log('Removed!!!');
 	}
+}
+
+function getUpdateTargets()
+{
+	var length = getDictionaryLength(allUpdates);
+	var boxwidth = initialWidth/2 - homePageRadius;
+	var boxheight = window.innerHeight/2 - headerLength - footerLength;
+	for (var i = 0; i < length; i++)
+	{
+		var tresh = homePageRadius + ;
+		var object= new THREE.Object3D();
+		object.position.x = (Math.random() * 5000 + ) * Math.pow(-1, Math.floor(Math.random() * 100));
+		object.position.y = ;
+		object.position.z = (Math.random() * 100 - 250);
+		targets.push(object);
+	}
+}
+
+function getDictionaryLength(dict)
+{
+	var length = 0;
+	for (var x in dict)
+	{
+		length++;
+	}
+	return length;
+}
+
+function showUpdates(titleMessagePairs)
+{
+	var upd;
+	for (var x = 0; x < titleMessagePairs.length; x++)
+	{
+		upd = new message("update"+getRand(), titleMessagePairs[x].title, titleMessagePairs[x].message, 350);
+		upd.init();
+		allUpdates[upd.name] = upd;
+	}
+	getUpdateTargets();
 }
 
 var curIndex = 0;
