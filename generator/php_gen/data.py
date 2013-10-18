@@ -234,7 +234,7 @@ Niveditha.J<br/>\
 niveditha811@gmail.com", "Home": "A concern for the environment, a passion for design, a desire to innovate… Niravahana is the platform for you.<br/>The event requires participants to come up with simple, yet creative solutions to everyday design problems. <a href='./data/NIRVAHANA.pdf'>Problem Statement</a>"}
 }
 
-Gaming={"Aoe":{"image":"/Icons_Final/aoe3.png","contact":"Satish Chandra <br/> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
+Gaming={"Aoe":{"image":"/Icons_Final/aoe2.jpg","contact":"Satish Chandra <br/> 9740523343","generalrules":"All teams must report at the venue at the time informed.Teams not reporting within 10mins of the allotted time, will lead to disqualification. The time will be informed at least 45 minutes in advance.<br/>\
 The administrator's decision will be final in case of any dispute.<br/>\
 Team members are not allowed to change seats once the aoe map has started to load.<br/>\
 Bug Exploitation: Exploitation of any known or newly discovered bug during the matchwill result in immediate disqualification of the team. Excuses will not be entertained. Notknowing the bug is not an excuse, competitors are expected to know the current bugs. <br/>\
@@ -661,7 +661,7 @@ employees don't have much work. Solve for me. <br />\
 &nbsp;&nbsp;• What is ROI of this model?<br />\
 <br />"},
 
-"Product_Design_Challenge":{"image": "/Icons_Final/PRODUCT_DESIGN_123.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
+"Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
 "Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
@@ -669,6 +669,17 @@ employees don't have much work. Solve for me. <br />\
 
 "Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
+
+"Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"www.zeat.in is an online restaurant reservation website, an e-commerce start-up based out of Bangalore. With the customer&rsquo;s booking times less than one hour before the customer's arrival time, zeat.in's source of income comes from the restaurants which are featured on its website. For every booking via zeat.in, the restaurant pays zeat.in a pre-decided percentage of the customer's bill.Currently working and functioning in Bangalore and New Delhi, zeat.in features some of the most highly rated restaurants in these two metropolitan cities, where most people have started being tech-savvy. To provide incentives for customers to book via zeat.in, they have now started providing discount coupons to people who book via zeat.in. Facing stiff competition from competitors like Groupon and many bigger companies, who have long-standing brand names in the coupon distribution business, zeat.in needs to formulate a marketing strategy for:<br />\
+(i) Distributing maximum number of coupons and ensuring the use of the distributed coupons (which would otherwise go waste, as there are limited coupons)<br />\
+<br />\
+(ii) Ensuring customers book using zeat.in irrespective of discount coupons<br />\
+<br />\
+Zeat.in's current strategy relies solely on social media marketing and they are in the process of building an android application for smart phone booking.<br />\
+<br />\
+Submit entries in PPT or PPTX format to bizevents@engineer.org.in with the Subject as &quot;Adventure&quot;. Deadline for submission of entries is 22 October, 2013. <br />\
+<br />\
+Loads of exciting prizes to be won and an opportunity for the winners to receive an internship !"}
 }
 Chem={
 "Chemical_Breakdown":{"image": "/Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
@@ -1357,7 +1368,7 @@ A.&#160;No<br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Product_Design.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
 <p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \
@@ -1874,5 +1885,6 @@ newHash={
 	"3D_Photography": {"id" : "68","team_members":"1"},
 	"Bridge_Design_and_Fabrication": {"id" : "69","team_members":"2"},# workspop
 	"Contraption" : { "id" :"70","team_members":"5"},
+	"Adventure":{"id":"71","team_members":"1"},
 	}
 
