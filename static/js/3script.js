@@ -790,6 +790,14 @@ function showUpdates()
 	}
 }
 
+function removeUpdates()
+{
+	for (var x in allUpdates)
+	{
+		allUpdates[x].removeMessage();
+	}
+}
+
 var curIndex = 0;
 
 function getNextPage() //remove this later
