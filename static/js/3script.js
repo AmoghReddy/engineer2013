@@ -657,6 +657,7 @@ function message(name, title, message, width)
 	this.target;
 	this.ele;
 	this.rect;
+	this.onComplete = function() {}
 	this.init = function()
 	{
 		var ele = document.createElement('span');
@@ -680,17 +681,59 @@ function message(name, title, message, width)
 		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
 		allMessagges[name] = this;
 	}
+	this.initUpdate = function()
+	{
+		var ele = document.createElement('span');
+		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
+		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
+		content += '<h1>'+this.title+'</h1>';
+		content += '</td><td align = "right">';
+		content += '</td></tr>';
+		content += '<tr><td colspan="2">';
+		content += this.message;
+		content += '</td></tr></table>';
+		ele.innerHTML = content;
+		this.ele = ele;
+		var hiddenSpan = document.getElementById("hiddenSpan");
+		hiddenSpan.appendChild(this.ele);
+		this.rect = ele.getBoundingClientRect();
+		//console.log(rect);
+		hiddenSpan.removeChild(this.ele);
+		var object = new THREE.CSS3DObject( ele );
+		getRandomTarget(object);
+		this.WGLobject = object;
+		var tar = new THREE.Object3D();
+		tar.position.z = 20;
+		this.target = tar;
+		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
+		allMessagges[name] = this;
+		this.onComplete = function()
+		{
+			if (allTweens[this.WGLobject.id] != undefined)
+			{
+				TWEEN.remove(allTweens[object.id]);
+			}
+			var duration = 8000, variation = 4000;
+			var speed = (1000 + camera.position.z) / 10000;
+			var time = Math.random() * variation + duration;
+			var distance = speed * time;
+			allTweens[this.WGLobject.id] = new TWEEN.Tween( this.WGLobject.position )
+				.to( { z: (this.target.position.z + distance) }, time )
+				.repeat( Infinity )
+				.start();
+		}
+	}
 	this.showMessage = function()
 	{
 		scene.add(this.WGLobject);
-		transformSingle(this.WGLobject, this.target, 1500, 0, false);
+		transformSingle(this.WGLobject, this.target, 1500, 0, false, false, this);
 	}
 	this.removeMessage = function()
 	{
 		var object = new THREE.Object3D();
 		getRandomTarget(object);
 		transformSingle(this.WGLobject, object, 2000, 0, false, true);
-		console.log('Removed!!!');
+		//console.log('Removed!!!');
 	}
 }
 
@@ -698,19 +741,22 @@ function getUpdateTargets()
 {
 	var boxwidth = initialWidth/2 - homePageRadius;
 	var boxheight = window.innerHeight/2 - headerLength - footerLength;
-	var count = 0;
+	var count = 0, power = -1, fraction = 10;
 	for (var x in allUpdates)
 	{
 		var rect = allUpdates[x].rect;
+		console.log(rect);
 		var treshX = homePageRadius + (rect.right - rect.left)/2;
 		var rangeX = boxwidth - (rect.right - rect.left);
 		var rangeY = boxheight - (rect.bottom - rect.top);
 		var object= new THREE.Object3D();
-		object.position.x = (Math.random() * rangeX + treshX) * Math.pow(-1, Math.floor(Math.random() * 100));
-		object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
-		object.position.z = (count * 30 - 500);
+		object.position.x = (Math.random() * rangeX + treshX) * power;
+		//object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
+		object.position.y = (Math.sin((2 * Math.PI) * ((count % fraction + 1) / fraction)) * rangeY);
+		object.position.z = (count * (-50) - 300);
 		allUpdates[x].target = object;
 		count++;
+		power *= -1
 	}
 }
 
@@ -729,8 +775,8 @@ function generateUpdates(titleMessagePairs)
 	var upd;
 	for (var x = 0; x < titleMessagePairs.length; x++)
 	{
-		upd = new message("update"+getRand(), titleMessagePairs[x].title, titleMessagePairs[x].message, 350);
-		upd.init();
+		upd = new message("update"+getRand(), titleMessagePairs[x].title, titleMessagePairs[x].message, 250);
+		upd.initUpdate();
 		allUpdates[upd.name] = upd;
 	}
 	getUpdateTargets();
@@ -918,7 +964,7 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		.start();
 }
 
-function transformSingle(source, destination, duration, variation, dontRender, destroyOnComplete) 
+function transformSingle(source, destination, duration, variation, dontRender, destroyOnComplete, messageObject) 
 {
 	var object = source;
 	var target = destination;
@@ -944,6 +990,10 @@ function transformSingle(source, destination, duration, variation, dontRender, d
 	if (dontRender != true) new TWEEN.Tween( this )
 		.to( {}, duration + variation )
 		.onUpdate( render )
+		.start();
+	new TWEEN.Tween( this )
+		.to( {}, duration + variation )
+		.onComplete( function() { if (messageObject != undefined ){ messageObject.onComplete(); }} )
 		.start();
 }
 
