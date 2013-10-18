@@ -646,9 +646,11 @@ function message(name, title, message, width)
 	this.width = width;
 	this.WGLobject;
 	this.target;
+	this.element;
 	this.init = function()
 	{
 		var ele = document.createElement('span');
+		ele.id="message_span";
 		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
 		var content = '<table><tr><td>';
 		content += '<h1>'+this.title+'</h1>';
@@ -658,7 +660,7 @@ function message(name, title, message, width)
 		content += this.message;
 		content += '</td></tr></table>';
 		ele.innerHTML = content;
-		this.ele = ele;
+		this.element = ele;
 		var object = new THREE.CSS3DObject( ele );
 		getRandomTarget(object);
 		this.WGLobject = object;
@@ -678,6 +680,7 @@ function message(name, title, message, width)
 		var object = new THREE.Object3D();
 		getRandomTarget(object);
 		transformSingle(this.WGLobject, object, 2000, 0, false, true);
+		$("#message_span").html("");
 		console.log('Removed!!!');
 	}
 }

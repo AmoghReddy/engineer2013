@@ -224,21 +224,20 @@ function unregistration(event_id){
 	
 }
 
-function generateTeamRegForm(event_name)
-{
-  var id = eventData[event_name].id;
-  var num = eventData[event_name].team_members;
-  var content = "< form onsubmit='return false;' ><table>";
-  content += "<tr><td>Team Name "+(i+1)+"</td><td><input name='registeration_team_name' type='text' placeholder='Email' /></td></tr>"
-  for (var i = 0; i < num; i++)
-  {
-    content += "<tr><td>Member "+(i+1)+"</td><td><input name='registeration_email"+(i+1)+"' type='text' placeholder='Email' /></td></tr>"
-  }
-  content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button><span id='error_team_reg'></span>";
-  content += "</table></form>";
-  var mess = new message("Team_Registeration_"+event_name, "Enter team details", content, "600");
-  mess.init();
-  mess.showMessage();
+function generateTeamRegForm(event_name){
+    var id = eventData[event_name].id;
+    var num = eventData[event_name].team_members;
+    $("#register_team_form").remove();
+    var content = "<form onsubmit='return false;' id='register_team_form'><table class='table'>";
+    content += "<tr><td>Team Name </td><td><input name='registration_team_name' type='text' placeholder='Email' /></td></tr>"
+    for (var i = 1; i < num; i++){
+      content += "<tr><td>Member "+(i+1)+"</td><td><input name='registration_email"+(i+1)+"' type='text' placeholder='Email' /></td></tr>"
+    }
+    content += "<tr><td><a class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</a><br /><span id='error_team_reg'></span></td></tr>";
+    content += "</table></form>";
+    var mess = new message("Team_Registration_"+event_name, "Enter team details", content, "600");
+    mess.init();
+    mess.showMessage();
 }
 
 function register_team(event_id){
@@ -250,9 +249,12 @@ function register_team(event_id){
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
-    //data=jQuery.parseJSON(data);
-    if(data!="success"){
-      //TODO print error message
+    content=data.split(",");
+    if(content[0]=="error")
+      $("#error_team_reg").html(content[1])
+    if(data=="success"){
+      // TODO close the window
+      get_profile_page(1);
     }
     
   },

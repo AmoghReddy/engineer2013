@@ -84,11 +84,11 @@ function signup(){
 	
 	$query=mysqli_query($connect,"select * from engi_users where email='$email'");
 	if(mysqli_num_rows($query)>0){
+		echo "Email already registered";
 		header('HTTP/1.0 403 Forbidden');
 		return;
 	}
 	$query=mysqli_query($connect ,"INSERT INTO engi_users (first_name, last_name, email, password, phone, city, college) VALUES ('$first_name','$last_name','$email',md5('$password1'),'$phone','$city','$institution_name');");
-	error_log("asdcadscads",0);
 	echo "success";
 	return;
 	
@@ -119,15 +119,18 @@ function register_event(){
 	echo "success";
 }
 
-function register_event_student($student_id){
+function register_event_student($student_id,$team_id="-1"){
 	require("connect.php");
+	if($student_id==0)
+		// not adding anything but sending success status
+		return true;
 	$event_id=mysqli_real_escape_string($connect,$_GET['event_id']);
 	// see if already registered
 	$query=mysqli_query($connect,"select * from engi_registrations where student_id='$student_id' and event_id='$event_id'");
 	if(mysqli_num_rows($query)>0){
 		return false;
 	}
-	$query=mysqli_query($connect,"insert into engi_registrations (student_id,event_id) values('$student_id','$event_id')") or die("cant register");
+	$query=mysqli_query($connect,"insert into engi_registrations (student_id,event_id,team_id) values('$student_id','$event_id','$team_id')") or die("cant register");
 	return true;
 }
 
@@ -156,8 +159,20 @@ function unregistration(){
 	if(isset($_GET['event_id'])){
 		$event_id=mysqli_real_escape_string($connect,$_GET['event_id']);
 		$student_id=getStudentId();
-		$query=mysqli_query($connect,"delete from engi_registrations where event_id='$event_id' and student_id='$student_id'");
-		error_log("delete from engi_registrations where event_id='$event_id' and student_id='$student_id'");
+		$team_size=getMaxTeamSize($event_id);
+		if($team_size>1){
+			//get team_id
+			$query=mysqli_query($connect,"select team_id from engi_registrations where student_id=$student_id and event_id=$event_id");
+			$data=mysqli_fetch_array($query);
+			$team_id=$data["team_id"];
+			//delete from engi_teams
+			$query=mysqli_query($connect,"delete from engi_registrations where team_id=$team_id");
+			//delete all registered people
+			$query=mysqli_query($connect,"delete from engi_teams where team_id=$team_id");
+		}
+		else{
+			$query=mysqli_query($connect,"delete from engi_registrations where event_id='$event_id' and student_id='$student_id'");
+		}
 		account();
 	}
 	
@@ -172,15 +187,17 @@ function isUserSignup($email){
 }
 function getMaxTeamSize($event_id){
 	require("connect.php");
-	$query=mysqli_query($connect,"select team_size from engiapp_engievents where event_id=$event_id");
-	$data=mysqli_fetch_row($query);
-	return $data["team_size"];
+	$query=mysqli_query($connect,"select team_size from engiapp_engievents where id=$event_id") or die(error_log(("select team_size from engiapp_engievents where id=$event_id")));
+	while($data=mysqli_fetch_array($query)){
+		return $data["team_size"];
+	}
 }
 function newTeamId(){
 	require("connect.php");
 	$query=mysqli_query($connect,"select max(team_id) as id from engi_teams");
-	$data=mysqli_fetch_row($query);
-	return $data["id"]+1;
+	$data=mysqli_fetch_array($query);
+	error_log("id="+($data["id"]+1));
+	return intval($data["id"])+1;
 }
 function team_register(){
 	// 403 if not logged in 404 if not all are registered
@@ -193,42 +210,69 @@ function team_register(){
 		$team_id=
 		$event_id=mysqli_real_escape_string($connect,$_GET['event_id']);
 		$student_id=getStudentId();
-		// see whether team_id =-1
-		$query=mysqli_query($connect,"select team_id from engi_registrations where event_id=$event_id and student_id=$student_id");
-		$data=mysqli_fetch_row($query);
-		$team_id=$data["team_id"];
-		if(team_id == "-1"){
-			// old registration
-			$maxTeamSize=getMaxTeamSize($event_id);
-			if($maxTeamSize>1){
-				// see if all are registered
-				$total=$maxTeamSize;
-				$team_id=newTeamId();
-				$team_name=mysqli_real_escape_string($connect,$_POST["registration_team_name"]);
-				while ($total--) {
-					$student_email=mysqli_real_escape_string($connect,$_POST["registration_email".$total]);
-					if($student_email!=""){
-						$student_id=isUserSignup($student_email);
-						if($student_id==""){
-							echo $student_email." not Found";
-							return;
-						}
+
+		// see whether all emails are valid
+		$maxTeamSize=getMaxTeamSize($event_id);
+		$total=$maxTeamSize+1;
+		$team_name=mysqli_real_escape_string($connect,$_POST["registration_team_name"]);
+		// team name required
+		if($team_name==""){
+			echo "error,team name required";
+			return;
+		}
+
+		while ($total--) {
+			// first user is the one who is logged in
+			if ($total!=1){
+				$student_email=mysqli_real_escape_string($connect,$_POST["registration_email".$total]);
+				if($student_email!=""){
+					$student_id=isUserSignup($student_email);
+					if($student_id==""){
+						echo "error,".$student_email." not Found";
+						return;
 					}
 				}
-				$total=$maxTeamSize;
+			}
+		}
+
+		// see whether team_id =-1
+		$query=mysqli_query($connect,"select team_id from engi_registrations where event_id=$event_id and student_id=$student_id");
+		$num_rows=mysqli_num_rows($query);
+
+		$data=mysqli_fetch_array($query);
+		$team_id=$data["team_id"];
+		if($team_id == "-1" || $num_rows==0){
+			$team_id=newTeamId();
+			if($maxTeamSize>1){
+				// check if user who has logged in has already registered
+				// TODO check this
+				if(!register_event_student(getStudentId(),$team_id) && $data["team_id"]!="-1"){
+					echo "error, You have already registered";
+					return;
+				}
+				// registered all of them
+				$total=$maxTeamSize+1;
+				$extra_message="";
 				while ($total--) {
-					$student_email=mysqli_real_escape_string($connect,$_POST["registration_email".$total]);
-					$student_id=isUserSignup($student_email);
-					register_event_student($student_id);
+					// skip for logged in user
+					if ($total!=1 && $total!=0){
+						$student_email=mysqli_real_escape_string($connect,$_POST["registration_email".$total]);
+						$student_id=isUserSignup($student_email);
+						// TODO add extra message and send success
+						$status=register_event_student($student_id,$team_id);
+					}
 
 				}
+				if($data["team_id"]=="-1")
+					$query=mysqli_query($connect,"update engi_registrations set team_id=$team_id");
 				$query=mysqli_query($connect,"insert into engi_teams (name,event_id,team_id) values ('$team_name',$event_id,$team_id)");
 				echo "success";
 			}
 		}
 		else{
-			register_event();
-			team_register();
+			echo "error, You have already registered";
+			return;
+
 		}
 	}
 }
