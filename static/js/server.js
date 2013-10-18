@@ -257,7 +257,7 @@ function accept_request(request_id)
   $.ajax({
   url: "accept_team_request/"+request_id+"/",
   type: 'get',
-  // contentType: "application/x-www-form-urlencoded",
+  // contentType: "application/x-www-form-urlencoded":327,
   // data: $('#Signup form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
@@ -316,7 +316,6 @@ function unregistration(event_id){
   } 
   });
 	
-	team_members
 }
 
 function generateTeamRegForm(event_name)
@@ -329,8 +328,7 @@ function generateTeamRegForm(event_name)
   {
     content += "<tr><td>Member "+(i+1)+"</td><td><input name='registeration_email"+(i+1)+"' type='text' placeholder='Email' /></td></tr>"
   }
-  content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button>
-    <span id='error_team_reg'></span>";
+  content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button><span id='error_team_reg'></span>";
   content += "</table></form>";
   var mess = new message("Team_Registeration_"+event_name, "Enter team details", content, "600");
   mess.init();
