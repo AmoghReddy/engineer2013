@@ -511,6 +511,9 @@ Biz={
 
 "Data_Analysis_Challange":{"image": "./Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse<br/>in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
+
+
+
 }
 Chem={
 "Chemical_Breakdown":{"image": "./Icons_Final/Chemical_Breakdown.png","contact": "Ramya <br/> 9538703009","Description":"<b>Introduction:</b><br/>\
