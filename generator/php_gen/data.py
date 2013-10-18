@@ -71,7 +71,7 @@ Sample Format (Use this format in the mail)<br/>\
 	</tr>\
 </table>\
 <b>IMPORTANT DATES </b><br/>\
-18th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
+19th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
 21st Oct – Declaration of Selected papers <br/>\
 24th -27th Oct – Presentation of papers"}
 }
