@@ -323,12 +323,6 @@ function generateTeamRegForm(event_name)
 {
   var id = eventData[event_name].id;
   var num = eventData[event_name].team_members;
-  <form onsubmit="return false;">
-    <input type="text" name="username" placeholder="Email" /><br/>
-    <input type="password" name="password" placeholder="Password" /><br/>
-    <button class="btn btn-success" id="login_button" onclick="login()" style="height: 30px;">Submit</button>
-    <span id="error_login"></span>
-  </form>
   var content = "< form onsubmit='return false;' ><table>";
   content += "<tr><td>Team Name "+(i+1)+"</td><td><input name='registeration_team_name' type='text' placeholder='Email' /></td></tr>"
   for (var i = 0; i < num; i++)
@@ -338,7 +332,33 @@ function generateTeamRegForm(event_name)
   content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button>
     <span id='error_team_reg'></span>";
   content += "</table></form>";
+  var mess = new message("Team_Registeration_"+event_name, "Enter team details", content, "600");
+  mess.init();
+  mess.showMessage();
 }
 function register_team(event_id){
-
+  $.ajax({
+  url: "server.php?action=team_register&event_id="+event_id+"",
+  type: 'post',
+  // TODO fix this
+  data: $('#register_team_form').serialize(),
+  success: function(data, textStatus, jqXHR){
+    var statusCode = jqXHR.status;
+    var statusText = jqXHR.statusText;
+    //data=jQuery.parseJSON(data);
+    if(data!="success"){
+      //TODO print error message
+    }
+    
+  },
+  error: function (xhr, desc, err) {
+    var mess = new message("notLoggedIn", "Not Logged In", "Please login to register for the event.", "400");
+    mess.init();
+    mess.showMessage();
+    console.log(xhr);
+    console.log("Desc: " + desc + "\nErr:" + err);
+  } 
+  });
+  
+  
 }

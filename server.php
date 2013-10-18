@@ -220,6 +220,7 @@ function team_register(){
 
 				}
 				$query=mysqli_query($connect,"insert into engi_teams (name,event_id,team_id) values ('$team_name',$event_id,$team_id)");
+				echo "success";
 			}
 		}
 		else{
