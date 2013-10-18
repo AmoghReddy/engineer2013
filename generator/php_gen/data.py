@@ -1885,5 +1885,6 @@ newHash={
 	"3D_Photography": {"id" : "68","team_members":"1"},
 	"Bridge_Design_and_Fabrication": {"id" : "69","team_members":"2"},# workspop
 	"Contraption" : { "id" :"70","team_members":"5"},
+	"Adventure":{"id":"71","team_members":"1"}
 	}
 
