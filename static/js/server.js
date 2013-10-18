@@ -248,6 +248,7 @@ function fillUpProfileEvents(event)
   console.log(listEleHTML);
   
   document.getElementById("profile_events").innerHTML=listEleHTML;
+  //allPages["Profile"].pageRect=document.getElementById("profile_events").getBoundingClientRect();
 
 }
 
@@ -337,4 +338,7 @@ function generateTeamRegForm(event_name)
   content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button>
     <span id='error_team_reg'></span>";
   content += "</table></form>";
+}
+function register_team(event_id){
+
 }
