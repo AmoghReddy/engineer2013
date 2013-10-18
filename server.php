@@ -8,6 +8,7 @@ switch($_GET['action']){
 	case "account":account();break;
 	case "unregister":unregistration();break;
 	case "team_register":team_register();break;
+	case "view_teams":view_teams();break;
 }
 function isLogin(){
 	if(isset($_SESSION) && isset($_SESSION['first_name']) && isset($_SESSION['last_name']) && isset($_SESSION['email']))
@@ -142,9 +143,9 @@ function account(){
 	}
 	$data=array("individual"=>array(),"teams"=>array(), "requests"=>array());
 	$student_id=getStudentId();
-	$query=mysqli_query($connect,"SELECT engiapp_engievents.id,engiapp_engievents.event_name FROM engi_registrations  inner join engiapp_engievents on engi_registrations.event_id=engiapp_engievents.id where engi_registrations.student_id='$student_id'");
+	$query=mysqli_query($connect,"SELECT engiapp_engievents.id,engiapp_engievents.event_name,engiapp_engievents.team_size FROM engi_registrations  inner join engiapp_engievents on engi_registrations.event_id=engiapp_engievents.id where engi_registrations.student_id='$student_id'");
 	while($row=mysqli_fetch_array($query)){
-		array_push($data["individual"],array("event_id"=>$row['id'], "event_name"=>$row['event_name']));
+		array_push($data["individual"],array("event_id"=>$row['id'], "event_name"=>$row['event_name'],"team_size"=>$row["team_size"]));
 	}
 	echo json_encode($data);
 	return;
@@ -207,7 +208,6 @@ function team_register(){
 		return;
 	}	
 	if(isset($_GET['event_id'])){
-		$team_id=
 		$event_id=mysqli_real_escape_string($connect,$_GET['event_id']);
 		$student_id=getStudentId();
 
@@ -264,7 +264,7 @@ function team_register(){
 
 				}
 				if($data["team_id"]=="-1")
-					$query=mysqli_query($connect,"update engi_registrations set team_id=$team_id");
+					$query=mysqli_query($connect,"update engi_registrations set team_id=$team_id where student_id=$student_id and event_id=$event_id");
 				$query=mysqli_query($connect,"insert into engi_teams (name,event_id,team_id) values ('$team_name',$event_id,$team_id)");
 				echo "success";
 			}
@@ -275,6 +275,37 @@ function team_register(){
 
 		}
 	}
+}
+
+function view_teams(){
+	require("connect.php");
+	if(!isLogin()){
+		header('HTTP/1.0 403 Forbidden');
+		return;
+	}
+	if(isset($_GET['event_id'])){
+		$event_id=mysqli_real_escape_string($connect,$_GET["event_id"]);
+		$student_id=getStudentId();
+		$query=mysqli_query($connect,"select team_id from engi_registrations where student_id=$student_id and event_id=$event_id");
+		$data=mysqli_fetch_array($query);
+		$team_id=$data["team_id"];
+		if($team_id=="-1"){
+			echo "error,team_incomplete";
+			return;
+		}
+		// TODO test this
+		$query=mysqli_query($connect,"select engi_users.first_name,engi_users.last_name,engi_users.email from engi_users,engi_registrations where engi_registrations.team_id=$team_id and engi_users.id=engi_registrations.student_id");
+
+		error_log("select engi_users.first_name,engi_users.last_name,engi_users.email from engi_users,engi_registrations where engi_registrations.team_id=$team_id and engi_users.id=engi_registrations.student_id");
+
+		$json=array("users"=>array());
+		while($row=mysqli_fetch_array($query)){
+			array_push($json["users"], array("first_name"=>$row["first_name"],"last_name"=>$row["last_name"],"email"=>$row["email"]));
+		}
+		echo json_encode($json);
+		return;
+	}
+
 }
 
 function email_valid($temp_email) { 

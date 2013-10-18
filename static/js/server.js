@@ -8,8 +8,6 @@ $.ajax({
   type: 'post',
   data: $('#Login form').serialize(),
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
     data=jQuery.parseJSON( data );
     $('#Login').hide();
     $('#Signup').hide();
@@ -29,30 +27,28 @@ $("login_button").removeAttr("disabled");
 }
 signup_block=0;
 function signup(){
-if(signup_block!=0)
-	return;
-signup_block=1;
-$.ajax({
-  url: "server.php?action=signup",
-  type: 'post',
- // contentType: "application/x-www-form-urlencoded",
-  data: $('#Signup form').serialize(),
-  success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
-    $('#error_signup').html('Sign up successful!! Please login ');
-    $('error_signup').attr('class', 'success');
-    signup_block=0;
-  },
-  error: function (xhr, desc, err) {
-    console.log(xhr);
-    console.log("Desc: " + desc + "\nErr:" + err);
-    $('#error_signup').html('Error while Submitting!!');
-    $('#error_signup').attr('class', 'alert alert-error');
-    signup_block=0;
-  }
-});
-$("signup_button").removeAttr("disabled"); 
+  if(signup_block!=0)
+	   return;
+  signup_block=1;
+    $.ajax({
+    url: "server.php?action=signup",
+    type: 'post',
+   // contentType: "application/x-www-form-urlencoded",
+    data: $('#Signup form').serialize(),
+    success: function(data, textStatus, jqXHR){
+      $('#error_signup').html('Sign up successful!! Please login ');
+      $('error_signup').attr('class', 'success');
+      signup_block=0;
+    },
+    error: function (xhr, desc, err) {
+      console.log(xhr);
+      console.log("Desc: " + desc + "\nErr:" + err);
+      $('#error_signup').html('Error while Submitting!!');
+      $('#error_signup').attr('class', 'alert alert-error');
+      signup_block=0;
+    }
+  });
+  $("signup_button").removeAttr("disabled"); 
 }
 
 logout_block=0;
@@ -63,9 +59,6 @@ $.ajax({
   url: "server.php?action=logout",
   type: 'get',
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
-    // console.log("Success!!");
     user=0;
     $('#loggedIn').hide();
     $('#Login').show();
@@ -97,15 +90,8 @@ function register_single_event(event_id){
   //contentType: "application/x-www-form-urlencoded",
   data: "",
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
-    // console.log("Success!!");
     console.log(statusCode);
     get_profile_page(1);
-    // $('#Login').hide();
-    // $('#Signup').hide();
-    // get_profile(data);
-    // $('#loggedIn').show();
   },
   error: function (xhr, desc, err) {
     var mess = new message("notLoggedIn", "Not Logged In", "Please login to register for the event.", "400");
@@ -126,14 +112,11 @@ function open_tab(event_id,event_name)
 
 function get_profile_page(type)
 {
-  if (type == 1)
-    getPage("Profile");
+  getPage("Profile");
   $.ajax({
   url: "server.php?action=account",
   type: 'get',
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
     data=jQuery.parseJSON(data);
     
     fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
@@ -149,10 +132,8 @@ function get_profile_page(type)
 
 function fillUpProfileDetails(name, email)
 {
-  var prof_name = document.getElementById('profile_name');
-  var prof_email = document.getElementById('profile_email');
-  prof_name.innerHTML = name;
-  prof_email.innerHTML = email;
+  $("#profile_name").html(name);
+  $("#profile_email").html(email);
 }
 
 function fillUpProfileEvents(event)
@@ -161,10 +142,14 @@ function fillUpProfileEvents(event)
   console.log("list of events");
   console.log(event);
   var j=0;
-  while(j < event.individual.length)
-  {
-    listEleHTML += "<tr><td><a onclick='getPage(\""+((event.individual[j]).event_name)+"\")' style='cursor:pointer'>"+((event.individual[j]).event_name)+ "</a></td>"
-    listEleHTML += "<td><a class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</a></td></tr>";
+  while(j < event.individual.length){
+    listEleHTML += "<tr><td><a onclick='getPage(\""+((event.individual[j]).event_name)+"\")' style='cursor:pointer'>"+((event.individual[j]).event_name)+ "</a></td>";
+    console.log("alse");
+    if(parseInt(event.individual[j].team_size)>1)
+      listEleHTML+= "<td><b class='btn btn-info' onclick='view_teams("+(event.individual[j]).event_id+");'> View Team </b></td>";
+    else
+      listEleHTML+="<td></td>";
+    listEleHTML += "<td><b class='btn btn-danger' onclick='unregistration("+(event.individual[j]).event_id+");'>unregister</b></td></tr>";
     j++;
   }
   listEleHTML+="</table>";
@@ -191,8 +176,6 @@ function delete_team(team_id)
   url: "delete_team/"+team_id+"/",
   type: 'get',
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
     get_profile_page(1);
     console.log(statusCode);
   },
@@ -208,8 +191,6 @@ function unregistration(event_id){
   url: "server.php?action=unregister&event_id="+event_id+"",
   type: 'get',
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
 	data=jQuery.parseJSON(data);
     fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
     //console.log(data["individual"]);
@@ -247,8 +228,6 @@ function register_team(event_id){
   // TODO fix this
   data: $('#register_team_form').serialize(),
   success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
     content=data.split(",");
     if(content[0]=="error")
       $("#error_team_reg").html(content[1])
@@ -257,6 +236,40 @@ function register_team(event_id){
       get_profile_page(1);
     }
     
+  },
+  error: function (xhr, desc, err) {
+    var mess = new message("notLoggedIn", "Not Logged In", "Please login to register for the event.", "400");
+    mess.init();
+    mess.showMessage();
+    console.log(xhr);
+    console.log("Desc: " + desc + "\nErr:" + err);
+  } 
+  });
+}
+
+function view_teams(event_id){
+  $.ajax({
+  url: "server.php?action=view_teams&event_id="+event_id+"",
+  type: 'get',
+  success: function(data, textStatus, jqXHR){
+    console.log(data);
+    content=data.split(",");
+    if(content[0]=="error"){
+      var mess = new message("ViewTeam"+getRand(), "Message", "Click register on the event page to complete registration", "500");
+      mess.init();
+      mess.showMessage();
+    }
+    else{
+      data=jQuery.parseJSON(data);
+      content="<table class='table'>";
+      for(user=0;user<data.users.length;user++){
+        content+="<tr><td>"+data.users[user].first_name+" "+data.users[user].last_name+"</td><td>"+data.users[user].email+"</td></tr>";
+      }
+      content+"</table>";
+      var mess = new message("ViewTeam"+getRand(), "Team", content, "500");
+      mess.init();
+      mess.showMessage();
+    }
   },
   error: function (xhr, desc, err) {
     var mess = new message("notLoggedIn", "Not Logged In", "Please login to register for the event.", "400");
