@@ -6,21 +6,11 @@ login_block=1;
 $.ajax({
   url: "server.php?action=login",
   type: 'post',
-  //contentType: "application/x-www-form-urlencoded",
   data: $('#Login form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
     data=jQuery.parseJSON( data );
-   //console.log(typeof eval(data));
-    console.log("Success!!");
-    console.log(data);
-    console.log(data['fname']);
-    // user = new person();
-    // person.fname= "";
-    // person.lname= "";
-    // person.email = "";
-    console.log(statusCode);
     $('#Login').hide();
     $('#Signup').hide();
     get_profile(data);
@@ -50,12 +40,6 @@ $.ajax({
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
-    // console.log("Success!!");
-    console.log(statusCode);
-    // $('#Login').hide();
-    // $('#Signup').hide();
-    // get_profile(data);
-    // $('#loggedIn').show();
     $('#error_signup').html('Sign up successful!! Please login ');
     $('error_signup').attr('class', 'success');
     signup_block=0;
@@ -78,8 +62,6 @@ if(logout_block!=0)
 $.ajax({
   url: "server.php?action=logout",
   type: 'get',
-  // contentType: "application/x-www-form-urlencoded",
-  // data: $('#Signup form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
@@ -136,71 +118,26 @@ function register_single_event(event_id){
 
 }
 
-function register_team_event(event_name,event_id)
-{ 
-  // alert('hello');
-  console.log($("#register_"+event_id));
-  $.ajax({
-  url: "register_team/"+event_id+"/",
-  type: 'post',
-  contentType: "application/x-www-form-urlencoded",
-  data: $('#register_'+event_id).serialize(),
-  success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
-    // console.log("Success!!");
-    console.log(statusCode);
-    // $('#Login').hide();
-    // $('#Signup').hide();
-    // get_profile(data);
-    // $('#loggedIn').show();
-    $('#register_team').html('Team Created!! It will be added to your profile when all members accept the invitation');
-    $('#register_team').attr('class', 'success');
-    $('#register_team').css('font-size', '16px');
-  },
-  error: function (xhr, desc, err) {
-    console.log(xhr);
-    console.log("Desc: " + desc + "\nErr:" + err);
-    $('#register_team').html('Failed to create a team');
-    $('#register_team').attr('class', 'alert alert-error');
-    $('#register_team').css('font-size', '16px');
-  }
-  });
-}
-
 function open_tab(event_id,event_name)
 {
-  // alert('hello');
   getPage(event_name,event_id+'_register');
   return false;
 }
 
 function get_profile_page(type)
 {
-  // aler('here!!')
   if (type == 1)
     getPage("Profile");
   $.ajax({
   url: "server.php?action=account",
   type: 'get',
-  // contentType: "application/x-www-form-urlencoded",
-  // data: $('#Signup form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
     data=jQuery.parseJSON(data);
-    // console.log("Success!!");
-    // user=0;
-    d = data;
     
-    //console.log(data);
     fillUpProfileDetails($("#fname").html()+$("#lname").html(), $("#email").html());
-    //console.log(data["individual"]);
     fillUpProfileEvents(data);
-    // $('#loggedIn').hide();
-    // $('#Login').show();
-    // $('#Signup').show();
-    //console.log(statusCode);
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
@@ -220,11 +157,7 @@ function fillUpProfileDetails(name, email)
 
 function fillUpProfileEvents(event)
 {
-	//console.log(event);
-  // alert('trial');
-  // var listEle = document.getElementById('profile_events');
   var listEleHTML = "<table class='table'>";
-  // alert(eventList);
   console.log("list of events");
   console.log(event);
   var j=0;
@@ -252,42 +185,15 @@ function fillUpProfileEvents(event)
 
 }
 
-function accept_request(request_id)
-{
-  $.ajax({
-  url: "accept_team_request/"+request_id+"/",
-  type: 'get',
-  // contentType: "application/x-www-form-urlencoded",
-  // data: $('#Signup form').serialize(),
-  success: function(data, textStatus, jqXHR){
-    var statusCode = jqXHR.status;
-    var statusText = jqXHR.statusText;
-    get_profile_page(1);
-    console.log(statusCode);
-  },
-  error: function (xhr, desc, err) {
-    console.log(xhr);
-    console.log("Desc: " + desc + "\nErr:" + err);
-  } 
-  });
-}
-
 function delete_team(team_id)
 {
   $.ajax({
   url: "delete_team/"+team_id+"/",
   type: 'get',
-  // contentType: "application/x-www-form-urlencoded",
-  // data: $('#Signup form').serialize(),
   success: function(data, textStatus, jqXHR){
     var statusCode = jqXHR.status;
     var statusText = jqXHR.statusText;
-    // console.log("Success!!");
     get_profile_page(1);
-    // user=0;
-    // $('#loggedIn').hide();
-    // $('#Login').show();
-    // $('#Signup').show();
     console.log(statusCode);
   },
   error: function (xhr, desc, err) {
@@ -316,29 +222,22 @@ function unregistration(event_id){
   } 
   });
 	
-	team_members
 }
 
 function generateTeamRegForm(event_name)
 {
   var id = eventData[event_name].id;
   var num = eventData[event_name].team_members;
-  <form onsubmit="return false;">
-    <input type="text" name="username" placeholder="Email" /><br/>
-    <input type="password" name="password" placeholder="Password" /><br/>
-    <button class="btn btn-success" id="login_button" onclick="login()" style="height: 30px;">Submit</button>
-    <span id="error_login"></span>
-  </form>
   var content = "< form onsubmit='return false;' ><table>";
   content += "<tr><td>Team Name "+(i+1)+"</td><td><input name='registeration_team_name' type='text' placeholder='Email' /></td></tr>"
   for (var i = 0; i < num; i++)
   {
     content += "<tr><td>Member "+(i+1)+"</td><td><input name='registeration_email"+(i+1)+"' type='text' placeholder='Email' /></td></tr>"
   }
-  content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button>
-    <span id='error_team_reg'></span>";
+  content += "<button class='btn btn-success' id='team_reg' onclick='register_team("+id+")' style='height: 30px;'>Submit</button><span id='error_team_reg'></span>";
   content += "</table></form>";
 }
+
 function register_team(event_id){
   $.ajax({
   url: "server.php?action=team_register&event_id="+event_id+"",
@@ -362,6 +261,4 @@ function register_team(event_id){
     console.log("Desc: " + desc + "\nErr:" + err);
   } 
   });
-  
-  
 }

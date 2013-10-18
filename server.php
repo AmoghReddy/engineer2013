@@ -173,12 +173,14 @@ function isUserSignup($email){
 function getMaxTeamSize($event_id){
 	require("connect.php");
 	$query=mysqli_query($connect,"select team_size from engiapp_engievents where event_id=$event_id");
-	return mysqli_fetch_row($query)["team_size"];
+	$data=mysqli_fetch_row($query);
+	return $data["team_size"];
 }
 function newTeamId(){
 	require("connect.php");
 	$query=mysqli_query($connect,"select max(team_id) as id from engi_teams");
-	return mysqli_fetch_row($query)["id"]+1;
+	$data=mysqli_fetch_row($query);
+	return $data["id"]+1;
 }
 function team_register(){
 	// 403 if not logged in 404 if not all are registered
@@ -193,7 +195,8 @@ function team_register(){
 		$student_id=getStudentId();
 		// see whether team_id =-1
 		$query=mysqli_query($connect,"select team_id from engi_registrations where event_id=$event_id and student_id=$student_id");
-		$team_id=mysqli_fetch_row($query)["team_id"];
+		$data=mysqli_fetch_row($query);
+		$team_id=$data["team_id"];
 		if(team_id == "-1"){
 			// old registration
 			$maxTeamSize=getMaxTeamSize($event_id);
