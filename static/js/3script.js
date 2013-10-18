@@ -684,7 +684,7 @@ function message(name, title, message, width)
 	this.showMessage = function()
 	{
 		scene.add(this.WGLobject);
-		transformSingle(this.WGLobject, this.target, 1000, 0, false);
+		transformSingle(this.WGLobject, this.target, 1500, 0, false);
 	}
 	this.removeMessage = function()
 	{
@@ -698,17 +698,21 @@ function message(name, title, message, width)
 
 function getUpdateTargets()
 {
-	var length = getDictionaryLength(allUpdates);
 	var boxwidth = initialWidth/2 - homePageRadius;
 	var boxheight = window.innerHeight/2 - headerLength - footerLength;
-	for (var i = 0; i < length; i++)
+	var count = 0;
+	for (var x in allUpdates)
 	{
-		var tresh = homePageRadius + ;
+		var rect = allUpdates[x].rect;
+		var treshX = homePageRadius + (rect.right - rect.left)/2;
+		var rangeX = boxwidth - (rect.right - rect.left);
+		var rangeY = boxheight - (rect.bottom - rect.top);
 		var object= new THREE.Object3D();
-		object.position.x = (Math.random() * 5000 + ) * Math.pow(-1, Math.floor(Math.random() * 100));
-		object.position.y = ;
-		object.position.z = (Math.random() * 100 - 250);
-		targets.push(object);
+		object.position.x = (Math.random() * rangeX + treshX) * Math.pow(-1, Math.floor(Math.random() * 100));
+		object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
+		object.position.z = (count * 30 - 500);
+		allUpdates[x].target = object;
+		count++;
 	}
 }
 
@@ -722,7 +726,7 @@ function getDictionaryLength(dict)
 	return length;
 }
 
-function showUpdates(titleMessagePairs)
+function generateUpdates(titleMessagePairs)
 {
 	var upd;
 	for (var x = 0; x < titleMessagePairs.length; x++)
@@ -732,6 +736,14 @@ function showUpdates(titleMessagePairs)
 		allUpdates[upd.name] = upd;
 	}
 	getUpdateTargets();
+}
+
+function showUpdates()
+{
+	for (var x in allUpdates)
+	{
+		allUpdates[x].showMessage();
+	}
 }
 
 var curIndex = 0;
