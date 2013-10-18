@@ -639,12 +639,14 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
-		//console.log(currentPage.name);
 	if (!currentPage || currentPage.name.match("homePage"))
 		history.pushState(null, null, " ");
 	else
-		//console.log(currentPage.name);
 		history.pushState(null, null, "#"+currentPage.name);
+
+	for(var x in allMessagges)
+		allMessagges[x].removeMessage();
+
 }
 
 function message(name, title, message, width)
@@ -661,6 +663,7 @@ function message(name, title, message, width)
 	this.init = function()
 	{
 		var ele = document.createElement('span');
+		ele.id="message_span";
 		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
 		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
 		content += '<h1>'+this.title+'</h1>';
@@ -733,7 +736,6 @@ function message(name, title, message, width)
 		var object = new THREE.Object3D();
 		getRandomTarget(object);
 		transformSingle(this.WGLobject, object, 2000, 0, false, true);
-		//console.log('Removed!!!');
 	}
 }
 
