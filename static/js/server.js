@@ -65,7 +65,6 @@ $.ajax({
     $('#Signup').show();
     if(currentPage.name=="Profile")
     	getPage("homePage");
-    console.log(statusCode);
     logout_block=0;
   },
   error: function (xhr, desc, err) {
@@ -90,7 +89,6 @@ function register_single_event(event_id){
   //contentType: "application/x-www-form-urlencoded",
   data: "",
   success: function(data, textStatus, jqXHR){
-    console.log(statusCode);
     get_profile_page(1);
   },
   error: function (xhr, desc, err) {
@@ -177,7 +175,6 @@ function delete_team(team_id)
   type: 'get',
   success: function(data, textStatus, jqXHR){
     get_profile_page(1);
-    console.log(statusCode);
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
@@ -255,7 +252,7 @@ function view_teams(event_id){
     console.log(data);
     content=data.split(",");
     if(content[0]=="error"){
-      var mess = new message("ViewTeam"+getRand(), "Message", "Click register on the event page to complete registration", "500");
+      var mess = new message("ViewTeam"+getRand(), "Message", "<p style='line-height:2em;'>Click register on the event page to complete registration.<br /> NOTE: If the other team members have already registered, kindly ask them to unregister before you register for them</p>", "700");
       mess.init();
       mess.showMessage();
     }

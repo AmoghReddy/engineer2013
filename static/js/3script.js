@@ -639,12 +639,14 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
-		//console.log(currentPage.name);
 	if (!currentPage || currentPage.name.match("homePage"))
 		history.pushState(null, null, " ");
 	else
-		//console.log(currentPage.name);
 		history.pushState(null, null, "#"+currentPage.name);
+
+	for(var x in allMessagges)
+		allMessagges[x].removeMessage();
+
 }
 
 function message(name, title, message, width)
