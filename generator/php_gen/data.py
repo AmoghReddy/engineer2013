@@ -880,8 +880,9 @@ The team will be penalized every time the robot deviates from the path.<br/>","d
 
 "Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.<br/>\
-<b>Trial Run:</b> 18th October<br/>\
-<b>Event:</b> 19th October<br/> ",
+<b>Trial Run:</b> 20th October<br/>\
+<b>Event:</b> 21th October 4:00PM to 10:00PM <br/>\
+<b>Event URL:</b>  <br/> ",
 "EVENT FORMAT AND RULES": "This is an online team event<br/>\
 Each team consists of 3 members<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
