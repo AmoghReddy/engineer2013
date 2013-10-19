@@ -28,6 +28,7 @@ var updateTween;
 var updateLenght = 0;
 var updateDuration = 12000;
 var updateDistance = 1000;
+var updateDistanceConst = updateDistance;
 
 var REblock = new RegExp("^block");
 var REpage = new RegExp("^page");
@@ -593,10 +594,11 @@ function explodeTabbedPage( element )
 function getPage(pageName, tabName)
 {		
 	alpha = 0;
+	console.log(pageName);
 	if(currentPage != undefined)
 	{
 		currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
-		if (currentPage.name.match("homePage"))
+		if (currentPage.name =="homePage")
 			removeUpdates();
 	}
 	var duration = 2000, variation = 1500;
@@ -606,6 +608,8 @@ function getPage(pageName, tabName)
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	currentTabbedPage = undefined;
+	if (pageName == "homePage")
+		showUpdates();
 	//console.log(pageName+" "+tabName);
 	// console.log()
 	if (currentPage == undefined)
@@ -648,8 +652,6 @@ function getPage(pageName, tabName)
 		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar);
 	}
 	addHistory(pageName);
-	if (currentPage.name.match("homePage"))
-		showUpdates();
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
 	if (!currentPage || currentPage.name.match("homePage"))
@@ -784,7 +786,7 @@ function getUpdateTargets()
 		else
 			object.position.y = (Math.sin((2 * Math.PI) * (((count - 1) % fraction) / fraction)) * rangeY);
 		//object.position.z = (count * (-50) - 300);
-		object.position.z = -1 * updateDistance;
+		object.position.z = -1 * updateDistanceConst;
 		allUpdates[x].target = object;
 		count++;
 		power *= -1
@@ -814,7 +816,7 @@ function generateUpdates(titleMessagePairs)
 		updateLenght++;
 	}
 	updateDuration = 1000 * updateLenght;
-	updateDistance = 40 * updateLenght;
+	updateDistanceConst = 40 * updateLenght;
 	getUpdateTargets();
 }
 
@@ -830,7 +832,9 @@ function showUpdates()
 	{ 
 		TWEEN.remove(updateTween); 
 	}
-	updateDistance += camera.position.z;
+	updateDistance = updateDistanceConst + camera.position.z;
+	console.log('show');
+	console.log(allUpdates);
 	var inc = updateDistance * 25 / updateDuration;
 	var start = { theta : 0 }, end = { theta : updateDistance };
 	//var inc = 0, prev = 0;
@@ -861,7 +865,9 @@ function removeUpdates()
 	for (var x in allUpdates)
 	{
 		allUpdates[x].removeMessage();
+		allUpdates[x].completed = false;
 	}
+	TWEEN.remove(updateTween); 
 }
 
 var curIndex = 0;

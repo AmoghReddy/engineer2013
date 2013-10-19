@@ -248,12 +248,12 @@ function system()
 	$(".dropdown input").click(function(e){e.stopPropagation();});
 	//container = document.getElementById("container");
 	//makeSomeBlocks(); //Do not call this (not needed any more)
+	get_updates();
 	start();
 	keybind();
 	router();
 	searchRouter();
-	get_updates();
-
+	
 }
 window.onbeforeunload=function(){ 
 	// return 'jwoiah';

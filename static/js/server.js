@@ -285,6 +285,7 @@ function get_updates(){
   success: function(data, textStatus, jqXHR){
     data=jQuery.parseJSON(data);
     generateUpdates(data);
+    console.log(data)
   },
   error: function (xhr, desc, err) {
     console.log(xhr);
