@@ -1,9 +1,11 @@
-for i in `ls`
+SAVEIFS=$IFS
+IFS=$(echo -en "\n\b")
+for i in `ls *.png`
 do
-	if [ "$i" != "$0" ]
-	then
-		new_name=`expr "$i" : "\(.*\)\.png"`.jpg
-		convert -background white -flatten  -quality 20% $i $new_name
-		gimp -i -b '(colorize "*.png" 180 50 0)' '(gimp-quit 0)' $new_name
-	fi
+	new_name=`expr "$i" : "\(.*\)\.png"`.jpg
+	r=`echo "150+($RANDOM%100)"|bc`
+	g=`echo "150+($RANDOM%100)"|bc`
+	b=`echo "150+($RANDOM%100)"|bc`
+	convert -background "rgb($r,$g,$b)" -flatten  -quality 50%  $i $new_name
 done
+IFS=$SAVEIFS
