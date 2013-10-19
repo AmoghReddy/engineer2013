@@ -207,7 +207,7 @@ function generateTeamRegForm(event_name){
     var num = eventData[event_name].team_members;
     $("#register_team_form").remove();
     var content = "<form onsubmit='return false;' id='register_team_form'><table class='table'>";
-    content += "<tr><td>Team Name </td><td><input name='registration_team_name' type='text' placeholder='Email' /></td></tr>"
+    content += "<tr><td>Team Name </td><td><input name='registration_team_name' type='text' placeholder='Team Name' /></td></tr>"
     for (var i = 1; i < num; i++){
       content += "<tr><td>Member "+(i+1)+"</td><td><input name='registration_email"+(i+1)+"' type='text' placeholder='Email' /></td></tr>"
     }
