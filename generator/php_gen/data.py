@@ -528,7 +528,7 @@ Science, Bangalore. His cutting edge research on black holes brought him to the 
 reflected in the following article. http://articles.timesofindia.indiatimes.com/2013-09-21/science/42272405_1_black-holes-mass-and-spin-iisc \
 He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\
 His page for more details: \
-http://www.physics.iisc.ernet.in/~bm/ \
+<a href='http://www.physics.iisc.ernet.in/~bm/'>http://www.physics.iisc.ernet.in/~bm/</a> \
 Dr Jayaram Narayanan Chengalur\
 Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be \
 giving a talk on the impact of engineers in the field of pure science. \
@@ -605,7 +605,7 @@ More to be announced soon"}
 }
 
 Biz={
-"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
+"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
 <b>Problem Statement Theme:</b> SUSTAINABILITY<br/>","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
  1st Round: Registration and submission of preliminary presentations <br/>\
 2nd Round: Mentoring session and Finals (25th October, 2013 and 26th October, 2013.<br/> \
@@ -659,7 +659,7 @@ employees don't have much work. Solve for me. <br />\
 – Business Model <br />\
 &nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br />\
 &nbsp;&nbsp;• What is ROI of this model?<br />\
-<br />"},
+<br />","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>"},
 
 "Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
