@@ -252,6 +252,7 @@ function system()
 	keybind();
 	router();
 	searchRouter();
+	get_updates();
 
 }
 window.onbeforeunload=function(){ 
