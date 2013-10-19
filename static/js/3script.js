@@ -594,9 +594,11 @@ function getPage(pageName, tabName)
 {		
 	alpha = 0;
 	if(currentPage != undefined)
+	{
 		currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
-	if (currentPage.match("homePage"))
-		removeUpdates();
+		if (currentPage.name.match("homePage"))
+			removeUpdates();
+	}
 	var duration = 2000, variation = 1500;
 	explodePage( currentPage );
 	explodePage( currentSideBar );
@@ -646,7 +648,7 @@ function getPage(pageName, tabName)
 		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar);
 	}
 	addHistory(pageName);
-	if (currentPage.match("homePage"))
+	if (currentPage.name.match("homePage"))
 		showUpdates();
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
