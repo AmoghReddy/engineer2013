@@ -71,7 +71,7 @@ Sample Format (Use this format in the mail)<br/>\
 	</tr>\
 </table>\
 <b>IMPORTANT DATES </b><br/>\
-18th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
+19th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
 21st Oct – Declaration of Selected papers <br/>\
 24th -27th Oct – Presentation of papers"}
 }
@@ -205,7 +205,7 @@ structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statem
 bnmtheja@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
-sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternatives for a military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
+sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternatives for a military base. <a href='./data/FantastiCity.docx'>Problem Statement</a>"},
 
 	"Architect": {"image": "/Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
