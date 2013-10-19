@@ -274,7 +274,7 @@ function team_register(){
 			}
 		}
 		else{
-			echo "error, You have already registered2";
+			echo "error, You have already registered";
 			return;
 
 		}
