@@ -664,22 +664,26 @@ employees don't have much work. Solve for me. <br />\
 "Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
-"Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims at solving problems within the campus of NITK-Surathkal.<br/>You will have to deal with the challenges which students of NITK face. </br>The team with the best solution to the given problem statement will get to implement their solution with support from EFOREA.<br/>\
-<b>Problem Statement:</b> To be provided by NITK centre for Innovation and Learning.<br/>"},
+"Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Asmita Moon <br/>9986818125 ","Description": "Come with your own Problem Statement that you think is one of the major problems faced by most of the Campuses. Provide your solution to that problem and get a platform to present to people who can implement your solutions in the finale.<br />\
+<br />\
+This is a chance for you to improve your campus and to win a cash prize!<br />\
+<br />\
+Register yourself at ENGINEER website and send your entries in the form of pdf (Problem Statement and Solution Abstract in 500 words) to <b>bizevents@engineer.org.in</b> with subject as the name of the competition before 23rd October 2013 11:59pm."},
 
 "Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 
-"Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"www.zeat.in is an online restaurant reservation website, an e-commerce start-up based out of Bangalore. With the customer&rsquo;s booking times less than one hour before the customer's arrival time, zeat.in's source of income comes from the restaurants which are featured on its website. For every booking via zeat.in, the restaurant pays zeat.in a pre-decided percentage of the customer's bill.Currently working and functioning in Bangalore and New Delhi, zeat.in features some of the most highly rated restaurants in these two metropolitan cities, where most people have started being tech-savvy. To provide incentives for customers to book via zeat.in, they have now started providing discount coupons to people who book via zeat.in. Facing stiff competition from competitors like Groupon and many bigger companies, who have long-standing brand names in the coupon distribution business, zeat.in needs to formulate a marketing strategy for:<br />\
+"Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"Participants have to come up with an ad and a marketing campaign and strategy for a real company. Participants have to give a 500 words write up about their plans to the problem statement. Selected finalists will present a video ad of 3 minutes and a presentation about their strategy in the finale.<br />\
+<br />\
+Check out the Problem Statement on ENGINEER website.<br />\
+<br />\
+Register your team (Participate in a team of three.) at ENGINEER website and submit your entries in form of pdf to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.","problemstatement":"www.zeat.in is an online restaurant reservation website, an e-commerce start-up based out of Bangalore. With the customer&rsquo;s booking times less than one hour before the customer's arrival time, zeat.in's source of income comes from the restaurants which are featured on its website. For every booking via zeat.in, the restaurant pays zeat.in a pre-decided percentage of the customer's bill. Currently working and functioning in Bangalore and New Delhi, zeat.in features some of the most highly rated restaurants in these two metropolitan cities, where most people have started being tech-savvy. To provide incentives for customers to book via zeat.in, they have now started providing discount coupons to people who book via zeat.in. Facing stiff competition from competitors like Groupon and many bigger companies, who have long-standing brand names in the coupon distribution business, zeat.in needs to formulate a marketing strategy for:<br />\
+<br />\
 (i) Distributing maximum number of coupons and ensuring the use of the distributed coupons (which would otherwise go waste, as there are limited coupons)<br />\
 <br />\
 (ii) Ensuring customers book using zeat.in irrespective of discount coupons<br />\
 <br />\
-Zeat.in's current strategy relies solely on social media marketing and they are in the process of building an android application for smart phone booking.<br />\
-<br />\
-Submit entries in PPT or PPTX format to bizevents@engineer.org.in with the Subject as &quot;Adventure&quot;. Deadline for submission of entries is 22 October, 2013. <br />\
-<br />\
-Loads of exciting prizes to be won and an opportunity for the winners to receive an internship !"}
+Zeat.in's current strategy relies solely on social media marketing and they are in the process of building an android application for smart phone booking."}
 }
 Chem={
 "Chemical_Breakdown":{"image": "/Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
