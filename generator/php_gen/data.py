@@ -18,13 +18,13 @@ comitteeLogos={
 "Civil": "/Icons_Final/civilmain.png",
 "General": "/Icons_Final/GeneralEvents.png",
 "Blue_Print":"/Icons_Final/BluePrint.png",
-"Mockstock":"/Icons_Final/mockstock.png"
+"Mockstock":"/Icons_Final/mockstock.png",
 }
 
 
 #each comittee
 General = {
-	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 19th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC. Time will be informed later based on the registration. (tentative time 1:00 pm - 5 pm : 2 batches)<br/>• For non NITK Teams: test anytime between 10:00 am - 10:00 pm on 19th October. <br/>• Results will be declared on 20th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 20th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC from 5:00PM to 7:00PM.<br/>• For non NITK Teams: test can be taken anytime between 5:00PM and 7:00PM on 20th October. <br/>• Results will be declared on 21th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
 }
 Mock_Stock={
 "Mockstock":{"image":"/Icons_Final/mockstock.png","contact":"Shashank Ajmera<br />08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
@@ -71,7 +71,7 @@ Sample Format (Use this format in the mail)<br/>\
 	</tr>\
 </table>\
 <b>IMPORTANT DATES </b><br/>\
-18th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
+19th Oct – Deadline for submission of abstracts (Abstracts will be accepted till 11.59 PM) <br/>\
 21st Oct – Declaration of Selected papers <br/>\
 24th -27th Oct – Presentation of papers"}
 }
@@ -205,7 +205,7 @@ structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statem
 bnmtheja@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
-sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternatives for a military base. <a href='./data/FantastiCity.pdf'>Problem Statement</a>"},
+sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternatives for a military base. <a href='./data/FantastiCity.docx'>Problem Statement</a>"},
 
 	"Architect": {"image": "/Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
@@ -878,8 +878,7 @@ The scoring is time-based and the team which finishes first wins.<br/> \
 Illegal robot movements will result in a restart of the trial (Example: Deviation from the paths).<br/> \
 The trial starts when the robot starts moving from the initial position as mentioned in the figure.<br/> \
 The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
-The team will be penalized every time the robot deviates from the path.<br/>"
-,"download":"<a href=\"data/Automata.docx\">Download</a>"},
+The team will be penalized every time the robot deviates from the path.<br/>","download":"<a href=\"data/Automata.docx\">Download</a>"},
 
 "Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.<br/>\
@@ -1799,7 +1798,7 @@ The ultimate round which decides the winner of the event where their performance
 
 
 #comittee ends
-events={
+$events={
 "Technites":Technites,
 "Comps":Comps,
 "Civil": Civil,
@@ -1820,7 +1819,7 @@ events={
 "Mockstock":Mock_Stock
 }
 
-newHash={
+$newHash={
 	"Innovating_Mining":{"id":"1","team_members":"1"},
 	"Adverse_Mining_Problem":{"id":"2","team_members":"1"},
 	"Mine_Quest":{"id":"3","team_members":"3"},
@@ -1891,6 +1890,6 @@ newHash={
 	"3D_Photography": {"id" : "68","team_members":"1"},
 	"Bridge_Design_and_Fabrication": {"id" : "69","team_members":"2"},# workspop
 	"Contraption" : { "id" :"70","team_members":"5"},
-	"Adventure":{"id":"71","team_members":"1"}
+	"Adventure" : { "id" :"71","team_members":"1"}
 	}
 

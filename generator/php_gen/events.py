@@ -28,9 +28,10 @@ def event_sidebar(event,i):
 		print "<span id='blockGen"+get_num()+"' style='"+get_color()+"'><img src=\"static"+events[i][event]['image']+"\" width='250px'/></span><br />"
 		# print events[i]
 	if events[i] != "Workshops" and event not in no_registrations:
-			#if int(newHash[event]["team_members"]) > 1:
-			if False:
-				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><b>"+"Register"+"</b></span>"
+			if int(newHash[event]["team_members"]) > 1:
+			#if False:
+				#print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='open_tab(\""+newHash[event]['id']+"\",\""+event+"\")'><b>"+"Register"+"</b></span>"
+				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;border-radius:20px;"+get_color()+"' onclick='generateTeamRegForm(\""+event+"\")'><b>"+"Register"+"</b></span>"
 			else:
 				print "<span id='blockGen"+get_num()+"' class=\"register\" style='width:220px;padding: 3px;padding-left: 15px;padding-right: 15px;cursor: pointer;"+get_color()+"' onclick='register_single_event("+newHash[event]['id']+")'><b>"+"Register"+"</b></span>"
 	#Tabs of content in side bar !!

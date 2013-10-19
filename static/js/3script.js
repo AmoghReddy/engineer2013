@@ -24,6 +24,11 @@ var currentSideBar;
 var currentForm;
 var renderTween;
 
+var updateTween;
+var updateLenght = 0;
+var updateDuration = 12000;
+var updateDistance = 1000;
+
 var REblock = new RegExp("^block");
 var REpage = new RegExp("^page");
 var REside = new RegExp("^side");
@@ -588,6 +593,8 @@ function explodeTabbedPage( element )
 function getPage(pageName, tabName)
 {		
 	alpha = 0;
+	if(currentPage != undefined)
+		currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
 	var duration = 2000, variation = 1500;
 	explodePage( currentPage );
 	explodePage( currentSideBar );
@@ -639,12 +646,14 @@ function getPage(pageName, tabName)
 	addHistory(pageName);
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
-		//console.log(currentPage.name);
 	if (!currentPage || currentPage.name.match("homePage"))
 		history.pushState(null, null, " ");
 	else
-		//console.log(currentPage.name);
 		history.pushState(null, null, "#"+currentPage.name);
+
+	for(var x in allMessagges)
+		allMessagges[x].removeMessage();
+	currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:100;");
 }
 
 function message(name, title, message, width)
@@ -657,9 +666,13 @@ function message(name, title, message, width)
 	this.target;
 	this.ele;
 	this.rect;
+	this.upindex;
+	this.completed = false;
+	this.onComplete = function() {}
 	this.init = function()
 	{
 		var ele = document.createElement('span');
+		ele.id="message_span";
 		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
 		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
 		content += '<h1>'+this.title+'</h1>';
@@ -680,17 +693,67 @@ function message(name, title, message, width)
 		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
 		allMessagges[name] = this;
 	}
-	this.showMessage = function()
+	this.initUpdate = function( upindex )
 	{
+		this.upindex = upindex;
+		var ele = document.createElement('span');
+		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
+		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
+		content += '<h1>'+this.title+'</h1>';
+		content += '</td><td align = "right">';
+		content += '</td></tr>';
+		content += '<tr><td colspan="2">';
+		content += this.message;
+		content += '</td></tr></table>';
+		ele.innerHTML = content;
+		this.ele = ele;
+		var hiddenSpan = document.getElementById("hiddenSpan");
+		hiddenSpan.appendChild(this.ele);
+		this.rect = ele.getBoundingClientRect();
+		//console.log(rect);
+		hiddenSpan.removeChild(this.ele);
+		var object = new THREE.CSS3DObject( ele );
+		getRandomTarget(object);
+		this.WGLobject = object;
+		var tar = new THREE.Object3D();
+		tar.position.z = 20;
+		this.target = tar;
+		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
+		allMessagges[name] = this;
+		this.onComplete = function()
+		{
+			this.completed = true;
+			console.log(this.upindex);
+			// if (allTweens[this.WGLobject.id] != undefined)
+			// {
+			// 	TWEEN.remove(allTweens[object.id]);
+			// }
+			// allTweens[this.WGLobject.id] = new TWEEN.Tween( this.WGLobject.position )
+			// 	.to( { z: (this.target.position.z + distance) }, time )
+			// 	.repeat( Infinity )
+			// 	.start();
+			// var start = { theta : 0 }, end = { theta : 2 * Math.PI };
+			// allTweens[this.WGLobject.id] = new TWEEN.Tween( start )
+			// 	.to( { theta : end.theta } , updateDuration )
+			// 	.onUpdate( function(){
+					
+			// 	})
+			// 	.repeat( Infinity )
+			// 	.start();
+
+		}
+	}
+	this.showMessage = function(delay)
+	{
+		if (delay == undefined) delay = 0;
 		scene.add(this.WGLobject);
-		transformSingle(this.WGLobject, this.target, 1500, 0, false);
+		transformSingle(this.WGLobject, this.target, 1500, 0, delay, false, false, this);
 	}
 	this.removeMessage = function()
 	{
 		var object = new THREE.Object3D();
 		getRandomTarget(object);
-		transformSingle(this.WGLobject, object, 2000, 0, false, true);
-		console.log('Removed!!!');
+		transformSingle(this.WGLobject, object, 2000, 0, 0, false, true);
 	}
 }
 
@@ -698,19 +761,27 @@ function getUpdateTargets()
 {
 	var boxwidth = initialWidth/2 - homePageRadius;
 	var boxheight = window.innerHeight/2 - headerLength - footerLength;
-	var count = 0;
+	var count = 0, power = -1, fraction = 5;
 	for (var x in allUpdates)
 	{
 		var rect = allUpdates[x].rect;
+		//console.log(rect);
 		var treshX = homePageRadius + (rect.right - rect.left)/2;
 		var rangeX = boxwidth - (rect.right - rect.left);
 		var rangeY = boxheight - (rect.bottom - rect.top);
 		var object= new THREE.Object3D();
-		object.position.x = (Math.random() * rangeX + treshX) * Math.pow(-1, Math.floor(Math.random() * 100));
-		object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
-		object.position.z = (count * 30 - 500);
+		//object.position.x = (Math.random() * rangeX + treshX) * power;
+		object.position.x = ( rangeX + treshX) * power;
+		//object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
+		if (count % 2 == 0)
+			object.position.y = (Math.sin((2 * Math.PI) * ((count % fraction) / fraction)) * rangeY);
+		else
+			object.position.y = (Math.sin((2 * Math.PI) * (((count - 1) % fraction) / fraction)) * rangeY);
+		//object.position.z = (count * (-50) - 300);
+		object.position.z = -1 * updateDistance;
 		allUpdates[x].target = object;
 		count++;
+		power *= -1
 	}
 }
 
@@ -727,20 +798,63 @@ function getDictionaryLength(dict)
 function generateUpdates(titleMessagePairs)
 {
 	var upd;
+	//updateLenght = 0;
 	for (var x = 0; x < titleMessagePairs.length; x++)
 	{
-		upd = new message("update"+getRand(), titleMessagePairs[x].title, titleMessagePairs[x].message, 350);
-		upd.init();
+		upd = new message("update"+getRand(), titleMessagePairs[x].title, titleMessagePairs[x].message, 250);
+		upd.initUpdate();
+		upd.upindex = updateLenght;
 		allUpdates[upd.name] = upd;
+		updateLenght++;
 	}
+	updateDuration = 1000 * updateLenght;
+	updateDistance = 40 * updateLenght;
 	getUpdateTargets();
 }
 
 function showUpdates()
 {
+	count = 0;
 	for (var x in allUpdates)
 	{
-		allUpdates[x].showMessage();
+		count++;
+		allUpdates[x].showMessage((updateDuration / updateLenght) * count);
+	}
+	if (updateTween != undefined) 
+	{ 
+		TWEEN.remove(updateTween); 
+	}
+	updateDistance += camera.position.z;
+	var inc = updateDistance * 25 / updateDuration;
+	var start = { theta : 0 }, end = { theta : updateDistance };
+	//var inc = 0, prev = 0;
+	updateTween = new TWEEN.Tween( start )
+		.to( { theta : end.theta } , updateDuration )
+		.onUpdate(function(){
+			//inc = this.theta - prev;
+			//prev = this.theta;
+			//if (inc >= 5 ) inc = 1;		
+			for (var x in allUpdates)
+			{
+				if ( allUpdates[x].completed == true )
+				{
+					allUpdates[x].WGLobject.position.z += inc;
+					if (allUpdates[x].WGLobject.position.z >= (camera.position.z / 2))
+					{
+						allUpdates[x].WGLobject.position.z -= updateDistance;
+					}
+				}
+			}
+		})
+		.repeat( Infinity )
+		.start();
+}
+
+function removeUpdates()
+{
+	for (var x in allUpdates)
+	{
+		allUpdates[x].removeMessage();
 	}
 }
 
@@ -866,7 +980,7 @@ function init()
 	initPages();
 	initSideBars();
 	initTabbedPages();
-	initForms();
+	//initForms();
 	initAllCommittees();
 	initHomePage();
 	//initSponsors();
@@ -918,10 +1032,12 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		.start();
 }
 
-function transformSingle(source, destination, duration, variation, dontRender, destroyOnComplete) 
+function transformSingle(source, destination, duration, variation, delay, dontRender, destroyOnComplete, messageObject) 
 {
 	var object = source;
 	var target = destination;
+	var randVary = Math.random() * variation;
+	if (delay == undefined) delay = 0;
 	if( allTweens[object.id] != undefined )
 	{
 		TWEEN.remove(allTweens[object.id][0]);
@@ -929,21 +1045,30 @@ function transformSingle(source, destination, duration, variation, dontRender, d
 		TWEEN.remove(allTweens[object.id][2]);
 	}
 	var pos = new TWEEN.Tween( object.position )
-		.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
+		.to( { x: target.position.x, y: target.position.y, z: target.position.z }, randVary + duration )
 		.easing( TWEEN.Easing.Elastic.Out )
+		.delay(delay)
 		.start();
 	var rot = new TWEEN.Tween( object.rotation )
-		.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
+		.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, randVary + duration )
 		.easing( TWEEN.Easing.Exponential.InOut )
+		.delay(delay)
 		.start();
 	var dest = new TWEEN.Tween( object )
-		.to( {}, duration + variation )
+		.to( {}, duration + randVary )
 		.onComplete( function() { if (destroyOnComplete == true) scene.remove( this );})
+		.delay(delay)
 		.start();
 	allTweens[object.id] = [pos, rot, dest];
 	if (dontRender != true) new TWEEN.Tween( this )
-		.to( {}, duration + variation )
+		.to( {}, duration + randVary )
 		.onUpdate( render )
+		.delay(delay)
+		.start();
+	new TWEEN.Tween( this )
+		.to( {}, duration + randVary )
+		.onComplete( function() { if (messageObject != undefined ){ messageObject.onComplete(); }} )
+		.delay(delay)
 		.start();
 }
 
