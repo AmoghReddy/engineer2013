@@ -593,6 +593,8 @@ function explodeTabbedPage( element )
 function getPage(pageName, tabName)
 {		
 	alpha = 0;
+	if(currentPage != undefined)
+		currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
 	var duration = 2000, variation = 1500;
 	explodePage( currentPage );
 	explodePage( currentSideBar );
@@ -651,7 +653,7 @@ function getPage(pageName, tabName)
 
 	for(var x in allMessagges)
 		allMessagges[x].removeMessage();
-
+	currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:100;");
 }
 
 function message(name, title, message, width)
