@@ -24,6 +24,11 @@ var currentSideBar;
 var currentForm;
 var renderTween;
 
+var updateTween;
+var updateLenght = 0;
+var updateDuration = 12000;
+var updateDistance = 1000;
+
 var REblock = new RegExp("^block");
 var REpage = new RegExp("^page");
 var REside = new RegExp("^side");
@@ -659,6 +664,8 @@ function message(name, title, message, width)
 	this.target;
 	this.ele;
 	this.rect;
+	this.upindex;
+	this.completed = false;
 	this.onComplete = function() {}
 	this.init = function()
 	{
@@ -684,8 +691,9 @@ function message(name, title, message, width)
 		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
 		allMessagges[name] = this;
 	}
-	this.initUpdate = function()
+	this.initUpdate = function( upindex )
 	{
+		this.upindex = upindex;
 		var ele = document.createElement('span');
 		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
 		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
@@ -712,30 +720,38 @@ function message(name, title, message, width)
 		allMessagges[name] = this;
 		this.onComplete = function()
 		{
-			if (allTweens[this.WGLobject.id] != undefined)
-			{
-				TWEEN.remove(allTweens[object.id]);
-			}
-			var duration = 8000, variation = 4000;
-			var speed = (1000 + camera.position.z) / 10000;
-			var time = Math.random() * variation + duration;
-			var distance = speed * time;
-			allTweens[this.WGLobject.id] = new TWEEN.Tween( this.WGLobject.position )
-				.to( { z: (this.target.position.z + distance) }, time )
-				.repeat( Infinity )
-				.start();
+			this.completed = true;
+			console.log(this.upindex);
+			// if (allTweens[this.WGLobject.id] != undefined)
+			// {
+			// 	TWEEN.remove(allTweens[object.id]);
+			// }
+			// allTweens[this.WGLobject.id] = new TWEEN.Tween( this.WGLobject.position )
+			// 	.to( { z: (this.target.position.z + distance) }, time )
+			// 	.repeat( Infinity )
+			// 	.start();
+			// var start = { theta : 0 }, end = { theta : 2 * Math.PI };
+			// allTweens[this.WGLobject.id] = new TWEEN.Tween( start )
+			// 	.to( { theta : end.theta } , updateDuration )
+			// 	.onUpdate( function(){
+					
+			// 	})
+			// 	.repeat( Infinity )
+			// 	.start();
+
 		}
 	}
-	this.showMessage = function()
+	this.showMessage = function(delay)
 	{
+		if (delay == undefined) delay = 0;
 		scene.add(this.WGLobject);
-		transformSingle(this.WGLobject, this.target, 1500, 0, false, false, this);
+		transformSingle(this.WGLobject, this.target, 1500, 0, delay, false, false, this);
 	}
 	this.removeMessage = function()
 	{
 		var object = new THREE.Object3D();
 		getRandomTarget(object);
-		transformSingle(this.WGLobject, object, 2000, 0, false, true);
+		transformSingle(this.WGLobject, object, 2000, 0, 0, false, true);
 	}
 }
 
@@ -743,19 +759,24 @@ function getUpdateTargets()
 {
 	var boxwidth = initialWidth/2 - homePageRadius;
 	var boxheight = window.innerHeight/2 - headerLength - footerLength;
-	var count = 0, power = -1, fraction = 10;
+	var count = 0, power = -1, fraction = 5;
 	for (var x in allUpdates)
 	{
 		var rect = allUpdates[x].rect;
-		console.log(rect);
+		//console.log(rect);
 		var treshX = homePageRadius + (rect.right - rect.left)/2;
 		var rangeX = boxwidth - (rect.right - rect.left);
 		var rangeY = boxheight - (rect.bottom - rect.top);
 		var object= new THREE.Object3D();
-		object.position.x = (Math.random() * rangeX + treshX) * power;
+		//object.position.x = (Math.random() * rangeX + treshX) * power;
+		object.position.x = ( rangeX + treshX) * power;
 		//object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
-		object.position.y = (Math.sin((2 * Math.PI) * ((count % fraction + 1) / fraction)) * rangeY);
-		object.position.z = (count * (-50) - 300);
+		if (count % 2 == 0)
+			object.position.y = (Math.sin((2 * Math.PI) * ((count % fraction) / fraction)) * rangeY);
+		else
+			object.position.y = (Math.sin((2 * Math.PI) * (((count - 1) % fraction) / fraction)) * rangeY);
+		//object.position.z = (count * (-50) - 300);
+		object.position.z = -1 * updateDistance;
 		allUpdates[x].target = object;
 		count++;
 		power *= -1
@@ -775,21 +796,56 @@ function getDictionaryLength(dict)
 function generateUpdates(titleMessagePairs)
 {
 	var upd;
+	//updateLenght = 0;
 	for (var x = 0; x < titleMessagePairs.length; x++)
 	{
 		upd = new message("update"+getRand(), titleMessagePairs[x].title, titleMessagePairs[x].message, 250);
 		upd.initUpdate();
+		upd.upindex = updateLenght;
 		allUpdates[upd.name] = upd;
+		updateLenght++;
 	}
+	updateDuration = 1000 * updateLenght;
+	updateDistance = 40 * updateLenght;
 	getUpdateTargets();
 }
 
 function showUpdates()
 {
+	count = 0;
 	for (var x in allUpdates)
 	{
-		allUpdates[x].showMessage();
+		count++;
+		allUpdates[x].showMessage((updateDuration / updateLenght) * count);
 	}
+	if (updateTween != undefined) 
+	{ 
+		TWEEN.remove(updateTween); 
+	}
+	updateDistance += camera.position.z;
+	var inc = updateDistance * 25 / updateDuration;
+	var start = { theta : 0 }, end = { theta : updateDistance };
+	//var inc = 0, prev = 0;
+	updateTween = new TWEEN.Tween( start )
+		.to( { theta : end.theta } , updateDuration )
+		.onUpdate(function(){
+			//inc = this.theta - prev;
+			//prev = this.theta;
+			//if (inc >= 5 ) inc = 1;		
+			for (var x in allUpdates)
+			{
+				if ( allUpdates[x].completed == true )
+				{
+					allUpdates[x].WGLobject.position.z += inc;
+					if (allUpdates[x].WGLobject.position.z >= (camera.position.z / 2))
+					{
+						allUpdates[x].WGLobject.position.z -= updateDistance;
+					}
+				}
+			}
+		})
+		.repeat( Infinity )
+		.start();
 }
 
 function removeUpdates()
@@ -922,7 +978,7 @@ function init()
 	initPages();
 	initSideBars();
 	initTabbedPages();
-	initForms();
+	//initForms();
 	initAllCommittees();
 	initHomePage();
 	//initSponsors();
@@ -974,10 +1030,12 @@ function transform(sources, destinations, duration, variation, destroyOnComplete
 		.start();
 }
 
-function transformSingle(source, destination, duration, variation, dontRender, destroyOnComplete, messageObject) 
+function transformSingle(source, destination, duration, variation, delay, dontRender, destroyOnComplete, messageObject) 
 {
 	var object = source;
 	var target = destination;
+	var randVary = Math.random() * variation;
+	if (delay == undefined) delay = 0;
 	if( allTweens[object.id] != undefined )
 	{
 		TWEEN.remove(allTweens[object.id][0]);
@@ -985,25 +1043,30 @@ function transformSingle(source, destination, duration, variation, dontRender, d
 		TWEEN.remove(allTweens[object.id][2]);
 	}
 	var pos = new TWEEN.Tween( object.position )
-		.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * variation + duration )
+		.to( { x: target.position.x, y: target.position.y, z: target.position.z }, randVary + duration )
 		.easing( TWEEN.Easing.Elastic.Out )
+		.delay(delay)
 		.start();
 	var rot = new TWEEN.Tween( object.rotation )
-		.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * variation + duration )
+		.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, randVary + duration )
 		.easing( TWEEN.Easing.Exponential.InOut )
+		.delay(delay)
 		.start();
 	var dest = new TWEEN.Tween( object )
-		.to( {}, duration + variation )
+		.to( {}, duration + randVary )
 		.onComplete( function() { if (destroyOnComplete == true) scene.remove( this );})
+		.delay(delay)
 		.start();
 	allTweens[object.id] = [pos, rot, dest];
 	if (dontRender != true) new TWEEN.Tween( this )
-		.to( {}, duration + variation )
+		.to( {}, duration + randVary )
 		.onUpdate( render )
+		.delay(delay)
 		.start();
 	new TWEEN.Tween( this )
-		.to( {}, duration + variation )
+		.to( {}, duration + randVary )
 		.onComplete( function() { if (messageObject != undefined ){ messageObject.onComplete(); }} )
+		.delay(delay)
 		.start();
 }
 
