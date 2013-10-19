@@ -277,3 +277,18 @@ function view_teams(event_id){
   } 
   });
 }
+
+function get_updates(){
+  $.ajax({
+  url: "server.php?action=get_updates",
+  type: 'get',
+  success: function(data, textStatus, jqXHR){
+    data=jQuery.parseJSON(data);
+    generateUpdates(data);
+  },
+  error: function (xhr, desc, err) {
+    console.log(xhr);
+    console.log("Desc: " + desc + "\nErr:" + err);
+  } 
+  });
+}

@@ -9,6 +9,7 @@ switch($_GET['action']){
 	case "unregister":unregistration();break;
 	case "team_register":team_register();break;
 	case "view_teams":view_teams();break;
+	case "get_updates":get_updates();break;
 }
 function isLogin(){
 	if(isset($_SESSION) && isset($_SESSION['first_name']) && isset($_SESSION['last_name']) && isset($_SESSION['email']))
@@ -310,6 +311,15 @@ function view_teams(){
 		return;
 	}
 
+}
+function get_updates(){
+	require("connect.php");
+	$query=mysqli_query($connect,"select * from engi_updates order by time limit 10 ");
+	$data=array();
+	while($row=mysqli_fetch_array($query)){
+		array_push($data, array("title"=>$row['name'],"message"=>$row["message"]));
+	}
+	echo json_encode($data);
 }
 
 function email_valid($temp_email) { 
