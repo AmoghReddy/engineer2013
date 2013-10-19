@@ -872,8 +872,7 @@ The scoring is time-based and the team which finishes first wins.<br/> \
 Illegal robot movements will result in a restart of the trial (Example: Deviation from the paths).<br/> \
 The trial starts when the robot starts moving from the initial position as mentioned in the figure.<br/> \
 The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
-The team will be penalized every time the robot deviates from the path.<br/>"
-,"download":"<a href=\"data/Automata.docx\">Download</a>"},
+The team will be penalized every time the robot deviates from the path.<br/>","download":"<a href=\"data/Automata.docx\">Download</a>"},
 
 "Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.<br/>\
@@ -1793,7 +1792,7 @@ The ultimate round which decides the winner of the event where their performance
 
 
 #comittee ends
-events={
+$events={
 "Technites":Technites,
 "Comps":Comps,
 "Civil": Civil,
@@ -1814,7 +1813,7 @@ events={
 "Mockstock":Mock_Stock
 }
 
-newHash={
+$newHash={
 	"Innovating_Mining":{"id":"1","team_members":"1"},
 	"Adverse_Mining_Problem":{"id":"2","team_members":"1"},
 	"Mine_Quest":{"id":"3","team_members":"3"},
