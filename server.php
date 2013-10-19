@@ -233,7 +233,7 @@ function team_register(){
 				if($student_email!=""){
 					$student_id=isUserSignup($student_email);
 					if($student_id==""){
-						echo "error,".$student_email." not Found";
+						echo "error,".$student_email." has not registered to ENGINEER";
 						return;
 					}
 				}
