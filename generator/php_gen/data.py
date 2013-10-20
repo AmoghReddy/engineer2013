@@ -1338,7 +1338,7 @@ Total budget, including costs of raw materials and labour<br />\
 Detailed design, with justification<br />\
 Any other innovative ideas to improve functionality or add new features<br />\
 ","Rules":"<b>Preliminary round: </b><br />\
-Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
+Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 23rd October, 2013.<br />\
 Submit the abstract in PDF format.<br />\
 PDFs should include:<br />\
 Title <br />\
