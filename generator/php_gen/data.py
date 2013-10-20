@@ -613,7 +613,7 @@ Biz={
  Participants will have to present their solutions in the form of B-Plan presentation. The solution that fits the most with the company would be selected and the team would be provided with a cash prize.","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
  1st Round: Registration and submission of preliminary presentations <br/>\
 2nd Round: Mentoring session and Finals (25th October, 2013 and 26th October, 2013.<br/> \
-<b>The deadline for 1st round submission is 19th October,2013. </b><br/>\
+<b>The deadline for 1st round submission is 23rd October,2013. </b><br/>\
 The entries have to be submitted in the form of a powerpoint presentation only, to bizevents@engineer.org.in .<br/> Participants have to register before submitting the entries.","Agenda":"• Who are we solving for:<br />\
 – The problem statements for the event are designed for the small business owners. <br />\
 – Small businesses typically have less than 50 employees and are not as organized in terms of managing their business. <br />\
