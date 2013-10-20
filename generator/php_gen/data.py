@@ -25,31 +25,15 @@ comitteeLogos={
 #each comittee
 General = {
 	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 20th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC from 5:00PM to 7:00PM.<br/>• For non NITK Teams: test can be taken anytime between 5:00PM and 7:00PM on 20th October. <br/>• Results will be declared on 21th October and teams will be informed.", "Proceedings": "<b>First Round:</b><br/>First round online test will be held on 21st october from 5:00PM to 7:00PM.<br/>Event URL : <a href = 'engineer.org.in/simplineer'>Simplineer</a> <br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."},
-	"Engineerssolveproblems":{"image":"static/NIT-K-event.png","contact":"Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description":"Campus Diaries presents - <b>Engineers Solve Problems</b> <br />\
-<br />\
-(1) Think of a problem around you<br />\
-(2) As an engineer, come up with a solution to solve that problem<br />\
-(3) Publish your solution/idea/essay on campusdiaries.com with #engineering<br />\
-<br />\
-Best solutions, judged by your friends, and by an eminent personality from Bangalore Political Action Committee will be given following prizes<br />\
-<br />\
-<b>Prizes</b> :<br />\
-<br />\
-1st Prize: A year's subscription of Campus Diaries The Magazine<br />\
-2nd Prize: 6 Months subscription of Campus Diaries The Magazine<br />\
-<br />\
-<b>Power Ideas Award</b>: 2 selected entries/authors get 2 free passes each to TEDxGateway in Mumbai - the biggest TEDx in India - featuring the most powerful ideas and brains in business.<br />\
-<br />\
-<b>Mega Prize</b> : What's more - Catapooolt and Campus Diaries will give you a chance to win Rs. One Lakh (yes!) to work on your problem and take it to reality if your product or solution really blows their mind. <br />\
-<br />\
-"}
+	"Engineers_Solve_Problems":{"image":"/Icons_Final/NIT-K-event.png","contact":"Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description":"Campus Diaries presents - <b>Engineers Solve Problems</b> <br/>(1) Think of a problem around you<br/>(2) As an engineer, come up with a solution to solve that problem<br/>(3) Publish your solution/idea/essay on campusdiaries.com with #engineering<br/>Best solutions, judged by your friends, and by an eminent personality from Bangalore Political Action Committee will be given following prizes<br/><b>Prizes</b> :<br/>1st Prize: A year's subscription of Campus Diaries The Magazine<br/>2nd Prize: 6 Months subscription of Campus Diaries The Magazine<br/><b>Power Ideas Award</b>: 2 selected entries/authors get 2 free passes each to TEDxGateway in Mumbai - the biggest TEDx in India - featuring the most powerful ideas and brains in business.<br/>\
+<b>Mega Prize</b> : What's more - Catapooolt and Campus Diaries will give you a chance to win Rs. One Lakh (yes!) to work on your problem and take it to reality if your product or solution really blows their mind. <br/>"}
 }
 Mock_Stock={
-"Mockstock":{"image":"/Icons_Final/mockstock.png","contact":"Shashank Ajmera<br />08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
+"Mockstock":{"image":"/Icons_Final/mockstock.png","contact":"Shashank Ajmera<br/>08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
 <p>The event starts on 21st of October, and goes on till 25th of October. (The main event has been postponed due to technical difficulties).However, the trial versions will be put up soon (before 21st) for the users to get used to the environment.</p>\
 <p>The event will start on evenings, at 7:00 pm, and go on till 1:00 am, exactly like the American market, for all four days. </p>\
 <p>The trading will be inter-day, i.e., whatever your portfolio is at the end of the day, the same will be carried on to the next day. Hence, the final winner will be the one who makes the maximum cumulative profit after four days. </p>\
-<b>Prizes:</b><br />\
+<b>Prizes:</b><br/>\
 <p>Winner gets an amount of Rs. 5000/-</p>"}
 }
 
@@ -126,7 +110,7 @@ Booklet on Introduction to Android<br/>\
 Sample Applications in Android (Source Code)<br/>"},
 	"3D_Photography": {"image": "/Icons_Final/3d_photo.jpg","contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
-	"Bridge_Design_and_Fabrication": {"image": "/Icons_Final/Bridge_design.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>.The top performers in this workshop will be qualified to participate in the final round of the challenge which will be held during Technex'14 at IIT BHU. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
+	"Bridge_Design_and_Fabrication": {"image": "/Icons_Final/Bridge_design.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>.The top performers in this workshop will be qualified to participate in the final round of the challenge which will be held during Technex'14 at IIT BHU. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br/>Content designed, developed and delivered by IIT Kanpur graduates<br/>",
 	"Workshop structure":"The workshop has the following modules:<br/>\
 <b>Lecture</b>: Introduction to bridge design and working of different types of bridges<br/>\
 <b>Design session</b>: Each team will design their own bridge using a simulator<br/>\
@@ -618,125 +602,125 @@ Meta={
 TechSpeakEvent={
 "Tech_Speak":{"image": "/Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
  Venue: ATB seminar hall<br/>\
- Time:15.30 - 17.30<br /><br/>\
+ Time:15.30 - 17.30<br/><br/>\
 <b>Dr. Banibrata Mukhopadhyay (Astro Talk)</b><br/>\
 Venue: ATB seminar hall<br/>\
-Time:afternoon<br /><br/>\
+Time:afternoon<br/><br/>\
 More to be announced soon"}
 }
 
 Biz={
-"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This event will deal with solving case studies of corporate companies. The participants are going to be provided with a problem statement from Intuit. Three case studies are provided. Participants can choose any one of these case studies. Register your team (Team of three) at ENGINEER website and send your entries in the form of pdf as an abstract in 500 words to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.<br />\
-<br />\
+"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This event will deal with solving case studies of corporate companies. The participants are going to be provided with a problem statement from Intuit. Three case studies are provided. Participants can choose any one of these case studies. Register your team (Team of three) at ENGINEER website and send your entries in the form of pdf as an abstract in 500 words to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.<br/>\
+<br/>\
  Participants will have to present their solutions in the form of B-Plan presentation. The solution that fits the most with the company would be selected and the team would be provided with a cash prize.","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
  1st Round: Registration and submission of preliminary presentations <br/>\
 2nd Round: Mentoring session and Finals (25th October, 2013 and 26th October, 2013.<br/> \
 <b>The deadline for 1st round submission is 23rd October,2013. </b><br/>\
-The entries have to be submitted in the form of a powerpoint presentation only, to bizevents@engineer.org.in .<br/> Participants have to register before submitting the entries.","Agenda":"• Who are we solving for:<br />\
-– The problem statements for the event are designed for the small business owners. <br />\
-– Small businesses typically have less than 50 employees and are not as organized in terms of managing their business. <br />\
+The entries have to be submitted in the form of a powerpoint presentation only, to bizevents@engineer.org.in .<br/> Participants have to register before submitting the entries.","Agenda":"• Who are we solving for:<br/>\
+– The problem statements for the event are designed for the small business owners. <br/>\
+– Small businesses typically have less than 50 employees and are not as organized in terms of managing their business. <br/>\
 – Mostly they maintain all their sales, employee payments and inventory \
-manually. <br />\
-• Why are we solving for them:<br />\
-– Small business are unexplored domains<br />\
-– Mostly solutions available in market are for Medium to Big Businesses<br />\
-– Easy to access the owner of the business","Case 1":"• Problem Statement <br />\
-As a real estate agent, I want to manage all my clients which include rental and sales. e.g. <br />\
-notify when an agreement is getting over, manage new sales and customers. Solve for me. <br />\
-• Expected outcome<br />\
-– Execution <br />\
-&nbsp;&nbsp;• Deliverables include working prototype to include solutions for both rental and sales customer.<br />\
-&nbsp;&nbsp;• Provide team’s roles and responsibilities<br />\
-– Customer validation<br />\
-&nbsp;&nbsp;• Interaction with intended customer <br />\
-&nbsp;&nbsp;• Insights from customer feedback<br />\
-– Business Model <br />\
-&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution <br />\
-&nbsp;&nbsp;• What is ROI of this model?<br />\
-","Case 2":"• Problem Statement<br />\
+manually. <br/>\
+• Why are we solving for them:<br/>\
+– Small business are unexplored domains<br/>\
+– Mostly solutions available in market are for Medium to Big Businesses<br/>\
+– Easy to access the owner of the business","Case 1":"• Problem Statement <br/>\
+As a real estate agent, I want to manage all my clients which include rental and sales. e.g. <br/>\
+notify when an agreement is getting over, manage new sales and customers. Solve for me. <br/>\
+• Expected outcome<br/>\
+– Execution <br/>\
+&nbsp;&nbsp;• Deliverables include working prototype to include solutions for both rental and sales customer.<br/>\
+&nbsp;&nbsp;• Provide team’s roles and responsibilities<br/>\
+– Customer validation<br/>\
+&nbsp;&nbsp;• Interaction with intended customer <br/>\
+&nbsp;&nbsp;• Insights from customer feedback<br/>\
+– Business Model <br/>\
+&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution <br/>\
+&nbsp;&nbsp;• What is ROI of this model?<br/>\
+","Case 2":"• Problem Statement<br/>\
 As a mobile repair/recharge shop owner, to get insights on the type of sales I am making, I \
 need lot of manual effort. Solve for me to get business insights to grow my business based \
-on the payments made.<br />\
-• Expected outcome<br />\
-– Execution<br />\
-&nbsp;&nbsp;• Deliverables include working prototype to have sales information in various channels<br />\
-&nbsp;&nbsp;• Provide team’s roles and responsibilities<br />\
-– Customer validation<br />\
-&nbsp;&nbsp;• Interaction with intended customer<br />\
-&nbsp;&nbsp;• Insights from customer feedback<br />\
-– Business Model <br />\
-&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br />\
-&nbsp;&nbsp;• What is ROI of this model?<br />\
-<br />","Case 3":"• Problem Statement<br />\
+on the payments made.<br/>\
+• Expected outcome<br/>\
+– Execution<br/>\
+&nbsp;&nbsp;• Deliverables include working prototype to have sales information in various channels<br/>\
+&nbsp;&nbsp;• Provide team’s roles and responsibilities<br/>\
+– Customer validation<br/>\
+&nbsp;&nbsp;• Interaction with intended customer<br/>\
+&nbsp;&nbsp;• Insights from customer feedback<br/>\
+– Business Model <br/>\
+&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br/>\
+&nbsp;&nbsp;• What is ROI of this model?<br/>\
+<br/>","Case 3":"• Problem Statement<br/>\
 I am unable to manage my customers because of unpredictable frequency. On holidays \
 there will be rush and lot of customers go away, whereas on regular working days my \
-employees don't have much work. Solve for me. <br />\
-• Expected outcome<br />\
-– Execution<br />\
-&nbsp;&nbsp;• Deliverables include working prototype to include customer scheduling and employee payment tracking.<br />\
-&nbsp;&nbsp;• Provide team’s roles and responsibilities<br />\
-– Customer validation<br />\
-&nbsp;&nbsp;• Interaction with intended customer<br />\
-&nbsp;&nbsp;• Insights from customer feedback<br />\
-– Business Model <br />\
-&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br />\
-&nbsp;&nbsp;• What is ROI of this model?<br />\
-<br />","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>"},
+employees don't have much work. Solve for me. <br/>\
+• Expected outcome<br/>\
+– Execution<br/>\
+&nbsp;&nbsp;• Deliverables include working prototype to include customer scheduling and employee payment tracking.<br/>\
+&nbsp;&nbsp;• Provide team’s roles and responsibilities<br/>\
+– Customer validation<br/>\
+&nbsp;&nbsp;• Interaction with intended customer<br/>\
+&nbsp;&nbsp;• Insights from customer feedback<br/>\
+– Business Model <br/>\
+&nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br/>\
+&nbsp;&nbsp;• What is ROI of this model?<br/>\
+<br/>","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>"},
 
 "Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
-"Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Asmita Moon <br/>9986818125 ","Description": "Come with your own Problem Statement that you think is one of the major problems faced by most of the Campuses. Provide your solution to that problem and get a platform to present to people who can implement your solutions in the finale.<br />\
-<br />\
-This is a chance for you to improve your campus and to win a cash prize!<br />\
-<br />\
+"Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Asmita Moon <br/>9986818125 ","Description": "Come with your own Problem Statement that you think is one of the major problems faced by most of the Campuses. Provide your solution to that problem and get a platform to present to people who can implement your solutions in the finale.<br/>\
+<br/>\
+This is a chance for you to improve your campus and to win a cash prize!<br/>\
+<br/>\
 Register yourself at ENGINEER website and send your entries in the form of pdf (Problem Statement and Solution Abstract in 500 words) to <b>bizevents@engineer.org.in</b> with subject as the name of the competition before 23rd October 2013 11:59pm."},
 
 # "Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
 # Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 
-"Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"Participants have to come up with an ad and a marketing campaign and strategy for a real company. Participants have to give a 500 words write up about their plans to the problem statement. Selected finalists will present a video ad of 3 minutes and a presentation about their strategy in the finale.<br />\
-<br />\
-Check out the Problem Statement on ENGINEER website.<br />\
-<br />\
-Register your team (Participate in a team of three.) at ENGINEER website and submit your entries in form of pdf to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.","problemstatement":"www.zeat.in is an online restaurant reservation website, an e-commerce start-up based out of Bangalore. With the customer&rsquo;s booking times less than one hour before the customer's arrival time, zeat.in's source of income comes from the restaurants which are featured on its website. For every booking via zeat.in, the restaurant pays zeat.in a pre-decided percentage of the customer's bill. Currently working and functioning in Bangalore and New Delhi, zeat.in features some of the most highly rated restaurants in these two metropolitan cities, where most people have started being tech-savvy. To provide incentives for customers to book via zeat.in, they have now started providing discount coupons to people who book via zeat.in. Facing stiff competition from competitors like Groupon and many bigger companies, who have long-standing brand names in the coupon distribution business, zeat.in needs to formulate a marketing strategy for:<br />\
-<br />\
-(i) Distributing maximum number of coupons and ensuring the use of the distributed coupons (which would otherwise go waste, as there are limited coupons)<br />\
-<br />\
-(ii) Ensuring customers book using zeat.in irrespective of discount coupons<br />\
-<br />\
+"Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"Participants have to come up with an ad and a marketing campaign and strategy for a real company. Participants have to give a 500 words write up about their plans to the problem statement. Selected finalists will present a video ad of 3 minutes and a presentation about their strategy in the finale.<br/>\
+<br/>\
+Check out the Problem Statement on ENGINEER website.<br/>\
+<br/>\
+Register your team (Participate in a team of three.) at ENGINEER website and submit your entries in form of pdf to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.","problemstatement":"www.zeat.in is an online restaurant reservation website, an e-commerce start-up based out of Bangalore. With the customer&rsquo;s booking times less than one hour before the customer's arrival time, zeat.in's source of income comes from the restaurants which are featured on its website. For every booking via zeat.in, the restaurant pays zeat.in a pre-decided percentage of the customer's bill. Currently working and functioning in Bangalore and New Delhi, zeat.in features some of the most highly rated restaurants in these two metropolitan cities, where most people have started being tech-savvy. To provide incentives for customers to book via zeat.in, they have now started providing discount coupons to people who book via zeat.in. Facing stiff competition from competitors like Groupon and many bigger companies, who have long-standing brand names in the coupon distribution business, zeat.in needs to formulate a marketing strategy for:<br/>\
+<br/>\
+(i) Distributing maximum number of coupons and ensuring the use of the distributed coupons (which would otherwise go waste, as there are limited coupons)<br/>\
+<br/>\
+(ii) Ensuring customers book using zeat.in irrespective of discount coupons<br/>\
+<br/>\
 Zeat.in's current strategy relies solely on social media marketing and they are in the process of building an android application for smart phone booking."}
 }
 Chem={
-"Chemical_Breakdown":{"image": "/Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
-&ldquo;My mind,&quot; he said, &quot;rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.&rdquo;&#160;<br />\
-&#8213;&#160;Arthur Conan Doyle,&#160;The Sign of Four<br />\
-<br />\
-<br />\
- Here&rsquo;s a call to all those curious minds waiting to try something new, BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry. Don the role of a lab geek,&#160;play with the uncanniest concoctions, prepare the fanciest potions and&#160;race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br />\
-Push the lizard Brain of yours to the maximum!<br />\
-","rules":"A team can have a maximum of 2 people.<br />\
-All members of the team are to be enrolled as students in an educational institute.<br />\
-No person can be a part of more than 1 team.<br />\
-There is no restriction on the number of people participating from a particular institute.<br />\
-","rounds":"The First round will comprise of a Written Quiz testing concepts of +2 Level Chemistry and logical reasoning.<br />\
-Around 10 teams will be selected to the next round who will get to work on an exciting puzzle set up based on a storyline.<br />\
-This being a spot event, the problem statement will be released on the event day itself.<br />\
+"Chemical_Breakdown":{"image": "/Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br/>\
+&ldquo;My mind,&quot; he said, &quot;rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.&rdquo;&#160;<br/>\
+&#8213;&#160;Arthur Conan Doyle,&#160;The Sign of Four<br/>\
+<br/>\
+<br/>\
+ Here&rsquo;s a call to all those curious minds waiting to try something new, BREAKDOWN, where you can unleash your imagination and basic science, laboratory skills and indulge in the world of basic chemistry. Don the role of a lab geek,&#160;play with the uncanniest concoctions, prepare the fanciest potions and&#160;race against the clock to figure out the Chemical X through a series of weirdest cases and mind boggling puzzles.<br/>\
+Push the lizard Brain of yours to the maximum!<br/>\
+","rules":"A team can have a maximum of 2 people.<br/>\
+All members of the team are to be enrolled as students in an educational institute.<br/>\
+No person can be a part of more than 1 team.<br/>\
+There is no restriction on the number of people participating from a particular institute.<br/>\
+","rounds":"The First round will comprise of a Written Quiz testing concepts of +2 Level Chemistry and logical reasoning.<br/>\
+Around 10 teams will be selected to the next round who will get to work on an exciting puzzle set up based on a storyline.<br/>\
+This being a spot event, the problem statement will be released on the event day itself.<br/>\
 "},
 
-"Industry_Defined_Problem":{"image": "/Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is the epitome of real, applied engineering. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
-Industry-Institute interaction is vital for the development of any engineering student. This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry. In this event, a renowned Chemical firm puts forward a technical problem which they are facing. The problem may be either recurring one or a one off issue. . The participants are expected to come up with innovative &amp; economically feasible solutions that can be assimilated in the company&rsquo;s process.<br />\
-The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies. <br />\
-So what are you thinking of?<br />\
-Come, participate and get to interact with and thereby learn from the professionals!<br />\
-Engineer 2013, the expectations get bigger and the stakes higher! <br />\
-We will get back to you with further details. Stay updated. <br />\
+"Industry_Defined_Problem":{"image": "/Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is the epitome of real, applied engineering. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br/>\
+Industry-Institute interaction is vital for the development of any engineering student. This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry. In this event, a renowned Chemical firm puts forward a technical problem which they are facing. The problem may be either recurring one or a one off issue. . The participants are expected to come up with innovative &amp; economically feasible solutions that can be assimilated in the company&rsquo;s process.<br/>\
+The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies. <br/>\
+So what are you thinking of?<br/>\
+Come, participate and get to interact with and thereby learn from the professionals!<br/>\
+Engineer 2013, the expectations get bigger and the stakes higher! <br/>\
+We will get back to you with further details. Stay updated. <br/>\
 ", "Rounds": "First(Abstract for the event): A brief write up about the solution to the problem posed by 18th.<br/> Second : Selected groups will present their solutions in the form of a PPT in front of a panel from the industry on 25th .","Rules_and_Regulations": "<ul><li>A team can have a maximum of 4 people.</li><li>All members of the team are to be enrolled as students in an educational institute.</li>\
 <li>No person can be a part of more than 1 team.</li></ul><br/>There is no restriction on the number of people participating from a particular institute. <br/>\
 Cash prize of 30K for this event alone !!", "Problem Statement": "\
 <p><blockquote>“A good scientist is a person with original ideas. A good engineer is a \
 person who makes a design that works with as few original ideas as \
-possible. There are no prima donnas in engineering.” -Freeman Dyson</blockquote></p><br />\
+possible. There are no prima donnas in engineering.” -Freeman Dyson</blockquote></p><br/>\
 <p>After memorable stint with MRPL last year, we are back this year with the \
 Industry defined problem. We are proud to have BASF as our sponsor for IDP’13. \
 With more than 110,000 employees, six Verbund sites, approximately 380 \
@@ -744,7 +728,7 @@ additional production sites and headquartered in Ludwigshafen, Germany, BASF \
 is largest chemical company in the World. BASF Mangalore is largest production \
 site in South Asia and is involved in the production of performance chemicals \
 (leather and textile chemicals), dispersions and paper chemicals, automotive and \
-coil coatings and construction chemicals. </p><br />\
+coil coatings and construction chemicals. </p><br/>\
 <p>Butadiene is an unsaturated hydrocarbon which is produced by cracking naphtha. \
 Butadiene is mainly used in the tyre, paper and plastics industry. Important \
 characteristics of Butadiene are: highly flammable, toxic, colorless, aromatic \
@@ -752,72 +736,72 @@ smell.</p>\
 <p>BASF uses 20, 20 ton tankers per month. Each of them is at 3.5 bar pressure \
 before unloading, after which they reach 1 bar. The main aim is maximum \
 recovery so your task is to find out the percentage recovery in each tanker, \
-measures to recover and changes to be made to enhance recovery.<br />\
+measures to recover and changes to be made to enhance recovery.<br/>\
 Come take part in this Year’s Edition of IDP, with innovative and creative solutions \
 to the challenge posed. The stakes are Higher!!</p>\
 <a href='./data/IDP.pdf'>Download</a>" },
 
-"The_Portal":{"image": "/Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
-<br />\
-So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />The event will be conducted in two rounds.<br />",
+"The_Portal":{"image": "/Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br/>\
+<br/>\
+So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br/>The event will be conducted in two rounds.<br/>",
 "Round 1":"<b>Workshop</b><hr />\
-The workshop will be held in two sessions.<br />\
-<p><b>Session 1</b>: Theory -An introductory session to give an insight of ChemCAD <br />\
+The workshop will be held in two sessions.<br/>\
+<p><b>Session 1</b>: Theory -An introductory session to give an insight of ChemCAD <br/>\
 This will comprise of a detailed explanation of various aspects of the software and its applications in real time situations like analysis of distillation tower in petroleum industry, reactor design, simulation of process flow sheets,etc.; which will be concluded by solving a few sample problems.</p>\
 <p><b>Session 2</b>: A hands-on session</br />\
 You will be given an opportunity to work on the software with a set of problems and get a feel of the software. Experts, well versed with the software will assist you, clear your doubts and pay individual attention.</p>",
 "Round 2":"<p><b>Event</b><hr />A series of problem statements will have to be solved using ChemCAD in a stipulated amount of time. The questions will be based on the knowledge acquired in round 1. The criteria for judgment will depend on several factors which will be announced on the spot. In case of any discrepancies, the decision of the organizers shall be considered final.</p>",
-"FAQ":"<p>What pre-requisites are required to attend the workshop?<br />\
+"FAQ":"<p>What pre-requisites are required to attend the workshop?<br/>\
 <b>Ans</b> : None. Basics of reactors and distillation column will be covered in the theory \
 session.</p>\
-<p>Should I get my laptop?<br />\
+<p>Should I get my laptop?<br/>\
 <b>Ans</b> : Yes</p>\
-<p>What about the software and license of ChemCAD?<br />\
+<p>What about the software and license of ChemCAD?<br/>\
 <b>Ans</b>: We will provide you the software. NITK chemical engineering department has \
 licensed software and participants will be allowed to use the same.</p>\
-<p>ChemCAD requires license? How can it be useful if I don’t have one?<br />\
+<p>ChemCAD requires license? How can it be useful if I don’t have one?<br/>\
 <b>Ans</b>: ChemCAD is extensively used in industry as well as in research. Learning this software \
 will give you a glimpse of how simulation works and knowing a simulating tool before \
 graduation is always an added advantage.</p>\
 <p>I am a first year/ second year student. I have no knowledge of reactors or distillation \
-columns. Can I attend?<br />\
+columns. Can I attend?<br/>\
 <b>Ans</b> : See Answer for Q. 1</p>\
-<p>I am an out-station participant. What about my stay?<br />\
+<p>I am an out-station participant. What about my stay?<br/>\
 <b>Ans</b>: Your stay at NITK will be managed by our student hospitality team.</p>\
-<p>Who will be conducting the workshop?<br />\
+<p>Who will be conducting the workshop?<br/>\
 <b>Ans</b>: Students from NITK well versed with the software will be conducting the same.</p>\
-<p>How do I register for the workshop?<br />\
+<p>How do I register for the workshop?<br/>\
 <b>Ans</b>: Preregister by sending a mail to sra.10ch36@nitk.edu.in.</p>\
-<p>I am not a chemical engineer. Can I attend?<br />\
+<p>I am not a chemical engineer. Can I attend?<br/>\
 <b>Ans</b>: This workshop is not restricted to chemical engineers as simulation is major aspect \
 in design, research and process industries. See Q1.</p>"
 },
 
 "Contraption":{"image":"engineer.gif","contact":"Ramya<br/>sra.10ch36@nitk.edu.in\
- <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br />\
-For this year&rsquo;s edition of Engineer, Contraption provides an opportunity for participants to furnish innovative solutions for oil spills on a miniature scale, based on the criteria in Problem Statement.<br />", 
-"Problem Statement": "A pond of water having an exposed surface area of 0.25 m2 is covered by a layer of oil. Participants are required to come up with a mechanism that will recover the oil layer from the water. Dimensions of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. There is no constraint on the material of construction or the height of the model.<br />" , 
+ <br/> 9538703009","Introduction":"Even during these modern days when ships are equipped with advanced technological devices, oil spills continue to be a major threat to the marine environment. With vast number of people dependant on coastal areas for fishing and tourism throughout the world, consequences of oil spills can be serious. Oil companies and ship builders shoulder the responsibility to prevent these disasters. Most man made oil pollution comes from land based activities. But public attention tends to focus more sharply on sea going oil tankers. In general, lighter refined petroleum products like diesel and gasoline are more likely to mix in water and are more toxic to marine life. These products evaporate quickly and do not persist long in the environment. However, heavier crude oil of less toxicity can remain on water surface for much longer period. As oil is lighter than water and doesn&rsquo;t decompose, it will remain on the surface for a very long time. As it is flammable, spills can also fuel ocean fires. <br/>\
+For this year&rsquo;s edition of Engineer, Contraption provides an opportunity for participants to furnish innovative solutions for oil spills on a miniature scale, based on the criteria in Problem Statement.<br/>", 
+"Problem Statement": "A pond of water having an exposed surface area of 0.25 m2 is covered by a layer of oil. Participants are required to come up with a mechanism that will recover the oil layer from the water. Dimensions of the model, as viewed from above should not exceed 25 cm x 25 cm over the surface of the pond. There is no constraint on the material of construction or the height of the model.<br/>" , 
 "Rules": "• The students must carry valid student ID cards of their \
 college which they will be required to produce at the time of \
-registration. <br />\
+registration. <br/>\
 • A team may comprise a maximum of four participants. \
 Readymade kits are NOT allowed. Judges decision in this \
-regard will be final and binding. <br />\
+regard will be final and binding. <br/>\
 • Teams will not be allowed to modify their model during their \
-trial. <br />\
+trial. <br/>\
 • The initial model dimensions should not exceed 25 cm x 25 \
 cm excluding the height and control device dimensions. This \
 dimension excludes the pneumatic or hydraulic pumps, if \
-used. <br />\
-• The weight of the model should not exceed 10 kgs. <br />\
-• The model can be controlled wirelessly or with wires. <br />\
-• Readymade wireless remote control units may be used. <br />\
+used. <br/>\
+• The weight of the model should not exceed 10 kgs. <br/>\
+• The model can be controlled wirelessly or with wires. <br/>\
+• Readymade wireless remote control units may be used. <br/>\
 • In case wired control is used, the wire(s) must remain \
 slack throughout the event. If the wires are visibly taut, the \
-team would be immediately disqualified. <br />\
+team would be immediately disqualified. <br/>\
 • Single phase external 230V AC power will be supplied. \
 Maximum voltage between any two points on the model\
-must not exceed 24 V DC or 24 V AC. <br />\
+must not exceed 24 V DC or 24 V AC. <br/>\
 • Maximum power consumption should not exceed 200W."}
 
 }
@@ -830,9 +814,9 @@ A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>\
 <b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
 "goal":"Teams must build a line following bot that navigates the path in minimum possible time while remembering the turns taken.<br/> After tracing the entire path, we expect bot to display the order of turns taken (in case of the path in the shown sample arena: L-R-R-L-L-R-R-R-L-L-L-R-R-R-L-L-R-R-R-L-L-R-R where L stands for left turn and R stands for right turn).<br/> Bot could use any convenient mechanism to display the final output.", 
-"botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br />\
-Bot dimensions should be well within 20cm*18cm<br />\
-Bot wheels should not hamper the arena <br />\
+"botspecs":"Bot should not use readymade sensors. Teams are expected to build their own sensors<br/>\
+Bot dimensions should be well within 20cm*18cm<br/>\
+Bot wheels should not hamper the arena <br/>\
 Bot should have a mechanism to show the traced path.",
 "OtherDetails":"<ul><li>A maximum of 4 members may be present in one team.</li>\
 <li>Total time allotted is 10 minutes.</li>\
@@ -848,10 +832,10 @@ Bot should have a mechanism to show the traced path.",
 <li>The team will have a maximum of three attempts within given 10 mins.</li>\
 <li>In case no team is able to complete the path, the judges will decide upon the winner.</li>\
 <li>Judges' decision will be final and binding in all cases.</li>\
-","samplearena":"<img src=\"./data/trail.png\" />","Arena":"• The arena comprises of black path on a white background.<br />\
-• All turnings are 90 degree. <br />\
-• A black circle of radius 7.5 cm, indicated the end of the path. <br />\
-• Black line has a uniform thickness of 3cm.<br />\
+","samplearena":"<img src=\"./data/trail.png\" />","Arena":"• The arena comprises of black path on a white background.<br/>\
+• All turnings are 90 degree. <br/>\
+• A black circle of radius 7.5 cm, indicated the end of the path. <br/>\
+• Black line has a uniform thickness of 3cm.<br/>\
 • Dimensions: The arena will be of dimensions no more than 210cm X 190 cm"},
 
 "Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<img src='./data/automata.png' />" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
@@ -1343,58 +1327,58 @@ Sce={
 Panel to consist of seven members, including one moderator"},
 
 "Sparsh":{"image": "/Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
-"Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br />\
-Use of biomass is not in itself a cause for concern. However, when resources harvested are unsustainable and energy conversion technologies are inefficient, there are serious adverse consequences for people&rsquo;s health, the environment and economic development.<br />\
- <br />\
-About 1.3 million people &ndash; mostly women and children&ndash; die prematurely every year because of exposure to indoor air pollution from biomass burning. Environmental damage can also result, for example, in deforestation. <br />\
-","NeedOfTheHour":"There is an urgent need for alternative, sustainable energy sources and improved sanitation. By converting animal manure and human excreta into cooking energy, biogas could fill the void.<br />\
-This problem is most directly solved by household level bio-gas plants which are being manufactured in India. However, the plants cost INR.15,000. This puts a break to the sales of these bio-gas plants as these plants are mainly targeted to the rural people who may not be willing to pay this price. The need of the hour is to make these bio-gas plants cheaper so that everybody can afford. <br />\
-","problemstatement":"The participants of Sparsh are expected to give ideas through which household level bio-gas plants can be made cost-effectively with a budget which should not exceed INR 15,000. The aim is to make the household bio-gas plants as cost-effective as possible. The participants are required to make a presentation of their ideas. They are judged on the cost-effectiveness of their idea and the practicality of their solution. They will be judged by professionals experienced in this domain. Innovative and feasible ideas may be implemented and further developed by Mangalore City Corporation. <br />\
-<br />\
-The presentation must address the following:<br />\
-Total budget, including costs of raw materials and labour<br />\
-Detailed design, with justification<br />\
-Any other innovative ideas to improve functionality or add new features<br />\
-","Rules":"<b>Preliminary round: </b><br />\
-Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 23rd October, 2013.<br />\
-Submit the abstract in PDF format.<br />\
-PDFs should include:<br />\
-Title <br />\
-College name<br />\
-Team name<br />\
-Name and details of the team members (Contact number and email id)<br />\
-Brief description of the idea/solution.<br />\
-The abstract should not exceed two pages (exclude two pages). Selected teams will be informed through mail.<br />\
-<br />\
-<b>Final round:</b><br />\
-<br />\
-The participants must form teams of 3 members or less.<br />\
-Presentation should not exceed 10 minutes.<br />\
-If participants want to include drawings/designs on softwares like AutoCAD etc., they are encouraged to do so.<br />\
-<br />\
-<b>Prizes worth 10k to be won. </b><br />\
-","Faqs":"Q. Can teams be formed by mixing students of different disciplines/departments?<br />\
-A.&#160;Yes.<br />\
-<br />\
-Q. Can teams be formed by mixing undergraduate and post-graduate engineering students?<br />\
-A.&#160;Yes.<br />\
-<br />\
-Q. Can one team submit more than one entry?<br />\
-A.&#160;No, one team can send only one entry and the same person cannot be in more than one team.<br />\
-<br />\
-Q. Whom do we contact in case of any queries?<br />\
-A.&#160;In case of any queries, send a mail khv.10m148@nitk.edu.in.<br />\
-<br />\
-Q. Can entries be submitted in other languages?<br />\
-A.&#160;No, entries are to be submitted only in English<br />\
-<br />\
-Q. Would a prototype be required if I'm a short listed candidate?<br />\
-A.&#160;No<br />\
-<br />\
-The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
+"Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br/>\
+Use of biomass is not in itself a cause for concern. However, when resources harvested are unsustainable and energy conversion technologies are inefficient, there are serious adverse consequences for people&rsquo;s health, the environment and economic development.<br/>\
+ <br/>\
+About 1.3 million people &ndash; mostly women and children&ndash; die prematurely every year because of exposure to indoor air pollution from biomass burning. Environmental damage can also result, for example, in deforestation. <br/>\
+","NeedOfTheHour":"There is an urgent need for alternative, sustainable energy sources and improved sanitation. By converting animal manure and human excreta into cooking energy, biogas could fill the void.<br/>\
+This problem is most directly solved by household level bio-gas plants which are being manufactured in India. However, the plants cost INR.15,000. This puts a break to the sales of these bio-gas plants as these plants are mainly targeted to the rural people who may not be willing to pay this price. The need of the hour is to make these bio-gas plants cheaper so that everybody can afford. <br/>\
+","problemstatement":"The participants of Sparsh are expected to give ideas through which household level bio-gas plants can be made cost-effectively with a budget which should not exceed INR 15,000. The aim is to make the household bio-gas plants as cost-effective as possible. The participants are required to make a presentation of their ideas. They are judged on the cost-effectiveness of their idea and the practicality of their solution. They will be judged by professionals experienced in this domain. Innovative and feasible ideas may be implemented and further developed by Mangalore City Corporation. <br/>\
+<br/>\
+The presentation must address the following:<br/>\
+Total budget, including costs of raw materials and labour<br/>\
+Detailed design, with justification<br/>\
+Any other innovative ideas to improve functionality or add new features<br/>\
+","Rules":"<b>Preliminary round: </b><br/>\
+Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 23rd October, 2013.<br/>\
+Submit the abstract in PDF format.<br/>\
+PDFs should include:<br/>\
+Title <br/>\
+College name<br/>\
+Team name<br/>\
+Name and details of the team members (Contact number and email id)<br/>\
+Brief description of the idea/solution.<br/>\
+The abstract should not exceed two pages (exclude two pages). Selected teams will be informed through mail.<br/>\
+<br/>\
+<b>Final round:</b><br/>\
+<br/>\
+The participants must form teams of 3 members or less.<br/>\
+Presentation should not exceed 10 minutes.<br/>\
+If participants want to include drawings/designs on softwares like AutoCAD etc., they are encouraged to do so.<br/>\
+<br/>\
+<b>Prizes worth 10k to be won. </b><br/>\
+","Faqs":"Q. Can teams be formed by mixing students of different disciplines/departments?<br/>\
+A.&#160;Yes.<br/>\
+<br/>\
+Q. Can teams be formed by mixing undergraduate and post-graduate engineering students?<br/>\
+A.&#160;Yes.<br/>\
+<br/>\
+Q. Can one team submit more than one entry?<br/>\
+A.&#160;No, one team can send only one entry and the same person cannot be in more than one team.<br/>\
+<br/>\
+Q. Whom do we contact in case of any queries?<br/>\
+A.&#160;In case of any queries, send a mail khv.10m148@nitk.edu.in.<br/>\
+<br/>\
+Q. Can entries be submitted in other languages?<br/>\
+A.&#160;No, entries are to be submitted only in English<br/>\
+<br/>\
+Q. Would a prototype be required if I'm a short listed candidate?<br/>\
+A.&#160;No<br/>\
+<br/>\
+The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br/>\
 "},
 "Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br/>\
 <p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \
@@ -1408,77 +1392,77 @@ showcase their innovation and also design a \
 business plan supporting their idea, so as to \
 show the viability of actual implementation of \
 their ideas, which make environmental or social \
-impact.<br /></p>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
+impact.<br/></p>","Problem Statement":"Solution for efficient use of energy that has a visible impact on our lives and on Planet \
 earth. This could either be a completely new technology that you have developed or an \
 improvement or modification of an existing technology that could cover 1 or more of the \
-following aspects :<br />\
+following aspects :<br/>\
 • Safe &amp; Reliable – Making new or modifying existing solutions to make \
 quality energy available and its usage at every household safe for man, machine &amp; \
-environment.<br />\
+environment.<br/>\
 • Efficient – Innovative solution for EFFICIENT energy usage with reduction in \
-capital and operational expenditures.<br />\
+capital and operational expenditures.<br/>\
 • Productive &amp; Green – Innovative solutions with good deployment speed and \
-scalability, focused at reduced carbon footprint and ease of installation.<br />\
+scalability, focused at reduced carbon footprint and ease of installation.<br/>\
 • The solution could be in the form of product development or an idea presentation. <br/>\
 The idea presented can be from any field of engineering, but ensuring that it makes a \
 positive impact on the environment through direct use or indirectly.<br/>\
 P.S : Since this is an innovation challenge, feel free to explore beyond the \
 above criteria . Do go ahead and add any new avenues that you may have in \
-mind or see your idea making a positive impact on.<br /><br/>\
-Submitted entries will be evaluated by a panel of experts giving equal weightage to:<br />\
-1) How green your idea is ( positive environmental impact )<br />\
-2) How viable a business option it can be if implemented<br /><br/>\
-Things you could keep in mind :<br />\
-• Earth friendliness<br />\
-• Reality friendliness<br />\
-• Innovations brought in <br />\
-• Novelty of the idea<br />\
-• Effectiveness of the idea","Rules and guidelines":"Preliminary round: <br />\
+mind or see your idea making a positive impact on.<br/><br/>\
+Submitted entries will be evaluated by a panel of experts giving equal weightage to:<br/>\
+1) How green your idea is ( positive environmental impact )<br/>\
+2) How viable a business option it can be if implemented<br/><br/>\
+Things you could keep in mind :<br/>\
+• Earth friendliness<br/>\
+• Reality friendliness<br/>\
+• Innovations brought in <br/>\
+• Novelty of the idea<br/>\
+• Effectiveness of the idea","Rules and guidelines":"Preliminary round: <br/>\
 Candidates interested to participate should register at www.engineer.org.in. The participants \
 must mail an abstract of their idea (not exceeding two page) to <b>sce@engineer.org.in</b> with \
-subject as “SCE GIC abstract” on or before 19th<br />\
-i. Submit the abstract in PDF format.<br />\
-ii. PDFs should include:<br />\
-iii. Title of the application/ product<br />\
-iv. College Name<br />\
-v. Name and details of the Team members (max 4 members)<br />\
-   ( contact no. and email-id of the members )<br />\
-vi. Problem addressed<br />\
-vii. Abstract max 2 pages ( excluding the above )<br /><br/>\
-Selected teams will be informed through mail.<br />\
-Final round:<br />\
+subject as “SCE GIC abstract” on or before 19th<br/>\
+i. Submit the abstract in PDF format.<br/>\
+ii. PDFs should include:<br/>\
+iii. Title of the application/ product<br/>\
+iv. College Name<br/>\
+v. Name and details of the Team members (max 4 members)<br/>\
+   ( contact no. and email-id of the members )<br/>\
+vi. Problem addressed<br/>\
+vii. Abstract max 2 pages ( excluding the above )<br/><br/>\
+Selected teams will be informed through mail.<br/>\
+Final round:<br/>\
 i. The final round will involve the short-listed teams to give a presentation of their \
-idea before a jury panel covering all the aspects of their innovation.<br />\
+idea before a jury panel covering all the aspects of their innovation.<br/>\
 ii. The presentation wiil be for a duration of about 12 minutes which will be\
-followed by a Q&amp;A secession from the judges .<br />\
+followed by a Q&amp;A secession from the judges .<br/>\
 iii. The teams could showcase any type of prototype made or simulations / \
-surveys conducted as a part of the presentation.<br />\
+surveys conducted as a part of the presentation.<br/>\
 Areas of evaluation for the finale will be shared with the selected teams 2 days prior to\
 the main event (scheduled tentatively on 24th\
-October, 2013.<br /><br/>\
-<b>Prizes worth 10k to be won.</b>","FAQS":"Q. What is the maximum size of a team? <br />\
-A. The team can comprise of a maximum of 4 members.<br /><br/>\
-Q. Can the participating team comprise of only 1 member?<br />\
-A. Yes<br /><br/>\
-Q. Can teams be formed by mixing students of different disciplines/departments?<br />\
-A. Yes<br /><br/>\
-Q. Can teams be formed by mixing undergraduate and post-graduate engineering students?<br />\
-A. No. This contest is only open for undergraduate engineering students.<br /><br/>\
-Q. Can one team submit more than one entry?<br />\
-A. Yes, one team can send more than one entry.<br /><br/>\
-Q. Whom do we contact in case of any queries?<br />\
+October, 2013.<br/><br/>\
+<b>Prizes worth 10k to be won.</b>","FAQS":"Q. What is the maximum size of a team? <br/>\
+A. The team can comprise of a maximum of 4 members.<br/><br/>\
+Q. Can the participating team comprise of only 1 member?<br/>\
+A. Yes<br/><br/>\
+Q. Can teams be formed by mixing students of different disciplines/departments?<br/>\
+A. Yes<br/><br/>\
+Q. Can teams be formed by mixing undergraduate and post-graduate engineering students?<br/>\
+A. No. This contest is only open for undergraduate engineering students.<br/><br/>\
+Q. Can one team submit more than one entry?<br/>\
+A. Yes, one team can send more than one entry.<br/><br/>\
+Q. Whom do we contact in case of any queries?<br/>\
 A. In case of any queries, send a mail sce@engineer.org.in or refer to the Contact Us List \
-which appears on every page.<br /><br/>\
-Q. Can entries be submitted in other languages?<br />\
-A. No, entries are to be submitted only in English<br /><br/>\
-Q. Should my presentation necessarily be a solution?<br />\
+which appears on every page.<br/><br/>\
+Q. Can entries be submitted in other languages?<br/>\
+A. No, entries are to be submitted only in English<br/><br/>\
+Q. Should my presentation necessarily be a solution?<br/>\
 A. No, Your presentation can be a product proposal, changes in an existing product, a concept with \
-a feasibility aspect, or a solution.<br /><br/>\
-Q. Would a prototype be required if I'm a short listed candidate?<br />\
+a feasibility aspect, or a solution.<br/><br/>\
+Q. Would a prototype be required if I'm a short listed candidate?<br/>\
 A. Not necessary, but bonus points will be awarded based on level of implementation of idea which \
-could be shown through a physical prototype or a recorded video.<br /><br/>\
-Q. How will I know whether my entry has been short-listed or not?<br />\
-A. We will inform you through mail<br /><br/>\
+could be shown through a physical prototype or a recorded video.<br/><br/>\
+Q. How will I know whether my entry has been short-listed or not?<br/>\
+A. We will inform you through mail<br/><br/>\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any\
 matter related to this event at any time before or during the event."}
 }
@@ -1510,7 +1494,7 @@ In case a robot falls off the arena or toppled during the match, it can be resto
 The robot has to maintain a minimum distance of 60 cm from the opponent during its restore.<br/>\
 The robots are not allowed to cut the opponent&rsquo;s control wires. Violation of this rule will lead to disqualification.<br/>\
 In case of immobility of any of the bots, both the bots will start again from their start points. <br/>\
-Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000<br /><b>Schedule</b><br /> Day 2 (25) Sports complex",
+Pinning is allowed only in the specified pin zone and the points will be awarded only for first two pinning in the match. The bots again start from their start points.<br/>Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,000<br/> 3rd: Rs. 5,000<br/><b>Schedule</b><br/> Day 2 (25) Sports complex",
 "judging":"Points will be awarded by the judges to a robot only if it has a considerable impact/damage on the opponent&rsquo;s robot. (Definition of damage will be decided by the judge and will be binding to all. NO discussion will be entertained)<br/>\
 In case none of the robots are completely damaged, the robot with maximum number of points will be declared the winner.<br/>\
 No points will be awarded for immobilizing the opponent bot.<br/>\
@@ -1584,7 +1568,7 @@ A team may comprise a maximum of FIVE participants.<br/>\
 Readymade kits are NOT allowed. Judges decision in this regard will be final and binding.<br/>\
 The team is not permitted to compete with more than one bot.<br/>\
 Teams will not be allowed to modify their bots during their trial.<br/>\
-Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 1 (24) Sports complex","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
+Prizes:<br/> 1st: Rs. 6,000<br/> 2nd: Rs. 4,000<br/> 3rd: Rs. 2,000<br/><b>Schedule</b><br/> Day 1 (24) Sports complex","eventformat":"Each round will be of a maximum of 15 min duration.<br/>\
 Fig 1 portrays the arena <br/>\
 Each bot must have a mechanism to lift the objects(it will be a ball or a cube) kept in rectangular container and throw them into the hoops kept at different heights <br/>\
 In each hoop only a maximum of 3 objects (1 ball and 2 cubes) can be thrown.<br/>\
@@ -1628,12 +1612,12 @@ Jumping and hopping is not allowed<br/>\
 Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not allowed.<br/>\
 ","arenaspecs":"The dimensions of the bridge are as indicated<br/><img src='data/mech1.png'/><br/>Fig 2: paths that the teams are required to use<br/><img src='data/mech2.png'/><br/>Fig 3: The dimensions of the bridge<br/>\
 ","download":"\
-<b>Video: </b><a href='http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be' target='_blank'>http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be</a><br /><br />\
+<b>Video: </b><a href='http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be' target='_blank'>http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be</a><br/><br/>\
 <a href='data/perfectMachine.docx'>Download</a>"},
 
 "wrightflight":{"image":"/Icons_Final/WrightFlight.png",
 "contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661",
-"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000<br /><b>Schedule</b><br /> Day 3 (26th october) Ap Mech dept",
+"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000<br/><b>Schedule</b><br/> Day 3 (26th october) Ap Mech dept",
 "eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>\
 &bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
 organizing committee won&rsquo;t be providing any.<br/><a href='data/wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
@@ -1657,7 +1641,7 @@ produced at the time of registration.<br/>\
 • Maximum number of participants per team is four.<br/>\
 • Readymade kits are not allowed.<br/>\
 • Each team is allowed to participate with not more than one bot.<br/>\
-• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 3 (26th october) Wave mechanics lab","Event Rules":"• There shall be one qualifying round.<br/>\
+• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000<br/><b>Schedule</b><br/> Day 3 (26th october) Wave mechanics lab","Event Rules":"• There shall be one qualifying round.<br/>\
 • The qualifying round is to test the test the maneuverability and the water shooting \
 capacity of the bot.<br/>\
 • The top 8 will qualify for the final round.<br/>\
@@ -1694,7 +1678,7 @@ FIRST ROUND EVALUATION:<br/>\
 S1 = 2 * R * ( 1 / t1 )<br/>\
 Based on S1, top eight teams are qualified for the next round and awarded points from 40 to 5 \
 (40, 35, 30 .. and so on). These points are carried forward for the final score.<br/>\
-Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><b>Video: </b><a href='http://youtu.be/Oz2YhPmACBA' target='_blank'>http://youtu.be/Oz2YhPmACBA</a><br /><a href='data/proteus.pdf'>Download</a></p>"},
+Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><b>Video: </b><a href='http://youtu.be/Oz2YhPmACBA' target='_blank'>http://youtu.be/Oz2YhPmACBA</a><br/><a href='data/proteus.pdf'>Download</a></p>"},
 
 
 "Velocity": {"image": "/Icons_Final/Velocity.png", 
@@ -1703,7 +1687,7 @@ Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 1
 "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
 A team may comprise a maximum of FIVE participants.<br/>\
 The team is not permitted to compete with more than one car.<br/>\
-Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000<br /><b>Schedule</b><br /> Day 3 (26) Main ground <br /> Reserve day: Day 4 (27)",
+Teams will not be allowed to modify their car during their trial. Prizes:<br/> 1st: Rs. 10,000<br/> 2nd: Rs. 7,500<br/> 3rd: Rs. 5,000<br/><b>Schedule</b><br/> Day 3 (26) Main ground <br/> Reserve day: Day 4 (27)",
  "Event Format": "The event will have 6 rounds:\
 <br/>\
 <b>Car Judging</b>: The car will be scrutinized by the organizers to make sure it conforms\
@@ -1911,6 +1895,7 @@ $newHash={
 	"3D_Photography": {"id" : "68","team_members":"1"},
 	"Bridge_Design_and_Fabrication": {"id" : "69","team_members":"2"},# workspop
 	"Contraption" : { "id" :"70","team_members":"5"},
-	"Adventure" : { "id" :"71","team_members":"1"}
+	"Adventure" : { "id" :"71","team_members":"1"},
+	"Engineers_Solve_Problems" : { "id" :"72","team_members":"1"}
 	}
 
