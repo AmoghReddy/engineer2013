@@ -510,10 +510,10 @@ Spread over all of Engineer, we give you the opportunity to make up for one bad 
 &nbsp; can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "/Icons_Final/ECTF.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
-&nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
-&nbsp; at the same time defending your own.<br/>\
-<b>Teams of 3.</b><br/>"},
+# "ECTF_-_Capture_the_Flag":{"image": "/Icons_Final/ECTF.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
+# &nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
+# &nbsp; at the same time defending your own.<br/>\
+# <b>Teams of 3.</b><br/>"},
 
 "Virtual_Bounty":{"image": "/Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
 &nbsp; of the participants are put to test. Using search engines, the participants need to figure out the clues\
@@ -674,8 +674,8 @@ This is a chance for you to improve your campus and to win a cash prize!<br />\
 <br />\
 Register yourself at ENGINEER website and send your entries in the form of pdf (Problem Statement and Solution Abstract in 500 words) to <b>bizevents@engineer.org.in</b> with subject as the name of the competition before 23rd October 2013 11:59pm."},
 
-"Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
-Problem Statement: To be provided by a Business Analysis Company.<br/>"},
+# "Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+# Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 
 "Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"Participants have to come up with an ad and a marketing campaign and strategy for a real company. Participants have to give a 500 words write up about their plans to the problem statement. Selected finalists will present a video ad of 3 minutes and a presentation about their strategy in the finale.<br />\
 <br />\
@@ -1807,7 +1807,7 @@ $events={
 "Civil": Civil,
 "Tech_Speak": TechSpeakEvent,
 "Materials":Meta,
-"Biz":Biz,
+# "Biz":Biz,
 "Chemical":Chem,
 "Tronix":Tronix,
 "Mba":Mba,

@@ -3,7 +3,7 @@ description = 0
 eve_id=1
 #not single participation
 $single_event_committees=["Blue_Print","Mockstock","Tech_Speak"]
-$no_registrations=["Sky_Lanterns","Tech_Speak","Psychedelic_Room","Blitzkrieg","Megapixel","Dance_Dance_Revolution","Arcade_Room","Mockstock","Case_Study_challenge"]
+$no_registrations=["Sky_Lanterns","Tech_Speak","Psychedelic_Room","Blitzkrieg","Megapixel","Dance_Dance_Revolution","Arcade_Room","Mockstock","Case_Study_challenge","Simplineer"]
 def get_num()
 	$num+=1
 	return $num.to_s
