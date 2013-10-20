@@ -35,8 +35,8 @@ Best solutions, judged by your friends, and by an eminent personality from Banga
 <br />\
 <b>Prizes</b> :<br />\
 <br />\
-1st Prize: Rs. 5000 in Cash + Rs. A year's subscription of Campus Diaries The Magazine<br />\
-2nd Prize: Rs. 2500 in Cash + 6 Months subscription of Campus Diaries The Magazine<br />\
+1st Prize: A year's subscription of Campus Diaries The Magazine<br />\
+2nd Prize: 6 Months subscription of Campus Diaries The Magazine<br />\
 <br />\
 <b>Power Ideas Award</b>: 2 selected entries/authors get 2 free passes each to TEDxGateway in Mumbai - the biggest TEDx in India - featuring the most powerful ideas and brains in business.<br />\
 <br />\
