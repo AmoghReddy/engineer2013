@@ -7,7 +7,7 @@ do
 	g=`echo "100+($RANDOM%50)"|bc`
 	b=`echo "100+($RANDOM%20)"|bc`
 	convert -background "rgb($r,$g,$b)" -flatten  -quality 30%  $i $new_name
-	#echo "sed 's/$i/$new_name/g' <data.py>temp"
-	#echo "mv temp data.py"
+	echo "sed 's/$i/$new_name/g' <data.py>temp"
+	echo "mv temp data.py"
 done
 IFS=$SAVEIFS

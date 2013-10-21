@@ -1,8 +1,12 @@
+sed 's/3d_photo.png/3d_photo.jpg/g' <data.py>temp
+mv temp data.py
 sed 's/accomodation.png/accomodation.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/adverse_mining.png/adverse_mining.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/Android.png/Android.jpg/g' <data.py>temp
+mv temp data.py
+sed 's/aoe2.png/aoe2.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/aoe3.png/aoe3.jpg/g' <data.py>temp
 mv temp data.py
@@ -49,6 +53,8 @@ mv temp data.py
 sed 's/contacts.png/contacts.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/COUNTERSTRIKE.png/COUNTERSTRIKE.jpg/g' <data.py>temp
+mv temp data.py
+sed 's/Dance.png/Dance.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/data_analysischallenge.png/data_analysischallenge.jpg/g' <data.py>temp
 mv temp data.py
@@ -125,6 +131,8 @@ mv temp data.py
 sed 's/nfs.png/nfs.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/Nirvana.png/Nirvana.jpg/g' <data.py>temp
+mv temp data.py
+sed 's/NIT-K-event.png/NIT-K-event.jpg/g' <data.py>temp
 mv temp data.py
 sed 's/PerfectMachine.png/PerfectMachine.jpg/g' <data.py>temp
 mv temp data.py
