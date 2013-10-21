@@ -1322,54 +1322,54 @@ Sce={
 
 "The_Last_Word":{"image": "/Icons_Final/lastword.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Description:<b>Identity crisis</b>: What does being an Indian mean today?<br/>\
 Early in August, the UPA government gave the green light for the creation of the state of Telengana.<br/>\
-The move fanned the flames for other groups to demand their right to statehood. Languages and<br/>\
-religions have always been an obstacle for Indians to feel complete unity with one another, and<br/>\
-without a sense of nationhood, it is difficult for a country to progress. How can we define being an<br/>\
-&ldquo;Indian&rdquo; and what does it really mean to be an &ldquo;Indian&rdquo;? Our panelists come from a wide variety of<br/>\
-backgrounds and fields, and we look forward to hearing their thoughts and opinions on this issue.","Mr Aditya Singh":"Aditya Singh is the Chairman and Managing Director of Alexis Group. Recently, he joined Teach<br/>\
-for India as a Fellow to eliminate education inequity in India. He earned his Bachelor of Commerce<br/>\
-(Honours) majoring in Finance and Marketing from University of Delhi and currently pursuing<br/>\
+The move fanned the flames for other groups to demand their right to statehood. Languages and\
+religions have always been an obstacle for Indians to feel complete unity with one another, and\
+without a sense of nationhood, it is difficult for a country to progress. <br/>How can we define being an\
+&ldquo;Indian&rdquo; and what does it really mean to be an &ldquo;Indian&rdquo;? Our panelists come from a wide variety of\
+backgrounds and fields, and we look forward to hearing their thoughts and opinions on this issue.","Mr Aditya Singh":"Aditya Singh is the Chairman and Managing Director of Alexis Group.<br/> Recently, he joined Teach\
+for India as a Fellow to eliminate education inequity in India.<br/> He earned his Bachelor of Commerce\
+(Honours) majoring in Finance and Marketing from University of Delhi and currently pursuing\
 Professional Programme from The Institute of Company Secretaries of India.<br/>\
-He has represented India at various International events including prestigious International Youth<br/>\
-Forum Seliger organised by Federal Agency on Youth Affairs, Russian Federation. He attended the<br/>\
-Global Business Studies Programme at School of Oriental and African Studies, University of<br/>\
+He has represented India at various International events including prestigious International Youth\
+Forum Seliger organised by Federal Agency on Youth Affairs, Russian Federation. <br/>He attended the\
+Global Business Studies Programme at School of Oriental and African Studies, University of\
 London.<br/>\
-Aditya was selected as a Hesselbein Fellow by the University of Pittsburgh, USA in recognition of<br/>\
-his exemplary leadership and civic engagement skills. He was also selected as a Prerna Fellow by<br/>\
-Indian Institute of Management Lucknow in recognition of his exemplary leadership and<br/>\
-entrepreneurial skills","Ms Rama Iyer":"Rama R. Iyer, a partner in the law firm Legal Solutions, Bangalore, has more than two decades of<br/>\
-practice in the Bar. She did her B.A. (Law) LLB from Bangalore University Law College and<br/>\
+Aditya was selected as a Hesselbein Fellow by the University of Pittsburgh, USA in recognition of\
+his exemplary leadership and civic engagement skills. <br/>He was also selected as a Prerna Fellow by\
+Indian Institute of Management Lucknow in recognition of his exemplary leadership and\
+entrepreneurial skills","Ms Rama Iyer":"Rama R. Iyer, a partner in the law firm Legal Solutions, Bangalore, has more than two decades of\
+practice in the Bar. <br/>She did her B.A. (Law) LLB from Bangalore University Law College and\
 Masters from the National Law School of India University in which she topped her batch.<br/>\
-She has appeared before the Supreme Court, different High courts, Statutory Bodies and other<br/>\
-subordinate courts. Her areas of practice include inter alia Intellectual Property Rights, Corporate<br/>\
-law, Commercial Transactions and ADR. She has, of late started concentrating in the area of Gender<br/>\
+She has appeared before the Supreme Court, different High courts, Statutory Bodies and other\
+subordinate courts.<br/> Her areas of practice include inter alia Intellectual Property Rights, Corporate\
+law, Commercial Transactions and ADR. <br/>She has, of late started concentrating in the area of Gender\
 Justice.<br/>\
-Currently she regularly trains on women's and children's issues and rights in various training<br/>\
-programmes conducted by National Institute of Public Co-operation and Child Development,<br/>\
-Ministry of Women and Child Development, Government of India","Ms Kanan Dhru":"Kanan Dhru is the Founder of Research Foundation for Governance in India, a thinktank working<br/>\
-towards legal and political reforms. She is a law-graduate from the London School of Economics,<br/>\
-where she was awarded the &lsquo;Honorary Studentship&rsquo;. She has worked with the National Knowledge<br/>\
-Commission - a Prime Minister's Advisory Body in New Delhi and the World Health Organisation<br/>\
-in Geneva. She has been an External Consultant with McKinsey &amp; Company and a Visiting Scholar<br/>\
-at the Stanford University. She has been awarded many prestigious awards including the St. Gallen<br/>\
-Wings of Excellence Prize, Wyse Emerging Leaders&rsquo;Fellowship and the Fulbright-Nehru<br/>\
-Fellowship. She is a Global Shaper at the World Economic Forum's Ahmedabad Hub and is one of<br/>\
-the 37 'Indians of Tomorrow' featured by India Today in 2012. She is a columnist with several well-<br/>\
-known newspapers and magazines","Dr Sundar Skkurai":"Dr. Sundar Sarukkai is the Director of the Manipal Centre for Philosophy and Humanities at<br/>\
-Manipal University. Dr. Sundar Sarukkai, trained in physics and philosophy, has a PhD from Purdue<br/>\
-University, USA. His research interests are in the areas of philosophy of science, philosophy of<br/>\
-mathematics, postmodernism, phenomenology and philosophy of art, drawing upon both Western<br/>\
-and Indian traditions. He has been a Homi Bhabha Fellow (1997-1999), Fellow of the Indian<br/>\
-Institute of Advanced Studies (1999-2001), Associate Fellow of the Project of History of Indian<br/>\
-Science, Philosophy and Culture (2003-2004), and Fellow at the National Institute of Advanced<br/>\
-Studies, Bangalore, India (2000-2006). He published Translating the World: Science and Language<br/>\
-(2002), Philosophy of Symmetry (2004) and Indian Philosophy and Philosophy of Science (2005)","Pawan Kumar":"Pawan Kumar is a film director, actor and screenwriter in the Kannada film industry. He is well<br/>\
-known for the films Manasaare, Pancharangi, his directorial debut Lifeu Ishtene, and the latest<br/>\
-psychological thriller Lucia, which recently won the audience award at the London Indian Film<br/>\
-Festival. He started his work in theatre arts in 1998, and has worked as an Artistic Director and<br/>\
-Producer. He has produced more than 70 public shows and won numerous awards and recognitions<br/>\
+Currently she regularly trains on women's and children's issues and rights in various training\
+programmes conducted by National Institute of Public Co-operation and Child Development,\
+Ministry of Women and Child Development, Government of India","Ms Kanan Dhru":"Kanan Dhru is the Founder of Research Foundation for Governance in India, a thinktank working\
+towards legal and political reforms. <br/>She is a law-graduate from the London School of Economics,\
+where she was awarded the &lsquo;Honorary Studentship&rsquo;. <br/>She has worked with the National Knowledge\
+Commission - a Prime Minister's Advisory Body in New Delhi and the World Health Organisation\
+in Geneva. <br/>She has been an External Consultant with McKinsey &amp; Company and a Visiting Scholar\
+at the Stanford University. <br/>She has been awarded many prestigious awards including the St. Gallen\
+Wings of Excellence Prize, Wyse Emerging Leaders&rsquo;Fellowship and the Fulbright-Nehru\
+Fellowship. <br/>She is a Global Shaper at the World Economic Forum's Ahmedabad Hub and is one of\
+the 37 'Indians of Tomorrow' featured by India Today in 2012. <br/>She is a columnist with several well-\
+known newspapers and magazines","Dr Sundar Skkurai":"Dr. Sundar Sarukkai is the Director of the Manipal Centre for Philosophy and Humanities at\
+Manipal University. <br/>Dr. Sundar Sarukkai, trained in physics and philosophy, has a PhD from Purdue\
+University, USA. <br/>His research interests are in the areas of philosophy of science, philosophy of\
+mathematics, postmodernism, phenomenology and philosophy of art, drawing upon both Western\
+and Indian traditions. <br/>He has been a Homi Bhabha Fellow (1997-1999), Fellow of the Indian\
+Institute of Advanced Studies (1999-2001), Associate Fellow of the Project of History of Indian\
+Science, Philosophy and Culture (2003-2004), and Fellow at the National Institute of Advanced\
+Studies, Bangalore, India (2000-2006). <br/>He published Translating the World: Science and Language\
+(2002), Philosophy of Symmetry (2004) and Indian Philosophy and Philosophy of Science (2005)","Pawan Kumar":"Pawan Kumar is a film director, actor and screenwriter in the Kannada film industry. <br/>He is well\
+known for the films Manasaare, Pancharangi, his directorial debut Lifeu Ishtene, and the latest\
+psychological thriller Lucia, which recently won the audience award at the London Indian Film\
+Festival. <br/>He started his work in theatre arts in 1998, and has worked as an Artistic Director and\
+Producer. <br/>He has produced more than 70 public shows and won numerous awards and recognitions\
 in theatre and films","Ms Nivedita Mirajkar":"Nivedita Mijakar is currently the head of business development at Magnum Infergrafiks Pvt. Ltd.<br/>\
-She was previously the HOD of the MBA program at the Srinivas Institute of Business Studies and<br/>\
+She was previously the HOD of the MBA program at the Srinivas Institute of Business Studies and\
 is the President of Toastmasters Mangalore"},
 
 "Sparsh":{"image": "/Icons_Final/saprsh.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
