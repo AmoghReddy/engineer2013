@@ -599,13 +599,10 @@ Meta={
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "/Icons_Final/Techspeak.jpg","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
- Venue: ATB seminar hall<br/>\
- Time:15.30 - 17.30<br/><br/>\
-<b>Dr. Banibrata Mukhopadhyay (Astro Talk)</b><br/>\
-Venue: ATB seminar hall<br/>\
-Time:afternoon<br/><br/>\
-More to be announced soon"}
+"Tech_Speak":{"image": "/Icons_Final/Techspeak.jpg","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"\
+ <b> Banibrata Mukopadhyay</b><br/><img src="static/bbmukhopadhyay.jpg"><br/> - Associate Professor of Astrophysics at IISC, Bangalore. He calculated the mass limit to which white dwarf stars can reach, before they collapse into neutron stars or black holes. Refuting previously believed limit that was proposed by Chandrasekhar. (Oct. 26th 4.30pm - 6.00pm)<br/>\
+2. <b>Max Little </b><br/><img src="static/Max-Little.jpg"><br/>- Wellcome Trust/MIT Fellow and TED Fellow. Mathematician with a background in applied mathematics, statistics, signal processing and computational engineering. Research work has been applied to problems in biomedicine (such as monitoring of Parkinson's disease and voice pathologies), extreme rainfall analysis and forecasting, biophysical signal processing, and hydrogeomorphology and open channel flow measurement. (Oct. 25th 7.30pm - 8.30pm)\
+3. <b>K. VijayRaghavan</b><br/><img src="static/vijay-raghavan-new.jpg"><br/> - Director of The National Centre for Biological Sciences. He is the recipient of the Infosys Prize in the life sciences (2009) and was conferred the honour of the Padma Shri in 2013. His fields of specialization are Developmental Biology, Genetics and Neurogenetics. His research primarily focuses on the important principles and mechanisms that control nervous systems and muscles during development. (Oct. 27th 3.30pm - 4.30pm)"}
 }
 
 Biz={
@@ -1323,8 +1320,57 @@ profitable path for the company.</span>\
 
 Sce={
 
-"The_Last_Word":{"image": "/Icons_Final/lastword.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
-Panel to consist of seven members, including one moderator"},
+"The_Last_Word":{"image": "/Icons_Final/lastword.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Description:<b>Identity crisis</b>: What does being an Indian mean today?<br />\
+Early in August, the UPA government gave the green light for the creation of the state of Telengana.<br />\
+The move fanned the flames for other groups to demand their right to statehood. Languages and<br />\
+religions have always been an obstacle for Indians to feel complete unity with one another, and<br />\
+without a sense of nationhood, it is difficult for a country to progress. How can we define being an<br />\
+&ldquo;Indian&rdquo; and what does it really mean to be an &ldquo;Indian&rdquo;? Our panelists come from a wide variety of<br />\
+backgrounds and fields, and we look forward to hearing their thoughts and opinions on this issue.","MrAdityaSingh":"Aditya Singh is the Chairman and Managing Director of Alexis Group. Recently, he joined Teach<br />\
+for India as a Fellow to eliminate education inequity in India. He earned his Bachelor of Commerce<br />\
+(Honours) majoring in Finance and Marketing from University of Delhi and currently pursuing<br />\
+Professional Programme from The Institute of Company Secretaries of India.<br />\
+He has represented India at various International events including prestigious International Youth<br />\
+Forum Seliger organised by Federal Agency on Youth Affairs, Russian Federation. He attended the<br />\
+Global Business Studies Programme at School of Oriental and African Studies, University of<br />\
+London.<br />\
+Aditya was selected as a Hesselbein Fellow by the University of Pittsburgh, USA in recognition of<br />\
+his exemplary leadership and civic engagement skills. He was also selected as a Prerna Fellow by<br />\
+Indian Institute of Management Lucknow in recognition of his exemplary leadership and<br />\
+entrepreneurial skills","MsRamaIyer":"Rama R. Iyer, a partner in the law firm Legal Solutions, Bangalore, has more than two decades of<br />\
+practice in the Bar. She did her B.A. (Law) LLB from Bangalore University Law College and<br />\
+Masters from the National Law School of India University in which she topped her batch.<br />\
+She has appeared before the Supreme Court, different High courts, Statutory Bodies and other<br />\
+subordinate courts. Her areas of practice include inter alia Intellectual Property Rights, Corporate<br />\
+law, Commercial Transactions and ADR. She has, of late started concentrating in the area of Gender<br />\
+Justice.<br />\
+Currently she regularly trains on women's and children's issues and rights in various training<br />\
+programmes conducted by National Institute of Public Co-operation and Child Development,<br />\
+Ministry of Women and Child Development, Government of India","MsKananDhru","Kanan Dhru is the Founder of Research Foundation for Governance in India, a thinktank working<br />\
+towards legal and political reforms. She is a law-graduate from the London School of Economics,<br />\
+where she was awarded the &lsquo;Honorary Studentship&rsquo;. She has worked with the National Knowledge<br />\
+Commission - a Prime Minister's Advisory Body in New Delhi and the World Health Organisation<br />\
+in Geneva. She has been an External Consultant with McKinsey &amp; Company and a Visiting Scholar<br />\
+at the Stanford University. She has been awarded many prestigious awards including the St. Gallen<br />\
+Wings of Excellence Prize, Wyse Emerging Leaders&rsquo;Fellowship and the Fulbright-Nehru<br />\
+Fellowship. She is a Global Shaper at the World Economic Forum's Ahmedabad Hub and is one of<br />\
+the 37 'Indians of Tomorrow' featured by India Today in 2012. She is a columnist with several well-<br />\
+known newspapers and magazines","DrSundarSkkurai","Dr. Sundar Sarukkai is the Director of the Manipal Centre for Philosophy and Humanities at<br />\
+Manipal University. Dr. Sundar Sarukkai, trained in physics and philosophy, has a PhD from Purdue<br />\
+University, USA. His research interests are in the areas of philosophy of science, philosophy of<br />\
+mathematics, postmodernism, phenomenology and philosophy of art, drawing upon both Western<br />\
+and Indian traditions. He has been a Homi Bhabha Fellow (1997-1999), Fellow of the Indian<br />\
+Institute of Advanced Studies (1999-2001), Associate Fellow of the Project of History of Indian<br />\
+Science, Philosophy and Culture (2003-2004), and Fellow at the National Institute of Advanced<br />\
+Studies, Bangalore, India (2000-2006). He published Translating the World: Science and Language<br />\
+(2002), Philosophy of Symmetry (2004) and Indian Philosophy and Philosophy of Science (2005)","PawanKumar":"Pawan Kumar is a film director, actor and screenwriter in the Kannada film industry. He is well<br />\
+known for the films Manasaare, Pancharangi, his directorial debut Lifeu Ishtene, and the latest<br />\
+psychological thriller Lucia, which recently won the audience award at the London Indian Film<br />\
+Festival. He started his work in theatre arts in 1998, and has worked as an Artistic Director and<br />\
+Producer. He has produced more than 70 public shows and won numerous awards and recognitions<br />\
+in theatre and films","MsNiveditaMirajkar":"Nivedita Mijakar is currently the head of business development at Magnum Infergrafiks Pvt. Ltd.<br />\
+She was previously the HOD of the MBA program at the Srinivas Institute of Business Studies and<br />\
+is the President of Toastmasters Mangalore"},
 
 "Sparsh":{"image": "/Icons_Final/saprsh.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
 "Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br/>\
