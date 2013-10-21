@@ -285,6 +285,8 @@ function get_updates(){
   success: function(data, textStatus, jqXHR){
     data=jQuery.parseJSON(data);
     generateUpdates(data);
+    if (currentPage.name == "homePage") showUpdates();
+    //console.log(data)
   },
   error: function (xhr, desc, err) {
     console.log(xhr);

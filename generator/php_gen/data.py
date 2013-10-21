@@ -1,33 +1,33 @@
 # coding:utf-8
 # logo of comittee
 comitteeLogos={
-"Comps":"/Icons_Final/Comps_Main.png",
-"Technites":"/Icons_Final/technites.png",
-"Tech_Speak":"/Icons_Final/techspeak.png",
-"Materials":"/Icons_Final/Metamain.png",
-"Biz":"/Icons_Final/BIZ.png",
-"Chemical":"/Icons_Final/chemmain.png",
-"Tronix":"/Icons_Final/tronix.png",
-"Mba":"/Icons_Final/MBA.png",
-"Sce":"/Icons_Final/Sce.png",
-"Mining":"/Icons_Final/mining.png",
-"Workshops": "/Icons_Final/workshop2.png",
-"Mechanical": "/Icons_Final/mech.png",
-"Astronomy": "/Icons_Final/astro.png",
-"Gaming":"/Icons_Final/gaming.png",
-"Civil": "/Icons_Final/civilmain.png",
-"General": "/Icons_Final/GeneralEvents.png",
-"Blue_Print":"/Icons_Final/BluePrint.png",
-"Mockstock":"/Icons_Final/mockstock.png",
+"Comps":"/Icons_Final/Comps_Main.jpg",
+"Technites":"/Icons_Final/technites.jpg",
+"Tech_Speak":"/Icons_Final/techspeak.jpg",
+"Materials":"/Icons_Final/Metamain.jpg",
+"Biz":"/Icons_Final/BIZ.jpg",
+"Chemical":"/Icons_Final/chemmain.jpg",
+"Tronix":"/Icons_Final/tronix.jpg",
+"Mba":"/Icons_Final/MBA.jpg",
+"Sce":"/Icons_Final/Sce.jpg",
+"Mining":"/Icons_Final/mining.jpg",
+"Workshops": "/Icons_Final/workshop2.jpg",
+"Mechanical": "/Icons_Final/mech.jpg",
+"Astronomy": "/Icons_Final/astro.jpg",
+"Gaming":"/Icons_Final/gaming.jpg",
+"Civil": "/Icons_Final/civilmain.jpg",
+"General": "/Icons_Final/GeneralEvents.jpg",
+"Blue_Print":"/Icons_Final/BluePrint.jpg",
+"Mockstock":"/Icons_Final/mockstock.jpg",
 }
 
 
 #each comittee
 General = {
-	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.png","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 20th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC from 5:00PM to 7:00PM.<br/>• For non NITK Teams: test can be taken anytime between 5:00PM and 7:00PM on 20th October. <br/>• Results will be declared on 21th October and teams will be informed.", "Proceedings": "<br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
+	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.jpg","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 20th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC from 5:00PM to 7:00PM.<br/>• For non NITK Teams: test can be taken anytime between 5:00PM and 7:00PM on 20th October. <br/>• Results will be declared on 21th October and teams will be informed.", "Proceedings": "<b>First Round:</b><br/>First round online test will be held on 21st october from 5:00PM to 7:00PM.<br/>Event URL : <a href = 'engineer.org.in/simplineer'>Simplineer</a> <br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."}
 }
 Mock_Stock={
-"Mockstock":{"image":"/Icons_Final/mockstock.png","contact":"Shashank Ajmera<br />08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
+"Mockstock":{"image":"/Icons_Final/mockstock.jpg","contact":"Shashank Ajmera<br />08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
 <p>The event starts on 21st of October, and goes on till 25th of October. (The main event has been postponed due to technical difficulties).However, the trial versions will be put up soon (before 21st) for the users to get used to the environment.</p>\
 <p>The event will start on evenings, at 7:00 pm, and go on till 1:00 am, exactly like the American market, for all four days. </p>\
 <p>The trading will be inter-day, i.e., whatever your portfolio is at the end of the day, the same will be carried on to the next day. Hence, the final winner will be the one who makes the maximum cumulative profit after four days. </p>\
@@ -37,7 +37,7 @@ Mock_Stock={
 
 BluePrint = {
 "Blue_Print" : {
-"image": "/Icons_Final/BluePrint.png","contact": "Raghavan<br/>+91-9590390285<br/>raghav10rogers@gmail.com","Description": "<b>Introduction</b><br/>\
+"image": "/Icons_Final/BluePrint.jpg","contact": "Raghavan<br/>+91-9590390285<br/>raghav10rogers@gmail.com","Description": "<b>Introduction</b><br/>\
 Blueprint, the paper presentation contest held as part of Engineer attracts some of the best minds from all over the country. Participants are invited to present papers spanning various research topics pertaining to the different branches of engineering.<br/>\
 <b>GENERAL RULES</b><br/>\
 • Submissions are invited pertaining to novel research ideas and implementations in any of the above fields. <br/>\
@@ -78,12 +78,15 @@ Sample Format (Use this format in the mail)<br/>\
 
 
 Workshops={
-	"Ethical_Hacking_by_TechDefence": {"image": "/Icons_Final/HACKING.png","contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>Level 1<br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/>Level 2<br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/>For detailed content kindly click here:<br/>(provide the link for the course modules which is given in the proposal)<br/><br/>About Trainer: Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List. To know more visit www.sunnyvaghela.com<br/>Workshop Package Includes:<br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/>HackTrack Portal Features:<br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>"},
+	"Ethical_Hacking_by_TechDefence": {"image": "/Icons_Final/HACKING.jpg","contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946","Description": "INTRODUCTION <br/>As information security increasingly becoming a boardroom level concern, training and certification are becoming increasingly important for candidates and companies. With a promising novel initiative on the cards, this year TechDefence and ENGINEER '13 has decided to extend the prospectus of Hack Track- Award Winning Hands on Workshop on Ethical Hacking and Information Security in association with Sunny Vaghela, Director & CTO of TechDefenceacross India.<br/>","Details":"<b>Cost</b><br/>Rs. 1200 per person<br/><b>Duration</b><br/>9AM TO 5PM<br/><b>Date</b><br/>24th and 25th October<br/><b>Level 1</b><br/>Wireless and Web application Hacking & Security<br/>Android Hacking and security<br/>Google & email hacking<br/>Cyber forensics<br/>Investigation Methodologies & Cyber Forensics<br/>Reverse Engineering<br/><b>Level 2</b><br/>Info gathering using Linux<br/>Windows memory management<br/>Assembly language basics<br/>Buffer overflows<br/>Metasploitframe Work<br/><b>Workshop Package Includes:</b><br/><br/>Workshop participation fee<br/>TechDefence Ethical Hacking toolkit fee<br/>CEHE certification fee<br/>HackTrack Portal Access for 2 years.(www.hacktrack.co.in)<br/><br/><b>HackTrack Portal Features:</b><br/><br/>Query support to all workshop participants.<br/>Access to Online competition after the workshop in order to select topper of workshop.<br/>Access to monthly competitions different tasks and challenges.<br/>Access to Webinars on New tools/Techniques/Exploits/Vulnerabilities.<br/>Internship/career opportunities from TechDefence associates & partners<br/>Weekly newsletters.<br/>Resume submission <br/>",
+	"About The Organizer":"Sunny Vaghela (Director & CTO,TechDefence) - <br/>Sunny Vaghela is 23 year old renowned Ethical Hacker & has wide experience in the field of Ethical Hacking,Cyber Crime Investigation & Forensics. <br/>At the age of 18, Sunny found many loopholes in SMS & VoIP Technology.At 19,Sunny has found loopholes like 'Session Hijacking' & 'Cross Site Scripting' in popular social networking website orkut.com.At 20, He has solved more than 16 cases in association with Crime Branch,Ahmedabad.<br/>Sunny Vaghela has also been awarded by Rajiv Gandhi Young Achievers Award as IT Expert of Gujarat.He traced out origin of Terror Email Trail of Ahmedabad Serial Bomb Blasts. <br/>He also helped Mumbai Police to get information on “jamat ud dawah” after Mumbai Terror Attacks.<br/>He has addressed more than 160 IT security conferences/Workshops at National & International Level across Globe.He has trained professionals from many reputed Companies like Google,Yahoo!,ISACA,Temenos,ZOHO, Deloitte,K7 Antivirus,TCS,HCL,Sify & many Banks of India. <br/>He is founder & Chief Technical Officer of TechDefence which is rapidly growing IT Security Training & Consulting Organization focusing on Cyber Crime Investigation,Cyber Law Consulting,Vulnerability Assessment & Penetration Testing.<br/>He is recently acknowledged by Microsoft for finding & reporting Vulnerabilities on Microsoft Online Services and now Listed in Microsoft Security Researcher List.<br/> To know more visit www.sunnyvaghela.com<br/>"},
 
-	"Android Application Development": {"image": "/Icons_Final/Android.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Workshop Details": "<b>Duration</b>: 2 days (8 hours per day)<br/>\
+	"Android_Application_Development": {"image": "/Icons_Final/Android.jpg", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Workshop Details": "<b>Duration</b>: 2 days (8 hours per day)<br/>\
 <b>Date</b>: <b> 26 Oct - 27 Oct 2013</b><br/>\
 <b>Organizers</b>: Code Instruct<br/>\
-<b>Cost</b>: Rs 1200/- per participant<br/>","Description":"This workshop by <b>Code Instruct</b> gives the participants an opportunity to understand the theory behind the Android Operating System, Android SDK and different Libraries. It makes the participants innovate by coming up with their own app ideas. This workshop takes the participants through a series of interactive lectures and coding sessions, thereby providing a complete learning experience.","Workshop Specialities":"\
+<b>Cost</b>: Rs 1200/- per participant<br/>","Description":"This workshop by <b>Code Instruct</b> gives the participants an opportunity to understand the theory behind the Android Operating System, Android SDK and different Libraries. It makes the participants innovate by coming up with their own app ideas. This workshop takes the participants through a series of interactive lectures and coding sessions, thereby providing a complete learning experience.This workshop will be a part of Code Instruct Android Application Development Challenge being organized in association with Pravega'14, Annual Sci-Tech Festival of IISc Bangalore. The top performers in this workshop will be qualified to participate in the final round of the challenge which will be held during Pravega'14 at IISc Bangalore.\
+\
+","Workshop Specialities":"\
 <i>Interactive Lecture Sessions</i><br/>\
 <i>Hands on development of Android applications using industry standard tools</i><br/>\
 <i>The workshop is organized personally by IIT Kanpur Computer Science and Engineering Graduates</i><br/>", "Workshop structure":"\
@@ -103,9 +106,9 @@ Eclipse IDE<br/>\
 Android SDK","Other Material":"\
 Booklet on Introduction to Android<br/>\
 Sample Applications in Android (Source Code)<br/>"},
-	"3D_Photography": {"image": "/Icons_Final/3d photo.jpg","contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
+	"3D_Photography": {"image": "/Icons_Final/3d_photo.jpg","contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946","Description": "<p>For those of you interested in photography and fascinated by how 3D photography works, this is the workshop you should look forward to. The workshop will involve you going around the campus and taking photographs. This will be followed by a session in the lab where you will be stitching and transforming these images. 3D glasses are a part of the registration fee.</br>Registration Fee:  Rs 300/ person</p>"},
 
-	"Bridge_Design_and_Fabrication": {"image": "/Icons_Final/Bridge_design.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
+	"Bridge_Design_and_Fabrication": {"image": "/Icons_Final/Bridge_design.jpg", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "This workshop is a part of the <b>Civil Simplified Bridge Design Challenge</b> in association with <b>Technex'14</b>, the annual Techno-Management Festival of <b>IIT BHU (Varanasi)</b>.The top performers in this workshop will be qualified to participate in the final round of the challenge which will be held during Technex'14 at IIT BHU. Please visit <a href='http://www.civilsimplified.com/bridgedesign-challenge' target='_blank' >www.civilsimplified.com/bridgedesign-challenge</a> for more details <br />Content designed, developed and delivered by IIT Kanpur graduates<br/>",
 	"Workshop structure":"The workshop has the following modules:<br/>\
 <b>Lecture</b>: Introduction to bridge design and working of different types of bridges<br/>\
 <b>Design session</b>: Each team will design their own bridge using a simulator<br/>\
@@ -129,7 +132,7 @@ Organizers: Civil Simplified<br/>\
 Cost: Rs.950 per participant. 2 participants will be clubbed into a team during practical session. One team will design and make one bridge.<br/>\
 "},
 
-	"RC_Aircraft_Design_and_Fabrication": {"image": "/Icons_Final/RC_Aircraft.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "The knack to flying is learning how to throw yourself at the ground and miss <br/>\
+	"RC_Aircraft_Design_and_Fabrication": {"image": "/Icons_Final/RC_Aircraft.jpg", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "The knack to flying is learning how to throw yourself at the ground and miss <br/>\
 -Douglas Adams <br/> \
 At the dawn of the twentieth century, having explored and conquered all land, man turned his eyes skywards. For much of history he has been trying to conquer this seemingly unbeatable foe. The skies continued to elude him until finally, the Wright brothers finally conquered the skies one windy morning in the winter of 1903. Since then the aircraft industry has exploded, and aero planes have captured the imagination of the human race.<br/> \
 This workshop by <a href='http://www.aerotrix.com/'' target='_blank' ><b>AerotriX</b></a> gives the participants an opportunity to understand the theory behind the functioning of aircrafts and aircraft design. It makes the participants innovate by coming up with their own design of mini aircrafts and fabricating them as per their design. This workshop takes the participants through a series of interactive lectures and design sessions supplemented by practical sessions, thereby providing a complete learning experience.<br/> \
@@ -180,16 +183,16 @@ Participants can register in team containing maximum of 5 members <br/>\
 Visit www.aerotrix.com for further details <br/>\
 Write to us at info@aerotrix.com for further queries or information"},
 
-	"Augmented_Reality": {"image": "/Icons_Final/AUGMENTED.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
+	"Augmented_Reality": {"image": "/Icons_Final/AUGMENTED.jpg", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "<p>You've all heard of Pranav Mistry who is hugely popular as a connoisseur of this field. In this workshop you will learn to control robots with the movement of your hand. This workshop will be conducted by Frugal Labs who are based in Bangalore.\
 			Registration Fee:  Rs 4250/ team.</br> Each team can have a maximum of 5 members (850/head).</br> A kit will be provided to each team.</p>	"},
 
-	"Humanoid_Robot": {"image": "/Icons_Final/ROBOTICS.png", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "<p>You've been seeing videos of robots which walk, fight and even play football. However, workshops generally don't teach you to build such amazing robots. For the very first time in Engineer we will be conducting a workshop where we will be building a bipedal robot which can perform the above tasks. The workshop will be conducted by Frugal Labs who are based in Bangalore.</br>\
+	"Humanoid_Robot": {"image": "/Icons_Final/ROBOTICS.jpg", "contact": "Hitesh<br/>+91 9916352564<br/><br/>Kratika Gupta<br/>+91 9591113946", "Description": "<p>You've been seeing videos of robots which walk, fight and even play football. However, workshops generally don't teach you to build such amazing robots. For the very first time in Engineer we will be conducting a workshop where we will be building a bipedal robot which can perform the above tasks. The workshop will be conducted by Frugal Labs who are based in Bangalore.</br>\
 			Registration Fee:  Rs 7000/ team. </br>Each team can have a maximum of 5 members (1400/head). A kit will be provided to each team.</p>	"}
 }
 
 Civil = {
 
-	"COLOSSUS": {"image": "/Icons_Final/Colossus.png","contact": "Mohan Krishna.T<br/>\
+	"COLOSSUS": {"image": "/Icons_Final/Colossus.jpg","contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
 krishnamohan651@gmail.com<br/>\
 Sushil Kumar<br/>\
@@ -200,14 +203,14 @@ mix of innovation, analysis, and the determination to create an identity. This \
 edition of Engineer offers a hands-on experience in building an innovative \
 structure using aluminium sections. <a href='./data/COLOSSUS.pdf'>Problem Statement</a> "},
 
-	"FantastiCity": {"image": "/Icons_Final/fantasticity2.png","contact": "B.THEJA<br/>\
+	"FantastiCity": {"image": "/Icons_Final/fantasticity2.jpg","contact": "B.THEJA<br/>\
 +919480435585<br/>\
 bnmtheja@gmail.com<br/>\
 Sushil Kumar<br/>\
 +918867345233<br/>\
 sushil199124@gmail.com<br/>", "Description": "With the advent of advanced satellites and various reconnaissance airplanes, it is very difficult to maintain the secrecy of a military base on land. Underwater settlement of military base can be one of the alternatives for a military base. <a href='./data/FantastiCity.docx'>Problem Statement</a>"},
 
-	"Architect": {"image": "/Icons_Final/Architect2.png","contact": "Mohan Krishna.T<br/>\
+	"Architect": {"image": "/Icons_Final/Architect2.jpg","contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
 krishnamohan651@gmail.com<br/>\
 Sushil Kumar<br/>\
@@ -218,7 +221,7 @@ o All members of the team should be enrolled as students in an educational insti
 o No person can be a part of more than one team."},
 
 "Mindbend": {
-	"image": "/Icons_Final/mindbend.png","contact": "B. THEJA <br/>\
+	"image": "/Icons_Final/mindbend.jpg","contact": "B. THEJA <br/>\
 +919480435585 <br/>\
 bnmtheja@gmail.com <br/>\
 Padmini M <br/>\
@@ -226,7 +229,7 @@ Padmini M <br/>\
 pm27178@gmail.com","Description":"With a combination of mind boggling questions, core concepts and some really exciting rounds, MindBend is definitely a test of your intellect! Time to prove yourself!", "format": "The quiz will be an amalgamation of visual rounds and written tests, full of \
 interesting and intriguing questions.", "eligibility": "The team can include a maximum of two members.<br/>All members of the team should be enrolled as students in an educational institute.<br/>No person can be a part of more than one team."},
 
-"Nirvahana": {"image": "/Icons_Final/Nirvana.png", "contact": "Mohan Krishna.T<br/>\
+"Nirvahana": {"image": "/Icons_Final/Nirvana.jpg", "contact": "Mohan Krishna.T<br/>\
 +917411918682<br/>\
 krishnamohan651@gmail.com<br/>\
 Niveditha.J<br/>\
@@ -266,7 +269,7 @@ Record Game : [X] Yes<br/>\
 3. Civilization Pick : Random/Mutual Understanding/Mirrored Civs<br/>\
 "},
 
-"CounterStrike":{"image":"/Icons_Final/COUNTERSTRIKE.png","contact":"Satish Chandra <br/> 9740523343","specifications":"	Game Version: Counter-Strike 1.6  <br/>\
+"CounterStrike":{"image":"/Icons_Final/COUNTERSTRIKE.jpg","contact":"Satish Chandra <br/> 9740523343","specifications":"	Game Version: Counter-Strike 1.6  <br/>\
          Registration Fees: Rs. 300/- per team<br/>\
         	General <br/>\
 Competition Method : 5 vs. 5 (Team Play, 5 players per team) <br/>\
@@ -376,11 +379,11 @@ If a player does not agree to any rules, he/she can express his/her protest to a
 be made at the sole discretion of the referee. <br/>\
 If a rematch is decided by the head referee, the team that does not follow this decision will be subject to disqualification.</p>"},
 
-"dota":{"image":"/Icons_Final/dOTA.png","contact":"Satish Chandra <br/> 9740523343","specifications":"Competition format: 5v5 Teams\
+"dota":{"image":"/Icons_Final/dOTA.jpg","contact":"Satish Chandra <br/> 9740523343","specifications":"Competition format: 5v5 Teams\
 Match format: Single elimination i.e,Knockout<br/>\
+Registration Fees: Rs. 300/- per team<br/>\
 Match winner: The team who destroys the opponent's Frozen Throne / World Tree first, or the team who's opponent surrenders by typing gg/ff/forfeit into the All-Chat.<br/>\
-Finals will be 'Best of 3 games' and all other rounds will be single game only.<br/>\
-","gamesetting":"Version : Tournament <br/>\
+Finals will be 'Best of 3 games' and all other rounds will be single game only.","Game Setting":"Version : Tournament <br/>\
 <b>Password :</b> Yes <br/>\
 <b>Cheats :</b> No <br/>\
 <b>Spectators :</b> Yes (Only the admins will spectate the matches) <br/>\
@@ -426,7 +429,7 @@ Any use of hacks like maphack or any software or scripts which gives any unfair 
 Players are required to conduct themselves in a professional manner, showing sportsmanship and respect for everyone involved. Any flaming or insulting will result in team-disqualification.&#160;<br/>\
 Team or player names may not be vulgar. While it is up to the admins' discretion, as a guideline, avoid the following: profanity, hate-speech, drug use, or sexual&#160;"},
 
- "Fifa":{"image":"/Icons_Final/fifa.png","contact":"Satish Chandra <br/> 9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p><br/>\
+ "Fifa":{"image":"/Icons_Final/fifa.jpg","contact":"Satish Chandra <br/> 9740523343","specifications": "<p>Registration fee is Rs. 60/- per participant. Registration will be closed after prelims. A player may register for FIFA and NFS MW together for Rs.100/-</p><br/>\
 &middot; All games will be Classic 1 vs. 1 in multiplayer mode.</p><br/>\
 &middot; There will be no practicing allowed. Participants are only allowed to change the necessary controls and check them.</p><br/>\
 &middot; The total number of rounds will be decided by the participation.</p><br/>\
@@ -439,7 +442,7 @@ Team or player names may not be vulgar. While it is up to the admins' discretion
 &middot; The administrator's decision will be final.</p>/"},
 
 
-"NFS": {"image": "/Icons_Final/nfs.png", "contact": "Satish Chandra <br/> 9740523343", "specifications": "<p>Rs. 60/- per participant.<br/>\
+"NFS": {"image": "/Icons_Final/nfs.jpg", "contact": "Satish Chandra <br/> 9740523343", "specifications": "<p>Rs. 60/- per participant.<br/>\
 Registration will be closed after prelims.<br/>\
 Players can choose their cars, customize them and modify them.<br/>\
 At the end of each match, players must maintain the final screens and receive confirmation from a referee.<br/>\
@@ -461,10 +464,10 @@ Intentional disconnection will not be tolerated. Upon judgment by the referee, a
 
 
 Technites={
-"Megapixel": {"image": "/Icons_Final/megapixel.png","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
-"Blitzkrieg": {"image": "/Icons_Final/blitzkrieg.png","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
+"Megapixel": {"image": "/Icons_Final/megapixel.jpg","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Imagine playing Tetris on a screen as big as an 8-floored building. Well, imagine no more, because that’s exactly what Megapixel is. A 32x16 LED screen is hung off a building as the screen with players sitting about half a kilometer away from it. The players get to choose from a wide variety of commonly played video games all coded specifically to fit this screen. The screen is also used for displaying custom messages intended to advertise and publicize other events. The game mechanics involves controlling LED arrays and coding games specific to the event. The Megapixel was initially implemented as a 24x16 LED screen in the year 2011. In the following year, this was improved to a 32x16 screen."},
+"Blitzkrieg": {"image": "/Icons_Final/blitzkrieg.jpg","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Blitzkrieg (also Laser Tag) draws inspiration from the popular Laser tag game. It is a team sport where players attempt to score points by tagging opponents with a hand-held IR-emitting laser-targeting device. IR-sensitive targets are worn by each player and points are won by tagging an opponent and lost when tagged. Fluorescent jackets are worn to be spotted in the dark and existing buildings are used as the arena. Each player is given limited lives and shots, after which they need to go to the base station to be revived. The game mechanics mainly involves communication protocols for integration between the player's equipment and devices in the facility."},
 "Dance_Dance_Revolution":{"image": "/Icons_Final/Dance.jpg","contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com","Description": "Dance Dance Revolution (also Footloose) abbreviated DDR is a music game where players stand on a 4X4 platform and hit the lit square with their feet to musical cues. Players are judged by how many times they manage to hit the right square in a given period of time. Based on the critically acclaimed music video game series produced by Konami, this game is executed using a wooden platform lit with LEDs and covered with glass integrated with a Linux based GUI for real-time score display. The game mechanics involves random light generation, real time interface and pressure detection for scoring."},
-"Psychedelic_Room":{"image": "/Icons_Final/PsychRoom.png", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
+"Psychedelic_Room":{"image": "/Icons_Final/PsychRoom.jpg", "contact": "Jacob(8123464539): <br/> jacobv1992@gmail.com",
 "Light_Wall": "The Light Wall forms the coruscating backdrop of the Psychedelic Room. The lights flash in synchronization with the music being played in the room. The blue lights that cover one of the walls and the borders of the rest ensure visualizations that are spectacular. ",
 "Decagon": "DECAGON is part of the Psychedelic Room and hence is music synchronized. It is an 8x8x8 3D LED cube which displays visualizations that change with the music playing in the room. These visualizations are 3-dimensional and hence make it way cooler than any visualization you’ve seen before. It involves sound (signal) processing, multiplexing LEDs and building the structure (cube of LEDs) in itself. The second time Octet was implemented, it was improved structurally. A sophisticated coding system was developed and the platform was changed to MSP430F1612 from Arduino. Better patterns were implemented with the new system put in place. ",
 "Waterfall": "Waterfall is a part of the Psychedelic Room. It displays visualizations synchronized with the music being played in the room. The waterfall has columns with three levels of LED rows and is filled with thermocol balls and fan underneath. These fans rotate according to the music being played so as to control how high the thermocol balls fly and the LEDs light accordingly make it look like an equalizer. It involves signal (sound) processing and controlling the fan rotation. Inclusion of LED rows was a development from the year 2011 to 2012, other than implementation on a sturdier mechanical structure. ",
@@ -484,20 +487,20 @@ Technites={
 }
 
 Comps={
-"Inscription":{"image": "/Icons_Final/INSCRIPTION.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
+"Inscription":{"image": "/Icons_Final/INSCRIPTION.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
 <b>Teams of 3.</b>"},
 
-"Kode_Kombat":{"image": "/Icons_Final/CODE_KOMBAT.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
+"Kode_Kombat":{"image": "/Icons_Final/CODE_KOMBAT.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b>"},
 
-"Rectify":{"image": "/Icons_Final/RECTIFY.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
+"Rectify":{"image": "/Icons_Final/RECTIFY.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "It’s time to scratch your Grey cells, it’s time to rectify! Rectify will test your hunting instincts. Can\
 &nbsp; you spot your prey and catch it at the blink of an eye like the vicious vulture ? If you think you have\
 &nbsp; a sharp eye and the instincts of a predator programmer, then come and hunt for the errors in our\
 &nbsp; codes. This event not only tests the mastery over and familiarity with a programming language but\
 &nbsp; also your dexterity in analyzing problems and providing logical solutions.<br/>\
 <b>Individual event</b><br/>"},
 
-"Marathon":{"image": "/Icons_Final/marathon_final.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
+"Marathon":{"image": "/Icons_Final/marathon_final.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Marathon is an event that inculcates multiple tasks of varying difficulty covering all fields of\
 &nbsp; computer science from basic programming, scripting, to operating systems and networks. This\
 &nbsp; Engineer, Marathon is planned to be more challenging, which tests your mind with the latest\
 &nbsp; developing technologies in the field of Computer Science. After all, Computer Science is the fastest\
@@ -507,12 +510,12 @@ Spread over all of Engineer, we give you the opportunity to make up for one bad 
 &nbsp; can throw at you!<br/>\
 <b>Teams of 3.</b><br/>"},
 
-"ECTF_-_Capture_the_Flag":{"image": "/Icons_Final/ECTF.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
-&nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
-&nbsp; at the same time defending your own.<br/>\
-<b>Teams of 3.</b><br/>"},
+# "ECTF_-_Capture_the_Flag":{"image": "/Icons_Final/ECTF.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "ECTF is a ethical hacking competition, where you set up your Base (a virtual machine) with the\
+# &nbsp; Flag (a special file) that we will provide. Hack into your enemy's Base and retrieve his Flag, while\
+# &nbsp; at the same time defending your own.<br/>\
+# <b>Teams of 3.</b><br/>"},
 
-"Virtual_Bounty":{"image": "/Icons_Final/VIRTUAL_BOUNTY2.png","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
+"Virtual_Bounty":{"image": "/Icons_Final/VIRTUAL_BOUNTY2.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Virtual Bounty is the online technical treasure hunt of Engineer, where the divine 'Googling' skills\
 &nbsp; of the participants are put to test. Using search engines, the participants need to figure out the clues\
 &nbsp; which will take them all around the World Wide Web in order to get to the next more intriguing\
 &nbsp; level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
@@ -520,7 +523,7 @@ Spread over all of Engineer, we give you the opportunity to make up for one bad 
 
 }
 Astro={
-"AstroTalk":{"image":"/Icons_Final/astro_talk.png","contact":"Mrinal Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
+"AstroTalk":{"image":"/Icons_Final/astro_talk.jpg","contact":"Mrinal Phone: 9449030636","Description":"In partnership with TechSpeak, Astronomy committee presents enlightening talks,\
 designed to inspire and educate.Astronomy committee presents a series of lectures from eminent scholars \
 conducting cutting edge research in their respective domains.We are proud to present the following speakers: \
 Dr Banibrata Mukhopadhyay Currently an Associate professor, in the Department of Physics, Indian Institute of \
@@ -535,11 +538,11 @@ giving a talk on the impact of engineers in the field of pure science. \
  We also present Video Conferences from varied speakers on physics, astrophotography and much more. \
 Come. See. Rejoice."},
 
-"StarWars":{"image":"/Icons_Final/starwars.png","contact":"Mrinal Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
+"StarWars":{"image":"/Icons_Final/starwars.jpg","contact":"Mrinal Phone: 9449030636","Description":" STAR WARS - The Astronomy Quiz. It presents itself as a unique opportunity for \
 those passionate in astronomy to flaunt their knowledge of the cosmos.\
 Short listed teams would face off in the final round."},
 
-"BeyondEarth":{"image":"/Icons_Final/Beyond_Earth.png","contact":"Mrinal Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
+"BeyondEarth":{"image":"/Icons_Final/Beyond_Earth.jpg","contact":"Mrinal Phone: 9449030636","Description":" Beyond Earth - The Human Settlement Challenge - Call upon participants to display \
 their strategy to conquer the universe. \
 This event calls upon participants who are keen to learn about strategy we \
 would have to employ to expand our forces beyond Mother Earth. The \
@@ -571,22 +574,22 @@ be discussed in great detail, promising the gala night to be a great delight. We
 will enlighten star gazers of the basic topology of the night sky."}}
 
 Meta={
-"MetaMagic":{"image": "/Icons_Final/MetaMagic.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br/>\
+"MetaMagic":{"image": "/Icons_Final/MetaMagic.jpg","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description" : "Metamagic is an exhibition of fascinating experiments designed to amaze even the most skeptical. From Shape memory alloys to smoke bombs to walking on fluids, these dazzling displays will showcase the amazing nature of materials.<br/>\
  - Major demonstrations  – Shape Memory Alloy, Superconductor<br/>\
  - Others –  Sugar bomb, Instant Ice, Mega Bubble, Elephant Toothpaste, Walking on Water,  Chemical Squid, Smoke Bomb, Dry Sand.<br/>"},
 
-"mindBend":{"image": "/Icons_Final/mindbend.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br/>\
+"mindBend":{"image": "/Icons_Final/mindbend.jpg","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "Mindbend is a fun quiz for those who have an undying thirst to know more about materials. It tests the participants’ knowledge of obscure and unnoticed facts about materials in an interactive and fascinating new format.<br/>\
 - Prelims round consisting of crossword and short questionnaire.<br/>\
 - Final round between 6 teams"},
 
 # "Metamorphosis":{"image": "engineer.gif","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "A trademark of Materials Events, this gives students an opportunity to take a crack a real-world industrial problem. Every stage of the problem forces one to think unconventionally and use every bit of information available.<br/>\
 # - Abstract submission through mail<br/>"},
 
-"SEM_and_TEM_Expo":{"image": "/Icons_Final/SEMTEMExpo.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br/>\
+"SEM_and_TEM_Expo":{"image": "/Icons_Final/SEMTEMExpo.jpg","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "The event’s agenda is to exhibit two Electron Microscopes which are the pride of the Department and College.<br/>\
 - 1 hour introductory talk<br/>\
 - 1 hour demo  <br/>"},
 
-"SEM_Photography_Contest":{"image": "/Icons_Final/SEMphotography.png","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "The event is a photography contest. SEM and TEM images of samples having unique features are evaluated.<br/>\
+"SEM_Photography_Contest":{"image": "/Icons_Final/SEMphotography.jpg","contact": "Vijay Bharadwaj J <br/> +919483478667 <br/> jvijay1992@gmail.com","Description": "The event is a photography contest. SEM and TEM images of samples having unique features are evaluated.<br/>\
 - Online photo submission with description<br/>",
 "Submissiion Format": "A PDF file containing Caption, Photo and a description of maximum 100 words should be sent to:<br/> <b>materials.engi@gmail.com</b><br/>by 22nd October"
 },
@@ -595,7 +598,7 @@ Meta={
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "/Icons_Final/Techspeak.png","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
+"Tech_Speak":{"image": "/Icons_Final/Techspeak.jpg","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
  Venue: ATB seminar hall<br/>\
  Time:15.30 - 17.30<br /><br/>\
 <b>Dr. Banibrata Mukhopadhyay (Astro Talk)</b><br/>\
@@ -605,11 +608,12 @@ More to be announced soon"}
 }
 
 Biz={
-"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The event aims to solve real case studies provided by corporate companies or small and medium enterprises (SMEs) and start-ups.<br/>The participants are going to be provided with a problem statement from are partner companies.<br/>Participants will have to present their solutions in the form of an elaborate presentation before the judges which will include the representatives of our partner companies.<br/>\
-<b>Problem Statement Theme:</b> SUSTAINABILITY<br/>","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
+"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.jpg","contact": "Neetesh Hegde <br/> 9483647944","Description": "This event will deal with solving case studies of corporate companies. The participants are going to be provided with a problem statement from Intuit. Three case studies are provided. Participants can choose any one of these case studies. Register your team (Team of three) at ENGINEER website and send your entries in the form of pdf as an abstract in 500 words to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.<br />\
+<br />\
+ Participants will have to present their solutions in the form of B-Plan presentation. The solution that fits the most with the company would be selected and the team would be provided with a cash prize.","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
  1st Round: Registration and submission of preliminary presentations <br/>\
 2nd Round: Mentoring session and Finals (25th October, 2013 and 26th October, 2013.<br/> \
-<b>The deadline for 1st round submission is 19th October,2013. </b><br/>\
+<b>The deadline for 1st round submission is 23rd October,2013. </b><br/>\
 The entries have to be submitted in the form of a powerpoint presentation only, to bizevents@engineer.org.in .<br/> Participants have to register before submitting the entries.","Agenda":"• Who are we solving for:<br />\
 – The problem statements for the event are designed for the small business owners. <br />\
 – Small businesses typically have less than 50 employees and are not as organized in terms of managing their business. <br />\
@@ -661,17 +665,17 @@ employees don't have much work. Solve for me. <br />\
 &nbsp;&nbsp;• What is ROI of this model?<br />\
 <br />","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>"},
 
-"Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
+"Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.jpg","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},
 
-"Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.png","contact": "Asmita Moon <br/>9986818125 ","Description": "Come with your own Problem Statement that you think is one of the major problems faced by most of the Campuses. Provide your solution to that problem and get a platform to present to people who can implement your solutions in the finale.<br />\
+"Campus_Social_Innovision_Challenge":{"image": "/Icons_Final/campussocialinnovation.jpg","contact": "Asmita Moon <br/>9986818125 ","Description": "Come with your own Problem Statement that you think is one of the major problems faced by most of the Campuses. Provide your solution to that problem and get a platform to present to people who can implement your solutions in the finale.<br />\
 <br />\
 This is a chance for you to improve your campus and to win a cash prize!<br />\
 <br />\
 Register yourself at ENGINEER website and send your entries in the form of pdf (Problem Statement and Solution Abstract in 500 words) to <b>bizevents@engineer.org.in</b> with subject as the name of the competition before 23rd October 2013 11:59pm."},
 
-"Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.png","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
-Problem Statement: To be provided by a Business Analysis Company.<br/>"},
+# "Data_Analysis_Challange":{"image": "/Icons_Final/data_analysischallenge.jpg","contact": "Neetesh Hegde <br/> 9483647944","Description": "This competition will judge your potential to deal with huge databases similar to big data.<br/>The participants are going to be provided with a company’s database which they have to analyse in the most efficient way to provide the company a better system to analyse their own data in future.<br/> \
+# Problem Statement: To be provided by a Business Analysis Company.<br/>"},
 
 "Adventure":{"image":"engineer.gif","contact":"Neetesh Hegde <br/> 9483647944","Description":"Participants have to come up with an ad and a marketing campaign and strategy for a real company. Participants have to give a 500 words write up about their plans to the problem statement. Selected finalists will present a video ad of 3 minutes and a presentation about their strategy in the finale.<br />\
 <br />\
@@ -686,7 +690,7 @@ Register your team (Participate in a team of three.) at ENGINEER website and sub
 Zeat.in's current strategy relies solely on social media marketing and they are in the process of building an android application for smart phone booking."}
 }
 Chem={
-"Chemical_Breakdown":{"image": "/Icons_Final/Chemical_Breakdown.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
+"Chemical_Breakdown":{"image": "/Icons_Final/Chemical_Breakdown.jpg","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Introduction":"<br />\
 &ldquo;My mind,&quot; he said, &quot;rebels at stagnation. Give me problems, give me work, give me the most abstruse cryptogram or the most intricate analysis, and I am in my own proper atmosphere. I can dispense then with artificial stimulants. But I abhor the dull routine of existence. I crave for mental exaltation. That is why I have chosen my own particular profession, or rather created it, for I am the only one in the world.&rdquo;&#160;<br />\
 &#8213;&#160;Arthur Conan Doyle,&#160;The Sign of Four<br />\
 <br />\
@@ -702,7 +706,7 @@ Around 10 teams will be selected to the next round who will get to work on an ex
 This being a spot event, the problem statement will be released on the event day itself.<br />\
 "},
 
-"Industry_Defined_Problem":{"image": "/Icons_Final/IDP.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is the epitome of real, applied engineering. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
+"Industry_Defined_Problem":{"image": "/Icons_Final/IDP.jpg","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Industry Defined Problem is the epitome of real, applied engineering. Aiming to bridge the gap between theory and practice by challenging engineers to come up with innovative and creative solutions to crucial real life industrial problems IDP has been serving as a platform for budding engineers to interact with experts from premier industries around the country, and has been well appreciated by the faculty and students alike. <br />\
 Industry-Institute interaction is vital for the development of any engineering student. This event is the ideal eye-opener for them to apply their skills and knowledge and come up with creative solutions to problems posed by the industry. In this event, a renowned Chemical firm puts forward a technical problem which they are facing. The problem may be either recurring one or a one off issue. . The participants are expected to come up with innovative &amp; economically feasible solutions that can be assimilated in the company&rsquo;s process.<br />\
 The previous editions had us collaborating with the likes of Mangalore Refinery and Petrochemicals Limited (MRPL), Mangalore Chemical and Fertilizers (MCF) and other esteemed companies. <br />\
 So what are you thinking of?<br />\
@@ -735,7 +739,7 @@ Come take part in this Year’s Edition of IDP, with innovative and creative sol
 to the challenge posed. The stakes are Higher!!</p>\
 <a href='./data/IDP.pdf'>Download</a>" },
 
-"The_Portal":{"image": "/Icons_Final/the_portal.png","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
+"The_Portal":{"image": "/Icons_Final/the_portal.jpg","contact": "Ramya<br/>sra.10ch36@nitk.edu.in <br/> 9538703009","Description": "Chemical process simulation software helps broaden an engineer&rsquo;s capabilities and increases productivity. It supercharges an engineer&rsquo;s efficiency when facing the toughest chemical process models or addressing day-to-day challenges. They have potential instructional value for practically all core courses, right from first year process calculations to final year design project. It integrates all the topics under one roof making it one of the most powerful tool for a process/chemical engineer. CHEMCAD is one such simulation software&#160;featuring a rich Graphical User Interface (GUI) allowing the user to understand the behaviour of the chemical systems by using rigorous models of thermodynamic processes and unit operations.<br />\
 <br />\
 So, We in this edition of Engineer bring to you a workshop on CHEMCAD giving you a hands-on experience with all the technical details and theory involved. No pre-requisites. This will be followed up by an exciting event based on software. Hurry up! Limited Seats! Lots of prizes at stake.<br />The event will be conducted in two rounds.<br />",
 "Round 1":"<b>Workshop</b><hr />\
@@ -802,7 +806,7 @@ must not exceed 24 V DC or 24 V AC. <br />\
 
 Tronix={
 
-"TrailBlazer":{"image": "/Icons_Final/trailblazer.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
+"TrailBlazer":{"image": "/Icons_Final/trailblazer.jpg","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Description": "<b>Description:</b><br/>noun /ˈtrālˌblāzər/<br/>\
 1. A person who makes a new track through wild country.<br/>2. A pioneer; an innovator<br/>\
 A simple event based on line follower robotics.<br/>\
 You are required to build a line follower robot. <br/> Participate in this innovative event and hone your robotic skills.<br/>\
@@ -832,7 +836,7 @@ Bot should have a mechanism to show the traced path.",
 • Black line has a uniform thickness of 3cm.<br />\
 • Dimensions: The arena will be of dimensions no more than 210cm X 190 cm"},
 
-"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.png","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<img src='./data/automata.png' />" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
+"Automata":{"image": "/Icons_Final/AUTOMATA_NEW.jpg","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<img src='./data/automata.png' />" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
 The ultimate image processing event. Build an autonomous robot and guide it, with only the help of images<br/>acquired from an overhead camera, from the start position on an arena to the end position following a specific path.<br/>The ‘Specified Path’ is your problem, code is your solution.</br>\
 Number of members in a team: max 4<br/>\
 <b>Problem Statement</b><br/>\
@@ -878,10 +882,11 @@ The trial starts when the robot starts moving from the initial position as menti
 The trial ends when the robot reaches the destination or if the stipulated time ends.<br/>\
 The team will be penalized every time the robot deviates from the path.<br/>","download":"<a href=\"data/Automata.docx\">Download</a>"},
 
-"Simplicity":{"image": "/Icons_Final/SIMPLICITY.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
+"Simplicity":{"image": "/Icons_Final/SIMPLICITY.jpg","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "'Simplicity is the ultimate sophistication.'' -Leonardo da Vinci</br> Mathematics appeals to the highest senses of human beings, it is the simulation of our logical senses.<br/>Mathematics has always fascinated people over the ages for its “simplicity”<br/>and ease to simulate real life situations, and find solutions for them, without any physical change. MATLAB is a very effective development tool for performing computationally intensive tasks quickly and easily. MATLAB builds the bridge between the human thought and implementation in mathematics.<br/>\
 If you think you are second to none when it comes to coding in MATLAB then Simplicity is the right place to prove yourself.<br/>Starting from simple math problems to image and audio processing,<br/>simplicity questions interests everyone from novice to expert.<br/> Being one-of-a-kind online programming contest, Simplicity<br/>sees amateur to professional participants from around the world<br/>trying to crack problems in various fields of mathematics,<br/>science and engineering.<br/>\
-<b>Trial Run:</b> 18th October<br/>\
-<b>Event:</b> 19th October<br/> ",
+<b>Trial Run:</b> 20th October<br/>\
+<b>Event:</b> 21th October 4:00PM to 10:00PM <br/>\
+<b>Event URL:</b> <a href = 'http://simplicity.engineer.org.in'> Simplicity </a><br/> ",
 "EVENT FORMAT AND RULES": "This is an online team event<br/>\
 Each team consists of 3 members<br/>\
 The problems will not be specific to any particular domain of engineering, they will rather be based on fundamental mathematics and basic engineering<br/>\
@@ -901,7 +906,7 @@ In case of a tie, the total login time will be considered.<br/>\
 The organizers decision will be final and binding.<br/>\
 "},
 
-"Trade_OFF":{"image": "/Icons_Final/trade_off.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
+"Trade_OFF":{"image": "/Icons_Final/trade_off.jpg","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "<b>Trade-off </b>:n.\ˈtrād-ˌȯf\ : A trade-off (or tradeoff) is a situation that involves losing<br/>one quality or aspect of something in return for gaining another quality or aspect.<br/>\
 There is no true test of an artist than to capture the world by his elegance.<br/>With breadboard as canvas and hues of transistors and gates,<br/>this event evokes the artist in the Engineer to sketch his masterpiece to glory.<br/>This event challenges you to solve basic analog and digital problems<br/>at the lowest level of abstraction in the most intuitive manner, where not just designing circuits<br/>but also making judicious use of the resources is taken into account.<br/>So get ready to scratch your gray cells, and start designing!<br/>\
 <b>EVENT FORMAT</b><br/>\
 Round 1<br/>\
@@ -931,7 +936,7 @@ The team with the highest amount of virtual money in their account at the end of
 Judges' decision will be final and binding in all cases.<br/>\
 "},
 
-"FoxHunt":{"image": "/Icons_Final/foxxhunt.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
+"FoxHunt":{"image": "/Icons_Final/foxxhunt.jpg","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "“In the new era, thought itself will be transmitted by radio.” --Guglielmo Marconi<br/>\
 Foxhunt, is a fun filled package on the lines of a traditional English activity involving tracking and chasing a fox by trained hounds. The difference at Engineer is that,the FOX is a Radio Transmitter and the HUNTERS are budding communication engineers.<br/>Participants are required to track down a transmitter (FOX) that could be situated anywhere in the campus, using a tunable radio receiver and an antenna built by them, making the event full of fun and excitement.<br/>\
 <b>EVENT FORMAT</b><br/>\
 The event will have two phases <br/>\
@@ -959,7 +964,7 @@ Usage of mobile phones or other means of communication between teams during the 
 Usage of FM transmitters in the range 144-146 MHz<br/>Downloads:<br/>\
 "},
 
-"Symphony":{"image": "/Icons_Final/Symphony.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer, Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
+"Symphony":{"image": "/Icons_Final/Symphony.jpg","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com","Description": "Music is the soul of many art forms. Fountains are a symbol of beauty and elegance.<br/>Blending these two to form a spectacular show has been made possible using audio processing<br/>techniques and basic electronic concepts.<br/> At Engineer, Symphony gives the participants an opportunity to dabble into the sights and sounds of electronics and bring the subject to life.<br/>Symphony requires participants to control a musical fountain’s water flow and lights,so that the fountain dances to the tunes of the music.<br/> A huge draw every Engineer, Symphony generates huge participation and promises a great crowd.<br/>\
 <b>SPECIFICATIONS:</b><br/>\
 <a href='./data/symphony.pdf'>Arena Specification.</a><br/>\
 <b>EVENT FORMAT</b><br/>\
@@ -986,7 +991,7 @@ The abstract will be used for judging in case of a tie.<br/>\
 At any point of time during the event, the judges can change the rules to maintain fairness and the spirit of healthy competition.<br/>Decisions made by the judges will be final and binding.<br/>\
 "},
 
-"Waltz":{"image": "/Icons_Final/Waltz.png","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com",
+"Waltz":{"image": "/Icons_Final/Waltz.jpg","contact": "Nanda Kumar(9945248355) <br/>nanda9045@gmail.com",
 "Goal": "Teams must build a wall following bot that navigates the maze in minimum possible timewhile \
 switching walls at the check-lines indicated in the arena diagram<br/><b>Winners of this event gets an intern opportunity at Adormi Tech.</b>",
 "Specifications": "The check-lines (except the third check-line) are placed such that the bot, if switched successfully, <br/>\
@@ -1037,7 +1042,7 @@ Teams that navigate the 3rd check-line successfully and use the shortcut will be
 }
 
 Mba={
-"MindBend": {"image": "/Icons_Final/mindbend.png","contact": "B. THEJA<br/>\
+"MindBend": {"image": "/Icons_Final/mindbend.jpg","contact": "B. THEJA<br/>\
 +919480435585<br/>\
 bnmtheja@gmail.com<br/>\
 Padmini M<br/>\
@@ -1094,7 +1099,7 @@ JUDGEMENT CRITERIA:<br/>\
 - There will be no negative marking for this round"},
 
 
-"Markenza": {"image": "/Icons_Final/MARKENZA.png","contact": "Salman Usman <br/>salman.usman91@gmail.com",
+"Markenza": {"image": "/Icons_Final/MARKENZA.jpg","contact": "Salman Usman <br/>salman.usman91@gmail.com",
 "Description":'<table border="1" cellspacing="0" cellpadding="0" width="600">\
         <tr>\
             <td >\
@@ -1229,7 +1234,7 @@ JUDGEMENT CRITERIA:<br/>\
 
 
 
-"HR_Event":{"image": "/Icons_Final/HR.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231",
+"HR_Event":{"image": "/Icons_Final/HR.jpg","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231",
 "Description": '<table border="1" cellspacing="0" cellpadding="0" width="600">\
         <tr>\
             <td>\
@@ -1299,7 +1304,7 @@ JUDGEMENT CRITERIA:<br/>\
         </tr>\
 </table>'},
 
-"Finance_Event":{"image": "/Icons_Final/Finance.png","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<div>\
+"Finance_Event":{"image": "/Icons_Final/Finance.jpg","contact": "Salman - 08904390686<br/>\ Aditya - 07353643231","Description": '<div>\
 <span style="font-size:12pt;font-weight:bold;text-decoration:underline">Finanza – The Finance Event : </span>\
 <span style="font-size:12pt">The ultimate showdown of financial management skills! Do you have\
 what it takes to be a finance guru?</span>\
@@ -1316,10 +1321,10 @@ profitable path for the company.</span>\
 
 Sce={
 
-"The_Last_Word":{"image": "/Icons_Final/lastword.png","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
+"The_Last_Word":{"image": "/Icons_Final/lastword.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
 Panel to consist of seven members, including one moderator"},
 
-"Sparsh":{"image": "/Icons_Final/saprsh.png","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
+"Sparsh":{"image": "/Icons_Final/saprsh.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
 "Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br />\
 Use of biomass is not in itself a cause for concern. However, when resources harvested are unsustainable and energy conversion technologies are inefficient, there are serious adverse consequences for people&rsquo;s health, the environment and economic development.<br />\
  <br />\
@@ -1333,7 +1338,7 @@ Total budget, including costs of raw materials and labour<br />\
 Detailed design, with justification<br />\
 Any other innovative ideas to improve functionality or add new features<br />\
 ","Rules":"<b>Preliminary round: </b><br />\
-Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 19th October, 2013.<br />\
+Candidates interested to participate should register at www.engineer.org.in. The participants must mail an abstract of their idea (not exceeding two page) to sce@engineer.org.in with subject &ldquo;SCE Sparsh abstract&rdquo; on or before 23rd October, 2013.<br />\
 Submit the abstract in PDF format.<br />\
 PDFs should include:<br />\
 Title <br />\
@@ -1370,8 +1375,8 @@ A.&#160;No<br />\
 <br />\
 The organisers retain the right to make any changes to the event, format, dates, rules and in any matter related to this event at any time before or during the event.<br />\
 "},
-"Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.png","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
-"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.png","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
+"Sky_Lanterns":{"image": "/Icons_Final/sky_lantern.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Chief Guest may light sky lanterns along with students and dignitaries"},
+"Green_Inovation_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.jpg","contact": "Amrutash Nanda<br/> 9035057370","Description": "<br/><i>A man may die, nations may rise and fall, but an idea lives on....</i><br />\
 <p>Socially Conscious Engineering along with Biz \
 Committee presents the 1ST edition of the GIC .<br/>\
 In the world we live in today, where many ideas \
@@ -1462,7 +1467,7 @@ matter related to this event at any time before or during the event."}
 
 Mechanical={
 
-"Robowars": {"image":"/Icons_Final/RoboWars.png",
+"Robowars": {"image":"/Icons_Final/RoboWars.jpg",
 "contact":"Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661",
 "generalrules":"Contestants will have to register online. On spot registrations can also be done.<br/>\
 The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
@@ -1553,7 +1558,7 @@ Please take care to not hurt yourself or others when building, testing and compe
 ","download": "<a href='data/robowars.docx'>Download</a>"},
 
 
-"PerfectMachine":{"image":"/Icons_Final/PerfectMachine.png",
+"PerfectMachine":{"image":"/Icons_Final/PerfectMachine.jpg",
 "contact":"Akshay K R <br/>koodlyakshay@gmail.com<br/>9731937661",
 "generalrules":"The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>\
 Contestants will have to register online. On spot registrations can also be done.<br/>\
@@ -1608,9 +1613,9 @@ Flying (airfoil using, helium balloons, ornithopters, hovercrafts etc.) is not a
 <b>Video: </b><a href='http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be' target='_blank'>http://www.youtube.com/watch?v=m7qXfG3_2O8&feature=youtu.be</a><br /><br />\
 <a href='data/perfectMachine.docx'>Download</a>"},
 
-"wrightflight":{"image":"/Icons_Final/WrightFlight.png",
+"wrightflight":{"image":"/Icons_Final/WrightFlight.jpg",
 "contact":"Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661",
-"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000<br /><b>Schedule</b><br /> Day 0 (23) Ap Mech dept",
+"generalrules":"&bull; Contestants will have to register online. On spot registrations can also be done.<br/>&bull; The students must carry valid student ID cards of their college which they will be required to produce at the time of registration.<br/>&bull; A team may comprise a maximum of FIVE participants.<br/>&bull; Readymade kits are NOT allowed. Usage of Ready-to-Fly (RTF) and Almost-Ready-to-Fly (ARF) kits is strictly prohibited.<br/>&bull; Teams should note that the place where flight testing is done is an open area; hence changes in wind direction may occur. The organizing committee will not be responsible for any change in weather at the time of testing.<p>&bull; The glider has to be as per the specification mentioned below.<br/>&bull; A team is permitted to compete with more than one glider of same/different design and that design can be registered only once.<br/>&bull; Any team that is not ready at the time specified will be disqualified from the competition automatically. <br/>&bull; The glider will be checked for its safety before the event and would be discarded if found unsafe for other participants and spectators. <br/>&bull; The organizing committee won&rsquo;t be responsible for any damage done to the glider during the course of the event.<br/>&bull; The teams must adhere to the spirit of healthy competition. Judges reserve the right to disqualify any team indulging in misbehavior. <br/>&bull; Judges&rsquo; decision will be final and binding. <br/>Prizes<br/>1st: Rs. 4,000<br/> 2nd: Rs. 2,000<br/> 3rd: Rs. 1,000<br /><b>Schedule</b><br /> Day 3 (26th october) Ap Mech dept",
 "eventformat":"&bull; In this event, contesting teams must build a Glider- an aerial reconnaissance vehicle.<br/>&bull; The glider must be unpowered. The glider can be either chucked by hand or a suitable mechanism can be built by the competing team for providing the initial thrust.<br/>&bull; A Hard copy of the report spanning one page has to be submitted by the teams on the day of the event regarding their glider construction procedure , materials used, design aspects etc , which will be the judging criteria of your glider in case of a tie. <br/>&bull; The event shall consist of 2 rounds - one preliminary and a final round.<br/>&bull; In the preliminary round, the participants are required to chuck the glider by hand to a maximum horizontal range and glide for the longest time period (Fig 1). <br/>&bull; The teams clearing the preliminary round qualify to the final round.<br/>\
 &bull; In the final round, the teams are supposed to chuck their glider again by hand but here it is tested for maneuverability. The glider is required to go through a pre designated path and then maneuver across the given arena and crossing each checkpoint (Fig 2). <br/>&bull; Each team will be given THREE trials in each round and the best score from the three trials will be considered for the final scoring. <br/>&bull; The teams will have to bring their own radio control equipments (if using any) and the \
 organizing committee won&rsquo;t be providing any.<br/><a href='data/wrightflight.pdf'>Download</a>","Glider Specifications":"Maximum wingspan of the glider must be 1.5 m.<br/> \
@@ -1628,13 +1633,13 @@ plane and for uncontrolled planes it is decided based on the impact due to landi
 *Glider is defined completely unpowered flying machine.<br/>(For more details check \
 <a href=\"http://science.howstuffworks.com/transport/flight/modern/glider1.htm\">here</a>) <br/>"},
 
-"Proteus": {"image": "/Icons_Final/Proteus.png","contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", "General Rules": "\
+"Proteus": {"image": "/Icons_Final/Proteus.jpg","contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", "General Rules": "\
 • Participants must carry valid ID cards of their respective college, which must be \
 produced at the time of registration.<br/>\
 • Maximum number of participants per team is four.<br/>\
 • Readymade kits are not allowed.<br/>\
 • Each team is allowed to participate with not more than one bot.<br/>\
-• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 0 (23) Wave mechanics lab","Event Rules":"• There shall be one qualifying round.<br/>\
+• Judges decision will be final and binding.<br/> Prizes: 1st: Rs. 4,000<br/> 2nd: Rs. 3,000<br/> 3rd: Rs. 2,000<br /><b>Schedule</b><br /> Day 3 (26th october) Wave mechanics lab","Event Rules":"• There shall be one qualifying round.<br/>\
 • The qualifying round is to test the test the maneuverability and the water shooting \
 capacity of the bot.<br/>\
 • The top 8 will qualify for the final round.<br/>\
@@ -1674,7 +1679,7 @@ Based on S1, top eight teams are qualified for the next round and awarded points
 Final Score, S = ( ( 1000 / t2 ) + ( 2000 / t3 ) + ( 3000 / t4 ) ) * exp( ts / 100 )  + (Points carried forward from the first round)","download":"<p><b>Video: </b><a href='http://youtu.be/Oz2YhPmACBA' target='_blank'>http://youtu.be/Oz2YhPmACBA</a><br /><a href='data/proteus.pdf'>Download</a></p>"},
 
 
-"Velocity": {"image": "/Icons_Final/Velocity.png", 
+"Velocity": {"image": "/Icons_Final/Velocity.jpg", 
 "contact": "Akshay K R<br/>koodlyakshay@gmail.com <br/>9731937661", 
 "Introduction": "Ready for a race off?...Velocity will provide you the jumpstart you need to get the fuel  pumping through your car’s veins. Being the flagship event of Engineer, Velocity provides  you an opportunity to showcase your racing talents amongst dedicated peers who have put in  the elbow grease required in building these racing machines.", 
 "General Rules": " The students must carry valid student ID cards of their college which they should produce at the time of registration.<br/>\
@@ -1777,9 +1782,9 @@ disqualified. This decision rests solely with the judges and the organizers."}
 
 
 Mining={
-"Mine_Rush":{"image": "/Icons_Final/Mine_Rush.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments."},
-"Adverse_Mining_Problem":{"image": "/Icons_Final/adverse_mining.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
-"Mine_Quest":{"image": "/Icons_Final/Mine_Quest.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br/>\
+"Mine_Rush":{"image": "/Icons_Final/Mine_Rush.jpg","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "A treasure hunt kind of an event where the teams decode a series of clues to reach the final destination. this round requires the use of some basic survey instruments."},
+"Adverse_Mining_Problem":{"image": "/Icons_Final/adverse_mining.jpg","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This is a power point presentation round where the participants can choose a real-life industry problem (ex: neyveli / kgf) and discuss the problem and come up with the best possible feasible solution(s).  judgment  will be done by the experts."},
+"Mine_Quest":{"image": "/Icons_Final/Mine_Quest.jpg","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This is a quiz event which consists of four rounds. <br/>\
 <h3>round 1 : preliminary</h3>\
 All the teams (3 members) will be given an objective question paper to solve which decides the eligibility for the further rounds.<br/>\
 <h3>round 2 : eliminator</h3>\
@@ -1788,9 +1793,9 @@ The top six teams will be qualified for this round. in this round multi-discipli
 This is a visual round in which the participants will be shown various pictures which may/ may not contain a flaw and are identified to detect and correct the flaw if present. they will also be given incomplete diagrams and are asked to complete them.<br/>\
 <h3>round 4 : grand-finale</h3>\
 The ultimate round which decides the winner of the event where their performance is continuously evaluated. this round is a combination of auction round, buzzer round, challenge round, and rapid fire round."},
-"Innovating_Mining":{"image": "/Icons_Final/mining_innovation.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
-"Blast_Mine_Ventilation":{"image": "/Icons_Final/blast_mine_ventilation.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
-"Hang-Man":{"image": "/Icons_Final/HANGMAN_MAIN.png","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
+"Innovating_Mining":{"image": "/Icons_Final/mining_innovation.jpg","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "Students are allowed to think without any bounds on creative grounds to come up with mining techniques that are non-conventional and of-course are safe and economical as well as practically feasible. this will be a power-point presentation round."},
+"Blast_Mine_Ventilation":{"image": "/Icons_Final/blast_mine_ventilation.jpg","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "A very simple round in which the participants will be given the required data pertaining to blasting/ ventilation and where in the participants are required to design a suitable layout for the same. judgment to be done by experts."},
+"Hang-Man":{"image": "/Icons_Final/HANGMAN_MAIN.jpg","contact": "Arjun Thumbayil(8105941509) - arjunthumbayil@hotmail.com","Description": "This round is based on the actual hangman game where the participants will be given a picture and is required to guess the title or relevant data as per the question posed to them."},
 }
 
 
@@ -1805,7 +1810,7 @@ $events={
 "Biz":Biz,
 "Chemical":Chem,
 "Tronix":Tronix,
-"Mba":Mba,
+# "Mba":Mba,
 "Sce":Sce,
 "Mining":Mining,
 "Mechanical": Mechanical,
@@ -1884,7 +1889,7 @@ $newHash={
 	"Augmented_Reality": {"id": "64","team_members": "5"},
 	"RC_Aircraft_Design_and_Fabrication": {"id": "65","team_members": "5"},
 	"Humanoid_Robot": {"id": "66", "team_members": "5"},
-	"Android Application Development": {"id" : "67","team_members":"1"},
+	"Android_Application_Development": {"id" : "67","team_members":"1"},
 	"3D_Photography": {"id" : "68","team_members":"1"},
 	"Bridge_Design_and_Fabrication": {"id" : "69","team_members":"2"},# workspop
 	"Contraption" : { "id" :"70","team_members":"5"},

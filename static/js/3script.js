@@ -26,8 +26,9 @@ var renderTween;
 
 var updateTween;
 var updateLenght = 0;
-var updateDuration = 12000;
-var updateDistance = 1000;
+var updateDuration = 0;
+var updateDistance = 0;
+var updateDistanceConst = updateDistance;
 
 var REblock = new RegExp("^block");
 var REpage = new RegExp("^page");
@@ -593,9 +594,11 @@ function explodeTabbedPage( element )
 function getPage(pageName, tabName)
 {		
 	alpha = 0;
-	if(currentPage != undefined){
+	//console.log(pageName);
+	if(currentPage != undefined)
+	{
 		currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
-		if (currentPage.name.match("homePage"))
+		if (currentPage.name =="homePage")
 			removeUpdates();
 	}
 	var duration = 2000, variation = 1500;
@@ -605,6 +608,8 @@ function getPage(pageName, tabName)
 	currentPage = allPages[pageName];
 	currentSideBar = allSideBars[pageName];
 	currentTabbedPage = undefined;
+	if (pageName == "homePage")
+		showUpdates();
 	//console.log(pageName+" "+tabName);
 	// console.log()
 	if (currentPage == undefined)
@@ -647,8 +652,6 @@ function getPage(pageName, tabName)
 		transform(currentSideBar.WGLobjects, currentSideBar.targets.page, duration, variation, false, currentSideBar);
 	}
 	addHistory(pageName);
-	if (currentPage.name.match("homePage"))
-		showUpdates();
 	if(pageName == 'homePage') $("#menu").fadeOut();
 	else $("#menu").fadeIn();
 	if (!currentPage || currentPage.name.match("homePage"))
@@ -702,7 +705,7 @@ function message(name, title, message, width)
 	{
 		this.upindex = upindex;
 		var ele = document.createElement('span');
-		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px;');
+		ele.setAttribute("style",'width: '+this.width+'px; font-size:25px; background:rgba(200,200,200,0.9); padding: 10px; line-height: 25px;');
 		var content = '<table style = " width: '+this.width+'px;"><tr><td>';
 		content += '<h1>'+this.title+'</h1>';
 		content += '</td><td align = "right">';
@@ -723,12 +726,12 @@ function message(name, title, message, width)
 		var tar = new THREE.Object3D();
 		tar.position.z = 20;
 		this.target = tar;
-		if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
-		allMessagges[name] = this;
+		//if(allMessagges[name] != undefined) allMessagges[name].removeMessage();
+		//allMessagges[name] = this;
 		this.onComplete = function()
 		{
 			this.completed = true;
-			console.log(this.upindex);
+			//console.log(this.upindex);
 			// if (allTweens[this.WGLobject.id] != undefined)
 			// {
 			// 	TWEEN.remove(allTweens[object.id]);
@@ -779,11 +782,11 @@ function getUpdateTargets()
 		object.position.x = ( rangeX + treshX) * power;
 		//object.position.y = (Math.random() * rangeY) * Math.pow(-1, Math.floor(Math.random() * 100));
 		if (count % 2 == 0)
-			object.position.y = (Math.sin((2 * Math.PI) * ((count % fraction) / fraction)) * rangeY);
+			object.position.y = (Math.sin((2 * Math.PI) * ((count % fraction + 1) / fraction)) * rangeY);
 		else
-			object.position.y = (Math.sin((2 * Math.PI) * (((count - 1) % fraction) / fraction)) * rangeY);
+			object.position.y = (Math.sin((2 * Math.PI) * (((count - 1) % fraction + 1) / fraction)) * rangeY);
 		//object.position.z = (count * (-50) - 300);
-		object.position.z = -1 * updateDistance;
+		object.position.z = -1 * updateDistanceConst;
 		allUpdates[x].target = object;
 		count++;
 		power *= -1
@@ -812,8 +815,8 @@ function generateUpdates(titleMessagePairs)
 		allUpdates[upd.name] = upd;
 		updateLenght++;
 	}
-	updateDuration = 1000 * updateLenght;
-	updateDistance = 40 * updateLenght;
+	updateDuration = 2000 * updateLenght;
+	updateDistanceConst = 80 * updateLenght;
 	getUpdateTargets();
 }
 
@@ -829,8 +832,10 @@ function showUpdates()
 	{ 
 		TWEEN.remove(updateTween); 
 	}
-	updateDistance += camera.position.z;
-	var inc = updateDistance * 25 / updateDuration;
+	updateDistance = updateDistanceConst + camera.position.z / 2;
+	//console.log('show');
+	//console.log(allUpdates);
+	var inc = updateDistance * 16.6666 / updateDuration;
 	var start = { theta : 0 }, end = { theta : updateDistance };
 	//var inc = 0, prev = 0;
 	updateTween = new TWEEN.Tween( start )
@@ -860,7 +865,9 @@ function removeUpdates()
 	for (var x in allUpdates)
 	{
 		allUpdates[x].removeMessage();
+		allUpdates[x].completed = false;
 	}
+	TWEEN.remove(updateTween); 
 }
 
 var curIndex = 0;
@@ -958,6 +965,7 @@ function initHomePage()
 	tempPage.initHome();
 	allPagesIndex.push(tempPage.name);
 	allPages[tempPage.name] = tempPage;
+	get_updates();
 }
 
 function initSponsors()
