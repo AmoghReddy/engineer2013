@@ -1355,7 +1355,7 @@ at the Stanford University. <br/>She has been awarded many prestigious awards in
 Wings of Excellence Prize, Wyse Emerging Leaders&rsquo;Fellowship and the Fulbright-Nehru\
 Fellowship. <br/>She is a Global Shaper at the World Economic Forum's Ahmedabad Hub and is one of\
 the 37 'Indians of Tomorrow' featured by India Today in 2012. <br/>She is a columnist with several well-\
-known newspapers and magazines","Dr Sundar Skkurai":"Dr. Sundar Sarukkai is the Director of the Manipal Centre for Philosophy and Humanities at\
+known newspapers and magazines","Dr Sundar Sarukkai":"Dr. Sundar Sarukkai is the Director of the Manipal Centre for Philosophy and Humanities at\
 Manipal University. <br/>Dr. Sundar Sarukkai, trained in physics and philosophy, has a PhD from Purdue\
 University, USA. <br/>His research interests are in the areas of philosophy of science, philosophy of\
 mathematics, postmodernism, phenomenology and philosophy of art, drawing upon both Western\
@@ -1363,7 +1363,7 @@ and Indian traditions. <br/>He has been a Homi Bhabha Fellow (1997-1999), Fellow
 Institute of Advanced Studies (1999-2001), Associate Fellow of the Project of History of Indian\
 Science, Philosophy and Culture (2003-2004), and Fellow at the National Institute of Advanced\
 Studies, Bangalore, India (2000-2006). <br/>He published Translating the World: Science and Language\
-(2002), Philosophy of Symmetry (2004) and Indian Philosophy and Philosophy of Science (2005)","Pawan Kumar":"Pawan Kumar is a film director, actor and screenwriter in the Kannada film industry. <br/>He is well\
+(2002), Philosophy of Symmetry (2004) and Indian Philosophy and Philosophy of Science (2005)","Mr. Pawan Kumar":"Mr. Pawan Kumar is a film director, actor and screenwriter in the Kannada film industry. <br/>He is well\
 known for the films Manasaare, Pancharangi, his directorial debut Lifeu Ishtene, and the latest\
 psychological thriller Lucia, which recently won the audience award at the London Indian Film\
 Festival. <br/>He started his work in theatre arts in 1998, and has worked as an Artistic Director and\
