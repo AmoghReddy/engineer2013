@@ -1,0 +1,209 @@
+<?
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href='static/http://engineer.org.in/2013/favicon.ico" type="image/x-icon' >
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" %}>
+		<title>Engineer 2013</title>
+		<link rel="stylesheet" href='static/bootstrap/css/bootstrap.min.css'  />
+		<link rel="stylesheet" href='static/style.css' />
+		
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44829016-1', 'engineer.org.in');
+  ga('send', 'pageview');
+
+</script>-->
+
+		<script src='static/js/jquery-1.10.1.min.js' ></script>
+		<script src='static/bootstrap/js/bootstrap.min.js' ></script>
+		<script src='static/bootstrap/js/bootstrap-typeahead.js' ></script>
+		<script src='static/js/three.min.js' ></script>
+		<script src='static/js/tween.min.js' ></script>
+		<script src='static/js/CSS3DRenderer.js' ></script>
+		<script src='static/js/3script.js' ></script>
+		<script src='static/js/system.js' ></script>
+		<script src='static/js/server.js' ></script>
+	</head>
+	<body style="width: 1366px; overflow: hidden;">
+	<div class="loading">
+		<img src='static/loading.gif'  />
+		<a id="loading_text">Loading....</a>
+	</div>
+	<script>
+		var data=["Loading....","Loading....","Loading....","Loading....","Loading...."];
+		function loadingTextHandle(){
+			var loadingText=document.getElementById("loading_text");
+			var newData=data[Math.floor(Math.random()*1000)%data.length-1];
+			if(!newData || (loadingText.innerHTML==newData)) setTimeout("loadingTextHandle();",0);
+			else{ loadingText.innerHTML=newData; setTimeout("loadingTextHandle();",3000); }
+		}
+		loadingTextHandle();
+	</script>
+		<div class="alert" stlye="z-index: 1000" style="
+	    position: absolute;
+	    z-index: 1000;
+	    width: 100%;
+	    height: 20px;
+		">
+		  <button type="button" class="close" data-dismiss="alert" style=" position: absolute;z-index: 1000;right: 60px;
+line-height: 18px;
+margin-top: 10px;width: 27px;
+height: 21px;">X</button>
+		  <strong><p>This website has been created using WebGL, we recommend you to update your browser to latest version. For best experience please use Google Chrome 29+</p></strong>
+		</div>
+		<div id="container" style = "width: 1366">
+			<span id = "homePage">
+				<span id = "engiLogo"><img id="engiImg" src='images/logo.png' style="width:300px;box-shadow: 0px 0px 0px;" /></span>
+				<span id = "menu0"><button id="button0" onclick = "getPage('allCommittees')" style="font-family: acens;">EVENTS</button></span>
+				<span id = "menu1"><button id="button1" onclick = "getPage('Workshops')" style="font-family: acens;" >WORKSHOPS</button></span>
+				<span id = "menu2"><button id="button2" onclick="getPage('Technites')" style="font-family: acens;" >TECHNITES</button></span>
+				<span id = "menu3"><button id="button3" onclick = "getPage('Tech_Speak')" style="font-family: acens;" >TECH SPEAK</button></span>
+				<span id = "menu4"><button id="button4" style="font-family: acens;" onclick = "getPage('Sponsors')" >SPONSORS</button></span>
+				<!--<span id = "menu5"><button id="button5" style="font-family: acens;" >ABOUT ENGI</button></span>-->
+				<span id = "menu6"><button id="button6" style="font-family: acens;" onclick = "getPage('Contact')" >CONTACTS</button></span>
+				<span id = "menu7"><button id="button7" style="font-family: acens;" onclick ="getPage('Accom')" >ACCOM</button></span>
+			</span>
+			<span id = "sponsors">
+				<!--<span id = "menuLogo2"><img id="engiImg2" src='static/images/logo.png'  style="width:300px;box-shadow: 0px 0px 0px;"/></span>-->
+				<span id = "menu00"><img src = 'static/sponsors/Adormi_Technologies.jpg'  style="width:300px"/></span>
+				<span id = "menu01"><img src = 'static/sponsors/Bosch.jpg'  style="width:300px"/></span>
+				<span id = "menu02"><img src = 'static/sponsors/Byju.jpg'  style="width:300px"/></span>
+				<span id = "menu03"><img src = 'static/sponsors/D_E_Shaw.jpg'  style="width:300px"/></span>
+				<span id = "menu04"><img src = 'static/sponsors/Oracle.JPG'  style="width:300px"/></span>
+			</span>
+			<span id = "pageSponsors" style="width:100%;">
+				<div id = "blockSpon00" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">MAIN SPONSORS</div>
+				<div id = "blockSpon01" align="center" ><a href="http://www.adormi.com/‎"><img src = 'static/sponsors/Adormi_Technologies.jpg'  style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon02" align="center" ><a href="http://www.boschindia.com/‎"><img src = 'static/sponsors/Bosch.jpg'  style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon03" align="center" ><a href="http://byjusclasses.com/‎"><img src = 'static/sponsors/Byju.jpg'  style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon04" align="center" ><a href="http://www.deshawindia.com/‎"><img src = 'static/sponsors/D_E_Shaw.jpg'  style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon05" align="center" ><a href="http://www.oracle.com/in"><img src = 'static/sponsors/Oracle.JPG'  style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon06" align="center" ><a href="http://www.dell.co.in"><img src = 'static/sponsors/Dell_Logo.jpg'  style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon07" align="center" ><a href="http://www.intuit.in/"><img src = 'static/sponsors/intuit_blue.gif'  style="width: 300px; padding: 15px;"/></a></div>
+				
+
+				<div id = "blockSpon08" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">ONLINE MEDIA PARTNERS</div>
+				<div id = "blockSpon10" align="center" ><a href="http://www.hellointern.com"><img src = 'static/sponsors/HelloIntern.png' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon12" align="center" ><a href="http://www.knowafest.com"><img src = 'static/sponsors/KnowaFest.png' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon13" align="center" ><a href="http://www.minglebox.com"><img src = 'static/sponsors/MingleBox.png' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon15" align="center" ><a href="http://www.hook2events.com"><img src = 'static/sponsors/h2e-logo-150.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon15dfg" align="center" ><a href="http://www.bestcollegehunt.com"><img src = 'static/sponsors/BestCollegeHunt.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon15rty" align="center" ><a href="http://www.coolavenues.com"><img src = 'static/sponsors/CoolAvenues.png' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon15jhg" align="center" ><a href="http://www.stupidsid.com"><img src = 'static/sponsors/StupidSid.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon09" align="center" ><a href="http://www.letmeknow.in"><img src = 'static/sponsors/Let me know.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon09ccc" align="center" ><a href="http://www.campfestiva.com"><img src = 'static/sponsors/CampusFestiva.png' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon09mmm" align="center" ><a href="http://www.eduinfo.asia"><img src = 'static/sponsors/Eduinfo.jpg' style="width: 300px; padding: 15px;"/></a></div>
+
+				<div id = "blockSpon16QWE" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">STUDENT INTERNSHIP PARTNER</div>
+				<div id = "blockSpon14" align="center" ><a href="http://www.twenty19.com"><img src = 'static/sponsors/Twenty19.jpg' style="width: 300px; padding: 15px;"/></a></div>
+
+				<div id = "blockSpon16QWE" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">GLOBAL OPPORTUNITY PARTNER</div>
+				<div id = "blockSpon11" align="center" ><a href="http://www.heysuccess.com"><img src = 'static/sponsors/HeySuccess.png' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon16" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">RADIO PARTNER</div>
+				<div id = "blockSpon17" align="center" ><a href="http://www.radiomirchi.com"><img src = 'static/sponsors/Radio mirchi.jpg' style="width: 300px; padding: 15px;"/></a></div>
+
+				<div id = "blockSpon18" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">COMMUNICATION PARTNERS</div>
+				<div id = "blockSpon19" align="center" ><a href="http://www.airtel.com"><img src = 'static/sponsors/Airtel logo.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				<div id = "blockSpon18MM" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">SMS PARTNERS</div>
+				<div id = "blockSpon19asd" align="center" ><a href="http://www.kapsystem.com"><img src = 'static/sponsors/KAPSystem.jpg' style="width: 300px; padding: 15px;"/></a></div>
+
+				<div id = "blockSpon20" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">STATIONARY PARTNER</div>
+				<div id = "blockSpon21" align="center" ><a href="http://www.sbco.in"><img src = 'static/sponsors/sbclogo.png' style="width: 300px; padding: 15px;"/></a></div>
+				
+				<div id = "blockSpon22" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">SUPPLY CHAIN PARTNER</div>
+				<div id = "blockSpon23" align="center" ><a href="http://www.safexpress.com"><img src = 'static/sponsors/Safeexpress.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				
+				<div id = "blockSpon24" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">MAGAZINE PARTNER</div>
+				<div id = "blockSpon25" align="center" ><a href="http://www.campusdiaries.com"><img src = 'static/sponsors/campus diaries.jpg' style="width: 300px; padding: 15px;"/></a></div>
+
+				<div id = "blockSpon24" align="center" style="padding: 50px;font-size: 60px; font-weight: bold">CHOCOLATE PARTNER</div>
+				<div id = "blockSpon25" align="center" ><a href="http://www.mychocolatemaker.com"><img src = 'static/sponsors/myChocolateMaker.jpg' style="width: 300px; padding: 15px;"/></a></div>
+				
+				<!-- <span id = "blockSpon13"><img src = 'static/sponsors/' style="width:300px"/></span>
+				<span id = "blockSpon14"><img src = 'static/sponsors/' style="width:300px"/></span>
+				<span id = "blockSpon15"><img src = 'static/sponsors/' style="width:300px"/></span>
+				<span id = "blockSpon16"><img src = 'static/sponsors/' style="width:300px"/></span>
+				<span id = "blockSpon17"><img src = 'static/sponsors/' style="width:300px"/></span> -->
+			</span>
+			
+			<center>
+			<span id = "pageProfile" >
+				
+				<table>
+				<tr>
+				<td><span id = "blockProfile3" style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
+					<table width = "650">
+						<tr>
+							<td>Name:</td>
+							<td><b id = "profile_name"></b></td>
+						</tr>
+						<tr>
+							<td>Email ID:</td>
+							<td><b id = "profile_email"></b></td>
+						</tr>
+					</table>
+					<hr />
+					<p id = "profile_events"></p>
+				</span></td>
+				</tr>
+				</table>
+			</span>
+			</center>
+			<span id='pageContact' style='margin:100px;padding:50px'>
+			<table class='table'>
+			<tr>
+			<td valign='top'><span id='blockGen97'><img src='static/Icons_Final/contacts.png'  /></span></td>
+			<td>
+			<span id='blockGen98' style='width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;'>
+			<h1>Contact Us</h1><hr/>
+			<p><b>Utpal Kant (Convenor)</b></br>
+			<span style='font-style:italic;'>Ph: 8123309743 </br>
+			Email: convenor@engineer.org.in</span></br></br>
+			<b>Ankit Kumar (Chief Coordinator)</b></br>
+			<span style='font-style:italic;'>Ph: 8123196114 </br>
+			Email: chiefcoordinator@engineer.org.in</span></br></br>
+			<b>Abhisekh Malali (Secretary)</b></br>
+			<span style='font-style:italic;'>Ph: 9480799184 </br>
+			Email: abhisekh@engineer.org.in</span></br></br>
+			<b>Vishnu Swaroop (Marketing Head)</b></br>
+			<span style='font-style:italic;'>Ph: 9986849580 </br>
+			Email: vishnu@engineer.org.in</span><br /><br />
+			<b>Aditya Tiwari (Chairman)</b></br>
+			<span style='font-style:italic;'>Ph: 9164748465 </br>
+			Email: chairman@engineer.org.in</span>
+			</p>
+			<hr/>
+			</span>
+			</td>
+			</tr>
+			</table>
+			</span>
+<span id='pageAccom'>			
+<table class='table' align='center' style='width: 80%;'>
+<tr>
+<td valign='top' style='width: 30%'>
+<span id='blockAccom1'><img src="static/images/logo.png" width='250px'/></span><br />
+</td>
+<td style='width: 70%'>
+<span id="blockGen747" style="width: 650px;font-size:20px;line-height:25px;background: rgba(255,255,255,0.8);padding: 10px;" >
+<h1> Accomodation</h1>
+Accmodation will be provided to all out station participants in the campus. registrations for ENGINEER in general is <b>Rs 200/head</b>. <br />
+Registered participants will get Engi bag, note pad and other goodies<br />
+If you have to avail accomodations the charges are as follows:<br />
+1. Rs 300 if you are staying for 2 or less than 2 days.<br />
+2. Rs 500 if you are staying for more than 2 days.<br /><br />
+
+As ENGINEER promotes paperless banking please avoid hard cash and demand drafts. Facilities will be available for payments through <b>credit/debit cards</b>.
+</span>
+</td>
+</tr>
+</table>
+</span>
