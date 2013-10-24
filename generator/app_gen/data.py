@@ -26,7 +26,7 @@ comitteeLogos={
 General = {
 	"Simplineer": {"image": "/Icons_Final/SIMPLINEER.jpg","contact": "Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description": "<br/>• Simplineer is a general event during Engineer spanning all branches of Engineering. It brings all the major engineering fields together and provides a common platform to young engineers to test their knowledge and skills in their respective field.<br/>• It is a team event<br/>• Teams of 3-4(from any branch or from same branch)<br/>• Event will consist of two stages<br/>• First is online test which will happen before engineer to shortlist teams. This round will consist of questions from various branches of Engineering including Electronics, Computers, Mechanical and Maths which have to be solved in a given time.<br/>• The teams shortlisted will be called for the second stage (which consists of several hands-on rounds) which will be held during Engineer.<br/>• The events will be spread over two-three days of Engineer, each round consisting of a problem statement related to a particular engineering stream. <br/>• Only one member from the team should register for the event.<br/>• Online test will be on 20th October. Test will be of 90 minutes. Teams can take test only once.<br/>• For nitk students test will be in CCC from 5:00PM to 7:00PM.<br/>• For non NITK Teams: test can be taken anytime between 5:00PM and 7:00PM on 20th October. <br/>• Results will be declared on 21th October and teams will be informed.", "Proceedings": "<b>First Round:</b><br/>First round online test will be held on 21st october from 5:00PM to 7:00PM.<br/>Event URL : <a href = 'engineer.org.in/simplineer'>Simplineer</a> <br/>• Concept will be taught to the selected teams and then teams will be tested in that area.<br/>• Top 10 teams are to be shortlisted for the event.<br/>• We have decided three events: 1 in CS, 1 in EC and 1 in Civil-cum-mech."},
 	"Engineers_Solve_Problems":{"image":"/Icons_Final/NIT-K-event.jpg","contact":"Saurabh Verma (9742091940)<br/>Sumit Bansal (9663358730)","Description":"Campus Diaries presents - <b>Engineers Solve Problems</b> <br/>(1) Think of a problem around you<br/>(2) As an engineer, come up with a solution to solve that problem<br/>(3) Publish your solution/idea/essay on campusdiaries.com with #engineering<br/>Best solutions, judged by your friends, and by an eminent personality from Bangalore Political Action Committee will be given following prizes<br/><b>Prizes :</b><br/>1st Prize: A year's subscription of Campus Diaries The Magazine<br/>2nd Prize: 6 Months subscription of Campus Diaries The Magazine<br/>The winner and runner up also recieve cash prizes<br/><b>Power Ideas Award</b>: 2 selected entries/authors get 2 free passes each to TEDxGateway in Mumbai - the biggest TEDx in India - featuring the most powerful ideas and brains in business.<br/>\
-<b>Mega Prize</b> : What's more - Catapooolt and Campus Diaries will give you a chance to win Rs. One Lakh (yes!) to work on your problem and take it to reality if your product or solution really blows their mind. <br/>"}
+<b>Mega Prize</b> : What's more - Catapooolt and Campus Diaries will give you a chance to win Rs. One Lakh (yes!) to work on your problem and take it to reality if your product or solution really blows their mind. <br/>","Details":"<b>Date</b><br/>27th october<br/><b>Time</b><br/>11:00AM - 1:30PM"}
 }
 Mock_Stock={
 "Mockstock":{"image":"/Icons_Final/mockstock.jpg","contact":"Shashank Ajmera<br/>08867838479","Description":"Mockstock is an online share trading event. The game is simple; you will be given an initial capital to start off with, and you have to invest in the stocks, listed in the app, and make profits. The one with the maximum profit at the end of the event wins. <b>The event runs on live feed, from the American stock markets (Dow Jones)</b>. The winner gets attractive prizes.<p><b>Click here to go to event page:</b> <a href='http://mockstock.meteor.com' target='_blank' />mockstock.meteor.com</a></p>", "Details":"\
@@ -599,13 +599,10 @@ Meta={
 
 # # doesnt come in events page
 TechSpeakEvent={
-"Tech_Speak":{"image": "/Icons_Final/Techspeak.jpg","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"<b>Dr VijayRaghavan (Padma Shri)</b><br/>\
- Venue: ATB seminar hall<br/>\
- Time:15.30 - 17.30<br/><br/>\
-<b>Dr. Banibrata Mukhopadhyay (Astro Talk)</b><br/>\
-Venue: ATB seminar hall<br/>\
-Time:afternoon<br/><br/>\
-More to be announced soon"}
+"Tech_Speak":{"image": "/Icons_Final/Techspeak.jpg","contact": "Aashish Mane - +91 9945049097","Description":"TechSpeak is a series of a video conferences with eminent personalities who are working at the frontier of what possible with technology. In the past we have managed to interact with individuals like John C. Mather, who won the Nobel Prize in Physics for his work on <a href='http://en.wikipedia.org/wiki/Cosmic_Background_Explorer'>http://en.wikipedia.org/wiki/Cosmic_Background_Explorer</a>, Bjarne Stroustrup who was the creator C,C++, Sam Pitroda who has been the advisor to the Prime Minister of India on public information infrastructure.<br/>This year the aim of TechSpeak is to showcase speakers who can give viewers a precious insight into what the world needs from engineers and what engineers can do for the world. <br/>\"I think I would say that the universe has a purpose, it's not somehow just there by chance ... some people, I think, take the view that the universe is just there and it runs along – it's a bit like it just sort of computes, and we happen somehow by accident to find ourselves in this thing. But I don't think that's a very fruitful or helpful way of looking at the universe, I think that there is something much deeper about it.\" - Roger Penrose","Schedule":"\
+ <b> Banibrata Mukopadhyay</b><br/><img src='static/bbmukhopadhyay.jpg'><br/> - Associate Professor of Astrophysics at IISC, Bangalore. He calculated the mass limit to which white dwarf stars can reach, before they collapse into neutron stars or black holes. Refuting previously believed limit that was proposed by Chandrasekhar. (Oct. 26th 4.30pm - 6.00pm)<br/>\
+2. <b>Max Little </b><br/><img src='static/Max-Little.jpg'><br/>- Wellcome Trust/MIT Fellow and TED Fellow. Mathematician with a background in applied mathematics, statistics, signal processing and computational engineering. Research work has been applied to problems in biomedicine (such as monitoring of Parkinson's disease and voice pathologies), extreme rainfall analysis and forecasting, biophysical signal processing, and hydrogeomorphology and open channel flow measurement. (Oct. 25th 7.30pm - 8.30pm)<br/>\
+3. <b>K. VijayRaghavan</b><br/><img src='static/vijay-raghavan-new.jpg'><br/> - Director of The National Centre for Biological Sciences. He is the recipient of the Infosys Prize in the life sciences (2009) and was conferred the honour of the Padma Shri in 2013. His fields of specialization are Developmental Biology, Genetics and Neurogenetics. His research primarily focuses on the important principles and mechanisms that control nervous systems and muscles during development. (Oct. 27th 3.30pm - 4.30pm)"}
 }
 
 Biz={
@@ -834,8 +831,8 @@ Bot should have a mechanism to show the traced path.",
 <li>Judges' decision will be final and binding in all cases.</li>\
 ","samplearena":"<img src=\"./data/trail.png\" />","Arena":"• The arena comprises of black path on a white background.<br/>\
 • All turnings are 90 degree. <br/>\
-• A black circle of radius 7.5 cm, indicated the end of the path. <br/>\
-• Black line has a uniform thickness of 3cm.<br/>\
+• A black circle of radius 15 cm, indicated the end of the path. <br/>\
+• Black line has a uniform thickness of 5cm.<br/>\
 • Dimensions: The arena will be of dimensions no more than 210cm X 190 cm"},
 
 "Automata":{"image": "/Icons_Final/AUTOMATA_NEW.jpg","contact": "Nanda Kumar(9945248355) <br/> nanda9045@gmail.com","Arena": "<img src='./data/automata.png' />" ,"Description": "Robotics has advanced in ways that we had never imagined.<br/>This attitude of innovation is what inspires ‘AUTOMATA’, the flagship event of ENGINEER.<br/> AUTOMATA is back, to taunt you with a challenging problem statement. Get ready to be surprised this year with a twist that you would never have thought of.<br/> \
@@ -1323,8 +1320,57 @@ profitable path for the company.</span>\
 
 Sce={
 
-"The_Last_Word":{"image": "/Icons_Final/lastword.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Description: The final event to take place during Engineer, The Last Word is an engaging panel discussion that calls upon eminent personalities to explore a pressing issue which society faces today.<br/>\
-Panel to consist of seven members, including one moderator"},
+"The_Last_Word":{"image": "/Icons_Final/lastword.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "Description:<b>Identity crisis</b>: What does being an Indian mean today?<br/>\
+Early in August, the UPA government gave the green light for the creation of the state of Telengana.<br/>\
+The move fanned the flames for other groups to demand their right to statehood. Languages and\
+religions have always been an obstacle for Indians to feel complete unity with one another, and\
+without a sense of nationhood, it is difficult for a country to progress. <br/>How can we define being an\
+&ldquo;Indian&rdquo; and what does it really mean to be an &ldquo;Indian&rdquo;? Our panelists come from a wide variety of\
+backgrounds and fields, and we look forward to hearing their thoughts and opinions on this issue.","Mr Aditya Singh":"Aditya Singh is the Chairman and Managing Director of Alexis Group.<br/> Recently, he joined Teach\
+for India as a Fellow to eliminate education inequity in India.<br/> He earned his Bachelor of Commerce\
+(Honours) majoring in Finance and Marketing from University of Delhi and currently pursuing\
+Professional Programme from The Institute of Company Secretaries of India.<br/>\
+He has represented India at various International events including prestigious International Youth\
+Forum Seliger organised by Federal Agency on Youth Affairs, Russian Federation. <br/>He attended the\
+Global Business Studies Programme at School of Oriental and African Studies, University of\
+London.<br/>\
+Aditya was selected as a Hesselbein Fellow by the University of Pittsburgh, USA in recognition of\
+his exemplary leadership and civic engagement skills. <br/>He was also selected as a Prerna Fellow by\
+Indian Institute of Management Lucknow in recognition of his exemplary leadership and\
+entrepreneurial skills","Ms Rama Iyer":"Rama R. Iyer, a partner in the law firm Legal Solutions, Bangalore, has more than two decades of\
+practice in the Bar. <br/>She did her B.A. (Law) LLB from Bangalore University Law College and\
+Masters from the National Law School of India University in which she topped her batch.<br/>\
+She has appeared before the Supreme Court, different High courts, Statutory Bodies and other\
+subordinate courts.<br/> Her areas of practice include inter alia Intellectual Property Rights, Corporate\
+law, Commercial Transactions and ADR. <br/>She has, of late started concentrating in the area of Gender\
+Justice.<br/>\
+Currently she regularly trains on women's and children's issues and rights in various training\
+programmes conducted by National Institute of Public Co-operation and Child Development,\
+Ministry of Women and Child Development, Government of India","Ms Kanan Dhru":"Kanan Dhru is the Founder of Research Foundation for Governance in India, a thinktank working\
+towards legal and political reforms. <br/>She is a law-graduate from the London School of Economics,\
+where she was awarded the &lsquo;Honorary Studentship&rsquo;. <br/>She has worked with the National Knowledge\
+Commission - a Prime Minister's Advisory Body in New Delhi and the World Health Organisation\
+in Geneva. <br/>She has been an External Consultant with McKinsey &amp; Company and a Visiting Scholar\
+at the Stanford University. <br/>She has been awarded many prestigious awards including the St. Gallen\
+Wings of Excellence Prize, Wyse Emerging Leaders&rsquo;Fellowship and the Fulbright-Nehru\
+Fellowship. <br/>She is a Global Shaper at the World Economic Forum's Ahmedabad Hub and is one of\
+the 37 'Indians of Tomorrow' featured by India Today in 2012. <br/>She is a columnist with several well-\
+known newspapers and magazines","Dr Sundar Sarukkai":"Dr. Sundar Sarukkai is the Director of the Manipal Centre for Philosophy and Humanities at\
+Manipal University. <br/>Dr. Sundar Sarukkai, trained in physics and philosophy, has a PhD from Purdue\
+University, USA. <br/>His research interests are in the areas of philosophy of science, philosophy of\
+mathematics, postmodernism, phenomenology and philosophy of art, drawing upon both Western\
+and Indian traditions. <br/>He has been a Homi Bhabha Fellow (1997-1999), Fellow of the Indian\
+Institute of Advanced Studies (1999-2001), Associate Fellow of the Project of History of Indian\
+Science, Philosophy and Culture (2003-2004), and Fellow at the National Institute of Advanced\
+Studies, Bangalore, India (2000-2006). <br/>He published Translating the World: Science and Language\
+(2002), Philosophy of Symmetry (2004) and Indian Philosophy and Philosophy of Science (2005)","Mr. Pawan Kumar":"Mr. Pawan Kumar is a film director, actor and screenwriter in the Kannada film industry. <br/>He is well\
+known for the films Manasaare, Pancharangi, his directorial debut Lifeu Ishtene, and the latest\
+psychological thriller Lucia, which recently won the audience award at the London Indian Film\
+Festival. <br/>He started his work in theatre arts in 1998, and has worked as an Artistic Director and\
+Producer. <br/>He has produced more than 70 public shows and won numerous awards and recognitions\
+in theatre and films","Ms Nivedita Mirajkar":"Nivedita Mijakar is currently the head of business development at Magnum Infergrafiks Pvt. Ltd.<br/>\
+She was previously the HOD of the MBA program at the Srinivas Institute of Business Studies and\
+is the President of Toastmasters Mangalore"},
 
 "Sparsh":{"image": "/Icons_Final/saprsh.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
 "Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br/>\
@@ -1840,12 +1886,12 @@ $newHash={
 	"Case_Study_challenge":{"id":"13","team_members":"1"},
 	"Data_Analysis_Challange":{"id":"14","team_members":"1"},
 	"Simplicity":{"id":"15","team_members":"1"},
-	"Waltz":{"id":"16","team_members":"2"},
-	"Trade_OFF":{"id":"17","team_members":"1"},
+	"Waltz":{"id":"16","team_members":"4"},
+	"Trade_OFF":{"id":"17","team_members":"3"},
 	"Symphony":{"id":"18","team_members":"3"},
 	"TrailBlazer":{"id":"19","team_members":"4"},
 	"Automata":{"id":"20","team_members":"4"},
-	"FoxHunt":{"id":"21","team_members":"1"},
+	"FoxHunt":{"id":"21","team_members":"4"},
 	"Fifa":{"id":"22","team_members":"1"},	
 	"Aoe":{"id":"23","team_members":"2"},
 	"NFS":{"id":"24","team_members":"1"},
