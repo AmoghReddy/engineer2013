@@ -606,7 +606,7 @@ TechSpeakEvent={
 }
 
 Biz={
-"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.jpg","contact": "Neetesh Hegde <br/> 9483647944","Description": "This event will deal with solving case studies of corporate companies. The participants are going to be provided with a problem statement from Intuit. Three case studies are provided. Participants can choose any one of these case studies. Register your team (Team of three) at ENGINEER website and send your entries in the form of pdf as an abstract in 500 words to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.<br/>\
+"Case_Study_challenge":{"image": "/Icons_Final/casestudychallenge.jpg","contact": "Neetesh Hegde <br/> 9483647944 <br/>Sowmya Shridhar<br/> 9880621276 ","Description": "This event will deal with solving case studies of corporate companies. The participants are going to be provided with a problem statement from Intuit. Three case studies are provided. Participants can choose any one of these case studies. Register your team (Team of three) at ENGINEER website and send your entries in the form of pdf as an abstract in 500 words to bizevents@enginner.org.in with subject as the name of the competition before 23rd October 2013 11:59pm.<br/>\
 <br/>\
  Participants will have to present their solutions in the form of B-Plan presentation. The solution that fits the most with the company would be selected and the team would be provided with a cash prize.","Introduction":"The <b>Intuit Case Study Challenge</b> provides the participants an opportunity to solve real world problems faced by businesses in various fields. The participants are provided with 3 case studies, out of which they can choose to present either one of the case studies. The competition is divided into 2 rounds:<br/>\
  1st Round: Registration and submission of preliminary presentations <br/>\
@@ -661,7 +661,7 @@ employees don't have much work. Solve for me. <br/>\
 – Business Model <br/>\
 &nbsp;&nbsp;• USP (Unique Selling Proposition) of this solution<br/>\
 &nbsp;&nbsp;• What is ROI of this model?<br/>\
-<br/>","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>"},
+<br/>","Register":"<a href='https://docs.google.com/forms/d/1JUiYpRmwF1naZW03xstHwJ_cR8iKZUx3JJdk9BrlA1M/viewform#start=openform' target='_blank'>Click here to register</a>","Banner":"<a href='./data/case_study.pdf'>View as PDF</a>"},
 
 "Product_Design_Challenge":{"image": "/Icons_Final/Green_Innovation_Challenge.jpg","contact": "Neetesh Hegde <br/> 9483647944","Description": "The competition aims to test how one can optimize a design and create a sustainable design to provide the best solution to a real world problem. <br/>The participants will be given a problem statement with the minimum requirements of a product. <br/>The aim is to optimise the design and develop the best blue print for the problem.<br/> The design would be judged by the company providing the problem statement, and will be accepting the best design to develop a final product.<br/>\
 <b>Problem Statement Requirements:</b> Socially Conscious and Economical<br/>"},

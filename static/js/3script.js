@@ -597,7 +597,7 @@ function getPage(pageName, tabName)
 	//console.log(pageName);
 	if(currentPage != undefined)
 	{
-		currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
+		//currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:1;");
 		if (currentPage.name =="homePage")
 			removeUpdates();
 	}
@@ -661,7 +661,7 @@ function getPage(pageName, tabName)
 
 	for(var x in allMessagges)
 		allMessagges[x].removeMessage();
-	currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:100;");
+	//currentPage.pageElement.setAttribute("style",currentPage.pageElement.getAttribute("style")+";z-index:100;");
 }
 
 function message(name, title, message, width)

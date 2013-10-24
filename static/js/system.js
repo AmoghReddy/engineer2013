@@ -239,22 +239,79 @@ function fillUpProfileEvents(eventList)
 	}
 }
 
+function setPopOvers()
+{
+	// $("#engi-logo").popover({
+	// 	"html":true,
+	// 	"content":"<b style = 'color : black'>Menu</b>",
+	// 	"title":"qwer",
+	// 	"placement":"auto",
+	// 	"trigger":"hover"
+	// });
+	// $("#back").popover({
+	// 	"html":true,
+	// 	"content":"<b style = 'color : black'>Previous Page</b>",
+	// 	"title":"qwer",
+	// 	"placement":"left",
+	// 	"trigger":"hover"
+	// });
+	// $("#scrollup").popover({
+	// 	"html":true,
+	// 	"content":"<b style = 'color : black'>Scroll with mouse or these</b>",
+	// 	"title":"qwer",
+	// 	"placement":"left",
+	// 	"trigger":"hover"
+	// });
+	// console.log($("#engilogo"));
+	// $("#engi-logo").popover('show');
+	// $("#back").popover('show');
+	// $("#scrollup").popover('show');
+	$("#engi-logo").tooltip({
+		//"html":true,
+		"title":"Click here for the menu",
+		"placement":"bottom",
+		"trigger":"hover"
+	});
+	$("#back").tooltip({
+		"title":"Previous Page",
+		"placement":"left",
+		"trigger":"hover"
+	});
+	$("#scrollup").tooltip({
+		"title":"Scroll with mouse or these",
+		"placement":"left",
+		"trigger":"hover"
+	});
+	$("#engi-logo").tooltip('show');
+	$("#back").tooltip('show');
+	$("#scrollup").tooltip('show');
+	new TWEEN.Tween( this )
+		.to( {}, 5000 )
+		.onComplete( function() { 
+			$("#engi-logo").tooltip('hide');
+			$("#back").tooltip('hide');
+			$("#scrollup").tooltip('hide');
+		} )
+		.start();
+}
+
 function system()
 {
 	$(".loading").hide();
 	// in 3script.js
-	$(".logo").click(function(){getPage("homePage");});
+	//$(".logo").click(function(){getPage("homePage");});
 	$(".close").click();
 	$(".quickNav button").hide(0);
 	$(".quickNav div").hover(function(){ quickNavToggle(false); },function(){ quickNavToggle(true); });
 	$(".dropdown input").click(function(e){e.stopPropagation();});
 	//container = document.getElementById("container");
 	//makeSomeBlocks(); //Do not call this (not needed any more)
+	
 	start();
 	keybind();
 	router();
 	searchRouter();
-	
+	setPopOvers();
 }
 window.onbeforeunload=function(){ 
 	// return 'jwoiah';
