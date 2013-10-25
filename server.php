@@ -10,7 +10,7 @@ switch($_GET['action']){
 	case "team_register":team_register();break;
 	case "view_teams":view_teams();break;
 	case "get_updates":get_updates();break;
-	case "submit_score":submit_score();break;
+	//case "submit_score":submit_score();break;
 }
 function isLogin(){
 	if(isset($_SESSION) && isset($_SESSION['first_name']) && isset($_SESSION['last_name']) && isset($_SESSION['email']))
@@ -265,7 +265,7 @@ function team_register(){
 					// TODO add extra message and send success
 					$status=register_event_student($student_id,$team_id);
 				}
-				error_log("Asfasdfads".$data["team_id"]);
+				//error_log("Asfasdfads".$data["team_id"]);
 				if($data["team_id"]=="-1"){
 					$student_id=getStudentId();
 					error_log("update engi_registrations set team_id=$team_id where student_id=$student_id and event_id=$event_id");
@@ -322,21 +322,21 @@ function get_updates(){
 	}
 	echo json_encode($data);
 }
-function submit_score(){
-	require("connect.php");
-	$student_id=getStudentId();
-	//get old score
-	$query=mysqli_query($connect,"select * from blaze_sprint where user_id=".$student_id);
-	$old_meter=0;
-	while($row=mysqli_fetch_array($query)){
-		$old_meter=$row['meter'];
-	}
-	$new_meter=mysqli_real_escape_string($connect,$_GET['meter']);
-	if($new_meter>$old_meter){
-		$query=mysqli_query($connect,"delete from blaze_sprint where user_id=".$student_id);
-		$query=mysqli_query($connect,"insert into blaze_sprint values(".$student_id.","$new_meter")");
-	}
-}
+// function submit_score(){
+// 	require("connect.php");
+// 	$student_id=getStudentId();
+// 	//get old score
+// 	$query=mysqli_query($connect,"select * from blaze_sprint where user_id=".$student_id);
+// 	$old_meter=0;
+// 	while($row=mysqli_fetch_array($query)){
+// 		$old_meter=$row['meter'];
+// 	}
+// 	$new_meter=mysqli_real_escape_string($connect,$_GET['meter']);
+// 	if($new_meter>$old_meter){
+// 		$query=mysqli_query($connect,"delete from blaze_sprint where user_id=".$student_id);
+// 		$query=mysqli_query($connect,"insert into blaze_sprint values(".$student_id.","$new_meter")");
+// 	}
+// }
 
 function email_valid($temp_email) { 
 ######## Three functions to HELP ######## 
