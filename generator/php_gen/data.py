@@ -520,7 +520,7 @@ Spread over all of Engineer, we give you the opportunity to make up for one bad 
 &nbsp; of the participants are put to test. Using search engines, the participants need to figure out the clues\
 &nbsp; which will take them all around the World Wide Web in order to get to the next more intriguing\
 &nbsp; level. This is a quest for the elusive treasure buried beneath billions of web pages.<br/>\
-<b>Individual event</b>"}
+<b>Individual event</b><br> <a href='http://virtualbounty.engineer.org.in'>virtualbounty.engineer.org.in</a>"}
 
 }
 Astro={
