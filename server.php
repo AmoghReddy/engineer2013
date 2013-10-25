@@ -324,10 +324,11 @@ function get_updates(){
 }
 function submit_score(){
 	require("connect.php");
-	session_id($_GET['sid']);
-	session_start();
-	$student_id=getStudentId();
+	//session_id($_GET['sid']);
+	//session_start();
+	//$student_id=getStudentId();
 	//get old score
+	$student_id=19;
 	$query=mysqli_query($connect,"select * from blaze_sprint where user_id=".$student_id);
 	$old_meter=0;
 	while($row=mysqli_fetch_array($query)){
