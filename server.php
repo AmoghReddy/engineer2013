@@ -10,6 +10,7 @@ switch($_GET['action']){
 	case "team_register":team_register();break;
 	case "view_teams":view_teams();break;
 	case "get_updates":get_updates();break;
+	case "submit_score":submit_score();break;
 }
 function isLogin(){
 	if(isset($_SESSION) && isset($_SESSION['first_name']) && isset($_SESSION['last_name']) && isset($_SESSION['email']))
@@ -320,6 +321,21 @@ function get_updates(){
 		array_push($data, array("title"=>$row['name'],"message"=>$row["message"]));
 	}
 	echo json_encode($data);
+}
+function submit_score(){
+	require("connect.php");
+	$student_id=getStudentId();
+	//get old score
+	$query=mysqli_query($connect,"select * from blaze_sprint where user_id=".$student_id);
+	$old_meter=0;
+	while($row=mysqli_fetch_array($query)){
+		$old_meter=$row['meter'];
+	}
+	$new_meter=mysqli_real_escape_string($connect,$_GET['meter']);
+	if($new_meter>$old_meter){
+		$query=mysqli_query($connect,"delete from blaze_sprint where user_id=".$student_id);
+		$query=mysqli_query($connect,"insert into blaze_sprint values(".$student_id.","$new_meter")");
+	}
 }
 
 function email_valid($temp_email) { 
