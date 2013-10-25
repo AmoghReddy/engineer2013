@@ -1370,7 +1370,11 @@ Festival. <br/>He started his work in theatre arts in 1998, and has worked as an
 Producer. <br/>He has produced more than 70 public shows and won numerous awards and recognitions\
 in theatre and films","Ms Nivedita Mirajkar":"Nivedita Mijakar is currently the head of business development at Magnum Infergrafiks Pvt. Ltd.<br/>\
 She was previously the HOD of the MBA program at the Srinivas Institute of Business Studies and\
-is the President of Toastmasters Mangalore"},
+is the President of Toastmasters Mangalore","Google Impact Challenge":"\
+In August 2013, Google asked Indian NGOs what they would do if they won Rs 3 crore to make a better world, faster.<br/>\
+Thousands of applications were reviewed and ranked by Googlers from around the world to arrive at a \"top 10” list. On 21st October, they announced the ten finalists to the public, and until 30th October, they will collect votes from the public on which NGO should win. Whichever NGO gets the most amount of votes from the public will win a  3crore Global Impact Award.<br/><br/>\
+ If change is what you need, help those  working to bring it !!<br />\
+ <a href='https://impactchallenge.withgoogle.com/india2013#/gsadivyavenugopalan' target='_blank'>VOTE NOW</a>"},
 
 "Sparsh":{"image": "/Icons_Final/saprsh.jpg","contact": "Ashwin K S<br/> 9483523498","Description": "<b>Description:</b><br/>Sparsh calls upon teams to design and develop a solution to a problem faced by local communities.<br/>The participants are required to make a presentation putting forth their ideas and their proposals for the given problem statement. SPARSH stands out from the rest of the events in the sense that the team SPARSH will continue to be a part of the project and the implementation of the solutions even after Engineer comes to an end and continue its technical support to the organization.<br/>This year, Sparsh will be organized in assosiation with Mangalore City Corporation and Rotary Club.",
 "Introduction":"An estimated 2.5 billion people in developing countries rely on biomass, such as fuel wood, charcoal, agricultural waste and animal dung, to meet their energy needs for cooking. It is expected that one-third of the world&rsquo;s population still relies on these fuels till 2030.<br/>\
