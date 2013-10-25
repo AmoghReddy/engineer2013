@@ -1928,7 +1928,7 @@ $newHash={
 	"Green_Inovation_Challenge":{"id":"51","team_members":"1"},
 	"Sparsh":{"id":"52","team_members":"3"},
 	"The_Last_Word":{"id":"53","team_members":"1"},
-	"Inscription":{"id":"54","team_members":"3"},
+	"Inscription":{"id":"54","team_members":"1"},
 	"ECTF_-_Capture_the_Flag":{"id":"55","team_members":"3"},
 	"Virtual_Bounty":{"id":"56","team_members":"1"},
 	"Kode_Kombat":{"id":"57","team_members":"2"},
