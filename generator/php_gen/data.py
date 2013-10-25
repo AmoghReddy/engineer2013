@@ -489,7 +489,7 @@ Technites={
 
 Comps={
 "Inscription":{"image": "/Icons_Final/INSCRIPTION.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Inscription is the international online programming contest of Engineer.<br/>The contest will consist of a set of challenging problems to which solutions need to be submitted which adhere to time constraints. Programming, debugging and fine-tuning skills are tested to the very hilt.<br/>\
-<b>Teams of 3.</b>"},
+<b>NOTE: The contest is now individual event and will be hosted on codechefs</b>"},
 
 "Kode_Kombat":{"image": "/Icons_Final/CODE_KOMBAT.jpg","contact": "Syed Rahi(9880016036) <br/>srsyedrahi@gmail.com","Description": "Kode Kombat is an Artificial Intelligence programming contest. It is an online event. Each player programs their virtual bots to play a certain game. Bots programmed by different players have a face-off in a quest to be the ''smartest'' bot!!<br/>\
 <b>Teams of 2.</b>"},
