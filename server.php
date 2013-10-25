@@ -328,6 +328,7 @@ function submit_score(){
 	//session_start();
 	//$student_id=getStudentId();
 	//get old score
+	error_log("fbfbfbdfbdf");
 	$student_id=19;
 	$query=mysqli_query($connect,"select * from blaze_sprint where user_id=".$student_id);
 	$old_meter=0;
